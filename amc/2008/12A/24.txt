@@ -1,0 +1,248 @@
+<p><a href="/wiki/index.php/Triangle" title="Triangle">Triangle</a> <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> has <img src="//latex.artofproblemsolving.com/8/f/2/8f2d7232554ee892487761ea219eb5eefbcfd4a1.png" class="latex" alt="$\angle C = 60^{\circ}$" width="75" height="13" /> and <img src="//latex.artofproblemsolving.com/c/9/5/c95c180b12878c1f359607e0af47b48fcf4950d0.png" class="latex" alt="$BC = 4$" style="vertical-align: 0px" width="62" height="13" />.  Point <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is the <a href="/wiki/index.php/Midpoint" title="Midpoint">midpoint</a> of <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />.  What is the largest possible value of <img src="//latex.artofproblemsolving.com/5/4/a/54a35df05bc75683a9a61066cb7291c841b1f41a.png" class="latex" alt="$\tan{\angle BAD}$" width="85" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/2/8/4/2842015b8edd6b7692bd70b91b9959f04cf58ecd.png" class="latex" alt="$\mathrm{(A)}\ \frac{\sqrt{3}}{6}\qquad\mathrm{(B)}\ \frac{\sqrt{3}}{3}\qquad\mathrm{(C)}\ \frac{\sqrt{3}}{2\sqrt{2}}\qquad\mathrm{(D)}\ \frac{\sqrt{3}}{4\sqrt{2}-3}\qquad\mathrm{(E)}\ 1$" style="vertical-align: -17px" width="467" height="45" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/d/d/b/ddb951a2e48a00e182fdf063f5d6ab5622700c10.png" class="latexcenter" alt="[asy]unitsize(12mm); pair C=(0,0), B=(4 * dir(60)), A = (8,0), D=(2 * dir(60)); pair E=(1,0), F=(2,0); draw(C--B--A--C); draw(A--D);draw(D--E);draw(B--F); dot(A);dot(B);dot(C);dot(D);dot(E);dot(F); label(&quot;\(C\)&quot;,C,SW); label(&quot;\(B\)&quot;,B,N); label(&quot;\(A\)&quot;,A,SE); label(&quot;\(D\)&quot;,D,NW); label(&quot;\(E\)&quot;,E,S); label(&quot;\(F\)&quot;,F,S); label(&quot;\(60^\circ\)&quot;,C+(.1,.1),ENE); label(&quot;\(2\)&quot;,1*dir(60),NW); label(&quot;\(2\)&quot;,3*dir(60),NW); label(&quot;\(\theta\)&quot;,(7,.4)); label(&quot;\(1\)&quot;,(.5,0),S); label(&quot;\(1\)&quot;,(1.5,0),S); label(&quot;\(x-2\)&quot;,(5,0),S);[/asy]" width="498" height="242" />
+</p><p>Let <img src="//latex.artofproblemsolving.com/4/4/e/44e17d8c676d1b564fe0d53d521e22086465df29.png" class="latex" alt="$x = CA$" width="62" height="13" />. Then <img src="//latex.artofproblemsolving.com/1/5/d/15d9c68fae5f74461c5450b47213f6668dd63031.png" class="latex" alt="$\tan\theta = \tan(\angle BAF - \angle DAE)$" style="vertical-align: -4px" width="235" height="18" />, and since <img src="//latex.artofproblemsolving.com/9/9/7/99771cca71358e003caf5735afe40ea33eb3fea4.png" class="latex" alt="$\tan\angle BAF = \frac{2\sqrt{3}}{x-2}$" style="vertical-align: -12px" width="153" height="41" /> and <img src="//latex.artofproblemsolving.com/7/0/d/70dcfdbca20209f1bfb4868dff2ae5dcefb6ce7f.png" class="latex" alt="$\tan\angle DAE = \frac{\sqrt{3}}{x-1}$" style="vertical-align: -13px" width="154" height="41" />, we have
+</p><p><img src="//latex.artofproblemsolving.com/0/e/7/0e7e40fad497d77cfc1c1273257c72565ec82619.png" class="latexcenter" alt="\[\tan\theta = \frac{\frac{2\sqrt{3}}{x-2} - \frac{\sqrt{3}}{x-1}}{1 + \frac{2\sqrt{3}}{x-2}\cdot\frac{\sqrt{3}}{x-1}}= \frac{x\sqrt{3}}{x^2-3x+8}\]" width="285" height="54" />
+</p><p>With calculus, taking the <a href="/wiki/index.php/Derivative" title="Derivative">derivative</a> and setting equal to zero will give the maximum value of <img src="//latex.artofproblemsolving.com/5/6/7/567744e2ef4f7e63710dfcaa23fb8f836c352a9d.png" class="latex" alt="$\tan \theta$" width="38" height="13" />. Otherwise, we can apply <a href="/wiki/index.php/AM-GM" class="mw-redirect" title="AM-GM">AM-GM</a>:
+</p><p><img src="//latex.artofproblemsolving.com/6/7/0/670903a99d3d8effc4d39e818c372527fac93cb5.png" class="latexcenter" alt="\begin{align*} \frac{x^2 - 3x + 8}{x} = \left(x + \frac{8}{x}\right) -3 &amp;\geq 2\sqrt{x \cdot \frac 8x} - 3 = 4\sqrt{2} - 3\\ \frac{x}{x^2 - 3x + 8} &amp;\leq \frac{1}{4\sqrt{2}-3}\\ \frac{x\sqrt{3}}{x^2 - 3x + 8} = \tan \theta &amp;\leq \frac{\sqrt{3}}{4\sqrt{2}-3}\end{align*}" width="430" height="145" />
+</p><p>Thus, the maximum is at  
+<img src="//latex.artofproblemsolving.com/1/9/5/195fe7c81dec521eb1d5e3e6fb76e90da186b62c.png" class="latex" alt="$\frac{\sqrt{3}}{4\sqrt{2}-3} \Rightarrow \mathbf{(D)}$" style="vertical-align: -17px" width="125" height="45" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We notice that <img src="//latex.artofproblemsolving.com/d/8/2/d82825425db1307377b60edb9fde02896e0b02d7.png" class="latex" alt="$\tan(x)$" style="vertical-align: -4px" width="49" height="18" /> is strictly increasing on the interval <img src="//latex.artofproblemsolving.com/a/4/6/a465bcb8f871e3cdcbd1f9d5bc4d377942fc9b83.png" class="latex" alt="$[0, \frac{\pi}{2})$" style="vertical-align: -12px" width="42" height="33" /> (if <img src="//latex.artofproblemsolving.com/4/d/2/4d25f109f2648113e2eba5818b40f72e35b62bff.png" class="latex" alt="$\angle BAD\ge 90^\circ$" style="vertical-align: -2px" width="105" height="15" />, then it is impossible for <img src="//latex.artofproblemsolving.com/3/7/3/3735b2683d9ec9e8549168e30e092151963880a9.png" class="latex" alt="$\angle C=60^\circ$" width="75" height="13" />), so we want to maximize <img src="//latex.artofproblemsolving.com/c/b/5/cb55dc9c50a80e1d9eb23fe53e45f464c0ac755e.png" class="latex" alt="$\angle BAD$" width="56" height="13" />. 
+</p><p>Consider the circumcircle of <img src="//latex.artofproblemsolving.com/7/e/5/7e538978649c14e1616fac744e983b5981d0ea8e.png" class="latex" alt="$BAD$" width="43" height="13" /> and let it meet <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> again at <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />. Any point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> between <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> on line <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> is inside this circle, so it follows that <img src="//latex.artofproblemsolving.com/e/7/5/e75d7552727f6a0338960fd87c129fa8872917a9.png" class="latex" alt="$\angle BPD&gt;\angle BAD$" style="vertical-align: 0px" width="137" height="13" />. Therefore to maximize <img src="//latex.artofproblemsolving.com/c/b/5/cb55dc9c50a80e1d9eb23fe53e45f464c0ac755e.png" class="latex" alt="$\angle BAD$" width="56" height="13" />, the circumcircle of <img src="//latex.artofproblemsolving.com/7/e/5/7e538978649c14e1616fac744e983b5981d0ea8e.png" class="latex" alt="$BAD$" width="43" height="13" /> must be tangent to <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> at <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. By PoP we find that <img src="//latex.artofproblemsolving.com/5/d/2/5d2c1e12ecd4ebb792328523e9495d3c9766e366.png" class="latex" alt="$CA^2=CD\cdot CB \Rightarrow AC = 2\sqrt{2}$" style="vertical-align: -1px" width="246" height="18" />.
+</p><p>Now our computations are straightforward:
+<img src="//latex.artofproblemsolving.com/d/c/f/dcff624a0cc256fad91f496abb71bf1423cdbe39.png" class="latexcenter" alt="\[\tan\angle BAD = \frac{\sin \angle BAD}{\cos \angle BAD} = \frac{\frac{2\sin\angle ABD}{AD}}{\frac{AB^2+AD^2-BD^2}{2AB\cdot AD}}\]" width="332" height="49" />
+<img src="//latex.artofproblemsolving.com/d/a/9/da9e6eee652ee13abafd44c2c7a45fd765377a70.png" class="latexcenter" alt="\[=\frac{4\sin \angle ABD\cdot AB}{AB^2+AD^2-4} = \frac{4 AC \sin \angle ACB}{AB^2 + AD^2 - 4}\]" width="310" height="39" />
+<img src="//latex.artofproblemsolving.com/f/f/d/ffd86fe9e02826f6e7fbc70a053486f19f91b67b.png" class="latexcenter" alt="\[=\frac{4\sqrt{6}}{(4^2+(2\sqrt{2})^2-4\cdot 2\sqrt{2}) + (2^2+(2\sqrt{2})^2 - 2\cdot 2\sqrt{2}) - 4} = \frac{4\sqrt{6}}{32-12\sqrt{2}}\]" width="556" height="47" />
+<img src="//latex.artofproblemsolving.com/3/8/f/38ff92185ce27b5ff61a940cf18d9d32283cd288.png" class="latexcenter" alt="\[=\boxed{\frac{\sqrt{3}}{4\sqrt{2}-3}}\]" width="98" height="57" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2008_AMC_12A" title="2008 AMC 12A">2008 AMC 12A</a></b> (<b><a href="/wiki/index.php/2008_AMC_12A_Problems" title="2008 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2008_AMC_12A_Answer_Key" title="2008 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_23" title="2008 AMC 12A Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_25" title="2008 AMC 12A Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_1" title="2008 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_2" title="2008 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_3" title="2008 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_4" title="2008 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_5" title="2008 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_6" title="2008 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_7" title="2008 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_8" title="2008 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_9" title="2008 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_10" title="2008 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_11" title="2008 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_12" title="2008 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_13" title="2008 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_14" title="2008 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_15" title="2008 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_16" title="2008 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_17" title="2008 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_18" title="2008 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_19" title="2008 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_20" title="2008 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_21" title="2008 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_22" title="2008 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_23" title="2008 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_25" title="2008 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208181654
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.084 seconds
+Real time usage: 0.087 seconds
+Preprocessor visited node count: 439/1000000
+Preprocessor generated node count: 1316/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7831/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.497      1 -total
+ 78.28%    5.869      1 Template:AMC12_box
+ 19.50%    1.462      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6492-0!canonical and timestamp 20230208181653 and revision id 94982
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_12A_Problems/Problem_24&amp;oldid=94982">https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_12A_Problems/Problem_24&amp;oldid=94982</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Geometry_Problems" title="Category:Intermediate Geometry Problems">Intermediate Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208233019 -->
+</html>

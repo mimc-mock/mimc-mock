@@ -1,0 +1,3 @@
+<p>Last year, Isabella took 7 math tests and received 7 different scores, each an integer between 91 and 100, inclusive. After each test she noticed that the average of her test scores was an integer. Her score on the seventh test was 95. What was her score on the sixth test?
+</p><p><img src="//latex.artofproblemsolving.com/b/9/6/b968b4ecef089acdaaa41d7c83fc20a06907ff06.png" class="latex" alt="$\textbf{(A)}\ 92\qquad\textbf{(B)}\ 94\qquad\textbf{(C)}\ 96\qquad\textbf{(D)}\ 98\qquad\textbf{(E)}\ 100$" style="vertical-align: -4px" width="403" height="17" />
+</p>

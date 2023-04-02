@@ -1,0 +1,12 @@
+<p>Tom has a collection of <img src="//latex.artofproblemsolving.com/0/3/0/030e19e4e2f1c074127cb50581e8496470c5419f.png" class="latex" alt="$13$" style="vertical-align: 0px" width="17" height="13" /> snakes, <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> of which are purple and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> of which are happy. He observes that
+</p>
+<ul><li>all of his happy snakes can add,</li></ul>
+<ul><li>none of his purple snakes can subtract, and</li></ul>
+<ul><li>all of his snakes that can't subtract also can't add.</li></ul>
+<p>Which of these conclusions can be drawn about Tom's snakes?
+</p><p><img src="//latex.artofproblemsolving.com/e/8/7/e8738bbc91069d2db6a97b6ab9b1e13052ac4606.png" class="latex" alt="$\textbf{(A) }$" style="vertical-align: -4px" width="28" height="17" /> Purple snakes can add.
+</p><p><img src="//latex.artofproblemsolving.com/5/0/6/506e909041d36bd739c8c959d341fcfbba3e9ad7.png" class="latex" alt="$\textbf{(B) }$" style="vertical-align: -4px" width="27" height="17" /> Purple snakes are happy.
+</p><p><img src="//latex.artofproblemsolving.com/0/a/b/0ab3a9c13a5c376b1660f46d00b9007dbae240cb.png" class="latex" alt="$\textbf{(C) }$" style="vertical-align: -4px" width="27" height="17" /> Snakes that can add are purple.
+</p><p><img src="//latex.artofproblemsolving.com/3/7/8/3787f1b7ce783a57c3a0d02ca4d485ccc950ff0a.png" class="latex" alt="$\textbf{(D) }$" style="vertical-align: -4px" width="28" height="17" /> Happy snakes are not purple.
+</p><p><img src="//latex.artofproblemsolving.com/8/1/d/81d05263c2e18459105296c8e3e06c9fddddb735.png" class="latex" alt="$\textbf{(E) }$" style="vertical-align: -4px" width="26" height="17" /> Happy snakes can't subtract.
+</p>

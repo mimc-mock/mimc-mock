@@ -1,0 +1,271 @@
+<p>Every week Roger pays for a movie ticket and a soda out of his allowance. Last week, Roger's allowance was <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> dollars. The cost of his movie ticket was <img src="//latex.artofproblemsolving.com/1/1/8/1183a12017e48198b3352789cc39b223b17945d6.png" class="latex" alt="$20\%$" style="vertical-align: -1px" width="32" height="14" /> of the difference between <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and the cost of his soda, while the cost of his soda was <img src="//latex.artofproblemsolving.com/0/f/b/0fbf33b81900fa9e836a608be7484b4c4d6ea3ec.png" class="latex" alt="$5\%$" style="vertical-align: -1px" width="23" height="14" /> of the difference between <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and the cost of his movie ticket. To the nearest whole percent, what fraction of <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> did Roger pay for his movie ticket and soda?
+</p><p><img src="//latex.artofproblemsolving.com/5/d/e/5dea2c7ddd6eb1f8d96d33089ca47eea6366d985.png" class="latex" alt="$\mathrm{\textbf{(A)} \ }9\%\qquad \mathrm{\textbf{(B)} \ } 19\%\qquad \mathrm{\textbf{(C)} \ } 22\%\qquad \mathrm{\textbf{(D)} \ } 23\%\qquad \mathrm{\textbf{(E)} \ }25\%$" style="vertical-align: -4px" width="460" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> = cost of movie ticket<br />
+Let <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" />  = cost of soda
+</p><p>We can create two equations:
+</p><p><img src="//latex.artofproblemsolving.com/c/2/2/c225bfe998b71a7dfb2713ba8bcda44671f41eb3.png" class="latexcenter" alt="\[m = \frac{1}{5}(A - s)\]" width="109" height="37" />
+<img src="//latex.artofproblemsolving.com/7/5/d/75d93a0482e185d50835ef040cd4c9f05a47cd87.png" class="latexcenter" alt="\[s  = \frac{1}{20}(A - m)\]" width="119" height="37" />
+</p><p>Substituting we get: <br />
+</p><p><img src="//latex.artofproblemsolving.com/2/3/4/234f13fb1a857e5e12b6b63e8e0fd26606023db0.png" class="latexcenter" alt="\[m = \frac{1}{5}(A - \frac{1}{20}(A - m))\]" width="189" height="37" />
+which yields:<br />
+<img src="//latex.artofproblemsolving.com/c/b/f/cbfad79ad2eab599b87d92603ba7d070d7858a3d.png" class="latexcenter" alt="\[m = \frac{19}{99}A\]" width="75" height="37" />
+</p><p>Now we can find s and we get:<br />
+</p><p><img src="//latex.artofproblemsolving.com/a/2/1/a212bfb55c0fc18e3d650bd713be3bfe86181961.png" class="latexcenter" alt="\[s = \frac{4}{99}A\]" width="68" height="37" />
+</p><p>Since we want to find what fraction of <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> did Roger pay for his movie ticket and soda, we add <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> and <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> to get:
+</p><p><img src="//latex.artofproblemsolving.com/c/0/a/c0aef4fb2cf37753e4197badb9f069a4e2fbc5ba.png" class="latexcenter" alt="\[\frac{19}{99}A + \frac{4}{99}A \implies \boxed{\textbf{(D)}\ 23\%}\]" width="221" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We have two equations from the problem:
+<img src="//latex.artofproblemsolving.com/4/7/b/47bfa39a87c248bac1a1d1b59c2b2e757c8b9c6e.png" class="latex" alt="$5M=A-S$" width="101" height="13" /> and 
+<img src="//latex.artofproblemsolving.com/0/a/0/0a0c583e67f7a1c5610a9beff26cb5df814d67a8.png" class="latex" alt="$20S=A-M$" width="109" height="13" />
+If we replace <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> with <img src="//latex.artofproblemsolving.com/e/5/9/e59e2c6e83eb78cca610a5fd4070ae01c8d4ae60.png" class="latex" alt="$100$" style="vertical-align: 0px" width="26" height="13" /> we get a system of equations, and the sum of the values of <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> and <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is the percentage of <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />.
+Solving, we get <img src="//latex.artofproblemsolving.com/0/c/0/0c03e533cce5511813a29479961395e04ad05a5a.png" class="latex" alt="$S=\frac{400}{99}$" style="vertical-align: -12px" width="66" height="37" /> and <img src="//latex.artofproblemsolving.com/f/f/6/ff6f8f3034e152671736e6a583f0d81e38b4dab6.png" class="latex" alt="$M=\frac{1900}{99}$" style="vertical-align: -12px" width="82" height="37" />.
+Adding, we get <img src="//latex.artofproblemsolving.com/4/1/f/41fd1d9ca27a3fa46fc99fc898383503fd9c2586.png" class="latex" alt="$\frac{2300}{99}$" style="vertical-align: -12px" width="38" height="37" />, which is closest to <img src="//latex.artofproblemsolving.com/9/a/1/9a1b2497e7b125cd721bab4c6e2385f954fe35cb.png" class="latex" alt="$23$" width="17" height="12" /> which is <img src="//latex.artofproblemsolving.com/8/d/a/8daf487d58e02b7c0245375d4c9b48dca3a1be99.png" class="latex" alt="$\boxed{\textbf{(D)}\ 23\%}$" style="vertical-align: -11px" width="81" height="31" />.
+</p><p>-Harsha12345
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> be the price of a movie ticket and <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> be the price of a soda.
+</p><p>Then, 
+</p><p><img src="//latex.artofproblemsolving.com/9/6/4/964a45b626532717f5633050f16e733665ec70a4.png" class="latexcenter" alt="\[m=\frac{A-s}{5}\]" width="86" height="37" />
+and
+<img src="//latex.artofproblemsolving.com/7/7/6/7763a6ca0c2da3c9425cd4b61bd1d11d0a452a90.png" class="latexcenter" alt="\[s=\frac{A-m}{20}\]" width="86" height="37" />
+Then, we can turn this into
+<img src="//latex.artofproblemsolving.com/2/a/d/2ad5b10753ec9316381e0ec7034bc5b90050f5e0.png" class="latexcenter" alt="\[5m=A-s\]" width="93" height="13" />
+<img src="//latex.artofproblemsolving.com/d/9/7/d97d376c4e735e690fe46042f1d020e647bc8cca.png" class="latexcenter" alt="\[20s=A-m\]" width="102" height="13" />
+</p><p>Subtracting and getting rid of A, we have <img src="//latex.artofproblemsolving.com/c/3/5/c3525a8e4d115b3fc5697ef217b3bd5d4ae357f8.png" class="latex" alt="$20s-5m=-m+s \rightarrow 19s=4m$" style="vertical-align: -2px" width="265" height="15" />. Assume WLOG that <img src="//latex.artofproblemsolving.com/e/1/8/e18f0adcd75f4954ae25630f7714a0a3d1d2ba92.png" class="latex" alt="$s=4$" style="vertical-align: 0px" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/4/4/f/44f8f8d5e5a6438ff5a29a239933e0b5f433af3a.png" class="latex" alt="$m=19$" style="vertical-align: 0px" width="57" height="13" />, thus making a solution for this equation. Substituting this into the 1st equation, we get <img src="//latex.artofproblemsolving.com/7/a/4/7a45f818c2b0d1748a46888cfb47370480076876.png" class="latex" alt="$A=99$" style="vertical-align: -1px" width="58" height="14" />. Hence, <img src="//latex.artofproblemsolving.com/3/9/3/393cc7196091fba3ddec5cf9e2f654a73b270f66.png" class="latex" alt="$\frac{m+s}{A} = \frac{19+4}{99} \approx \boxed{\textbf{(D)}\ 23\%}$" style="vertical-align: -13px" width="234" height="38" />
+</p><p>~MrThinker
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/s4vnGlwwHHw">https://youtu.be/s4vnGlwwHHw</a>
+</p><p><a rel="nofollow" class="external free" href="https://youtu.be/zY726PV6XU8">https://youtu.be/zY726PV6XU8</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2017_AMC_10A" title="2017 AMC 10A">2017 AMC 10A</a></b> (<b><a href="/wiki/index.php/2017_AMC_10A_Problems" title="2017 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2017_AMC_10A_Answer_Key" title="2017 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_13" title="2017 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_15" title="2017 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_1" title="2017 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_2" title="2017 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_3" title="2017 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_4" title="2017 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_5" title="2017 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_6" title="2017 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_7" title="2017 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_8" title="2017 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_9" title="2017 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_10" title="2017 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_11" title="2017 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_12" title="2017 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_13" title="2017 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_15" title="2017 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_16" title="2017 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_17" title="2017 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_18" title="2017 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_19" title="2017 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_20" title="2017 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_21" title="2017 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_22" title="2017 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_23" title="2017 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_24" title="2017 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_25" title="2017 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230401235432
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.094 seconds
+Real time usage: 0.097 seconds
+Preprocessor visited node count: 474/1000000
+Preprocessor generated node count: 1384/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6891/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.056      1 -total
+ 78.29%    6.307      1 Template:AMC10_box
+ 17.45%    1.406      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15346-0!canonical and timestamp 20230401235432 and revision id 191688
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_14&amp;oldid=191688">https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_14&amp;oldid=191688</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230402012612 -->
+</html>

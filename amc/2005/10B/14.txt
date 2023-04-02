@@ -1,0 +1,249 @@
+<p>Equilateral <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" /> has side length <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" />, and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/4/3/7/4373e7b4be983c0315e82e1fda1df66ed34dd7fb.png" class="latex" alt="$\overline{BD}$" width="30" height="15" />. What is the area of <img src="//latex.artofproblemsolving.com/a/8/9/a8945cc639df250c096deb4e5a706035da87fd45.png" class="latex" alt="$\triangle CDM$" width="65" height="13" />?
+<img src="//latex.artofproblemsolving.com/6/a/a/6aa004b06a2897918f89be366ce3af200115d58f.png" class="latexcenter" alt="[asy]defaultpen(linewidth(.8pt)+fontsize(8pt));  pair B = (0,0); pair A = 2*dir(60); pair C = (2,0); pair D = (4,0); pair M = midpoint(A--C);  label(&quot;$A$&quot;,A,NW);label(&quot;$B$&quot;,B,SW);label(&quot;$C$&quot;,C, SE);label(&quot;$M$&quot;,M,NE);label(&quot;$D$&quot;,D,SE);  draw(A--B--C--cycle); draw(C--D--M--cycle);[/asy]" width="668" height="305" />
+</p><p><img src="//latex.artofproblemsolving.com/3/8/d/38d1a9cc58a77aafd4129e676d5124c407f1f818.png" class="latex" alt="$\textbf{(A) }\ \frac {\sqrt {2}}{2}\qquad \textbf{(B) }\ \frac {3}{4}\qquad \textbf{(C) }\ \frac {\sqrt {3}}{2}\qquad \textbf{(D) }\ 1\qquad \textbf{(E) }\ \sqrt {2}$" style="vertical-align: -13px" width="440" height="43" />
+</p>
+<h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
+<h3><span id="Solution_1_(trig)"></span><span class="mw-headline" id="Solution_1_.28trig.29">Solution 1 (trig)</span></h3>
+<p>The area of a triangle can be given by <img src="//latex.artofproblemsolving.com/a/2/8/a2861e0e1333e467eb1ad74a61449f8597183367.png" class="latex" alt="$\frac12 ab \sin C$" style="vertical-align: -12px" width="73" height="37" />. <img src="//latex.artofproblemsolving.com/b/c/5/bc523ef4c2ff5be8dd4f8dc222d13f206d086c05.png" class="latex" alt="$MC=1$" style="vertical-align: 0px" width="66" height="13" /> because it is the midpoint of a side, and <img src="//latex.artofproblemsolving.com/e/2/f/e2fb6f4572576df0b7fd91965771bba13959aeb3.png" class="latex" alt="$CD=2$" width="62" height="12" /> because it is the same length as <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />. Each angle of an equilateral triangle is <img src="//latex.artofproblemsolving.com/2/9/f/29fa0a9949f018e121b2093216dd5db13d3abef0.png" class="latex" alt="$60^\circ$" width="24" height="13" /> so <img src="//latex.artofproblemsolving.com/2/7/2/2722c3a56c8f3d2963983ecb0fb357bf1aedf7b7.png" class="latex" alt="$\angle MCD = 120^\circ$" style="vertical-align: 0px" width="119" height="13" />. The area is <img src="//latex.artofproblemsolving.com/e/3/b/e3ba733c00972e7378ebb2b362eb3bdc0d55f29f.png" class="latex" alt="$\frac12 (1)(2) \sin  120^\circ = \boxed{\textbf{(C)}\ \frac{\sqrt{3}}{2}}$" style="vertical-align: -18px" width="221" height="53" />.
+Note: Even if you don't know the value of <img src="//latex.artofproblemsolving.com/e/e/4/ee45f5d49f06fa23b0d6c053e87ca0eb14e11cc7.png" class="latex" alt="$\sin 120^\circ$" style="vertical-align: 0px" width="58" height="13" />, you can use the fact that  <img src="//latex.artofproblemsolving.com/b/2/a/b2ab81bf19b69f41ec6d92f437b363f5fbffde0a.png" class="latex" alt="$\sin x = \sin (180^\circ - x)$" style="vertical-align: -4px" width="162" height="18" />, so <img src="//latex.artofproblemsolving.com/6/f/d/6fd500174679a3a6af200fb48fb63c39ebd9b6c4.png" class="latex" alt="$\sin 120^\circ = \sin 60^\circ$" style="vertical-align: 0px" width="134" height="13" />.
+You can easily calculate <img src="//latex.artofproblemsolving.com/2/3/9/2396e05a25e87d6dc5f9d10978a59b4442121c9e.png" class="latex" alt="$\sin 60^\circ$" width="49" height="13" /> to be <img src="//latex.artofproblemsolving.com/4/7/1/471b8f058b0b966f478688febc32fbef03432011.png" class="latex" alt="$\frac{\sqrt3}{2}$" style="vertical-align: -12px" width="26" height="41" /> using equilateral triangles.
+</p><p>~Minor Edits by doulai1
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>In order to calculate the area of <img src="//latex.artofproblemsolving.com/a/8/9/a8945cc639df250c096deb4e5a706035da87fd45.png" class="latex" alt="$\triangle CDM$" width="65" height="13" />, we can use the formula <img src="//latex.artofproblemsolving.com/2/b/d/2bd38eff54ef7dc0e188ef1149b0c64f1efcf10f.png" class="latex" alt="$A=\dfrac{1}{2}bh$" style="vertical-align: -12px" width="69" height="37" />, where <img src="//latex.artofproblemsolving.com/c/e/0/ce0bfc603f9a044e308b1a1fdadca917e81ad2dd.png" class="latex" alt="$\overline{CD}$" width="30" height="15" /> is the base. We already know that <img src="//latex.artofproblemsolving.com/e/c/1/ec1b644ec706069b4a2c9c56b826bbd71ba88950.png" class="latex" alt="$\overline{CD}=2$" width="62" height="15" />, so the formula becomes <img src="//latex.artofproblemsolving.com/3/3/1/331b30a8dc7458ae2625ef2f20ccf5de8ff0fc21.png" class="latex" alt="$A=h$" width="48" height="13" />. We can drop verticals down from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> to points <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />, respectively. We can see that <img src="//latex.artofproblemsolving.com/3/5/8/3585a839707dd789928b448120d2e4ea537efce0.png" class="latex" alt="$\triangle AEC \sim \triangle MFC$" width="147" height="13" />. Now, we establish the relationship that <img src="//latex.artofproblemsolving.com/a/2/d/a2dd91aa6f83eafd6c24b4b6fe0a5ff2cffe8ca0.png" class="latex" alt="$\dfrac{AE}{MF}=\dfrac{AC}{MC}$" style="vertical-align: -12px" width="98" height="38" />. We are given that <img src="//latex.artofproblemsolving.com/5/5/f/55f242ca45f96d4a7c3705b7bff72760ccf6cbdc.png" class="latex" alt="$\overline{AC}=2$" width="60" height="15" />, and <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" />, so <img src="//latex.artofproblemsolving.com/1/6/5/165d9bfceb8375fe979640426e50a99d5ed62ba0.png" class="latex" alt="$\overline{MC}=1$" style="vertical-align: 0px" width="66" height="16" />. Because <img src="//latex.artofproblemsolving.com/a/1/b/a1b3b8188354494cb248bd9965a24d0b9f1ef814.png" class="latex" alt="$\triangle AEB$" width="58" height="13" /> is a <img src="//latex.artofproblemsolving.com/4/7/c/47c78b85058ee5e17f88e2cde302e48aad826b35.png" class="latex" alt="$30-60-90$" width="98" height="12" /> triangle and the ratio of the sides opposite the angles are <img src="//latex.artofproblemsolving.com/3/7/a/37a1c8cd544ba73e959a4b5ed2441bf9653efe7d.png" class="latex" alt="$1-\sqrt{3}-2$" style="vertical-align: -1px" width="86" height="18" /> <img src="//latex.artofproblemsolving.com/5/e/8/5e8bc36793a7c64d05fff20d519f0f72d9256fab.png" class="latex" alt="$\overline{AE}$" width="28" height="15" /> is <img src="//latex.artofproblemsolving.com/6/c/7/6c77cf4b63af80bfbc6a9ad9b4b9e8e549e77d78.png" class="latex" alt="$\sqrt{3}$" style="vertical-align: -1px" width="24" height="18" />. Plugging those numbers in, we have <img src="//latex.artofproblemsolving.com/e/8/1/e813dda4fca3b738303536964c0420bf37bfe27d.png" class="latex" alt="$\dfrac{\sqrt{3}}{MF}=\dfrac{2}{1}$" style="vertical-align: -13px" width="73" height="41" />. Cross-multiplying, we see that <img src="//latex.artofproblemsolving.com/8/e/8/8e8a4301feba41049214e8e505da6738058a8c88.png" class="latex" alt="$2\times\overline{MF}=\sqrt{3}\times1\implies \overline{MF}=\dfrac{\sqrt{3}}{2}$" style="vertical-align: -12px" width="279" height="41" /> Since <img src="//latex.artofproblemsolving.com/e/3/6/e36928adcfc38a926c66c5f77cf2f6d6449bc526.png" class="latex" alt="$\overline{MF}$" width="34" height="15" /> is the height <img src="//latex.artofproblemsolving.com/a/8/9/a8945cc639df250c096deb4e5a706035da87fd45.png" class="latex" alt="$\triangle CDM$" width="65" height="13" />, the area is <img src="//latex.artofproblemsolving.com/2/0/f/20fe91441e98a6969598b7464ebfb0c374fdede2.png" class="latex" alt="$\boxed{\textbf{(C) }\frac{\sqrt{3}}{2}}$" style="vertical-align: -19px" width="76" height="54" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Draw a line from <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> to the midpoint of <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" />. Call the midpoint of <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />. This is an equilateral triangle, since the two segments <img src="//latex.artofproblemsolving.com/a/8/9/a894a620b157358dab619a863fdea6c368d3d0cb.png" class="latex" alt="$\overline{PC}$" width="28" height="15" /> and <img src="//latex.artofproblemsolving.com/e/6/a/e6a5dab0650ea78f80ca12d62afe83905de42ceb.png" class="latex" alt="$\overline{MC}$" width="34" height="15" /> are identical, and <img src="//latex.artofproblemsolving.com/4/0/5/4056d41f42aa8a00adca0ff5d1209b6bb0e92d6b.png" class="latex" alt="$\angle C$" width="27" height="12" /> is <img src="//latex.artofproblemsolving.com/0/8/d/08d5c45388de5c75af641c046d466de3592ffa98.png" class="latex" alt="$60^{\circ}$" width="24" height="13" />. Using the <a href="/wiki/index.php/Pythagorean_Theorem" title="Pythagorean Theorem">Pythagorean Theorem</a>, point <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> to <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> is <img src="//latex.artofproblemsolving.com/c/7/7/c778d6190a62180381c8864640d46fa3f00866b8.png" class="latex" alt="$\dfrac{\sqrt{3}}{2}$" style="vertical-align: -12px" width="26" height="41" />. Also, the length of <img src="//latex.artofproblemsolving.com/c/e/0/ce0bfc603f9a044e308b1a1fdadca917e81ad2dd.png" class="latex" alt="$\overline{CD}$" width="30" height="15" /> is 2, since <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/4/3/7/4373e7b4be983c0315e82e1fda1df66ed34dd7fb.png" class="latex" alt="$\overline{BD}$" width="30" height="15" />. So, our final equation is <img src="//latex.artofproblemsolving.com/e/1/5/e15c61380f67ebbf63e95741d79f4536b2d6d83a.png" class="latex" alt="$\frac{\sqrt{3}}{2}\times2\over2$" style="vertical-align: -6px" width="62" height="53" />, which just leaves us with <img src="//latex.artofproblemsolving.com/c/b/b/cbb116c62b64e4de261dd284d7e08fdd9d341684.png" class="latex" alt="$\boxed{\textbf{(C) }\dfrac{\sqrt{3}}{2}}$" style="vertical-align: -19px" width="76" height="54" />.
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<p>Drop a vertical down from <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> to <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />. Let us call the point of intersection <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" /> and the midpoint of <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />, <img src="//latex.artofproblemsolving.com/c/e/5/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12" />. We can observe that <img src="//latex.artofproblemsolving.com/8/9/5/895b2bee900078f464f96cd50364a250f1885945.png" class="latex" alt="$\triangle AYC$" width="58" height="13" /> and <img src="//latex.artofproblemsolving.com/c/1/d/c1d9b9509264bedd449bff5746bf200fce4f5594.png" class="latex" alt="$\bigtriangleup MXC$" style="vertical-align: -4px" width="68" height="18" /> are similar. By the <a href="/wiki/index.php/Pythagorean_theorem" class="mw-redirect" title="Pythagorean theorem">Pythagorean theorem</a>, <img src="//latex.artofproblemsolving.com/0/3/a/03a548f8f2bc6dfce44eed33b1da3c8afd1b118f.png" class="latex" alt="$AY$" width="27" height="13" /> is <img src="//latex.artofproblemsolving.com/c/9/9/c99f089046b752269e77100c333b11d8d72e5895.png" class="latex" alt="$\sqrt3$" style="vertical-align: -1px" width="24" height="18" />.
+</p><p>Since <img src="//latex.artofproblemsolving.com/c/4/2/c426f3a67ed3c724e8559275f8a98f734f791a80.png" class="latex" alt="$AC:MC=2:1,$" style="vertical-align: -3px" width="138" height="16" /> we find <img src="//latex.artofproblemsolving.com/a/5/3/a538def15c55fe2da727ba1eecc79921ce174e24.png" class="latex" alt="$MX=\frac{\sqrt3}{2}.$" style="vertical-align: -12px" width="92" height="41" /> Because <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/3/9/4/394a09127351f604ebc21e87412150da4fc6a43d.png" class="latex" alt="$BD,$" style="vertical-align: -3px" width="34" height="16" /> and <img src="//latex.artofproblemsolving.com/3/2/8/3286e1f36069b5b53de8fb75631cf6f0aed5e54d.png" class="latex" alt="$BC=2,$" style="vertical-align: -3px" width="66" height="16" /> <img src="//latex.artofproblemsolving.com/e/2/3/e23b358cd3c8f5f18c6d70169315f64d75d3617e.png" class="latex" alt="$CD=2.$" width="66" height="12" /> Using the area formula, <img src="//latex.artofproblemsolving.com/d/6/8/d683d318a9c3a00639a21ff4a9611c2acb17cfa6.png" class="latex" alt="$\frac{CD*MX}{2}=\boxed{\textbf{(C) }\dfrac{\sqrt{3}}{2}}.$" style="vertical-align: -19px" width="193" height="54" />
+</p><p>~ sdk652
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2005_AMC_10B" title="2005 AMC 10B">2005 AMC 10B</a></b> (<b><a href="/wiki/index.php/2005_AMC_10B_Problems" title="2005 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2005_AMC_10B_Answer_Key" title="2005 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_13" title="2005 AMC 10B Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2005 AMC 10B Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_1" class="mw-redirect" title="2005 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_2" class="mw-redirect" title="2005 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_3" title="2005 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_4" title="2005 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2005 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_6" class="mw-redirect" title="2005 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_7" title="2005 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2005 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_9" title="2005 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2005 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_11" class="mw-redirect" title="2005 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_12" title="2005 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_13" title="2005 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2005 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_16" class="mw-redirect" title="2005 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_17" title="2005 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_18" title="2005 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2005 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_20" title="2005 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_21" title="2005 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_22" title="2005 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_23" title="2005 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_24" title="2005 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_25" title="2005 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208224128
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.105 seconds
+Real time usage: 0.127 seconds
+Preprocessor visited node count: 811/1000000
+Preprocessor generated node count: 2128/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13390/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.537      1 -total
+ 78.16%    5.891      1 Template:AMC10_box
+ 19.48%    1.468      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:3171-0!canonical and timestamp 20230208224128 and revision id 169500
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_10B_Problems/Problem_14&amp;oldid=169500">https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_10B_Problems/Problem_14&amp;oldid=169500</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:Area_Problems" title="Category:Area Problems">Area Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208224128 -->
+</html>

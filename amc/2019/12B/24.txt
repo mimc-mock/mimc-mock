@@ -1,0 +1,254 @@
+<p>Let <img src="//latex.artofproblemsolving.com/1/d/0/1d020174f178fd1697cc16033099d4bcc6730e07.png" class="latex" alt="$\omega=-\tfrac{1}{2}+\tfrac{1}{2}i\sqrt3.$" style="vertical-align: -6px" width="128" height="23" /> Let <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> denote all points in the complex plane of the form <img src="//latex.artofproblemsolving.com/8/7/6/876b2135bc8f88b4597609080624e6a9042f90f4.png" class="latex" alt="$a+b\omega+c\omega^2,$" style="vertical-align: -3px" width="105" height="18" /> where <img src="//latex.artofproblemsolving.com/a/3/6/a3624c806aafa6e0ab9479030586ed99752a7421.png" class="latex" alt="$0\leq a \leq 1,0\leq b\leq 1,$" style="vertical-align: -3px" width="162" height="16" /> and <img src="//latex.artofproblemsolving.com/8/9/3/893be0caa16c25951a5cf0a4d7b8c6f1aa508248.png" class="latex" alt="$0\leq c\leq 1.$" style="vertical-align: -2px" width="78" height="15" /> What is the area of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/3/c/0/3c080677594faf8b15ab300cac7e92f3f784a379.png" class="latex" alt="$\textbf{(A) } \frac{1}{2}\sqrt3 \qquad\textbf{(B) } \frac{3}{4}\sqrt3 \qquad\textbf{(C) } \frac{3}{2}\sqrt3\qquad\textbf{(D) } \frac{1}{2}\pi\sqrt3 \qquad\textbf{(E) } \pi$" style="vertical-align: -13px" width="478" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Notice that <img src="//latex.artofproblemsolving.com/1/8/5/1859376c3119b46b0df33ad4782e7356a933798b.png" class="latex" alt="$\omega=e^{\frac{2i\pi}{3}}$" width="64" height="18" />, which is one of the cube roots of unity. We wish to find the span of <img src="//latex.artofproblemsolving.com/0/8/8/08862f0282b094082fe81af6ed0687c59acf7ebb.png" class="latex" alt="$(a+b\omega+c\omega^2)$" style="vertical-align: -4px" width="113" height="19" /> for reals <img src="//latex.artofproblemsolving.com/3/3/a/33a368b5e696a651413ceaa56952d6fca1c1e18e.png" class="latex" alt="$0\le a,b,c\le 1$" style="vertical-align: -3px" width="107" height="16" />.
+Observe also that if <img src="//latex.artofproblemsolving.com/c/7/a/c7a0dc1d53202f0003849a81d76e5555b1ee251a.png" class="latex" alt="$a,b,c&gt;0$" style="vertical-align: -3px" width="74" height="16" />, then replacing <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> by <img src="//latex.artofproblemsolving.com/c/6/1/c618e67306eeac0e6fd82a5a01b6f1e01863fb18.png" class="latex" alt="$a-\min(a,b,c), b-\min(a,b,c),$" style="vertical-align: -4px" width="246" height="18" /> and <img src="//latex.artofproblemsolving.com/c/5/2/c525a419a7d0997c0e7351acc2e6fd25b3f4c0dd.png" class="latex" alt="$c-\min(a,b,c)$" style="vertical-align: -4px" width="114" height="18" /> leaves the value of <img src="//latex.artofproblemsolving.com/a/2/c/a2c306cd41c785559b6f695c535388cc49fe37c5.png" class="latex" alt="$a+b\omega+c\omega^2$" style="vertical-align: -1px" width="99" height="16" /> unchanged. Therefore, assume that at least one of <img src="//latex.artofproblemsolving.com/a/5/b/a5b29b358e825defa3e11b7d903d43ec31e5909a.png" class="latex" alt="$a,b,c$" style="vertical-align: -3px" width="41" height="16" /> is equal to <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />. If exactly one of them is <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, we can form an equilateral triangle of side length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> using the remaining terms. A similar argument works if exactly two of them are <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />. In total, we get <img src="//latex.artofproblemsolving.com/b/e/0/be022135ddf62a9681b4578d3b21cdf6bd50120c.png" class="latex" alt="$3+{3 \choose 2} = 6$" style="vertical-align: -22px" width="101" height="53" /> equilateral triangles, whose total area is <img src="//latex.artofproblemsolving.com/8/d/3/8d3b4349c55465540850a1d2e14e655e67465aac.png" class="latex" alt="$6 \cdot \frac{\sqrt{3}}{4} = \boxed{\textbf{(C) } \frac{3}{2}\sqrt3}$" style="vertical-align: -18px" width="158" height="48" />.
+</p><p><i>Note</i>: A diagram of the six equilateral triangles is shown below.
+<img src="//latex.artofproblemsolving.com/4/2/d/42dee9da6ce367a03187683e00b3061794ee81a5.png" class="latexcenter" alt="[asy] size(200,200); draw((0,0)--(1,0)--(1/2,sqrt(3)/2)--cycle); draw((0,0)--(1/2,sqrt(3)/2)--(-1/2,sqrt(3)/2)--cycle); draw((0,0)--(-1/2,sqrt(3)/2)--(-1,0)--cycle); draw((0,0)--(-1,0)--(-1/2,-sqrt(3)/2)--cycle); draw((0,0)--(-1/2,-sqrt(3)/2)--(1/2,-sqrt(3)/2)--cycle); draw((0,0)--(1/2,-sqrt(3)/2)--(1,0)--cycle); draw((-2,0)--(2,0)); draw((0,-2)--(0,2)); [/asy]" width="335" height="335" />
+</p>
+<h2><span class="mw-headline" id="Solution_1_but_not_exactly">Solution 1 but not exactly</span></h2>
+<p>WLOG <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> is the smallest of the <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />. Then the expression is equivalent to <img src="//latex.artofproblemsolving.com/d/e/6/de62b5b56658b304af387a24c775513727ea0033.png" class="latex" alt="$a+b\omega$" style="vertical-align: -1px" width="51" height="14" />. To find the area of the region, we need only consider the extremities (<img src="//latex.artofproblemsolving.com/4/5/5/4559967057fa75539ffe05f49644a1d9248abc23.png" class="latex" alt="$a=0, a=1, b=0, b=1$" style="vertical-align: -4px" width="194" height="18" />), as they will form a polygon which contains all points. So, when <img src="//latex.artofproblemsolving.com/8/5/7/85721af34098db413d50c6891430d81bf5b8663f.png" class="latex" alt="$a=0, b=0$" style="vertical-align: -3px" width="91" height="16" /> we have the origin (diagram omitted). When <img src="//latex.artofproblemsolving.com/0/7/7/077804ce4e27bf17cd94bea69b102309859f90d3.png" class="latex" alt="$a=1, b=0$" style="vertical-align: -4px" width="94" height="18" /> we have <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />:
+<img src="//latex.artofproblemsolving.com/b/c/8/bc8bfcec4e893fce5af5bd604020203451a13995.png" class="latexcenter" alt="[asy] size(100,100); draw((-2,0)--(2,0), gray); draw((0,-2)--(0,2), gray); draw((0,0)--(1,0), red); [/asy]" width="168" height="168" />
+</p><p>When <img src="//latex.artofproblemsolving.com/6/a/7/6a7372a2f6167ca6f7e7a2bb7d5327f13c40d1d3.png" class="latex" alt="$a=0, b=1$" style="vertical-align: -3px" width="91" height="16" /> we have <img src="//latex.artofproblemsolving.com/6/d/a/6daadc8f563d24f943f940aa7bff08e6d351e3a3.png" class="latex" alt="$-\frac{1}{2}, \frac{\sqrt{3}}{2}$" style="vertical-align: -12px" width="62" height="41" />:
+<img src="//latex.artofproblemsolving.com/9/2/6/926457dae1b29c096cd5fd0ecfb5319a318347ec.png" class="latexcenter" alt="[asy] size(100,100); draw((-2,0)--(2,0), gray); draw((0,-2)--(0,2), gray); draw((0,0)--(-1/2,sqrt(3)/2), red); draw((0,0)--(1,0), red); [/asy]" width="168" height="168" />
+</p><p>When <img src="//latex.artofproblemsolving.com/6/3/c/63c4192938291ec8d8c0743ef6e5bab78415469f.png" class="latex" alt="$a=1, b=1$" style="vertical-align: -3px" width="91" height="16" /> we have <img src="//latex.artofproblemsolving.com/e/3/6/e36c583e5e885e56eacf8c989285ff116f21a374.png" class="latex" alt="$\frac{1}{2}, \frac{\sqrt{3}}{2}$" style="vertical-align: -13px" width="51" height="43" />:
+<img src="//latex.artofproblemsolving.com/8/a/6/8a62261bfd20fa77070b5f9733d01a63af411bf1.png" class="latexcenter" alt="[asy] size(100,100); draw((-2,0)--(2,0), gray); draw((0,-2)--(0,2), gray); draw((0,0)--(-1/2,sqrt(3)/2), red); draw((0,0)--(1,0), red); draw((-1/2,sqrt(3)/2)--(1/2,sqrt(3)/2), red); draw((1,0)--(1/2,sqrt(3)/2), red); [/asy]" width="168" height="168" />
+</p><p>The area of this is <img src="//latex.artofproblemsolving.com/4/e/9/4e9191a5007067cff8f6d73f4d3419e08238f00b.png" class="latex" alt="$\frac{\sqrt{3}}{2}$" style="vertical-align: -12px" width="26" height="41" />. Multiply this by <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> to get <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We can add on each term one at a time. Firstly, the possible values of <img src="//latex.artofproblemsolving.com/1/c/d/1cde14c4fc4efc5fb89cb7fa564c49cdfa2b00aa.png" class="latex" alt="$\textstyle c\omega^2=c\left(-\frac{1}{2}-\frac{\sqrt{3}}{2}i\right)$" style="vertical-align: -11px" width="155" height="32" /> lie on the following line:
+</p><p><img src="//latex.artofproblemsolving.com/8/c/2/8c2d83d684aa7536f13f6b53a82a041b1de44934.png" class="latexcenter" alt="[asy] size(100,100); draw((0,0)--(-1/2,-sqrt(3)/2), blue); draw((-2,0)--(2,0)); draw((0,-2)--(0,2)); [/asy]" width="168" height="168" />
+</p><p>For each point on the line, we can add <img src="//latex.artofproblemsolving.com/c/5/2/c522515d86502509bddfbeaaeb6c230a1c1177ef.png" class="latex" alt="$\textstyle b\omega=b\left(-\frac{1}{2}+\frac{\sqrt{3}}{2}i\right)$" style="vertical-align: -11px" width="148" height="32" />. This means that we can extend the area to
+</p><p><img src="//latex.artofproblemsolving.com/9/6/9/96983bc6c01c87d0af76515627bc8b76718003be.png" class="latexcenter" alt="[asy] size(100,100); fill((0,0)--(-1/2,sqrt(3)/2)--(-1,0)--(-1/2,-sqrt(3)/2)--cycle, lightgray); draw((0,0)--(-1/2,sqrt(3)/2)--(-1,0)--(-1/2,-sqrt(3)/2)--cycle); draw((0,0)--(-1/2,sqrt(3)/2), red); draw((0,0)--(-1/2,-sqrt(3)/2), blue); draw((-2,0)--(2,0)); draw((0,-2)--(0,2)); [/asy]" width="168" height="168" />
+</p><p>by "moving" the blue line along the red line. Finally, we can add <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> to every point, giving
+</p><p><img src="//latex.artofproblemsolving.com/b/9/9/b998688df0c98abb935726c2aeaf6d053c96694b.png" class="latexcenter" alt="[asy] size(100,100); fill((-1/2,sqrt(3)/2)--(-1,0)--(-1/2,-sqrt(3)/2)--(1/2,-sqrt(3)/2)--(1,0)--(1/2,sqrt(3)/2)--cycle, lightgray); draw((-1/2,sqrt(3)/2)--(-1,0)--(-1/2,-sqrt(3)/2)--(1/2,-sqrt(3)/2)--(1,0)--(1/2,sqrt(3)/2)--cycle); draw((0,0)--(-1/2,sqrt(3)/2), red); draw((0,0)--(-1/2,-sqrt(3)/2), blue); draw((-2,0)--(2,0)); draw((0,-2)--(0,2)); draw((0,0)--(1,0), heavygreen); [/asy]" width="168" height="168" />
+</p><p>by "moving" the previous area along the green line. This leaves us with a regular hexagon with side length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, so, as in Solution 1, the total area is <img src="//latex.artofproblemsolving.com/8/c/2/8c20ce2dff8969f5a41fd05a37649001b5df5e3f.png" class="latex" alt="$\boxed{\textbf{(C) } \frac{3}{2}\sqrt{3}}$" style="vertical-align: -18px" width="84" height="48" />.
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2019_AMC_12B" title="2019 AMC 12B">2019 AMC 12B</a></b> (<b><a href="/wiki/index.php/2019_AMC_12B_Problems" title="2019 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_12B_Answer_Key" title="2019 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_23" class="mw-redirect" title="2019 AMC 12B Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_25" title="2019 AMC 12B Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_1" class="mw-redirect" title="2019 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2019 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_3" title="2019 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2019 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2019 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_6" class="mw-redirect" title="2019 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_7" class="mw-redirect" title="2019 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_8" title="2019 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_9" title="2019 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_10" title="2019 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_11" title="2019 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_12" title="2019 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_13" title="2019 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_14" class="mw-redirect" title="2019 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_15" class="mw-redirect" title="2019 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_16" title="2019 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_17" title="2019 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_18" title="2019 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_19" class="mw-redirect" title="2019 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_20" class="mw-redirect" title="2019 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_21" title="2019 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_22" class="mw-redirect" title="2019 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_23" class="mw-redirect" title="2019 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_25" title="2019 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208180203
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.095 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 551/1000000
+Preprocessor generated node count: 1560/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10396/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.638      1 -total
+ 73.72%    6.368      1 Template:AMC12_box
+ 23.70%    2.047      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:17333-0!canonical and timestamp 20230208180203 and revision id 181568
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_12B_Problems/Problem_24&amp;oldid=181568">https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_12B_Problems/Problem_24&amp;oldid=181568</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209073134 -->
+</html>

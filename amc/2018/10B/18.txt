@@ -1,0 +1,11 @@
+<p>Three young brother-sister pairs from different families need to take a trip in a van. These six children will occupy the second and third rows in the van, each of which has three seats. To avoid disruptions, siblings may not sit right next to each other in the same row, and no child may sit directly in front of his or her sibling. How many seating arrangements are possible for this trip?
+</p><p><img src="//latex.artofproblemsolving.com/1/e/4/1e469c5a36b20a03d8d8f2c53ca8ebf3dc93bc69.png" class="latex" alt="$\textbf{(A)} \text{ 60} \qquad \textbf{(B)} \text{ 72} \qquad \textbf{(C)} \text{ 92} \qquad \textbf{(D)} \text{ 96} \qquad \textbf{(E)} \text{ 120}$" style="vertical-align: -4px" width="395" height="17" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/0W3VmFp55cM?t=1288">https://youtu.be/0W3VmFp55cM?t=1288</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/3MiGotKnC_U?t=1982">https://youtu.be/3MiGotKnC_U?t=1982</a>
+~ ThePuzzlr
+</p>

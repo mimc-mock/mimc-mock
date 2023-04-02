@@ -1,0 +1,257 @@
+<p>Right triangles <img src="//latex.artofproblemsolving.com/c/0/7/c073f8a05257a19c2dacc368858763bb44fa3747.png" class="latex" alt="$T_1$" style="vertical-align: -2px" width="16" height="15" /> and <img src="//latex.artofproblemsolving.com/4/0/d/40db9b6f10ff583906d78a06a76e08e04381bc1a.png" class="latex" alt="$T_2$" style="vertical-align: -2px" width="16" height="15" />, have areas of 1 and 2, respectively. A side of <img src="//latex.artofproblemsolving.com/c/0/7/c073f8a05257a19c2dacc368858763bb44fa3747.png" class="latex" alt="$T_1$" style="vertical-align: -2px" width="16" height="15" /> is congruent to a side of <img src="//latex.artofproblemsolving.com/4/0/d/40db9b6f10ff583906d78a06a76e08e04381bc1a.png" class="latex" alt="$T_2$" style="vertical-align: -2px" width="16" height="15" />, and a different side of <img src="//latex.artofproblemsolving.com/c/0/7/c073f8a05257a19c2dacc368858763bb44fa3747.png" class="latex" alt="$T_1$" style="vertical-align: -2px" width="16" height="15" /> is congruent to a different side of <img src="//latex.artofproblemsolving.com/4/0/d/40db9b6f10ff583906d78a06a76e08e04381bc1a.png" class="latex" alt="$T_2$" style="vertical-align: -2px" width="16" height="15" />. What is the square of the product of the lengths of the other (third) sides of <img src="//latex.artofproblemsolving.com/c/0/7/c073f8a05257a19c2dacc368858763bb44fa3747.png" class="latex" alt="$T_1$" style="vertical-align: -2px" width="16" height="15" /> and <img src="//latex.artofproblemsolving.com/4/0/d/40db9b6f10ff583906d78a06a76e08e04381bc1a.png" class="latex" alt="$T_2$" style="vertical-align: -2px" width="16" height="15" />?
+</p><p><img src="//latex.artofproblemsolving.com/6/c/1/6c1dafa3f26ad11b90deeda52b381fb4642153ee.png" class="latex" alt="$\textbf{(A) }\frac{28}{3}\qquad\textbf{(B) }10\qquad\textbf{(C) }\frac{32}{3}\qquad\textbf{(D) }\frac{34}{3}\qquad\textbf{(E) }12$" style="vertical-align: -12px" width="410" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>First of all, let the two sides which are congruent be <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />, where <img src="//latex.artofproblemsolving.com/a/8/d/a8d54b3e39757a5100c5b839497b8350d59f8c25.png" class="latex" alt="$y &gt; x$" style="vertical-align: -3px" width="44" height="13" />. The only way that the conditions of the problem can be satisfied is if <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is the shorter leg of <img src="//latex.artofproblemsolving.com/4/b/0/4b034a1760b3fe3a8182c2d2862991d09ebfff30.png" class="latex" alt="$T_{2}$" style="vertical-align: -2px" width="16" height="15" /> and the longer leg of <img src="//latex.artofproblemsolving.com/9/1/6/9168663bdcc2a7840189d9aedc36e824b523cb9e.png" class="latex" alt="$T_{1}$" style="vertical-align: -2px" width="16" height="15" />, and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is the longer leg of <img src="//latex.artofproblemsolving.com/4/b/0/4b034a1760b3fe3a8182c2d2862991d09ebfff30.png" class="latex" alt="$T_{2}$" style="vertical-align: -2px" width="16" height="15" /> and the hypotenuse of <img src="//latex.artofproblemsolving.com/9/1/6/9168663bdcc2a7840189d9aedc36e824b523cb9e.png" class="latex" alt="$T_{1}$" style="vertical-align: -2px" width="16" height="15" />.
+</p><p>Notice that this means the value we are looking for is the square of <img src="//latex.artofproblemsolving.com/d/2/c/d2cb4c83c74534a1d030213e1cd6a554549bc28b.png" class="latex" alt="$\sqrt{x^{2}+y^{2}} \cdot \sqrt{y^{2}-x^{2}} = \sqrt{y^{4}-x^{4}}$" style="vertical-align: -5px" width="262" height="22" />, which is just <img src="//latex.artofproblemsolving.com/7/1/1/711ec069fafecd8ffd4fa59b8b623687452f303f.png" class="latex" alt="$y^{4}-x^{4}$" style="vertical-align: -3px" width="56" height="18" />.
+</p><p>The area conditions give us two equations: <img src="//latex.artofproblemsolving.com/e/8/4/e8478df3f082d318f1fa766ec05bcecc3c2a1a35.png" class="latex" alt="$\frac{xy}{2} = 2$" style="vertical-align: -12px" width="56" height="33" /> and <img src="//latex.artofproblemsolving.com/2/d/6/2d6362040e714120872ae56db2a43286260cb97e.png" class="latex" alt="$\frac{x\sqrt{y^{2}-x^{2}}}{2} = 1$" style="vertical-align: -12px" width="119" height="39" />.
+</p><p>This means that <img src="//latex.artofproblemsolving.com/8/c/4/8c4ec7ed986607fe612af146183fa8d5d7df3301.png" class="latex" alt="$y = \frac{4}{x}$" style="vertical-align: -12px" width="46" height="37" /> and that <img src="//latex.artofproblemsolving.com/0/c/5/0c544c2f8ecf84f7074ed37ca6d1d69c53e78013.png" class="latex" alt="$\frac{4}{x^{2}} = y^{2} - x^{2}$" style="vertical-align: -12px" width="102" height="37" />.
+</p><p>Taking the second equation, we get <img src="//latex.artofproblemsolving.com/a/e/e/aee18699685a9b712892494bb772fc9bb2d45ca1.png" class="latex" alt="$x^{2}y^{2} - x^{4} = 4$" style="vertical-align: -3px" width="108" height="18" />, so since <img src="//latex.artofproblemsolving.com/2/7/c/27cf2b6cca90cd7da78b22bde20f42f6def98946.png" class="latex" alt="$xy = 4$" style="vertical-align: -3px" width="53" height="15" />, <img src="//latex.artofproblemsolving.com/6/f/b/6fb4a68edbda2b33cce3d667799e1db4d48cf689.png" class="latex" alt="$x^{4} = 12$" style="vertical-align: 0px" width="59" height="15" />.
+</p><p>Since <img src="//latex.artofproblemsolving.com/8/c/4/8c4ec7ed986607fe612af146183fa8d5d7df3301.png" class="latex" alt="$y = \frac{4}{x}$" style="vertical-align: -12px" width="46" height="37" />, we get <img src="//latex.artofproblemsolving.com/3/7/9/379efe8fbff14251131e774eb04028d3168fbdf4.png" class="latex" alt="$y^{4} = \frac{256}{12} = \frac{64}{3}$" style="vertical-align: -13px" width="117" height="38" />.
+</p><p>The value we are looking for is just <img src="//latex.artofproblemsolving.com/8/c/9/8c96f17055affc597666d6411052d5eb2f0d378e.png" class="latex" alt="$y^{4}-x^{4} = \frac{64-36}{3} = \frac{28}{3}$" style="vertical-align: -12px" width="188" height="37" /> so the answer is <img src="//latex.artofproblemsolving.com/0/6/8/068950527ac725ac6f06b82fb1a6595647794cff.png" class="latex" alt="$\boxed{\textbf{(A) }\frac{28}{3}}$" style="vertical-align: -18px" width="69" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Like in Solution 1, we have <img src="//latex.artofproblemsolving.com/e/8/4/e8478df3f082d318f1fa766ec05bcecc3c2a1a35.png" class="latex" alt="$\frac{xy}{2} = 2$" style="vertical-align: -12px" width="56" height="33" /> and <img src="//latex.artofproblemsolving.com/2/d/6/2d6362040e714120872ae56db2a43286260cb97e.png" class="latex" alt="$\frac{x\sqrt{y^{2}-x^{2}}}{2} = 1$" style="vertical-align: -12px" width="119" height="39" />.
+</p><p>Squaring both equations yields <img src="//latex.artofproblemsolving.com/8/3/2/8322e14ccac0cf027cb328610888b87222f8bb4f.png" class="latex" alt="$x^2y^2=16$" style="vertical-align: -3px" width="76" height="18" /> and <img src="//latex.artofproblemsolving.com/c/1/9/c19875de8746403a735ac06a58d6efcf677338fa.png" class="latex" alt="$x^2(y^2-x^2)=4$" style="vertical-align: -4px" width="122" height="19" />.
+</p><p>Let <img src="//latex.artofproblemsolving.com/b/5/8/b589a88bbabbca91ee3367a5f4a1df94e6f850a3.png" class="latex" alt="$a = x^2$" width="50" height="15" /> and <img src="//latex.artofproblemsolving.com/e/e/b/eeb16d26ef59d9469f0572b499926ec9cfcfc60c.png" class="latex" alt="$b = y^2$" style="vertical-align: -3px" width="47" height="18" />. Then <img src="//latex.artofproblemsolving.com/d/0/d/d0d547a537e50bc4f2a6f359e8955bd7aec20402.png" class="latex" alt="$b = \frac{16}{a}$" style="vertical-align: -12px" width="52" height="37" />, and <img src="//latex.artofproblemsolving.com/6/4/6/6468e470fbec34b77c8cfddc81b9309233b00db7.png" class="latex" alt="$a\left(\frac{16}{a}-a\right)=4 \implies 16 - a^2 = 4 \implies a = 2\sqrt3$" style="vertical-align: -17px" width="383" height="43" />, so <img src="//latex.artofproblemsolving.com/3/2/3/3233aefef0bbc0699a7cccc9b7171fe2373d2a2d.png" class="latex" alt="$b = \frac{16}{2\sqrt3} = \frac{8\sqrt3}{3}$" style="vertical-align: -17px" width="129" height="45" />.
+</p><p>We are looking for the value of <img src="//latex.artofproblemsolving.com/f/9/8/f98fe2abeb68b5d108ded1b120f49c07f2597cc3.png" class="latex" alt="$y^4 - x^4 = b^2 - a^2$" style="vertical-align: -3px" width="134" height="18" />, so the answer is <img src="//latex.artofproblemsolving.com/d/d/0/dd0e13453ee017b705a5c053175158a7d2f91e0e.png" class="latex" alt="$\frac{64}{3} - 12 = \boxed{\textbf{(A) }\frac{28}{3}}$" style="vertical-align: -18px" width="156" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Firstly, let the right triangles be <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" /> and <img src="//latex.artofproblemsolving.com/f/7/3/f73bdb8b7afc0d65091ea6f0273651f21a81b8fd.png" class="latex" alt="$\triangle EDF$" width="60" height="13" />, with <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" /> being the smaller triangle. As in Solution 1, let <img src="//latex.artofproblemsolving.com/8/e/8/8e8df31e4f6534bde800d7084023fba904b41b9e.png" class="latex" alt="$\overline{AB} = \overline{EF} = x$" width="115" height="15" /> and <img src="//latex.artofproblemsolving.com/4/e/6/4e6d324da9db4f768ef87fb2b153c1f13faf6ef8.png" class="latex" alt="$\overline{BC} = \overline{DF} = y$" style="vertical-align: -3px" width="116" height="19" />. Additionally, let <img src="//latex.artofproblemsolving.com/3/8/3/3832caa9c34f931673eb46453509a98f5b22a689.png" class="latex" alt="$\overline{AC} = z$" width="60" height="15" /> and <img src="//latex.artofproblemsolving.com/6/0/a/60abb11eb9d429b18563c481a8bf670b8db852e4.png" class="latex" alt="$\overline{DE} = w$" width="67" height="15" />.
+</p><p>We are given that <img src="//latex.artofproblemsolving.com/5/d/3/5d37640093fb5ddb4d9d7f1daabda416d9fd8aba.png" class="latex" alt="$[ABC] = 1$" style="vertical-align: -5px" width="85" height="18" /> and <img src="//latex.artofproblemsolving.com/7/8/6/786ab70cf288842ec990801d0ff9d1d96253c97a.png" class="latex" alt="$[EDF] = 2$" style="vertical-align: -5px" width="87" height="18" />, so using <img src="//latex.artofproblemsolving.com/b/1/e/b1e73a55caf9cb88f94f738c8cf38f06c18333e1.png" class="latex" alt="$\text{area} = \frac{bh}{2}$" style="vertical-align: -12px" width="75" height="37" />, we have <img src="//latex.artofproblemsolving.com/4/4/9/4497583efd0881a0eec729fd33c3860af19938bc.png" class="latex" alt="$\frac{xy}{2} = 1$" style="vertical-align: -12px" width="56" height="33" /> and <img src="//latex.artofproblemsolving.com/b/1/7/b176064f7bfe4bee7840bfd73c61be2cffc4e130.png" class="latex" alt="$\frac{xw}{2} = 2$" style="vertical-align: -12px" width="60" height="33" />. Dividing the two equations, we get <img src="//latex.artofproblemsolving.com/e/c/d/ecdd60852a0e6d0b18a1f20e7bcf953e4a3a1c1e.png" class="latex" alt="$\frac{xy}{xw}$" style="vertical-align: -12px" width="26" height="33" /> = <img src="//latex.artofproblemsolving.com/7/5/7/75776e8dbcb44bd9c1a44f6763763ec9b85010dd.png" class="latex" alt="$\frac{y}{w} = 2$" style="vertical-align: -12px" width="50" height="33" />, so <img src="//latex.artofproblemsolving.com/c/7/a/c7a9cf1ca6045a258464163992e344cf193a7522.png" class="latex" alt="$y = 2w$" style="vertical-align: -3px" width="56" height="15" />.
+</p><p>Thus <img src="//latex.artofproblemsolving.com/f/7/3/f73bdb8b7afc0d65091ea6f0273651f21a81b8fd.png" class="latex" alt="$\triangle EDF$" width="60" height="13" /> is a <img src="//latex.artofproblemsolving.com/a/b/b/abb4e8f1484876dd33e74dde765bfff59c9e6939.png" class="latex" alt="$30^{\circ}-60^{\circ}-90^{\circ}$" width="120" height="13" /> right triangle, meaning that <img src="//latex.artofproblemsolving.com/a/3/4/a34d58323b91db7c6d5312b120bd4de80c171ebd.png" class="latex" alt="$x = w\sqrt{3}$" style="vertical-align: -1px" width="73" height="18" />. Now by the Pythagorean Theorem in <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" />, <img src="//latex.artofproblemsolving.com/f/1/9/f1947dd2d098034571dd60480ea4ec530e5b67b0.png" class="latex" alt="$\left(w\sqrt{3}\right)^2 + \left(2w\right)^2 = z^2 \Rightarrow 3w^2 + 4w^2 = z^2 \Rightarrow 7w^2 = z^2 \Rightarrow w\sqrt{7} = z$" style="vertical-align: -11px" width="523" height="35" />.
+</p><p>The problem requires the square of the product of the third side lengths of each triangle, which is <img src="//latex.artofproblemsolving.com/9/0/e/90edd1e9f8bb96c4551c5ecf67fd07ec1ffeef6e.png" class="latex" alt="$(wz)^2$" style="vertical-align: -4px" width="43" height="19" />. By substitution, we see that <img src="//latex.artofproblemsolving.com/3/4/8/3480aca46138a454bb35084317f530e672388798.png" class="latex" alt="$wz$" width="22" height="8" /> = <img src="//latex.artofproblemsolving.com/b/1/a/b1af9f3050b08e9dbfe2d6579503e5cd1da66857.png" class="latex" alt="$\left(w\right)\left(w\sqrt{7}\right) = w^2\sqrt{7}$" style="vertical-align: -11px" width="159" height="32" />. We also know <img src="//latex.artofproblemsolving.com/3/5/1/351d58357c5fa5469849ee7bf9dc04cfd60ac38d.png" class="latex" alt="$\frac{xw}{2} = 1 \Rightarrow\frac{(w)\left(w\sqrt{3}\right)}{2} =1 \Rightarrow (w)\left(w\sqrt{3}\right) = 2 \Rightarrow w^2\sqrt{3} = 2 \Rightarrow w^2 = \frac{2\sqrt{3}}{3}$" style="vertical-align: -12px" width="583" height="52" />. 
+</p><p>Since we want <img src="//latex.artofproblemsolving.com/b/e/e/bee7a2a129fcfbad329791760b1da5e2ff466d71.png" class="latex" alt="$\left(w^2\sqrt{7}\right)^2$" style="vertical-align: -11px" width="72" height="35" />, multiplying both sides by <img src="//latex.artofproblemsolving.com/6/6/8/668ab9010c5f466c28fadada8bfeb8151e858602.png" class="latex" alt="$\sqrt{7}$" style="vertical-align: -1px" width="24" height="18" /> gets us <img src="//latex.artofproblemsolving.com/0/7/a/07a1936e6a9fda7568a02bf092e03fa2f7ef52d9.png" class="latex" alt="$w^2\sqrt{7} = \frac{2\sqrt{21}}{3}$" style="vertical-align: -12px" width="114" height="41" />. Now squaring gives <img src="//latex.artofproblemsolving.com/4/4/0/440ed5a96032192d325b78d8a632436e74aaf760.png" class="latex" alt="$\left(\frac{2\sqrt{21}}{3}\right)^2 = \frac{4*21}{9} = \boxed{\textbf{(A) }\frac{28}{3}}$" style="vertical-align: -22px" width="248" height="56" />.
+</p><p>[Note: there is a mismatch of variables near the beginning that someone can fix: xw/2 is the area of the small triangle, which is actually the 30-60-90.]
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/mXvetCMMzpU">https://youtu.be/mXvetCMMzpU</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2019_AMC_10B" title="2019 AMC 10B">2019 AMC 10B</a></b> (<b><a href="/wiki/index.php/2019_AMC_10B_Problems" title="2019 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_10B_Answer_Key" title="2019 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_14" title="2019 AMC 10B Problems/Problem 14">Problem 14</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_16" title="2019 AMC 10B Problems/Problem 16">Problem 16</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_1" title="2019 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_2" title="2019 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_3" title="2019 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_4" title="2019 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_5" title="2019 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_6" title="2019 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_7" title="2019 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_8" title="2019 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_9" title="2019 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_10" title="2019 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_11" title="2019 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_12" title="2019 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_13" title="2019 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_14" title="2019 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a class="mw-selflink selflink">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_16" title="2019 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2019 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_18" title="2019 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_19" title="2019 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_20" title="2019 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_21" title="2019 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_22" title="2019 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_23" title="2019 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_24" title="2019 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_25" title="2019 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230323035938
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.105 seconds
+Real time usage: 0.109 seconds
+Preprocessor visited node count: 736/1000000
+Preprocessor generated node count: 1964/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13227/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.879      1 -total
+ 76.77%    6.049      1 Template:AMC10_box
+ 19.04%    1.500      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:17292-0!canonical and timestamp 20230323035938 and revision id 191201
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10B_Problems/Problem_15&amp;oldid=191201">https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10B_Problems/Problem_15&amp;oldid=191201</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230323103835 -->
+</html>

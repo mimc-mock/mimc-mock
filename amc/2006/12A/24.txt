@@ -1,0 +1,287 @@
+<p>The expression 
+</p><p><img src="//latex.artofproblemsolving.com/9/6/7/967fd0b1012b67df0bed030293f8a3ce757aaf56.png" class="latex" alt="$(x+y+z)^{2006}+(x-y-z)^{2006}$" style="vertical-align: -4px" width="250" height="19" />
+</p><p>is simplified by expanding it and combining like terms. How many terms are in the simplified expression?
+</p><p><img src="//latex.artofproblemsolving.com/c/3/1/c313505d434cd599eb56ffcd0db13e0d89f8556e.png" class="latex" alt="$\mathrm{(A) \ } 6018\qquad \mathrm{(B) \ } 671,676\qquad \mathrm{(C) \ } 1,007,514\qquad \mathrm{(D) \ } 1,008,016\qquad\mathrm{(E) \ }  2,015,028$" style="vertical-align: -4px" width="634" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>By the <a href="/wiki/index.php/Multinomial_Theorem" title="Multinomial Theorem">Multinomial Theorem</a>, the summands can be written as
+</p><p><img src="//latex.artofproblemsolving.com/7/b/7/7b78526602fd2bf277218a45fd8d1fdcc3efcdf4.png" class="latexcenter" alt="\[\sum_{a+b+c=2006}{\frac{2006!}{a!b!c!}x^ay^bz^c}\]" width="173" height="47" />
+</p><p>and
+</p><p><img src="//latex.artofproblemsolving.com/1/3/5/1353e7455d59a32ac3de47ace211b252a9bd0cf6.png" class="latexcenter" alt="\[\sum_{a+b+c=2006}{\frac{2006!}{a!b!c!}x^a(-y)^b(-z)^c},\]" width="235" height="47" />
+</p><p>respectively. Since the coefficients of like terms are the same in each expression, each like term either cancel one another out or the coefficient doubles. In each expansion there are:
+</p><p><img src="//latex.artofproblemsolving.com/8/d/3/8d3ff6f9a5045933c1619fcab5e8bd4a48ee0457.png" class="latexcenter" alt="\[{2006+2\choose 2} = 2015028\]" width="178" height="53" />
+</p><p>terms without cancellation. For any term in the second expansion to be negative, the parity of the exponents of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> and <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> must be opposite. Now we find a pattern:
+</p><p>if the exponent of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, the exponent of <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> can be all even integers up to <img src="//latex.artofproblemsolving.com/9/0/a/90ae760d1ea10eb7a90d22087b3c7e2393d02117.png" class="latex" alt="$2004$" style="vertical-align: 0px" width="36" height="13" />, so there are <img src="//latex.artofproblemsolving.com/9/1/c/91c1231e0a53f15ef2e95c0afa2a2738e8f9a1ce.png" class="latex" alt="$1003$" style="vertical-align: 0px" width="35" height="13" /> terms.
+</p><p>if the exponent of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, the exponent of <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> can go up to <img src="//latex.artofproblemsolving.com/9/6/e/96e470b7ce7a2f4d0c1ae064d2874ca377693897.png" class="latex" alt="$2002$" width="35" height="12" />, so there are <img src="//latex.artofproblemsolving.com/6/3/a/63a8720f439e8e8887a0746430412c323e81e13c.png" class="latex" alt="$1002$" style="vertical-align: 0px" width="35" height="13" /> terms.
+</p><p><img src="//latex.artofproblemsolving.com/6/9/c/69cdf7ec84ff918cbe7f21acf7543bf1bd243080.png" class="latex" alt="$\vdots$" width="3" height="16" />
+</p><p>if the exponent of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is <img src="//latex.artofproblemsolving.com/9/f/5/9f5b442c275b4324f100c365b774e872b6b21f1e.png" class="latex" alt="$2005$" width="35" height="12" />, then <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> can only be 0, so there is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> term.
+</p><p>If we add them up, we get <img src="//latex.artofproblemsolving.com/7/6/5/76597ea5bcd73e8e5a98311cb10311cba6ba1ad4.png" class="latex" alt="$\frac{1003\cdot1004}{2}$" style="vertical-align: -12px" width="88" height="37" /> terms. However, we can switch the exponents of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> and <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> and these terms will still have a negative sign. So there are a total of <img src="//latex.artofproblemsolving.com/c/7/4/c741cfeee5f1890b749bf1914a988a2d09fd1559.png" class="latex" alt="$1003\cdot1004$" style="vertical-align: 0px" width="85" height="13" /> negative terms.
+</p><p>By subtracting this number from 2015028, we obtain <img src="//latex.artofproblemsolving.com/9/3/0/9304770108cd71ca5c56514980daf0430e861031.png" class="latex" alt="$\boxed{\mathrm{D}}$" style="vertical-align: -5px" width="25" height="24" /> or <img src="//latex.artofproblemsolving.com/6/6/e/66edfbf0a3ae65dfa4af8a9cc3c5c953507b337c.png" class="latex" alt="$1,008,016$" style="vertical-align: -3px" width="79" height="16" /> as our answer.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Alternatively, we can use a <a href="/wiki/index.php/Generating_function" title="Generating function">generating function</a> to solve this problem. 
+The goal is to find the generating function for the number of unique terms in the simplified expression (in terms of <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />). In other words, we want to find <img src="//latex.artofproblemsolving.com/c/9/6/c96dd6ec1dc4ad7520fbdc78fcdbec9edd068d0c.png" class="latex" alt="$f(x)$" style="vertical-align: -4px" width="34" height="18" /> where the coefficient of <img src="//latex.artofproblemsolving.com/1/e/9/1e973203144975e93c31bdba139c105891889743.png" class="latex" alt="$x^k$" width="17" height="15" /> equals the number of unique terms in <img src="//latex.artofproblemsolving.com/0/0/f/00f00acedcd3bbb02cf36fd2b46417908069d5ad.png" class="latex" alt="$(x+y+z)^k + (x-y-z)^k$" style="vertical-align: -4px" width="213" height="20" />.
+</p><p><br />
+First, we note that all unique terms in the expression have the form, <img src="//latex.artofproblemsolving.com/f/c/b/fcbd8eacfd5988c84397e9d7c782748dd9c3b7e1.png" class="latex" alt="$Cx^ay^bz^c$" style="vertical-align: -3px" width="64" height="19" />, where <img src="//latex.artofproblemsolving.com/9/b/0/9b042058072cbe1f939573045d384b477c398bd1.png" class="latex" alt="$a+b+c=k$" style="vertical-align: -1px" width="103" height="14" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is some constant. Therefore, the generating function for the MAXIMUM number of unique terms possible in the simplified expression of <img src="//latex.artofproblemsolving.com/0/0/f/00f00acedcd3bbb02cf36fd2b46417908069d5ad.png" class="latex" alt="$(x+y+z)^k + (x-y-z)^k$" style="vertical-align: -4px" width="213" height="20" /> is
+<img src="//latex.artofproblemsolving.com/8/4/c/84c7d0006cfd2e05e461469355b98a403024b42c.png" class="latexcenter" alt="\[(1+x+x^2+x^3\cdots)^3 = \frac{1}{(1-x)^3}\]" width="259" height="41" />
+</p><p><br />
+Secondly, we note that a certain number of terms of the form, <img src="//latex.artofproblemsolving.com/f/c/b/fcbd8eacfd5988c84397e9d7c782748dd9c3b7e1.png" class="latex" alt="$Cx^ay^bz^c$" style="vertical-align: -3px" width="64" height="19" />, do not appear in the simplified version of our expression because those terms cancel. Specifically, we observe that terms cancel when <img src="//latex.artofproblemsolving.com/3/3/1/331a89bcb582e799d1315974cbe31c78adf9a9ba.png" class="latex" alt="$1 \equiv b+c\text{ (mod }2\text{)}$" style="vertical-align: -4px" width="134" height="17" /> because every unique term is of the form:
+<img src="//latex.artofproblemsolving.com/4/3/9/439e76ff20585a54ea8ac17bcc0f8263e4c81b56.png" class="latexcenter" alt="\[\binom{k}{a,b,c}x^ay^bz^c+(-1)^{b+c}\binom{k}{a,b,c}x^ay^bz^c\]" width="318" height="53" />
+for all possible <img src="//latex.artofproblemsolving.com/a/5/b/a5b29b358e825defa3e11b7d903d43ec31e5909a.png" class="latex" alt="$a,b,c$" style="vertical-align: -3px" width="41" height="16" />.
+</p><p><br />
+Since the generating function for the maximum number of unique terms is already known, it is logical that we want to find the generating function for the number of terms that cancel, also in terms of <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />. With some thought, we see that this desired generating function is the following:
+<img src="//latex.artofproblemsolving.com/e/e/6/ee6d5ceef465fdd6d7a1cb47f3c8363ae8b28f26.png" class="latexcenter" alt="\[2(x+x^3+x^5\cdots)(1+x^2+x^4\cdots)(1+x+x^2+x^3\cdots) = \frac{2x}{(1-x)^3(1+x)^2}\]" width="531" height="41" />
+</p><p><br />
+Now, we want to subtract the latter from the former in order to get the generating function for the number of unique terms in <img src="//latex.artofproblemsolving.com/0/0/f/00f00acedcd3bbb02cf36fd2b46417908069d5ad.png" class="latex" alt="$(x+y+z)^k + (x-y-z)^k$" style="vertical-align: -4px" width="213" height="20" />, our initial goal:
+<img src="//latex.artofproblemsolving.com/9/1/b/91b72d34758e7ed145a1c511bd2723978d2439a4.png" class="latexcenter" alt="\[\frac{1}{(1-x)^3}-\frac{2x}{(1-x)^3(1+x)^2} = \frac{x^2+1}{(1-x)^3(1+x)^2}\]" width="371" height="43" />
+which equals
+<img src="//latex.artofproblemsolving.com/3/0/f/30f0bb48c16a88abe79887795d4c9a4cb7a2724c.png" class="latexcenter" alt="\[(x^2+1)(1+x+x^2\cdots)^3(1-x+x^2-x^3\cdots)^2\]" width="361" height="19" />
+</p><p><br />
+The coefficient of <img src="//latex.artofproblemsolving.com/a/9/a/a9a28c22d4a2bff38b552eeb06956089a0ab161a.png" class="latex" alt="$x^{2006}$" width="36" height="15" /> of the above expression equals
+<img src="//latex.artofproblemsolving.com/6/5/6/656d32098986fa900dc1f04828eb37888180a9bc.png" class="latexcenter" alt="\[\sum_{a=0}^{2006}\binom{2+a}{2}\binom{1+2006-a}{1}(-1)^a + \sum_{a=0}^{2004}\binom{2+a}{2}\binom{1+2004-a}{1}(-1)^a\]" width="555" height="53" />
+</p><p><br />
+Evaluating the expression, we get <img src="//latex.artofproblemsolving.com/e/2/e/e2e2242eb748ddedf085140847e56c50936bc08a.png" class="latex" alt="$1008016$" style="vertical-align: 0px" width="62" height="13" />, as expected.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Define <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> such that <img src="//latex.artofproblemsolving.com/a/6/c/a6c3475766146c4c6afdfd16314cb46165519c2d.png" class="latex" alt="$P=y+z$" style="vertical-align: -3px" width="78" height="16" />. Then the expression in the problem becomes:
+<img src="//latex.artofproblemsolving.com/b/8/7/b87c748fa66e357cd2183bcaf011cad625f28fc3.png" class="latex" alt="$(x+P)^{2006}+(x-P)^{2006}$" style="vertical-align: -4px" width="197" height="19" />. 
+</p><p>Expanding this using binomial theorem gives <img src="//latex.artofproblemsolving.com/a/7/2/a72dddf54e6c24c33f98a6a22135e291dc588fd7.png" class="latex" alt="$(x^n+Px^{n-1}+...+P^{n-1}x+P^n)+(x^n-Px^{n-1}+...-P^{n-1}x+P^n)$" style="vertical-align: -4px" width="545" height="19" />, where <img src="//latex.artofproblemsolving.com/a/3/c/a3c3f002f2d9116dc307409447177d0081edbcc7.png" class="latex" alt="$n=2006$" width="70" height="12" /> (we may omit the coefficients, as we are seeking for the number of terms, not the terms themselves). 
+</p><p>Simplifying gives: <img src="//latex.artofproblemsolving.com/8/3/0/830cc31427ba2a1a109f0c34ee76b4251955b27f.png" class="latex" alt="$2(x^n+x^{n-2}P^2+...+x^2P^{n-2}+P^n)$" style="vertical-align: -4px" width="284" height="19" />. Note that two terms that come out of different powers of <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> cannot combine and simplify, as their exponent of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> will differ. Therefore, we simply add the number of terms produced from each addend. By the Binomial Theorem, <img src="//latex.artofproblemsolving.com/3/c/9/3c95adb9981090d5cbb924dd376cc5432bb1c2e3.png" class="latex" alt="$P^k=(y+z)^k$" style="vertical-align: -4px" width="108" height="20" /> will have <img src="//latex.artofproblemsolving.com/f/0/5/f05f085f774fc8ab50676b778b86a1f1d1114fc8.png" class="latex" alt="$k+1$" style="vertical-align: -1px" width="40" height="14" /> terms, so the answer is <img src="//latex.artofproblemsolving.com/2/0/6/206307c4db645758e6f96bee1e80e7720f6794a4.png" class="latex" alt="$1+3+5+...+2007=1004^2=1,008,016 \implies \boxed{D}$" style="vertical-align: -5px" width="416" height="24" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Using stars and bars we know that <img src="//latex.artofproblemsolving.com/8/8/5/885f148e92c5c714924fc2b8e80c1c88cee12bca.png" class="latex" alt="$(x+y+z)^{2006}$" style="vertical-align: -4px" width="113" height="19" /> has <img src="//latex.artofproblemsolving.com/c/8/f/c8f259bd43561904c57c32446445df0bef90d381.png" class="latex" alt="${2006+2\choose 2}$" style="vertical-align: -22px" width="91" height="53" /> or <img src="//latex.artofproblemsolving.com/a/a/9/aa955e4cd41f7611b0a9dabe07f035f3102faaf5.png" class="latex" alt="$2015028$" style="vertical-align: 0px" width="62" height="13" /> different terms. Now we need to find out how many of these terms are canceled out by <img src="//latex.artofproblemsolving.com/6/8/7/68726252923378ec4f565a169baed2780bfae8b5.png" class="latex" alt="$(x-y-z)^{2006}$" style="vertical-align: -4px" width="113" height="19" />. We know that for any term(let's say <img src="//latex.artofproblemsolving.com/4/9/4/4948e5dde4db14fe9176432066a0e8085b800711.png" class="latex" alt="$x^{a}(-y)^{b}(-z)^{c}$" style="vertical-align: -4px" width="106" height="20" />) where <img src="//latex.artofproblemsolving.com/2/2/d/22d61749698f06d583904f9b6592020c685d91b7.png" class="latex" alt="$a+b+c=2006$" style="vertical-align: -1px" width="129" height="14" /> of the expansion of  <img src="//latex.artofproblemsolving.com/6/8/7/68726252923378ec4f565a169baed2780bfae8b5.png" class="latex" alt="$(x-y-z)^{2006}$" style="vertical-align: -4px" width="113" height="19" /> is only going to cancel out with the corresponding term <img src="//latex.artofproblemsolving.com/c/d/3/cd37e0ef92a9b51870667d66cc25445fc059821a.png" class="latex" alt="$x^{a}y^{b}z^{c}$" style="vertical-align: -3px" width="50" height="19" /> if only <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is odd and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> is even or <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is even and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> is odd. Now let's do some casework to see how many terms fit this criteria:
+</p><p>Case 1:    <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is even  
+</p><p>Now we know that <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is even and <img src="//latex.artofproblemsolving.com/2/2/d/22d61749698f06d583904f9b6592020c685d91b7.png" class="latex" alt="$a+b+c=2006$" style="vertical-align: -1px" width="129" height="14" />. Thus <img src="//latex.artofproblemsolving.com/c/9/b/c9bbeb7caa1770d1d3cb842655f27e245b08188f.png" class="latex" alt="$b+c$" style="vertical-align: -1px" width="38" height="14" /> is also even or both <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> are odd or both <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> are even. This case clearly fails the above criteria and there are 0 possible solutions.
+</p><p>Case 2:    <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is odd
+</p><p>Now we know that <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is odd and <img src="//latex.artofproblemsolving.com/2/2/d/22d61749698f06d583904f9b6592020c685d91b7.png" class="latex" alt="$a+b+c=2006$" style="vertical-align: -1px" width="129" height="14" />. Thus <img src="//latex.artofproblemsolving.com/c/9/b/c9bbeb7caa1770d1d3cb842655f27e245b08188f.png" class="latex" alt="$b+c$" style="vertical-align: -1px" width="38" height="14" /> is odd and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is odd and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> is even or <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is even and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> is odd. All terms that have <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> being odd work.
+</p><p>We now need to figure out how many of the terms have <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> as a odd number. We know that <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> can be equal to any number between 0 and 2006. There are 1003 odd numbers between this range and 2007 total numbers. Thus <img src="//latex.artofproblemsolving.com/0/3/1/03129dbc0986de892fbc26032082f7ac8814b980.png" class="latex" alt="$\frac{1003}{2007}$" style="vertical-align: -12px" width="38" height="37" /> of the <img src="//latex.artofproblemsolving.com/a/a/9/aa955e4cd41f7611b0a9dabe07f035f3102faaf5.png" class="latex" alt="$2015028$" style="vertical-align: 0px" width="62" height="13" /> terms will cancel out and  <img src="//latex.artofproblemsolving.com/6/b/9/6b93de132ac08d87bb603ab2404cbacef6b7a412.png" class="latex" alt="$\frac{1004}{2007}$" style="vertical-align: -12px" width="38" height="37" /> of the terms will work. Thus there are <img src="//latex.artofproblemsolving.com/e/1/4/e1493d6e676ef92bade52fe10fb0dbc27723ca00.png" class="latex" alt="$(\frac{1004}{2007})(2015028)$" style="vertical-align: -12px" width="130" height="37" /> terms. This number comes out to be <img src="//latex.artofproblemsolving.com/6/6/e/66edfbf0a3ae65dfa4af8a9cc3c5c953507b337c.png" class="latex" alt="$1,008,016$" style="vertical-align: -3px" width="79" height="16" /> <img src="//latex.artofproblemsolving.com/c/1/0/c10184ee1bf9d734669788d287ba350c73108f41.png" class="latex" alt="$\implies \boxed{D}$" style="vertical-align: -5px" width="71" height="24" />
+(Author: David Camacho)
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<ul><li><a href="/wiki/index.php/2006_AMC_12A_Problems" title="2006 AMC 12A Problems">2006 AMC 12A Problems</a></li></ul>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2006_AMC_12A" title="2006 AMC 12A">2006 AMC 12A</a></b> (<b><a href="/wiki/index.php/2006_AMC_12A_Problems" title="2006 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2006_AMC_12A_Answer_Key" title="2006 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_23" title="2006 AMC 12A Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_25" title="2006 AMC 12A Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_1" title="2006 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_2" title="2006 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_3" title="2006 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_4" title="2006 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_5" title="2006 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_6" title="2006 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_7" title="2006 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_8" title="2006 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_9" title="2006 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_10" title="2006 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_11" title="2006 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_12" title="2006 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_13" title="2006 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_14" title="2006 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_15" title="2006 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_16" title="2006 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_17" title="2006 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_18" title="2006 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_19" title="2006 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_20" title="2006 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_21" title="2006 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_22" title="2006 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_23" title="2006 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12A_Problems/Problem_25" title="2006 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208140559
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.115 seconds
+Real time usage: 0.117 seconds
+Preprocessor visited node count: 978/1000000
+Preprocessor generated node count: 2504/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 16679/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.088      1 -total
+ 78.40%    6.341      1 Template:AMC12_box
+ 19.36%    1.566      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2361-0!canonical and timestamp 20230208140559 and revision id 140816
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12A_Problems/Problem_24&amp;oldid=140816">https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12A_Problems/Problem_24&amp;oldid=140816</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209001528 -->
+</html>

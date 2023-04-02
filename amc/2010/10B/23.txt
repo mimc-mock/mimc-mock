@@ -1,0 +1,275 @@
+<p>The entries in a <img src="//latex.artofproblemsolving.com/d/2/7/d278803d72fcc493afb1559174a483aa7f41d143.png" class="latex" alt="$3 \times 3$" width="40" height="12" /> array include all the digits from <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> through <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, arranged so that the entries in every row and column are in increasing order. How many such arrays are there?
+</p><p><img src="//latex.artofproblemsolving.com/c/6/5/c653cdbb6e1ffcd28616c181b59b36ef708ca0b5.png" class="latex" alt="$\textbf{(A)}\ 18 \qquad \textbf{(B)}\ 24 \qquad \textbf{(C)}\ 36 \qquad \textbf{(D)}\ 42 \qquad \textbf{(E)}\ 60$" style="vertical-align: -4px" width="394" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Observe that all tables must have 1s and 9s in the corners, 8s and 2s next to those corner squares, and 4-6 in the middle square. Also note that for each table, there exists a valid table diagonally symmetrical across the diagonal extending from the top left to the bottom right. 
+</p><p><br />
+</p>
+<ul><li><b>Case 1: Center 4</b></li></ul>
+<p><img src="//latex.artofproblemsolving.com/c/a/f/caf48ebf925e6642ea983260dc322a77a100a088.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;\\ \hline 3&amp;4&amp;8\\ \hline &amp;&amp;9\\ \hline \end{tabular} \;\;\; \begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;\\ \hline 3&amp;4&amp;\\ \hline &amp;8&amp;9\\ \hline \end{tabular}\]" width="185" height="63" />
+</p><p>3 necessarily must be placed as above. Any number could fill the isolated square, but the other 2 are then invariant. So, there are 3 cases each and 6 overall cases. Given diagonal symmetry, alternate 2 and 8 placements yield symmetrical cases. <img src="//latex.artofproblemsolving.com/2/2/9/22974a9606055a8ca8d8d2f1fce369557a5bf691.png" class="latex" alt="$2*6=12$" style="vertical-align: 0px" width="77" height="13" />
+</p>
+<ul><li><b>Case 2: Center 5</b></li></ul>
+<p><img src="//latex.artofproblemsolving.com/0/6/2/062f79ecd82412a93b75b35f14a29ed14462fc0c.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;3\\ \hline 4&amp;5&amp;\\ \hline &amp;8&amp;9\\ \hline \end{tabular} \;\;\; \begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;\\ \hline 3&amp;5&amp;\\ \hline &amp;8&amp;9\\ \hline \end{tabular} \;\;\; \begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;\\ \hline 3&amp;5&amp;8\\ \hline &amp;&amp;9\\ \hline \end{tabular} \;\;\; \begin{tabular}{|c|c|c|} \hline 1&amp;2&amp;3\\ \hline 4&amp;5&amp;8\\ \hline &amp;&amp;9\\ \hline \end{tabular}\]" width="385" height="63" />
+</p><p>Here, no 3s or 7s are assured, but this is only a teensy bit trickier and messier. WLOG, casework with 3 instead of 7 as above. Remembering that <img src="//latex.artofproblemsolving.com/f/1/6/f16d34224d53ae631ec9ebc49100a14047794cea.png" class="latex" alt="$4&lt;5$" style="vertical-align: 0px" width="42" height="13" />, logically see that the numbers of cases are then 2,3,3,1 respectively. By symmetry, <img src="//latex.artofproblemsolving.com/b/f/6/bf6de2dbd4663cc0f5f65242cac7048300b41d31.png" class="latex" alt="$2*9=18$" style="vertical-align: 0px" width="77" height="13" />
+</p>
+<ul><li><b>Case 3: Center 6</b></li></ul>
+<p>By inspection, realize that this is symmetrical to case 1 except that the 7s instead of the 3s are assured.
+<img src="//latex.artofproblemsolving.com/2/2/9/22974a9606055a8ca8d8d2f1fce369557a5bf691.png" class="latex" alt="$2*6=12$" style="vertical-align: 0px" width="77" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/3/0/c/30c184c1b20b9078b59d735b5eaba48244e4a096.png" class="latexcenter" alt="\[12+18+12=\boxed{\textbf{D)}42}\]" width="174" height="28" />
+</p><p><br />
+~BJHHar
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>This solution is trivial by the hook length theorem. The hooks look like this:
+</p><p><img src="//latex.artofproblemsolving.com/0/b/b/0bb493e07f07e2e70f98a4df8b01815e28e1417c.png" class="latex" alt="$\begin{tabular}{|c|c|c|} \hline 5 &amp; 4 &amp; 3 \\ \hline 4 &amp; 3 &amp; 2\\ \hline 3 &amp; 2 &amp; 1\\ \hline \end{tabular}$" style="vertical-align: -26px" width="86" height="62" />
+</p><p>So, the answer is <img src="//latex.artofproblemsolving.com/5/7/d/57d5d21950e3b6b714f38fda41be2e8641521704.png" class="latex" alt="$\frac{9!}{5 \cdot 4 \cdot 3 \cdot 4 \cdot 3 \cdot 2 \cdot 3 \cdot 2 \cdot 1}$" style="vertical-align: -13px" width="189" height="38" /> = <img src="//latex.artofproblemsolving.com/8/5/4/85484b70ba4bf8ba6d59438baaf7cb18b149987a.png" class="latex" alt="$\boxed{\text{(D) }42}$" style="vertical-align: -10px" width="61" height="28" />
+</p><p>P.S. The hook length formula is a formula to calculate the number of standard Young tableaux of a Young diagram. Numberphile has an easy-to-understand video about it here: <a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=vgZhrEs4tuk">https://www.youtube.com/watch?v=vgZhrEs4tuk</a> The full proof is quite complicated and is not given in the video, although the video hints at possible proofs.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ZfnxbpdFKjU?t=422">https://youtu.be/ZfnxbpdFKjU?t=422</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2010_AMC_12B" title="2010 AMC 12B">2010 AMC 12B</a></b> (<b><a href="/wiki/index.php/2010_AMC_12B_Problems" title="2010 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2010_AMC_12B_Answer_Key" title="2010 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_16" title="2010 AMC 12B Problems/Problem 16">Problem 16</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_18" title="2010 AMC 12B Problems/Problem 18">Problem 18</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_1" title="2010 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_2" title="2010 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_3" title="2010 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_4" title="2010 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_5" title="2010 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_6" title="2010 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_7" title="2010 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_8" title="2010 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_9" title="2010 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_10" title="2010 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_11" title="2010 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_12" title="2010 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_13" title="2010 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_14" title="2010 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_15" title="2010 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_16" title="2010 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a class="mw-selflink selflink">17</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_18" title="2010 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_19" title="2010 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_20" title="2010 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_21" title="2010 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_22" title="2010 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_23" title="2010 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_24" title="2010 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12B_Problems/Problem_25" title="2010 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2010_AMC_10B" title="2010 AMC 10B">2010 AMC 10B</a></b> (<b><a href="/wiki/index.php/2010_AMC_10B_Problems" title="2010 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2010_AMC_10B_Answer_Key" title="2010 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_22" title="2010 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2010 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_1" title="2010 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_2" class="mw-redirect" title="2010 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_3" title="2010 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_4" title="2010 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2010 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_6" title="2010 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_7" title="2010 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2010 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_9" class="mw-redirect" title="2010 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2010 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_11" title="2010 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_12" class="mw-redirect" title="2010 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_13" title="2010 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_14" class="mw-redirect" title="2010 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_15" title="2010 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_16" title="2010 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2010 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_18" class="mw-redirect" title="2010 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_19" title="2010 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_20" title="2010 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_21" class="mw-redirect" title="2010 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_22" title="2010 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_23" class="mw-redirect" title="2010 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2010 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2010 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402120850
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.096 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 313/1000000
+Preprocessor generated node count: 1390/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3367/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   18.607      1 -total
+ 31.61%    5.882      1 Template:AMC10_box
+ 28.62%    5.325      1 Template:AMC12_box
+  9.06%    1.686      1 Template:Duplicate
+  7.24%    1.347      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:8829-0!canonical and timestamp 20230402120850 and revision id 179202
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_12B_Problems/Problem_17&amp;oldid=179202">https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_12B_Problems/Problem_17&amp;oldid=179202</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

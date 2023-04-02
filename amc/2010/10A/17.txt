@@ -1,0 +1,266 @@
+<p>A solid cube has side length 3 inches. A 2-inch by 2-inch square hole is cut into the center of each face. The edges of each cut are parallel to the edges of the cube, and each hole goes all the way through the cube. What is the volume, in cubic inches, of the remaining solid?
+</p><p><img src="//latex.artofproblemsolving.com/4/4/3/443e77961d5932cb9ef01b8d911a5ccb55ca9a59.png" class="latex" alt="$\textbf{(A)}\ 7 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 10 \qquad \textbf{(D)}\ 12 \qquad \textbf{(E)}\ 15$" style="vertical-align: -4px" width="376" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Imagine making the cuts one at a time. The first cut removes a box <img src="//latex.artofproblemsolving.com/e/0/0/e00c42619c12f749a3bb75e5b4afcadc7bafd32c.png" class="latex" alt="$2\times 2\times 3$" width="71" height="12" />. The second cut removes two boxes, each of dimensions <img src="//latex.artofproblemsolving.com/d/c/c/dcc5de5cb27afbd247a2fcd9e841b4c6874180f5.png" class="latex" alt="$2\times 2\times 0.5$" width="85" height="12" />, and the third cut does the same as the second cut, on the last two faces. Hence the total volume of all cuts is <img src="//latex.artofproblemsolving.com/5/9/f/59f7389c3fbb2e4636e89c605442703d4da62426.png" class="latex" alt="$12 + 4 + 4 = 20$" style="vertical-align: -1px" width="122" height="14" />.
+</p><p>Therefore the volume of the rest of the cube is <img src="//latex.artofproblemsolving.com/c/8/2/c82eb5dcf2782cbd0fa6df391f9ef104645f4645.png" class="latex" alt="$3^3 - 20 = 27 - 20 = \boxed{7\ \textbf{(A)}}$" style="vertical-align: -10px" width="219" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>We can use <a href="/wiki/index.php/Principle_of_Inclusion-Exclusion" title="Principle of Inclusion-Exclusion">Principle of Inclusion-Exclusion</a> (PIE) to find the final volume of the cube.
+</p><p>There are 3 "cuts" through the cube that go from one end to the other. Each of these "cuts" has <img src="//latex.artofproblemsolving.com/a/e/8/ae8fdb2e885ba6e56da28228574598968b7ba0d2.png" class="latex" alt="$2 \times 2 \times 3=12$" style="vertical-align: 0px" width="113" height="13" /> cubic inches. However, we can not just sum their volumes, as
+the central <img src="//latex.artofproblemsolving.com/e/1/c/e1c22f5c1912027b16c00cd431cb20cda62ed955.png" class="latex" alt="$2\times 2\times 2$" width="71" height="12" /> cube is included in each of these three cuts. To get the correct result, we can take the sum of the volumes of the three cuts, and subtract the volume of the central cube twice.
+</p><p>Hence the total volume of the cuts is <img src="//latex.artofproblemsolving.com/6/6/c/66c15a2ac38e6ee451895551e7eb72dba099b6db.png" class="latex" alt="$3(2 \times 2 \times 3) - 2(2\times 2\times 2) = 36 - 16 = 20$" style="vertical-align: -4px" width="336" height="18" />.
+</p><p>Therefore the volume of the rest of the cube is <img src="//latex.artofproblemsolving.com/c/8/2/c82eb5dcf2782cbd0fa6df391f9ef104645f4645.png" class="latex" alt="$3^3 - 20 = 27 - 20 = \boxed{7\ \textbf{(A)}}$" style="vertical-align: -10px" width="219" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>We can visualize the final figure and see a cubic frame. We can find the volume of the figure by adding up the volumes of the edges and corners.
+</p><p>Each edge can be seen as a <img src="//latex.artofproblemsolving.com/9/6/1/96189382193e5a3430aadd81400e0df04b65b5f9.png" class="latex" alt="$2\times 0.5\times 0.5$" width="99" height="12" /> box, and each corner can be seen as a <img src="//latex.artofproblemsolving.com/4/3/b/43b7c89aee001e4b69ec09f207b4bb598fbe50c8.png" class="latex" alt="$0.5\times 0.5\times 0.5$" width="113" height="12" /> box.
+</p><p><img src="//latex.artofproblemsolving.com/f/4/6/f462a7033eeb1a206f1926296f223a8c5d150e29.png" class="latex" alt="$12\cdot{\frac{1}{2}} + 8\cdot{\frac{1}{8}} = 6+1 = \boxed{7\ \textbf{(A)}}$" style="vertical-align: -12px" width="246" height="37" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_the_Beauty_of_Math">Video Solution by the Beauty of Math</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/rsURe5Xh-j0?t=354">https://youtu.be/rsURe5Xh-j0?t=354</a>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2010_AMC_10A" title="2010 AMC 10A">2010 AMC 10A</a></b> (<b><a href="/wiki/index.php/2010_AMC_10A_Problems" title="2010 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2010_AMC_10A_Answer_Key" title="2010 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2010 AMC 10A Problems/Problem 16">Problem 16</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_18" class="mw-redirect" title="2010 AMC 10A Problems/Problem 18">Problem 18</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_1" title="2010 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_2" title="2010 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_3" title="2010 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_4" title="2010 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_5" title="2010 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_6" title="2010 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_7" title="2010 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_8" title="2010 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2010 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_10" title="2010 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_11" title="2010 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_12" class="mw-redirect" title="2010 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_13" title="2010 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2010 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_15" class="mw-redirect" title="2010 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2010 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2010 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_18" class="mw-redirect" title="2010 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_19" class="mw-redirect" title="2010 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_20" title="2010 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_21" title="2010 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_22" title="2010 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_23" class="mw-redirect" title="2010 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2010 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_10A_Problems/Problem_25" title="2010 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2010_AMC_12A" title="2010 AMC 12A">2010 AMC 12A</a></b> (<b><a href="/wiki/index.php/2010_AMC_12A_Problems" title="2010 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2010_AMC_12A_Answer_Key" title="2010 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_8" title="2010 AMC 12A Problems/Problem 8">Problem 8</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_10" title="2010 AMC 12A Problems/Problem 10">Problem 10</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_1" title="2010 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_2" title="2010 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_3" title="2010 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_4" title="2010 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_5" title="2010 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_6" title="2010 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_7" title="2010 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_8" title="2010 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a class="mw-selflink selflink">9</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_10" title="2010 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_11" title="2010 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_12" title="2010 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_13" title="2010 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_14" title="2010 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_15" title="2010 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_16" title="2010 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_17" title="2010 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_18" title="2010 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_19" title="2010 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_20" title="2010 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_21" title="2010 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_22" title="2010 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_23" title="2010 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_24" title="2010 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2010_AMC_12A_Problems/Problem_25" title="2010 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402151104
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.091 seconds
+Real time usage: 0.095 seconds
+Preprocessor visited node count: 303/1000000
+Preprocessor generated node count: 1358/1000000
+Post‐expand include size: 4322/2097152 bytes
+Template argument size: 402/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2376/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   18.709      1 -total
+ 31.59%    5.910      1 Template:AMC10_box
+ 28.98%    5.421      1 Template:AMC12_box
+  8.78%    1.642      1 Template:Duplicate
+  8.31%    1.555      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:8487-0!canonical and timestamp 20230402151104 and revision id 156998
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_12A_Problems/Problem_9&amp;oldid=156998">https://artofproblemsolving.com/wiki/index.php?title=2010_AMC_12A_Problems/Problem_9&amp;oldid=156998</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

@@ -1,0 +1,283 @@
+<p>A rectangular box measures <img src="//latex.artofproblemsolving.com/b/f/3/bf3d9b424fcffe6d4482e03cc0c43c3e601fb37a.png" class="latex" alt="$a \times b \times c$" width="70" height="12" />, where <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> are integers and <img src="//latex.artofproblemsolving.com/0/1/5/01523f6c1798bfb43d905eeac4f150c78be0bc6c.png" class="latex" alt="$1\leq a \leq b \leq c$" style="vertical-align: -2px" width="107" height="15" />. The volume and the surface area of the box are numerically equal. How many ordered triples <img src="//latex.artofproblemsolving.com/f/3/d/f3d9e22097e20a1249b5332202b24941a4bf9e1f.png" class="latex" alt="$(a,b,c)$" style="vertical-align: -4px" width="54" height="18" /> are possible?
+</p><p><img src="//latex.artofproblemsolving.com/7/0/4/70447e360d87d4358f2281f528feb26230097b96.png" class="latex" alt="$\textbf{(A)}\; 4 \qquad\textbf{(B)}\; 10 \qquad\textbf{(C)}\; 12 \qquad\textbf{(D)}\; 21 \qquad\textbf{(E)}\; 26$" style="vertical-align: -4px" width="382" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>We need <img src="//latex.artofproblemsolving.com/8/9/d/89d75a753449af45da9e28983d617470672219f4.png" class="latexcenter" alt="\[abc = 2(ab+bc+ac) \quad \text{ or } \quad (a-2)bc = 2a(b+c).\]" width="396" height="18" />
+Since <img src="//latex.artofproblemsolving.com/6/f/c/6fcd3ba7754635ba32c2f4fbfcc3a9f2c55fa11a.png" class="latex" alt="$a\le b, ac \le bc$" style="vertical-align: -4px" width="109" height="18" />, from the first equation we get <img src="//latex.artofproblemsolving.com/0/4/c/04c647195670c7a6e484ce8ac9cf3d1bf5c16662.png" class="latex" alt="$abc \le 6bc$" style="vertical-align: -2px" width="74" height="15" />. Thus <img src="//latex.artofproblemsolving.com/8/6/c/86caa5541d61970a8b4bb81cefbb51c5c164f1e5.png" class="latex" alt="$a\le 6$" style="vertical-align: -2px" width="42" height="15" />. From the second equation we see that <img src="//latex.artofproblemsolving.com/e/5/8/e583b2012f12f1e75e592617eeaff88016f1d9f5.png" class="latex" alt="$a &gt; 2$" style="vertical-align: 0px" width="42" height="12" />. Thus <img src="//latex.artofproblemsolving.com/d/c/f/dcf5b63b29391a19f877f895230e1700c7c87843.png" class="latex" alt="$a\in \{3, 4, 5, 6\}$" style="vertical-align: -4px" width="109" height="18" />. 
+</p>
+<ul><li>If <img src="//latex.artofproblemsolving.com/3/4/0/340605c5f88cf6864adc5b146c3dffca7a45df22.png" class="latex" alt="$a=3$" width="42" height="12" /> we need <img src="//latex.artofproblemsolving.com/2/0/f/20f8957e53d1b427f3c4bea42c2f777475cc44ee.png" class="latex" alt="$bc = 6(b+c) \Rightarrow (b-6)(c-6)=36$" style="vertical-align: -4px" width="277" height="18" />. We get <b>five</b> roots <img src="//latex.artofproblemsolving.com/9/7/2/972c175653dd26cee6485793990aaf48fcad986a.png" class="latex" alt="$\{(3, 7, 42), (3, 8, 24), (3,9,18), (3, 10, 15), (3,12,12)\}$" style="vertical-align: -5px" width="404" height="20" />.</li></ul>
+<ul><li>If <img src="//latex.artofproblemsolving.com/c/7/f/c7ffa3b8792f0170bce1ab6008e907343100d70e.png" class="latex" alt="$a=4$" style="vertical-align: 0px" width="43" height="12" /> we need <img src="//latex.artofproblemsolving.com/0/c/5/0c5252a64df98a40335e897265ff4b66a20356c4.png" class="latex" alt="$2bc = 8(b+c) \Rightarrow bc = 4(b+c) \Rightarrow (b-4)(c-4)=16$" style="vertical-align: -5px" width="419" height="20" />. We get <b>three</b> roots <img src="//latex.artofproblemsolving.com/6/2/f/62f9d6c6a6f566bf26846b0ff271c78f6847fcc3.png" class="latex" alt="$\{(4,5,20), (4,6,12), (4,8,8)\}$" style="vertical-align: -4px" width="224" height="18" />.</li></ul>
+<ul><li>If <img src="//latex.artofproblemsolving.com/5/3/8/53897e4b47f6049266b4bffcef91bc949385b5e2.png" class="latex" alt="$a=5$" width="42" height="12" /> we need <img src="//latex.artofproblemsolving.com/0/4/6/0461bec8d096566cdfcc614d58108583495d3f4e.png" class="latex" alt="$3bc = 10(b+c) \Rightarrow 9bc=30(b+c) \Rightarrow (3b-10)(3c-10)=100$" style="vertical-align: -5px" width="491" height="20" />. We get <b>one</b> root <img src="//latex.artofproblemsolving.com/e/c/8/ec8375d1d9678724366c63e91315704fab32d5f4.png" class="latex" alt="$\{(5,5,10)\}$" style="vertical-align: -5px" width="87" height="20" />.</li></ul>
+<ul><li>If <img src="//latex.artofproblemsolving.com/f/a/5/fa5507ab5a3d1f06941dabd1c26505d646367983.png" class="latex" alt="$a=6$" width="42" height="12" /> we need <img src="//latex.artofproblemsolving.com/7/5/7/757eb1386fccef30fe5ab4abea97d0344be77172.png" class="latex" alt="$4bc = 12(b+c) \Rightarrow bc = 3(b+c) \Rightarrow (b-3)(c-3)=9$" style="vertical-align: -5px" width="419" height="20" />. We get <b> one</b> root <img src="//latex.artofproblemsolving.com/e/4/0/e407317873748ac3009d79a9f6a77318aaf3d755.png" class="latex" alt="$\{(6,6,6)\}$" style="vertical-align: -5px" width="78" height="20" />.</li></ul>
+<p>Thus, there are <img src="//latex.artofproblemsolving.com/7/d/8/7d8f5f4eda652534a927025f5cd62701ef2703e1.png" class="latex" alt="$5+3+1+1 = \boxed{\textbf{(B)}\; 10}$" style="vertical-align: -10px" width="190" height="28" /> solutions.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>The surface area is <img src="//latex.artofproblemsolving.com/f/1/8/f182b4f8378303d8d89e6b737afdc3df2c421776.png" class="latex" alt="$2(ab+bc+ca)$" style="vertical-align: -4px" width="116" height="18" />, and the volume is <img src="//latex.artofproblemsolving.com/9/6/a/96a81938ca5e71faa6894d9d52ac776c9efbe75d.png" class="latex" alt="$abc$" width="25" height="12" />, so equating the two yields 
+</p><p><img src="//latex.artofproblemsolving.com/5/4/9/54931370c041573e3a8cca703c10893e3ad72b48.png" class="latexcenter" alt="\[2(ab+bc+ca)=abc.\]" width="171" height="18" />
+</p><p>Divide both sides by <img src="//latex.artofproblemsolving.com/0/8/9/08911b936e3accddc46c7e38445f312b17fdffd5.png" class="latex" alt="$2abc$" width="34" height="12" /> to obtain <img src="//latex.artofproblemsolving.com/7/0/1/7015aa0f25ec791b015812b9ebf3c0429b13bed5.png" class="latexcenter" alt="\[\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{1}{2}.\]" width="123" height="37" />
+</p><p>First consider the bound of the variable <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />. Since <img src="//latex.artofproblemsolving.com/a/7/5/a75a5f681a2879c67cceba4621813273a1879f63.png" class="latex" alt="$\frac{1}{a}&lt;\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{1}{2},$" style="vertical-align: -12px" width="163" height="37" /> we have <img src="//latex.artofproblemsolving.com/9/5/9/9595e75b87fc7454d6ebed7496c7515708441f39.png" class="latex" alt="$a&gt;2$" style="vertical-align: 0px" width="42" height="12" />, or <img src="//latex.artofproblemsolving.com/5/7/d/57dc94638228eaa5b11eaf7ea8448f17439ed37a.png" class="latex" alt="$a\geqslant3$" style="vertical-align: -2px" width="42" height="15" />.
+</p><p>Also note that <img src="//latex.artofproblemsolving.com/9/f/8/9f88767c693db8aba4a0f2878b8a5d31fad0cb26.png" class="latex" alt="$c \geq b \geq a &gt; 0$" style="vertical-align: -2px" width="106" height="15" />, hence <img src="//latex.artofproblemsolving.com/b/9/9/b99b41d78e818dab5b4bf411830f71560675fb40.png" class="latex" alt="$\frac{1}{a} \geq \frac{1}{b}  \geq \frac{1}{c}$" style="vertical-align: -12px" width="86" height="37" />.
+Thus, <img src="//latex.artofproblemsolving.com/f/a/d/fade8ba216bde34501613de45bc5b827318e3163.png" class="latex" alt="$\frac{1}{2}=\frac{1}{a}+\frac{1}{b}+\frac{1}{c} \leq \frac{3}{a}$" style="vertical-align: -12px" width="157" height="37" />, so <img src="//latex.artofproblemsolving.com/5/c/7/5c740fa582712f833bab10332eeeeeb4cd6a4659.png" class="latex" alt="$a \leq 6$" style="vertical-align: -2px" width="42" height="15" />.
+</p><p>So we have <img src="//latex.artofproblemsolving.com/9/d/8/9d8f217754c93f26f1d5b73911a7886386c440eb.png" class="latex" alt="$a=3, 4, 5$" style="vertical-align: -3px" width="76" height="16" /> or <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />.
+</p><p>Before the casework, let's consider the possible range for <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> if <img src="//latex.artofproblemsolving.com/f/b/1/fb1f29e8bb5eb3906509fd91d8aa5fce9d366abc.png" class="latex" alt="$\frac{1}{b}+\frac{1}{c}=k&gt;0$" style="vertical-align: -12px" width="115" height="37" />. From <img src="//latex.artofproblemsolving.com/b/e/e/bee4b26df806515d895ae5234149e661ed318190.png" class="latex" alt="$\frac{1}{b}&lt;k$" style="vertical-align: -12px" width="47" height="37" />, we have <img src="//latex.artofproblemsolving.com/3/4/d/34da7a36cf6f9503f7da3a4a881e523b8c4678e3.png" class="latex" alt="$b&gt;\frac{1}{k}$" style="vertical-align: -12px" width="44" height="37" />. From <img src="//latex.artofproblemsolving.com/3/1/3/3132c950970cd711af38e10a6e5cba5c3d3cf272.png" class="latex" alt="$\frac{2}{b} \geq \frac{1}{b}+\frac{1}{c}=k$" style="vertical-align: -12px" width="119" height="37" />, we have <img src="//latex.artofproblemsolving.com/b/b/5/bb5c5a13933b9010d2215c547d849835cf179882.png" class="latex" alt="$b \leq \frac{2}{k}$" style="vertical-align: -12px" width="44" height="37" />. Thus <img src="//latex.artofproblemsolving.com/d/d/c/ddc1b655f64eb1c796248ac46b4563651fda7896.png" class="latex" alt="$\frac{1}{k}&lt;b \leq \frac{2}{k}$" style="vertical-align: -12px" width="83" height="37" />.
+</p><p>When <img src="//latex.artofproblemsolving.com/3/4/0/340605c5f88cf6864adc5b146c3dffca7a45df22.png" class="latex" alt="$a=3$" width="42" height="12" />, we get <img src="//latex.artofproblemsolving.com/e/5/d/e5d84a2ad4b6ba9b6b72ba58b0c9b3c0f80b1b79.png" class="latex" alt="$\frac{1}{b}+\frac{1}{c}=\frac{1}{6}$" style="vertical-align: -12px" width="84" height="37" />, so <img src="//latex.artofproblemsolving.com/e/d/c/edc650ad06ab13551ff661aebe2ca1471382ccbe.png" class="latex" alt="$b=7, 8, 9, 10, 11, 12$" style="vertical-align: -3px" width="153" height="16" />. We find the solutions <img src="//latex.artofproblemsolving.com/9/8/9/9890c70ff65ffa7784d370ffce8926a64f7a91d1.png" class="latex" alt="$(a, b, c)=(3, 7, 42)$" style="vertical-align: -4px" width="144" height="18" />, <img src="//latex.artofproblemsolving.com/3/a/1/3a1091a5331528b482937c6af80d9c4a8493118d.png" class="latex" alt="$(3, 8, 24)$" style="vertical-align: -4px" width="65" height="18" />, <img src="//latex.artofproblemsolving.com/0/4/0/04085b5bea936e87726472aedda146204525c417.png" class="latex" alt="$(3, 9, 18)$" style="vertical-align: -4px" width="65" height="18" />, <img src="//latex.artofproblemsolving.com/7/2/f/72f342a98bb93f0e2cb15fed6bed10303e9e7f4d.png" class="latex" alt="$(3, 10, 15)$" style="vertical-align: -4px" width="74" height="18" />, <img src="//latex.artofproblemsolving.com/9/7/9/9797d03dc9a0a9c1e3cac45452e727bef0f148f9.png" class="latex" alt="$(3, 12, 12)$" style="vertical-align: -4px" width="74" height="18" />, for a total of <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> solutions.
+</p><p>When <img src="//latex.artofproblemsolving.com/c/7/f/c7ffa3b8792f0170bce1ab6008e907343100d70e.png" class="latex" alt="$a=4$" style="vertical-align: 0px" width="43" height="12" />, we get <img src="//latex.artofproblemsolving.com/9/8/5/985e5cf372383cad8160d998f4bccdb4062674c7.png" class="latex" alt="$\frac{1}{b}+\frac{1}{c}=\frac{1}{4}$" style="vertical-align: -13px" width="84" height="37" />, so <img src="//latex.artofproblemsolving.com/e/2/b/e2bff6112fa83446bdbc950e1f30fde1d40c2ea7.png" class="latex" alt="$b=5, 6, 7, 8$" style="vertical-align: -3px" width="92" height="16" />. We find the solutions <img src="//latex.artofproblemsolving.com/9/f/6/9f6fb53ca9bbe72101bfe84f224c35a617dfe545.png" class="latex" alt="$(a, b, c)=(4, 5, 20)$" style="vertical-align: -4px" width="144" height="18" />, <img src="//latex.artofproblemsolving.com/7/9/7/7973a1a3ddd9f70d1ca4d17e64e296b75a44a973.png" class="latex" alt="$(4, 6, 12)$" style="vertical-align: -4px" width="65" height="18" />, <img src="//latex.artofproblemsolving.com/e/5/2/e52598e4b747629459492a0d8728bd46fa49d79a.png" class="latex" alt="$(4, 8, 8)$" style="vertical-align: -4px" width="56" height="18" />, for a total of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> solutions.
+</p><p>When <img src="//latex.artofproblemsolving.com/5/3/8/53897e4b47f6049266b4bffcef91bc949385b5e2.png" class="latex" alt="$a=5$" width="42" height="12" />, we get <img src="//latex.artofproblemsolving.com/7/2/5/725c56a5007d16abe9fefca92abe5cfcd432f25d.png" class="latex" alt="$\frac{1}{b}+\frac{1}{c}=\frac{3}{10}$" style="vertical-align: -13px" width="93" height="38" />, so <img src="//latex.artofproblemsolving.com/1/5/8/158f2d0e510cedad96d963e2138adfade17ededc.png" class="latex" alt="$b=5, 6$" style="vertical-align: -3px" width="57" height="16" />. The only solution in this case is <img src="//latex.artofproblemsolving.com/8/e/5/8e5053fee2a34405a95f661788f4f2d55d32c790.png" class="latex" alt="$(a, b, c)=(5, 5, 10)$" style="vertical-align: -4px" width="144" height="18" />.
+</p><p>When <img src="//latex.artofproblemsolving.com/f/a/5/fa5507ab5a3d1f06941dabd1c26505d646367983.png" class="latex" alt="$a=6$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is forced to be <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />, and thus <img src="//latex.artofproblemsolving.com/0/d/5/0d5cfddfa44a9c2f28cbeda3c20f6034730fc346.png" class="latex" alt="$(a, b, c)=(6, 6, 6)$" style="vertical-align: -4px" width="135" height="18" />.
+</p><p>Thus, there are <img src="//latex.artofproblemsolving.com/7/d/8/7d8f5f4eda652534a927025f5cd62701ef2703e1.png" class="latex" alt="$5+3+1+1 = \boxed{\textbf{(B)}\; 10}$" style="vertical-align: -10px" width="190" height="28" /> solutions.
+</p>
+<h2><span class="mw-headline" id="Simplification_of_Solution_2">Simplification of Solution 2</span></h2>
+<p>The surface area is <img src="//latex.artofproblemsolving.com/f/1/8/f182b4f8378303d8d89e6b737afdc3df2c421776.png" class="latex" alt="$2(ab+bc+ca)$" style="vertical-align: -4px" width="116" height="18" />, the volume is <img src="//latex.artofproblemsolving.com/9/6/a/96a81938ca5e71faa6894d9d52ac776c9efbe75d.png" class="latex" alt="$abc$" width="25" height="12" />, so <img src="//latex.artofproblemsolving.com/1/5/3/1534ab586ef84be006736521e1d37908b69cecb8.png" class="latex" alt="$2(ab+bc+ca)=abc$" style="vertical-align: -4px" width="168" height="18" />.
+</p><p>Divide both sides by <img src="//latex.artofproblemsolving.com/0/8/9/08911b936e3accddc46c7e38445f312b17fdffd5.png" class="latex" alt="$2abc$" width="34" height="12" />, we have: <img src="//latex.artofproblemsolving.com/7/0/1/7015aa0f25ec791b015812b9ebf3c0429b13bed5.png" class="latexcenter" alt="\[\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{1}{2}.\]" width="123" height="37" />
+First consider the bound of the variable <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />. Since <img src="//latex.artofproblemsolving.com/a/7/5/a75a5f681a2879c67cceba4621813273a1879f63.png" class="latex" alt="$\frac{1}{a}&lt;\frac{1}{a}+\frac{1}{b}+\frac{1}{c}=\frac{1}{2},$" style="vertical-align: -12px" width="163" height="37" /> we have <img src="//latex.artofproblemsolving.com/9/5/9/9595e75b87fc7454d6ebed7496c7515708441f39.png" class="latex" alt="$a&gt;2$" style="vertical-align: 0px" width="42" height="12" />, or <img src="//latex.artofproblemsolving.com/6/3/0/630abcd1a01b09cfbc479659f46607adf0644a8d.png" class="latex" alt="$a\ge 3$" style="vertical-align: -2px" width="42" height="15" />.
+</p><p>Also note that <img src="//latex.artofproblemsolving.com/6/f/b/6fb5905885f26955d803b9bc87d3c17f25a8d0c1.png" class="latex" alt="$c\ge b\ge a&gt;0$" style="vertical-align: -2px" width="106" height="15" />, we have <img src="//latex.artofproblemsolving.com/0/0/4/004560c5a1381342b3bfed9fa2d3a7fe2c8f24a5.png" class="latex" alt="$\frac{1}{a}\ge \frac{1}{b}\ge \frac{1}{c}$" style="vertical-align: -12px" width="86" height="37" />. Thus, <img src="//latex.artofproblemsolving.com/c/2/c/c2ca458f71eb3e231f22643c56bebda0fd3e3d3a.png" class="latex" alt="$\frac{1}{2}=\frac{1}{a}+\frac{1}{b}+\frac{1}{c}\le \frac{3}{a}$" style="vertical-align: -12px" width="157" height="37" />, so <img src="//latex.artofproblemsolving.com/8/6/c/86caa5541d61970a8b4bb81cefbb51c5c164f1e5.png" class="latex" alt="$a\le 6$" style="vertical-align: -2px" width="42" height="15" />.
+</p><p>So we have <img src="//latex.artofproblemsolving.com/9/d/8/9d8f217754c93f26f1d5b73911a7886386c440eb.png" class="latex" alt="$a=3, 4, 5$" style="vertical-align: -3px" width="76" height="16" /> or <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />.
+</p><p><br />
+We can say <img src="//latex.artofproblemsolving.com/b/0/2/b028033fd4ec0f01ee75a90576ea3a543ae7f7bb.png" class="latex" alt="$\frac{1}{b}+\frac{1}{c}=\frac{1}{q}$" style="vertical-align: -16px" width="84" height="40" />, where <img src="//latex.artofproblemsolving.com/3/1/7/31787d20b673012af7c012bc000c6de0861d5602.png" class="latex" alt="$\frac{1}{q} = \frac{1}{2}-\frac{1}{a}$" style="vertical-align: -16px" width="84" height="40" />.
+</p><p>Notice <img src="//latex.artofproblemsolving.com/5/b/4/5b40d9344b869ae4050bec6777614b9f8d5d183b.png" class="latex" alt="$\emph{\text{immediately}}$" style="vertical-align: -3px" width="87" height="15" /> that <img src="//latex.artofproblemsolving.com/c/4/a/c4acd3609fdb8c049352ac3014278ded2e85ef27.png" class="latex" alt="$b, c &gt; q$" style="vertical-align: -3px" width="56" height="16" />. This is our key step.
+Then we can say <img src="//latex.artofproblemsolving.com/a/a/b/aab6df573e77fbd06562471a1f7f212f5d3086a8.png" class="latex" alt="$b=q+d$" style="vertical-align: -3px" width="72" height="16" />, <img src="//latex.artofproblemsolving.com/5/9/e/59e4a64bb2715fcbaf16d23b8e30b4f27fc771c1.png" class="latex" alt="$c=q+e$" style="vertical-align: -3px" width="71" height="14" />. If we clear the fraction about b and c (do the math), our immediate result is that <img src="//latex.artofproblemsolving.com/4/c/c/4cc32219df8957c7ec781b2216a08b8d7401c213.png" class="latex" alt="$de = q^2$" style="vertical-align: -3px" width="57" height="18" />. Realize also that <img src="//latex.artofproblemsolving.com/4/c/0/4c0d55179ca9fcfb18e698091d873f09bfc1ca09.png" class="latex" alt="$d \leq e$" style="vertical-align: -2px" width="41" height="15" />. 
+</p><p>Now go through cases for <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and you end up with the same result. However, now you don't have to guess solutions. For example, when <img src="//latex.artofproblemsolving.com/3/4/0/340605c5f88cf6864adc5b146c3dffca7a45df22.png" class="latex" alt="$a=3$" width="42" height="12" />, then <img src="//latex.artofproblemsolving.com/e/7/d/e7defdadfec4d3814791c8549584a05d7dd639ca.png" class="latex" alt="$de = 36$" width="59" height="12" /> and <img src="//latex.artofproblemsolving.com/2/1/4/2148012ec7ec5a9debe18798949db1a297332cde.png" class="latex" alt="$d=1, 2, 3, 4, 6$" style="vertical-align: -3px" width="111" height="16" />.
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2015_AMC_10B" title="2015 AMC 10B">2015 AMC 10B</a></b> (<b><a href="/wiki/index.php/2015_AMC_10B_Problems" title="2015 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_10B_Answer_Key" title="2015 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_24" title="2015 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last Question</b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_1" title="2015 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_2" title="2015 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_3" title="2015 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_4" title="2015 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_5" title="2015 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_6" title="2015 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_7" title="2015 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_8" title="2015 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_9" title="2015 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_10" title="2015 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_11" title="2015 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_12" title="2015 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_13" title="2015 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_14" title="2015 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_15" title="2015 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_16" title="2015 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_17" title="2015 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_18" title="2015 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_19" title="2015 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_20" title="2015 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_21" title="2015 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_22" title="2015 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_23" title="2015 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_24" title="2015 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2015 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2015_AMC_12B" title="2015 AMC 12B">2015 AMC 12B</a></b> (<b><a href="/wiki/index.php/2015_AMC_12B_Problems" title="2015 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_12B_Answer_Key" title="2015 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_22" title="2015 AMC 12B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_24" title="2015 AMC 12B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_1" title="2015 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_2" title="2015 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_3" title="2015 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_4" title="2015 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_5" title="2015 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_6" title="2015 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_7" title="2015 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_8" title="2015 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_9" title="2015 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_10" title="2015 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_11" title="2015 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_12" title="2015 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_13" title="2015 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_14" title="2015 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_15" title="2015 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_16" title="2015 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_17" title="2015 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_18" title="2015 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_19" title="2015 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_20" title="2015 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_21" title="2015 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_22" title="2015 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a class="mw-selflink selflink">23</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_24" title="2015 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12B_Problems/Problem_25" title="2015 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402202015
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.127 seconds
+Real time usage: 0.132 seconds
+Preprocessor visited node count: 1083/1000000
+Preprocessor generated node count: 3110/1000000
+Post‐expand include size: 4313/2097152 bytes
+Template argument size: 431/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 18151/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   40.098      1 -total
+ 14.31%    5.740      1 Template:AMC10_box
+ 13.73%    5.504      1 Template:AMC12_box
+  5.08%    2.035      1 Template:Duplicate
+  3.63%    1.454      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:14025-0!canonical and timestamp 20230402202015 and revision id 179224
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_12B_Problems/Problem_23&amp;oldid=179224">https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_12B_Problems/Problem_23&amp;oldid=179224</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

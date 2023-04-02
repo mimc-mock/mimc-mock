@@ -1,0 +1,243 @@
+<p>Jerry and Silvia wanted to go from the southwest corner of a square field to the northeast corner. Jerry walked due east and then due north to reach the goal, but Silvia headed northeast and reached the goal walking in a straight line. Which of the following is closest to how much shorter Silvia's trip was, compared to Jerry's trip?
+</p><p><img src="//latex.artofproblemsolving.com/f/a/6/fa68a4b7e2d86f099aaca2178fe6d67da01bf07d.png" class="latex" alt="$\textbf{(A)}\ 30\%\qquad\textbf{(B)}\ 40\%\qquad\textbf{(C)}\ 50\%\qquad\textbf{(D)}\ 60\%\qquad\textbf{(E)}\ 70\%$" style="vertical-align: -4px" width="469" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" /> represent how far Jerry walked, and <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> represent how far Sylvia walked. Since the field is a square, and Jerry walked two sides of it, while Silvia walked the diagonal, we can simply define the side of the square field to be one, and find the distances they walked. Since Jerry walked two sides, 
+<img src="//latex.artofproblemsolving.com/d/3/e/d3e7f7f7537494ac1190cfe8ce31fe5964add90e.png" class="latex" alt="$j = 2$" style="vertical-align: -3px" width="42" height="16" />
+Since Silvia walked the diagonal, she walked the hypotenuse of a <img src="//latex.artofproblemsolving.com/f/2/7/f27da4fca6f3fecb215974023aad210b70ec3857.png" class="latex" alt="$45$" style="vertical-align: 0px" width="17" height="13" />, <img src="//latex.artofproblemsolving.com/f/2/7/f27da4fca6f3fecb215974023aad210b70ec3857.png" class="latex" alt="$45$" style="vertical-align: 0px" width="17" height="13" />, <img src="//latex.artofproblemsolving.com/b/f/c/bfcfee7bd8a5e15e5f6b7881c138de43651572a9.png" class="latex" alt="$90$" width="17" height="12" /> triangle with leg length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. Thus,
+<img src="//latex.artofproblemsolving.com/8/c/8/8c813b371cd66fd4d704817271be9e9e214412b1.png" class="latex" alt="$s = \sqrt{2} = 1.414...$" style="vertical-align: -1px" width="136" height="18" />
+We can then take 
+<img src="//latex.artofproblemsolving.com/f/f/3/ff36b861bedccc6c4ac9460d3cefd53458489796.png" class="latex" alt="$\frac{j-s}{j} \approx \frac{2 - 1.4}{2}=0.3 \implies \boxed{\textbf{(A)}\ 30\%}$" style="vertical-align: -16px" width="303" height="41" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/pxg7CroAt20">https://youtu.be/pxg7CroAt20</a>
+</p><p><a rel="nofollow" class="external free" href="https://youtu.be/MUxbCp-2OYQ">https://youtu.be/MUxbCp-2OYQ</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2017_AMC_10A" title="2017 AMC 10A">2017 AMC 10A</a></b> (<b><a href="/wiki/index.php/2017_AMC_10A_Problems" title="2017 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2017_AMC_10A_Answer_Key" title="2017 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_6" title="2017 AMC 10A Problems/Problem 6">Problem 6</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_8" title="2017 AMC 10A Problems/Problem 8">Problem 8</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_1" title="2017 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_2" title="2017 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_3" title="2017 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_4" title="2017 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_5" title="2017 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_6" title="2017 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a class="mw-selflink selflink">7</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_8" title="2017 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_9" title="2017 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_10" title="2017 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_11" title="2017 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_12" title="2017 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_13" title="2017 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_14" title="2017 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_15" title="2017 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_16" title="2017 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_17" title="2017 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_18" title="2017 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_19" title="2017 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_20" title="2017 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_21" title="2017 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_22" title="2017 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_23" title="2017 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_24" title="2017 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_25" title="2017 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208175813
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.071 seconds
+Real time usage: 0.074 seconds
+Preprocessor visited node count: 187/1000000
+Preprocessor generated node count: 756/1000000
+Post‐expand include size: 2183/2097152 bytes
+Template argument size: 154/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1871/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.772      1 -total
+ 77.20%    6.772      1 Template:AMC10_box
+ 20.67%    1.813      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15365-0!canonical and timestamp 20230208175813 and revision id 127292
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_7&amp;oldid=127292">https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_7&amp;oldid=127292</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209054629 -->
+</html>

@@ -1,0 +1,244 @@
+<p>Trapezoid <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> has <img src="//latex.artofproblemsolving.com/8/3/4/834829da086ed651644d6091100aba2bc9611eee.png" class="latex" alt="$AD||BC$" style="vertical-align: -4px" width="68" height="18" />, <img src="//latex.artofproblemsolving.com/c/1/7/c17586f266d8a614e45964038dbd11de47c7389e.png" class="latex" alt="$BD = 1$" style="vertical-align: 0px" width="62" height="13" />, <img src="//latex.artofproblemsolving.com/2/9/8/298b55d1b105f19e8ec15cd3cf37c1dedce6ff52.png" class="latex" alt="$\angle DBA = 23^{\circ}$" width="105" height="13" />, and <img src="//latex.artofproblemsolving.com/b/9/c/b9ca5e8a969703d4b2af0f496dd416ed320f2ade.png" class="latex" alt="$\angle BDC = 46^{\circ}$" style="vertical-align: 0px" width="105" height="13" />.  The ratio <img src="//latex.artofproblemsolving.com/6/f/c/6fc0676c527bea73515b0eeef409cd7154ac3a0e.png" class="latex" alt="$BC: AD$" width="72" height="13" /> is <img src="//latex.artofproblemsolving.com/4/9/e/49e8520691de7e23593f5612af80aaa342b5f158.png" class="latex" alt="$9: 5$" width="32" height="12" />.  What is <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" />?
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/e/5/8/e58c11b9b80ccae0f60fa77285d28cd0e3435eef.png" class="latex" alt="$\mathrm{(A)}\ \frac 79\qquad \mathrm{(B)}\ \frac 45\qquad \mathrm{(C)}\ \frac {13}{15}\qquad \mathrm{(D)}\ \frac 89\qquad \mathrm{(E)}\ \frac {14}{15}$" style="vertical-align: -13px" width="379" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Extend <img src="//latex.artofproblemsolving.com/2/3/8/238f77f5bd36cadced68f029e4554015289e50ee.png" class="latex" alt="$\overline {AB}$" width="28" height="15" /> and <img src="//latex.artofproblemsolving.com/c/4/e/c4e6778bf0a1850f765de0f9458f3cb37a155c2f.png" class="latex" alt="$\overline {DC}$" width="30" height="15" /> to meet at <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />.  Then
+</p><p><img src="//latex.artofproblemsolving.com/a/0/1/a0170f547f192b5dc52d51ebcf9d047f80424a8c.png" class="latexcenter" alt="\begin{align*} \angle BED &amp;= 180^{\circ} - \angle EDB - \angle DBE\\ &amp;= 180^{\circ} - 134^{\circ} -23^{\circ} = 23^{\circ}. \end{align*}" width="275" height="38" />
+</p><p>Thus <img src="//latex.artofproblemsolving.com/1/6/b/16b4072dec30604cbea5998c12fddd9eacfeb564.png" class="latex" alt="$\triangle BDE$" width="60" height="13" /> is isosceles with <img src="//latex.artofproblemsolving.com/8/c/e/8cee5a981c016f765420bc29f4b3c86ac9a53468.png" class="latex" alt="$DE = BD$" width="84" height="12" />.  Because <img src="//latex.artofproblemsolving.com/7/4/3/74373ddd84ad3fccb8a7371621568b9bb3a23979.png" class="latex" alt="$\overline {AD} \parallel \overline {BC}$" style="vertical-align: -5px" width="77" height="20" />, it follows that the triangles <img src="//latex.artofproblemsolving.com/9/1/2/91275aa1f85be8f39ea3ae3cef68f10100fc664b.png" class="latex" alt="$BCE$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/7/0/4/70422100db8de33f8e5e0ab5062c5bb6a5ac969d.png" class="latex" alt="$ADE$" width="43" height="13" /> are similar.  Therefore
+<img src="//latex.artofproblemsolving.com/9/3/4/934256dbe10381b77781fcd59b44f2e9f2b58dd1.png" class="latexcenter" alt="\[\frac 95 = \frac {BC}{AD} = \frac {CD + DE}{DE} = \frac {CD}{BD} + 1 = CD + 1,\]" width="358" height="37" />
+so <img src="//latex.artofproblemsolving.com/0/4/d/04da009c941d413d2d4c814be25ec449b5e98dd2.png" class="latex" alt="$CD = \boxed{\frac 45}.$" style="vertical-align: -18px" width="82" height="48" />
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Let <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> be the intersection of <img src="//latex.artofproblemsolving.com/4/f/d/4fdb04dc5fb97c6e3d0ce8bf6c006af2f123bbb7.png" class="latex" alt="$\overline {BC}$" width="29" height="15" /> and the line through <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> parallel to <img src="//latex.artofproblemsolving.com/7/9/b/79bed271f95e561702a143b5ac163281a17df8ca.png" class="latex" alt="$\overline {AB}.$" width="32" height="15" />  By construction <img src="//latex.artofproblemsolving.com/0/a/b/0aba4c354d1368128375fae0b08beebda2851b94.png" class="latex" alt="$BE = AD$" width="82" height="13" /> and <img src="//latex.artofproblemsolving.com/b/f/c/bfc4d0b6f948c6842a9e3da80d839ef808af4ddc.png" class="latex" alt="$\angle BDE = 23^{\circ}$" width="106" height="13" />; it follows that <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" /> is the bisector of the angle <img src="//latex.artofproblemsolving.com/4/0/5/4057c3e63298c2ed6715003afb6f2d9dc6272037.png" class="latex" alt="$BDC$" width="44" height="12" />. So by the <a href="/wiki/index.php/Angle_Bisector_Theorem" class="mw-redirect" title="Angle Bisector Theorem">Angle Bisector Theorem</a> we get
+<img src="//latex.artofproblemsolving.com/f/b/9/fb9c80b3d0fa143e0ad56d426d4b41b5abcf9c40.png" class="latexcenter" alt="\[CD = \frac {CD}{BD} = \frac {EC}{BE} = \frac {BC - BE}{BE} = \frac {BC}{AD} -1 = \frac 95 - 1 = \boxed{\frac 45}.\]" width="463" height="48" />
+The answer is <img src="//latex.artofproblemsolving.com/f/d/5/fd5cf5dbc8229738cf06adbf2aa73fd75994b058.png" class="latex" alt="$\mathrm{(B)}$" style="vertical-align: -4px" width="25" height="18" />.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2009_AMC_12B" title="2009 AMC 12B">2009 AMC 12B</a></b> (<b><a href="/wiki/index.php/2009_AMC_12B_Problems" title="2009 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2009_AMC_12B_Answer_Key" title="2009 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_15" title="2009 AMC 12B Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_17" class="mw-redirect" title="2009 AMC 12B Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_1" class="mw-redirect" title="2009 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2009 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_3" class="mw-redirect" title="2009 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2009 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2009 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_6" class="mw-redirect" title="2009 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_7" class="mw-redirect" title="2009 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_8" class="mw-redirect" title="2009 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_9" title="2009 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_10" title="2009 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_11" class="mw-redirect" title="2009 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_12" title="2009 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_13" title="2009 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_14" title="2009 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_15" title="2009 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a class="mw-selflink selflink">16</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_17" class="mw-redirect" title="2009 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_18" class="mw-redirect" title="2009 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_19" title="2009 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_20" title="2009 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_21" title="2009 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_22" title="2009 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_23" title="2009 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_24" title="2009 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_25" title="2009 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208223247
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.089 seconds
+Real time usage: 0.093 seconds
+Preprocessor visited node count: 371/1000000
+Preprocessor generated node count: 1160/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5236/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.970      1 -total
+ 78.40%    6.248      1 Template:AMC12_box
+ 19.42%    1.548      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7939-0!canonical and timestamp 20230208223247 and revision id 140366
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12B_Problems/Problem_16&amp;oldid=140366">https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12B_Problems/Problem_16&amp;oldid=140366</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208223247 -->
+</html>

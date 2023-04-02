@@ -1,0 +1,244 @@
+<p>Let points <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> = <img src="//latex.artofproblemsolving.com/8/d/3/8d3b562c2718f735ae9d455f8b1280a128824fc2.png" class="latex" alt="$(0 ,0 ,0)$" style="vertical-align: -4px" width="56" height="18" />, <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> = <img src="//latex.artofproblemsolving.com/4/0/3/40351a54433aa452afdfc6195970641d012c2158.png" class="latex" alt="$(1, 0, 0)$" style="vertical-align: -4px" width="56" height="18" />, <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> = <img src="//latex.artofproblemsolving.com/8/b/0/8b00149795d04641995639bade885a65bff6cb2e.png" class="latex" alt="$(0, 2, 0)$" style="vertical-align: -4px" width="56" height="18" />, and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> = <img src="//latex.artofproblemsolving.com/4/9/c/49cffcb8ee93e317c6afd392be3a832c3b970a18.png" class="latex" alt="$(0, 0, 3)$" style="vertical-align: -4px" width="56" height="18" />. Points <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/b/1/9/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12" /> are midpoints of line segments <img src="//latex.artofproblemsolving.com/0/c/c/0cc3986abcac5506776beeb9e8009c12069b2646.png" class="latex" alt="$\overline{BD},\text{ }  \overline{AB}, \text{ } \overline {AC},$" style="vertical-align: -3px" width="118" height="19" /> and <img src="//latex.artofproblemsolving.com/6/3/b/63b7e5ec2db31e9aded4bb09881b42d1c439fce9.png" class="latex" alt="$\overline{DC}$" width="30" height="15" /> respectively. What is the area of <img src="//latex.artofproblemsolving.com/9/7/3/9735b37ac43861ef9e105bff1711f117917b09ec.png" class="latex" alt="$EFGH$" width="59" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/1/b/c/1bc135a8bdfcfba0945a9711466eb37b9c7b9bbc.png" class="latex" alt="$\textbf{(A)}\ \sqrt{2}\qquad\textbf{(B)}\ \frac{2\sqrt{5}}{3}\qquad\textbf{(C)}\ \frac{3\sqrt{5}}{4}\qquad\textbf{(D)}\ \sqrt{3}\qquad\textbf{(E)}\ \frac{2\sqrt{7}}{3}$" style="vertical-align: -13px" width="462" height="41" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Consider a tetrahedron with vertices at <img src="//latex.artofproblemsolving.com/8/8/5/8859dbfb7a9ec734e16f2a88fb5cf1104eb6a39b.png" class="latex" alt="$A,B,C,D$" style="vertical-align: -3px" width="81" height="16" /> on the <img src="//latex.artofproblemsolving.com/d/5/7/d57d8fef9329fabd73078ae824a034e8a00e332f.png" class="latex" alt="$xyz$" style="vertical-align: -3px" width="28" height="11" />-plane. The length of <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> is just one-half of <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" /> because it is the midsegment of <img src="//latex.artofproblemsolving.com/9/4/5/94585e5639fd985bbe71e9039a8681af8e09d680.png" class="latex" alt="$\triangle ABD.$" width="63" height="13" /> The same concept applies to the other side lengths. <img src="//latex.artofproblemsolving.com/6/e/8/6e867467073fae9550c977a21ee2cb19426c4f92.png" class="latex" alt="$AD=3$" width="62" height="13" /> and <img src="//latex.artofproblemsolving.com/6/9/e/69ea4bf2b461449a56d9291685e14b2240a423cb.png" class="latex" alt="$BC=\sqrt{1^2+2^2}=\sqrt{5}$" style="vertical-align: -2px" width="172" height="19" />. Then <img src="//latex.artofproblemsolving.com/7/a/1/7a1166ed355a00212e8fecdea367ea576ebfc1c0.png" class="latex" alt="$EF=HG=\frac32$" style="vertical-align: -12px" width="119" height="37" /> and <img src="//latex.artofproblemsolving.com/d/5/1/d51ed7a7f9bfc1381437c2a66b2faa21b74ed317.png" class="latex" alt="$EH=FG=\frac{\sqrt{5}}{2}$" style="vertical-align: -12px" width="134" height="41" />. The line segments lie on perpendicular planes so quadrilateral <img src="//latex.artofproblemsolving.com/9/7/3/9735b37ac43861ef9e105bff1711f117917b09ec.png" class="latex" alt="$EFGH$" width="59" height="12" /> is a rectangle. The area is
+</p><p><img src="//latex.artofproblemsolving.com/0/a/c/0ac93aa0c3d28811407d96e8211f079322b5d869.png" class="latexcenter" alt="\[EF \cdot FG = \frac 32 \cdot \frac{\sqrt{5}}{2} = \frac{3\sqrt 5} 4\implies \boxed{\textbf C}.\]" width="288" height="41" />
+</p><p><img src="//latex.artofproblemsolving.com/e/9/3/e93d5efaf2b0c198ac89b154f643a4524951d4ed.png" class="latexcenter" alt="[asy] import three; draw((0,0,0)--(1,0,0)--(0,0,3)--cycle); draw((0,0,0)--(0,2,0)); draw((0,2,0)--(0,0,3)); //EFGH draw((0.5,0,1.5)--(0.5,0,0)--(0,1,0)--(0,1,1.5)--(0.5,0,1.5),red); //Points label(&quot;$E$&quot;,(0.5,0,1.5),NW); label(&quot;$F$&quot;,(0.5,0,0),S); label(&quot;$G$&quot;,(0,1,0),S); label(&quot;$H$&quot;,(0,1,1.5),NE); label(&quot;$A$&quot;,(0,0,0),NE); label(&quot;$B$&quot;,(1,0,0),S); label(&quot;$C$&quot;,(0,2,0),S); label(&quot;$D$&quot;,(0,0,3),N); [/asy]" width="155" height="242" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Computing the points of <img src="//latex.artofproblemsolving.com/9/7/3/9735b37ac43861ef9e105bff1711f117917b09ec.png" class="latex" alt="$EFGH$" width="59" height="12" /> gives <img src="//latex.artofproblemsolving.com/4/d/a/4da86b672229a20c5a681da17a35c8cb6d8ec6a7.png" class="latex" alt="$E(0.5, 0, 1.5), F(0.5, 0, 0), G(0,1,0), H(0,1,1.5)$" style="vertical-align: -4px" width="369" height="18" />.  The vector <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> is <img src="//latex.artofproblemsolving.com/3/0/5/305e230c3081a51a672ce9506092b3b5a1d735ed.png" class="latex" alt="$(0,0,-1.5)$" style="vertical-align: -4px" width="84" height="18" />, while the vector <img src="//latex.artofproblemsolving.com/6/8/b/68bc6f8caca948dca03f953aee8ce093afad4d88.png" class="latex" alt="$HG$" width="30" height="12" /> is also <img src="//latex.artofproblemsolving.com/3/0/5/305e230c3081a51a672ce9506092b3b5a1d735ed.png" class="latex" alt="$(0,0,-1.5)$" style="vertical-align: -4px" width="84" height="18" />, meaning the two sides <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/0/a/7/0a7a248cfd02095e2a009f811d5732a9bea9d595.png" class="latex" alt="$GH$" width="31" height="12" /> are parallel.  Similarly, the vector <img src="//latex.artofproblemsolving.com/3/9/5/3951902c11a1cd39a091ea15f0f06cbc79095de4.png" class="latex" alt="$FG$" width="28" height="12" /> is <img src="//latex.artofproblemsolving.com/6/5/4/65454cea29d3279ea9b214384bb8888229093084.png" class="latex" alt="$(-0.5, 1, 0)$" style="vertical-align: -4px" width="84" height="18" />, while the vector <img src="//latex.artofproblemsolving.com/9/0/b/90b19c0bfdec36082e8da6e7ba3a3149b69fa63c.png" class="latex" alt="$EH$" width="31" height="12" /> is also <img src="//latex.artofproblemsolving.com/6/5/4/65454cea29d3279ea9b214384bb8888229093084.png" class="latex" alt="$(-0.5, 1, 0)$" style="vertical-align: -4px" width="84" height="18" />.  Again, these are equal in both magnitude and direction, so <img src="//latex.artofproblemsolving.com/3/9/5/3951902c11a1cd39a091ea15f0f06cbc79095de4.png" class="latex" alt="$FG$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/9/0/b/90b19c0bfdec36082e8da6e7ba3a3149b69fa63c.png" class="latex" alt="$EH$" width="31" height="12" /> are parallel.  Thus, figure <img src="//latex.artofproblemsolving.com/9/7/3/9735b37ac43861ef9e105bff1711f117917b09ec.png" class="latex" alt="$EFGH$" width="59" height="12" /> is a parallelogram.
+</p><p>Computation of vectors <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/6/8/b/68bc6f8caca948dca03f953aee8ce093afad4d88.png" class="latex" alt="$HG$" width="30" height="12" /> is sufficient evidence that the figure is a parallelogram, since the vectors are not only point in the same direction, but are of the same magnitude, but the other vector <img src="//latex.artofproblemsolving.com/3/9/5/3951902c11a1cd39a091ea15f0f06cbc79095de4.png" class="latex" alt="$FG$" width="28" height="12" /> is needed to find the angle between the sides.
+</p><p>Taking the dot product of vector <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> and vector <img src="//latex.artofproblemsolving.com/3/9/5/3951902c11a1cd39a091ea15f0f06cbc79095de4.png" class="latex" alt="$FG$" width="28" height="12" /> gives <img src="//latex.artofproblemsolving.com/a/9/3/a93b5b54dc4931ec3cfd145c233d1dd0ff93b0ad.png" class="latex" alt="$0 \cdot -0.5 + 0 \cdot 1 + -1.5 \cdot 0 = 0$" style="vertical-align: -1px" width="227" height="14" />, which means the two vectors are perpendicular.  (Alternately, as above, note that vector <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> goes directly down on the z-axis, while vector <img src="//latex.artofproblemsolving.com/3/9/5/3951902c11a1cd39a091ea15f0f06cbc79095de4.png" class="latex" alt="$FG$" width="28" height="12" /> has no z-component and lie completely in the xy plane.)  Thus, the figure is a parallelogram with a right angle, which makes it a rectangle.  With the distance formula in three dimensions, we find that <img src="//latex.artofproblemsolving.com/5/a/e/5ae63c4c7f1be0a8afef79a155aab508dc600042.png" class="latex" alt="$EF = \frac{3}{2}$" style="vertical-align: -12px" width="64" height="37" /> and <img src="//latex.artofproblemsolving.com/c/2/0/c208bcd21ea70067eaa1a334befaf0f00fa61349.png" class="latex" alt="$FG = \frac{\sqrt{5}}{2}$" style="vertical-align: -12px" width="79" height="41" />, giving an area of <img src="//latex.artofproblemsolving.com/a/4/5/a45eeff3a07782cc6a1eb90a23546ccf789ab816.png" class="latex" alt="$\frac32 \cdot \frac{\sqrt{5}}{2} = \boxed{\textbf{(C)}\ \frac{3\sqrt{5}}{4}}$" style="vertical-align: -18px" width="162" height="53" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_Richard_Rusczyk">Video Solution by Richard Rusczyk</span></h2>
+<p><a rel="nofollow" class="external free" href="https://artofproblemsolving.com/videos/amc/2012amc10a/249">https://artofproblemsolving.com/videos/amc/2012amc10a/249</a>
+</p><p>~dolphin7
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2012_AMC_10A" title="2012 AMC 10A">2012 AMC 10A</a></b> (<b><a href="/wiki/index.php/2012_AMC_10A_Problems" title="2012 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AMC_10A_Answer_Key" title="2012 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_20" title="2012 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_22" title="2012 AMC 10A Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_1" title="2012 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_2" title="2012 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_3" title="2012 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_4" title="2012 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_5" title="2012 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_6" title="2012 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_7" title="2012 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_8" title="2012 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_9" title="2012 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_10" title="2012 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_11" title="2012 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_12" title="2012 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_13" title="2012 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_14" title="2012 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_15" title="2012 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_16" title="2012 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_17" title="2012 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_18" title="2012 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_19" title="2012 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_20" title="2012 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_22" title="2012 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_23" title="2012 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_24" title="2012 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10A_Problems/Problem_25" title="2012 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208041623
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.126 seconds
+Real time usage: 0.775 seconds
+Preprocessor visited node count: 587/1000000
+Preprocessor generated node count: 1640/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9511/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   62.584      1 -total
+ 51.06%   31.958      1 Template:AMC10_box
+ 48.15%   30.133      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10677-0!canonical and timestamp 20230208041622 and revision id 175516
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_10A_Problems/Problem_21&amp;oldid=175516">https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_10A_Problems/Problem_21&amp;oldid=175516</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209010937 -->
+</html>

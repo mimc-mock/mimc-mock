@@ -1,0 +1,247 @@
+<p>A triangle with vertices <img src="//latex.artofproblemsolving.com/0/4/2/0429617bc1afa148bd90f2912e2e3f0a85c98ec1.png" class="latex" alt="$(6, 5)$" style="vertical-align: -4px" width="38" height="18" />, <img src="//latex.artofproblemsolving.com/9/3/0/93079e5856b4a3cb0d7a4ee15b26bb7af626828c.png" class="latex" alt="$(8, -3)$" style="vertical-align: -4px" width="52" height="18" />, and <img src="//latex.artofproblemsolving.com/f/0/9/f095623550b16f9b2f89155178fb409d00e97f72.png" class="latex" alt="$(9, 1)$" style="vertical-align: -4px" width="38" height="18" /> is reflected about the line <img src="//latex.artofproblemsolving.com/c/c/f/ccf5d650726be49af3a306c54a2fd7dd1d628b48.png" class="latex" alt="$x=8$" width="43" height="12" /> to create a second triangle.  What is the area of the union of the two triangles?
+</p><p><img src="//latex.artofproblemsolving.com/7/b/b/7bbbedc16502f642a5a109c3c830202f3b58f4d3.png" class="latex" alt="$\textbf{(A)}\ 9 \qquad\textbf{(B)}\ \frac{28}{3} \qquad\textbf{(C)}\ 10 \qquad\textbf{(D)}\ \frac{31}{3} \qquad\textbf{(E)}\ \frac{32}{3}$" style="vertical-align: -12px" width="396" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> be at <img src="//latex.artofproblemsolving.com/0/4/2/0429617bc1afa148bd90f2912e2e3f0a85c98ec1.png" class="latex" alt="$(6, 5)$" style="vertical-align: -4px" width="38" height="18" />, B be at <img src="//latex.artofproblemsolving.com/9/3/0/93079e5856b4a3cb0d7a4ee15b26bb7af626828c.png" class="latex" alt="$(8, -3)$" style="vertical-align: -4px" width="52" height="18" />, and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be at <img src="//latex.artofproblemsolving.com/f/0/9/f095623550b16f9b2f89155178fb409d00e97f72.png" class="latex" alt="$(9, 1)$" style="vertical-align: -4px" width="38" height="18" />.  Reflecting over the line <img src="//latex.artofproblemsolving.com/c/c/f/ccf5d650726be49af3a306c54a2fd7dd1d628b48.png" class="latex" alt="$x=8$" width="43" height="12" />, we see that <img src="//latex.artofproblemsolving.com/f/b/f/fbf96d9cf02eca9273efc2dc0746a75c82522e04.png" class="latex" alt="$A&#39; = D =  (10,5)$" style="vertical-align: -4px" width="130" height="18" />, <img src="//latex.artofproblemsolving.com/6/b/a/6ba66ac46f7105f9e32fee88515b18d758f58f38.png" class="latex" alt="$B&#39; = B$" width="57" height="14" /> (as the x-coordinate of B is 8), and <img src="//latex.artofproblemsolving.com/e/0/8/e08ce8bebb4f951d63e1c69523203f11ff367a6e.png" class="latex" alt="$C&#39; = E =  (7, 1)$" style="vertical-align: -4px" width="120" height="18" />.  Line <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> can be represented as <img src="//latex.artofproblemsolving.com/b/d/a/bdab128dde4efd23508d481263eaffa46276e559.png" class="latex" alt="$y=-4x+29$" style="vertical-align: -3px" width="107" height="16" />, so we see that <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> is on line <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />.  
+</p><p><img src="//latex.artofproblemsolving.com/f/3/4/f34a65277762945bba6c3c514a62b91d5b905cd6.png" class="latexcenter" alt="[asy] pair A = (6, 5), B = (8, -3), C = (9, 1), D = (10, 5), E = (7, 1), F = (8, 7/3); draw(A--B--C--cycle^^D--E--B--cycle); dot(A^^B^^C^^D^^E^^F); label(&quot;$A$&quot;,A,NW); label(&quot;$B$&quot;,B,S); label(&quot;$C$&quot;,C,SE); label(&quot;$D$&quot;,D,NE); label(&quot;$E$&quot;,E,W); label(&quot;$F$&quot;, F, N);   [/asy]" width="152" height="252" />
+</p><p><br />
+We see that if we connect <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" />, we get a line of length <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> (between <img src="//latex.artofproblemsolving.com/0/4/2/0429617bc1afa148bd90f2912e2e3f0a85c98ec1.png" class="latex" alt="$(6, 5)$" style="vertical-align: -4px" width="38" height="18" /> and <img src="//latex.artofproblemsolving.com/b/7/7/b77cbd6cca73e46d9414dc49c7caa765a4937e4c.png" class="latex" alt="$(10,5)$" style="vertical-align: -4px" width="48" height="18" />).  The area of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" /> is equal to <img src="//latex.artofproblemsolving.com/2/9/5/295b419ddec1c883ebdf67aed80832eb31b67fa3.png" class="latex" alt="$\frac{bh}{2} = \frac{4(8)}{2} = 16$" style="vertical-align: -12px" width="124" height="38" />.
+</p><p>Now, let the point of intersection between <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" /> be <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />.  If we can just find the area of <img src="//latex.artofproblemsolving.com/3/e/7/3e728a789f2ca839593526b82229b72fde61ec6c.png" class="latex" alt="$\triangle ADF$" width="59" height="13" /> and subtract it from <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />, we are done.
+</p><p>We realize that because the diagram is symmetric over <img src="//latex.artofproblemsolving.com/6/2/4/62434ae80ca145c20f0fbc7563f5151371ed163c.png" class="latex" alt="$x = 8$" width="43" height="12" />, the intersection of lines <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" /> should intersect at an x-coordinate of <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />.  We know that the slope of <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" /> is <img src="//latex.artofproblemsolving.com/1/9/a/19a748a3b3bdbf55ecebfa52c128107d232c1e8a.png" class="latex" alt="$\frac{5-1}{10-7} = \frac{4}{3}$" style="vertical-align: -13px" width="89" height="38" />.  Thus, we can represent the line going through <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> as <img src="//latex.artofproblemsolving.com/1/2/d/12d300ae2e2b00b50021923c70ffb7a4f8960360.png" class="latex" alt="$y - 1=\frac{4}{3}(x - 7)$" style="vertical-align: -12px" width="132" height="37" />.  Plugging in <img src="//latex.artofproblemsolving.com/6/2/4/62434ae80ca145c20f0fbc7563f5151371ed163c.png" class="latex" alt="$x = 8$" width="43" height="12" />, we find that the y-coordinate of F is <img src="//latex.artofproblemsolving.com/e/1/f/e1f2bce73877ab24e4abe8ae41191c7620c66c1b.png" class="latex" alt="$\frac{7}{3}$" style="vertical-align: -12px" width="11" height="37" />.  Thus, the height of <img src="//latex.artofproblemsolving.com/3/e/7/3e728a789f2ca839593526b82229b72fde61ec6c.png" class="latex" alt="$\triangle ADF$" width="59" height="13" /> is <img src="//latex.artofproblemsolving.com/7/6/2/7625bd5ad2ad042101c7240339217ab6fa57e284.png" class="latex" alt="$5 - \frac{7}{3} = \frac{8}{3}$" style="vertical-align: -12px" width="80" height="37" />.  Using the formula for the area of a triangle, the area of <img src="//latex.artofproblemsolving.com/3/e/7/3e728a789f2ca839593526b82229b72fde61ec6c.png" class="latex" alt="$\triangle ADF$" width="59" height="13" /> is <img src="//latex.artofproblemsolving.com/f/9/d/f9d8f06fd9af82fe3d8c913f99bbf749621b13bb.png" class="latex" alt="$\frac{16}{3}$" style="vertical-align: -12px" width="20" height="37" />.  
+</p><p>To get our final answer, we must subtract this from <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />.  <img src="//latex.artofproblemsolving.com/1/7/5/1753208c88db0afccf6341a5a19315c8707b0188.png" class="latex" alt="$[ABD] - [ADF] = 16 - \frac{16}{3} = \boxed{\textbf{(E) }\frac{32}{3}}$" style="vertical-align: -18px" width="308" height="48" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>First, realize that <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/8/9/f/89fff82bb65d0215e49c8c91cb7c553da52205e2.png" class="latex" alt="$BD$" width="29" height="12" />. Connect <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> to form <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" />. Let the midpoint of <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" /> be <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Connect <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> to <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. <img src="//latex.artofproblemsolving.com/3/f/2/3f2ef2fa9310285ea0bc63937e3bf83c99168a04.png" class="latex" alt="$BG$" width="28" height="12" /> is a median of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" />. 
+</p><p><br />
+Because <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" /> is isosceles, <img src="//latex.artofproblemsolving.com/3/f/2/3f2ef2fa9310285ea0bc63937e3bf83c99168a04.png" class="latex" alt="$BG$" width="28" height="12" /> is also an altitude of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" />. We know the length of <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" /> and <img src="//latex.artofproblemsolving.com/3/f/2/3f2ef2fa9310285ea0bc63937e3bf83c99168a04.png" class="latex" alt="$BG$" width="28" height="12" /> from the given coordinates. The area of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" /> is <img src="//latex.artofproblemsolving.com/2/9/5/295b419ddec1c883ebdf67aed80832eb31b67fa3.png" class="latex" alt="$\frac{bh}{2} = \frac{4(8)}{2} = 16$" style="vertical-align: -12px" width="124" height="38" />. 
+</p><p><br />
+Let the intesection of <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" />, <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" /> and <img src="//latex.artofproblemsolving.com/3/f/2/3f2ef2fa9310285ea0bc63937e3bf83c99168a04.png" class="latex" alt="$BG$" width="28" height="12" /> be <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />. <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> is the centroid of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" />. Therefore, it splits <img src="//latex.artofproblemsolving.com/3/f/2/3f2ef2fa9310285ea0bc63937e3bf83c99168a04.png" class="latex" alt="$BG$" width="28" height="12" /> into <img src="//latex.artofproblemsolving.com/0/3/c/03c2139057eeab8ebb65b2792f00f58a982e1111.png" class="latex" alt="$BF={2 \over 3}(BG)$" style="vertical-align: -12px" width="108" height="37" /> and <img src="//latex.artofproblemsolving.com/1/0/8/108028ef9fe7ccd38a130c1b5d70289e96816212.png" class="latex" alt="$FG={1\over 3}(BG)$" style="vertical-align: -12px" width="107" height="37" />. The area of quadrilateral <img src="//latex.artofproblemsolving.com/b/4/a/b4a308ff92324b36878a4afc075cd3f216bd237b.png" class="latex" alt="$ABDF = 16\cdot {2 \over 3} = \boxed{\textbf{(E) }\frac{32}{3}}$" style="vertical-align: -18px" width="218" height="48" />
+</p><p>~Zeric Hang
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2013_AMC_10A" title="2013 AMC 10A">2013 AMC 10A</a></b> (<b><a href="/wiki/index.php/2013_AMC_10A_Problems" title="2013 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2013_AMC_10A_Answer_Key" title="2013 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_15" title="2013 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_17" title="2013 AMC 10A Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_1" title="2013 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_2" title="2013 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2013 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_4" title="2013 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_5" title="2013 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_6" title="2013 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_7" title="2013 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_8" title="2013 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_9" title="2013 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_10" title="2013 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_11" title="2013 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_12" title="2013 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_13" title="2013 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_14" title="2013 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_15" title="2013 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a class="mw-selflink selflink">16</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_17" title="2013 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_18" title="2013 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_19" title="2013 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_20" title="2013 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_21" title="2013 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_22" title="2013 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_23" title="2013 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_24" title="2013 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_25" title="2013 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230322030025
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.121 seconds
+Real time usage: 1.153 seconds
+Preprocessor visited node count: 799/1000000
+Preprocessor generated node count: 2116/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 12950/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.828      1 -total
+ 76.36%    6.741      1 Template:AMC10_box
+ 19.16%    1.691      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11738-0!canonical and timestamp 20230322030025 and revision id 191175
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_16&amp;oldid=191175">https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_16&amp;oldid=191175</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230322030727 -->
+</html>

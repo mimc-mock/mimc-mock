@@ -1,0 +1,290 @@
+<p>The faces of each of <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> standard dice are labeled with the integers from <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> to <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />. Let <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" /> be the probabilities that when all <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> dice are rolled, the sum of the numbers on the top faces is <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />. What other sum occurs with the same probability as <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" />?
+</p><p><img src="//latex.artofproblemsolving.com/0/a/d/0ade5d80c9703a12e0a4b63c0216ded4cc263767.png" class="latex" alt="$\textbf{(A)} \text{ 13} \qquad \textbf{(B)} \text{ 26} \qquad \textbf{(C)} \text{ 32} \qquad \textbf{(D)} \text{ 39} \qquad \textbf{(E)} \text{ 42}$" style="vertical-align: -4px" width="386" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>It can be seen that the probability of rolling the smallest number possible is the same as the probability of rolling the largest number possible, the probability of rolling the second smallest number possible is the same as the probability of rolling the second largest number possible, and so on. This is because the number of ways to add a certain number of ones to an assortment of <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> ones is the same as the number of ways to take away a certain number of ones from an assortment of <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />s.
+</p><p>So, we can match up the values to find the sum with the same probability as <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />. We can start by noticing that <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> is the smallest possible roll and <img src="//latex.artofproblemsolving.com/e/d/0/ed0d6c36fdad9c2874053be46c7e4120f2edcf47.png" class="latex" alt="$42$" style="vertical-align: 0px" width="17" height="12" /> is the largest possible roll. The pairs with the same probability are as follows:
+</p><p><img src="//latex.artofproblemsolving.com/4/0/e/40e7a9427b93fcc8f03df01c70490668cc80de66.png" class="latex" alt="$(7, 42), (8, 41), (9, 40), (10, 39), (11, 38)...$" style="vertical-align: -4px" width="311" height="18" />
+</p><p>However, we need to find the number that matches up with <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />. So, we can stop at <img src="//latex.artofproblemsolving.com/3/3/d/33d161420cd8df4cff596dd188e1f1e8a5d2361f.png" class="latex" alt="$(10, 39)$" style="vertical-align: -4px" width="57" height="18" /> and deduce that the sum with equal probability as <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> is <img src="//latex.artofproblemsolving.com/e/0/5/e058d401a1b942f106f081ff1fcca8a8b1d42a7e.png" class="latex" alt="$39$" width="17" height="12" />. So, the correct answer is <img src="//latex.artofproblemsolving.com/2/7/0/270eb4fe4a255d40ebfa6fb4e7c022f44b5f656f.png" class="latex" alt="$\boxed{\textbf{(D)} \text{39}}$" style="vertical-align: -10px" width="57" height="28" />, and we are done.
+</p><p>Written By: Archimedes15
+</p><p><br />
+</p><p>Add-on by ike.chen: to see how the number of ways to roll <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> and <img src="//latex.artofproblemsolving.com/e/0/5/e058d401a1b942f106f081ff1fcca8a8b1d42a7e.png" class="latex" alt="$39$" width="17" height="12" /> are the same, consider this argument:
+</p><p>Each of the <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> dice needs to have a nonnegative value; it follows that the number of ways to roll <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> is <img src="//latex.artofproblemsolving.com/b/9/3/b9312d23241da92eee9864bfb10576effec3a373.png" class="latex" alt="$\binom {10-1}{7-1}=84$" style="vertical-align: -22px" width="120" height="53" /> by stars and bars. <img src="//latex.artofproblemsolving.com/0/e/a/0ea7c9bccd0fe3c94d33f6a2c4ccbb93a5b51707.png" class="latex" alt="$10-7=3$" style="vertical-align: 0px" width="82" height="13" />, so there's no chance that any dice has a value <img src="//latex.artofproblemsolving.com/f/0/9/f09822df35793025120c76e53e6704ae3a87510d.png" class="latex" alt="$&gt;6$" style="vertical-align: 0px" width="27" height="13" />.
+</p><p>Now imagine <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> piles with <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> blocks each. The number of ways to take <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> blocks away (making the sum <img src="//latex.artofproblemsolving.com/2/6/7/267ebb7a0db5f55fc493ac4d075b7e52a37a9a02.png" class="latex" alt="$7\cdot 6-3=39$" width="104" height="12" />) is also <img src="//latex.artofproblemsolving.com/8/b/f/8bfbcee9caecbd92e305610f56654b2f80178470.png" class="latex" alt="$\binom {3+7-1}{7-1}=84$" style="vertical-align: -22px" width="142" height="53" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Let's call the unknown value <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. By symmetry, we realize that the difference between 10 and the minimum value of the rolls is equal to the difference between the maximum and <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. So, 
+</p><p><img src="//latex.artofproblemsolving.com/9/c/4/9c4b302574891066d6d2a19b7c6bdfefc128bf33.png" class="latex" alt="$10 - 7 = 42- x$" style="vertical-align: 0px" width="124" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/2/a/0/2a0bf6ec4f82d68799314c52a724058e8e22b7de.png" class="latex" alt="$x = 39$" width="52" height="12" /> and our answer is  <img src="//latex.artofproblemsolving.com/3/1/c/31c9b74d5345edf4ec513a28db40b604a61e6da9.png" class="latex" alt="$\boxed{\textbf{(D)} \text{ 39}}$" style="vertical-align: -10px" width="63" height="28" />
+By: Soccer_JAMS
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>For the sums to have equal probability, the average sum of both sets of <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> dies has to be <img src="//latex.artofproblemsolving.com/d/e/b/deb397750a7e6849fe12f2e2293e5b0c7746683d.png" class="latex" alt="$(6+1)\cdot 7 = 49$" style="vertical-align: -4px" width="118" height="18" />. Since having <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> is similar to not having <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />, you just subtract 10 from the expected total sum. <img src="//latex.artofproblemsolving.com/8/1/f/81f2fd72f55e69704c04aace346483bd7d347690.png" class="latex" alt="$49 - 10 = 39$" style="vertical-align: 0px" width="100" height="13" /> so the answer is <img src="//latex.artofproblemsolving.com/3/1/c/31c9b74d5345edf4ec513a28db40b604a61e6da9.png" class="latex" alt="$\boxed{\textbf{(D)} \text{ 39}}$" style="vertical-align: -10px" width="63" height="28" />
+</p><p>By: epicmonster
+</p><p>Revised solution by Williamgolly (includes bijections):
+Notice that we first must have at least a 1 on each die.  Now, we form the following bijection: biject each value on the original die, say <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> to a value <img src="//latex.artofproblemsolving.com/1/f/5/1f50ad524e676579df070adcb5377c8c3c494a01.png" class="latex" alt="$7-x$" width="41" height="12" /> on the new die. Notice how now we need to 'take away' 3 from seven dies that all show 6.  Therefore, the answer is 39.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>The expected value of the sums of the die rolls is <img src="//latex.artofproblemsolving.com/2/6/a/26a3d3effe4aa51a162affe19772a5ff1e688da9.png" class="latex" alt="$3.5\cdot7=24.5$" style="vertical-align: 0px" width="101" height="13" />, and since the probabilities should be distributed symmetrically on both sides of <img src="//latex.artofproblemsolving.com/9/b/b/9bbab57580b74c71d1e10bbebf35f67a3dcb677e.png" class="latex" alt="$24.5$" style="vertical-align: 0px" width="31" height="13" />, the answer is <img src="//latex.artofproblemsolving.com/d/b/8/db8a8fa2a9fc97470fa13e41cbab5bb401e9432b.png" class="latex" alt="$24.5+(24.5-10)=39$" style="vertical-align: -5px" width="186" height="20" />, which is <img src="//latex.artofproblemsolving.com/3/1/c/31c9b74d5345edf4ec513a28db40b604a61e6da9.png" class="latex" alt="$\boxed{\textbf{(D)} \text{ 39}}$" style="vertical-align: -10px" width="63" height="28" />.
+</p><p>By: dajeff
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>Another faster and easier way of doing this, without using almost any math at all, is realizing that the possible sums are <img src="//latex.artofproblemsolving.com/1/3/9/1396794b12e471659f90a8db515c22d442a5fadf.png" class="latex" alt="${7,8,9,10,...,39,40,41,42}$" style="vertical-align: -3px" width="197" height="16" />. By symmetry, (and doing a few similar problems in the past), you can realize that the probability of obtaining <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> is the same as the probability of obtaining <img src="//latex.artofproblemsolving.com/e/d/0/ed0d6c36fdad9c2874053be46c7e4120f2edcf47.png" class="latex" alt="$42$" style="vertical-align: 0px" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/9/9/2/992d7e0a1895bd91121075c07c3b428b39fccfef.png" class="latex" alt="$P(8)=P(41)$" style="vertical-align: -4px" width="106" height="18" /> and on and on and on. This means that <img src="//latex.artofproblemsolving.com/1/4/1/1415423289a1465d458cc35a31f5a8d3b4ed5ecf.png" class="latex" alt="$P(10)=P(39)$" style="vertical-align: -4px" width="115" height="18" />, and thus the correct answer is <img src="//latex.artofproblemsolving.com/3/1/c/31c9b74d5345edf4ec513a28db40b604a61e6da9.png" class="latex" alt="$\boxed{\textbf{(D)} \text{ 39}}$" style="vertical-align: -10px" width="63" height="28" />.
+</p><p>By: fhdsaukfaioifk
+</p>
+<h3><span class="mw-headline" id="Note">Note</span></h3>
+<p>Calculating the probability of getting a sum of <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> is also easy. There are <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> cases:
+</p><p><br />
+Case <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />: <img src="//latex.artofproblemsolving.com/2/4/e/24e74cdca9e11e8563c9cd7c1d4ece94e7ae897e.png" class="latex" alt="$\{1,1,1,1,1,1,4\}$" style="vertical-align: -4px" width="129" height="18" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/d/9/d/d9d1a69ec60c72b7b25556e7917c82b61c3372db.png" class="latex" alt="${7 \choose 6}=7$" style="vertical-align: -22px" width="70" height="53" /> cases
+</p><p><br />
+Case <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />: <img src="//latex.artofproblemsolving.com/7/5/3/753fbd9698292a55f6390c4b769bda028b7febb7.png" class="latex" alt="$\{1,1,1,1,1,2,3\}$" style="vertical-align: -4px" width="129" height="18" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/5/0/1/501aedbd42b80084d96823a1f8cd3fafa5fc31f7.png" class="latex" alt="${7 \choose 5}=6 \cdot 7=42$" style="vertical-align: -22px" width="134" height="53" /> cases
+</p><p><br />
+Case <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />: <img src="//latex.artofproblemsolving.com/d/3/3/d33142249c31cfa1baf403b7ae25a49f3fc3176f.png" class="latex" alt="$\{1,1,1,1,2,2,2\}$" style="vertical-align: -4px" width="129" height="18" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/d/a/f/dafc90ecad9e020e8057fc89bc26401d87bd264b.png" class="latex" alt="${7 \choose 4}=\frac {7 \cdot 6 \cdot 5}{3 \cdot 2}=35$" style="vertical-align: -22px" width="160" height="53" /> cases
+</p><p><br />
+The probability is <img src="//latex.artofproblemsolving.com/a/7/3/a7391f82cb5b59bc71408586b9e6e47d1aad8501.png" class="latex" alt="${84 \over 6^7} = \frac{14}{6^6}$" style="vertical-align: -12px" width="67" height="37" />. 
+</p><p>Calculating <img src="//latex.artofproblemsolving.com/7/b/f/7bf8cf167990d3d4a27df8cb8a70727fd8fb6067.png" class="latex" alt="$6^6$" width="15" height="15" />: 
+</p><p><img src="//latex.artofproblemsolving.com/8/4/7/847a0986aa3ce734e71864d410610f7528ec71df.png" class="latex" alt="$6^6=(6^3)^2=216^2=46656$" style="vertical-align: -4px" width="206" height="19" /> 
+</p><p>Therefore, the probability is <img src="//latex.artofproblemsolving.com/8/f/4/8f4c19467c4ced24026678499b53f1cb69612fb9.png" class="latex" alt="${14 \over 46656} = \boxed{{7 \over 23328}}$" style="vertical-align: -18px" width="134" height="48" />
+</p><p>~Zeric Hang (Main writer) and fhdsaukfaioifk (Editor)
+</p>
+<h2><span class="mw-headline" id="Related_Problems">Related Problems</span></h2>
+<p>There is a similar to problem 11 of the AMC 10A in the same year, which is almost an replica of the problem mentioned by Zeric Hang in the Note section:
+<a rel="nofollow" class="external free" href="https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11">https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11</a> 
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/odHniGWWLvw">https://youtu.be/odHniGWWLvw</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10B" title="2018 AMC 10B">2018 AMC 10B</a></b> (<b><a href="/wiki/index.php/2018_AMC_10B_Problems" title="2018 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10B_Answer_Key" title="2018 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_8" title="2018 AMC 10B Problems/Problem 8">Problem 8</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_10" title="2018 AMC 10B Problems/Problem 10">Problem 10</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_1" title="2018 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_2" title="2018 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_3" title="2018 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_4" title="2018 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_5" title="2018 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_6" title="2018 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_7" title="2018 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_8" title="2018 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a class="mw-selflink selflink">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_10" title="2018 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_11" title="2018 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_12" title="2018 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_13" title="2018 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_14" title="2018 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_15" title="2018 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_16" title="2018 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_17" title="2018 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_18" title="2018 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_19" title="2018 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_20" title="2018 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_21" title="2018 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_22" title="2018 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_23" title="2018 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_24" title="2018 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_25" title="2018 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208172851
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.102 seconds
+Real time usage: 0.105 seconds
+Preprocessor visited node count: 751/1000000
+Preprocessor generated node count: 1980/1000000
+Post‐expand include size: 2185/2097152 bytes
+Template argument size: 156/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 12043/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.231      1 -total
+ 75.95%    5.492      1 Template:AMC10_box
+ 21.30%    1.540      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:16019-0!canonical and timestamp 20230208172851 and revision id 162105
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_9&amp;oldid=162105">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_9&amp;oldid=162105</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208222519 -->
+</html>

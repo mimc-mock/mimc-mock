@@ -1,0 +1,253 @@
+<p>The sum of two nonzero real numbers is <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> times their product. What is the sum of the reciprocals of the two numbers?
+</p><p><img src="//latex.artofproblemsolving.com/5/7/1/571c1026e49506d70e6e271bdb9920253b289b54.png" class="latex" alt="$\textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 12$" style="vertical-align: -4px" width="357" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Let the two real numbers be <img src="//latex.artofproblemsolving.com/b/6/4/b6400c6fe3f1ed70e5afd387a9686cdc3fa09531.png" class="latex" alt="$x,y$" style="vertical-align: -3px" width="27" height="11" />. We are given that <img src="//latex.artofproblemsolving.com/7/b/9/7b9912f427d0dfacd861d2641c7b4eeaea8ea46a.png" class="latex" alt="$x+y=4xy,$" style="vertical-align: -3px" width="99" height="15" /> and dividing both sides by <img src="//latex.artofproblemsolving.com/3/f/7/3f79c3676b62fb47243e0d357c87115b6f3395e4.png" class="latex" alt="$xy$" style="vertical-align: -3px" width="19" height="11" />, <img src="//latex.artofproblemsolving.com/b/4/b/b4b2ccfe02561ef15a393ba4e97058998006e2a9.png" class="latex" alt="$\frac{x}{xy}+\frac{y}{xy}=4.$" style="vertical-align: -16px" width="107" height="36" />
+</p><p><img src="//latex.artofproblemsolving.com/e/a/1/ea1dadbf53587b5968e46e59c6f61f87125eeed4.png" class="latexcenter" alt="\[\frac{1}{y}+\frac{1}{x}=\boxed{\textbf{(C) } 4}.\]" width="131" height="40" />
+</p><p>Note: we can easily verify that this is the correct answer; for example, <img src="//latex.artofproblemsolving.com/5/f/e/5fe5e71c7d8317d4177fa56b61211bcca007e682.png" class="latex" alt="$\left(\frac{1}{2}, \frac{1}{2}\right)$" style="vertical-align: -17px" width="57" height="43" /> works, and the sum of their reciprocals is <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Instead of using algebra, another approach at this problem would be to notice the fact that one of the nonzero numbers has to be a fraction.
+See for yourself. And by looking into fractions, we immediately see that <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" /> and <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> would fit the rule. <img src="//latex.artofproblemsolving.com/c/6/1/c614e06fc27d91fdb119a3ea4a8a05bce31942b5.png" class="latex" alt="$\boxed{\textbf{(C)} 4}.$" style="vertical-align: -10px" width="52" height="28" />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Notice that from the information given above, <img src="//latex.artofproblemsolving.com/d/0/8/d08c1d599ed5c382ab7827339699084d0ead73e5.png" class="latex" alt="$x+y=4xy$" style="vertical-align: -3px" width="95" height="15" />
+</p><p>Because the sum of the reciprocals of two numbers is just the sum of the two numbers over the product of the two numbers or <img src="//latex.artofproblemsolving.com/3/a/b/3abd2341c3a6904f4b8f972cf00c466568ef1190.png" class="latex" alt="$\frac{x+y}{xy}$" style="vertical-align: -16px" width="44" height="39" /> 
+</p><p>We can solve this by substituting <img src="//latex.artofproblemsolving.com/8/9/8/898ebd560e26a7b4e81a23951a3d3a678e15aa56.png" class="latex" alt="$x+y\implies 4xy$" style="vertical-align: -3px" width="120" height="15" />.
+</p><p>Our answer is simply <img src="//latex.artofproblemsolving.com/4/5/d/45d5c09e0ebaed53108dba7ea9b8b3a6fcd86265.png" class="latex" alt="$\frac{4xy}{xy}\implies4$" style="vertical-align: -16px" width="91" height="40" />.
+</p><p>Therefore, the answer is <img src="//latex.artofproblemsolving.com/8/8/c/88cfe513eb8c018f4f918d63b4f244a861f9558a.png" class="latex" alt="$\boxed{\textbf{(C) } 4}$" style="vertical-align: -10px" width="55" height="28" />.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/str7kmcRMY8">https://youtu.be/str7kmcRMY8</a>
+</p><p><a rel="nofollow" class="external free" href="https://youtu.be/TooKNMK3slY">https://youtu.be/TooKNMK3slY</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2017_AMC_10A" title="2017 AMC 10A">2017 AMC 10A</a></b> (<b><a href="/wiki/index.php/2017_AMC_10A_Problems" title="2017 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2017_AMC_10A_Answer_Key" title="2017 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_4" title="2017 AMC 10A Problems/Problem 4">Problem 4</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_6" title="2017 AMC 10A Problems/Problem 6">Problem 6</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_1" title="2017 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_2" title="2017 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_3" title="2017 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_4" title="2017 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a class="mw-selflink selflink">5</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_6" title="2017 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_7" title="2017 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_8" title="2017 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_9" title="2017 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_10" title="2017 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_11" title="2017 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_12" title="2017 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_13" title="2017 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_14" title="2017 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_15" title="2017 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_16" title="2017 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_17" title="2017 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_18" title="2017 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_19" title="2017 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_20" title="2017 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_21" title="2017 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_22" title="2017 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_23" title="2017 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_24" title="2017 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10A_Problems/Problem_25" title="2017 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208143046
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.101 seconds
+Real time usage: 0.119 seconds
+Preprocessor visited node count: 258/1000000
+Preprocessor generated node count: 904/1000000
+Post‐expand include size: 2183/2097152 bytes
+Template argument size: 154/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3220/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.001      1 -total
+ 75.53%    6.798      1 Template:AMC10_box
+ 19.79%    1.781      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15348-0!canonical and timestamp 20230208143046 and revision id 177957
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_5&amp;oldid=177957">https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10A_Problems/Problem_5&amp;oldid=177957</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208193543 -->
+</html>

@@ -1,0 +1,252 @@
+<p>The sequence
+</p><p><img src="//latex.artofproblemsolving.com/4/1/7/41793eda7b06e911ab6c4c3098662f7baf5e8e0e.png" class="latex" alt="$\log_{12}{162}$" style="vertical-align: -4px" width="67" height="17" />, <img src="//latex.artofproblemsolving.com/8/c/2/8c2ff51d33698fe6de1d1e0946ecddfe908724ac.png" class="latex" alt="$\log_{12}{x}$" style="vertical-align: -4px" width="50" height="17" />, <img src="//latex.artofproblemsolving.com/8/b/8/8b88b9b218534416efde4dad6ba7a107a270b419.png" class="latex" alt="$\log_{12}{y}$" style="vertical-align: -4px" width="49" height="17" />, <img src="//latex.artofproblemsolving.com/4/8/8/488dea8b04efcc8bb8d2513924ae6614d0b3634f.png" class="latex" alt="$\log_{12}{z}$" style="vertical-align: -4px" width="49" height="17" />, <img src="//latex.artofproblemsolving.com/5/b/a/5ba0128ce278a9f2db95ca335f583425c5847c44.png" class="latex" alt="$\log_{12}{1250}$" style="vertical-align: -4px" width="76" height="17" />
+</p><p>is an arithmetic progression. What is <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/5/1/3/5131c9bb69bfc0d5f5dc8ace17da1e6998b49535.png" class="latex" alt="$\textbf{(A)} \ 125\sqrt{3} \qquad \textbf{(B)} \ 270 \qquad \textbf{(C)} \ 162\sqrt{5} \qquad \textbf{(D)} \ 434 \qquad \textbf{(E)} \ 225\sqrt{6}$" style="vertical-align: -4px" width="513" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Since the sequence is arithmetic, 
+</p><p><img src="//latex.artofproblemsolving.com/4/1/7/41793eda7b06e911ab6c4c3098662f7baf5e8e0e.png" class="latex" alt="$\log_{12}{162}$" style="vertical-align: -4px" width="67" height="17" /> + <img src="//latex.artofproblemsolving.com/a/8/f/a8fba9005cb63bba4318f8b13049aa3006547cd5.png" class="latex" alt="$4d$" style="vertical-align: 0px" width="18" height="13" /> = <img src="//latex.artofproblemsolving.com/5/b/a/5ba0128ce278a9f2db95ca335f583425c5847c44.png" class="latex" alt="$\log_{12}{1250}$" style="vertical-align: -4px" width="76" height="17" />, where <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> is the common difference.
+</p><p><br />
+Therefore,
+</p><p><img src="//latex.artofproblemsolving.com/a/8/f/a8fba9005cb63bba4318f8b13049aa3006547cd5.png" class="latex" alt="$4d$" style="vertical-align: 0px" width="18" height="13" /> = <img src="//latex.artofproblemsolving.com/5/b/a/5ba0128ce278a9f2db95ca335f583425c5847c44.png" class="latex" alt="$\log_{12}{1250}$" style="vertical-align: -4px" width="76" height="17" /> - <img src="//latex.artofproblemsolving.com/4/1/7/41793eda7b06e911ab6c4c3098662f7baf5e8e0e.png" class="latex" alt="$\log_{12}{162}$" style="vertical-align: -4px" width="67" height="17" /> = <img src="//latex.artofproblemsolving.com/6/9/0/690dc1e1bf9a2baac30a441ecfdf0bab3d974d89.png" class="latex" alt="$\log_{12}{(1250/162)}$" style="vertical-align: -4px" width="125" height="18" />, and
+</p><p><img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> = <img src="//latex.artofproblemsolving.com/c/3/3/c339afa03e060d959e4942be7522c0c992f4c41c.png" class="latex" alt="$\frac{1}{4}$" style="vertical-align: -13px" width="11" height="37" />(<img src="//latex.artofproblemsolving.com/6/9/0/690dc1e1bf9a2baac30a441ecfdf0bab3d974d89.png" class="latex" alt="$\log_{12}{(1250/162)}$" style="vertical-align: -4px" width="125" height="18" />) = <img src="//latex.artofproblemsolving.com/d/5/1/d515e688ff60d2265c84ec61893b0a1cf9b7f65c.png" class="latex" alt="$\log_{12}{(1250/162)^{1/4}}$" style="vertical-align: -4px" width="147" height="20" />
+</p><p><br />
+</p><p>Now that we found <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />, we just add it to the first term to find <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />:
+</p><p><img src="//latex.artofproblemsolving.com/4/1/7/41793eda7b06e911ab6c4c3098662f7baf5e8e0e.png" class="latex" alt="$\log_{12}{162}$" style="vertical-align: -4px" width="67" height="17" /> + <img src="//latex.artofproblemsolving.com/d/5/1/d515e688ff60d2265c84ec61893b0a1cf9b7f65c.png" class="latex" alt="$\log_{12}{(1250/162)^{1/4}}$" style="vertical-align: -4px" width="147" height="20" /> = <img src="//latex.artofproblemsolving.com/d/5/1/d517df7717629c17d41206e7cba4032479f9c571.png" class="latex" alt="$\log_{12}{((162)(1250/162)^{1/4})}$" style="vertical-align: -4px" width="202" height="20" />
+</p><p><img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> = <img src="//latex.artofproblemsolving.com/c/9/4/c9427366a1925a9dc8714dadb30dc2d3565e0b84.png" class="latex" alt="$(162)$" style="vertical-align: -4px" width="39" height="18" /><img src="//latex.artofproblemsolving.com/5/3/a/53aeb262d0c6e3c3ed67edb4995f16250ee0b9a5.png" class="latex" alt="$(1250/162)^{1/4}$" style="vertical-align: -4px" width="106" height="20" /> = <img src="//latex.artofproblemsolving.com/c/9/4/c9427366a1925a9dc8714dadb30dc2d3565e0b84.png" class="latex" alt="$(162)$" style="vertical-align: -4px" width="39" height="18" /><img src="//latex.artofproblemsolving.com/5/7/2/57241059b4811497142e54be308d6392c963b537.png" class="latex" alt="$(625/81)^{1/4}$" style="vertical-align: -4px" width="88" height="20" /> = <img src="//latex.artofproblemsolving.com/8/d/7/8d798e93c654ffd478208e561701d33b49130a96.png" class="latex" alt="$(162)(5/3)$" style="vertical-align: -4px" width="81" height="18" /> = <img src="//latex.artofproblemsolving.com/4/9/6/496208bfed993b16f902b0edc179b34b89804160.png" class="latex" alt="$270$" width="26" height="12" />, which is <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>As the sequence <img src="//latex.artofproblemsolving.com/4/1/7/41793eda7b06e911ab6c4c3098662f7baf5e8e0e.png" class="latex" alt="$\log_{12}{162}$" style="vertical-align: -4px" width="67" height="17" />, <img src="//latex.artofproblemsolving.com/8/c/2/8c2ff51d33698fe6de1d1e0946ecddfe908724ac.png" class="latex" alt="$\log_{12}{x}$" style="vertical-align: -4px" width="50" height="17" />, <img src="//latex.artofproblemsolving.com/8/b/8/8b88b9b218534416efde4dad6ba7a107a270b419.png" class="latex" alt="$\log_{12}{y}$" style="vertical-align: -4px" width="49" height="17" />, <img src="//latex.artofproblemsolving.com/4/8/8/488dea8b04efcc8bb8d2513924ae6614d0b3634f.png" class="latex" alt="$\log_{12}{z}$" style="vertical-align: -4px" width="49" height="17" />, <img src="//latex.artofproblemsolving.com/5/b/a/5ba0128ce278a9f2db95ca335f583425c5847c44.png" class="latex" alt="$\log_{12}{1250}$" style="vertical-align: -4px" width="76" height="17" /> is an arithmetic progression, the sequence <img src="//latex.artofproblemsolving.com/9/7/2/9727f0421617708df7d1872db0469ab975fe00d9.png" class="latex" alt="$162,x,y,z,1250$" style="vertical-align: -3px" width="124" height="16" /> must be a geometric progression.
+</p><p>If we factor the two known terms we get <img src="//latex.artofproblemsolving.com/4/f/5/4f5f1b98d4914ae704000fad91be977e1ca2dfe6.png" class="latex" alt="$162=2\cdot 3^4$" style="vertical-align: 0px" width="89" height="15" /> and <img src="//latex.artofproblemsolving.com/e/3/3/e33ac73bcbbab2147b78d8644bb1eb0ec36b55a5.png" class="latex" alt="$1250=2\cdot 5^4$" style="vertical-align: 0px" width="98" height="15" />, thus the quotient is obviously <img src="//latex.artofproblemsolving.com/1/d/3/1d31460c82f927162bb7828441f6ee67c5f767c7.png" class="latex" alt="$5/3$" style="vertical-align: -4px" width="26" height="18" /> and therefore <img src="//latex.artofproblemsolving.com/9/c/f/9cf9eab6d499b33c94faf10060c172f81e16bfc0.png" class="latex" alt="$x=162\cdot(5/3) = 270$" style="vertical-align: -4px" width="167" height="18" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/RdIIEhsbZKw?t=944">https://youtu.be/RdIIEhsbZKw?t=944</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2013_AMC_12A" title="2013 AMC 12A">2013 AMC 12A</a></b> (<b><a href="/wiki/index.php/2013_AMC_12A_Problems" title="2013 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2013_AMC_12A_Answer_Key" title="2013 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_13" title="2013 AMC 12A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_15" title="2013 AMC 12A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_1" title="2013 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_2" title="2013 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_3" title="2013 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_4" title="2013 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_5" title="2013 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_6" title="2013 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_7" title="2013 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_8" title="2013 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_9" title="2013 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_10" title="2013 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_11" title="2013 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_12" title="2013 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_13" title="2013 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_15" title="2013 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_16" title="2013 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_17" title="2013 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_18" title="2013 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_19" title="2013 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_20" title="2013 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_21" title="2013 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_22" title="2013 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_23" title="2013 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_24" title="2013 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_25" title="2013 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209101041
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.087 seconds
+Real time usage: 0.091 seconds
+Preprocessor visited node count: 477/1000000
+Preprocessor generated node count: 1400/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7536/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.002      1 -total
+ 75.59%    6.805      1 Template:AMC12_box
+ 22.48%    2.024      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11710-0!canonical and timestamp 20230209101041 and revision id 181252
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_12A_Problems/Problem_14&amp;oldid=181252">https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_12A_Problems/Problem_14&amp;oldid=181252</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230210041626 -->
+</html>

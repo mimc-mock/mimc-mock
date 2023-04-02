@@ -1,0 +1,253 @@
+<p>The <img src="//latex.artofproblemsolving.com/e/f/7/ef7fe7592026585cc36e4d7c6036f19fd8afdc29.png" class="latex" alt="$5\times 5$" width="40" height="12" /> grid shown contains a collection of squares with sizes from <img src="//latex.artofproblemsolving.com/8/a/8/8a8df7312744a199daa5c8008af5b9b4798bfd64.png" class="latex" alt="$1\times 1$" style="vertical-align: 0px" width="39" height="12" /> to <img src="//latex.artofproblemsolving.com/e/f/7/ef7fe7592026585cc36e4d7c6036f19fd8afdc29.png" class="latex" alt="$5\times 5$" width="40" height="12" />. How many of these squares contain the black center square?
+</p><p><a href="/wiki/index.php/File:2004_AMC_10A_problem_16.png" class="image"><img alt="2004 AMC 10A problem 16.png" src="https://wiki-images.artofproblemsolving.com//7/7b/2004_AMC_10A_problem_16.png" width="144" height="134" /></a>
+</p><p><img src="//latex.artofproblemsolving.com/1/d/4/1d4eaf220bb5908f25aff55f0a053c5f37d09fc8.png" class="latex" alt="$\mathrm{(A) \ } 12 \qquad \mathrm{(B) \ } 15 \qquad \mathrm{(C) \ } 17 \qquad \mathrm{(D) \ }  19\qquad \mathrm{(E) \ } 20$" style="vertical-align: -4px" width="387" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Since there are five types of squares: <img src="//latex.artofproblemsolving.com/2/6/3/2639894eb5f648d7dd73dd709611209eb4b1939e.png" class="latex" alt="$1 \times 1, 2 \times 2, 3 \times 3, 4 \times 4,$" style="vertical-align: -3px" width="190" height="16" /> and <img src="//latex.artofproblemsolving.com/d/d/a/ddaf84125c1b24d65a28e3a6fa187dab22b17521.png" class="latex" alt="$5 \times 5.$" width="44" height="12" /> We must find how many of each square contain the black shaded square in the center. 
+</p><p>If we list them, we get that 
+</p>
+<ul><li>There is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> of all <img src="//latex.artofproblemsolving.com/8/a/8/8a8df7312744a199daa5c8008af5b9b4798bfd64.png" class="latex" alt="$1\times 1$" style="vertical-align: 0px" width="39" height="12" /> squares, containing the black square</li>
+<li>There are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> of all <img src="//latex.artofproblemsolving.com/7/9/0/7901356dd65ec4da1b694937cc4ffc663e90d800.png" class="latex" alt="$2\times 2$" width="40" height="12" /> squares, containing the black square</li>
+<li>There are <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> of all <img src="//latex.artofproblemsolving.com/7/b/5/7b5343f2d9e22816e8de24262565ff2937695b2c.png" class="latex" alt="$3\times 3$" width="40" height="12" /> squares, containing the black square</li>
+<li>There are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> of all <img src="//latex.artofproblemsolving.com/6/7/4/674dc6717f1938acff63480bd24b1270a30439ff.png" class="latex" alt="$4\times 4$" style="vertical-align: 0px" width="40" height="12" /> squares, containing the black square</li>
+<li>There is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> of all <img src="//latex.artofproblemsolving.com/e/f/7/ef7fe7592026585cc36e4d7c6036f19fd8afdc29.png" class="latex" alt="$5\times 5$" width="40" height="12" /> squares, containing the black square</li></ul>
+<p>Thus, the answer is <img src="//latex.artofproblemsolving.com/8/c/d/8cd560743d8d5d395baabfca641849dce3332f76.png" class="latex" alt="$1+4+9+4+1=19\Rightarrow\boxed{\mathrm{(D)}\ 19}$" style="vertical-align: -10px" width="268" height="29" />.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>We use complementary counting. There are only <img src="//latex.artofproblemsolving.com/8/a/3/8a3b32228e9105bf0f3dffd78b0b7310083b693d.png" class="latex" alt="$2\times2$" width="40" height="12" /> and <img src="//latex.artofproblemsolving.com/4/1/c/41cc793e4f6d8149b881fa5ac0843dea8f309f24.png" class="latex" alt="$1\times1$" style="vertical-align: 0px" width="39" height="12" /> squares that do not contain the black square. Counting, there are <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" />-<img src="//latex.artofproblemsolving.com/8/a/3/8a3b32228e9105bf0f3dffd78b0b7310083b693d.png" class="latex" alt="$2\times2$" width="40" height="12" /> squares, and <img src="//latex.artofproblemsolving.com/1/0/d/10d5fc1af8dbefb4e206138240c04731cb23e582.png" class="latex" alt="$25-1 = 24$" style="vertical-align: 0px" width="91" height="13" /> <img src="//latex.artofproblemsolving.com/4/1/c/41cc793e4f6d8149b881fa5ac0843dea8f309f24.png" class="latex" alt="$1\times1$" style="vertical-align: 0px" width="39" height="12" /> squares that do not contain the black square. That gives <img src="//latex.artofproblemsolving.com/e/3/f/e3f67f2143ff7db50b15d6196ea16decff4589a4.png" class="latex" alt="$12+24=36$" style="vertical-align: -1px" width="100" height="14" /> squares that don't contain it. There are a total of <img src="//latex.artofproblemsolving.com/8/8/b/88b1c3e69e5fa9a70eb02987237c753594b2d509.png" class="latex" alt="$25+16+9+4+1 = 55$" style="vertical-align: -1px" width="194" height="14" /> squares possible <img src="//latex.artofproblemsolving.com/d/3/4/d3461aa9f087c5f02d0acd161cb8514a6db74087.png" class="latex" alt="$(25$" style="vertical-align: -4px" width="24" height="18" /> - <img src="//latex.artofproblemsolving.com/4/1/c/41cc793e4f6d8149b881fa5ac0843dea8f309f24.png" class="latex" alt="$1\times1$" style="vertical-align: 0px" width="39" height="12" /> squares <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" /> - <img src="//latex.artofproblemsolving.com/8/a/3/8a3b32228e9105bf0f3dffd78b0b7310083b693d.png" class="latex" alt="$2\times2$" width="40" height="12" /> squares <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> - <img src="//latex.artofproblemsolving.com/7/7/d/77d7104f34af16053b63ce7cfa87265d915c6105.png" class="latex" alt="$3\times3$" width="40" height="12" /> squares <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> - <img src="//latex.artofproblemsolving.com/b/1/0/b104e8c71a3698d4c073f00681bc1bf6412754fc.png" class="latex" alt="$4\times4$" style="vertical-align: 0px" width="40" height="12" /> squares and <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> - <img src="//latex.artofproblemsolving.com/d/b/f/dbf62794748fc97d1bfe454296f10da375126bac.png" class="latex" alt="$5\times5$" width="40" height="12" /> square), therefore there are <img src="//latex.artofproblemsolving.com/2/4/8/2482748a99a787b95876fc66d8ccc5b2479f1c27.png" class="latex" alt="$55-36 = 19$" style="vertical-align: 0px" width="100" height="13" /> squares that contain the black square, which is <img src="//latex.artofproblemsolving.com/f/d/9/fd9e8916434c4a10a57f03e3cf2f969d8c7e8de8.png" class="latex" alt="$\boxed{\mathrm{(D)}\ 19}$" style="vertical-align: -10px" width="63" height="29" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/HhdpuJt78Hg?t=168">https://youtu.be/HhdpuJt78Hg?t=168</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Video_Solutions">Video Solutions</span></h2>
+<ul><li><a rel="nofollow" class="external free" href="https://youtu.be/0W3VmFp55cM?t=4697">https://youtu.be/0W3VmFp55cM?t=4697</a></li>
+<li><a rel="nofollow" class="external free" href="https://youtu.be/aMmF6jz6xA4">https://youtu.be/aMmF6jz6xA4</a></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2004_AMC_10A" title="2004 AMC 10A">2004 AMC 10A</a></b> (<b><a href="/wiki/index.php/2004_AMC_10A_Problems" title="2004 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_10A_Answer_Key" title="2004 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_15" title="2004 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10A Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_1" title="2004 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_2" title="2004 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2004 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_4" title="2004 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_5" title="2004 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_6" class="mw-redirect" title="2004 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_7" title="2004 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2004 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2004 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_10" title="2004 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2004 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_12" title="2004 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_13" title="2004 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2004 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_15" title="2004 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a class="mw-selflink selflink">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_18" class="mw-redirect" title="2004 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_19" title="2004 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_20" title="2004 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_21" title="2004 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_22" class="mw-redirect" title="2004 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_23" class="mw-redirect" title="2004 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2004 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2004 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208144026
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.118 seconds
+Real time usage: 0.132 seconds
+Preprocessor visited node count: 443/1000000
+Preprocessor generated node count: 1308/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6362/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   11.896      1 -total
+ 75.32%    8.960      1 Template:AMC10_box
+ 22.01%    2.618      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6337-0!canonical and timestamp 20230208144026 and revision id 180069
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10A_Problems/Problem_16&amp;oldid=180069">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10A_Problems/Problem_16&amp;oldid=180069</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208230417 -->
+</html>

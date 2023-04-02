@@ -1,0 +1,252 @@
+<p>Ten women sit in <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> seats in a line. All of the <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> get up and then reseat themselves using all <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> seats, each sitting in the seat she was in before or a seat next to the one she occupied before. In how many ways can the women be reseated?
+</p><p><img src="//latex.artofproblemsolving.com/b/7/a/b7aaa5fe41e553af47b6a76eb278cc49480924e8.png" class="latex" alt="$\textbf{(A)}\ 89\qquad \textbf{(B)}\ 90\qquad \textbf{(C)}\ 120\qquad \textbf{(D)}\ 2^{10}\qquad \textbf{(E)}\ 2^2 3^8$" style="vertical-align: -4px" width="422" height="19" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Notice that either a woman stays in her own seat after the rearrangement, or two adjacent women swap places. Thus, our answer is counting the number of ways to arrange 1x1 and 2x1 blocks to form a 1x10 rectangle. This can be done via casework depending on the number of 2x1 blocks. The cases of 0, 1, 2, 3, 4, 5 2x1 blocks correspond to 10, 8, 6, 4, 2, 0 1x1 blocks, and so the sum of the cases is
+<img src="//latex.artofproblemsolving.com/5/1/5/5152c401cff4ca8e07112e761a15d3e308249f3b.png" class="latexcenter" alt="\[\binom{10}{0} + \binom{9}{1} + \binom{8}{2} + \binom{7}{3} + \binom{6}{4} + \binom{5}{5} = 1 + 9 + 28 + 35 + 15 + 1 = \boxed{89}.\]" width="533" height="53" />
+</p>
+<h3><span class="mw-headline" id="Solution_1_Shortcut">Solution 1 Shortcut</span></h3>
+<p>Recall that the number of ways to arrange 1x1 and 2x1 blocks to form a 1xn rectangle results in <a href="/wiki/index.php/Fibonacci_numbers" class="mw-redirect" title="Fibonacci numbers">Fibonacci numbers</a>. Clearly, <img src="//latex.artofproblemsolving.com/5/7/e/57e7427a546847574817bcd46ca81d87e5e14a43.png" class="latex" alt="$\boxed{89}$" style="vertical-align: -5px" width="30" height="23" /> is the only fibonacci number, so no calculation is needed for this problem.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/c/7/4/c74a070eea97d9363f58a257e05e75fc69efa753.png" class="latex" alt="$S_n$" style="vertical-align: -2px" width="19" height="15" /> be the number of possible seating arrangements with <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> women. Consider <img src="//latex.artofproblemsolving.com/7/2/4/724ce59c04f0542f832a1ddd186b6d3fbb2580fa.png" class="latex" alt="$n \ge 3,$" style="vertical-align: -3px" width="48" height="16" /> and focus on the rightmost woman. If she returns back to her seat, then there are <img src="//latex.artofproblemsolving.com/f/4/b/f4b168d3b50d26ac9e4ab6e83c812fd1622ede8f.png" class="latex" alt="$S_{n-1}$" style="vertical-align: -2px" width="35" height="15" /> ways to seat the remaining <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> women. If she sits in the second to last seat, then the woman who previously sat there must now sit at the rightmost seat. This gives us <img src="//latex.artofproblemsolving.com/b/4/1/b416a6ee2d55187b352341b14533153ce5748d39.png" class="latex" alt="$S_{n-2}$" style="vertical-align: -2px" width="35" height="15" /> ways to seat the other <img src="//latex.artofproblemsolving.com/e/f/9/ef9b02e32cfba0db0f9038a8d077596720f62e91.png" class="latex" alt="$n-2$" width="41" height="12" /> women, so we obtain the recursion
+<img src="//latex.artofproblemsolving.com/f/6/b/f6b0faa0e940a485cfa532b7342c5a1f91768519.png" class="latexcenter" alt="\[S_n = S_{n-1}+S_{n-2}.\]" width="144" height="15" />
+</p><p>Starting with <img src="//latex.artofproblemsolving.com/3/7/5/375448b8c84bcf0b089347589be7ef2af2431295.png" class="latex" alt="$S_1=1$" style="vertical-align: -2px" width="51" height="15" /> and <img src="//latex.artofproblemsolving.com/2/f/c/2fc4f386435ab831a101ebaf728d13f51f35f682.png" class="latex" alt="$S_2=2,$" style="vertical-align: -3px" width="56" height="16" /> we can calculate <img src="//latex.artofproblemsolving.com/5/c/9/5c951c7cead975f8eea52da54dc2b529fee0d9ef.png" class="latex" alt="$S_{10}=\boxed{89}.$" style="vertical-align: -5px" width="82" height="23" />
+</p>
+<h2><span class="mw-headline" id="Clarification_of_Solution_2">Clarification of Solution 2</span></h2>
+<p>The seating possibilities of woman #<img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> become the two cases which we work out. <img src="//latex.artofproblemsolving.com/c/7/4/c74a070eea97d9363f58a257e05e75fc69efa753.png" class="latex" alt="$S_n$" style="vertical-align: -2px" width="19" height="15" /> was defined to be the number of different seating arrangements with <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> women.
+</p><p>In the first "case" if woman #<img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> sits in the seat #<img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />, this leads to a similar scenario, but with <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> women instead. That means that for this case, there are a total of <img src="//latex.artofproblemsolving.com/3/9/0/390a30235cff5a7be64f6192ce3b20176d8aedbb.png" class="latex" alt="$S_{9}$" style="vertical-align: -2px" width="17" height="15" /> possible arrangements. We don't know how many exactly, but we are able to define it in terms of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />.
+</p><p>During the second "case", woman #<img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> sits in seat #<img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />. This time, woman #9 must go to seat #<img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />, as she is the only other person who can go there. This leaves us with <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> women, and we again represent this in terms of <img src="//latex.artofproblemsolving.com/e/9/1/e91dafb3f89d992af872be29e67562c5b611383e.png" class="latex" alt="$S \Rightarrow S_8$" style="vertical-align: -2px" width="57" height="15" />.
+</p><p>Therefore, we can write <img src="//latex.artofproblemsolving.com/2/0/8/20838b5ca8856f98e9825f2c50e2e21733d63274.png" class="latex" alt="$S_{10}$" style="vertical-align: -2px" width="23" height="15" /> in terms of <img src="//latex.artofproblemsolving.com/0/7/a/07a3fd82bedcbf8d8fe475d9d82fbd04d7ca1c8d.png" class="latex" alt="$S_8$" style="vertical-align: -2px" width="17" height="15" /> and <img src="//latex.artofproblemsolving.com/4/4/9/449f9443326f9b0e025114ef8c22b60bb9955459.png" class="latex" alt="$S_9$" style="vertical-align: -2px" width="17" height="15" />, like so:
+</p><p><img src="//latex.artofproblemsolving.com/c/4/5/c45503aac64a96f54f63fbea504108ab68adce5c.png" class="latexcenter" alt="\[S_{10} = S_8 + S_9.\]" width="112" height="15" />
+</p><p>We can then generalize this to say
+</p><p><img src="//latex.artofproblemsolving.com/f/6/b/f6b0faa0e940a485cfa532b7342c5a1f91768519.png" class="latexcenter" alt="\[S_n = S_{n-1}+S_{n-2}.\]" width="144" height="15" />
+</p><p>Calculating <img src="//latex.artofproblemsolving.com/3/f/3/3f366ea6a346d59792ce1fa58dea7fa03ff7ce1c.png" class="latex" alt="$S_1 = 1$" style="vertical-align: -2px" width="51" height="15" /> and <img src="//latex.artofproblemsolving.com/a/d/6/ad6b84b38865bab319505ea57632884fecaa82d1.png" class="latex" alt="$S_2 =2,$" style="vertical-align: -3px" width="56" height="16" /> then following the recursive rule from above, we get <img src="//latex.artofproblemsolving.com/f/f/b/ffbd7717317b67172b496e912c1edf505e37263f.png" class="latex" alt="$S_{10} = 89 \Rightarrow \boxed{\text{A}}$" style="vertical-align: -5px" width="120" height="23" />.
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2009_AMC_12B" title="2009 AMC 12B">2009 AMC 12B</a></b> (<b><a href="/wiki/index.php/2009_AMC_12B_Problems" title="2009 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2009_AMC_12B_Answer_Key" title="2009 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_20" title="2009 AMC 12B Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_22" title="2009 AMC 12B Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_1" class="mw-redirect" title="2009 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2009 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_3" class="mw-redirect" title="2009 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2009 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2009 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_6" class="mw-redirect" title="2009 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_7" class="mw-redirect" title="2009 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_8" class="mw-redirect" title="2009 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_9" title="2009 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_10" title="2009 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_11" class="mw-redirect" title="2009 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_12" title="2009 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_13" title="2009 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_14" title="2009 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_15" title="2009 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_16" title="2009 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_17" class="mw-redirect" title="2009 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_18" class="mw-redirect" title="2009 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_19" title="2009 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_20" title="2009 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_22" title="2009 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_23" title="2009 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_24" title="2009 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12B_Problems/Problem_25" title="2009 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208073212
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.092 seconds
+Real time usage: 0.095 seconds
+Preprocessor visited node count: 453/1000000
+Preprocessor generated node count: 1340/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6669/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.470      1 -total
+ 75.98%    6.436      1 Template:AMC12_box
+ 21.28%    1.802      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7906-0!canonical and timestamp 20230208073212 and revision id 178322
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12B_Problems/Problem_21&amp;oldid=178322">https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12B_Problems/Problem_21&amp;oldid=178322</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209031852 -->
+</html>

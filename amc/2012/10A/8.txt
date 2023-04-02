@@ -1,0 +1,17 @@
+<p>The sums of three whole numbers taken in pairs are 12, 17, and 19. What is the middle number?
+</p><p><img src="//latex.artofproblemsolving.com/5/f/b/5fb08f1c6cfc0feadf543b455cd706558e20a686.png" class="latex" alt="$\textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8$" style="vertical-align: -4px" width="348" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let the three numbers be equal to <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />. We can now write three equations:
+</p><p><img src="//latex.artofproblemsolving.com/4/a/3/4a3cb11eaa39974663470921c653cf3bdc4728c8.png" class="latex" alt="$a+b=12$" style="vertical-align: -1px" width="81" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/0/8/b/08bb4c8b4aa54e687423b5600144a537a33669a8.png" class="latex" alt="$b+c=17$" style="vertical-align: -1px" width="80" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/8/9/7/897da7ff939f82224a992c43ccca333b3bef5d5b.png" class="latex" alt="$a+c=19$" style="vertical-align: -1px" width="81" height="14" />
+</p><p>Adding these equations together, we get that
+</p><p><img src="//latex.artofproblemsolving.com/5/1/5/51514d082c5cd18e4a64a025e2a9d15d0b81fccf.png" class="latex" alt="$2(a+b+c)=48$" style="vertical-align: -4px" width="134" height="18" /> and
+</p><p><img src="//latex.artofproblemsolving.com/6/e/5/6e5a2efedf04fd2b38d7fc033a4308a19efa452a.png" class="latex" alt="$a+b+c=24$" style="vertical-align: -1px" width="112" height="14" />
+</p><p>Substituting the original equations into this one, we find
+</p><p><img src="//latex.artofproblemsolving.com/4/b/7/4b7b6b3a52be561c70c9197649858bfc3c2dfd00.png" class="latex" alt="$c+12=24$" style="vertical-align: -1px" width="90" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/2/5/7/25776a51b0642e515d27e36e5c30d169f9f5b9e3.png" class="latex" alt="$a+17=24$" style="vertical-align: -1px" width="92" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/4/1/a/41af72b4e49efde65d24d96be1859dd4812319e9.png" class="latex" alt="$b+19=24$" style="vertical-align: -1px" width="90" height="14" />
+</p><p>Therefore, our numbers are 12, 7, and 5. The middle number is <img src="//latex.artofproblemsolving.com/6/c/e/6cecfe394f16d2d6d7bc6844d2d845b2a014f077.png" class="latex" alt="$\boxed{\textbf{(D)}\ 7}$" style="vertical-align: -10px" width="55" height="28" />
+</p>

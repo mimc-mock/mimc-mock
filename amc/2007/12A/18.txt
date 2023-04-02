@@ -1,0 +1,248 @@
+<p>The polynomial <img src="//latex.artofproblemsolving.com/9/a/3/9a38ccd7bebcd6e9086e42c1e9dcb6e2d95970c7.png" class="latex" alt="$f(x) = x^{4} + ax^{3} + bx^{2} + cx + d$" style="vertical-align: -4px" width="247" height="19" /> has real coefficients, and <img src="//latex.artofproblemsolving.com/d/9/3/d935758fdc88079e80fb122b82bcdf3975e511d5.png" class="latex" alt="$f(2i) = f(2 + i) = 0.$" style="vertical-align: -4px" width="164" height="18" /> What is <img src="//latex.artofproblemsolving.com/3/6/0/3609992cb62090c9ffa52cc0730cece92f9bfc2c.png" class="latex" alt="$a + b + c + d?$" style="vertical-align: -1px" width="109" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/1/c/6/1c66983d26396563fed3188dca0e655854412bf2.png" class="latex" alt="$\mathrm{(A)}\ 0 \qquad \mathrm{(B)}\ 1 \qquad \mathrm{(C)}\ 4 \qquad \mathrm{(D)}\ 9 \qquad \mathrm{(E)}\ 16$" style="vertical-align: -4px" width="351" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>A fourth degree polynomial has four <a href="/wiki/index.php/Root" class="mw-redirect" title="Root">roots</a>. Since the coefficients are real(meaning that complex roots come in conjugate pairs), the remaining two roots must be the <a href="/wiki/index.php/Complex_conjugate" title="Complex conjugate">complex conjugates</a> of the two given roots. By the factor theorem, our roots are <img src="//latex.artofproblemsolving.com/f/7/c/f7c9aed0bc1a732053db0938c79dbc9248e7c5ef.png" class="latex" alt="$2-i,-2i$" style="vertical-align: -3px" width="74" height="16" />. Now we work backwards for the polynomial:
+</p>
+<div style="text-align:center;"><img src="//latex.artofproblemsolving.com/4/a/2/4a2892d359087ed1923e128f7eb8ca5a29178df5.png" class="latex" alt="$(x-(2+i))(x-(2-i))(x-2i)(x+2i) = 0$" style="vertical-align: -4px" width="354" height="18" /><br />
+<p><img src="//latex.artofproblemsolving.com/0/7/6/076fbe48577ba10c0d68a0f480ebd552e8f5bf65.png" class="latex" alt="$(x^2 - 4x + 5)(x^2 + 4) = 0$" style="vertical-align: -4px" width="201" height="19" /><br />
+</p>
+<img src="//latex.artofproblemsolving.com/d/0/a/d0a46838b90acb80b3df33c37320d99d5ad1d974.png" class="latex" alt="$x^4 - 4x^3 + 9x^2 - 16x + 20 = 0$" style="vertical-align: -1px" width="240" height="16" /></div>
+<p>Thus our answer is <img src="//latex.artofproblemsolving.com/e/3/2/e32d21baa12274267c99eec464d6ccd8549e27b2.png" class="latex" alt="$- 4 + 9 - 16 + 20 = 9\ \mathrm{(D)}$" style="vertical-align: -4px" width="200" height="18" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Just like in Solution 1 we realize that the roots come in conjugate pairs. Which means the roots are <img src="//latex.artofproblemsolving.com/9/b/f/9bf59023ced3d93343c5b561bb81cd79fec98566.png" class="latex" alt="$2i,i+2,-2i,2-i$" style="vertical-align: -3px" width="143" height="16" />
+So our polynomial is  
+</p><p><b>(1)</b> <img src="//latex.artofproblemsolving.com/5/e/f/5ef29ff13864ab8479edc6e0d3650231c7a04687.png" class="latex" alt="$f(x) = (x-2i)(x+2i)(x-i-2)(x-2+i)$" style="vertical-align: -4px" width="351" height="18" />
+</p><p>Looking at the equation of the polynomial <img src="//latex.artofproblemsolving.com/b/e/b/bebb998361742138f397bc1629c91c1911ea90dc.png" class="latex" alt="$f(x) = x^4+ax^3+bx^2+cx+d$" style="vertical-align: -4px" width="247" height="19" />. We see that <img src="//latex.artofproblemsolving.com/e/8/7/e87eb4e245e8c12e256fcde96208ee1e5b1cf175.png" class="latex" alt="$a+b+c+d = f(1)-1$" style="vertical-align: -4px" width="190" height="18" />
+</p><p>If we plug in <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> into equation <b>(1)</b> we get <img src="//latex.artofproblemsolving.com/d/e/1/de133dd4be3168b8ad05941acf3b003363d042d3.png" class="latex" alt="$f(1) = (1-2i)(1+2i)(-1-i)(-1+i)$" style="vertical-align: -4px" width="310" height="18" />. 
+</p><p>Now if we multiply a complex number by its conjugate we get the sum of the squares of its real and imaginary parts. Using this property on the above we multiply  and get <img src="//latex.artofproblemsolving.com/5/3/b/53bcb36f74a08d153da1678009318e16cb08abfb.png" class="latex" alt="$f(1) = (1-2i)(1+2i)(-1-i)(-1+i) = (1^2+2^2)(1^2+1^2) = 10$" style="vertical-align: -4px" width="516" height="19" />
+So the answer is <img src="//latex.artofproblemsolving.com/1/0/d/10df38dcd8c1f517a39b5857f978cd9f3127412a.png" class="latex" alt="$f(1) -1 = 10 - 1  = 9$" style="vertical-align: -4px" width="172" height="18" />. <img src="//latex.artofproblemsolving.com/e/8/8/e88dc32d72b800739cb3736b1ccaa5c08d18eda3.png" class="latex" alt="$\framebox{D}$" style="vertical-align: -5px" width="24" height="23" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2007_AMC_12A" title="2007 AMC 12A">2007 AMC 12A</a></b> (<b><a href="/wiki/index.php/2007_AMC_12A_Problems" title="2007 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2007_AMC_12A_Answer_Key" title="2007 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_17" title="2007 AMC 12A Problems/Problem 17">Problem 17</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_19" title="2007 AMC 12A Problems/Problem 19">Problem 19</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_1" title="2007 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_2" title="2007 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_3" title="2007 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_4" title="2007 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_5" title="2007 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_6" title="2007 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_7" title="2007 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_8" title="2007 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_9" title="2007 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_10" title="2007 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_11" title="2007 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_12" title="2007 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_13" title="2007 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_14" title="2007 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_15" title="2007 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_16" title="2007 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_17" title="2007 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a class="mw-selflink selflink">18</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_19" title="2007 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_20" title="2007 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_21" title="2007 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_22" title="2007 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_23" title="2007 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_24" title="2007 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_25" title="2007 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208185843
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.086 seconds
+Real time usage: 0.212 seconds
+Preprocessor visited node count: 262/1000000
+Preprocessor generated node count: 922/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3600/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   22.996      1 -total
+ 90.93%   20.910      1 Template:AMC12_box
+  8.14%    1.873      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:5210-0!canonical and timestamp 20230208185843 and revision id 178147
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_12A_Problems/Problem_18&amp;oldid=178147">https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_12A_Problems/Problem_18&amp;oldid=178147</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208185843 -->
+</html>

@@ -1,0 +1,259 @@
+<p>A square with side length <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> is colored white except for <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> black isosceles right triangular regions with legs of length <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> in each corner of the square and a black diamond with side length <img src="//latex.artofproblemsolving.com/7/1/d/71df1b44d6caa4b0f798d48ff8ee72da386e4cb8.png" class="latex" alt="$2\sqrt{2}$" style="vertical-align: -1px" width="33" height="18" /> in the center of the square, as shown in the diagram. A circular coin with diameter <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> is dropped onto the square and lands in a random location where the coin is completely contained within the square. The probability that the coin will cover part of the black region of the square can be written as <img src="//latex.artofproblemsolving.com/f/3/a/f3ad40c6aec01dd2ab973fdb8f68f5beea1af9a9.png" class="latex" alt="$\frac{1}{196}\left(a+b\sqrt{2}+\pi\right)$" style="vertical-align: -13px" width="154" height="38" />, where <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> are positive integers. What is <img src="//latex.artofproblemsolving.com/a/d/d/add2609af1bb7632cc22b68fd49fdd94de06b327.png" class="latex" alt="$a+b$" style="vertical-align: -1px" width="40" height="14" />?
+<img src="//latex.artofproblemsolving.com/f/7/f/f7f338e16788e51acc32f82a10daf271c5a104aa.png" class="latexcenter" alt="[asy] /* Made by samrocksnature */ draw((0,0)--(8,0)--(8,8)--(0,8)--(0,0)); fill((2,0)--(0,2)--(0,0)--cycle, black); fill((6,0)--(8,0)--(8,2)--cycle, black); fill((8,6)--(8,8)--(6,8)--cycle, black); fill((0,6)--(2,8)--(0,8)--cycle, black); fill((4,6)--(2,4)--(4,2)--(6,4)--cycle, black); filldraw(circle((2.6,3.31),0.5),gray); [/asy]" width="252" height="252" />
+</p><p><img src="//latex.artofproblemsolving.com/8/9/7/897498c2b9ea30db565d12aa9ad10ce440b6057c.png" class="latex" alt="$\textbf{(A)} ~64 \qquad\textbf{(B)} ~66 \qquad\textbf{(C)} ~68 \qquad\textbf{(D)} ~70 \qquad\textbf{(E)} ~72$" style="vertical-align: -4px" width="394" height="17" />
+</p>
+<h2><span class="mw-headline" id="Diagram">Diagram</span></h2>
+<p>Note that the center of the coin can lie anywhere inside a green region, as shown below.
+<img src="//latex.artofproblemsolving.com/8/0/d/80de1b87bb354410fd58b705ace2bcf031ec62f3.png" class="latexcenter" alt="[asy] /* Made by MRENTHUSIASM */ draw((0,0)--(8,0)--(8,8)--(0,8)--(0,0)); fill((2,0)--(0,2)--(0,0)--cycle, black); fill((6,0)--(8,0)--(8,2)--cycle, black); fill((8,6)--(8,8)--(6,8)--cycle, black); fill((0,6)--(2,8)--(0,8)--cycle, black); fill((4,6)--(2,4)--(4,2)--(6,4)--cycle, black); draw((0.5,7.5)--(0.5+1+sqrt(2)/2,7.5)--(0.5,7.5-1-sqrt(2)/2)--cycle, green); draw((0.5,0.5)--(0.5+1+sqrt(2)/2,0.5)--(0.5,0.5+1+sqrt(2)/2)--cycle, green); draw((7.5,7.5)--(7.5-1-sqrt(2)/2,7.5)--(7.5,7.5-1-sqrt(2)/2)--cycle, green); draw((7.5,0.5)--(7.5-1-sqrt(2)/2,0.5)--(7.5,0.5+1+sqrt(2)/2)--cycle, green); draw(Arc((4,6),0.5,135,45)--Arc((6,4),0.5,45,-45)--Arc((4,2),0.5,-45,-135)--Arc((2,4),0.5,225,135)--cycle, green); [/asy]" width="252" height="252" />
+~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>To find the probability, we look at the <img src="//latex.artofproblemsolving.com/e/6/9/e698969e1acb79d4e8eef8f49e448c4fc2bc1cb2.png" class="latex" alt="$\frac{\text{success region}}{\text{total possible region}}$" style="vertical-align: -15px" width="148" height="39" />. For the coin to be completely contained within the square, we must have the distance from the center of the coin to a side of the square to be at least <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />, as it's the radius of the coin. This implies the <img src="//latex.artofproblemsolving.com/c/b/7/cb703fa4fe262a174e78f7dcaa636571e7b4c076.png" class="latex" alt="$\text{total possible region}$" style="vertical-align: -3px" width="146" height="15" /> is a square with side length <img src="//latex.artofproblemsolving.com/5/9/e/59e7e5fd78537415d9bcbddad944d64974daa2b6.png" class="latex" alt="$8 - \frac{1}{2} - \frac{1}{2} = 7$" style="vertical-align: -12px" width="113" height="37" />, with an area of <img src="//latex.artofproblemsolving.com/3/4/c/34c8e6bf4d57cd6f2bb0d7d43e00f0f442f53b84.png" class="latex" alt="$49$" style="vertical-align: 0px" width="17" height="13" />. Now, we consider cases where needs to land to partially cover a black region.
+</p><p><b> Near The Center Square </b>
+</p><p>We can have the center of the coin land within <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> outside of the center square, or inside of the center square.  So, we have a region with <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> emanating from every point on the exterior of the square, forming four quarter circles and four rectangles. The four quarter circles combine to make a full circle of radius <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />, so the area is <img src="//latex.artofproblemsolving.com/1/1/d/11d3791d908578e9ede8da9a29fefa2429468419.png" class="latex" alt="$\frac{\pi}{4}$" style="vertical-align: -13px" width="13" height="33" />. The area of a rectangle is <img src="//latex.artofproblemsolving.com/9/c/f/9cfafcc20e510cbdd14a1230a9211d999b447240.png" class="latex" alt="$2 \sqrt 2 \cdot \frac{1}{2} = \sqrt 2$" style="vertical-align: -12px" width="108" height="37" />, so <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> of them combine to an area of <img src="//latex.artofproblemsolving.com/8/4/1/84128fda6939c2dafeda77dbe67654e5c0412312.png" class="latex" alt="$4 \sqrt 2$" style="vertical-align: -1px" width="33" height="18" />. The area of the black square is simply <img src="//latex.artofproblemsolving.com/2/b/7/2b71d36f48301822d2e56c351555586783858826.png" class="latex" alt="$\left(2\sqrt 2\right)^2 = 8$" style="vertical-align: -12px" width="97" height="37" />. So, for this case, we have a combined total of <img src="//latex.artofproblemsolving.com/0/7/3/073147cd940386ebb544af3835d207acefca7994.png" class="latex" alt="$8 + 4\sqrt 2 + \frac{\pi}{4}$" style="vertical-align: -13px" width="100" height="33" />. Onto the second (and last) case.
+</p><p><b> Near A Triangle </b>
+</p><p>We can also have the coin land within <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> outside of one of the triangles. By symmetry, we can just find the successful region for one of them, then multiply by <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. Consider the above diagram. We can draw an altitude from the bottom corner of the square to hit the hypotenuse of the green triangle. The length of this when passing through the black region is <img src="//latex.artofproblemsolving.com/7/5/b/75bec5f95356b5621c8c473003558d5d8187a4d6.png" class="latex" alt="$\sqrt 2$" style="vertical-align: -1px" width="24" height="18" />, and when passing through the white region (while being contained in the green triangle) is <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />. However, we have to subtract off when it doesn't pass through the red square. Then, it's the hypotenuse of a small isosceles right triangle with side lengths of <img src="//latex.artofproblemsolving.com/4/a/4/4a4a7df1100efe353cc612d5d1c289c22d5bf8c1.png" class="latex" alt="$\dfrac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> which is <img src="//latex.artofproblemsolving.com/5/2/c/52c0ce4138d5a10a54f5e36773239985c45a3589.png" class="latex" alt="$\dfrac{\sqrt{2}}{2}.$" style="vertical-align: -12px" width="31" height="41" /> So, the altitude of the green triangle is <img src="//latex.artofproblemsolving.com/4/1/1/41142ecdf957658b2d3f699200f4610a22390363.png" class="latex" alt="$\sqrt 2 + \frac{1}{2} - \frac{\sqrt 2}{2} = \frac{\sqrt 2 + 1}{2}$" style="vertical-align: -12px" width="192" height="41" />. Then, recall, the area of an isosceles right triangle is <img src="//latex.artofproblemsolving.com/3/1/9/319c4d6557b81962a2076f2017878709cf698551.png" class="latex" alt="$h^2$" width="16" height="15" />, where <img src="//latex.artofproblemsolving.com/8/1/8/8189a5b5a0917b8c93350827be4038af1839139d.png" class="latex" alt="$h$" width="10" height="12" /> is the altitude from the right angle. So, squaring this, we get <img src="//latex.artofproblemsolving.com/b/5/f/b5ffe41abbfd9a6fb9f1c46229d1d46521b53a78.png" class="latex" alt="$\frac{3 + 2\sqrt 2}{4}$" style="vertical-align: -13px" width="67" height="41" />. Now, we have to multiply this by <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> to account for all of the black triangles, to get <img src="//latex.artofproblemsolving.com/2/2/6/2264a62e5f3bac57d0cbada5db042d3f63ad067a.png" class="latex" alt="$3 + 2\sqrt 2$" style="vertical-align: -1px" width="65" height="18" /> as the final area for this case. 
+</p><p><b> Finishing </b>
+</p><p>Then, to have the coin touching a black region, we add up the area of our successful regions, or <img src="//latex.artofproblemsolving.com/1/6/3/163c920f77bc5d11a0d9c0430adad4f268b0dfa6.png" class="latex" alt="$8 + 4\sqrt 2 + \frac{\pi}{4} + 3 + 2\sqrt 2 = 11 + 6\sqrt 2 + \frac{\pi}{4} = \frac{44 + 24\sqrt 2 + \pi}{4}$" style="vertical-align: -13px" width="466" height="41" />. The total region is <img src="//latex.artofproblemsolving.com/3/4/c/34c8e6bf4d57cd6f2bb0d7d43e00f0f442f53b84.png" class="latex" alt="$49$" style="vertical-align: 0px" width="17" height="13" />, so our probability is <img src="//latex.artofproblemsolving.com/3/f/7/3f7ec579ea5947f2bfb15a12924ea1d18f7994e9.png" class="latex" alt="$\frac{\frac{44 + 24\sqrt 2 + \pi}{4}}{49} = \frac{44 + 24\sqrt 2 + \pi}{196}$" style="vertical-align: -13px" width="223" height="44" />, which implies <img src="//latex.artofproblemsolving.com/0/8/9/08983a1b20bb94e6348bad949e96d6b044b4861a.png" class="latex" alt="$a+b = 44+24 = 68$" style="vertical-align: -1px" width="164" height="14" />. This corresponds to answer choice <img src="//latex.artofproblemsolving.com/6/e/1/6e144979cc290cf89bbd813164f6500cb161254a.png" class="latex" alt="$\boxed{\textbf{(C)} ~68}$" style="vertical-align: -10px" width="64" height="28" />.
+</p><p>~rocketsri
+~ minor edit from jrepsa
+~ minor edit from lpieleanu
+</p>
+<h2><span id="Video_Solution_by_OmegaLearn_(Similar_Triangles_and_Area_Calculations)"></span><span class="mw-headline" id="Video_Solution_by_OmegaLearn_.28Similar_Triangles_and_Area_Calculations.29">Video Solution by OmegaLearn (Similar Triangles and Area Calculations)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/-UvivZ0UA1U">https://youtu.be/-UvivZ0UA1U</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span id="Video_Solution_by_Interstigation_(Using_Casework)"></span><span class="mw-headline" id="Video_Solution_by_Interstigation_.28Using_Casework.29">Video Solution by Interstigation (Using Casework)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/QYLg-xOtmPc">https://youtu.be/QYLg-xOtmPc</a>
+</p><p>~ Interstigation
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_The_Power_of_Logic">Video Solution by The Power of Logic</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=o3_kUpWUokw">https://www.youtube.com/watch?v=o3_kUpWUokw</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2021_AMC_10B" title="2021 AMC 10B">2021 AMC 10B</a></b> (<b><a href="/wiki/index.php/2021_AMC_10B_Problems" title="2021 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2021_AMC_10B_Answer_Key" title="2021 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_22" title="2021 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2021 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_1" class="mw-redirect" title="2021 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_2" title="2021 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_3" title="2021 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_4" class="mw-redirect" title="2021 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_5" title="2021 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_6" class="mw-redirect" title="2021 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_7" title="2021 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_8" title="2021 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_9" class="mw-redirect" title="2021 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2021 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_11" title="2021 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_12" class="mw-redirect" title="2021 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_13" title="2021 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_14" class="mw-redirect" title="2021 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_15" title="2021 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_16" title="2021 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_17" title="2021 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_18" title="2021 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2021 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_20" class="mw-redirect" title="2021 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_21" title="2021 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_22" title="2021 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a class="mw-selflink selflink">23</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2021 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2021 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208225150
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.105 seconds
+Real time usage: 0.108 seconds
+Preprocessor visited node count: 496/1000000
+Preprocessor generated node count: 1428/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8999/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.153      1 -total
+ 75.54%    6.914      1 Template:AMC10_box
+ 21.24%    1.944      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:20415-0!canonical and timestamp 20230208225150 and revision id 180637
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_23&amp;oldid=180637">https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_10B_Problems/Problem_23&amp;oldid=180637</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209004049 -->
+</html>

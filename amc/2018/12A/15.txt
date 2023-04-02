@@ -1,0 +1,278 @@
+<p>A scanning code consists of a <img src="//latex.artofproblemsolving.com/5/d/4/5d4f93df0d5696a7a30826c6a7c604d1352c6198.png" class="latex" alt="$7 \times 7$" width="40" height="12" /> grid of squares, with some of its squares colored black and the rest colored white. There must be at least one square of each color in this grid of <img src="//latex.artofproblemsolving.com/3/4/c/34c8e6bf4d57cd6f2bb0d7d43e00f0f442f53b84.png" class="latex" alt="$49$" style="vertical-align: 0px" width="17" height="13" /> squares. A scanning code is called <img src="//latex.artofproblemsolving.com/f/a/3/fa3021e911d666c749c43cb1b5de961e0e303116.png" class="latex" alt="$\textit{symmetric}$" style="vertical-align: -3px" width="75" height="15" /> if its look does not change when the entire square is rotated by a multiple of <img src="//latex.artofproblemsolving.com/f/9/d/f9d38eab3efc0dbd74471a71de651ff67c88fb63.png" class="latex" alt="$90 ^{\circ}$" width="24" height="13" /> counterclockwise around its center, nor when it is reflected across a line joining opposite corners or a line joining midpoints of opposite sides. What is the total number of possible symmetric scanning codes?
+</p><p><img src="//latex.artofproblemsolving.com/0/d/3/0d319fa2e95be938d301fb7e08e715cf2bfe4b4b.png" class="latex" alt="$\textbf{(A)} \text{ 510} \qquad \textbf{(B)} \text{ 1022} \qquad \textbf{(C)} \text{ 8190} \qquad \textbf{(D)} \text{ 8192} \qquad \textbf{(E)} \text{ 65,534}$" style="vertical-align: -4px" width="474" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Draw a <img src="//latex.artofproblemsolving.com/5/d/4/5d4f93df0d5696a7a30826c6a7c604d1352c6198.png" class="latex" alt="$7 \times 7$" width="40" height="12" /> square.
+</p><p><img src="//latex.artofproblemsolving.com/7/8/e/78ea46dd064f1505682597da32c8dcb3a351a9e6.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|c|c|c|c|} \hline K &amp; J &amp; H &amp; G &amp; H &amp; J &amp; K \\ \hline J &amp; F &amp; E &amp; D &amp; E &amp; F &amp; J \\ \hline H &amp; E &amp; C &amp; B &amp; C &amp; E &amp; H \\ \hline G &amp; D &amp; B &amp; A &amp; B &amp; D &amp; G \\ \hline H &amp; E &amp; C &amp; B &amp; C &amp; E &amp; H \\ \hline J &amp; F &amp; E &amp; D &amp; E &amp; F &amp; J \\ \hline K &amp; J &amp; H &amp; G &amp; H &amp; J &amp; K \\ \hline \end{tabular}\]" width="230" height="145" />
+</p><p>Start from the center and label all protruding cells symmetrically. (Note that "I" is left out of this labelling, so there are only 10 labels, not 11, as ending in K would suggest!)
+</p><p>More specifically, since there are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> given lines of symmetry (<img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> diagonals, <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> vertical, <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> horizontal) and they split the plot into <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> equivalent sections, we can take just one-eighth and study it in particular. Each of these sections has <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> distinct sub-squares, whether partially or in full. So since each can be colored either white or black, we choose <img src="//latex.artofproblemsolving.com/5/0/8/50811f350197d47b2ddb684f3b7d07ce96a0bdca.png" class="latex" alt="$2^{10}=1024$" style="vertical-align: 0px" width="83" height="15" /> but then subtract the <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> cases where all are white or all are black. That leaves us with <img src="//latex.artofproblemsolving.com/5/5/4/55496b6c63d07400111f4577b899d4feeb05243f.png" class="latex" alt="$\fbox{\textbf{(B)} \text{ 1022}}$" style="vertical-align: -10px" width="84" height="28" />.
+</p><p>There are only ten squares we get to actually choose, and two independent choices for each, for a total of <img src="//latex.artofproblemsolving.com/c/f/8/cf856775e3de1168a9a4f29bc68d3651d0bf6051.png" class="latex" alt="$2^{10} = 1024$" style="vertical-align: 0px" width="83" height="15" /> codes. Two codes must be subtracted (due to the rule that there must be at least one square of each color) for an answer of <img src="//latex.artofproblemsolving.com/0/7/1/0713782428e94227d70dc64d113770680287f33b.png" class="latex" alt="$\fbox{\textbf{(B) }1022}$" style="vertical-align: -10px" width="79" height="28" />.
+</p><p><br />
+Note that this problem is very similar to the 1996 AIME Problem 7 <a rel="nofollow" class="external free" href="https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_7">https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_7</a>.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p><img src="//latex.artofproblemsolving.com/9/9/3/993726c46cf1e3aae9c28fd10602f60f078311ad.png" class="latexcenter" alt="[asy] size(100pt); draw((1,0)--(8,0),linewidth(0.5)); draw((1,2)--(6,2),linewidth(0.5)); draw((1,4)--(4,4),linewidth(0.5)); draw((1,6)--(2,6),linewidth(0.5)); draw((2,6)--(2,0),linewidth(0.5)); draw((4,4)--(4,0),linewidth(0.5)); draw((6,2)--(6,0),linewidth(0.5)); draw((1,0)--(1,7),dashed+linewidth(0.5)); draw((1,7)--(8,0),dashed+linewidth(0.5)); [/asy]" width="168" height="168" />
+</p><p>Imagine folding the scanning code along its lines of symmetry. There will be <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> regions which you have control over coloring. Since we must subtract off <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> cases for the all-black and all-white cases, the answer is <img src="//latex.artofproblemsolving.com/7/2/5/725f99eaea80983b28986b53a1eb793c4b763698.png" class="latex" alt="$2^{10}-2=\boxed{\textbf{(B) } 1022.}$" style="vertical-align: -10px" width="166" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>This <img src="//latex.artofproblemsolving.com/5/d/4/5d4f93df0d5696a7a30826c6a7c604d1352c6198.png" class="latex" alt="$7 \times 7$" width="40" height="12" /> square drawn in Solution 1 satisfies the conditions given in the problem. Calculating the number of ways of coloring it will solve the problem.
+</p><p><img src="//latex.artofproblemsolving.com/7/8/e/78ea46dd064f1505682597da32c8dcb3a351a9e6.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|c|c|c|c|} \hline K &amp; J &amp; H &amp; G &amp; H &amp; J &amp; K \\ \hline J &amp; F &amp; E &amp; D &amp; E &amp; F &amp; J \\ \hline H &amp; E &amp; C &amp; B &amp; C &amp; E &amp; H \\ \hline G &amp; D &amp; B &amp; A &amp; B &amp; D &amp; G \\ \hline H &amp; E &amp; C &amp; B &amp; C &amp; E &amp; H \\ \hline J &amp; F &amp; E &amp; D &amp; E &amp; F &amp; J \\ \hline K &amp; J &amp; H &amp; G &amp; H &amp; J &amp; K \\ \hline \end{tabular}\]" width="230" height="145" />
+</p><p>In the grid, 10 letters are used: <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" />, <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/b/1/9/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12" />, <img src="//latex.artofproblemsolving.com/a/b/b/abb5588023cfa1ac14643e9778699f03eecc57a3.png" class="latex" alt="$J$" width="12" height="12" />, and <img src="//latex.artofproblemsolving.com/d/f/b/dfb064112b6c94470339f6571f69d07afc1c024c.png" class="latex" alt="$K$" width="16" height="12" />. Each of the letters must have its own color, either white or black. This means, for example, all <img src="//latex.artofproblemsolving.com/d/f/b/dfb064112b6c94470339f6571f69d07afc1c024c.png" class="latex" alt="$K$" width="16" height="12" />'s must have the same color for the grid to be symmetrical.
+</p><p>So there are <img src="//latex.artofproblemsolving.com/b/3/b/b3b2422eb1e019642032c00b0c5d5982903fe45d.png" class="latex" alt="$2^{10}$" width="21" height="15" /> ways to color the grid, including a completely black grid and a completely white grid. Since the grid must contain at least one square with each color, the number of ways is <img src="//latex.artofproblemsolving.com/5/5/a/55a5963089ed1328eceee00d51cde9b06777407b.png" class="latex" alt="$2^{10}-2=1024-2=$" style="vertical-align: 0px" width="165" height="15" /> <img src="//latex.artofproblemsolving.com/2/f/4/2f4459a6769f6ce685b50b74e741f8665ab7bc46.png" class="latex" alt="$\boxed{\textbf{(B) } 1022}$" style="vertical-align: -10px" width="83" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p><img src="//latex.artofproblemsolving.com/3/0/8/30813847c1a6a391c8c6368465c8a8337f0cb9e0.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|c|c|c|c|} \hline T &amp; T &amp; T &amp; X &amp; T &amp; T &amp; T \\ \hline T &amp; T &amp; T &amp; Y&amp; T &amp; T &amp; T \\ \hline T &amp; T &amp; T &amp; Z &amp; T &amp; T &amp; T \\ \hline X &amp; Y &amp; Z &amp; W &amp; Z &amp; Y &amp; X \\ \hline T &amp; T &amp; T &amp; Z &amp; T &amp; T &amp; T \\ \hline T &amp; T &amp; T &amp; Y &amp; T &amp; T &amp; T \\ \hline T &amp; T &amp; T &amp; X &amp; T &amp; T &amp; T \\ \hline \end{tabular}\]" width="231" height="145" />
+</p><p>There are <img src="//latex.artofproblemsolving.com/d/2/7/d278803d72fcc493afb1559174a483aa7f41d143.png" class="latex" alt="$3 \times 3$" width="40" height="12" /> squares in the corners of this <img src="//latex.artofproblemsolving.com/5/d/4/5d4f93df0d5696a7a30826c6a7c604d1352c6198.png" class="latex" alt="$7 \times 7$" width="40" height="12" /> square, and there is a horizontal and vertical stripe through the middle. Because we need to have symmetry when the diagonals and midpoints of the large square is connected, we can create a table like this: (Different letters represent different color choices between black and white)
+</p><p><img src="//latex.artofproblemsolving.com/4/4/8/4485cb12038ad89a92620c16ef5cb752449440d0.png" class="latexcenter" alt="\[\begin{tabular}{|c|c|c|} \hline A &amp; B &amp; C \\ \hline B &amp; D &amp; E \\ \hline C &amp; E &amp; F \\ \hline \end{tabular}\]" width="98" height="63" />
+(Note that coloring one <img src="//latex.artofproblemsolving.com/d/2/7/d278803d72fcc493afb1559174a483aa7f41d143.png" class="latex" alt="$3 \times 3$" width="40" height="12" /> square will also determine the colorings of the other <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> because the large <img src="//latex.artofproblemsolving.com/5/d/4/5d4f93df0d5696a7a30826c6a7c604d1352c6198.png" class="latex" alt="$7 \times 7$" width="40" height="12" /> square must look the same when it is rotated by <img src="//latex.artofproblemsolving.com/2/2/e/22ec0d2e4202839322d26a23dcb13f79821df5d7.png" class="latex" alt="$90^\circ$" width="24" height="13" />)
+</p><p>There are <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> different letters and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> choices of color (black and white) for each letter, so there are <img src="//latex.artofproblemsolving.com/c/2/3/c23f7dacd533c95a26bd926214b42d6cc00fb29f.png" class="latex" alt="$2^6=64$" style="vertical-align: 0px" width="59" height="15" /> colorings of a proper <img src="//latex.artofproblemsolving.com/d/2/7/d278803d72fcc493afb1559174a483aa7f41d143.png" class="latex" alt="$3 \times 3$" width="40" height="12" /> square. Now, all that's left are the horizontal and vertical stripes. Using similar logic, we can see that there are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> different letters, so there are <img src="//latex.artofproblemsolving.com/9/5/8/9584bdb500d49089d884caad5e9f4484b6267bbf.png" class="latex" alt="$2^4=16$" style="vertical-align: 0px" width="58" height="15" /> different colorings. Multiplying them together gives <img src="//latex.artofproblemsolving.com/0/f/6/0f656921ab7904a3829d77eccc955f816ddd2da4.png" class="latex" alt="$16 \times 64 = 1024$" style="vertical-align: 0px" width="119" height="13" />. Going back to the question, we see that "there must be at least one square of each color in this grid of <img src="//latex.artofproblemsolving.com/3/4/c/34c8e6bf4d57cd6f2bb0d7d43e00f0f442f53b84.png" class="latex" alt="$49$" style="vertical-align: 0px" width="17" height="13" /> squares." We must then eliminate <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> options: an all-black grid and an all-white grid. <img src="//latex.artofproblemsolving.com/e/7/9/e79f33cbbc9e1282512dabbddfb603cf540e1f20.png" class="latex" alt="$1024-2= \boxed{\textbf{(B)} 1022} \\ \phantom{}$" style="vertical-align: 10px" width="168" height="28" /> 
+-hansenhe
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/M22S82Am2zM">https://youtu.be/M22S82Am2zM</a>
+</p><p>~IceMatrix
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10A" title="2018 AMC 10A">2018 AMC 10A</a></b> (<b><a href="/wiki/index.php/2018_AMC_10A_Problems" title="2018 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10A_Answer_Key" title="2018 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_19" title="2018 AMC 10A Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_21" title="2018 AMC 10A Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_1" title="2018 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_2" title="2018 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_3" title="2018 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_4" title="2018 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_5" title="2018 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_6" title="2018 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_7" title="2018 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_8" title="2018 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_9" title="2018 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_10" title="2018 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_11" title="2018 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_12" title="2018 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_13" title="2018 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_14" title="2018 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_15" title="2018 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_16" title="2018 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_17" title="2018 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_18" title="2018 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_19" title="2018 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_21" title="2018 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_22" title="2018 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_23" title="2018 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_24" title="2018 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_25" title="2018 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2018_AMC_12A" title="2018 AMC 12A">2018 AMC 12A</a></b> (<b><a href="/wiki/index.php/2018_AMC_12A_Problems" title="2018 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_12A_Answer_Key" title="2018 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_14" title="2018 AMC 12A Problems/Problem 14">Problem 14</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2018 AMC 12A Problems/Problem 16">Problem 16</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_1" title="2018 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_2" title="2018 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2018 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2018 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_5" title="2018 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_6" title="2018 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2018 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2018 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_9" title="2018 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2018 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_11" class="mw-redirect" title="2018 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_12" class="mw-redirect" title="2018 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_13" class="mw-redirect" title="2018 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_14" title="2018 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_15" class="mw-redirect" title="2018 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2018 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_17" class="mw-redirect" title="2018 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2018 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_19" title="2018 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_20" title="2018 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_21" title="2018 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_22" title="2018 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_23" title="2018 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_24" title="2018 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_25" class="mw-redirect" title="2018 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402033844
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.127 seconds
+Real time usage: 0.136 seconds
+Preprocessor visited node count: 699/1000000
+Preprocessor generated node count: 2238/1000000
+Post‐expand include size: 4347/2097152 bytes
+Template argument size: 427/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11016/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   29.673      1 -total
+ 20.23%    6.004      1 Template:AMC10_box
+ 19.79%    5.871      1 Template:AMC12_box
+  7.68%    2.280      1 Template:Duplicate
+  5.51%    1.634      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15929-0!canonical and timestamp 20230402033843 and revision id 169346
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_20&amp;oldid=169346">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_20&amp;oldid=169346</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

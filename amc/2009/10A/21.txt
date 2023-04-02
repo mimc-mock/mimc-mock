@@ -1,0 +1,250 @@
+<p>Many Gothic cathedrals have windows with portions containing a ring of congruent circles that are circumscribed by a larger circle, In the figure shown, the number of smaller circles is four. What is the ratio of the sum of the areas of the four smaller circles to the area of the larger circle? 
+</p><p><img src="//latex.artofproblemsolving.com/a/1/c/a1c9cf43e5cccc1df5df071a00ccfbc0434fb45e.png" class="latexcenter" alt="[asy] unitsize(6mm); defaultpen(linewidth(.8pt));  draw(Circle((0,0),1+sqrt(2))); draw(Circle((sqrt(2),0),1)); draw(Circle((0,sqrt(2)),1)); draw(Circle((-sqrt(2),0),1)); draw(Circle((0,-sqrt(2)),1)); [/asy]" width="138" height="138" />
+</p><p><img src="//latex.artofproblemsolving.com/d/b/a/dbaeda9ef2d3f46fb63d792a4e3f94d0eb73e82b.png" class="latex" alt="$\mathrm{(A)}\ 3-2\sqrt2 \qquad \mathrm{(B)}\ 2-\sqrt2 \qquad \mathrm{(C)}\ 4(3-2\sqrt2) \qquad \mathrm{(D)}\ \frac12(3-\sqrt2) \qquad \mathrm{(E)}\ 2\sqrt2-2$" style="vertical-align: -12px" width="652" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Draw some of the radii of the small circles as in the picture below.
+</p><p><img src="//latex.artofproblemsolving.com/9/4/1/941a0066171cfafbcecb4ec6ce35e0f2fc15db0b.png" class="latexcenter" alt="[asy] unitsize(12mm); defaultpen(linewidth(.8pt));  draw(Circle((0,0),1+sqrt(2))); draw(Circle((sqrt(2),0),1)); draw(Circle((0,sqrt(2)),1)); draw(Circle((-sqrt(2),0),1)); draw(Circle((0,-sqrt(2)),1)); draw( (sqrt(2),0) -- (0,sqrt(2)) -- (-sqrt(2),0) -- (0,-sqrt(2)) -- cycle ); draw( (0,sqrt(2)) -- (0,1+sqrt(2)) ); draw( (0,-sqrt(2)) -- (0,-1-sqrt(2)) ); draw( (0,sqrt(2)) -- (0,-sqrt(2)), dashed ); [/asy]" width="278" height="278" />
+</p><p>Out of symmetry, the quadrilateral in the center must be a square. Its side is <img src="//latex.artofproblemsolving.com/0/a/5/0a5745df50c8607bdc9b8de4968315633a3047dc.png" class="latex" alt="$2r$" width="17" height="12" />, and therefore its diagonal is <img src="//latex.artofproblemsolving.com/6/e/2/6e21412832d95377643b75c0237ccc9f9828c944.png" class="latex" alt="$2r\sqrt{2}$" style="vertical-align: -1px" width="42" height="18" />. We can now compute the length of the vertical diameter of the large circle as <img src="//latex.artofproblemsolving.com/d/0/4/d04206d065e79ee3f05c717db625ee0a56cf4e42.png" class="latex" alt="$2r + 2r\sqrt{2}$" style="vertical-align: -1px" width="82" height="18" />. Hence <img src="//latex.artofproblemsolving.com/5/8/f/58ffa8ac5bdc10ea774c55da723776a775c23a3e.png" class="latex" alt="$2R=2r + 2r\sqrt{2}$" style="vertical-align: -1px" width="129" height="18" />, and thus <img src="//latex.artofproblemsolving.com/a/8/0/a80522710738811f1ab077d2ef176023399d4bf5.png" class="latex" alt="$R=r+r\sqrt{2}=r(1+\sqrt{2})$" style="vertical-align: -4px" width="203" height="21" />.
+</p><p>Then the area of the large circle is <img src="//latex.artofproblemsolving.com/6/3/c/63ceb9ebfe0600252b064143b9e11a1fa42981a1.png" class="latex" alt="$L = \pi R^2 = \pi r^2 (1+\sqrt 2)^2 = \pi r^2 (3+2\sqrt 2)$" style="vertical-align: -4px" width="326" height="21" />.
+The area of four small circles is <img src="//latex.artofproblemsolving.com/2/9/a/29ab15020e6c60c817026fccec6d0354e587181e.png" class="latex" alt="$S = 4\pi r^2$" style="vertical-align: 0px" width="71" height="15" />. Hence their ratio is:
+</p><p><img src="//latex.artofproblemsolving.com/5/9/1/591c9365dd35ebdb87ba9f4566b29c7991b11173.png" class="latexcenter" alt="\begin{align*} \frac SL  &amp; = \frac{4\pi r^2}{\pi r^2 (3+2\sqrt 2)} \\ &amp; = \frac 4{3+2\sqrt 2} \\ &amp; = \frac 4{3+2\sqrt 2} \cdot \frac{3-2\sqrt 2}{3 - 2\sqrt 2} \\ &amp; = \frac{4(3 - 2\sqrt 2)}{3^2 - (2\sqrt 2)^2} \\ &amp; = \frac{4(3 - 2\sqrt 2)}1 \\ &amp; = \boxed{4(3 - 2\sqrt 2)} \end{align*}" width="187" height="287" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Draw the center of the large circle, and connect it with two adjacent centers of the smaller circles. Draw the line between the centers. Then, let the line connecting the center of the smaller circle to the center of the larger circle be <img src="//latex.artofproblemsolving.com/f/c/3/fc3be04db73828946870d3ccc6d122395a4bacf6.png" class="latex" alt="$x.$" width="14" height="8" />
+</p><p>By the Pythagorean Theorem, we have that <img src="//latex.artofproblemsolving.com/9/3/f/93f6e39a56aaf2398e0706a74abb169d7515bc98.png" class="latexcenter" alt="\[x^2 + x^2 = (1+1)^2\]" width="142" height="20" />
+</p><p>Simplifying, we have 
+<img src="//latex.artofproblemsolving.com/a/1/6/a1642bc6ea36b925ab17178875b8bb22f1efa8e9.png" class="latexcenter" alt="\begin{align*} x &amp;= \sqrt{\frac{(1+1)^2}{2}} \\ &amp;= \sqrt{\frac{4}{2}} \\ &amp;= \sqrt{2} \end{align*}" width="117" height="118" />
+</p><p>Thus, the radius is <img src="//latex.artofproblemsolving.com/4/a/2/4a27d93e5c976d5687421abf367f03213611fe83.png" class="latexcenter" alt="\[1 + x = 1 + \sqrt{2}\]" width="120" height="18" />
+</p><p>The answer we desire is <img src="//latex.artofproblemsolving.com/a/9/f/a9f49c7ac2e42402772cde85a60b9fcc5e446255.png" class="latexcenter" alt="\[\frac{4 \cdot \left(\pi \cdot 1^2 \right)}{\pi \cdot (1+\sqrt{2})^2}\]" width="101" height="46" />
+</p><p>Simplifying, we have that 
+<img src="//latex.artofproblemsolving.com/8/0/9/80937231d13aae3bf0f6442e5e0043762950b9b7.png" class="latexcenter" alt="\begin{align*} \frac{4 \cdot \left(\pi \cdot 1^2 \right)}{\pi \cdot (1+\sqrt{2})^2} &amp;= \frac{4 \cdot \pi}{\pi \cdot (1 + \sqrt{2})^2} \\ &amp;= \frac{\pi \cdot 4}{\pi \cdot (1+\sqrt{2})^2} \\ &amp;= \frac{4}{(1+\sqrt{2})^2} \\ &amp;= \frac{4}{1^2 + 2 \cdot 1 \cdot \sqrt{2} + (\sqrt{2})^2} \\ &amp;= \frac{4}{1 + 2 \sqrt{2} + 2} \\ &amp;= \frac{4}{3 + 2 \sqrt{2}} \\ &amp;= \frac{4 (3 - 2\sqrt{2})}{(3 + 2 \sqrt{2})(3 - 2\sqrt{2})} \\ &amp;= \frac{4 (3 - 2\sqrt{2})}{3^2 - (2\sqrt{2})^2} \\ &amp;= \frac{4 (3 - 2\sqrt{2})}{9 - 8} \\ &amp;= \frac{4 (3 - 2\sqrt{2})}{1} \\ &amp;= \boxed{\textbf{(C) } 4 (3 - 2\sqrt{2})} \end{align*}" width="305" height="535" />
+</p><p>~mathboy282
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2009_AMC_10A" title="2009 AMC 10A">2009 AMC 10A</a></b> (<b><a href="/wiki/index.php/2009_AMC_10A_Problems" title="2009 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2009_AMC_10A_Answer_Key" title="2009 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_20" title="2009 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_22" title="2009 AMC 10A Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_1" title="2009 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_2" class="mw-redirect" title="2009 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2009 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_4" title="2009 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_5" title="2009 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_6" title="2009 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_7" title="2009 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_8" title="2009 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_9" title="2009 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_10" title="2009 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2009 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_12" class="mw-redirect" title="2009 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_13" class="mw-redirect" title="2009 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2009 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_15" class="mw-redirect" title="2009 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_16" title="2009 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_17" title="2009 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_18" title="2009 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_19" title="2009 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_20" title="2009 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_22" title="2009 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_23" class="mw-redirect" title="2009 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_24" title="2009 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2009 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208211638
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.083 seconds
+Real time usage: 0.087 seconds
+Preprocessor visited node count: 250/1000000
+Preprocessor generated node count: 896/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4741/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.760      1 -total
+ 77.24%    6.766      1 Template:AMC10_box
+ 20.30%    1.778      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7826-0!canonical and timestamp 20230208211637 and revision id 164325
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_10A_Problems/Problem_21&amp;oldid=164325">https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_10A_Problems/Problem_21&amp;oldid=164325</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208211638 -->
+</html>

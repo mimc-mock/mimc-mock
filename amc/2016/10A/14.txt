@@ -1,0 +1,262 @@
+<p>How many ways are there to write <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" /> as the sum of twos and threes, ignoring order? (For example, <img src="//latex.artofproblemsolving.com/b/e/8/be81295cf7c8a2639ee838d80e4598720eff3a55.png" class="latex" alt="$1008\cdot 2 + 0\cdot 3$" style="vertical-align: -1px" width="111" height="14" /> and <img src="//latex.artofproblemsolving.com/3/b/d/3bd9b01aca4c73ab0d5108eb9da8e0028b10c1b6.png" class="latex" alt="$402\cdot 2 + 404\cdot 3$" style="vertical-align: -1px" width="120" height="14" /> are two such ways.)
+</p><p><img src="//latex.artofproblemsolving.com/6/9/b/69bf8113b867f356b187d6583372de1fb2d36f9d.png" class="latex" alt="$\textbf{(A)}\ 236\qquad\textbf{(B)}\ 336\qquad\textbf{(C)}\ 337\qquad\textbf{(D)}\ 403\qquad\textbf{(E)}\ 672$" style="vertical-align: -4px" width="439" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The amount of twos in our sum ranges from <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> to <img src="//latex.artofproblemsolving.com/f/2/3/f233b4bd39c27b96921ff522ca6f43eff8813674.png" class="latex" alt="$1008$" style="vertical-align: 0px" width="35" height="13" />, with differences of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> because <img src="//latex.artofproblemsolving.com/d/8/b/d8b484b925ef7b4404e4e046604d5740a64a994a.png" class="latex" alt="$2 \cdot 3 = \operatorname{lcm}(2, 3)$" style="vertical-align: -4px" width="122" height="18" />.
+</p><p>The possible amount of twos is <img src="//latex.artofproblemsolving.com/b/3/3/b33110cac5f69ce35da890d157cd047012c14887.png" class="latex" alt="$\frac{1008 - 0}{3} + 1 \Rightarrow \boxed{\textbf{(C)} 337}$" style="vertical-align: -12px" width="199" height="37" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>You can also see that you can rewrite the word problem into an equation <img src="//latex.artofproblemsolving.com/a/d/4/ad448c942032df6fe4b8dd232912bbe6afc8cfed.png" class="latex" alt="$2x + 3y$" style="vertical-align: -3px" width="59" height="16" /> = <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" />. Therefore the question is just how many multiples of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> subtracted from 2016 will be an even number. We can see that <img src="//latex.artofproblemsolving.com/2/8/5/2853fb210940d6b5bd64d0c158b7f9c543a4ca8f.png" class="latex" alt="$x = 1008$" style="vertical-align: 0px" width="70" height="13" />, <img src="//latex.artofproblemsolving.com/7/a/0/7a06334068417b1781d14e8b28af827907961eb3.png" class="latex" alt="$y = 0$" style="vertical-align: -3px" width="42" height="16" /> all the way to <img src="//latex.artofproblemsolving.com/2/d/3/2d348bde3e15456e71734dc2c56fc7425c95927f.png" class="latex" alt="$x = 0$" width="43" height="12" />, and <img src="//latex.artofproblemsolving.com/8/1/1/81106193688c6e25d31db36fea527b29b09fac21.png" class="latex" alt="$y = 672$" style="vertical-align: -3px" width="60" height="16" /> works, with <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> being incremented by <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />'s.Therefore, between <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/3/a/2/3a21eedf8987958dc8173f6c266f7c4dafde16b3.png" class="latex" alt="$672$" width="26" height="12" />, the number of multiples of <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> is <img src="//latex.artofproblemsolving.com/d/7/5/d7505fadf58ae315fc9e3f767b58363a8e1431b7.png" class="latex" alt="$\boxed{\textbf{(C)}337}$" style="vertical-align: -10px" width="67" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>We can utilize the stars-and-bars distribution technique to solve this problem. 
+We have 2 "buckets" in which we will distribute parts of our total sum, 2016. By doing this, we know we will have <img src="//latex.artofproblemsolving.com/0/2/f/02f48d656c95a0c50a0c188852ca85d38dd10495.png" class="latex" alt="$\binom{2016-1}{2-1}$" style="vertical-align: -22px" width="91" height="53" /> "total" answers. We want every third x and second y, so we divide our previous total by 6, which will result in <img src="//latex.artofproblemsolving.com/b/1/8/b180294f1301d3b26ae0c26405bb51d2c3991877.png" class="latex" alt="$2015/6$" style="vertical-align: -4px" width="53" height="18" />. We have to round down to the nearest integer, and we have to add 2 because we did not consider the 2 solutions involving x or y being 0.
+So, <img src="//latex.artofproblemsolving.com/0/e/1/0e1216000e2c0669cd69a95151f83438f90e024a.png" class="latex" alt="$2015/6\implies335\implies335+2=\boxed{\textbf{(C)}337}$" style="vertical-align: -10px" width="331" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Another idea that one might get is to try and figure out the nature of how many ways there are to write for any even number X as the sum of twos and threes. We might be able to spot a pattern and apply it to a larger number such as 2016. Let's try the first six evens from zero: 2, 4, 6, 8, 10, and 12. There is 1 way for 2, 1 way for 4, 2 ways for 6, 2 ways for 8, 2 ways for 10, and 3 ways for 12. Notice that the number of ways goes up every time an even number is divisible by 3. Notice also that 2016 is divisible by 3. This means if we can find a pattern for every even number that is divisible by 3, we can find the answer for 2016. The first three even numbers that are divisible by 3 from zero are 6, 12, and 18. There are 2 ways for 6, 3 ways for 12, and 4 ways for 18 (5 for 24, 6 for 30, and 7 for 36). The pattern here is that the number of ways for any even number X that is divisible by 36 is X/6 + 1. It turns out this pattern holds for every X number. So, take 2016 and divide it by 6 and add 1 which gives 337. 
+</p><p>-- danfanLOL
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>Note that <img src="//latex.artofproblemsolving.com/4/e/4/4e406543e16d25beb7efdbbe947456dadef292d5.png" class="latex" alt="$2016 = 6 \cdot 336$" style="vertical-align: -1px" width="112" height="14" />. In other words, we can write <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" /> as the sum of <img src="//latex.artofproblemsolving.com/a/d/2/ad2d0937b35e43b1d504a7197abe9c3560a3a856.png" class="latex" alt="$336$" width="26" height="12" /> sixes. 
+</p><p>In turn, we can express each <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> as either <img src="//latex.artofproblemsolving.com/8/7/5/87551e90d62ab66dca2899eb9d26ca4d1f25c069.png" class="latex" alt="$2 + 2 + 2$" style="vertical-align: -1px" width="71" height="13" /> or <img src="//latex.artofproblemsolving.com/e/a/1/ea14be4f38c278ed2f53dca6802949bb63f10ab6.png" class="latex" alt="$3 + 3$" style="vertical-align: -1px" width="40" height="14" />.
+</p><p>Therefore, we can write <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" /> as <img src="//latex.artofproblemsolving.com/4/5/d/45d56c1f8e40ee3e4cc96fcb10e06ed3c389d30d.png" class="latex" alt="$n (2 + 2 + 2) + (2016 - n) (3 + 3)$" style="vertical-align: -5px" width="259" height="20" />, where <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is an integer between <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" />, inclusive. Since each value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> corresponds to a unique way to write the sum, we get <img src="//latex.artofproblemsolving.com/0/2/1/021955c1f2e434b0724eed722ed79338fc141f40.png" class="latex" alt="$2016 + 1 = \boxed{\textbf{(C)}337}$" style="vertical-align: -11px" width="161" height="30" />
+</p><p>~jd9
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/dHY8gjoYFXU?t=1058">https://youtu.be/dHY8gjoYFXU?t=1058</a>
+</p><p>~IceMatrix
+</p><p><a rel="nofollow" class="external free" href="https://youtu.be/99wDp0JcSUE">https://youtu.be/99wDp0JcSUE</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ZhAZ1oPe5Ds?t=2959">https://youtu.be/ZhAZ1oPe5Ds?t=2959</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2016_AMC_10A" title="2016 AMC 10A">2016 AMC 10A</a></b> (<b><a href="/wiki/index.php/2016_AMC_10A_Problems" title="2016 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2016_AMC_10A_Answer_Key" title="2016 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_13" title="2016 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_15" title="2016 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_1" title="2016 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_2" title="2016 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_3" title="2016 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_4" title="2016 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_5" title="2016 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_6" title="2016 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_7" title="2016 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_8" title="2016 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_9" title="2016 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_10" title="2016 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_11" title="2016 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_12" title="2016 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_13" title="2016 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_15" title="2016 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_16" title="2016 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_17" title="2016 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_18" title="2016 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_19" title="2016 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_20" title="2016 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_21" class="mw-redirect" title="2016 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_22" title="2016 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_23" title="2016 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_24" title="2016 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_25" title="2016 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208185121
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.129 seconds
+Real time usage: 0.368 seconds
+Preprocessor visited node count: 459/1000000
+Preprocessor generated node count: 1336/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6616/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   26.135      1 -total
+ 88.17%   23.042      1 Template:AMC10_box
+ 10.15%    2.652      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:14545-0!canonical and timestamp 20230208185120 and revision id 187189
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_14&amp;oldid=187189">https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_14&amp;oldid=187189</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208223953 -->
+</html>

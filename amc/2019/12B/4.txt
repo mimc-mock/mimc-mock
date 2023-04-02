@@ -1,0 +1,283 @@
+<p>There is a positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that <img src="//latex.artofproblemsolving.com/9/8/d/98dc20d6f1386364161a4508d2ff25986eed1fd0.png" class="latex" alt="$(n+1)! + (n+2)! = n! \cdot 440$" style="vertical-align: -4px" width="225" height="18" />. What is the sum of the digits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/0/d/3/0d346d6b6bffb3d088857498848276d580c012e6.png" class="latex" alt="$\textbf{(A) }3\qquad\textbf{(B) }8\qquad\textbf{(C) }10\qquad\textbf{(D) }11\qquad\textbf{(E) }12$" style="vertical-align: -4px" width="380" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p><img src="//latex.artofproblemsolving.com/e/9/4/e94a76dd637eee784abfc844bcc187bc69d72464.png" class="latexcenter" alt="\[\begin{split}&amp; (n+1)n! + (n+2)(n+1)n! = 440 \cdot n! \\ \Rightarrow \ &amp;n![n+1 + (n+2)(n+1)] = 440 \cdot n! \\ \Rightarrow \ &amp;n + 1 + n^2 + 3n + 2 = 440 \\ \Rightarrow \ &amp;n^2 + 4n - 437 = 0\end{split}\]" width="325" height="95" />
+</p><p>Solving by the quadratic formula, <img src="//latex.artofproblemsolving.com/a/0/2/a023ee925fa8d3fd93a37f46364df404ee8d89d4.png" class="latex" alt="$n = \frac{-4\pm \sqrt{16+437\cdot4}}{2} = \frac{-4\pm 42}{2} = \frac{38}{2} = 19$" style="vertical-align: -12px" width="369" height="40" /> (since clearly <img src="//latex.artofproblemsolving.com/8/2/1/821d5b948fd2e8a82be18042d192710914b5e819.png" class="latex" alt="$n \geq 0$" style="vertical-align: -2px" width="43" height="15" />). The answer is therefore <img src="//latex.artofproblemsolving.com/c/c/0/cc0bfc50fc2473f35c63580ea31e43dd3aa38806.png" class="latex" alt="$1 + 9 = \boxed{\textbf{(C) }10}$" style="vertical-align: -10px" width="129" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Dividing both sides by <img src="//latex.artofproblemsolving.com/6/3/f/63f344e7d8b14a7886fc7fb72da53cd0a3271dcc.png" class="latex" alt="$n!$" width="14" height="13" /> gives
+<img src="//latex.artofproblemsolving.com/9/5/a/95acebc265a9f6c6779a1c3e16f867517e875b6a.png" class="latexcenter" alt="\[(n+1)+(n+2)(n+1)=440 \Rightarrow n^2+4n-437=0 \Rightarrow (n-19)(n+23)=0.\]" width="544" height="19" />
+Since <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is non-negative, <img src="//latex.artofproblemsolving.com/1/b/a/1ba21440957dd537f17834562b567ea84248f4c0.png" class="latex" alt="$n=19$" style="vertical-align: 0px" width="52" height="13" />. The answer is <img src="//latex.artofproblemsolving.com/c/c/0/cc0bfc50fc2473f35c63580ea31e43dd3aa38806.png" class="latex" alt="$1 + 9 = \boxed{\textbf{(C) }10}$" style="vertical-align: -10px" width="129" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Dividing both sides by <img src="//latex.artofproblemsolving.com/6/3/f/63f344e7d8b14a7886fc7fb72da53cd0a3271dcc.png" class="latex" alt="$n!$" width="14" height="13" /> as before gives <img src="//latex.artofproblemsolving.com/a/4/2/a42d89bee1ecf65da91202c91ee88012635736cf.png" class="latex" alt="$(n+1)+(n+1)(n+2)=440$" style="vertical-align: -4px" width="242" height="18" />. Now factor out <img src="//latex.artofproblemsolving.com/9/9/c/99cb3f3a8b3bbfc702c5863d16602a06cded535d.png" class="latex" alt="$(n+1)$" style="vertical-align: -4px" width="54" height="18" />, giving <img src="//latex.artofproblemsolving.com/d/e/d/ded98c42b6ff670c17e4156389c227f01a4c5942.png" class="latex" alt="$(n+1)(n+3)=440$" style="vertical-align: -4px" width="163" height="18" />. By considering the prime factorization of <img src="//latex.artofproblemsolving.com/b/7/b/b7bac8d158ad07b42ad9889011a7e4e67851a82d.png" class="latex" alt="$440$" style="vertical-align: 0px" width="26" height="13" />, a bit of experimentation gives us <img src="//latex.artofproblemsolving.com/e/6/f/e6f46a9e0ab409c6c256eec4b5016ec9ca874cfe.png" class="latex" alt="$n+1=20$" style="vertical-align: -1px" width="84" height="14" /> and <img src="//latex.artofproblemsolving.com/6/3/4/6344e40f77ba5178ab64e65c57ad7b5c153262e7.png" class="latex" alt="$n+3=22$" style="vertical-align: -1px" width="84" height="14" />, so <img src="//latex.artofproblemsolving.com/1/b/a/1ba21440957dd537f17834562b567ea84248f4c0.png" class="latex" alt="$n=19$" style="vertical-align: 0px" width="52" height="13" />, so the answer is <img src="//latex.artofproblemsolving.com/c/c/0/cc0bfc50fc2473f35c63580ea31e43dd3aa38806.png" class="latex" alt="$1 + 9 = \boxed{\textbf{(C) }10}$" style="vertical-align: -10px" width="129" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<p>Since <img src="//latex.artofproblemsolving.com/1/6/3/1632e151890c4d4661838e345bb94afd164db4bb.png" class="latex" alt="$(n+1)! + (n+2)! = (n+1)n! + (n+2)(n+1)n! = 440 \cdot n!$" style="vertical-align: -5px" width="475" height="20" />, the result can be factored into <img src="//latex.artofproblemsolving.com/f/7/0/f7066b873664571ed8d9ba5112824cdb5e922750.png" class="latex" alt="$(n+1)(n+3)n!=440 \cdot n!$" style="vertical-align: -5px" width="211" height="20" /> and divided by <img src="//latex.artofproblemsolving.com/6/3/f/63f344e7d8b14a7886fc7fb72da53cd0a3271dcc.png" class="latex" alt="$n!$" width="14" height="13" /> on both sides to get <img src="//latex.artofproblemsolving.com/d/e/d/ded98c42b6ff670c17e4156389c227f01a4c5942.png" class="latex" alt="$(n+1)(n+3)=440$" style="vertical-align: -4px" width="163" height="18" />. From there, it is easier to complete the square with the quadratic <img src="//latex.artofproblemsolving.com/e/a/3/ea3e70c62aaab0dca2d6b289775e76c8bc2e9456.png" class="latex" alt="$(n+1)(n+3) = n^2 + 4n + 3$" style="vertical-align: -5px" width="231" height="21" />, so <img src="//latex.artofproblemsolving.com/6/a/f/6afca704f98098fd57ce728de78ff178ffd18cc1.png" class="latex" alt="$n^2+4n+4=441 \Rightarrow (n+2)^2=441$" style="vertical-align: -5px" width="289" height="21" />. Solving for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> results in <img src="//latex.artofproblemsolving.com/b/8/7/b8764197f5186bd985a80b8a20831f9fc7bcd100.png" class="latex" alt="$n=19,-23$" style="vertical-align: -4px" width="96" height="17" />, and since <img src="//latex.artofproblemsolving.com/0/2/4/0247db3d702b5ce6be98f50771750a2723cddcea.png" class="latex" alt="$n&gt;0$" style="vertical-align: 0px" width="43" height="13" />, <img src="//latex.artofproblemsolving.com/1/b/a/1ba21440957dd537f17834562b567ea84248f4c0.png" class="latex" alt="$n=19$" style="vertical-align: 0px" width="52" height="13" /> and the answer is <img src="//latex.artofproblemsolving.com/c/c/0/cc0bfc50fc2473f35c63580ea31e43dd3aa38806.png" class="latex" alt="$1 + 9 = \boxed{\textbf{(C) }10}$" style="vertical-align: -10px" width="129" height="28" />.
+</p><p>~Randomlygenerated
+</p>
+<h3><span class="mw-headline" id="Solution_5">Solution 5</span></h3>
+<p>Rewrite <img src="//latex.artofproblemsolving.com/6/6/0/66069cde13f52c05f55e9fd9f6800234e5b1395c.png" class="latex" alt="$(n+1)! + (n+2)! = 440 \cdot n!$" style="vertical-align: -5px" width="227" height="20" /> as <img src="//latex.artofproblemsolving.com/5/3/f/53ffe565e3cda7d1d91484034b9ff844623d9c21.png" class="latex" alt="$(n+1)n! + (n+2)(n+1)n! = 440 \cdot n!.$" style="vertical-align: -5px" width="311" height="20" /> Factoring out the <img src="//latex.artofproblemsolving.com/6/3/f/63f344e7d8b14a7886fc7fb72da53cd0a3271dcc.png" class="latex" alt="$n!$" width="14" height="13" /> we get <img src="//latex.artofproblemsolving.com/3/1/5/3158908ccc7ad52781e8beb9a5ac5aba03b0a640.png" class="latex" alt="$n!(n + 1 + (n+1)(n+2)) = 440 \cdot n!.$" style="vertical-align: -5px" width="295" height="20" /> Expand this to get <img src="//latex.artofproblemsolving.com/5/f/e/5fe47928f33609c4a7b640ebc8bf6e8aa281f23b.png" class="latex" alt="$n!(n^2 + 4n + 3) = 440 \cdot n!.$" style="vertical-align: -5px" width="209" height="21" /> Factor this and divide by <img src="//latex.artofproblemsolving.com/6/3/f/63f344e7d8b14a7886fc7fb72da53cd0a3271dcc.png" class="latex" alt="$n!$" width="14" height="13" /> to get <img src="//latex.artofproblemsolving.com/4/f/9/4f9f17168605b8b64d32902c914598efc84e1b29.png" class="latex" alt="$(n + 1)(n + 3) = 440.$" style="vertical-align: -5px" width="171" height="20" /> If we take the prime factorization of <img src="//latex.artofproblemsolving.com/b/7/b/b7bac8d158ad07b42ad9889011a7e4e67851a82d.png" class="latex" alt="$440$" style="vertical-align: 0px" width="26" height="13" /> we see that it is <img src="//latex.artofproblemsolving.com/9/0/d/90dd29d92ab3d3c7ca7144a0edc100b7baf7f9ae.png" class="latex" alt="$2^3 * 5 * 11.$" style="vertical-align: -1px" width="85" height="17" /> Intuitively, we can find that <img src="//latex.artofproblemsolving.com/6/0/6/606e393c8e92a0a1769a15a6cac5e91426b0d528.png" class="latex" alt="$n + 1 = 20$" style="vertical-align: -2px" width="86" height="15" /> and <img src="//latex.artofproblemsolving.com/c/6/0/c605f3d3a24c35950c348857b7e5d9a16ca9a0f4.png" class="latex" alt="$n + 3 = 22.$" style="vertical-align: -2px" width="92" height="15" /> Therefore, <img src="//latex.artofproblemsolving.com/c/5/a/c5a43ed1f0530f16bbbc786ba1f9e8fd14fbffd9.png" class="latex" alt="$n = 19.$" style="vertical-align: -1px" width="60" height="14" /> Since the problem asks for the sum of the didgits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, we finally calculate <img src="//latex.artofproblemsolving.com/6/6/3/6639552b29a3b33bcd048300a8dde74e0e84590f.png" class="latex" alt="$1 + 9 = 10$" style="vertical-align: -2px" width="85" height="15" /> and get answer choice <img src="//latex.artofproblemsolving.com/9/5/a/95a37e2c613248cd21b3266be23fe9b0b6e1ac11.png" class="latex" alt="$\boxed{\textbf{(C) }10}$" style="vertical-align: -11px" width="66" height="30" />.
+</p><p>~pnacham
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ba6w1OhXqOQ?t=1956">https://youtu.be/ba6w1OhXqOQ?t=1956</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/7xf_g3YQk00">https://youtu.be/7xf_g3YQk00</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="Video_Solution_2">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/6YFN_hwotUk">https://youtu.be/6YFN_hwotUk</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="Video_Solution_3">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/7p_ESPPF2es">https://youtu.be/7p_ESPPF2es</a>
+</p><p>~Education, the Study of Everything
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2019_AMC_10B" title="2019 AMC 10B">2019 AMC 10B</a></b> (<b><a href="/wiki/index.php/2019_AMC_10B_Problems" title="2019 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_10B_Answer_Key" title="2019 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_5" title="2019 AMC 10B Problems/Problem 5">Problem 5</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_7" title="2019 AMC 10B Problems/Problem 7">Problem 7</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_1" title="2019 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_2" title="2019 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_3" title="2019 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_4" title="2019 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_5" title="2019 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a class="mw-selflink selflink">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_7" title="2019 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_8" title="2019 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_9" title="2019 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_10" title="2019 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_11" title="2019 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_12" title="2019 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_13" title="2019 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_14" title="2019 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_15" title="2019 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_16" title="2019 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2019 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_18" title="2019 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_19" title="2019 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_20" title="2019 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_21" title="2019 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_22" title="2019 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_23" title="2019 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_24" title="2019 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10B_Problems/Problem_25" title="2019 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2019_AMC_12B" title="2019 AMC 12B">2019 AMC 12B</a></b> (<b><a href="/wiki/index.php/2019_AMC_12B_Problems" title="2019 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_12B_Answer_Key" title="2019 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_3" title="2019 AMC 12B Problems/Problem 3">Problem 3</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2019 AMC 12B Problems/Problem 5">Problem 5</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_1" class="mw-redirect" title="2019 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2019 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_3" title="2019 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2019 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2019 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_6" class="mw-redirect" title="2019 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_7" class="mw-redirect" title="2019 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_8" title="2019 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_9" title="2019 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_10" title="2019 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_11" title="2019 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_12" title="2019 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_13" title="2019 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_14" class="mw-redirect" title="2019 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_15" class="mw-redirect" title="2019 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_16" title="2019 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_17" title="2019 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_18" title="2019 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_19" class="mw-redirect" title="2019 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_20" class="mw-redirect" title="2019 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_21" title="2019 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_22" class="mw-redirect" title="2019 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_23" class="mw-redirect" title="2019 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_24" title="2019 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12B_Problems/Problem_25" title="2019 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402211201
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.128 seconds
+Real time usage: 0.141 seconds
+Preprocessor visited node count: 647/1000000
+Preprocessor generated node count: 2098/1000000
+Post‐expand include size: 4315/2097152 bytes
+Template argument size: 395/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8969/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   29.468      1 -total
+ 21.20%    6.248      1 Template:AMC10_box
+ 20.51%    6.043      1 Template:AMC12_box
+  7.95%    2.342      1 Template:Duplicate
+  6.45%    1.901      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:17282-0!canonical and timestamp 20230402211201 and revision id 187207
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10B_Problems/Problem_6&amp;oldid=187207">https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10B_Problems/Problem_6&amp;oldid=187207</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

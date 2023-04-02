@@ -1,0 +1,24 @@
+<p>What is the value of <img src="//latex.artofproblemsolving.com/a/f/1/af1508c28c6d3e8f63ecd5c43998464209b05c65.png" class="latexcenter" alt="\[(\log 5)^{3}+(\log 20)^{3}+(\log 8)(\log 0.25)\]" width="287" height="20" /> where <img src="//latex.artofproblemsolving.com/6/9/8/698c1c9cde3469a346091405ffbbcedf96609562.png" class="latex" alt="$\log$" style="vertical-align: -3px" width="23" height="16" /> denotes the base-ten logarithm?
+</p><p><img src="//latex.artofproblemsolving.com/b/1/f/b1f6e905e7b7eeb024de74777da319199d187fd1.png" class="latex" alt="$\textbf{(A)}~\frac{3}{2}\qquad\textbf{(B)}~\frac{7}{4}\qquad\textbf{(C)}~2\qquad\textbf{(D)}~\frac{9}{4}\qquad\textbf{(E)}~3$" style="vertical-align: -13px" width="363" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/6/6/b/66b1ca5aa096eec0f15fd30da5de5dbc8e7f9579.png" class="latex" alt="$\text{log } 2 = x$" style="vertical-align: -4px" width="72" height="17" />. The expression then becomes <img src="//latex.artofproblemsolving.com/2/2/3/223a30976aa281499351492cd728483a4e1456b3.png" class="latexcenter" alt="\[(1+x)^3+(1-x)^3+(3x)(-2x)=\boxed{2}.\]" width="299" height="23" />
+</p><p>-bluelinfish
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Using sum of cubes
+<img src="//latex.artofproblemsolving.com/0/8/a/08a4319f2159439f5ad5508c8c5de2aa8e8dba6c.png" class="latexcenter" alt="\[(\log 5)^{3}+(\log 20)^{3}\]" width="142" height="20" />
+<img src="//latex.artofproblemsolving.com/2/0/7/2074325451a4f90d6d79749f3e1d47a8eaa84abe.png" class="latexcenter" alt="\[= (\log 5 + \log 20)((\log 5)^{2}-(\log 5)(\log 20) + (\log 20)^{2})\]" width="424" height="20" />
+<img src="//latex.artofproblemsolving.com/7/d/e/7de8d5ee2cfb76914cd7099210040eb9b53dd8d4.png" class="latexcenter" alt="\[= 2((\log 5)^{2}-(\log 5)(2\log 2 + \log 5) + (2\log 2 + \log 5)^{2})\]" width="438" height="20" />
+Let x = <img src="//latex.artofproblemsolving.com/e/9/5/e951a09df8974d820fc2bbf9e47560eaf6695d89.png" class="latex" alt="$\log 5$" style="vertical-align: -3px" width="35" height="16" /> and y = <img src="//latex.artofproblemsolving.com/c/1/b/c1b7852f0d4b985b17416c1aeb15f483eca6bb49.png" class="latex" alt="$\log 2$" style="vertical-align: -3px" width="35" height="16" />, so <img src="//latex.artofproblemsolving.com/4/7/6/476aee07c9af5110b8769e3534ef896fab9368ab.png" class="latex" alt="$x+y=1$" style="vertical-align: -3px" width="74" height="15" />
+</p><p>The entire expression becomes
+<img src="//latex.artofproblemsolving.com/5/e/4/5e46b1000679ebea29bea0016de5c5f3f1c28b16.png" class="latexcenter" alt="\[2(x^2-x(2y+x)+(2y+x)^2)-6y^2\]" width="280" height="20" />
+<img src="//latex.artofproblemsolving.com/1/b/2/1b2479a5de4184f7d0a9028cb3a8c19ebd3073dd.png" class="latexcenter" alt="\[=2(x^2+2xy+4y^2-3y^2)\]" width="205" height="20" />
+<img src="//latex.artofproblemsolving.com/7/c/8/7c83b8d9cc53bb9158a7d62ec9a1eed6a878138e.png" class="latexcenter" alt="\[=2(x+y)^2 = \boxed{2}\]" width="136" height="23" />
+</p><p>~Hithere22702
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>We can estimate the solution. Using <img src="//latex.artofproblemsolving.com/c/2/d/c2df1c122418d421d57c5fa1409d6df1821e71f2.png" class="latex" alt="$\log(2) \approx 0.3, \log(20) = \log(10)+\log(2) = 1 + 0.3 \approx 1.3, \log(8) \approx 0.9$" style="vertical-align: -5px" width="537" height="20" /> and <img src="//latex.artofproblemsolving.com/b/5/1/b51e2aa670c5974e68fc9ae6e0d1ac94b012b454.png" class="latex" alt="$\log(.25) = \log(1)-\log(4)= 0 - 0.6\approx -0.6,$" style="vertical-align: -5px" width="348" height="20" /> we have
+</p><p><img src="//latex.artofproblemsolving.com/b/5/b/b5bc0231b79f190210a3ffce0617be951357f654.png" class="latexcenter" alt="\[0.7^3 + 1.7^3 + .9\cdot(-0.6) = \boxed{2}\]" width="229" height="23" />
+~kxiang
+</p>

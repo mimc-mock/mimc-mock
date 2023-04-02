@@ -1,0 +1,262 @@
+<p>Let <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> be the sum of all positive real numbers <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> for which<img src="//latex.artofproblemsolving.com/9/1/d/91d43f026978eb57bfbe0d83263ca432924008bf.png" class="latexcenter" alt="\[x^{2^{\sqrt2}}=\sqrt2^{2^x}.\]" width="100" height="23" />Which of the following statements is true?
+</p><p><img src="//latex.artofproblemsolving.com/8/7/1/871d7278b68025059fb8a10e557456b2c44e2425.png" class="latex" alt="$\textbf{(A) }S&lt;\sqrt2 \qquad \textbf{(B) }S=\sqrt2 \qquad \textbf{(C) }\sqrt2&lt;S&lt;2\qquad \textbf{(D) }2\le S&lt;6 \qquad \textbf{(E) }S\ge 6$" style="vertical-align: -4px" width="647" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Note that
+<img src="//latex.artofproblemsolving.com/3/7/7/3771a5954fe4691038b4d2f98242bba1e045703d.png" class="latexcenter" alt="\begin{align*} x^{2^{\sqrt{2}}} &amp;= {\sqrt{2}}^{2^x} \\ 2^{\sqrt{2}} \log_2 x &amp;= 2^{x} \log_2 \sqrt{2}. \end{align*}" width="181" height="57" />
+(At this point we see by inspection that <img src="//latex.artofproblemsolving.com/d/b/1/db1f87c7de444f61b4aa1184aeae8678599199c2.png" class="latex" alt="$x=\sqrt{2}$" style="vertical-align: -1px" width="59" height="18" /> is a solution.)
+</p><p>We simplify the RHS, then take the base-<img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> logarithm for both sides:
+<img src="//latex.artofproblemsolving.com/0/f/6/0f6c7e025b2f79d77705348577395144fd2818d8.png" class="latexcenter" alt="\begin{align*} 2^{\sqrt{2}} \log_2 x &amp;= 2^{x-1} \\ \log_2{\left(2^{\sqrt{2}} \log_2 x\right)} &amp;= x-1 \\ \sqrt{2} + \log_2 \log_2 x &amp;= x-1 \\ \log_2 \log_2 x &amp;= x - 1 - \sqrt{2}. \end{align*}" width="245" height="121" />
+The RHS is a line; the LHS is a concave curve that looks like a logarithm and has <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> intercept at <img src="//latex.artofproblemsolving.com/4/1/e/41ea8e274952593798f1b2f6bb5632d785d75d59.png" class="latex" alt="$(2,0).$" style="vertical-align: -4px" width="43" height="18" />
+</p><p>There are at most two solutions, one of which is <img src="//latex.artofproblemsolving.com/e/b/4/eb485bd3ce593662cabace2375882fc28b737206.png" class="latex" alt="$\sqrt{2}.$" style="vertical-align: -1px" width="27" height="18" /> But note that at <img src="//latex.artofproblemsolving.com/5/b/b/5bb4b0e681c5981e9358f6b413cc4f362c8f3e9f.png" class="latex" alt="$x=2,$" style="vertical-align: -3px" width="47" height="15" /> we have <img src="//latex.artofproblemsolving.com/9/4/4/9444c60974a1eddf1c528fd5bc12a0d616ade810.png" class="latex" alt="$\log_2 \log_2 {2} = 0 &gt; 2 - 1 - \sqrt{2},$" style="vertical-align: -5px" width="228" height="24" /> meaning that the log log curve is above the line, so it must intersect the line again at a point <img src="//latex.artofproblemsolving.com/8/2/b/82b8cbd199de3ab8bffcd1cdf16e211d10a50979.png" class="latex" alt="$x &gt; 2.$" style="vertical-align: 0px" width="47" height="12" /> Now we check <img src="//latex.artofproblemsolving.com/2/e/7/2e7d65cfa316d639c9267398009812f3eb45fea9.png" class="latex" alt="$x=4$" style="vertical-align: 0px" width="43" height="12" /> and see that <img src="//latex.artofproblemsolving.com/0/7/8/0780418cf73279e9c6404cb23b7d8234168b9485.png" class="latex" alt="$\log_2 \log_2 {4} = 1 &lt; 4 - 1 - \sqrt{2},$" style="vertical-align: -5px" width="228" height="24" /> which means at <img src="//latex.artofproblemsolving.com/2/e/7/2e7d65cfa316d639c9267398009812f3eb45fea9.png" class="latex" alt="$x=4$" style="vertical-align: 0px" width="43" height="12" /> the line is already above the log log curve. Thus, the second solution lies in the interval <img src="//latex.artofproblemsolving.com/e/a/0/ea0b737090b1b7c2daf0a218b56c4bd66e7fcc57.png" class="latex" alt="$(2,4).$" style="vertical-align: -4px" width="43" height="18" />
+The answer is <img src="//latex.artofproblemsolving.com/9/8/6/986bf254c71341f7e5908dc7d3543e8fb9fac140.png" class="latex" alt="$\boxed{\textbf{(D) }2\le S&lt;6}.$" style="vertical-align: -10px" width="129" height="28" />
+</p><p>~ccx09
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We rewrite the right side without using square roots, then take the base-<img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> logarithm for both sides:
+<img src="//latex.artofproblemsolving.com/c/d/a/cda436957a2d933de2590cd7a7ac35911099a5f6.png" class="latexcenter" alt="\begin{align*} x^{2^{\sqrt2}}&amp;=\left(2^\frac12\right)^{2^x} \\ x^{2^{\sqrt2}}&amp;=2^{\frac12\cdot2^x} \\ x^{2^{\sqrt2}}&amp;=2^{2^{x-1}} \\ \log_2{\left(x^{2^{\sqrt2}}\right)}&amp;=\log_2{\left(2^{2^{x-1}}\right)} \\ 2^{\sqrt2}\log_2{x}&amp;=2^{x-1}. \hspace{20mm} (*) \end{align*}" width="267" height="170" />
+By observations, <img src="//latex.artofproblemsolving.com/0/1/2/012da1f8af6acd7279033e596baa362d800b3847.png" class="latex" alt="$x=\sqrt2$" style="vertical-align: -1px" width="59" height="18" /> is one solution. Graphing <img src="//latex.artofproblemsolving.com/8/1/5/815c6e847de9e9aa065f9ecc5b855a2eb6c8ca31.png" class="latex" alt="$f(x)=2^{\sqrt2}\log_2{x}$" style="vertical-align: -4px" width="134" height="22" /> and <img src="//latex.artofproblemsolving.com/4/2/2/4221acfa0a740604a1ff52c9e92b9cb202eacdb6.png" class="latex" alt="$g(x)=2^{x-1},$" style="vertical-align: -4px" width="96" height="19" /> we conclude that <img src="//latex.artofproblemsolving.com/9/d/0/9d02e715e7f7195675151570530c5b62ba7b2744.png" class="latex" alt="$(*)$" style="vertical-align: -4px" width="21" height="18" /> has two solutions, with the smaller solution <img src="//latex.artofproblemsolving.com/7/0/b/70b45c5ac650a362014fddf817e52abf12d97c40.png" class="latex" alt="$x=\sqrt2.$" style="vertical-align: -2px" width="66" height="21" /> We construct the following table of values: 
+<img src="//latex.artofproblemsolving.com/9/c/0/9c0b78183ab2268b7cc036a5f7eb0162a5543f4a.png" class="latexcenter" alt="\[\begin{array}{c|c|c|c} &amp; &amp; &amp; \\ [-2ex] \boldsymbol{x} &amp; \boldsymbol{f(x)=2^{\sqrt2}\log_2{x}} &amp; \boldsymbol{g(x)=2^{x-1}} &amp; \textbf{Comparison} \\ [1ex] \hline &amp; &amp; &amp; \\ [-1ex] 1 &amp; 0 &amp; 1 &amp; \\ [1ex] \sqrt2 &amp; 2^{\sqrt2-1} &amp; 2^{\sqrt2-1} &amp; f\left(\sqrt2\right)=g\left(\sqrt2\right) \\ [1ex] 2 &amp; 2^{\sqrt2} &amp; 2 &amp; f(2)&gt;g(2) \\ [1ex] 3 &amp; 2^{\sqrt2}\log_2{3} &amp; 2^2 &amp; \\ [1ex] 4 &amp; 2^{\sqrt2+1} &amp; 2^3 &amp; f(4)&lt;g(4) \\ [1ex] \end{array}\]" width="492" height="202" />
+Let <img src="//latex.artofproblemsolving.com/1/b/d/1bd2b4e8b24b5dfd4a500292672af493746ef676.png" class="latex" alt="$x=t$" width="40" height="11" /> be the larger solution. Since exponential functions outgrow logarithmic functions, we have <img src="//latex.artofproblemsolving.com/4/1/e/41e960ad1182efadffcbf000fdaac71d187f8bb5.png" class="latex" alt="$f(x)&lt;g(x)$" style="vertical-align: -4px" width="92" height="18" /> for all <img src="//latex.artofproblemsolving.com/2/2/8/22825c2f2f5aee7d9be14ed737c503b30e9d2d23.png" class="latex" alt="$x&gt;t.$" style="vertical-align: 0px" width="44" height="12" /> By the <b>Intermediate Value Theorem</b>, we get <img src="//latex.artofproblemsolving.com/2/2/c/22caa78c07b26f0c7dc431f5abad15e722a03bd0.png" class="latex" alt="$t\in(2,4),$" style="vertical-align: -4px" width="73" height="18" /> from which <img src="//latex.artofproblemsolving.com/2/b/b/2bb3709bf7ef1c2e8d09956a64cb5589d05b077b.png" class="latexcenter" alt="\[S=\sqrt2+t\in\left(\sqrt2+2,\sqrt2+4\right).\]" width="258" height="32" />
+Finally, approximating with <img src="//latex.artofproblemsolving.com/9/0/c/90c62662dd1fb1519a97ed5db06b6f5e49922099.png" class="latex" alt="$\sqrt2\approx1.414$" style="vertical-align: -1px" width="89" height="18" /> results in <img src="//latex.artofproblemsolving.com/9/8/6/986bf254c71341f7e5908dc7d3543e8fb9fac140.png" class="latex" alt="$\boxed{\textbf{(D) }2\le S&lt;6}.$" style="vertical-align: -10px" width="129" height="28" />
+</p><p>The graphs of <img src="//latex.artofproblemsolving.com/9/7/e/97eded22ccc3e54189a8f157c4e81f36fe034a26.png" class="latex" alt="$y=f(x)$" style="vertical-align: -4px" width="67" height="18" /> and <img src="//latex.artofproblemsolving.com/b/0/7/b07623f87e4369fb18ed7ca64337e70c2ee0e5d7.png" class="latex" alt="$y=g(x)$" style="vertical-align: -4px" width="66" height="18" /> are shown below:
+<img src="//latex.artofproblemsolving.com/7/9/b/79bfab877c3bdfd878127d711fb0c96f3452aa00.png" class="latexcenter" alt="[asy] /* Made by MRENTHUSIASM */ size(1200,200);   int xMin = 0; int xMax = 5; int yMin = 0; int yMax = 5;  //Draws the horizontal gridlines void horizontalLines() {   for (int i = yMin+1; i &lt; yMax; ++i)   {     draw((xMin,i)--(xMax,i), mediumgray+linewidth(0.4));   } }  //Draws the vertical gridlines void verticalLines() {   for (int i = xMin+1; i &lt; xMax; ++i)   {     draw((i,yMin)--(i,yMax), mediumgray+linewidth(0.4));   } }  //Draws the horizontal ticks void horizontalTicks() {   for (int i = yMin+1; i &lt; yMax; ++i)   {     draw((-1/8,i)--(1/8,i), black+linewidth(1));   } }  //Draws the vertical ticks void verticalTicks() {   for (int i = xMin+1; i &lt; xMax; ++i)   {     draw((i,-1/8)--(i,1/8), black+linewidth(1));   } }  horizontalLines(); verticalLines(); horizontalTicks(); verticalTicks(); draw((xMin,0)--(xMax,0),black+linewidth(1.5),EndArrow(5)); draw((0,yMin)--(0,yMax),black+linewidth(1.5),EndArrow(5)); label(&quot;$x$&quot;,(xMax,0),(2,0)); label(&quot;$y$&quot;,(0,yMax),(0,2));  real f(real x) {return 2^sqrt(2)*log(x)/log(2);}; real g(real x) {return 2^(x-1);};  draw(graph(f,1,3.65),red,&quot;$y=2^{\sqrt2}\log_2{x}$&quot;); draw(graph(g,0,3.32),blue,&quot;$y=2^{x-1}$&quot;);  pair A, B; A = intersectionpoint(graph(f,1,2),graph(g,1,2)); B = intersectionpoint(graph(f,2,4),graph(g,2,4)); dot(A,linewidth(4.5)); dot(B,linewidth(4.5));  label(&quot;$0$&quot;,(0,0),2.5*SW); label(&quot;$\sqrt2$&quot;,(A.x,0),2.25*S); label(&quot;$t$&quot;,(B.x,0),3*S); label(&quot;$4$&quot;,(4,0),3*S); label(&quot;$4$&quot;,(0,4),3*W);  draw(A--(A.x,0),dashed); draw(B--(B.x,0),dashed);  add(legend(),point(E),40E,UnFill); [/asy]" width="612" height="335" />
+~MRENTHUSIASM
+</p>
+<h2><span id="Video_Solution_by_OmegaLearn_(Logarithmic_Tricks)"></span><span class="mw-headline" id="Video_Solution_by_OmegaLearn_.28Logarithmic_Tricks.29">Video Solution by OmegaLearn (Logarithmic Tricks)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/uCTpLB-kGR4">https://youtu.be/uCTpLB-kGR4</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_hippopotamus1">Video Solution by hippopotamus1</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=GjO6C_qC13U&amp;feature=youtu.be">https://www.youtube.com/watch?v=GjO6C_qC13U&amp;feature=youtu.be</a>
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_The_Power_of_Logic">Video Solution by The Power of Logic</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/0i6qoGpk_Ew">https://youtu.be/0i6qoGpk_Ew</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2021_AMC_12B" title="2021 AMC 12B">2021 AMC 12B</a></b> (<b><a href="/wiki/index.php/2021_AMC_12B_Problems" title="2021 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2021_AMC_12B_Answer_Key" title="2021 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_20" title="2021 AMC 12B Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_22" title="2021 AMC 12B Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_1" title="2021 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_2" title="2021 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_3" title="2021 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_4" title="2021 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_5" title="2021 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_6" title="2021 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_7" title="2021 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_8" title="2021 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_9" title="2021 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_10" title="2021 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_11" title="2021 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_12" title="2021 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_13" title="2021 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_14" title="2021 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_15" title="2021 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_16" title="2021 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_17" title="2021 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_18" title="2021 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_19" title="2021 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_20" title="2021 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_22" title="2021 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_23" title="2021 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_24" title="2021 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2021_AMC_12B_Problems/Problem_25" title="2021 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208185028
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.085 seconds
+Real time usage: 0.089 seconds
+Preprocessor visited node count: 442/1000000
+Preprocessor generated node count: 1308/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9315/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.030      1 -total
+ 78.12%    5.492      1 Template:AMC12_box
+ 19.51%    1.372      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:20728-0!canonical and timestamp 20230208185028 and revision id 179446
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_12B_Problems/Problem_21&amp;oldid=179446">https://artofproblemsolving.com/wiki/index.php?title=2021_AMC_12B_Problems/Problem_21&amp;oldid=179446</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208185029 -->
+</html>

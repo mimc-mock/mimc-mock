@@ -1,0 +1,5 @@
+<p>In the expansion of
+<img src="//latex.artofproblemsolving.com/e/4/2/e42212799afc8b50d066ff0471255746cf718dec.png" class="latexcenter" alt="\[\left(1 + x + x^2 + \cdots + x^{27}\right)\left(1 + x + x^2 + \cdots + x^{14}\right)^2,\]" width="391" height="25" />
+what is the <a href="/wiki/index.php/Coefficient" title="Coefficient">coefficient</a> of <img src="//latex.artofproblemsolving.com/5/6/c/56cf328af9579c7a405a8692453b578ef97f4fa4.png" class="latex" alt="$x^{28}$" width="23" height="15" />?
+</p><p><img src="//latex.artofproblemsolving.com/6/3/1/631516591f329b285cb11246db12736b23482a9f.png" class="latex" alt="$\mathrm{(A)}\ 195\qquad\mathrm{(B)}\ 196\qquad\mathrm{(C)}\ 224\qquad\mathrm{(D)}\ 378\qquad\mathrm{(E)}\ 405$" style="vertical-align: -4px" width="432" height="18" />
+</p>

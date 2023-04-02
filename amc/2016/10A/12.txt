@@ -1,0 +1,246 @@
+<p>Three distinct integers are selected at random between <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/4/b/7/4b781fdf1cd172b567be38e2ffa6f20f0b8390c0.png" class="latex" alt="$2016$" style="vertical-align: 0px" width="35" height="13" />, inclusive. Which of the following is a correct statement about the probability <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" /> that the product of the three integers is odd?
+</p><p><img src="//latex.artofproblemsolving.com/2/4/4/2445953b849eb1c41e6957089700a9270658e042.png" class="latex" alt="$\textbf{(A)}\ p&lt;\dfrac{1}{8}\qquad\textbf{(B)}\ p=\dfrac{1}{8}\qquad\textbf{(C)}\ \dfrac{1}{8}&lt;p&lt;\dfrac{1}{3}\qquad\textbf{(D)}\ p=\dfrac{1}{3}\qquad\textbf{(E)}\ p&gt;\dfrac{1}{3}$" style="vertical-align: -12px" width="572" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>For the product to be odd, all three factors have to be odd. The probability of this is <img src="//latex.artofproblemsolving.com/f/9/6/f961950c6c84a052bbd9f7bdc973e30b8d22453b.png" class="latex" alt="$\frac{1008}{2016} \cdot \frac{1007}{2015} \cdot \frac{1006}{2014}$" style="vertical-align: -13px" width="145" height="38" />.
+</p><p><img src="//latex.artofproblemsolving.com/d/e/7/de77f63bc92ed7c91c1ab4b1a1da98328cd4b4fe.png" class="latex" alt="$\frac{1008}{2016} = \frac{1}{2}$" style="vertical-align: -13px" width="76" height="38" />, but <img src="//latex.artofproblemsolving.com/6/5/7/657c91c3cd1ec43b0532aa8283920d4e3aa45965.png" class="latex" alt="$\frac{1007}{2015}$" style="vertical-align: -13px" width="38" height="38" /> and <img src="//latex.artofproblemsolving.com/e/e/0/ee0ddd095701e6a06ba9c42c0c88ab4a07136cf5.png" class="latex" alt="$\frac{1006}{2014}$" style="vertical-align: -13px" width="38" height="38" /> are slightly less than <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />. Thus, the whole product is slightly less than <img src="//latex.artofproblemsolving.com/7/8/e/78ed8045e570dad5fe6a7b7261cbead9ca947cdc.png" class="latex" alt="$\frac{1}{2} \cdot \frac{1}{2} \cdot \frac{1}{2} = \frac{1}{8}$" style="vertical-align: -12px" width="101" height="37" />, so <img src="//latex.artofproblemsolving.com/f/7/8/f78d72282254771e5ee6972c782fb1be73be31c9.png" class="latex" alt="$\boxed{\textbf{(A) }p&lt;\dfrac{1}{8}}$" style="vertical-align: -18px" width="93" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>For the product to be odd, all three factors have to be odd. There are a total of <img src="//latex.artofproblemsolving.com/8/4/b/84bc17390bcee79ed75483287041989295f92d10.png" class="latex" alt="$\binom{2016}{3}$" style="vertical-align: -22px" width="60" height="53" /> ways to choose 3 numbers at random, and there are <img src="//latex.artofproblemsolving.com/4/1/4/41457e1b59005e5b37e942172c5aa74377d7877e.png" class="latex" alt="$\binom{1008}{3}$" style="vertical-align: -22px" width="60" height="53" /> to choose 3 odd numbers. Therefore, the probability of choosing 3 odd numbers is <img src="//latex.artofproblemsolving.com/8/a/9/8a98517831aca0155c69420885b4f0839f659e1a.png" class="latex" alt="$\frac{\binom{1008}{3}}{\binom{2016}{3}}$" style="vertical-align: -20px" width="45" height="49" />. Simplifying this, we obtain <img src="//latex.artofproblemsolving.com/4/2/1/42195030cc595c047416a2966dd1165a593c923d.png" class="latex" alt="$\frac{1008*1007*1006}{2016*2015*2014}$" style="vertical-align: -13px" width="145" height="38" />, which is slightly less than <img src="//latex.artofproblemsolving.com/5/d/b/5db9e227e8177d26de452c2a2faeb6d45cc53d7b.png" class="latex" alt="$\frac{1}{8}$" style="vertical-align: -12px" width="11" height="37" />, so our answer is <img src="//latex.artofproblemsolving.com/f/7/8/f78d72282254771e5ee6972c782fb1be73be31c9.png" class="latex" alt="$\boxed{\textbf{(A) }p&lt;\dfrac{1}{8}}$" style="vertical-align: -18px" width="93" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>The probability that the product is odd, allowing duplication of the integers, is just <img src="//latex.artofproblemsolving.com/8/1/c/81c396084d0e20093c48a73a06fc0c4585f39a07.png" class="latex" alt="$\left( \frac{1}{2} \right) ^3 = \frac{1}{8}$" style="vertical-align: -17px" width="82" height="46" />. Since forbidding duplication reduces the probability of all three integers being odd, we see <img src="//latex.artofproblemsolving.com/2/e/c/2ec0c5d81f78f7c750c4248d8da60a1fe9f332fc.png" class="latex" alt="$p&lt;\dfrac{1}{8}$" style="vertical-align: -12px" width="46" height="37" /> and our answer is <img src="//latex.artofproblemsolving.com/4/d/9/4d9ce28916915219949dbcde50cbb6f97b058cb1.png" class="latex" alt="$\boxed{\textbf{(A) }}$" style="vertical-align: -10px" width="47" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/dHY8gjoYFXU?t=300">https://youtu.be/dHY8gjoYFXU?t=300</a>
+</p><p>~IceMatrix
+</p><p><a rel="nofollow" class="external free" href="https://youtu.be/8_clljylXwI">https://youtu.be/8_clljylXwI</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2016_AMC_10A" title="2016 AMC 10A">2016 AMC 10A</a></b> (<b><a href="/wiki/index.php/2016_AMC_10A_Problems" title="2016 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2016_AMC_10A_Answer_Key" title="2016 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_11" title="2016 AMC 10A Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_13" title="2016 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_1" title="2016 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_2" title="2016 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_3" title="2016 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_4" title="2016 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_5" title="2016 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_6" title="2016 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_7" title="2016 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_8" title="2016 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_9" title="2016 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_10" title="2016 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_11" title="2016 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_13" title="2016 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_14" title="2016 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_15" title="2016 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_16" title="2016 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_17" title="2016 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_18" title="2016 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_19" title="2016 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_20" title="2016 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_21" class="mw-redirect" title="2016 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_22" title="2016 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_23" title="2016 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_24" title="2016 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2016_AMC_10A_Problems/Problem_25" title="2016 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208184722
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.080 seconds
+Real time usage: 0.084 seconds
+Preprocessor visited node count: 285/1000000
+Preprocessor generated node count: 964/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4089/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.976      1 -total
+ 69.11%    6.203      1 Template:AMC10_box
+ 29.19%    2.620      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:14547-0!canonical and timestamp 20230208184722 and revision id 139015
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_12&amp;oldid=139015">https://artofproblemsolving.com/wiki/index.php?title=2016_AMC_10A_Problems/Problem_12&amp;oldid=139015</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208184722 -->
+</html>

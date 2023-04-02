@@ -1,0 +1,245 @@
+<p>A truncated cone has horizontal bases with radii <img src="//latex.artofproblemsolving.com/5/e/7/5e7a1b6098a8c98b8e4adae526aeef4b91712620.png" class="latex" alt="$18$" style="vertical-align: 0px" width="17" height="13" /> and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. A sphere is tangent to the top, bottom, and lateral surface of the truncated cone. What is the radius of the sphere? 
+</p><p><img src="//latex.artofproblemsolving.com/a/7/a/a7a394e5e5873a57c973dc4eac1dc7523a33e730.png" class="latex" alt="$\mathrm{(A)}\ 6 \qquad\mathrm{(B)}\ 4\sqrt{5} \qquad\mathrm{(C)}\ 9 \qquad\mathrm{(D)}\ 10 \qquad\mathrm{(E)}\ 6\sqrt{3}$" style="vertical-align: -4px" width="400" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Consider a <a href="/wiki/index.php/Trapezoid" title="Trapezoid">trapezoid</a> (label it <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> as follows) cross-section of the truncate cone along a diameter of the bases:
+</p>
+<center><img src="//latex.artofproblemsolving.com/7/9/b/79b290d343dc7c6049f7d45f5f1abc749c2af3d2.png" class="latexcenter" alt="[asy] import olympiad; size(220); defaultpen(0.7); pair A = (0,0), B = (36,0), C = (20,12), D = (16,12), E=(A+B)/2, F=(20+1.6,12-1.2), G = (C+D)/2; draw(A--B--C--D--cycle); draw(circumcircle(E,F,G)); dot(E); dot(F); dot(G); label(&quot;\(A\)&quot;,A,S); label(&quot;\(B\)&quot;,B,S); label(&quot;\(C\)&quot;,C,NE); label(&quot;\(D\)&quot;,D,NW); label(&quot;\(E\)&quot;,E,S); label(&quot;\(F\)&quot;,F,NE); label(&quot;\(G\)&quot;,G,N); [/asy]" width="368" height="162" /></center>
+<p>Above, <img src="//latex.artofproblemsolving.com/1/5/7/15702fb3f7b1aeaefff24913baf2a387bdd2d54a.png" class="latex" alt="$E,F,$" style="vertical-align: -3px" width="38" height="16" /> and <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> are points of <a href="/wiki/index.php/Tangent_(geometry)" title="Tangent (geometry)">tangency</a>. By the Two Tangent Theorem, <img src="//latex.artofproblemsolving.com/a/c/6/ac620755efb30ffff0ad4de5c51d4c6f7516a0ec.png" class="latex" alt="$BF = BE = 18$" style="vertical-align: 0px" width="124" height="13" /> and <img src="//latex.artofproblemsolving.com/c/a/6/ca669f780faf25a2a5171adba0031242c5509f4c.png" class="latex" alt="$CF = CG = 2$" width="114" height="12" />, so <img src="//latex.artofproblemsolving.com/f/3/d/f3df80c6052a2128b30eb8a39a49d8ed45409800.png" class="latex" alt="$BC = 20$" width="70" height="12" />. We draw <img src="//latex.artofproblemsolving.com/b/1/9/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12" /> such that it is the foot of the altitude <img src="//latex.artofproblemsolving.com/9/b/e/9be32165967b3173aa255274dec44b971d06e9cb.png" class="latex" alt="$\overline{HD}$" width="32" height="15" /> to <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" />: 
+</p>
+<center><img src="//latex.artofproblemsolving.com/d/f/5/df55cbef93e6c3485f8c0d77176293f0fe2bcb3a.png" class="latexcenter" alt="[asy] import olympiad; size(220); defaultpen(0.7); pair A = (0,0), B = (36,0), C = (20,12), D = (16,12), E=(A+B)/2, F=(20+1.6,12-1.2), G = (C+D)/2, H=(16,0); pair P=(D+G)/2, Q=(D+H)/2, R=(B+E)/2, T=(A+H)/2, O=(E+G)/2; draw(A--B--C--D--cycle); draw(G--E--H--D); draw(circumcircle(E,F,G)); dot(E);dot(F);dot(G);dot(H);dot(O); label(&quot;\(A\)&quot;,A,S); label(&quot;\(B\)&quot;,B,S); label(&quot;\(C\)&quot;,C,NE); label(&quot;\(D\)&quot;,D,NW); label(&quot;\(E\)&quot;,E,S); label(&quot;\(F\)&quot;,F,NE); label(&quot;\(G\)&quot;,G,N); label(&quot;\(H\)&quot;,H,S); label(&quot;\(O\)&quot;,O,NE); label(&quot;\(2\)&quot;,P,N); label(&quot;\(12\)&quot;,Q,W); label(&quot;\(18\)&quot;,R,S); label(&quot;\(16\)&quot;,T,S); label(&quot;\(20\)&quot;,(A+D)/2,NW); label(&quot;\(r\)&quot;,(O+E)/2,SE); [/asy]" width="368" height="162" /></center>
+<p>By the <a href="/wiki/index.php/Pythagorean_Theorem" title="Pythagorean Theorem">Pythagorean Theorem</a>, 
+<img src="//latex.artofproblemsolving.com/d/f/3/df3b7879ecc2ac8d3fff4c2b6c95853efdf10988.png" class="latexcenter" alt="\[r = \frac{DH}2 = \frac{\sqrt{20^2 - 16^2}}2 = \boxed{6} \Rightarrow \mathrm{(A)}.\]" width="289" height="41" />
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Create a trapezoid with inscribed circle <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> exactly like in Solution #1, and extend lines <img src="//latex.artofproblemsolving.com/c/f/b/cfbb4c52e011ceed6e813118a7d59e931af444a2.png" class="latex" alt="$\overline{AD}$" width="29" height="15" /> and <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> from the solution above and label the point at where they meet <img src="//latex.artofproblemsolving.com/b/1/9/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12" />. Because <img src="//latex.artofproblemsolving.com/7/3/3/73367b60edea0223325e27a0653d1791c2c510ca.png" class="latex" alt="$\frac{\overline{GC}}{\overline{BE}}$" style="vertical-align: -14px" width="31" height="42" /> = <img src="//latex.artofproblemsolving.com/5/9/4/594c8b267069448b58fe77ad60497eb30f763a4a.png" class="latex" alt="$\frac{1}{9}$" style="vertical-align: -12px" width="11" height="37" />, <img src="//latex.artofproblemsolving.com/c/5/6/c5623cb989571b021c49d06f921178cb1f479a78.png" class="latex" alt="$\frac{\overline{HG}}{\overline{HE}}$" style="vertical-align: -14px" width="33" height="42" /> = <img src="//latex.artofproblemsolving.com/5/9/4/594c8b267069448b58fe77ad60497eb30f763a4a.png" class="latex" alt="$\frac{1}{9}$" style="vertical-align: -12px" width="11" height="37" />. Let <img src="//latex.artofproblemsolving.com/c/0/0/c00bd00d67ac22d491e32aa1127b10f2b034985f.png" class="latex" alt="$\overline{HG} = x$" width="65" height="15" /> and <img src="//latex.artofproblemsolving.com/a/5/a/a5a486bf4029cd5f6c6ed5f120b838bda0147110.png" class="latex" alt="$\overline{GE} = 8x$" width="72" height="15" />. 
+</p><p>Because these are radii, <img src="//latex.artofproblemsolving.com/c/b/2/cb2ebda64b77795950796ae58e044c37e30cc5e7.png" class="latex" alt="$\overline{GO} = \overline{OE} = \overline{OF} = 4x$" style="vertical-align: 0px" width="178" height="16" />. <img src="//latex.artofproblemsolving.com/9/5/a/95a6466cefe33d65b751d6742ad3a226204fafe1.png" class="latex" alt="$\overline{OF} \perp \overline{BH}$" width="84" height="15" /> so <img src="//latex.artofproblemsolving.com/3/1/7/317a260de7a27524c3a73ae82a3b8f98203dbf92.png" class="latex" alt="$\overline{OF}^2 + \overline{FH}^2 = \overline{OH}^2$" style="vertical-align: -1px" width="157" height="21" />. Plugging in, we get <img src="//latex.artofproblemsolving.com/a/6/f/a6fc0f64817256506a984030b8b407bb111f5499.png" class="latex" alt="$4x^2 + \overline{FH}^2 = 5x^2$" style="vertical-align: -1px" width="137" height="21" /> so <img src="//latex.artofproblemsolving.com/3/e/7/3e766a546ec4cc2b18e2d974406bc9302f3d77c6.png" class="latex" alt="$\overline{FH} = 3x$" width="74" height="15" />.Triangles <img src="//latex.artofproblemsolving.com/7/c/4/7c4561f906f7ef445228f71a1a160ffd99e91b4a.png" class="latex" alt="$OFH$" width="45" height="12" /> and <img src="//latex.artofproblemsolving.com/6/7/f/67f1083768a4ebb9aab68d8afc36b5590e2b0b37.png" class="latex" alt="$BEH$" width="45" height="12" /> are similar so <img src="//latex.artofproblemsolving.com/0/5/5/055dddae0d1977307bd6be36f27f3370bb1aaa8e.png" class="latex" alt="$\frac{\overline{OF}}{\overline{BE}}  = \frac{\overline{FH}}{\overline{EH}}$" style="vertical-align: -14px" width="91" height="42" /> which gives us <img src="//latex.artofproblemsolving.com/4/9/6/49660c552fe5e59010962917849839b2a2919664.png" class="latex" alt="$\frac{4x}{18} = \frac{3x}{9x}$" style="vertical-align: -13px" width="69" height="38" />. Solving for x, we get <img src="//latex.artofproblemsolving.com/b/8/f/b8fdb45b0430f931c05a066416c1d0f44c38f43c.png" class="latexcenter" alt="\[x = 1.5\]" width="56" height="13" /> and <img src="//latex.artofproblemsolving.com/b/3/e/b3e9fa6e2bdc737c4e300852022c034c21b65881.png" class="latexcenter" alt="\[4x =  \boxed{6} \Rightarrow \mathrm{(A)}.\]" width="123" height="23" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2004_AMC_12B" title="2004 AMC 12B">2004 AMC 12B</a></b> (<b><a href="/wiki/index.php/2004_AMC_12B_Problems" title="2004 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_12B_Answer_Key" title="2004 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_18" title="2004 AMC 12B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_20" title="2004 AMC 12B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_1" title="2004 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_2" title="2004 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_3" title="2004 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_4" title="2004 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_5" title="2004 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_6" title="2004 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_7" title="2004 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_8" title="2004 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_9" title="2004 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_10" title="2004 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_11" title="2004 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_12" title="2004 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_13" title="2004 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_14" title="2004 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_15" title="2004 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_16" title="2004 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_17" title="2004 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_18" title="2004 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_20" title="2004 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_21" title="2004 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_22" title="2004 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_23" title="2004 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_24" title="2004 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_25" title="2004 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208115908
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.081 seconds
+Real time usage: 0.086 seconds
+Preprocessor visited node count: 425/1000000
+Preprocessor generated node count: 1280/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7530/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.977      1 -total
+ 77.43%    6.177      1 Template:AMC12_box
+ 20.53%    1.638      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6384-0!canonical and timestamp 20230208115908 and revision id 178248
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12B_Problems/Problem_19&amp;oldid=178248">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12B_Problems/Problem_19&amp;oldid=178248</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:3D_Geometry_Problems" title="Category:3D Geometry Problems">3D Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209014423 -->
+</html>

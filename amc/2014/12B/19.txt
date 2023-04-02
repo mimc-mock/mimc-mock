@@ -1,0 +1,282 @@
+<p>A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone?
+</p><p><img src="//latex.artofproblemsolving.com/d/c/a/dca3b808f0caf802ec275e44346fe25e3e4792f1.png" class="latexcenter" alt="[asy] real r=(3+sqrt(5))/2; real s=sqrt(r); real Brad=r; real brad=1; real Fht = 2*s; import graph3; import solids; currentprojection=orthographic(1,0,.2); currentlight=(10,10,5); revolution sph=sphere((0,0,Fht/2),Fht/2); //draw(surface(sph),green+white+opacity(0.5)); //triple f(pair t) {return (t.x*cos(t.y),t.x*sin(t.y),t.x^(1/n)*sin(t.y/n));} triple f(pair t) { triple v0 = Brad*(cos(t.x),sin(t.x),0); triple v1 = brad*(cos(t.x),sin(t.x),0)+(0,0,Fht); return (v0 + t.y*(v1-v0)); } triple g(pair t) { return (t.y*cos(t.x),t.y*sin(t.x),0); } surface sback=surface(f,(3pi/4,0),(7pi/4,1),80,2); surface sfront=surface(f,(7pi/4,0),(11pi/4,1),80,2); surface base = surface(g,(0,0),(2pi,Brad),80,2); draw(sback,gray(0.9)); draw(sfront,gray(0.5)); draw(base,gray(0.9)); draw(surface(sph),gray(0.4)); [/asy]" width="252" height="188" />
+</p><p><img src="//latex.artofproblemsolving.com/6/e/d/6ed55192447af710c595ba632ef42c8a98251f94.png" class="latex" alt="$\text{(A) } \dfrac32 \quad \text{(B) } \dfrac{1+\sqrt5}2 \quad \text{(C) } \sqrt3 \quad \text{(D) } 2 \quad \text{(E) } \dfrac{3+\sqrt5}2$" style="vertical-align: -12px" width="383" height="41" />
+</p>
+<h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>First, we draw the vertical cross-section passing through the middle of the frustum.
+let the top base equal 2 and the bottom base to be equal to 2r
+<img src="//latex.artofproblemsolving.com/0/1/6/016c1f2f2e25e86be1364ec138a943e0955b8e6d.png" class="latexcenter" alt="[asy] size(7cm); pair A,B,C,D; real r = (3+sqrt(5))/2; real s = sqrt(r); A = (-r,0); B = (r,0); C = (1,2*s); D = (-1,2*s); draw(A--B--C--D--cycle); pair O = (0,s); draw(shift(O)*scale(s)*unitcircle); dot(O); pair X,Y; X = (0,0); Y = (0,2*s); draw(X--Y); label(&quot;$r-1$&quot;,(X+B)/2,S); label(&quot;$1$&quot;,(Y+C)/2,N); label(&quot;$s$&quot;,(O+Y)/2,W); label(&quot;$s$&quot;,(O+X)/2,W); draw(B--C--(1,0)--cycle,blue+1bp); pair P = 0.73*C+0.27*B; draw(O--P); dot(P); label(&quot;$1$&quot;,(C+P)/2,NE); label(&quot;$r$&quot;,(B+P)/2,NE); [/asy]" width="332" height="248" />
+</p><p>then using the Pythagorean theorem we have:
+<img src="//latex.artofproblemsolving.com/e/a/9/ea93cc1977198893b2a5a61564364d7877dab0e4.png" class="latex" alt="$(r+1)^2=(2s)^2+(r-1)^2$" style="vertical-align: -4px" width="207" height="19" />
+which is equivalent to:
+<img src="//latex.artofproblemsolving.com/7/7/a/77ab66312f957f5bad1c74f1295b0021c8e0bc7f.png" class="latex" alt="$r^2+2r+1=4s^2+r^2-2r+1$" style="vertical-align: -1px" width="245" height="16" />
+subtracting <img src="//latex.artofproblemsolving.com/f/2/4/f2443c3a311121b07c45b465114d975d2463f30e.png" class="latex" alt="$r^2-2r+1$" style="vertical-align: -1px" width="86" height="16" /> from both sides
+<img src="//latex.artofproblemsolving.com/f/8/a/f8ae0616ddb27d77b602943da58c40543421cfe9.png" class="latex" alt="$4r=4s^2$" style="vertical-align: 0px" width="65" height="15" />
+solving for s we get:
+<img src="//latex.artofproblemsolving.com/7/6/1/761f734737f3d130b9c1f3714b65c6062426b51c.png" class="latexcenter" alt="\[s=\sqrt{r}\]" width="56" height="18" />
+next we can find the volume of the frustum and of the sphere and we know <img src="//latex.artofproblemsolving.com/c/b/a/cba5581ebf308590a2936a23565e30160a3beb55.png" class="latex" alt="$V_{\text{frustum}}=2V_{\text{sphere}}$" style="vertical-align: -5px" width="137" height="17" /> so we can solve for <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" />
+using <img src="//latex.artofproblemsolving.com/2/a/f/2afe51f13641fc794ffe4f6025bf85c9e49f41ab.png" class="latex" alt="$V_{\text{frustum}}=\frac{\pi*h}{3}(R^2+r^2+Rr)$" style="vertical-align: -12px" width="241" height="37" />
+we get:
+<img src="//latex.artofproblemsolving.com/d/7/e/d7eef8d7362d698016a192e684324b236ecda676.png" class="latexcenter" alt="\[V_{\text{frustum}}=\frac{\pi*2\sqrt{r}}{3}(r^2+r+1)\]" width="236" height="39" />
+using  <img src="//latex.artofproblemsolving.com/8/e/e/8eee5c6ae8433f258f3c15dcb0d6113ff3c31d05.png" class="latex" alt="$V_{\text{sphere}}=\dfrac{4r^{3}\pi}{3}$" style="vertical-align: -12px" width="111" height="39" />
+we get 
+<img src="//latex.artofproblemsolving.com/8/2/d/82da68e37e5b3401b8de5a8588b92760176358cd.png" class="latexcenter" alt="\[V_{\text{sphere}}=\dfrac{4(\sqrt{r})^{3}\pi}{3}\]" width="139" height="39" />
+so we have:
+<img src="//latex.artofproblemsolving.com/7/3/1/731ee8c7ba48dd60c6b5cba6156967cd2d371542.png" class="latexcenter" alt="\[\frac{\pi*2\sqrt{r}}{3}(r^2+r+1)=2*\dfrac{4(\sqrt{r})^{3}\pi}{3}\]" width="274" height="39" />
+dividing by <img src="//latex.artofproblemsolving.com/2/9/2/29253aff60588ed9f4ad7d05054cd379e6ab3cf6.png" class="latex" alt="$\frac{2\pi*\sqrt{r}}{3}$" style="vertical-align: -12px" width="63" height="39" />
+we get <img src="//latex.artofproblemsolving.com/e/f/f/eff48a7e2a483ec769c53595e6616aae042ab70e.png" class="latexcenter" alt="\[r^2+r+1=4r\]" width="119" height="16" />
+which is equivalent to <img src="//latex.artofproblemsolving.com/d/b/2/db29bc3b20d4947107253c8633c1e77dec9c4443.png" class="latexcenter" alt="\[r^2-3r+1=0\]" width="120" height="16" />
+<img src="//latex.artofproblemsolving.com/a/9/f/a9fc6b6929ee1fb1d4ef525cd209e1c882e19d5d.png" class="latex" alt="$r=\dfrac{3\pm\sqrt{(-3)^2-4*1*1}}{2*1}$" style="vertical-align: -13px" width="213" height="41" />
+so <img src="//latex.artofproblemsolving.com/d/4/3/d4392ed60ab25c1ad1394398225bf6abdf959a50.png" class="latexcenter" alt="\[r=\dfrac{3+\sqrt{5}}{2}\longrightarrow \boxed{E}\]" width="157" height="41" />
+</p>
+<h3><span id="Solution_2(ADD_DIAGRAM)"></span><span class="mw-headline" id="Solution_2.28ADD_DIAGRAM.29">Solution 2(ADD DIAGRAM)</span></h3>
+<p>Let's once again look at the cross section of the frustum. Let the angle from the center of the sphere to a point on the circumference of the bottom circle be <img src="//latex.artofproblemsolving.com/7/9/6/79607326260cf94d825a16e94c1c1b1a8af24db6.png" class="latex" alt="$\theta.$" width="12" height="13" /> This implies that the angle from the center of the sphere to a point on the circumference of the top circle is <img src="//latex.artofproblemsolving.com/2/9/b/29bd79e07a236a1a45f73de0ff53312359579f72.png" class="latex" alt="$90 - \theta.$" width="53" height="13" /> Hence the bottom radius is <img src="//latex.artofproblemsolving.com/3/f/5/3f53f6fc52bec8bf977f45df418f89f6747334d3.png" class="latex" alt="$r\tan{\theta}$" width="49" height="13" /> and the top radius is <img src="//latex.artofproblemsolving.com/5/9/b/59b8a07207a04e4b881cc78e8bc2ad9b0805f04e.png" class="latex" alt="$\frac {r}{\tan {\theta}}.$" style="vertical-align: -12px" width="46" height="33" /> This means that the radio between the bottom radius and top radius is <img src="//latex.artofproblemsolving.com/1/6/a/16a2168826620f75cf9d08bfd4a5e4b8b96fc172.png" class="latex" alt="$(\tan {\theta})^2.$" style="vertical-align: -5px" width="67" height="21" /> Using the frustum volume formula, we find that the are of this figure is <img src="//latex.artofproblemsolving.com/a/0/b/a0b84b0c7a50614b76714d50f66b76281d621010.png" class="latex" alt="$\frac{2\pi r}{3}(r^2(\tan {\theta})^2 + r^2 + \frac {r^2} {(\tan {\theta})^2}).$" style="vertical-align: -17px" width="251" height="43" /> We can equate this to <img src="//latex.artofproblemsolving.com/3/0/2/302472866b79d973760418e911c8401b40ae4693.png" class="latex" alt="$\frac {8\pi*r^3} 3.$" style="vertical-align: -12px" width="61" height="39" /> Simplifying, we are left with a quadratic conveniently in <img src="//latex.artofproblemsolving.com/1/6/a/16a2168826620f75cf9d08bfd4a5e4b8b96fc172.png" class="latex" alt="$(\tan {\theta})^2.$" style="vertical-align: -5px" width="67" height="21" /> The quadratic is <img src="//latex.artofproblemsolving.com/6/2/5/6250aadb0ac7c3c606b30c81def132dacb0f8e75.png" class="latex" alt="$(\tan {\theta})^4 - 3(\tan {\theta})^2 + 1 = 0.$" style="vertical-align: -4px" width="219" height="19" /> This gives us <img src="//latex.artofproblemsolving.com/c/0/0/c00d6086cd43bb66eb1a59988886a588a25039ac.png" class="latex" alt="$(\tan {\theta})^2 = \dfrac{3+\sqrt{5}}{2}\longrightarrow \boxed{E}$" style="vertical-align: -12px" width="209" height="41" />
+</p><p>~NeeNeeMath
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_icematrix">Video Solution by icematrix</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/3C5AYs7GoF4">https://youtu.be/3C5AYs7GoF4</a>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2014_AMC_12B" title="2014 AMC 12B">2014 AMC 12B</a></b> (<b><a href="/wiki/index.php/2014_AMC_12B_Problems" title="2014 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_12B_Answer_Key" title="2014 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_18" title="2014 AMC 12B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_20" title="2014 AMC 12B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_1" title="2014 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_2" title="2014 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_3" title="2014 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_4" title="2014 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_5" title="2014 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_6" title="2014 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_7" title="2014 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_8" title="2014 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_9" title="2014 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_10" title="2014 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_11" title="2014 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_12" title="2014 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_13" title="2014 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_14" title="2014 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_15" title="2014 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_16" title="2014 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_17" title="2014 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_18" title="2014 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_20" title="2014 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_21" title="2014 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_22" title="2014 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_23" title="2014 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_24" title="2014 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_25" title="2014 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2014_AMC_10B" title="2014 AMC 10B">2014 AMC 10B</a></b> (<b><a href="/wiki/index.php/2014_AMC_10B_Problems" title="2014 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_10B_Answer_Key" title="2014 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_22" title="2014 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_1" title="2014 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_2" title="2014 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_3" title="2014 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_4" title="2014 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_5" title="2014 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_6" title="2014 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_7" title="2014 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_8" title="2014 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_9" title="2014 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_10" title="2014 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_11" title="2014 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_12" title="2014 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_13" title="2014 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_14" title="2014 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_15" title="2014 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_16" title="2014 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_17" title="2014 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_18" title="2014 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_19" title="2014 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_20" title="2014 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_21" title="2014 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_22" title="2014 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_23" title="2014 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2014 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208192207
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.106 seconds
+Real time usage: 0.110 seconds
+Preprocessor visited node count: 455/1000000
+Preprocessor generated node count: 1688/1000000
+Post‐expand include size: 4150/2097152 bytes
+Template argument size: 316/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7098/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   13.985      1 -total
+ 45.38%    6.346      1 Template:AMC12_box
+ 40.55%    5.671      1 Template:AMC10_box
+ 11.66%    1.630      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:12438-0!canonical and timestamp 20230208192207 and revision id 178104
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_12B_Problems/Problem_19&amp;oldid=178104">https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_12B_Problems/Problem_19&amp;oldid=178104</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208192207 -->
+</html>

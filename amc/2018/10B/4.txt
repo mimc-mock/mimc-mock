@@ -1,0 +1,249 @@
+<p>A three-dimensional rectangular box with dimensions <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" />, <img src="//latex.artofproblemsolving.com/c/e/5/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" /> has faces whose surface areas are <img src="//latex.artofproblemsolving.com/e/2/9/e290f2cba0ba0e11c0b91630da15a408da2fcf1c.png" class="latex" alt="$24$" style="vertical-align: 0px" width="18" height="12" />, <img src="//latex.artofproblemsolving.com/e/2/9/e290f2cba0ba0e11c0b91630da15a408da2fcf1c.png" class="latex" alt="$24$" style="vertical-align: 0px" width="18" height="12" />, <img src="//latex.artofproblemsolving.com/5/a/f/5afbad0b221f0ef70186fe70b08e6fc1efdd8dfa.png" class="latex" alt="$48$" style="vertical-align: 0px" width="17" height="13" />, <img src="//latex.artofproblemsolving.com/5/a/f/5afbad0b221f0ef70186fe70b08e6fc1efdd8dfa.png" class="latex" alt="$48$" style="vertical-align: 0px" width="17" height="13" />, <img src="//latex.artofproblemsolving.com/9/4/d/94db15b430439ad5b3c80bfacfef0c6499ede2ee.png" class="latex" alt="$72$" width="17" height="12" />, and <img src="//latex.artofproblemsolving.com/9/4/d/94db15b430439ad5b3c80bfacfef0c6499ede2ee.png" class="latex" alt="$72$" width="17" height="12" /> square units. What is <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" /> + <img src="//latex.artofproblemsolving.com/c/e/5/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12" /> + <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/c/4/ec42889bab8f60120619349190d29140f61861ee.png" class="latex" alt="$\textbf{(A) }18 \qquad \textbf{(B) }22 \qquad \textbf{(C) }24 \qquad \textbf{(D) }30 \qquad \textbf{(E) }36 \qquad$" style="vertical-align: -4px" width="398" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" /> be the length of the shortest dimension and <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" /> be the length of the longest dimension. Thus, <img src="//latex.artofproblemsolving.com/4/5/f/45f4862f5341ba4081911b57c5ffcbd77588b1f4.png" class="latex" alt="$XY = 24$" style="vertical-align: 0px" width="73" height="13" />, <img src="//latex.artofproblemsolving.com/0/2/c/02c6dc668d3fd6954f1cd5d0d8d8c44646f79e8a.png" class="latex" alt="$YZ = 72$" width="70" height="12" />, and <img src="//latex.artofproblemsolving.com/b/8/a/b8acce8bf8459bc5cb2457c1cc16ae0ded938b47.png" class="latex" alt="$XZ = 48$" style="vertical-align: 0px" width="72" height="13" />.
+Divide the first two equations to get <img src="//latex.artofproblemsolving.com/4/5/3/453bd7729aff206958577eaf5f21110f7d50046d.png" class="latex" alt="$\frac{Z}{X} = 3$" style="vertical-align: -12px" width="53" height="37" />. Then, multiply by the last equation to get <img src="//latex.artofproblemsolving.com/1/2/a/12a3084676741076a80840a27f1eacbe16499929.png" class="latex" alt="$Z^2 = 144$" style="vertical-align: 0px" width="72" height="15" />, giving <img src="//latex.artofproblemsolving.com/9/9/0/9901435fd585237103f96ac7445953c182652d35.png" class="latex" alt="$Z = 12$" style="vertical-align: 0px" width="55" height="13" />. Following, <img src="//latex.artofproblemsolving.com/6/b/3/6b3019aa161a29f20e67e2a7660f20d82c8d2573.png" class="latex" alt="$X = 4$" style="vertical-align: 0px" width="49" height="13" /> and <img src="//latex.artofproblemsolving.com/c/8/4/c84064a370f909fee73ba528860c52f5ac99d35d.png" class="latex" alt="$Y = 6$" width="47" height="12" />.
+</p><p>The final answer is <img src="//latex.artofproblemsolving.com/6/0/7/607c6992d0667577abf471ae03ce28edfef62c55.png" class="latex" alt="$4 + 6 + 12 = 22$" style="vertical-align: -1px" width="122" height="14" />. <img src="//latex.artofproblemsolving.com/f/2/e/f2e33ab9a00e021af49e888212645d4667903c49.png" class="latex" alt="$\boxed{B}$" style="vertical-align: -5px" width="26" height="24" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Simply guess and check to find that the dimensions are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> by <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> by <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" />. Therefore, the answer is <img src="//latex.artofproblemsolving.com/6/0/7/607c6992d0667577abf471ae03ce28edfef62c55.png" class="latex" alt="$4 + 6 + 12 = 22$" style="vertical-align: -1px" width="122" height="14" />. <img src="//latex.artofproblemsolving.com/f/2/e/f2e33ab9a00e021af49e888212645d4667903c49.png" class="latex" alt="$\boxed{B}$" style="vertical-align: -5px" width="26" height="24" />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>If you find the GCD of <img src="//latex.artofproblemsolving.com/e/2/9/e290f2cba0ba0e11c0b91630da15a408da2fcf1c.png" class="latex" alt="$24$" style="vertical-align: 0px" width="18" height="12" />, <img src="//latex.artofproblemsolving.com/5/a/f/5afbad0b221f0ef70186fe70b08e6fc1efdd8dfa.png" class="latex" alt="$48$" style="vertical-align: 0px" width="17" height="13" />, and <img src="//latex.artofproblemsolving.com/9/4/d/94db15b430439ad5b3c80bfacfef0c6499ede2ee.png" class="latex" alt="$72$" width="17" height="12" /> you get your first number, <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" />. After this, do <img src="//latex.artofproblemsolving.com/4/4/7/447be73ee4469b54f92d15c8506f4bdba3d265f4.png" class="latex" alt="$48 \div 12$" style="vertical-align: 0px" width="58" height="13" /> and <img src="//latex.artofproblemsolving.com/6/2/9/62926bd52a6780574985021148fd0cd4d989fb6c.png" class="latex" alt="$72 \div 12$" style="vertical-align: 0px" width="58" height="12" /> to get <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />, the other 2 numbers. When you add up your <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> numbers, you get <img src="//latex.artofproblemsolving.com/1/d/1/1d111a5e00ee5ea6700bb629994dc629874c505b.png" class="latex" alt="$22$" width="17" height="12" /> which is <img src="//latex.artofproblemsolving.com/f/2/e/f2e33ab9a00e021af49e888212645d4667903c49.png" class="latex" alt="$\boxed{B}$" style="vertical-align: -5px" width="26" height="24" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Since the surface areas of the faces are the product of two of the dimensions. Therefore, <img src="//latex.artofproblemsolving.com/1/c/9/1c9a2f4b4ca90475fc5a19e6ddcafb9733ead333.png" class="latex" alt="$XY=24$" style="vertical-align: 0px" width="73" height="13" />, <img src="//latex.artofproblemsolving.com/c/7/4/c7437ae6dcdf5f365311618ebd97ceefeb6759f6.png" class="latex" alt="$XZ=48$" style="vertical-align: 0px" width="72" height="13" />, and <img src="//latex.artofproblemsolving.com/3/d/1/3d13ef41d7d3e1f3d76588326dfd0a0305229b1f.png" class="latex" alt="$YZ=72$" width="70" height="12" />. You can multiply <img src="//latex.artofproblemsolving.com/d/8/4/d84df6afd9a741fcb76bd1b60d35bf9468fd8916.png" class="latex" alt="$XY \times XZ \times YZ$" width="134" height="12" />, which simplifies to <img src="//latex.artofproblemsolving.com/1/0/8/1082a2c6a2e98d7e8e741b92a5a09fa9f5ff4f19.png" class="latex" alt="${XYZ}^2=24 \times 48 \times 72$" style="vertical-align: 0px" width="175" height="16" /> which means that the volume<img src="//latex.artofproblemsolving.com/0/5/2/0526e1f5ad1412706cf938657f754604e672a671.png" class="latex" alt="$XYZ$" width="44" height="12" /> equals<img src="//latex.artofproblemsolving.com/e/e/4/ee4ac821ec9c1d956ca0ae079a438d963f86f97f.png" class="latex" alt="$\sqrt{24*48*72}=\sqrt{24^2*12^2}=24*12=288$" style="vertical-align: -1px" width="340" height="19" />. The individual dimensions, <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" />, <img src="//latex.artofproblemsolving.com/c/e/5/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" /> can be found by doing <img src="//latex.artofproblemsolving.com/d/0/f/d0f0537130ba6c176b4896a31c0a5dabba042f21.png" class="latex" alt="$\frac{XYZ}{XY}$" style="vertical-align: -12px" width="47" height="37" />, <img src="//latex.artofproblemsolving.com/1/b/2/1b26ee311b3c1e627cf865bafef5f1dc9fea268c.png" class="latex" alt="$\frac{XYZ}{YZ}$" style="vertical-align: -12px" width="47" height="37" />, and <img src="//latex.artofproblemsolving.com/d/c/6/dc6f18dd53b471691519ade8718f6d6531dbab21.png" class="latex" alt="$\frac{XYZ}{XZ}$" style="vertical-align: -12px" width="47" height="37" />, which yields <img src="//latex.artofproblemsolving.com/6/9/e/69ec3c81db87b4cbb4f2b07cc29e50d0ca8b2f09.png" class="latex" alt="$Z=12$" style="vertical-align: 0px" width="55" height="13" />, <img src="//latex.artofproblemsolving.com/d/6/1/d614c4fb0f73528942bace8926fbe646803f36dd.png" class="latex" alt="$Y=6$" width="47" height="12" />, and <img src="//latex.artofproblemsolving.com/1/4/4/14425c57745d2c13c539e983550d2ef419b78242.png" class="latex" alt="$X=4$" style="vertical-align: 0px" width="49" height="13" />. Adding this up, we have that <img src="//latex.artofproblemsolving.com/e/4/3/e43824492bdedb709c08da6583b6ad8276df7472.png" class="latex" alt="$X+Y+Z=22$" style="vertical-align: -1px" width="131" height="14" /> which is <img src="//latex.artofproblemsolving.com/f/2/e/f2e33ab9a00e021af49e888212645d4667903c49.png" class="latex" alt="$\boxed{B}$" style="vertical-align: -5px" width="26" height="24" />
+- Solution by smartninja2000
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/iIgNr9XUneg">https://youtu.be/iIgNr9XUneg</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10B" title="2018 AMC 10B">2018 AMC 10B</a></b> (<b><a href="/wiki/index.php/2018_AMC_10B_Problems" title="2018 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10B_Answer_Key" title="2018 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_3" title="2018 AMC 10B Problems/Problem 3">Problem 3</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_5" title="2018 AMC 10B Problems/Problem 5">Problem 5</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_1" title="2018 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_2" title="2018 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_3" title="2018 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a class="mw-selflink selflink">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_5" title="2018 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_6" title="2018 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_7" title="2018 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_8" title="2018 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_9" title="2018 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_10" title="2018 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_11" title="2018 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_12" title="2018 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_13" title="2018 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_14" title="2018 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_15" title="2018 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_16" title="2018 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_17" title="2018 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_18" title="2018 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_19" title="2018 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_20" title="2018 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_21" title="2018 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_22" title="2018 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_23" title="2018 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_24" title="2018 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_25" title="2018 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209023115
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.097 seconds
+Real time usage: 0.100 seconds
+Preprocessor visited node count: 640/1000000
+Preprocessor generated node count: 1748/1000000
+Post‐expand include size: 2183/2097152 bytes
+Template argument size: 154/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9815/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.644      1 -total
+ 77.21%    5.902      1 Template:AMC10_box
+ 20.29%    1.551      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:16029-0!canonical and timestamp 20230209023115 and revision id 180543
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_4&amp;oldid=180543">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_4&amp;oldid=180543</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209023115 -->
+</html>

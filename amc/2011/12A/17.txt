@@ -1,0 +1,14 @@
+<p>Circles with radii <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> are mutually externally tangent. What is the area of the triangle determined by the points of tangency?
+</p><p><img src="//latex.artofproblemsolving.com/5/d/6/5d6aa692326434e1c3d2fc3b09eaaf341ced5f03.png" class="latex" alt="$\textbf{(A)}\ \frac{3}{5} \qquad \textbf{(B)}\ \frac{4}{5} \qquad \textbf{(C)}\ 1 \qquad \textbf{(D)}\ \frac{6}{5} \qquad \textbf{(E)}\ \frac{4}{3}$" style="vertical-align: -12px" width="363" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p><img src="//latex.artofproblemsolving.com/1/2/e/12e8ab13f9f9f7579b5c34b66aa5af86d4fd3964.png" class="latexcenter" alt="[asy] unitsize(.5cm); defaultpen(linewidth(.8pt)); dotfactor=4;  pair A=(0,0), B=(3,0), C=(0,4);  dot (A); dot (B); dot (C); draw(A--B); draw(A--C); draw(B--C);   draw(Circle(A,1)); draw(Circle(B,2)); draw(Circle(C,3));   [/asy]" width="192" height="215" />
+</p><p>The centers of these circles form a 3-4-5 triangle, which has an area equal to 6.
+</p><p>The areas of the three triangles determined by the center and the two points of tangency of each circle are, using Triangle Area by Sine,
+</p><p><img src="//latex.artofproblemsolving.com/3/3/f/33f5756bbc5317d62098c0b9fadd99d8a362d034.png" class="latex" alt="$\frac{1}{2} \cdot 1 \cdot 1 \cdot 1 = \frac{1}{2}$" style="vertical-align: -12px" width="115" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/c/6/d/c6d21928ae55fdce962f46cb6a80cc20f1ed7863.png" class="latex" alt="$\frac{1}{2} \cdot 2 \cdot 2 \cdot \frac{4}{5} = \frac{8}{5}$" style="vertical-align: -12px" width="119" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/6/7/7/6771f74cf82571b46733d7e75b5adeb3cda995a7.png" class="latex" alt="$\frac{1}{2} \cdot 3 \cdot 3 \cdot \frac{3}{5} = \frac{27}{10}$" style="vertical-align: -13px" width="128" height="38" />
+</p><p>which add up to <img src="//latex.artofproblemsolving.com/5/6/6/5665fb0d1da58c7a15e819fb9b0db3f53b91dd08.png" class="latex" alt="$4.8$" style="vertical-align: 0px" width="22" height="13" />. The area we're looking for is the large 3-4-5 triangle minus the three smaller triangles, or <img src="//latex.artofproblemsolving.com/7/2/7/727590caf99d3ba69bd597d5e7decc33282b92f3.png" class="latex" alt="$6 - 4.8 = 1.2 = \frac{6}{5} \rightarrow \boxed{(D)}$" style="vertical-align: -12px" width="209" height="37" />.
+</p><p><br />
+lol
+</p>

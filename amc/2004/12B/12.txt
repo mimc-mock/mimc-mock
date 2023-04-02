@@ -1,0 +1,266 @@
+<p>In the sequence <img src="//latex.artofproblemsolving.com/d/e/7/de7e2da81334aad3aeeb09706fed72248196613b.png" class="latex" alt="$2001$" style="vertical-align: 0px" width="35" height="13" />, <img src="//latex.artofproblemsolving.com/9/6/e/96e470b7ce7a2f4d0c1ae064d2874ca377693897.png" class="latex" alt="$2002$" width="35" height="12" />, <img src="//latex.artofproblemsolving.com/b/9/1/b910f4dafca80b54c6e7bedf63b6485eebff0764.png" class="latex" alt="$2003$" width="35" height="12" />, <img src="//latex.artofproblemsolving.com/3/9/5/3958e984d2597b35da7975f4503cdcf965a777f7.png" class="latex" alt="$\ldots$" width="19" height="2" /> , each term after the third is found by subtracting the previous term from the sum of the two terms that precede that term. For example, the fourth term is <img src="//latex.artofproblemsolving.com/6/b/4/6b4528d04253c405fd28d12ad5c10a72692f33dd.png" class="latex" alt="$2001 + 2002 - 2003 = 2000$" style="vertical-align: -1px" width="213" height="14" />. What is the
+<img src="//latex.artofproblemsolving.com/5/a/d/5adc31955217c4e074b9b4ac0a6fde823448adc8.png" class="latex" alt="$2004^\textrm{th}$" style="vertical-align: 0px" width="48" height="16" /> term in this sequence?
+</p><p><img src="//latex.artofproblemsolving.com/0/f/a/0fa97ad5b565481b366273d2d3a21eb00b287bbd.png" class="latex" alt="$\mathrm{(A) \ } -2004 \qquad \mathrm{(B) \ } -2 \qquad \mathrm{(C) \ } 0 \qquad \mathrm{(D) \ } 4003 \qquad \mathrm{(E) \ } 6007$" style="vertical-align: -4px" width="468" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>We already know that <img src="//latex.artofproblemsolving.com/2/a/6/2a64a04c4ad614f76dd717406b4347f480ec18d7.png" class="latex" alt="$a_1=2001$" style="vertical-align: -2px" width="76" height="15" />, <img src="//latex.artofproblemsolving.com/3/7/f/37fb631146297df5689137909d89c97af5c24cf5.png" class="latex" alt="$a_2=2002$" style="vertical-align: -2px" width="77" height="15" />, <img src="//latex.artofproblemsolving.com/6/4/8/648011fef2f7b263a784a16fd9c1d10a60c44954.png" class="latex" alt="$a_3=2003$" style="vertical-align: -2px" width="77" height="15" />, and <img src="//latex.artofproblemsolving.com/d/d/c/ddc45a01e9fbf70258731657bff572141960db63.png" class="latex" alt="$a_4=2000$" style="vertical-align: -2px" width="77" height="15" />. Let's compute the next few terms to get the idea how the sequence behaves. We get <img src="//latex.artofproblemsolving.com/6/2/0/620aec2e84b870a06c5426300b3c959c45319478.png" class="latex" alt="$a_5 = 2002+2003-2000 = 2005$" style="vertical-align: -2px" width="254" height="15" />, <img src="//latex.artofproblemsolving.com/9/b/f/9bf82f3cc084de378a90d6fc7da051cc6cc9e607.png" class="latex" alt="$a_6=2003+2000-2005=1998$" style="vertical-align: -2px" width="254" height="15" />, <img src="//latex.artofproblemsolving.com/1/5/1/1514e2a543f8391d1f421725cb6448d0ee152c59.png" class="latex" alt="$a_7=2000+2005-1998=2007$" style="vertical-align: -2px" width="255" height="15" />, and so on.
+</p><p>We can now discover the following pattern: <img src="//latex.artofproblemsolving.com/0/b/e/0bee4503459ca8715abff9b0dab72e5a7ebe96ff.png" class="latex" alt="$a_{2k+1} = 2001+2k$" style="vertical-align: -4px" width="142" height="16" /> and <img src="//latex.artofproblemsolving.com/0/8/f/08fc9aa99991f3d9e64a66f42a8e6340e41925a8.png" class="latex" alt="$a_{2k}=2004-2k$" style="vertical-align: -2px" width="125" height="15" />. This is easily proved by induction. It follows that <img src="//latex.artofproblemsolving.com/5/2/2/5220784e5b5a32d6085305630ca605af4e0e8e4f.png" class="latex" alt="$a_{2004}=a_{2\cdot 1002} = 2004 - 2\cdot 1002 = \boxed{0}$" style="vertical-align: -5px" width="295" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Note that the recurrence <img src="//latex.artofproblemsolving.com/2/b/1/2b16617200de9792e350d2fbb6ac2f19c04261ba.png" class="latex" alt="$a_n+a_{n+1}-a_{n+2}~=~a_{n+3}$" style="vertical-align: -4px" width="203" height="14" /> can be rewritten as <img src="//latex.artofproblemsolving.com/8/6/5/8652da270e2ad30db32e02ee925682c2f11dcd69.png" class="latex" alt="$a_n+a_{n+1} ~=~ a_{n+2}+a_{n+3}$" style="vertical-align: -4px" width="203" height="14" />. 
+</p><p>Hence we get that <img src="//latex.artofproblemsolving.com/9/c/7/9c7624192ac1472f13d579502db75e44f8924550.png" class="latex" alt="$a_1+a_2 ~=~ a_3+a_4 ~=~ a_5+a_6 ~= \cdots$" style="vertical-align: -2px" width="289" height="13" /> and also
+<img src="//latex.artofproblemsolving.com/d/9/d/d9d0a2aff19e051261ae0536b974d1b4c1c2ad29.png" class="latex" alt="$a_2+a_3 ~=~ a_4+a_5 ~=~ a_6+a_7 ~= \cdots$" style="vertical-align: -2px" width="289" height="13" />
+</p><p>From the values given in the problem statement we see that <img src="//latex.artofproblemsolving.com/6/4/a/64ad50e67a5d728c68cfca791d89be8b80c006aa.png" class="latex" alt="$a_3=a_1+2$" style="vertical-align: -2px" width="89" height="14" />. 
+</p><p>From <img src="//latex.artofproblemsolving.com/6/d/a/6da41bdb872e94bef75a531c0834faf0b67ec18d.png" class="latex" alt="$a_1+a_2 = a_3+a_4$" style="vertical-align: -2px" width="136" height="13" /> we get that <img src="//latex.artofproblemsolving.com/4/1/1/41161d7745e2631834648a66ce6a8ffa90232ebf.png" class="latex" alt="$a_4=a_2-2$" style="vertical-align: -2px" width="89" height="14" />.
+</p><p>From <img src="//latex.artofproblemsolving.com/1/4/a/14aaac0c7f46c34b38a4dc4d0829e50ed82fdd27.png" class="latex" alt="$a_2+a_3 = a_4+a_5$" style="vertical-align: -2px" width="135" height="13" /> we get that <img src="//latex.artofproblemsolving.com/8/a/f/8af9b36ac18b07f9ddcea217353506d0daea4bb8.png" class="latex" alt="$a_5=a_3+2$" style="vertical-align: -2px" width="89" height="14" />.
+</p><p>Following this pattern, we get <img src="//latex.artofproblemsolving.com/7/5/b/75bf4104ae3b573108df462358709519acefe0c3.png" class="latex" alt="$a_{2004} = a_{2002} - 2 = a_{2000} - 4 = \cdots = a_2 - 2002 = \boxed{0}$" style="vertical-align: -5px" width="412" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Our recurrence is <img src="//latex.artofproblemsolving.com/2/b/1/2b16617200de9792e350d2fbb6ac2f19c04261ba.png" class="latex" alt="$a_n+a_{n+1}-a_{n+2}~=~a_{n+3}$" style="vertical-align: -4px" width="203" height="14" />, so we get <img src="//latex.artofproblemsolving.com/6/c/2/6c299601fb9972bd308df7d91a9fd5a34c85333b.png" class="latex" alt="$r^3+r^2-r-1 = 1$" style="vertical-align: -1px" width="149" height="16" />, so <img src="//latex.artofproblemsolving.com/8/7/7/877941aedebf48986e8f99dabae8f72eec9c87c2.png" class="latex" alt="$(r-1)(r+1)^2 = 1$" style="vertical-align: -4px" width="148" height="19" />, so our formula for the recurrence is <img src="//latex.artofproblemsolving.com/7/a/8/7a89869eced4bd7e7b1322f27aec59c901d9db07.png" class="latex" alt="$a_n = A + (B + Cn)(-1)^n$" style="vertical-align: -4px" width="200" height="18" />.
+</p><p>Substituting our starting values gives us <img src="//latex.artofproblemsolving.com/1/f/4/1f4e59923be2535468dac55c98d150907cde159d.png" class="latex" alt="$a_n = 2002 + (2 - n)(-1)^n$" style="vertical-align: -4px" width="203" height="18" />.
+</p><p>So, <img src="//latex.artofproblemsolving.com/5/9/2/592166f6d2d71da1cad951c0ed819b1efe3559af.png" class="latex" alt="$a_{2004} = 2002 - 2002 = 0.$" style="vertical-align: -2px" width="193" height="15" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2004_AMC_12B" title="2004 AMC 12B">2004 AMC 12B</a></b> (<b><a href="/wiki/index.php/2004_AMC_12B_Problems" title="2004 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_12B_Answer_Key" title="2004 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_11" title="2004 AMC 12B Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_13" title="2004 AMC 12B Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_1" title="2004 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_2" title="2004 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_3" title="2004 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_4" title="2004 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_5" title="2004 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_6" title="2004 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_7" title="2004 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_8" title="2004 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_9" title="2004 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_10" title="2004 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_11" title="2004 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_13" title="2004 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_14" title="2004 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_15" title="2004 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_16" title="2004 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_17" title="2004 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_18" title="2004 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_19" title="2004 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_20" title="2004 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_21" title="2004 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_22" title="2004 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_23" title="2004 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_24" title="2004 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12B_Problems/Problem_25" title="2004 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2004_AMC_10B" title="2004 AMC 10B">2004 AMC 10B</a></b> (<b><a href="/wiki/index.php/2004_AMC_10B_Problems" title="2004 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_10B_Answer_Key" title="2004 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_18" title="2004 AMC 10B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_20" title="2004 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_1" title="2004 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_2" title="2004 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_3" title="2004 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_4" title="2004 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2004 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_6" title="2004 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_7" class="mw-redirect" title="2004 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2004 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_9" class="mw-redirect" title="2004 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2004 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_11" title="2004 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_12" class="mw-redirect" title="2004 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_13" title="2004 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_14" title="2004 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_15" title="2004 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_16" title="2004 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_18" title="2004 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2004 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_20" title="2004 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_21" title="2004 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_22" title="2004 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_23" title="2004 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_24" title="2004 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_25" title="2004 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208152648
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.093 seconds
+Real time usage: 0.098 seconds
+Preprocessor visited node count: 484/1000000
+Preprocessor generated node count: 1770/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6337/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   24.742      1 -total
+ 22.85%    5.653      1 Template:AMC12_box
+ 20.52%    5.078      1 Template:AMC10_box
+  7.17%    1.773      1 Template:Duplicate
+  5.88%    1.456      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7770-0!canonical and timestamp 20230208152648 and revision id 163458
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12B_Problems/Problem_12&amp;oldid=163458">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12B_Problems/Problem_12&amp;oldid=163458</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209005519 -->
+</html>

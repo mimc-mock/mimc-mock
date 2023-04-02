@@ -1,0 +1,252 @@
+<p>A triangle has vertices <img src="//latex.artofproblemsolving.com/f/9/6/f9603ca3089464e548fc6f1366bc474e7efef8d9.png" class="latex" alt="$(0,0)$" style="vertical-align: -4px" width="38" height="18" />, <img src="//latex.artofproblemsolving.com/a/e/7/ae7a465ffe5255961382f5777569608be052b783.png" class="latex" alt="$(1,1)$" style="vertical-align: -4px" width="38" height="18" />, and <img src="//latex.artofproblemsolving.com/2/2/4/2249ef41e3aabf1d1e65de53e8c1fd4f76759a6e.png" class="latex" alt="$(6m,0)$" style="vertical-align: -4px" width="54" height="18" />, and the line <img src="//latex.artofproblemsolving.com/e/b/8/eb8cab3b86d4a13c3cc3680c32aaa80cc854689e.png" class="latex" alt="$y = mx$" style="vertical-align: -3px" width="60" height="11" /> divides the triangle into two triangles of equal area. What is the sum of all possible values of <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/a/9/2/a928b43ca7d1b13cdcac3ba059580bdf0c9be9d2.png" class="latex" alt="$\textbf{A} - \!\frac {1}{3} \qquad \textbf{(B)} - \!\frac {1}{6} \qquad \textbf{(C)}\ \frac {1}{6} \qquad \textbf{(D)}\ \frac {1}{3} \qquad \textbf{(E)}\ \frac {1}{2}$" style="vertical-align: -12px" width="380" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Let's label the three points as <img src="//latex.artofproblemsolving.com/e/5/6/e56c2d75970eccaf7b305f042636bcebdb2a1cb0.png" class="latex" alt="$A=(0,0)$" style="vertical-align: -4px" width="76" height="18" />, <img src="//latex.artofproblemsolving.com/1/a/6/1a614885d3185761a5744a0de9ebd12a58201426.png" class="latex" alt="$B=(1,1)$" style="vertical-align: -4px" width="77" height="18" />, and <img src="//latex.artofproblemsolving.com/1/2/f/12f30549ba35b32cf668596dc204dc001ee23e80.png" class="latex" alt="$C=(6m,0)$" style="vertical-align: -4px" width="93" height="18" />.
+</p><p>Clearly, whenever the line <img src="//latex.artofproblemsolving.com/0/d/1/0d1fe0afdea68630af2bda225ce5f2978b5ba0be.png" class="latex" alt="$y=mx$" style="vertical-align: -3px" width="60" height="11" /> intersects the inside of the triangle, it will intersect the side <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />. Let <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> be the point of intersection. 
+</p><p>The triangles <img src="//latex.artofproblemsolving.com/a/6/a/a6adfd3ad27a2dddeb0af7131d73c33c86991e93.png" class="latex" alt="$ABD$" width="43" height="13" /> and <img src="//latex.artofproblemsolving.com/6/c/e/6ce2cd123db24a7b8373999aea7a98927e3b3c81.png" class="latex" alt="$ACD$" width="43" height="13" /> have the same height, which is the distance between the point <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and the line <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />.
+Hence they have equal areas if and only if <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />.
+</p><p>The midpoint of the segment <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> has coordinates <img src="//latex.artofproblemsolving.com/5/9/1/591e74d0bac255900624ff32a05708e6d4194830.png" class="latex" alt="$\left( \frac{6m+1}2, \frac 12 \right)$" style="vertical-align: -17px" width="104" height="43" />. This point lies on the line <img src="//latex.artofproblemsolving.com/0/d/1/0d1fe0afdea68630af2bda225ce5f2978b5ba0be.png" class="latex" alt="$y=mx$" style="vertical-align: -3px" width="60" height="11" /> if and only if <img src="//latex.artofproblemsolving.com/e/3/c/e3c2a0324042d2ffee44a4a1b4bf6c1159ab9f35.png" class="latex" alt="$\frac 12 = m \cdot \frac{6m+1}2$" style="vertical-align: -12px" width="125" height="37" />. This simplifies to <img src="//latex.artofproblemsolving.com/8/4/4/844c79c8ec1d9cdba8e416fbf615a8e9b5ffb91c.png" class="latex" alt="$6m^2 + m - 1 = 0$" style="vertical-align: -1px" width="134" height="16" />. Using Vieta's formulas, we find that the sum of the roots is <img src="//latex.artofproblemsolving.com/1/9/5/1959e8791326371c179908c681dfc6bb26ccd4db.png" class="latex" alt="$\boxed{\textbf{(B)} - \!\frac {1}{6}}$" style="vertical-align: -18px" width="72" height="48" />.
+</p><p><br />
+For illustration, below are pictures of the situation for <img src="//latex.artofproblemsolving.com/0/a/4/0a499235a34b7f1551248489c227099d9936aff9.png" class="latex" alt="$m=1.5$" style="vertical-align: 0px" width="62" height="13" />, <img src="//latex.artofproblemsolving.com/7/a/5/7a56cd0d239005a50cc947396700c6f0e3acd75f.png" class="latex" alt="$m=0.5$" width="62" height="12" />, <img src="//latex.artofproblemsolving.com/7/b/1/7b1bb8db193a3415ae209659079707b418c9c740.png" class="latex" alt="$m=1/3$" style="vertical-align: -4px" width="66" height="18" />, and <img src="//latex.artofproblemsolving.com/7/0/6/70674cda448c1bb51efbedaeec565c0d9000bdc9.png" class="latex" alt="$m=-1/2$" style="vertical-align: -4px" width="80" height="18" />.
+</p><p><img src="//latex.artofproblemsolving.com/e/e/e/eee0289fb1f74e7bf8b303d3db34f731e6f637d5.png" class="latexcenter" alt="[asy] unitsize(1cm); defaultpen(0.8); real m=1.5; draw( (0,0)--(1,1)--(6*m,0)--cycle ); draw( ((-0.5)*(1,m)) -- ((1.5)*(1,m)), dashed ); label(&quot;$A$&quot;,(0,0),NW); label(&quot;$B$&quot;,(1,1),NE); label(&quot;$C$&quot;,(6*m,0),E); [/asy]" width="475" height="145" />
+</p><p><img src="//latex.artofproblemsolving.com/9/2/0/920597b66dc7afdf08e499aa29a879582a966bfd.png" class="latexcenter" alt="[asy] unitsize(2cm); defaultpen(0.8); real m=0.5; draw( (0,0)--(1,1)--(6*m,0)--cycle ); draw( ((-1)*(1,m)) -- (3*(1,m)), dashed ); label(&quot;$A$&quot;,(0,0),NW); label(&quot;$B$&quot;,(1,1),N); label(&quot;$C$&quot;,(6*m,0),E); pair D = intersectionpoint( (1,1)--(6*m,0), ((-1)*(1,m)) -- (3*(1,m)) ); dot(D); label(&quot;$D$&quot;,D,S); [/asy]" width="405" height="192" />
+</p><p><img src="//latex.artofproblemsolving.com/2/8/b/28bd630603b59402c8d7a30b20ac1fa955b987a4.png" class="latexcenter" alt="[asy] unitsize(2cm); defaultpen(0.8); real m=1/3; draw( (0,0)--(1,1)--(6*m,0)--cycle ); draw( ((-1)*(1,m)) -- (3*(1,m)), dashed ); label(&quot;$A$&quot;,(0,0),NW); label(&quot;$B$&quot;,(1,1),N); label(&quot;$C$&quot;,(6*m,0),E); pair D = intersectionpoint( (1,1)--(6*m,0), ((-1)*(1,m)) -- (3*(1,m)) ); dot(D); label(&quot;$D$&quot;,D,S); [/asy]" width="382" height="152" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/7/a/9/7a90b71d893fb87d66d3bab05651a8ecfd69317a.png" class="latexcenter" alt="[asy] unitsize(2cm); defaultpen(0.8); real m=-1/2; draw( (0,0)--(1,1)--(6*m,0)--cycle ); draw( ((-2)*(1,m)) -- (1*(1,m)), dashed ); label(&quot;$A$&quot;,(0,0),S); label(&quot;$B$&quot;,(1,1),NE); label(&quot;$C$&quot;,(6*m,0),W); pair D = intersectionpoint( (1,1)--(6*m,0), ((-1)*(1,m)) -- (3*(1,m)) ); dot(D); label(&quot;$D$&quot;,D,S); [/asy]" width="425" height="165" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>The line must pass through the triangle's centroid, since the line divides the triangle in half. The coordinates of the centroid are found by averaging those of the vertices. The slope of the line from the origin through the centroid is thus <img src="//latex.artofproblemsolving.com/4/2/b/42b436b59d8d15978dfde0a7739f7b1c2b3bc942.png" class="latex" alt="$\frac{\frac{1}{3}}{\frac{1+6m}{3}}$" style="vertical-align: -19px" width="41" height="47" />, which is equal to <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />.
+</p><p><img src="//latex.artofproblemsolving.com/b/e/b/beb0c8b06def7670778e70b6215560b8039ec6cb.png" class="latex" alt="$\frac{\frac{1}{3}}{\frac{1+6m}{3}}=m$" style="vertical-align: -19px" width="83" height="47" />
+</p><p><img src="//latex.artofproblemsolving.com/1/6/d/16d6c311738a8150f6574a05d46221371cb831a6.png" class="latex" alt="$\frac{1}{3}=m\left(\frac{1+6m}{3}\right)$" style="vertical-align: -17px" width="139" height="43" />
+</p><p><img src="//latex.artofproblemsolving.com/9/b/9/9b90768a98de11b52b630adca61b25654e78dd1f.png" class="latex" alt="$1=m(1+6m)$" style="vertical-align: -4px" width="118" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/0/e/2/0e238e395c37202c0a30e764bd2ee7a784ac5882.png" class="latex" alt="$6m^2+m-1=0$" style="vertical-align: -1px" width="134" height="16" />
+</p><p>Using Vieta's Formulas, the sum of the possible values of <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> is <img src="//latex.artofproblemsolving.com/2/5/b/25bbcae7adb42d6352e9b035cb9ef226a31c5829.png" class="latex" alt="$\boxed{\textbf{(B)}\; -\frac{1}{6}}$" style="vertical-align: -18px" width="80" height="48" />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2009_AMC_12A" title="2009 AMC 12A">2009 AMC 12A</a></b> (<b><a href="/wiki/index.php/2009_AMC_12A_Problems" title="2009 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2009_AMC_12A_Answer_Key" title="2009 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_13" title="2009 AMC 12A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_15" title="2009 AMC 12A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_1" title="2009 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_2" title="2009 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_3" title="2009 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_4" title="2009 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_5" title="2009 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_6" title="2009 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_7" title="2009 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_8" title="2009 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_9" title="2009 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_10" title="2009 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_11" title="2009 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_12" title="2009 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_13" title="2009 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_15" title="2009 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_16" title="2009 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_17" title="2009 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_18" title="2009 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_19" title="2009 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_20" title="2009 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_21" title="2009 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_22" title="2009 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_23" title="2009 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_24" title="2009 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_12A_Problems/Problem_25" title="2009 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209003133
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.093 seconds
+Real time usage: 0.097 seconds
+Preprocessor visited node count: 457/1000000
+Preprocessor generated node count: 1356/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8182/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.643      1 -total
+ 75.96%    5.806      1 Template:AMC12_box
+ 21.51%    1.644      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7797-0!canonical and timestamp 20230209003133 and revision id 140337
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12A_Problems/Problem_14&amp;oldid=140337">https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_12A_Problems/Problem_14&amp;oldid=140337</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209003133 -->
+</html>

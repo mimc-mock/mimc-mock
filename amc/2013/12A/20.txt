@@ -1,0 +1,248 @@
+<p>Let <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> be the set <img src="//latex.artofproblemsolving.com/1/a/b/1ab9fc2533c4c85549baa0fd13ca1d94e7b03cd7.png" class="latex" alt="$\{1,2,3,...,19\}$" style="vertical-align: -4px" width="110" height="18" />. For <img src="//latex.artofproblemsolving.com/c/7/3/c735d6a627b91150d3ebdeae431fc2f86df26b28.png" class="latex" alt="$a,b \in S$" style="vertical-align: -3px" width="59" height="16" />, define <img src="//latex.artofproblemsolving.com/a/3/f/a3f681ed361802f316f3fd5db54858dbf51778e1.png" class="latex" alt="$a \succ b$" style="vertical-align: -1px" width="42" height="13" /> to mean that either <img src="//latex.artofproblemsolving.com/f/5/0/f50ae347f36db34352cee98e1521350c7a6d944c.png" class="latex" alt="$0 &lt; a - b \le 9$" style="vertical-align: -2px" width="105" height="15" /> or <img src="//latex.artofproblemsolving.com/3/2/0/32061883d061a38ad81813ee8ef09cecd1c7e978.png" class="latex" alt="$b - a &gt; 9$" style="vertical-align: 0px" width="72" height="13" />. How many ordered triples <img src="//latex.artofproblemsolving.com/c/7/3/c73ed093cc73a8d9a14185fa525e7067e5c3725d.png" class="latex" alt="$(x,y,z)$" style="vertical-align: -4px" width="58" height="18" /> of elements of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> have the property that <img src="//latex.artofproblemsolving.com/8/e/7/8e73253016df5627fefc1396ed238bfb394c8b30.png" class="latex" alt="$x \succ y$" style="vertical-align: -3px" width="43" height="13" />, <img src="//latex.artofproblemsolving.com/7/b/5/7b5bef0304989fa381a6e87ce2b36a4127911256.png" class="latex" alt="$y \succ z$" style="vertical-align: -3px" width="42" height="13" />, and <img src="//latex.artofproblemsolving.com/5/2/1/521207eb6f4c6d36d3e4022afc80904754ac8616.png" class="latex" alt="$z \succ x$" style="vertical-align: -1px" width="43" height="11" />?
+</p><p><img src="//latex.artofproblemsolving.com/0/2/8/028235c384d01d8f5dea69cfa2da85ab5ecc289f.png" class="latex" alt="$\textbf{(A)} \ 810 \qquad  \textbf{(B)} \ 855 \qquad  \textbf{(C)} \ 900 \qquad  \textbf{(D)} \ 950 \qquad  \textbf{(E)} \ 988$" style="vertical-align: -4px" width="439" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Imagine that the 19 numbers are just 19 persons sitting evenly around a circle <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />; each of them is facing to the center. 
+</p><p>One may check that <img src="//latex.artofproblemsolving.com/8/e/7/8e73253016df5627fefc1396ed238bfb394c8b30.png" class="latex" alt="$x \succ y$" style="vertical-align: -3px" width="43" height="13" /> if and only if <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is one of the 9 persons on the left of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, and <img src="//latex.artofproblemsolving.com/a/a/8/aa866dc31ff99cac53235df5545377e6a280bf1b.png" class="latex" alt="$y \succ x$" style="vertical-align: -3px" width="44" height="13" /> if and only if <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is one of the 9 persons on the right of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. Therefore, "<img src="//latex.artofproblemsolving.com/8/e/7/8e73253016df5627fefc1396ed238bfb394c8b30.png" class="latex" alt="$x \succ y$" style="vertical-align: -3px" width="43" height="13" /> and <img src="//latex.artofproblemsolving.com/7/b/5/7b5bef0304989fa381a6e87ce2b36a4127911256.png" class="latex" alt="$y \succ z$" style="vertical-align: -3px" width="42" height="13" /> and <img src="//latex.artofproblemsolving.com/5/2/1/521207eb6f4c6d36d3e4022afc80904754ac8616.png" class="latex" alt="$z \succ x$" style="vertical-align: -1px" width="43" height="11" />" implies that <img src="//latex.artofproblemsolving.com/d/2/0/d20258310be3455daf8318274224a9d1d28fb6a3.png" class="latex" alt="$x, y, z$" style="vertical-align: -3px" width="44" height="11" /> cuts the circumference of <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> into three arcs, each of which has no more than <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> numbers sitting on it (inclusive).
+</p><p>We count the complement: where the cut generated by <img src="//latex.artofproblemsolving.com/c/7/3/c73ed093cc73a8d9a14185fa525e7067e5c3725d.png" class="latex" alt="$(x,y,z)$" style="vertical-align: -4px" width="58" height="18" /> has ONE arc that has more than <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> persons sitting on. Note that there can only be one such arc because there are only <img src="//latex.artofproblemsolving.com/e/f/b/efbfe273946ff9f971c5eab331ca39caa6fdf7f4.png" class="latex" alt="$19$" style="vertical-align: 0px" width="17" height="13" /> persons in total.
+</p><p>Suppose the number of persons on the longest arc is <img src="//latex.artofproblemsolving.com/1/1/0/110330a0a87f802d3610749d57f1afaf5a09ec69.png" class="latex" alt="$k&gt;10$" style="vertical-align: 0px" width="52" height="13" />. Then two places of <img src="//latex.artofproblemsolving.com/a/c/c/accc80fdf164cef264f56a82b6f9f6add320fe05.png" class="latex" alt="$x,y,z$" style="vertical-align: -3px" width="44" height="11" /> are just chosen from the two end-points of the arc, and there are <img src="//latex.artofproblemsolving.com/c/c/f/ccf5ae774ea982fc8f16b40db23c3902dec83f6a.png" class="latex" alt="$19-k$" style="vertical-align: 0px" width="50" height="13" /> possible places for the third person. Once the three places of <img src="//latex.artofproblemsolving.com/a/c/c/accc80fdf164cef264f56a82b6f9f6add320fe05.png" class="latex" alt="$x,y,z$" style="vertical-align: -3px" width="44" height="11" /> are chosen, there are three possible ways to put <img src="//latex.artofproblemsolving.com/a/c/c/accc80fdf164cef264f56a82b6f9f6add320fe05.png" class="latex" alt="$x,y,z$" style="vertical-align: -3px" width="44" height="11" /> into them clockwise. Also, note that for any <img src="//latex.artofproblemsolving.com/1/1/0/110330a0a87f802d3610749d57f1afaf5a09ec69.png" class="latex" alt="$k&gt;10$" style="vertical-align: 0px" width="52" height="13" />, there are <img src="//latex.artofproblemsolving.com/e/f/b/efbfe273946ff9f971c5eab331ca39caa6fdf7f4.png" class="latex" alt="$19$" style="vertical-align: 0px" width="17" height="13" /> ways to choose an arc of length <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />. Therefore the total number of ways (of the complement) is 
+</p><p><img src="//latex.artofproblemsolving.com/2/5/e/25efcaa790c44863401a29b60bc04a11d1aea380.png" class="latexcenter" alt="\[\sum_{k=11}^{18} 3\cdot 19 \cdot (19-k) = 3\cdot 19 \cdot (1+\cdots+8) = 3\cdot 19\cdot 36\]" width="422" height="50" />
+</p><p>So the answer is
+</p><p><img src="//latex.artofproblemsolving.com/d/2/0/d20bc97c03ec0038ec40124df805e17d3b337d92.png" class="latexcenter" alt="\[3\cdot \binom{19}{3} - 3\cdot 19\cdot 36 = 3\cdot 19 \cdot (51 - 36) = 855\]" width="363" height="53" />
+</p><p>NOTE: this multiple-choice problem can be done even faster -- after we realized the fact that each choice of the three places of <img src="//latex.artofproblemsolving.com/a/c/c/accc80fdf164cef264f56a82b6f9f6add320fe05.png" class="latex" alt="$x,y,z$" style="vertical-align: -3px" width="44" height="11" /> corresponds to <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> possible ways to put them in, and that each arc of length <img src="//latex.artofproblemsolving.com/1/1/0/110330a0a87f802d3610749d57f1afaf5a09ec69.png" class="latex" alt="$k&gt;10$" style="vertical-align: 0px" width="52" height="13" /> has <img src="//latex.artofproblemsolving.com/e/f/b/efbfe273946ff9f971c5eab331ca39caa6fdf7f4.png" class="latex" alt="$19$" style="vertical-align: 0px" width="17" height="13" /> equitable positions, it is evident that the answer should be divisible by <img src="//latex.artofproblemsolving.com/2/5/a/25a1d2b26247509c01ec4eb41ea3b3c775353ce1.png" class="latex" alt="$3\cdot 19$" style="vertical-align: 0px" width="39" height="13" />,  which can only be <img src="//latex.artofproblemsolving.com/b/7/d/b7d05977e249669c8458358830f45ae647f965f4.png" class="latex" alt="$855$" width="26" height="12" /> from the five choices.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>First, we can find out that the only <img src="//latex.artofproblemsolving.com/d/2/0/d20258310be3455daf8318274224a9d1d28fb6a3.png" class="latex" alt="$x, y, z$" style="vertical-align: -3px" width="44" height="11" /> that satisfy the conditions in the problem are <img src="//latex.artofproblemsolving.com/9/a/d/9ad5e4d30650280d29f016aae71d61e811467690.png" class="latex" alt="$(1 \leq z-y \leq 9 , 1 \leq y-x \leq 9 , z-x \geq 10)$" style="vertical-align: -4px" width="329" height="18" /> , <img src="//latex.artofproblemsolving.com/7/8/d/78df151a1b303b8ec4e49fbb325860b7e4cb4e98.png" class="latex" alt="$(1 \leq y-x \leq 9 , 1 \leq x-z \leq 9 , y-z \geq 10)$" style="vertical-align: -4px" width="329" height="18" /> , and <img src="//latex.artofproblemsolving.com/7/2/0/720728c3ec76cc4c81ae02c86e5f310d9b8ce7bd.png" class="latex" alt="$(1 \leq x-z \leq 9 , 1 \leq z-y \leq 9 , x-y \geq 10)$" style="vertical-align: -4px" width="329" height="18" />. 
+</p><p>Consider the 1st set of conditions for <img src="//latex.artofproblemsolving.com/d/2/0/d20258310be3455daf8318274224a9d1d28fb6a3.png" class="latex" alt="$x, y, z$" style="vertical-align: -3px" width="44" height="11" />. We get that there are
+</p><p><img src="//latex.artofproblemsolving.com/b/9/3/b932a212472a23e42428ac119b9d85896a9e76e7.png" class="latexcenter" alt="\[45\cdot 10 - \sum_{k=1}^{9} \binom{k+1}{2} = 285\]" width="220" height="53" />
+</p><p>cases for the first set of conditions.
+</p><p>Since the 2nd and 3rd set of conditions are simply rotations of the 1st set, the total number of cases is
+</p><p><img src="//latex.artofproblemsolving.com/7/d/4/7d4d990cddcf4707a4ac2ff8aded51d856e145b7.png" class="latexcenter" alt="\[3\cdot 285 = \fbox{(B)855}\]" width="134" height="28" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2013_AMC_12A" title="2013 AMC 12A">2013 AMC 12A</a></b> (<b><a href="/wiki/index.php/2013_AMC_12A_Problems" title="2013 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2013_AMC_12A_Answer_Key" title="2013 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_19" title="2013 AMC 12A Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_21" title="2013 AMC 12A Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_1" title="2013 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_2" title="2013 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_3" title="2013 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_4" title="2013 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_5" title="2013 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_6" title="2013 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_7" title="2013 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_8" title="2013 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_9" title="2013 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_10" title="2013 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_11" title="2013 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_12" title="2013 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_13" title="2013 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_14" title="2013 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_15" title="2013 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_16" title="2013 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_17" title="2013 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_18" title="2013 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_19" title="2013 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_21" title="2013 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_22" title="2013 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_23" title="2013 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_24" title="2013 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_12A_Problems/Problem_25" title="2013 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209203451
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.095 seconds
+Real time usage: 0.098 seconds
+Preprocessor visited node count: 556/1000000
+Preprocessor generated node count: 1576/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9102/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.039      1 -total
+ 79.71%    6.408      1 Template:AMC12_box
+ 18.06%    1.452      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11752-0!canonical and timestamp 20230209203451 and revision id 122000
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_12A_Problems/Problem_20&amp;oldid=122000">https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_12A_Problems/Problem_20&amp;oldid=122000</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Set_Theory_Problems" title="Category:Introductory Set Theory Problems">Introductory Set Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209203451 -->
+</html>

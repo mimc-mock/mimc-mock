@@ -1,0 +1,313 @@
+<p>Each vertex of convex pentagon <img src="//latex.artofproblemsolving.com/f/1/3/f13a96240c51d61ba3733d9f5c3020fa92ec4136.png" class="latex" alt="$ABCDE$" width="72" height="13" /> is to be assigned a color. There are <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> colors to choose from, and the ends of each diagonal must have different colors. How many different colorings are possible?
+</p><p><img src="//latex.artofproblemsolving.com/b/2/6/b26ff3b64bdb715bf49ccc27fc5b4f592bd4be4f.png" class="latex" alt="$\textbf{(A)}\ 2520 \qquad \textbf{(B)}\ 2880 \qquad \textbf{(C)}\ 3120 \qquad \textbf{(D)}\ 3250 \qquad \textbf{(E)}\ 3750$" style="vertical-align: -4px" width="484" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>We can do some casework when working our way around the pentagon from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />. At each stage, there will be a makeshift diagram.
+</p><p>1.) For <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, we can choose any of the 6 colors.
+</p>
+<pre>        A&#160;: 6
+</pre>
+<p>2.) For <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, we can either have the same color as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, or any of the other 5 colors. We do this because each vertex of the pentagon is affected by the 2 opposite vertices, and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> will be affected by both <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.
+</p>
+<pre>      A&#160;: 6
+ B:1        B:5
+</pre>
+<p>3.) For <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, we cannot have the same color as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Also, we can have the same color as <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> (<img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> will be affected), or any of the other 4 colors. Because <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> can't be the same as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, it can't be the same as <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> if <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> is the same as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, so it can be any of the 5 other colors.
+</p>
+<pre>      A&#160;: 6
+ B:1        B:5
+ C:5     C:4   C:1
+</pre>
+<p>4.) <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is affected by <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. If they are the same, then <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the other 5 colors. If they are different, then <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the (6-2)=4 colors.
+</p>
+<pre>      A&#160;: 6
+ B:1        B:5
+ C:5     C:4   C:1
+ D:5     D:4   D:4
+</pre>
+<p>5.) <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> is affected by <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. If they are the same, then <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the other 5 colors. If they are different, then <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the (6-2)=4 colors.
+</p>
+<pre>      A&#160;: 6
+ B:1        B:5
+ C:5     C:4   C:1
+ D:5     D:4   D:4
+ E:4     E:4   E:5
+</pre>
+<p>6.) Now, we can multiply these three paths and add them:
+<img src="//latex.artofproblemsolving.com/4/0/e/40e86abce2b32ffe80d30bc2d2b7e0fdfbdb66d8.png" class="latex" alt="$(6\times1\times5\times5\times4)+(6\times5\times4\times4\times4)+(6\times5\times1\times4\times5) =600+1920+600=3120$" style="vertical-align: -4px" width="709" height="18" />
+</p><p>7.) Our answer is <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />!
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Right off the bat, we can analyze three things: 
+</p><p><br />
+1.) There can only be two of the same color on the pentagon.
+</p><p>2.) Any pair of the same color can only be next to each other on the pentagon.
+</p><p>3.) There can only be two different pairs of same colors on the pentagon at once.
+</p><p><br />
+Now that we know this, we can solve the problem by using three cases: no same color pairs,  one same color pair, and two same color pairs.
+</p><p><br />
+1.) If there are no color pairs, it is a simple permutation: six different colors in five different spots. We count <img src="//latex.artofproblemsolving.com/9/5/2/95246be1744710288c10397eb46a97bb6778e774.png" class="latex" alt="$6!=720$" width="65" height="13" /> cases. No rotation is necessary because all permutations are accounted for.
+</p><p><br />
+2.)If there is one color pair, we must count 6 possibilities for the pair(as one element), 5 for the third vertex, 4 for the fourth vertex, and 3 for the fifth vertex. 
+</p><p>We get <img src="//latex.artofproblemsolving.com/d/1/0/d10e2f124782d382c9c3ee7e98995d13c608c730.png" class="latex" alt="$6\times5\times4\times3=360$" style="vertical-align: 0px" width="154" height="13" />.
+</p><p>However, there are 5 different locations the pair could be at. Therefore we get <img src="//latex.artofproblemsolving.com/2/5/c/25c2eee887988a7970ff7afbe7929f765d0e9938.png" class="latex" alt="$360\times5=1800$" style="vertical-align: 0px" width="118" height="13" /> possibilities for one pair.
+</p><p><br />
+3.)If there are two color pairs, we must count 6 possibilities for the first pair(as one element), 5 possibilities for the next pair(as one element), and 4 possibilities for the final vertex.
+</p><p>We get <img src="//latex.artofproblemsolving.com/5/4/8/5482288291fba231a2bd89d7e87d95017aa5a475.png" class="latex" alt="$6\times5\times4=120$" style="vertical-align: 0px" width="122" height="13" />.
+</p><p>Once again, there are 5 different rotations in the pentagon that we must account for. Therefore we get <img src="//latex.artofproblemsolving.com/8/1/e/81e3ffa8b5cb6cdf8783415485e028da1f86bff9.png" class="latex" alt="$120\times5=600$" style="vertical-align: 0px" width="109" height="13" />  possibilities for two pairs. 
+</p><p><br />
+5.) If we add all of three cases together, we get <img src="//latex.artofproblemsolving.com/a/f/0/af03702f2bc6940a7a2080c715092ad9061fe5ee.png" class="latex" alt="$720+1800+600=3120$" style="vertical-align: -1px" width="195" height="14" />. The answer is <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+</p><p>Solution by gsaelite
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>This solution essentially explains other ways of thinking about the cases stated in Solution 2.
+</p><p>Case 1:
+</p><p><img src="//latex.artofproblemsolving.com/5/5/a/55a1c459b6add543fc29396595b0d8a2e60a4494.png" class="latex" alt="${6\choose5} \cdot 5!$" style="vertical-align: -23px" width="66" height="55" />
+</p><p>5 colors need to be chosen from the group of 6. Those 5 colors have 5! distinct arrangements on the pentagon's vertices.
+</p><p>Case 2:
+</p><p><img src="//latex.artofproblemsolving.com/f/7/c/f7c5611a9e58a55f60452791af84cd721e8f2be6.png" class="latex" alt="${6\choose4} \cdot4\cdot5\cdot3!$" style="vertical-align: -23px" width="111" height="55" />
+</p><p>4 colors need to be chosen from the group of 6. Out of those 4 colors, one needs to be chosen to form a pair of 2 identical colors. Then, for arranging this layout onto the pentagon, one of the five sides (same thing as pair of adjacent vertices) of the pentagon needs to be established for the pair. The remaining 3 unique colors can be arranged 3! different ways on the remaining 3 vertices.
+</p><p>Case 3:
+</p><p><img src="//latex.artofproblemsolving.com/b/5/9/b59a54980011bd8f31631e5e47bf4a187a1a927f.png" class="latex" alt="${6\choose3} \cdot {3\choose2} \cdot5\cdot2$" style="vertical-align: -23px" width="134" height="55" />
+</p><p>3 colors need to be chosen from the group of 6. Out of those 3 colors, 2 need to be chosen to be the pairs. Then, for arranging this layout onto the pentagon, start out by thinking about the 1 color that is not part of a pair, as it makes things easier. It can be any one of the 5 vertices of the pentagon. The remaining 2 pairs of colors can only be arranged 2 ways on the remaining 4 vertices.
+</p><p>Solving each case and adding them up gets you 3120. <img src="//latex.artofproblemsolving.com/3/f/5/3f58d2efaaa17d28cec9dd927d78708a63b43e24.png" class="latex" alt="$\boxed{C}$" style="vertical-align: -5px" width="26" height="24" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/FThly7dRBIE">https://youtu.be/FThly7dRBIE</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>We can order the vertices of pentagon <img src="//latex.artofproblemsolving.com/f/1/3/f13a96240c51d61ba3733d9f5c3020fa92ec4136.png" class="latex" alt="$ABCDE$" width="72" height="13" /> arbitrarily. This means that besides for the first and last vertices, the previous vertex and the next vertex of any vertex have diagonals (such as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />,<img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />,<img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />,<img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />,<img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> where <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> shares diagonals with <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> shares diagonals with <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, etc.). 
+</p><p>The first point can be one of <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> colors as we have no designated restraints on it. From there, the next three points can be five colors each since the only color restraint is that of the previous color (i.e. if the first point was blue, then the next point can be any of the other <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> colors, such as purple, and the point after that can be any color except purple, which is 5 colors). 
+</p><p>The last point is the trickiest because we need to consider the second to last vertex and the first vertex. The third vertex has a <img src="//latex.artofproblemsolving.com/d/1/2/d129a7b3c0bf9fbd0693afdd426a66d2a0a8c3ae.png" class="latex" alt="$\frac{1}{5}$" style="vertical-align: -12px" width="11" height="37" /> chance of being the same color as the first vertex, guaranteeing that the second to last vertex is a different color from the first vertex, leaving the last vertex with <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> possible colors. The remaining <img src="//latex.artofproblemsolving.com/4/f/d/4fd03d5b164ae8b40db27a6f8ddb20d9d43f95fd.png" class="latex" alt="$\frac{4}{5}$" style="vertical-align: -12px" width="11" height="37" /> times where the third to last vertex is a different color from the first vertex, there is a <img src="//latex.artofproblemsolving.com/4/f/d/4fd03d5b164ae8b40db27a6f8ddb20d9d43f95fd.png" class="latex" alt="$\frac{4}{5}$" style="vertical-align: -12px" width="11" height="37" /> chance that the second to last vertex is a different color from the first vertex and a <img src="//latex.artofproblemsolving.com/d/1/2/d129a7b3c0bf9fbd0693afdd426a66d2a0a8c3ae.png" class="latex" alt="$\frac{1}{5}$" style="vertical-align: -12px" width="11" height="37" /> chance that they are the same color, so there are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> possibilities for the last vertex respectively. 
+</p><p>Our answer is now
+<img src="//latex.artofproblemsolving.com/d/a/d/dad93d05e4688a4c6f1dbd93854b5304fa77486e.png" class="latex" alt="$6\times5^3\times(\frac{4}{5}\times(\frac{4}{5}\times4+\frac{1}{5}\times5)+\frac{1}{5}\times4)=3120$" style="vertical-align: -13px" width="374" height="38" />, which is <img src="//latex.artofproblemsolving.com/3/f/5/3f58d2efaaa17d28cec9dd927d78708a63b43e24.png" class="latex" alt="$\boxed{C}$" style="vertical-align: -5px" width="26" height="24" />.
+</p><p>~Randomlygenerated
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2011_AMC_12A" title="2011 AMC 12A">2011 AMC 12A</a></b> (<b><a href="/wiki/index.php/2011_AMC_12A_Problems" title="2011 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_12A_Answer_Key" title="2011 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_15" title="2011 AMC 12A Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_17" title="2011 AMC 12A Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_1" title="2011 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_2" title="2011 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_3" title="2011 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_4" title="2011 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_5" title="2011 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_6" title="2011 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_7" title="2011 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_8" title="2011 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_9" title="2011 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_10" title="2011 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_11" title="2011 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_12" title="2011 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_13" title="2011 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_14" title="2011 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_15" title="2011 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a class="mw-selflink selflink">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_17" title="2011 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_18" title="2011 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_19" title="2011 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_20" title="2011 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_21" title="2011 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_22" title="2011 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_23" title="2011 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_24" title="2011 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_25" title="2011 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208112702
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.102 seconds
+Real time usage: 0.105 seconds
+Preprocessor visited node count: 703/1000000
+Preprocessor generated node count: 1888/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10552/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.684      1 -total
+ 74.19%    6.443      1 Template:AMC12_box
+ 23.99%    2.083      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9032-0!canonical and timestamp 20230208112702 and revision id 164626
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_16&amp;oldid=164626">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_16&amp;oldid=164626</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209044626 -->
+</html>

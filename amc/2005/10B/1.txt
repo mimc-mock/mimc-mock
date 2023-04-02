@@ -1,0 +1,7 @@
+<p>A scout troop buys <img src="//latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" /> candy bars at a price of five for <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> dollars. They sell all the candy bars at the price of two for <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> dollar.  What was their profit, in dollars?
+</p><p><img src="//latex.artofproblemsolving.com/9/6/6/9663dcc42542fe8d7dd9da76f8bc11d50d26db4f.png" class="latex" alt="$\textbf{(A) }\ 100      \qquad \textbf{(B) }\ 200      \qquad \textbf{(C) }\ 300      \qquad \textbf{(D) }\ 400      \qquad \textbf{(E) }\ 500$" style="vertical-align: -5px" width="474" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p><img src="//latex.artofproblemsolving.com/b/0/9/b0946b6ed9a995c9c8d1f8152851a78ead9a9d44.png" class="latexcenter" alt="\begin{align*} \mbox{Expenses} &amp;= 1000 \cdot \frac25 = 400 \\ \mbox{Revenue}  &amp;= 1000 \cdot \frac12 = 500 \\ \mbox{Profit}   &amp;= \mbox{Revenue} - \mbox{Expenses} = 500-400 = \boxed{\textbf{(A) }100}. \end{align*}" width="443" height="114" />
+Note: Revenue is a gain.
+</p>

@@ -1,0 +1,242 @@
+<p>Positive integers <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> are such that the graphs of <img src="//latex.artofproblemsolving.com/0/d/b/0db50fb18d8162fa7ae542c19d4d0bb553bc6b12.png" class="latex" alt="$y=ax+5$" style="vertical-align: -3px" width="84" height="16" /> and <img src="//latex.artofproblemsolving.com/d/c/0/dc0f5b90e821897add7f6b6aa4aed4dec34f3404.png" class="latex" alt="$y=3x+b$" style="vertical-align: -3px" width="83" height="16" /> intersect the <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />-axis at the same point. What is the sum of all possible <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />-coordinates of these points of intersection?
+</p><p><img src="//latex.artofproblemsolving.com/c/a/b/cabf2c6ac3170c99dfb040eaf80a29846c9335b0.png" class="latex" alt="$\textbf{(A)}\ {-20}\qquad\textbf{(B)}\ {-18}\qquad\textbf{(C)}\ {-15}\qquad\textbf{(D)}\ {-12}\qquad\textbf{(E)}\ {-8}$" style="vertical-align: -4px" width="455" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Note that when <img src="//latex.artofproblemsolving.com/e/c/8/ec89f09c84538ec43930ca5d8e5e0957e2000822.png" class="latex" alt="$y=0$" style="vertical-align: -3px" width="42" height="16" />, the <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> values of the equations should be equal by the problem statement. We have that
+<img src="//latex.artofproblemsolving.com/9/b/5/9b5974079f962de0b0cdffd7cc3e068e6aa9753a.png" class="latexcenter" alt="\[0 = ax + 5 \implies x = -\dfrac{5}{a}\]" width="194" height="37" /> <img src="//latex.artofproblemsolving.com/0/5/d/05ddc94c34a7ca9558c5927b090cbe03dbd143a6.png" class="latexcenter" alt="\[0 = 3x+b \implies x= -\dfrac{b}{3}\]" width="192" height="37" />
+Which means that <img src="//latex.artofproblemsolving.com/9/a/8/9a816e2e78ddb95d2446fe65f792d4d65d844642.png" class="latexcenter" alt="\[-\dfrac{5}{a} = -\dfrac{b}{3} \implies ab = 15\]" width="186" height="37" />
+The only possible pairs <img src="//latex.artofproblemsolving.com/8/e/8/8e8da0aef2d19017da7471378386d61620f288f5.png" class="latex" alt="$(a,b)$" style="vertical-align: -4px" width="38" height="18" /> then are <img src="//latex.artofproblemsolving.com/e/1/5/e1537eb1bbd18d22a3c188acbfe04ae298bed0d5.png" class="latex" alt="$(a,b) = (1,15), (3,5), (5,3), (15, 1)$" style="vertical-align: -4px" width="266" height="18" />. These pairs give respective <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />-values of <img src="//latex.artofproblemsolving.com/5/1/4/5145f5141f8ec693122b501e7635d13e275e7884.png" class="latex" alt="$-5, -\dfrac{5}{3}, -1, -\dfrac{1}{3}$" style="vertical-align: -12px" width="123" height="37" /> which have a sum of <img src="//latex.artofproblemsolving.com/0/c/5/0c58e9556b419cfddcd94fb2d1fe47d84c45483f.png" class="latex" alt="$\boxed{\textbf{(E)} \: -8}$" style="vertical-align: -10px" width="74" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Going off of Solution 1, for the first equation, notice that the value of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> cannot be less than <img src="//latex.artofproblemsolving.com/a/5/2/a526e44e36254c196af103613bc724f312b6a209.png" class="latex" alt="$-5$" width="22" height="12" />. We also know for the first equation that the values of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> have to be <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> divided by something. Also, for the second equation, the values of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> can only be <img src="//latex.artofproblemsolving.com/8/3/b/83b80e6c45d8277f7b005f829f5b2aabbd7e227f.png" class="latex" alt="$-\frac13,-\frac23,-\frac33, \dots$" style="vertical-align: -12px" width="125" height="37" />. Therefore, we see that, the only values common between the two sequences are <img src="//latex.artofproblemsolving.com/4/3/9/4391f97d9abd0ba70eb87b9aa8e6083f2e77b746.png" class="latex" alt="$-1, -5, -\frac13,-\frac53$" style="vertical-align: -12px" width="123" height="37" />, and adding them up, we get for our answer, <img src="//latex.artofproblemsolving.com/0/c/5/0c58e9556b419cfddcd94fb2d1fe47d84c45483f.png" class="latex" alt="$\boxed{\textbf{(E)} \: -8}$" style="vertical-align: -10px" width="74" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_Richard_Rusczyk">Video Solution by Richard Rusczyk</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=-vZKwIazT08&amp;list=PLyhPcpM8aMvKEM8u4Q-7Gi0rU5WU4WOb1&amp;index=1">https://www.youtube.com/watch?v=-vZKwIazT08&amp;list=PLyhPcpM8aMvKEM8u4Q-7Gi0rU5WU4WOb1&amp;index=1</a> - AMBRIGGS
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2014_AMC_10A" title="2014 AMC 10A">2014 AMC 10A</a></b> (<b><a href="/wiki/index.php/2014_AMC_10A_Problems" title="2014 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_10A_Answer_Key" title="2014 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_20" title="2014 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_22" title="2014 AMC 10A Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_1" title="2014 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_2" title="2014 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_3" title="2014 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_4" title="2014 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_5" title="2014 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_6" title="2014 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_7" title="2014 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_8" title="2014 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_9" title="2014 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_10" title="2014 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_11" title="2014 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_12" title="2014 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_13" title="2014 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_14" title="2014 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_15" title="2014 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_16" title="2014 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_17" title="2014 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_18" title="2014 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_19" title="2014 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_20" title="2014 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_22" title="2014 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_23" title="2014 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_24" title="2014 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_25" title="2014 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230207233937
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.096 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 326/1000000
+Preprocessor generated node count: 1060/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4334/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   13.810      1 -total
+ 67.88%    9.374      1 Template:AMC10_box
+ 30.31%    4.186      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:12333-0!canonical and timestamp 20230207233937 and revision id 176394
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10A_Problems/Problem_21&amp;oldid=176394">https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10A_Problems/Problem_21&amp;oldid=176394</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Advanced_Algebra_Problems" title="Category:Advanced Algebra Problems">Advanced Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208223725 -->
+</html>

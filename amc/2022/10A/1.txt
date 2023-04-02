@@ -1,0 +1,270 @@
+<p>What is the value of <img src="//latex.artofproblemsolving.com/7/a/a/7aa51a6ff483afbbf9a1230d0817384db18841f3.png" class="latexcenter" alt="\[3+\frac{1}{3+\frac{1}{3+\frac13}}?\]" width="104" height="47" />
+<img src="//latex.artofproblemsolving.com/a/a/6/aa67e6e7f9dcb6cdaf3c9dc17d1147a437e7849e.png" class="latex" alt="$\textbf{(A)}\ \frac{31}{10}\qquad\textbf{(B)}\ \frac{49}{15}\qquad\textbf{(C)}\ \frac{33}{10}\qquad\textbf{(D)}\ \frac{109}{33}\qquad\textbf{(E)}\ \frac{15}{4}$" style="vertical-align: -13px" width="426" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>We have 
+<img src="//latex.artofproblemsolving.com/c/7/3/c73cb95f00a723d52e5a01029ad1b686f414e37f.png" class="latexcenter" alt="\begin{align*} 3+\frac{1}{3+\frac{1}{3+\frac13}} &amp;= 3+\frac{1}{3+\frac{1}{\left(\frac{10}{3}\right)}} \\ &amp;= 3+\frac{1}{3+\frac{3}{10}} \\ &amp;= 3+\frac{1}{\left(\frac{33}{10}\right)} \\ &amp;= 3+\frac{10}{33} \\ &amp;= \boxed{\textbf{(D)}\ \frac{109}{33}}. \end{align*}" width="219" height="249" />
+~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Continued fractions are expressed as 
+<img src="//latex.artofproblemsolving.com/2/d/5/2d50b9330c40e3649f2dc73de9af7b1dade3b1db.png" class="latexcenter" alt="\begin{align*} \dfrac{[q_0,q_1,q_2,\ldots,q_n]}{[q_1,q_2,\ldots,q_n]} \end{align*}" width="131" height="43" />
+where
+<img src="//latex.artofproblemsolving.com/8/f/6/8f6bc023431782d6b8aff8f4aaf7a5e01e5ec9a7.png" class="latexcenter" alt="\begin{align*} [q_0,q_1,q_2,\ldots,q_n]&amp;=q_0[q_1,q_2,\ldots,q_n]+[q_2,\ldots,q_n]\\ [3]&amp;=3\\ [3,3]&amp;=3(3)+1=10\\ [3,3,3]&amp;=3(10)+3=33\\ [3,3,3,3]&amp;=3(33)+10=109\\ \dfrac{[q_0,q_1,q_2,\ldots,q_n]}{[q_1,q_2,\ldots,q_n]}&amp;=\dfrac{[3,3,3,3]}{[3,3,3]}\\ &amp;=\boxed{\textbf{(D)}\ \frac{109}{33}} \end{align*}" width="382" height="223" />~lopkiloinm
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>It is well known that for continued fractions of form <img src="//latex.artofproblemsolving.com/d/e/1/de1086b4ddb4b9752a4abbc5bed8ffc465694946.png" class="latex" alt="$n+\frac{1}{n+\cdots}$" style="vertical-align: -15px" width="93" height="40" />, the denominator <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> and numerator <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> are solutions to the Diophantine equation <img src="//latex.artofproblemsolving.com/c/d/a/cda7c314c59617760b63a1156081a5eac7741ab4.png" class="latex" alt="$(n^2+4)\left(\frac{y}{2}\right)^2-\left(x-\frac{ny}{2}\right)^2=\pm{1}$" style="vertical-align: -13px" width="266" height="38" />. So for this problem, the denominator <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> and numerator <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> are solutions to the Diophantine equation <img src="//latex.artofproblemsolving.com/1/d/8/1d8f33423fe238b0a6e76739941a4db2eaf693a8.png" class="latex" alt="$13\left(\frac{y}{2}\right)^2-\left(x-\frac{3y}{2}\right)^2=\pm{1}$" style="vertical-align: -18px" width="224" height="48" />. That leaves two answers. Since the number of <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />'s in the continued fraction is odd, we further narrow it down to <img src="//latex.artofproblemsolving.com/b/3/e/b3e52847f58b87379f8b6d931e8faaef6eeaa27d.png" class="latex" alt="$13\left(\frac{y}{2}\right)^2-\left(x-\frac{3y}{2}\right)^2=-1$" style="vertical-align: -18px" width="224" height="48" />, which only leaves us with <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> answer and that is <img src="//latex.artofproblemsolving.com/a/b/f/abfba9b040cbf6e0c52fc0890aa9ada58e9432b7.png" class="latex" alt="$(x,y)=(109,33)$" style="vertical-align: -5px" width="136" height="20" /> which means <img src="//latex.artofproblemsolving.com/a/6/2/a6221955b719c643a9d886c03478fb020cca0470.png" class="latex" alt="$\boxed{\textbf{(D)}\ \frac{109}{33}}$" style="vertical-align: -19px" width="79" height="49" />.
+</p><p>~lopkiloinm
+</p>
+<h2><span id="Video_Solution_1_(Quick_and_Easy)"></span><span class="mw-headline" id="Video_Solution_1_.28Quick_and_Easy.29">Video Solution 1 (Quick and Easy)</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/iVvBTapX3Fs">https://youtu.be/iVvBTapX3Fs</a>
+</p><p>~Education, the Study of Everything
+</p>
+<h2><span class="mw-headline" id="Video_Solution_2">Video Solution 2</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/4zoXEjrBAgk">https://youtu.be/4zoXEjrBAgk</a>
+</p><p>~Charles3829
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2022_AMC_10A" title="2022 AMC 10A">2022 AMC 10A</a></b> (<b><a href="/wiki/index.php/2022_AMC_10A_Problems" title="2022 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2022_AMC_10A_Answer_Key" title="2022 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b>First Problem</b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_2" title="2022 AMC 10A Problems/Problem 2">Problem 2</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a class="mw-selflink selflink">1</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_2" title="2022 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_3" title="2022 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_4" title="2022 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_5" title="2022 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_6" title="2022 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_7" title="2022 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_8" title="2022 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_9" title="2022 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_10" title="2022 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_11" title="2022 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_12" title="2022 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_13" title="2022 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_14" title="2022 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_15" title="2022 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_16" title="2022 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_17" title="2022 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_18" title="2022 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_19" title="2022 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_20" title="2022 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_21" title="2022 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_22" title="2022 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_23" title="2022 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_24" title="2022 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_25" title="2022 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2022_AMC_12A" title="2022 AMC 12A">2022 AMC 12A</a></b> (<b><a href="/wiki/index.php/2022_AMC_12A_Problems" title="2022 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2022_AMC_12A_Answer_Key" title="2022 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b>First Problem</b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_2" class="mw-redirect" title="2022 AMC 12A Problems/Problem 2">Problem 2</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_1" class="mw-redirect" title="2022 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_2" class="mw-redirect" title="2022 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_3" title="2022 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2022 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_5" title="2022 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_6" class="mw-redirect" title="2022 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2022 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_8" title="2022 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_9" class="mw-redirect" title="2022 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2022 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_11" title="2022 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_12" title="2022 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_13" title="2022 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_14" title="2022 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_15" class="mw-redirect" title="2022 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_16" title="2022 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_17" title="2022 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2022 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_19" class="mw-redirect" title="2022 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_20" class="mw-redirect" title="2022 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_21" title="2022 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_22" title="2022 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_23" title="2022 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_24" class="mw-redirect" title="2022 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_25" title="2022 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230207203834
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.094 seconds
+Real time usage: 0.099 seconds
+Preprocessor visited node count: 340/1000000
+Preprocessor generated node count: 1458/1000000
+Post‐expand include size: 4271/2097152 bytes
+Template argument size: 427/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3900/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   21.036      1 -total
+ 28.75%    6.048      1 Template:AMC12_box
+ 28.05%    5.901      1 Template:AMC10_box
+  9.32%    1.960      1 Template:Duplicate
+  8.25%    1.735      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:23255-0!canonical and timestamp 20230207203834 and revision id 186508
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_10A_Problems/Problem_1&amp;oldid=186508">https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_10A_Problems/Problem_1&amp;oldid=186508</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208183616 -->
+</html>

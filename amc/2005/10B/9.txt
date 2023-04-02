@@ -1,0 +1,12 @@
+<p>One fair die has faces <img src="//latex.artofproblemsolving.com/3/e/d/3edba73de83c04ddb17557dbf5235fa6fafbf8d9.png" class="latex" alt="$1, 1, 2, 2, 3, 3$" style="vertical-align: -4px" width="97" height="17" /> and another has faces <img src="//latex.artofproblemsolving.com/5/4/7/5471e1cff7938524f987c64bffc8e405303939da.png" class="latex" alt="$4, 4, 5, 5, 6, 6.$" style="vertical-align: -4px" width="102" height="17" /> The dice are rolled and the numbers on the top faces are added. What is the probability that the sum will be odd?
+</p><p><img src="//latex.artofproblemsolving.com/b/d/7/bd7028b71e1a7f1a73afa1d30750d7d9ff2e1041.png" class="latex" alt="$\textbf{(A) } \frac{1}{3} \qquad \textbf{(B) } \frac{4}{9} \qquad \textbf{(C) } \frac{1}{2} \qquad \textbf{(D) } \frac{5}{9} \qquad \textbf{(E) } \frac{2}{3}$" style="vertical-align: -13px" width="375" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>In order to obtain an odd sum, exactly one out of the two dice must have an odd number. We can easily find the total probability using casework.
+</p><p><b>Case 1</b>: The first die is odd and the second die is even.
+</p><p>The probability of this happening is <img src="//latex.artofproblemsolving.com/7/0/8/708fe26ecce68bf2ea450750d9c01c31a79274a9.png" class="latex" alt="$\dfrac{4}{6}\times\dfrac{4}{6}=\dfrac{16}{36}=\dfrac{4}{9}$" style="vertical-align: -12px" width="130" height="37" />
+</p><p><b>Case 2</b>: The first die is even and the second die is odd.
+</p><p>The probability of this happening is <img src="//latex.artofproblemsolving.com/4/2/6/42668f582f25cdc202d85af2631cf08c0bda07b6.png" class="latex" alt="$\dfrac{2}{6}\times\dfrac{2}{6}=\dfrac{4}{36}=\dfrac{1}{9}$" style="vertical-align: -12px" width="130" height="37" />
+</p><p>Adding these two probabilities will give us our final answer. <img src="//latex.artofproblemsolving.com/b/9/d/b9d6ca94aedcd33edc5c7f409b228870fb0965e7.png" class="latex" alt="$\dfrac{4}{9}+\dfrac{1}{9}=\boxed{\textbf{(D) }\dfrac{5}{9}}$" style="vertical-align: -19px" width="135" height="49" />
+</p><p>If you run out of time, you can see it is obviously greater than <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> so it narrows guesses.
+</p>

@@ -1,0 +1,321 @@
+<p>The numbers <img src="//latex.artofproblemsolving.com/c/c/b/ccbe9b4cfdf048b430054f0891a7585fb88fd144.png" class="latex" alt="$1,2,\dots,9$" style="vertical-align: -3px" width="75" height="16" /> are randomly placed into the <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> squares of a <img src="//latex.artofproblemsolving.com/d/2/7/d278803d72fcc493afb1559174a483aa7f41d143.png" class="latex" alt="$3 \times 3$" width="40" height="12" /> grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?
+</p><p><img src="//latex.artofproblemsolving.com/8/2/b/82bbb11069d308393b9dc424e417bdf4194ab4de.png" class="latex" alt="$\textbf{(A) }\frac{1}{21}\qquad\textbf{(B) }\frac{1}{14}\qquad\textbf{(C) }\frac{5}{63}\qquad\textbf{(D) }\frac{2}{21}\qquad\textbf{(E) }\frac{1}{7}$" style="vertical-align: -13px" width="408" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Note that odd sums can only be formed by <img src="//latex.artofproblemsolving.com/9/6/7/96723970b7fbfe689e268da9845f1eafd005a985.png" class="latex" alt="$(e,e,o)$" style="vertical-align: -4px" width="54" height="18" /> or <img src="//latex.artofproblemsolving.com/4/3/7/4377cf069a07637c41c4e69ca0ebaa8cee6e030e.png" class="latex" alt="$(o,o,o),$" style="vertical-align: -4px" width="61" height="18" /> so we focus on placing the evens: we need to have each even be with another even in each row/column. It can be seen that there are <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> ways to do this. There  are then <img src="//latex.artofproblemsolving.com/2/9/3/2933f407c21ceb3f3ec8370f43cd5b939250ffca.png" class="latex" alt="$5!$" width="12" height="13" /> ways to permute the odd numbers, and <img src="//latex.artofproblemsolving.com/2/d/a/2da866442e69c040daf44260b4728d37e98de313.png" class="latex" alt="$4!$" style="vertical-align: 0px" width="12" height="13" /> ways to permute the even numbers, thus giving the answer as <img src="//latex.artofproblemsolving.com/e/d/b/edb375164027fcb655c0b862a2574aacd9dde633.png" class="latex" alt="$\frac{9 \cdot 5! \cdot 4!}{9!}=\boxed{\textbf{(B) }\frac{1}{14}}$" style="vertical-align: -19px" width="162" height="49" />.
+</p><p>~Petallstorm
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>By the <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/Pigeonhole_Principle">Pigeonhole Principle</a>, there must be at least one row with <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> or more odd numbers in it. Therefore, that row must contain <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> odd numbers in order to have an odd sum. The same thing can be done with the columns. Thus we simply have to choose one row and one column to be filled with odd numbers, so the number of valid odd/even configurations (without regard to which particular odd and even  numbers are placed where) is <img src="//latex.artofproblemsolving.com/a/0/8/a08f8b84240fbf97ba60819f475b53b1a2295b9e.png" class="latex" alt="$3 \cdot 3 = 9$" width="64" height="12" />. The denominator will be <img src="//latex.artofproblemsolving.com/d/f/9/df94159a38b8ea4e53482918a2c72743b9205822.png" class="latex" alt="$\binom{9}{4}$" style="vertical-align: -22px" width="33" height="53" />, the total number of ways we could choose which <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> of the <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> squares will contain an even number. Hence the answer is <img src="//latex.artofproblemsolving.com/b/0/2/b02fd305ab2b24c4b7780359c414686a3db9602a.png" class="latexcenter" alt="\[\frac{9}{\binom{9}{4}}=\boxed{\textbf{(B) }\frac{1}{14}}\]" width="118" height="50" />
+</p><p>- The Pigeonhole Principle isn't really necessary here: After noting from the first solution that any row that contains evens must contain two evens, the result follows that the four evens must form the corners of a rectangle.
+</p><p>~Petallstorm
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Note that there are 5 odds and 4 evens, and for three numbers to sum an odd number, either 1 or three must be odd. Hence, one column must be all odd and one row must be all odd. First, we choose a row, for which there are three choices and within the row P(5,3). There are 3! ways to order the remaining odds and 4! ways to order the evens. The total possible ways is 9!. <img src="//latex.artofproblemsolving.com/9/c/6/9c6f62a9163a07ddb4e1997bed373b98af34e77d.png" class="latex" alt="$\frac{3 \cdot P(5,3) \cdot 3! \cdot 4!}{9!}=\boxed{\textbf{(B) }\frac{1}{14}}$" style="vertical-align: -18px" width="228" height="48" />
+</p><p>~Petallstorm
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<p>Note that the odd sums are only formed by, <img src="//latex.artofproblemsolving.com/3/8/b/38bdc52687f4ff34b267521c441b2b192ccb70ab.png" class="latex" alt="$(O, O, O)$" style="vertical-align: -4px" width="72" height="18" /> or any permutation of <img src="//latex.artofproblemsolving.com/5/8/a/58ab0d3ff3c7eadf7cbd72b0f064d1d494b07e83.png" class="latex" alt="$(O, E, E)$" style="vertical-align: -4px" width="72" height="18" />. When looking at a 3x3 box, we realize that there must always be one column that is odd and one row that is odd. Calculating the probability of one permutation of this we get:
+</p>
+<table class="wikitable" style="margin:auto; color:black; background-color:#ffffff;">
+
+<tbody><tr style="vertical-align:middle;">
+<td style="height:100px; width:100px; text-align:center;">Odd - <img src="//latex.artofproblemsolving.com/e/7/c/e7cee4c1bc083c3979f7ac19ac9f8646a3d0a29e.png" class="latex" alt="$\frac{5}{9}$" style="vertical-align: -12px" width="11" height="37" /></td>
+<td>Odd - <img src="//latex.artofproblemsolving.com/6/2/0/620d70ac15c246f05b2b41d6ff647e0d412532a0.png" class="latex" alt="$\frac{4}{8}$" style="vertical-align: -12px" width="11" height="37" /></td>
+<td>Odd - <img src="//latex.artofproblemsolving.com/7/5/8/758a4c1c67be9c9db0c4a808c62384d660579448.png" class="latex" alt="$\frac{3}{7}$" style="vertical-align: -12px" width="11" height="37" />
+</td></tr>
+<tr style="vertical-align:middle;">
+<td style="height:100px; width:100px; text-align:center;">Odd - <img src="//latex.artofproblemsolving.com/8/9/4/894badd564b15babe2cbe70cfcabf7384c17b7c9.png" class="latex" alt="$\frac{2}{6}$" style="vertical-align: -12px" width="11" height="37" /></td>
+<td>Even</td>
+<td>Even
+</td></tr>
+<tr style="vertical-align:middle;">
+<td style="height:100px; width:100px; text-align:center;">Odd - <img src="//latex.artofproblemsolving.com/d/1/2/d129a7b3c0bf9fbd0693afdd426a66d2a0a8c3ae.png" class="latex" alt="$\frac{1}{5}$" style="vertical-align: -12px" width="11" height="37" /></td>
+<td>Even</td>
+<td>Even
+</td></tr></tbody></table>
+<p><img src="//latex.artofproblemsolving.com/4/7/1/4712704df5d3f5a2a9f5a2c78c34b395f3a1afda.png" class="latex" alt="$\frac{5!}{P(9,5)} = \frac{5 \cdot 4\cdot 3 \cdot 2 \cdot 1}{9 \cdot 8\cdot 7 \cdot 6 \cdot 5} = \frac{1}{126}$" style="vertical-align: -17px" width="238" height="42" />
+</p><p>Now, there are 9 ways you can get this particular permutation (3 choices for all odd row, 3 choices for all odd column), so multiplying the result by <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, we get:
+</p><p><img src="//latex.artofproblemsolving.com/3/5/5/355baedbb8e80e79e8d9d7c0aa45ce4c5210e9c8.png" class="latexcenter" alt="\[\frac{1}{126} \cdot 9 = \frac{9}{126} = \boxed{\textbf{(B) }\frac{1}{14}}\]" width="200" height="48" />
+~petallstorm
+</p>
+<h3><span class="mw-headline" id="Solution_5">Solution 5</span></h3>
+<p>To get an odd sum we need <img src="//latex.artofproblemsolving.com/d/8/a/d8a01cb14d32c42808455df61ae3d957fd48bd2d.png" class="latex" alt="$\text{odd} + \text{odd} + \text{odd}$" style="vertical-align: -1px" width="125" height="13" /> or we need <img src="//latex.artofproblemsolving.com/5/d/3/5d31d90c8d0d8e5aa716b28cef0182eb8db934b4.png" class="latex" alt="$\text{odd} + \text{even} + \text{even}$" style="vertical-align: -1px" width="136" height="13" />. Note that there are <img src="//latex.artofproblemsolving.com/2/2/f/22f925a6f7de3d6e06f740617bc11b55a1f97184.png" class="latex" alt="$9!$" width="12" height="13" /> ways to arrange the numbers. Also notice that there are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> even numbers and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> odd numbers from <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> through <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />. 
+</p><p>The number of ways to arrange the even numbers is <img src="//latex.artofproblemsolving.com/2/d/a/2da866442e69c040daf44260b4728d37e98de313.png" class="latex" alt="$4!$" style="vertical-align: 0px" width="12" height="13" /> and the number of ways to arrange the odd numbers is <img src="//latex.artofproblemsolving.com/2/9/3/2933f407c21ceb3f3ec8370f43cd5b939250ffca.png" class="latex" alt="$5!$" width="12" height="13" />. Now a common strategy is to deal with the category with fewer numbers so this suggests for us to look at even numbers and try something out. 
+</p><p>Since we have <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> even numbers we need to split two evens to one row and two evens to another row. Note that there are <img src="//latex.artofproblemsolving.com/e/2/c/e2cd70b9ec5f6b0cb30ebe8319296a5923cc22aa.png" class="latex" alt="$\tbinom{3}{2}$" style="vertical-align: -6px" width="20" height="22" /> ways to choose the rows, and the <img src="//latex.artofproblemsolving.com/e/2/c/e2cd70b9ec5f6b0cb30ebe8319296a5923cc22aa.png" class="latex" alt="$\tbinom{3}{2}$" style="vertical-align: -6px" width="20" height="22" /> to choose where the two even numbers go in that row. The odd numbers go wherever there is a spot left which means we don't need to care about them. So we totally have <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> ways to place the even numbers. 
+</p><p>Don't forget, we still need to arrange these even and odd numbers and like mentioned above there are <img src="//latex.artofproblemsolving.com/2/d/a/2da866442e69c040daf44260b4728d37e98de313.png" class="latex" alt="$4!$" style="vertical-align: 0px" width="12" height="13" /> and <img src="//latex.artofproblemsolving.com/2/9/3/2933f407c21ceb3f3ec8370f43cd5b939250ffca.png" class="latex" alt="$5!$" width="12" height="13" /> ways respectively.  
+</p><p>Therefore our answer is simply <img src="//latex.artofproblemsolving.com/c/e/1/ce149d270f1d3805ded0aed6a0cd55a8e370d17b.png" class="latexcenter" alt="\[\frac{5! \cdot 4! \cdot 9}{9!} = \frac{1}{7\cdot 2} = \boxed{\frac{1}{14}}.\]" width="186" height="48" />
+</p>
+<h3><span class="mw-headline" id="Solution_6">Solution 6</span></h3>
+<p>We need to know the number of successful outcomes/Total outcomes. We start by the total number of ways to place the odd numbers, which is <img src="//latex.artofproblemsolving.com/a/9/6/a96739375ddc40d7f65f1e25c74323c434e4a787.png" class="latex" alt="$\binom{9}{5}$" style="vertical-align: -22px" width="33" height="53" />, which is because there are <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> odd number between <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />. Note we need <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> odd number and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> even numbers OR <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> odd numbers in each row to satisfy our conditions. We have <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> types of arrangements for the number of successful outcomes, we could have all the even numbers on the corners, which is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> case, We could have the odd numbers arranged like a T, which has <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> cases (you could twist them around), and you have the even numbers in a <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> by <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> square, and you have <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> cases for that. We have <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> successful cases and <img src="//latex.artofproblemsolving.com/4/b/b/4bb4795bbf9125d08b3ddc9fbe238166da3bb450.png" class="latex" alt="$126$" style="vertical-align: 0px" width="26" height="13" /> total cases, so the probability is <img src="//latex.artofproblemsolving.com/9/4/d/94d5fc9a5e55978f5eb851b2ba428a948725c32d.png" class="latex" alt="$\frac{9}{126}$" style="vertical-align: -13px" width="29" height="38" /> = <img src="//latex.artofproblemsolving.com/f/5/d/f5dec82fb4c17faf6feb010540cd9f71d6a7fcd5.png" class="latex" alt="$\frac{1}{14}$" style="vertical-align: -13px" width="20" height="37" /> which is <img src="//latex.artofproblemsolving.com/2/b/3/2b3490874a342905d3507dc957dbc7bd63b0cd48.png" class="latex" alt="$\boxed{\textbf{(B) }\frac{1}{14}}$" style="vertical-align: -18px" width="68" height="48" />
+</p><p>~Arcticturn
+</p>
+<h3><span class="mw-headline" id="Solution_7">Solution 7</span></h3>
+<p>Since we only care about the parity of the sum of our rows and columns, lets take everything modulo <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. We can see that there will be <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> odd numbers, and <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> even numbers. Testing a few configurations, we realize that if we have one complete row and column of <img src="//latex.artofproblemsolving.com/d/f/2/df2107c3d9fc8e9ae2df824421343f241cf2d08f.png" class="latex" alt="$1 \text{s}$" style="vertical-align: 0px" width="15" height="12" />, the sum of all rows and columns will be odd. We find <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> distinct configurations: 
+<img src="//latex.artofproblemsolving.com/5/8/f/58ffcf7bd834923b884e2b2a27c9bf6726520d0a.png" class="latexcenter" alt="\[\begin{tabular}{ |c|c|c| }  \hline 1 &amp; 1 &amp; 1 \\  \hline 1 &amp; 0 &amp; 0 \\  \hline 1 &amp; 0 &amp; 0 \\  \hline \end{tabular} \ \ \ \ \begin{tabular}{ |c|c|c| }  \hline 1 &amp; 0 &amp; 0 \\  \hline 1 &amp; 1 &amp; 1 \\  \hline 1 &amp; 0 &amp; 0 \\  \hline \end{tabular} \ \ \ \ \begin{tabular}{ |c|c|c| }  \hline 0 &amp; 1 &amp; 0 \\  \hline 1 &amp; 1 &amp; 1 \\  \hline 0 &amp; 1 &amp; 0 \\  \hline \end{tabular}\]" width="299" height="63" />
+We can see that rotating the first configuration by <img src="//latex.artofproblemsolving.com/e/e/5/ee54f392f57cdf35f09d3b92cbabaec83a18ea9d.png" class="latex" alt="$90^{\circ}, 180^{\circ}, 270^{\circ},$" style="vertical-align: -4px" width="119" height="18" /> and <img src="//latex.artofproblemsolving.com/9/6/b/96bd59024f5cb49b070ca9b0f8906499940c75e7.png" class="latex" alt="$360^{\circ}$" width="33" height="13" />, will give us <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> cases for this configuration. Similarly, the second configuration has <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> cases by the same rotations. The third configuration only has <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> case because its rotational symmetry is <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" />. There are <img src="//latex.artofproblemsolving.com/2/3/6/236a1df4562de0979168214f9c093a54780b4d8a.png" class="latex" alt="$5! \cdot 4!$" style="vertical-align: 0px" width="40" height="13" /> ways to choose the odd and even numbers for all of the configurations, so our answer is <img src="//latex.artofproblemsolving.com/6/1/2/612c5ede9a8418c9065e6f7ddf319d2b6d207ba6.png" class="latex" alt="$\frac{(4+4+15!)(5!\cdot 4!}{9!}=\boxed{\textbf{(B) }\frac{1}{14}}$" style="vertical-align: -19px" width="247" height="49" />.
+</p><p><img src="//latex.artofproblemsolving.com/3/6/2/36267c5f4ee67ae71ac26988998233a17818f69b.png" class="latex" alt="$\textbf{Note:}$" style="vertical-align: 0px" width="45" height="12" /> We can also realize that there are <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> places for the row and column of <img src="//latex.artofproblemsolving.com/d/f/2/df2107c3d9fc8e9ae2df824421343f241cf2d08f.png" class="latex" alt="$1 \text{s}$" style="vertical-align: 0px" width="15" height="12" /> to overlap, resulting in <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> cases for all of the possible configurations.
+</p><p>~kn07
+</p>
+<h2><span class="mw-headline" id="Video_Solutions">Video Solutions</span></h2>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/IRyWOZQMTV8?t=2069">https://youtu.be/IRyWOZQMTV8?t=2069</a>
+</p><p>~ pi_is_3.14
+</p>
+<h3><span class="mw-headline" id="Video_Solution_1">Video Solution 1</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/meWXF5pPdlI">https://youtu.be/meWXF5pPdlI</a>
+</p><p>Education, the Study of Everything
+</p>
+<h3><span class="mw-headline" id="Video_Solution_2">Video Solution 2</span></h3>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=uJgS-q3-1JE">https://www.youtube.com/watch?v=uJgS-q3-1JE</a>
+</p>
+<h3><span class="mw-headline" id="Video_Solution_3">Video Solution 3</span></h3>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=3Sj7XPernCY">https://www.youtube.com/watch?v=3Sj7XPernCY</a>
+</p>
+<h3><span class="mw-headline" id="Video_Solution_4">Video Solution 4</span></h3>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=APKGHtj-2rI">https://www.youtube.com/watch?v=APKGHtj-2rI</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2019_AMC_10A" title="2019 AMC 10A">2019 AMC 10A</a></b> (<b><a href="/wiki/index.php/2019_AMC_10A_Problems" title="2019 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_10A_Answer_Key" title="2019 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_19" title="2019 AMC 10A Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_21" title="2019 AMC 10A Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_1" title="2019 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_2" title="2019 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_3" title="2019 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_4" title="2019 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_5" title="2019 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_6" title="2019 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_7" title="2019 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_8" title="2019 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_9" title="2019 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_10" title="2019 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_11" title="2019 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_12" title="2019 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_13" title="2019 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_14" title="2019 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_15" title="2019 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_16" title="2019 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_17" title="2019 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_18" title="2019 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_19" title="2019 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_21" title="2019 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_22" title="2019 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_23" title="2019 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_24" title="2019 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_10A_Problems/Problem_25" title="2019 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2019_AMC_12A" title="2019 AMC 12A">2019 AMC 12A</a></b> (<b><a href="/wiki/index.php/2019_AMC_12A_Problems" title="2019 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2019_AMC_12A_Answer_Key" title="2019 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_15" title="2019 AMC 12A Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_17" title="2019 AMC 12A Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_1" title="2019 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_2" title="2019 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2019 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2019 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_5" class="mw-redirect" title="2019 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_6" class="mw-redirect" title="2019 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2019 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2019 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_9" class="mw-redirect" title="2019 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2019 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_11" class="mw-redirect" title="2019 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_12" title="2019 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_13" title="2019 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_14" title="2019 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_15" title="2019 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2019 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_17" title="2019 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2019 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_19" title="2019 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_20" title="2019 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_21" title="2019 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_22" title="2019 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_23" title="2019 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_24" class="mw-redirect" title="2019 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2019_AMC_12A_Problems/Problem_25" title="2019 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402200656
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.161 seconds
+Real time usage: 0.172 seconds
+Preprocessor visited node count: 951/1000000
+Preprocessor generated node count: 2754/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14200/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   37.825      1 -total
+ 18.61%    7.039      1 Template:AMC10_box
+ 17.82%    6.740      1 Template:AMC12_box
+  6.21%    2.351      1 Template:Duplicate
+  5.13%    1.942      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:17226-0!canonical and timestamp 20230402200655 and revision id 189999
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10A_Problems/Problem_20&amp;oldid=189999">https://artofproblemsolving.com/wiki/index.php?title=2019_AMC_10A_Problems/Problem_20&amp;oldid=189999</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

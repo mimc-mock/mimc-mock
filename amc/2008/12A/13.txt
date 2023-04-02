@@ -1,0 +1,260 @@
+<p>Points <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> lie on a <a href="/wiki/index.php/Circle" title="Circle">circle</a> centered at <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" />, and <img src="//latex.artofproblemsolving.com/9/0/2/9023248d6c30dddbacd640f69f9347269d9f8763.png" class="latex" alt="$\angle AOB = 60^\circ$" width="104" height="13" />. A second circle is internally <a href="/wiki/index.php/Tangent" title="Tangent">tangent</a> to the first and tangent to both <img src="//latex.artofproblemsolving.com/3/7/c/37ca7a38f7eed488e5f646482c71b0cf56222e28.png" class="latex" alt="$\overline{OA}$" width="28" height="15" /> and <img src="//latex.artofproblemsolving.com/3/f/b/3fb5b6369d95e2d66ab4cd9acd69168b7a605c2a.png" class="latex" alt="$\overline{OB}$" width="29" height="15" />. What is the ratio of the area of the smaller circle to that of the larger circle?
+</p><p><img src="//latex.artofproblemsolving.com/f/7/1/f7104fe5f4583244636b77cee9c1a68e907d0991.png" class="latex" alt="$\mathrm{(A)}\ \frac{1}{16}\qquad\mathrm{(B)}\ \frac{1}{9}\qquad\mathrm{(C)}\ \frac{1}{8}\qquad\mathrm{(D)}\ \frac{1}{6}\qquad\mathrm{(E)}\ \frac{1}{4}$" style="vertical-align: -13px" width="370" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/5/a/2/5a2ab064db0b848b4eb7704a6b729afbca25398f.png" class="latexcenter" alt="[asy]size(200); defaultpen(fontsize(10)); pair O=(0,0), A=(3,0), B=(3/2,3/2*3^.5), C=(3^.5,1), D=(3^.5,0), F=(1.5*3^.5,1.5), G=(2*3^.5,2); picture p = new picture;  draw(p,Circle(O,0.2)); clip(p,O--C--A--cycle); add(p); draw(Circle(O,3)); dot(A); dot(B); dot(C); dot(O); draw(A--O--B); draw(O--C--D); draw(C--F); draw(D-(0.2,0)--D-(0.2,-0.2)--D-(0,-0.2)); draw(Circle(C,1)); label(&quot;\(30^{\circ}\)&quot;,(0.65,0.15),O); label(&quot;\(r\)&quot;,(C+D)/2,E); label(&quot;\(2r\)&quot;,(O+C)/2,NNE); label(&quot;\(O\)&quot;,O,SW); label(&quot;\(r\)&quot;,(C+F)/2,SE); label(&quot;\(R\)&quot;,(O+A)/2-(0,0.3),S); label(&quot;\(P\)&quot;,C,NW); label(&quot;\(A\)&quot;,(3,0), A); label(&quot;\(B\)&quot;,(3/2,3/2*3^.5), B); label(&quot;\(C\)&quot;,(1.5*3^.5,1.5), G); label(&quot;\(Q\)&quot;,D,SE);[/asy]" width="335" height="312" />
+Let <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> be the center of the small circle with radius <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" />, and let <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" /> be the point where the small circle is <a href="/wiki/index.php/Tangent" title="Tangent">tangent</a> to <img src="//latex.artofproblemsolving.com/b/7/a/b7a762ac8b4e23ffdd778ad6d5a8b97df8c7ce01.png" class="latex" alt="$OA$" width="28" height="13" />. Also, let <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be the point where the small circle is tangent to the big circle with radius <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />.
+</p><p>Then <img src="//latex.artofproblemsolving.com/8/d/3/8d3e207d8997e0622840471fe83b7a66949beab3.png" class="latex" alt="$PQO$" style="vertical-align: -3px" width="42" height="16" /> is a right triangle. Angle <img src="//latex.artofproblemsolving.com/0/a/f/0af8bd418bbfcc17ee85fd2d959d120c3df86222.png" class="latex" alt="$POQ$" style="vertical-align: -3px" width="42" height="16" /> is <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" /> degrees because line <img src="//latex.artofproblemsolving.com/2/5/d/25dcc9ecb8e7c6fb80766c186721353e6c3dc398.png" class="latex" alt="$OP$" width="28" height="12" /> bisects angle <img src="//latex.artofproblemsolving.com/c/d/9/cd97737c9a1eb5146725902d4e4c4bda1388129b.png" class="latex" alt="$AOB$" width="42" height="13" /> (this can be proved by dropping a perpendicular line from <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> to line <img src="//latex.artofproblemsolving.com/0/9/6/0964c9cf406ef8e5ec8beaa6a92125f2d8f90460.png" class="latex" alt="$OB$" width="28" height="12" />, letting their intersection be point <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />, and proving triangles <img src="//latex.artofproblemsolving.com/8/d/3/8d3e207d8997e0622840471fe83b7a66949beab3.png" class="latex" alt="$PQO$" style="vertical-align: -3px" width="42" height="16" /> and <img src="//latex.artofproblemsolving.com/e/0/6/e06df19f0a61385b245c77c6234b44fc9971366c.png" class="latex" alt="$PSO$" width="40" height="12" /> congruent), meaning that <img src="//latex.artofproblemsolving.com/8/d/3/8d3e207d8997e0622840471fe83b7a66949beab3.png" class="latex" alt="$PQO$" style="vertical-align: -3px" width="42" height="16" /> is a <img src="//latex.artofproblemsolving.com/4/7/c/47c78b85058ee5e17f88e2cde302e48aad826b35.png" class="latex" alt="$30-60-90$" width="98" height="12" /> triangle. Therefore, <img src="//latex.artofproblemsolving.com/8/4/2/8425c926c4a6715b6e223d6124b403a02338685b.png" class="latex" alt="$OP=2PQ$" style="vertical-align: -3px" width="89" height="16" />.
+</p><p>Since <img src="//latex.artofproblemsolving.com/7/e/5/7e5b6270a90f3261639b1778c53e570d4671f12b.png" class="latex" alt="$OP=OC-PC=OC-r=R-r$" width="284" height="12" />, we have <img src="//latex.artofproblemsolving.com/9/e/d/9ed6747e8456267ff1c365a7815e7d7c46c175b8.png" class="latex" alt="$R-r=2PQ$" style="vertical-align: -3px" width="106" height="16" />, or <img src="//latex.artofproblemsolving.com/6/4/1/641531b0f4524e4a31c24cf7947cb0d55ab8ed18.png" class="latex" alt="$R-r=2r$" width="86" height="12" />, or <img src="//latex.artofproblemsolving.com/f/1/2/f12e19989fab3309536ec7c2c898feae67d29018.png" class="latex" alt="$\frac{1}{3}=\frac{r}{R}$" style="vertical-align: -12px" width="53" height="37" />.
+</p><p>Ratio of areas of circles is ratio of radii squared, so the answer is <img src="//latex.artofproblemsolving.com/9/1/6/916fe32a0ba7f40bc2ada4ad513e28f97b0d8a26.png" class="latex" alt="$\left(\frac{1}{3}\right)^2 = \frac{1}{9} \Rightarrow \boxed{B}$" style="vertical-align: -17px" width="138" height="46" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Like in Solution 1, let <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> be the center of the small circle with radius <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" />, and let <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" /> be the point where the small circle is <a href="/wiki/index.php/Tangent" title="Tangent">tangent</a> to <img src="//latex.artofproblemsolving.com/b/7/a/b7a762ac8b4e23ffdd778ad6d5a8b97df8c7ce01.png" class="latex" alt="$OA$" width="28" height="13" />.
+</p><p>Let <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> be the tangency point of the two circles. As shown in Solution 1, <img src="//latex.artofproblemsolving.com/1/7/0/170ab4cacfd07103a1d82e5812150076d6b19817.png" class="latex" alt="$POQ = 30$" style="vertical-align: -3px" width="84" height="16" /> degrees, so angle <img src="//latex.artofproblemsolving.com/c/5/5/c5524cee19d26ee72e0087c009036c473fc7289b.png" class="latex" alt="$NOA$" width="44" height="13" /> is also <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" /> degrees. Let the line tangent to the two circles at <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> intersect <img src="//latex.artofproblemsolving.com/b/7/a/b7a762ac8b4e23ffdd778ad6d5a8b97df8c7ce01.png" class="latex" alt="$OA$" width="28" height="13" /> and <img src="//latex.artofproblemsolving.com/0/9/6/0964c9cf406ef8e5ec8beaa6a92125f2d8f90460.png" class="latex" alt="$OB$" width="28" height="12" /> at points <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" />, respectively. Since line <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" /> is tangent to circles <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> and <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />, it must be perpendicular to <img src="//latex.artofproblemsolving.com/a/f/b/afb3aa28627d70a5c4421063effb76bd2241a7e3.png" class="latex" alt="$ON$" width="31" height="12" />, meaning that angle <img src="//latex.artofproblemsolving.com/5/2/8/5283aee6a1a3b87ce49749cccd899750344cd3b2.png" class="latex" alt="$ONC$" width="45" height="12" /> must be <img src="//latex.artofproblemsolving.com/b/f/c/bfcfee7bd8a5e15e5f6b7881c138de43651572a9.png" class="latex" alt="$90$" width="17" height="12" /> degrees. Because angle <img src="//latex.artofproblemsolving.com/c/5/5/c5524cee19d26ee72e0087c009036c473fc7289b.png" class="latex" alt="$NOA$" width="44" height="13" /> is <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" /> degrees, angle <img src="//latex.artofproblemsolving.com/c/4/e/c4eacc5a2bcc93cccd0fe7ec82056be4f7494633.png" class="latex" alt="$DCO$" width="43" height="12" /> is <img src="//latex.artofproblemsolving.com/2/4/d/24d34a272eaf62e103cde57be21f0d0452fcfc2a.png" class="latex" alt="$180-30-90 = 60$" style="vertical-align: 0px" width="150" height="13" /> degrees. Angle <img src="//latex.artofproblemsolving.com/d/6/5/d6509e22d9e5fa1534c90758fa40092a7c338234.png" class="latex" alt="$DOC$" width="44" height="12" /> is also <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees, so triangle <img src="//latex.artofproblemsolving.com/d/6/5/d6509e22d9e5fa1534c90758fa40092a7c338234.png" class="latex" alt="$DOC$" width="44" height="12" /> is equilateral.
+</p><p>Note that an equilateral triangle's incenter is also its centroid. This means the center of the inscribed circle is also the centroid. From properties of median lengths, the radius of the large circle is 3 times the radius of the small circle. 
+</p><p>Then the ratio of areas will be <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" /> squared, or <img src="//latex.artofproblemsolving.com/6/6/d/66d0f64d1cc50d3016e180bd89ee099d9ba6ccba.png" class="latex" alt="$\frac{1}{9}\Rightarrow \boxed{\text{B}}$" style="vertical-align: -12px" width="65" height="37" />.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2008_AMC_12A" title="2008 AMC 12A">2008 AMC 12A</a></b> (<b><a href="/wiki/index.php/2008_AMC_12A_Problems" title="2008 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2008_AMC_12A_Answer_Key" title="2008 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_12" title="2008 AMC 12A Problems/Problem 12">Problem 12</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_14" title="2008 AMC 12A Problems/Problem 14">Problem 14</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_1" title="2008 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_2" title="2008 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_3" title="2008 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_4" title="2008 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_5" title="2008 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_6" title="2008 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_7" title="2008 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_8" title="2008 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_9" title="2008 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_10" title="2008 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_11" title="2008 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_12" title="2008 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a class="mw-selflink selflink">13</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_14" title="2008 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_15" title="2008 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_16" title="2008 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_17" title="2008 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_18" title="2008 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_19" title="2008 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_20" title="2008 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_21" title="2008 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_22" title="2008 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_23" title="2008 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_24" title="2008 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_12A_Problems/Problem_25" title="2008 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2008_AMC_10A" title="2008 AMC 10A">2008 AMC 10A</a></b> (<b><a href="/wiki/index.php/2008_AMC_10A_Problems" title="2008 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2008_AMC_10A_Answer_Key" title="2008 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_15" title="2008 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_17" title="2008 AMC 10A Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2008 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_2" title="2008 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_3" title="2008 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_4" class="mw-redirect" title="2008 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_5" class="mw-redirect" title="2008 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_6" title="2008 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_7" title="2008 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2008 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2008 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_10" title="2008 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2008 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_12" title="2008 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_13" class="mw-redirect" title="2008 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2008 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_15" title="2008 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2008 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_17" title="2008 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_18" title="2008 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_19" title="2008 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_20" title="2008 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_21" title="2008 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_22" title="2008 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_23" title="2008 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2008 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2008 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208205351
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.121 seconds
+Real time usage: 0.126 seconds
+Preprocessor visited node count: 723/1000000
+Preprocessor generated node count: 2306/1000000
+Post‐expand include size: 4336/2097152 bytes
+Template argument size: 416/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10232/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   33.860      1 -total
+ 20.37%    6.897      1 Template:AMC12_box
+ 20.04%    6.787      1 Template:AMC10_box
+  6.61%    2.239      1 Template:Duplicate
+  5.58%    1.890      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6462-0!canonical and timestamp 20230208205351 and revision id 155277
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_12A_Problems/Problem_13&amp;oldid=155277">https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_12A_Problems/Problem_13&amp;oldid=155277</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208205352 -->
+</html>

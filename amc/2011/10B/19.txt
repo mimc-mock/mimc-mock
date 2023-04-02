@@ -1,0 +1,272 @@
+<p>What is the product of all the roots of the equation <img src="//latex.artofproblemsolving.com/4/d/c/4dc3a78877196f453f6485a158c37ac0179def64.png" class="latexcenter" alt="\[\sqrt{5 | x | + 8} = \sqrt{x^2 - 16}.\]" width="178" height="32" />
+</p><p><img src="//latex.artofproblemsolving.com/e/1/9/e19cccf86811b14d8513e8400b2c232a4422dd61.png" class="latex" alt="$\textbf{(A)}\ -64 \qquad\textbf{(B)}\ -24 \qquad\textbf{(C)}\ -9 \qquad\textbf{(D)}\ 24 \qquad\textbf{(E)}\ 576$" style="vertical-align: -4px" width="460" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>First, square both sides, and isolate the absolute value.
+<img src="//latex.artofproblemsolving.com/3/8/3/3835e5635778d29a1fad8f92fc7677db1224049d.png" class="latexcenter" alt="\begin{align*} 5|x|+8&amp;=x^2-16\\ 5|x|&amp;=x^2-24\\ |x|&amp;=\frac{x^2-24}{5}. \\ \end{align*}" width="150" height="94" />
+Solve for the absolute value and factor.
+</p><p>Case 1: <img src="//latex.artofproblemsolving.com/a/a/c/aace6d1f15c06cf2cad68c195b6118221e4e62ee.png" class="latex" alt="$x=\frac{x^2-24}{5}$" style="vertical-align: -12px" width="95" height="39" />
+</p><p>Multiplying both sides by <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> gives us 
+<img src="//latex.artofproblemsolving.com/f/0/7/f07ba2b1a89474174e953230fe61b76604b0ab1d.png" class="latexcenter" alt="\[5x=x^2-24.\]" width="104" height="15" />
+Rearranging and factoring, we have
+<img src="//latex.artofproblemsolving.com/a/a/e/aae34ca63c74d3adf77eadf19cbca818e3c2e8e1.png" class="latexcenter" alt="\begin{align*} x^2-5x-24 &amp;=0, \\ (x-8)(x+3) &amp;= 0.\\ \end{align*}" width="147" height="44" />
+</p><p>Case 2: <img src="//latex.artofproblemsolving.com/f/f/4/ff48f1943f9d301aebff7d784946b6d04e971497.png" class="latex" alt="$x=\frac{-x^2+24}{5}$" style="vertical-align: -12px" width="109" height="39" />
+</p><p>As above, we multiply both sides by <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> to find
+<img src="//latex.artofproblemsolving.com/c/d/f/cdf5d4795926a3868b4cfa03f73979f12a8c054d.png" class="latexcenter" alt="\[5x=-x^2+24.\]" width="119" height="16" />
+Rearranging and factoring gives us
+<img src="//latex.artofproblemsolving.com/a/e/5/ae53145c144ea1577622e8025a8966fb22d3ef15.png" class="latexcenter" alt="\begin{align*} x^2+5x-24 &amp;=0, \\ (x+8)(x-3) &amp;= 0. \\ \end{align*}" width="147" height="44" />
+</p><p>Combining these cases, we have <img src="//latex.artofproblemsolving.com/7/c/7/7c7677be7d1140d1dd9fc89a546fba740716cf06.png" class="latex" alt="$x= -8, -3, 3, 8$" style="vertical-align: -3px" width="123" height="16" />. Because our first step of squaring is not reversible, however, we need to check for extraneous solutions. Plug each solution for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> back into the original equation to ensure it works. Whether the number is positive or negative does not matter since the absolute value or square will cancel it out anyways.
+Trying <img src="//latex.artofproblemsolving.com/e/4/9/e49364eecc035109fcdbe17b0e528a936b12831e.png" class="latex" alt="$|x|=|3|$" style="vertical-align: -4px" width="61" height="18" />, we have
+<img src="//latex.artofproblemsolving.com/6/0/b/60b6e6f88e4471ede7b280deed1ed3213ed2c5c2.png" class="latexcenter" alt="\begin{align*} \sqrt{5|3|+8}&amp;=\sqrt{3^2-16}, \\ \sqrt{15+8}&amp;=\sqrt{9-16}, \\ \sqrt{23} &amp;\not= \sqrt{-7}.\\ \end{align*}" width="176" height="89" />
+Therefore, <img src="//latex.artofproblemsolving.com/6/9/0/690ef55a607beaf2389d1ee102df817721bc2392.png" class="latex" alt="$x = 3$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/2/5/f/25f98a312772bd7cb40bab7259747832999e949d.png" class="latex" alt="$x= -3$" width="57" height="12" /> are extraneous.
+</p><p>Checking <img src="//latex.artofproblemsolving.com/1/e/2/1e2dcf402135eddee39705f714522892b457da97.png" class="latex" alt="$|x|=|8|$" style="vertical-align: -5px" width="66" height="20" />, we have
+<img src="//latex.artofproblemsolving.com/b/7/5/b756d892526539a12c5fbb899a0c598ba4f391ca.png" class="latexcenter" alt="\begin{align*} \sqrt{5|8|+8}&amp;=\sqrt{8^2-16}, \\ \sqrt{40+8}&amp;=\sqrt{64-16}, \\ \sqrt{48}&amp;=\sqrt{48}.\\ \end{align*}" width="178" height="87" />
+</p><p>The roots of our original equation are <img src="//latex.artofproblemsolving.com/9/2/2/922c4f40c55a550006c796efcd63a7828ecfd95f.png" class="latex" alt="$-8$" width="22" height="12" /> and <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> and product is <img src="//latex.artofproblemsolving.com/9/6/9/9699cfce7a10709a5500da062eb6384f1bf72551.png" class="latex" alt="$-8 \times 8 = \boxed{\textbf{(A)} -64}$" style="vertical-align: -10px" width="160" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Square both sides, to get <img src="//latex.artofproblemsolving.com/a/c/d/acde3b0fcf5d1c23c76a2a1359ce635324b0c27b.png" class="latex" alt="$5|x| + 8 = x^2-16$" style="vertical-align: -4px" width="142" height="19" />. Rearrange to get <img src="//latex.artofproblemsolving.com/9/0/7/90762872788a6ffd050a9f10046c1bf6c498bb73.png" class="latex" alt="$x^2 - 5|x| - 24 = 0$" style="vertical-align: -4px" width="143" height="19" />. Seeing that <img src="//latex.artofproblemsolving.com/0/5/f/05f747c1c69944fc048156ea1404184eda914419.png" class="latex" alt="$x^2 = |x|^2$" style="vertical-align: -4px" width="68" height="19" />, substitute to get <img src="//latex.artofproblemsolving.com/7/c/5/7c522c5bd93dc44994badcf6d5a759e394af3965.png" class="latex" alt="$|x|^2 - 5|x| - 24 = 0$" style="vertical-align: -4px" width="153" height="19" />. We see that this is a quadratic in <img src="//latex.artofproblemsolving.com/4/9/4/49428192d366caf373c0af3c3261687f12b4c883.png" class="latex" alt="$|x|$" style="vertical-align: -4px" width="18" height="18" />. Factoring, we get <img src="//latex.artofproblemsolving.com/a/d/7/ad7cb3e78dfc89c8ef4764c57a75ffc9777b94dd.png" class="latex" alt="$(|x|-8)(|x|+3) = 0$" style="vertical-align: -4px" width="164" height="18" />, so <img src="//latex.artofproblemsolving.com/d/e/e/deea4659aceca169fdb90cc1cf3b7f147b43c85f.png" class="latex" alt="$|x| = \{8,-3\}$" style="vertical-align: -4px" width="102" height="18" />. Since the radicand of the equation can't be negative, the sole solution is <img src="//latex.artofproblemsolving.com/9/d/9/9d96accd1eba599cf79f90bfd31371e7e5c6ae08.png" class="latex" alt="$|x| = 8$" style="vertical-align: -4px" width="53" height="18" />. Therefore, <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> can be <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> or <img src="//latex.artofproblemsolving.com/9/2/2/922c4f40c55a550006c796efcd63a7828ecfd95f.png" class="latex" alt="$-8$" width="22" height="12" />. The product is then <img src="//latex.artofproblemsolving.com/9/6/9/9699cfce7a10709a5500da062eb6384f1bf72551.png" class="latex" alt="$-8 \times 8 = \boxed{\textbf{(A)} -64}$" style="vertical-align: -10px" width="160" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>First we note that <img src="//latex.artofproblemsolving.com/0/c/a/0ca8a46ef6e620e24a7493da730b8f807e53b026.png" class="latex" alt="$x \in (-\infty,-4] \cup [4,\infty]$" style="vertical-align: -5px" width="176" height="20" />. This will help us later with finding extraneous solutions. 
+Next, we have two cases:
+<img src="//latex.artofproblemsolving.com/3/d/6/3d6afb8a6c618998f75bf9f582f306412d371bc3.png" class="latexcenter" alt="\[\text{IF } x\leq 4:\]" width="74" height="14" />
+<img src="//latex.artofproblemsolving.com/6/0/2/602f9f8cc425c49e35aa9296846f50bccc71de87.png" class="latexcenter" alt="\[\text{ } \sqrt{-5x+8} = \sqrt{x^2-16} \implies x^2+5x-24=0 \rightarrow x = -8,3\]" width="462" height="20" />.
+We note that <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> is not in the range of possible <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />'s and thus is not a solution.
+</p><p><img src="//latex.artofproblemsolving.com/d/8/2/d822a323fdbd0ca4bbcfde31f313013c85a1a3d4.png" class="latexcenter" alt="\[\text{IF } x\geq 4:\]" width="74" height="14" />
+<img src="//latex.artofproblemsolving.com/8/e/b/8ebd3bdae0e891dcd918f9112ac2ce644c7622d6.png" class="latexcenter" alt="\[\text{ } \sqrt{5x+8} = \sqrt{x^2-16} \implies x^2-5x-24=0 \rightarrow x = -3,8\]" width="448" height="20" />.
+We again not that <img src="//latex.artofproblemsolving.com/0/b/3/0b31b51deaa1a9e903d120a02141556c3e70e348.png" class="latex" alt="$-3$" width="22" height="12" /> is an extraneous solution.
+</p><p>Thus, we have the two solutions <img src="//latex.artofproblemsolving.com/9/2/2/922c4f40c55a550006c796efcd63a7828ecfd95f.png" class="latex" alt="$-8$" width="22" height="12" /> and <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />. Therefore product is <img src="//latex.artofproblemsolving.com/0/e/2/0e27bb61cf1a283dff786fe51d0592be68e23251.png" class="latex" alt="$-8 \cdot 8 = \boxed{\textbf{(A)} -64}$" style="vertical-align: -11px" width="153" height="30" />.
+</p><p>-ConfidentKoala4
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ubGzkmVyAwE">https://youtu.be/ubGzkmVyAwE</a>
+</p><p>~savannahsolver
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2011_AMC_10B" title="2011 AMC 10B">2011 AMC 10B</a></b> (<b><a href="/wiki/index.php/2011_AMC_10B_Problems" title="2011 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_10B_Answer_Key" title="2011 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_18" title="2011 AMC 10B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_20" title="2011 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_1" title="2011 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_2" title="2011 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_3" title="2011 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_4" title="2011 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_5" title="2011 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_6" title="2011 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_7" title="2011 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_8" title="2011 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_9" title="2011 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_10" title="2011 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_11" title="2011 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_12" title="2011 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_13" title="2011 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_14" title="2011 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_15" title="2011 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_16" title="2011 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_17" title="2011 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_18" title="2011 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_20" title="2011 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_21" title="2011 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_22" title="2011 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_23" title="2011 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_24" title="2011 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10B_Problems/Problem_25" title="2011 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208205602
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.090 seconds
+Real time usage: 0.094 seconds
+Preprocessor visited node count: 510/1000000
+Preprocessor generated node count: 1464/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8201/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.405      1 -total
+ 76.87%    7.230      1 Template:AMC10_box
+ 20.65%    1.942      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9368-0!canonical and timestamp 20230208205601 and revision id 174095
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_10B_Problems/Problem_19&amp;oldid=174095">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_10B_Problems/Problem_19&amp;oldid=174095</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208222907 -->
+</html>

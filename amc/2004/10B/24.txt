@@ -1,0 +1,243 @@
+<p>In triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> we have <img src="//latex.artofproblemsolving.com/d/a/b/dab757085426e6962c7d3068e5180cccf07a5cce.png" class="latex" alt="$AB=7$" width="61" height="13" />, <img src="//latex.artofproblemsolving.com/8/b/b/8bb2b95ffbb95380ba201d65798db632de5df06c.png" class="latex" alt="$AC=8$" width="60" height="13" />, <img src="//latex.artofproblemsolving.com/2/f/8/2f8bf6a33fda7064bc18de335471565522d1147a.png" class="latex" alt="$BC=9$" width="61" height="12" />. Point <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is on the circumscribed circle of the triangle so that <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" /> bisects angle <img src="//latex.artofproblemsolving.com/2/e/d/2edcdc0d73ef64ec441f60a3a8dccdbd10aa61a5.png" class="latex" alt="$BAC$" width="42" height="13" />. What is the value of <img src="//latex.artofproblemsolving.com/f/1/3/f13914bd02c078b5053fef61dac7924710adfeaa.png" class="latex" alt="$\frac{AD}{CD}$" style="vertical-align: -12px" width="32" height="38" />? 
+</p><p><img src="//latex.artofproblemsolving.com/9/6/d/96d1a6235d39ac0d8d886a3c94ec2d0072ca1671.png" class="latex" alt="$\text{(A) } \dfrac{9}{8} \qquad \text{(B) } \dfrac{5}{3} \qquad \text{(C) } 2 \qquad \text{(D) } \dfrac{17}{7} \qquad \text{(E) } \dfrac{5}{2}$" style="vertical-align: -12px" width="354" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Set <img src="//latex.artofproblemsolving.com/4/3/7/4373e7b4be983c0315e82e1fda1df66ed34dd7fb.png" class="latex" alt="$\overline{BD}$" width="30" height="15" />'s length as <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. <img src="//latex.artofproblemsolving.com/c/e/0/ce0bfc603f9a044e308b1a1fdadca917e81ad2dd.png" class="latex" alt="$\overline{CD}$" width="30" height="15" />'s length must also be <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> since <img src="//latex.artofproblemsolving.com/c/b/5/cb55dc9c50a80e1d9eb23fe53e45f464c0ac755e.png" class="latex" alt="$\angle BAD$" width="56" height="13" /> and <img src="//latex.artofproblemsolving.com/2/f/d/2fd7ff236155948285f42c13fc857fcae000db48.png" class="latex" alt="$\angle DAC$" width="56" height="13" /> intercept arcs of equal length (because <img src="//latex.artofproblemsolving.com/e/4/6/e46963b07416c71c267b3868eb5fdb474d0831e1.png" class="latex" alt="$\angle BAD=\angle DAC$" width="137" height="13" />). Using <a href="/wiki/index.php/Ptolemy%27s_Theorem" class="mw-redirect" title="Ptolemy&#39;s Theorem">Ptolemy's Theorem</a>, <img src="//latex.artofproblemsolving.com/9/f/3/9f35520c19bcf8ccdafc511d1e1c6525109df158.png" class="latex" alt="$7x+8x=9(AD)$" style="vertical-align: -4px" width="136" height="18" />. The ratio is <img src="//latex.artofproblemsolving.com/2/e/2/2e2762e5b811bbdfcd2a07699482be3f819375f4.png" class="latex" alt="$\frac{5}{3}\implies\boxed{\text{(B)}}$" style="vertical-align: -12px" width="99" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p><img src="//latex.artofproblemsolving.com/7/3/0/730d9e00b576f80d8652e97bc3bc2ad3f358297b.png" class="latexcenter" alt="[asy] import graph; import geometry; import markers;  unitsize(0.5 cm);  pair A, B, C, D, E, I;  A = (11/3,8*sqrt(5)/3); B = (0,0); C = (9,0); I = incenter(A,B,C); D = intersectionpoint(I--(I + 2*(I - A)), circumcircle(A,B,C)); E = extension(A,D,B,C);  draw(A--B--C--cycle); draw(circumcircle(A,B,C)); draw(D--A); draw(D--B); draw(D--C);  label(&quot;$A$&quot;, A, N); label(&quot;$B$&quot;, B, SW); label(&quot;$C$&quot;, C, SE); label(&quot;$D$&quot;, D, S); label(&quot;$E$&quot;, E, NE);  markangle(radius = 20,B, A, C, marker(markinterval(2,stickframe(1,2mm),true))); markangle(radius = 20,B, C, D, marker(markinterval(1,stickframe(1,2mm),true))); markangle(radius = 20,D, B, C, marker(markinterval(1,stickframe(1,2mm),true))); markangle(radius = 20,C, B, A, marker(markinterval(1,stickframe(2,2mm),true))); markangle(radius = 20,C, D, A, marker(markinterval(1,stickframe(2,2mm),true))); [/asy]" width="258" height="265" />
+Let <img src="//latex.artofproblemsolving.com/f/9/f/f9ff7910ff9bb4d482e483f14741c00abf7a77b9.png" class="latex" alt="$E = \overline{BC}\cap \overline{AD}$" style="vertical-align: 0px" width="117" height="16" />.  Observe that <img src="//latex.artofproblemsolving.com/7/0/e/70ebf72817179f0c12c7e5b38f63a76454854d4d.png" class="latex" alt="$\angle ABC \cong \angle ADC$" width="135" height="13" /> because they subtend the same arc, <img src="//latex.artofproblemsolving.com/2/3/0/2306bfe406dfba4d42929f39aba6bf0599564133.png" class="latex" alt="$\overarc{AC}$" style="vertical-align: 0px" width="23" height="20" />.  Furthermore, <img src="//latex.artofproblemsolving.com/8/3/e/83efd7088bb061693dfc752d838fc693acd77a18.png" class="latex" alt="$\angle BAE \cong \angle EAC$" width="134" height="13" /> because <img src="//latex.artofproblemsolving.com/5/e/8/5e8bc36793a7c64d05fff20d519f0f72d9256fab.png" class="latex" alt="$\overline{AE}$" width="28" height="15" /> is an angle bisector, so <img src="//latex.artofproblemsolving.com/f/c/9/fc91ff79979ee85dcb42a3048198ebf46f4da8b2.png" class="latex" alt="$\triangle ABE \sim \triangle ADC$" width="142" height="13" /> by <img src="//latex.artofproblemsolving.com/8/b/5/8b5759da7c7c379c3eec0c301b972aa1efa2044b.png" class="latex" alt="$\text{AA}$" style="vertical-align: 0px" width="24" height="12" /> similarity. Then <img src="//latex.artofproblemsolving.com/d/b/d/dbd34f4c3e97a762ca82effa2c84ea739a7c205f.png" class="latex" alt="$\dfrac{AD}{AB} = \dfrac{CD}{BE}$" style="vertical-align: -12px" width="89" height="38" />.  By the <a href="/wiki/index.php/Angle_Bisector_Theorem" class="mw-redirect" title="Angle Bisector Theorem">Angle Bisector Theorem</a>, <img src="//latex.artofproblemsolving.com/d/1/0/d10ce1a9a3ba3815e4822e83b18ae658260c393b.png" class="latex" alt="$\dfrac{7}{BE} = \dfrac{8}{CE}$" style="vertical-align: -12px" width="88" height="37" />, so <img src="//latex.artofproblemsolving.com/9/d/7/9d7c3bb3e26d61bfcee055118fb6993ca8a14f25.png" class="latex" alt="$\dfrac{7}{BE} = \dfrac{8}{9-BE}$" style="vertical-align: -12px" width="120" height="37" />. This in turn gives <img src="//latex.artofproblemsolving.com/3/b/a/3baec31fb73a33fb6e23e05780006687d3fddc9c.png" class="latex" alt="$BE = \frac{21}{5}$" style="vertical-align: -12px" width="74" height="37" />.  Plugging this into the similarity proportion gives:  <img src="//latex.artofproblemsolving.com/e/8/2/e821cbe1b3001f89b92f3435939a97988797f337.png" class="latex" alt="$\dfrac{AD}{7} = \dfrac{CD}{\tfrac{21}{5}} \implies \dfrac{AD}{CD} = {\dfrac{5}{3}} = \boxed{\text{(B)}}$" style="vertical-align: -19px" width="272" height="44" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>We know that <img src="//latex.artofproblemsolving.com/c/f/b/cfbb4c52e011ceed6e813118a7d59e931af444a2.png" class="latex" alt="$\overline{AD}$" width="29" height="15" /> bisects <img src="//latex.artofproblemsolving.com/5/8/6/5862947b38a495ec9be80e5b9c7582de6cf0d269.png" class="latex" alt="$\angle BAC$" width="55" height="13" />, so <img src="//latex.artofproblemsolving.com/d/6/a/d6a079d215c7da2b80db30ac3feb4818f852ccf5.png" class="latex" alt="$\angle BAD = \angle CAD$" width="136" height="13" />. Additionally, <img src="//latex.artofproblemsolving.com/c/b/5/cb55dc9c50a80e1d9eb23fe53e45f464c0ac755e.png" class="latex" alt="$\angle BAD$" width="56" height="13" /> and <img src="//latex.artofproblemsolving.com/2/3/3/23386faeefe37629243fa264877b288499db5048.png" class="latex" alt="$\angle BCD$" width="57" height="12" /> subtend the same arc, giving <img src="//latex.artofproblemsolving.com/e/e/4/ee41f88d48541637453e7b0cea6165448c4ae446.png" class="latex" alt="$\angle BAD = \angle BCD$" width="138" height="13" />. Similarly, <img src="//latex.artofproblemsolving.com/a/a/7/aa7ad70f166d885d567fbd9ad612f4c695d0977c.png" class="latex" alt="$\angle CAD = \angle CBD$" width="137" height="13" /> and <img src="//latex.artofproblemsolving.com/2/d/9/2d967428f68a906f556b0e1f75fc146b0efa6d1a.png" class="latex" alt="$\angle ABC = \angle ADC$" width="135" height="13" />.
+</p><p>These angle relationships tell us that <img src="//latex.artofproblemsolving.com/b/4/5/b45e37045fbef0c4fe66b570e46c4167dbcc75e4.png" class="latex" alt="$\triangle ABE\sim \triangle ADC$" style="vertical-align: -4px" width="145" height="18" /> by AA Similarity, so <img src="//latex.artofproblemsolving.com/f/3/0/f308f46f7c980bd84d934f3f5f1249f395ddfc66.png" class="latex" alt="$AD/CD = AB/BE$" style="vertical-align: -4px" width="158" height="18" />. By the angle bisector theorem, <img src="//latex.artofproblemsolving.com/e/4/b/e4b3002aa437f1b19f8a41a3c5870b08fba9bcad.png" class="latex" alt="$AB/BE = AC/CE$" style="vertical-align: -4px" width="155" height="18" />. Hence,
+<img src="//latex.artofproblemsolving.com/f/4/9/f49d4b2ccadd13448110ea6c04525284d1b6a8fa.png" class="latexcenter" alt="\[\frac{AB}{BE} = \frac{AC}{CE} = \frac{AB + AC}{BE + CE} = \frac{AB + AC}{BC} = \frac{7 + 8}{9} = \frac{15}{9} = \boxed{\text{(B)} \frac{5}{3}}.\]" width="495" height="48" />
+</p><p>--vaporwave
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2004_AMC_10B" title="2004 AMC 10B">2004 AMC 10B</a></b> (<b><a href="/wiki/index.php/2004_AMC_10B_Problems" title="2004 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_10B_Answer_Key" title="2004 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_23" title="2004 AMC 10B Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_25" title="2004 AMC 10B Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_1" title="2004 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_2" title="2004 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_3" title="2004 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_4" title="2004 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2004 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_6" title="2004 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_7" class="mw-redirect" title="2004 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2004 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_9" class="mw-redirect" title="2004 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2004 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_11" title="2004 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_12" class="mw-redirect" title="2004 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_13" title="2004 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_14" title="2004 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_15" title="2004 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_16" title="2004 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_18" title="2004 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2004 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_20" title="2004 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_21" title="2004 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_22" title="2004 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_23" title="2004 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_25" title="2004 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209021249
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.091 seconds
+Real time usage: 0.095 seconds
+Preprocessor visited node count: 488/1000000
+Preprocessor generated node count: 1420/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8453/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.718      1 -total
+ 76.85%    5.931      1 Template:AMC10_box
+ 20.74%    1.601      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:8458-0!canonical and timestamp 20230209021249 and revision id 173533
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10B_Problems/Problem_24&amp;oldid=173533">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10B_Problems/Problem_24&amp;oldid=173533</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209021249 -->
+</html>

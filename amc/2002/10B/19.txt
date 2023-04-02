@@ -1,0 +1,282 @@
+<p>Suppose that <img src="//latex.artofproblemsolving.com/c/a/d/cad681354a2a529a1828a56b2b5629faec3cd128.png" class="latex" alt="$\{a_n\}$" style="vertical-align: -4px" width="35" height="18" /> is an arithmetic sequence with
+<img src="//latex.artofproblemsolving.com/e/8/6/e868a80b5058466bd743a2b7b66cb8c2f25c7447.png" class="latexcenter" alt="\[a_1+a_2+\cdots+a_{100}=100 \text{ and } a_{101}+a_{102}+\cdots+a_{200}=200.\]" width="474" height="15" />
+What is the value of <img src="//latex.artofproblemsolving.com/4/4/7/4471ab1dcdf239493f98c420d1332770a8c5379d.png" class="latex" alt="$a_2 - a_1&#160;?$" style="vertical-align: -2px" width="64" height="15" />
+</p><p><img src="//latex.artofproblemsolving.com/d/b/0/db00a18277aeddbada3a073ecea33f0b18d589b4.png" class="latex" alt="$\mathrm{(A) \ } 0.0001\qquad \mathrm{(B) \ } 0.001\qquad \mathrm{(C) \ } 0.01\qquad \mathrm{(D) \ } 0.1\qquad \mathrm{(E) \ } 1$" style="vertical-align: -4px" width="452" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>We should realize that the two equations are 100 terms apart, so by subtracting the two equations in a form like...
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/4/9/b/49b1ec02bb866acc3c0e21a35a5c0c450d2bf287.png" class="latex" alt="$(a_{101} - a_1) + (a_{102} - a_2) +... + (a_{200} - a_{100}) = 200-100 = 100$" style="vertical-align: -4px" width="498" height="18" />
+</p><p><br />
+</p><p>...we get the value of the common difference of every hundred terms one hundred times. So we have to divide the answer by one hundred to get ... 
+</p><p><img src="//latex.artofproblemsolving.com/6/e/f/6ef5ce271a74140d35e68a8376d500398e7e5e44.png" class="latex" alt="$\frac{100}{100} = 1$" style="vertical-align: -13px" width="63" height="38" />
+</p><p>...the common difference of every hundred terms. Then we have to simply divide the answer by hundred again to find the common difference between one term, therefore...
+</p><p><img src="//latex.artofproblemsolving.com/6/5/a/65a0431374c411530339b8b434fe51798537173e.png" class="latex" alt="$\frac{1}{100} =\boxed{(\text{C})0.01}$" style="vertical-align: -13px" width="125" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Adding the two given equations together gives 
+</p><p><img src="//latex.artofproblemsolving.com/7/a/5/7a5fbb0770eb72eb03c34bd1b3d1b1419e452145.png" class="latex" alt="$a_1+a_2+...+a_{200}=300$" style="vertical-align: -2px" width="197" height="15" />.
+</p><p>Now, let the common difference be <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />. Notice that <img src="//latex.artofproblemsolving.com/7/2/2/722e578acb9416ec8800a0c8e8d250a59e739149.png" class="latex" alt="$a_2-a_1=d$" style="vertical-align: -2px" width="90" height="15" />, so we merely need to find <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> to get the answer. The formula for an arithmetic sum is 
+</p><p><img src="//latex.artofproblemsolving.com/9/a/9/9a944e4389fe6ca6269bd4b36ca2da8a4c1c9d7b.png" class="latex" alt="$\frac{n}{2}(2a_1+d(n-1))$" style="vertical-align: -12px" width="141" height="33" />,
+</p><p>where <img src="//latex.artofproblemsolving.com/1/a/b/1ab39d761413804680d26d972381f028001562f5.png" class="latex" alt="$a_1$" style="vertical-align: -2px" width="15" height="10" /> is the first term, <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is the number of terms, and <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> is the common difference. Now we use this formula to find a closed form for the first given equation and the sum of the given equations. For the first equation, we have <img src="//latex.artofproblemsolving.com/8/a/3/8a3a84af200a7370473abe7c5c58f6784a64a222.png" class="latex" alt="$n=100$" style="vertical-align: 0px" width="61" height="13" />. Therefore, we have 
+</p><p><img src="//latex.artofproblemsolving.com/4/7/2/472101f4a307ebf60201046c14561bc172955c46.png" class="latex" alt="$50(2a_1+99d)=100$" style="vertical-align: -4px" width="159" height="18" />,
+</p><p>or 
+</p><p><img src="//latex.artofproblemsolving.com/d/f/3/df33ae85b0c4e5ef3aca9d7d8f3a515ac212d960.png" class="latex" alt="$2a_1+99d=2$" style="vertical-align: -2px" width="109" height="15" />.          *<b>(1)</b>
+</p><p>For the sum of the equations (shown at the beginning of the solution) we have <img src="//latex.artofproblemsolving.com/0/9/c/09c6fafd49ef2da76f81efd0029f1e6ff5a6afb3.png" class="latex" alt="$n=200$" width="61" height="12" />, so
+</p><p><img src="//latex.artofproblemsolving.com/1/4/2/142fc2eb386241a04d1553335641854177212b61.png" class="latex" alt="$100(2a_1+199d)=300$" style="vertical-align: -4px" width="177" height="18" />
+</p><p>or 
+</p><p><img src="//latex.artofproblemsolving.com/c/2/3/c23898822fd126e35b4a3be90ecd3fb7d8c6f33d.png" class="latex" alt="$2a_1+199d=3$" style="vertical-align: -2px" width="118" height="15" />          *<b>(2)</b>
+</p><p>Now we have a system of equations in terms of <img src="//latex.artofproblemsolving.com/1/a/b/1ab39d761413804680d26d972381f028001562f5.png" class="latex" alt="$a_1$" style="vertical-align: -2px" width="15" height="10" /> and <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />.
+Subtracting <b>(1)</b> from <b>(2)</b> eliminates <img src="//latex.artofproblemsolving.com/1/a/b/1ab39d761413804680d26d972381f028001562f5.png" class="latex" alt="$a_1$" style="vertical-align: -2px" width="15" height="10" />, yielding <img src="//latex.artofproblemsolving.com/e/0/4/e04c9a1b8c90b65cf4f47d588d60916ae57f9fab.png" class="latex" alt="$100d=1$" style="vertical-align: 0px" width="69" height="13" />, and <img src="//latex.artofproblemsolving.com/1/e/0/1e0885c0841d87e5b7837c4383c1f6121fcbe0ce.png" class="latex" alt="$d=a_2-a_1=\frac{1}{100}=\boxed{(\text{C}) .01}$" style="vertical-align: -13px" width="231" height="37" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Subtracting the 2 given equations yields
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/d/c/3/dc3cb44b97258e8a0c380559a29e003fa782cc21.png" class="latex" alt="$(a_{101}-a_1)+(a_{102}-a_2)+(a_{103}-a_3)+...+(a_{200}-a_{100})=100$" style="vertical-align: -4px" width="503" height="18" />
+</p><p><br />
+Now express each <img src="//latex.artofproblemsolving.com/6/f/1/6f1a2b6b7c193f9ba2b2134a59f1da5addcfbc98.png" class="latex" alt="$a_n$" style="vertical-align: -2px" width="17" height="10" /> in terms of first term <img src="//latex.artofproblemsolving.com/1/a/b/1ab39d761413804680d26d972381f028001562f5.png" class="latex" alt="$a_1$" style="vertical-align: -2px" width="15" height="10" /> and common difference <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> between consecutive terms
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/4/0/6/406db64e2935b1d32c99131c7aedca646f262683.png" class="latex" alt="$((a_1+100x)-(a_1))+((a_1+101x)-(a_1+x))+((a_1+102x)-(a_1+2x))+...+((a_1+199x)-(a_1+99x))=100$" style="vertical-align: -4px" width="914" height="18" />
+</p><p><br />
+Simplifying and canceling <img src="//latex.artofproblemsolving.com/1/a/b/1ab39d761413804680d26d972381f028001562f5.png" class="latex" alt="$a_1$" style="vertical-align: -2px" width="15" height="10" /> and <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> terms gives
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/6/5/6/656b673a6ff2950f7f91bbb553966b1fa54a94af.png" class="latex" alt="$100x+100x+100x+...+100x=100$" style="vertical-align: -1px" width="305" height="14" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/7/2/b/72ba9664409a389d28a8ca77b66375f2bd9b1fc9.png" class="latex" alt="$100x\times100=100$" style="vertical-align: 0px" width="138" height="13" /> 
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/4/d/7/4d7a23ce820ea2e52703c61e285bf6405c9b4cb8.png" class="latex" alt="$100x=1$" style="vertical-align: 0px" width="70" height="13" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/3/b/1/3b18f9584ce06a9c5cd9cae5a9e8a32ef1a0dac7.png" class="latex" alt="$x=0.01=\boxed{(\text{C})0.01}$" style="vertical-align: -10px" width="161" height="29" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/tKsYSBdeVuw?t=4410">https://youtu.be/tKsYSBdeVuw?t=4410</a>
+</p><p>~ pi_is_3.14
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2002_AMC_10B" title="2002 AMC 10B">2002 AMC 10B</a></b> (<b><a href="/wiki/index.php/2002_AMC_10B_Problems" title="2002 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_10B_Answer_Key" title="2002 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_18" class="mw-redirect" title="2002 AMC 10B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_20" title="2002 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_1" title="2002 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_2" title="2002 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_3" class="mw-redirect" title="2002 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_4" class="mw-redirect" title="2002 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_5" title="2002 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_6" class="mw-redirect" title="2002 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_7" class="mw-redirect" title="2002 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2002 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_9" title="2002 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2002 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_11" class="mw-redirect" title="2002 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_12" title="2002 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_13" title="2002 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_14" title="2002 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2002 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_16" class="mw-redirect" title="2002 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_17" title="2002 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_18" class="mw-redirect" title="2002 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_20" title="2002 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_21" class="mw-redirect" title="2002 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_22" class="mw-redirect" title="2002 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_23" title="2002 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_24" title="2002 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_25" title="2002 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208234218
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.092 seconds
+Real time usage: 0.096 seconds
+Preprocessor visited node count: 438/1000000
+Preprocessor generated node count: 1304/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6844/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.362      1 -total
+ 77.02%    6.440      1 Template:AMC10_box
+ 20.70%    1.731      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9549-0!canonical and timestamp 20230208234218 and revision id 184836
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_10B_Problems/Problem_19&amp;oldid=184836">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_10B_Problems/Problem_19&amp;oldid=184836</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208234218 -->
+</html>

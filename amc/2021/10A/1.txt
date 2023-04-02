@@ -1,0 +1,12 @@
+<p>What is the value of <img src="//latex.artofproblemsolving.com/f/b/f/fbf9a3889b146c23eb653b9dc16255c03a229dfe.png" class="latexcenter" alt="\[(2^2-2)-(3^2-3)+(4^2-4)\]" width="227" height="19" />
+</p><p><img src="//latex.artofproblemsolving.com/a/8/6/a86e0b96079027773c7dee723b79555088c786fd.png" class="latex" alt="$\textbf{(A) } 1 \qquad\textbf{(B) } 2 \qquad\textbf{(C) } 5 \qquad\textbf{(D) } 8 \qquad\textbf{(E) } 12$" style="vertical-align: -4px" width="362" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/b/0/4/b04b50e8c3d0734568e23e98cec20a9e1d18741f.png" class="latex" alt="$(4-2)-(9-3)+(16-4)=2-6+12=8.$" style="vertical-align: -4px" width="359" height="18" /> This corresponds to <img src="//latex.artofproblemsolving.com/8/4/1/841738515d2b311ea2079b59dc16a3eb488b9504.png" class="latex" alt="$\boxed{\textbf{(D) } 8}.$" style="vertical-align: -11px" width="63" height="30" />
+</p><p>-happykeeper
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We have
+<img src="//latex.artofproblemsolving.com/3/7/a/37a7d027f3fe36322428a37a7ff08ce1ce5f0736.png" class="latexcenter" alt="\begin{align*} \left(2^2-2\right)-\left(3^2-3\right)+\left(4^2-4\right) &amp;= 2(2-1)-3(3-1)+4(4-1) \\ &amp;= 2(1)-3(2)+4(3) \\ &amp;= 2-6+12 \\ &amp;= \boxed{\textbf{(D) } 8}. \end{align*}" width="492" height="107" />
+~MRENTHUSIASM
+</p>

@@ -1,0 +1,252 @@
+<p>A power boat and a raft both left dock <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> on a river and headed downstream. The raft drifted at the speed of the river current. The power boat maintained a constant speed with respect to the river. The power boat reached dock <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> downriver, then immediately turned and traveled back upriver. It eventually met the raft on the river 9 hours after leaving dock <img src="//latex.artofproblemsolving.com/8/2/0/8207b79435a4bd499da7598fb44424c8a8499238.png" class="latex" alt="$A.$" width="17" height="13" /> How many hours did it take the power boat to go from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/c/a/8/ca8dc4ecac26eb79b07199314b5c0a2a33cb477d.png" class="latex" alt="$\textbf{(A)}\ 3 \qquad \textbf{(B)}\ 3.5 \qquad \textbf{(C)}\  4 \qquad \textbf{(D)}\ 4.5 \qquad \textbf{(E)}\ 5$" style="vertical-align: -4px" width="377" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>WLOG let the speed of the river be 0. This is allowed because the problem never states that the speed of the current has to have a magnitude greater than 0. In this case, when the powerboat travels from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, the raft remains at <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Thus the trip from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> takes the same time as the trip from <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> to the raft. Since these times are equal and sum to <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> hours, the trip from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> must take half this time, or <img src="//latex.artofproblemsolving.com/0/f/b/0fbe18900c777778ad24c84cb3d99df7032b4fd3.png" class="latex" alt="$4.5$" style="vertical-align: 0px" width="22" height="13" /> hours. The answer is thus <img src="//latex.artofproblemsolving.com/3/7/c/37cfb0d12967a18f3020a605b42d458edc87eea8.png" class="latex" alt="$\boxed{\textbf{D}}$" style="vertical-align: -5px" width="26" height="23" />.
+</p><p>Remark: This is equivalent to viewing the problem from the raft's perspective.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>What's important in this problem is to consider everything in terms of the power boat and the raft, since that is how the problem is given to us. Think of the blue arrow as the power boat and the red arrow as the raft in the following three diagrams, which represent different time intervals of the problem.
+</p><p><img src="//latex.artofproblemsolving.com/3/e/f/3ef87a63974e838a67e23aba253c78bfb4889283.png" class="latexcenter" alt="[asy] size(8cm,8cm); pair A, B; A=(-3,4); B=(3,4); draw(A--B); label(&quot;$A$&quot;,A,S); label(&quot;$B$&quot;,B,S); arrow((-2.5,6.4),dir(180),blue); arrow((-2.5,6.2),dir(180),red); pair A, B; A=(-3,5); B=(3,5); draw(A--B); label(&quot;$A$&quot;,A,S); label(&quot;$B$&quot;,B,S); arrow((2.6,5.4),dir(360),blue); arrow((-0.5,5.2),dir(180),red); pair A, B; A=(-3,6); B=(3,6); draw(A--B); label(&quot;$A$&quot;,A,S); label(&quot;$B$&quot;,B,S); arrow((.3,4.4),dir(360),blue); arrow((1.1,4.2),dir(180),red);[/asy]" width="378" height="165" />
+</p><p>Thinking about the distance covered as their distances with respect to each other, they are <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> distance apart in the first diagram when they haven't started to move yet, some distance <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> apart in the second diagram when the power boat reaches <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, and again <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> distance apart in the third diagram when they meet. Therefore, with respect to each other, the boat and the raft cover a distance of <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> on the way there, and again cover a distance of <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> on when drawing closer. This makes sense, because from the 1st diagram to the second, the raft moves in the same direction as the boat, while from the 2nd to the 3rd, the boat and raft move in opposite directions.
+</p><p>Let <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> denote the speed of the power boat (only the power boat, not factoring in current) and <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> denote the speed of the raft, which, as given by the problem, is also equal to the speed of the current. Thus, from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, the boat travels at a velocity of <img src="//latex.artofproblemsolving.com/7/5/7/75745b7864aaad2e91e9a33c15e27692b12d5ba2.png" class="latex" alt="$b+r$" style="vertical-align: -1px" width="38" height="14" />, and on the way back, travels at a velocity of <img src="//latex.artofproblemsolving.com/0/8/b/08b931a2552a9876cc4674bfed23ce13e4475871.png" class="latex" alt="$-(b-r)=r-b$" style="vertical-align: -4px" width="130" height="18" />, since the current aids the boat on the way there, and goes against the boat on the way back. With respect to the raft then, the boat's velocity from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> becomes <img src="//latex.artofproblemsolving.com/d/a/e/dae2848cf1391a2d7478490da4f5afa4a05271fc.png" class="latex" alt="$(r+b)-r=b$" style="vertical-align: -4px" width="116" height="18" />, and on the way back it becomes <img src="//latex.artofproblemsolving.com/7/8/8/7887941ac6814e4e626b7acb4491a1208cc6a582.png" class="latex" alt="$(r-b)-r=-b$" style="vertical-align: -4px" width="130" height="18" />. Since the boat's velocities with respect to the raft are exact opposites, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/2/f/a/2fa30e2beb1820f6b39f6251023709c8165cefc6.png" class="latex" alt="$-b$" width="22" height="12" />, we therefore know that the boat and raft travel apart from each other at the same rate that they travel toward each other.
+</p><p>From this, we have that the boat travels a distance <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> at rate <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> with respect to the raft both on the way to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and on the way back. Thus, using <img src="//latex.artofproblemsolving.com/2/4/f/24f22cf8922f4a5bc8377c87aeff9f2017fcf26f.png" class="latex" alt="$\dfrac{distance}{speed}=time$" style="vertical-align: -16px" width="133" height="41" />, we have <img src="//latex.artofproblemsolving.com/4/a/d/4ad8a3a205115576dd4b3fb34bc7b11d1275b36a.png" class="latex" alt="$\dfrac{2d}{b}=9\text{ hours}$" style="vertical-align: -12px" width="100" height="37" />, and to see how long it took to travel half the distance, we have <img src="//latex.artofproblemsolving.com/7/e/1/7e1a4d3b7841272615f1176a9af2b4e37d99161e.png" class="latex" alt="$\dfrac{d}{b}=4.5\text{ hours}\implies\boxed{\textbf{D}}$" style="vertical-align: -12px" width="182" height="37" />
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Let <img src="//latex.artofproblemsolving.com/e/0/d/e0d2bf360290fd61d1c1557e763f2622363b3d35.png" class="latex" alt="$t$" width="6" height="11" /> be the time it takes the power boat to go from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> in hours, <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> be the speed of the river current (and thus also the raft), and <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" /> to be the speed of the power boat with respect to the river. 
+</p><p>Using <img src="//latex.artofproblemsolving.com/9/5/3/953f29a2b6ad8f2c5d0a2c619a084c4d6896600e.png" class="latex" alt="$d = rt$" width="48" height="12" />, the raft covers a distance of <img src="//latex.artofproblemsolving.com/5/9/8/5987d6d522364696d9b9fd59a5d72cf6c86a9cdd.png" class="latex" alt="$9r$" width="17" height="12" />, the distance from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> is <img src="//latex.artofproblemsolving.com/9/e/3/9e31ca22adcb65ebadc7cca8937c59986d3d140f.png" class="latex" alt="$(p + r)t$" style="vertical-align: -4px" width="60" height="18" />, and the distance from <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> to where the raft and power boat met up is <img src="//latex.artofproblemsolving.com/f/0/9/f092a5d4e2ae719a7cb8e01d34cf44e646ea0a1d.png" class="latex" alt="$(9 - t)(p - r)$" style="vertical-align: -4px" width="104" height="18" />. 
+</p><p>Then, <img src="//latex.artofproblemsolving.com/8/5/9/859ba7e4e5cc586e8658681e915ec8f5da262e1e.png" class="latex" alt="$9r + (9 - t)(p - r) = (p + r)t$" style="vertical-align: -4px" width="230" height="18" />. Solving for <img src="//latex.artofproblemsolving.com/e/0/d/e0d2bf360290fd61d1c1557e763f2622363b3d35.png" class="latex" alt="$t$" width="6" height="11" />, we get <img src="//latex.artofproblemsolving.com/a/b/9/ab988c4d54d1ffe23cfe7af8d9e719fdd6060220.png" class="latex" alt="$t = 4.5$" style="vertical-align: 0px" width="53" height="13" />, which is <img src="//latex.artofproblemsolving.com/3/7/c/37cfb0d12967a18f3020a605b42d458edc87eea8.png" class="latex" alt="$\boxed{\textbf{D}}$" style="vertical-align: -5px" width="26" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=u23iWcqbJlE">https://www.youtube.com/watch?v=u23iWcqbJlE</a>
+~Shreyas S
+</p><p>fyi, this links to the wrong problem, it links to problem 11
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2011_AMC_12A" title="2011 AMC 12A">2011 AMC 12A</a></b> (<b><a href="/wiki/index.php/2011_AMC_12A_Problems" title="2011 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_12A_Answer_Key" title="2011 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_11" title="2011 AMC 12A Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_13" title="2011 AMC 12A Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_1" title="2011 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_2" title="2011 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_3" title="2011 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_4" title="2011 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_5" title="2011 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_6" title="2011 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_7" title="2011 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_8" title="2011 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_9" title="2011 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_10" title="2011 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_11" title="2011 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_13" title="2011 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_14" title="2011 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_15" title="2011 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_16" title="2011 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_17" title="2011 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_18" title="2011 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_19" title="2011 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_20" title="2011 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_21" title="2011 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_22" title="2011 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_23" title="2011 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_24" title="2011 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_25" title="2011 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209043044
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.094 seconds
+Real time usage: 0.099 seconds
+Preprocessor visited node count: 631/1000000
+Preprocessor generated node count: 1728/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9598/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.736      1 -total
+ 65.27%    6.355      1 Template:AMC12_box
+ 32.87%    3.200      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9028-0!canonical and timestamp 20230209043044 and revision id 173364
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_12&amp;oldid=173364">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_12&amp;oldid=173364</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209043044 -->
+</html>

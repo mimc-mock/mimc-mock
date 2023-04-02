@@ -1,0 +1,241 @@
+<p>Rhombus <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> is similar to rhombus <img src="//latex.artofproblemsolving.com/a/c/2/ac20853d56aed0edba1c70db16d44d3ca40402cd.png" class="latex" alt="$BFDE$" width="58" height="12" />.  The area of rhombus <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> is 24, and <img src="//latex.artofproblemsolving.com/f/7/a/f7ad08337ee8955c04fd241de1518797a535258a.png" class="latex" alt="$\angle BAD = 60^\circ$" width="105" height="13" />.  What is the area of rhombus <img src="//latex.artofproblemsolving.com/a/c/2/ac20853d56aed0edba1c70db16d44d3ca40402cd.png" class="latex" alt="$BFDE$" width="58" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/4/3/e/43e4a11b576cfc60bb546ede67ebb9668484c340.png" class="latexcenter" alt="[asy] defaultpen(linewidth(0.7)+fontsize(11)); pair A=origin, B=(2,0), C=(3, sqrt(3)), D=(1, sqrt(3)), E=(1, 1/sqrt(3)), F=(2, 2/sqrt(3)); pair point=(3/2, sqrt(3)/2); draw(B--C--D--A--B--F--D--E--B); label(&quot;$A$&quot;, A, dir(point--A)); label(&quot;$B$&quot;, B, dir(point--B)); label(&quot;$C$&quot;, C, dir(point--C)); label(&quot;$D$&quot;, D, dir(point--D)); label(&quot;$E$&quot;, E, dir(point--E)); label(&quot;$F$&quot;, F, dir(point--F)); [/asy]" width="668" height="402" />
+</p><p><img src="//latex.artofproblemsolving.com/4/f/9/4f9be258ec162f26eca09ca564a3b465aec8fbba.png" class="latex" alt="$\textrm{(A) } 6 \qquad \textrm{(B) } 4\sqrt {3} \qquad \textrm{(C) } 8 \qquad \textrm{(D) } 9 \qquad \textrm{(E) } 6\sqrt {3}$" style="vertical-align: -4px" width="379" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The ratio of any length on <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> to a corresponding length on <img src="//latex.artofproblemsolving.com/f/0/8/f08a1d43861a8d532b77db795d3244ccc5a6f6c0.png" class="latex" alt="$BFDE^2$" width="65" height="15" /> is equal to the ratio of their areas. Since <img src="//latex.artofproblemsolving.com/f/b/c/fbc01c434328541e384c1c71c4e5ac63f1f43240.png" class="latex" alt="$\angle BAD=60$" width="98" height="13" />, <img src="//latex.artofproblemsolving.com/e/0/8/e08af8f3acc34996e3cba566dc970b7ed496ba4b.png" class="latex" alt="$\triangle ADB$" width="59" height="13" /> and <img src="//latex.artofproblemsolving.com/f/e/e/fee181f0e279c48906d10847f1986f902dc84efe.png" class="latex" alt="$\triangle DBC$" width="60" height="13" /> are equilateral. <img src="//latex.artofproblemsolving.com/2/0/4/204a6f5a6757f5da4c1b3035ad8d806769744e63.png" class="latex" alt="$DB$" width="29" height="12" />, which is equal to <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />, is the diagonal of rhombus <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" />. Therefore, <img src="//latex.artofproblemsolving.com/b/e/e/bee5579525ec6bf6ba8f1daf8abf1fc9b1d7c7ac.png" class="latex" alt="$AC=\frac{DB(2)}{2\sqrt{3}}=\frac{DB}{\sqrt{3}}$" style="vertical-align: -17px" width="166" height="43" />. <img src="//latex.artofproblemsolving.com/2/0/4/204a6f5a6757f5da4c1b3035ad8d806769744e63.png" class="latex" alt="$DB$" width="29" height="12" /> and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> are the longer diagonal of rhombuses <img src="//latex.artofproblemsolving.com/1/3/8/138dc12aed19ca7be5f5d3fe985631e408aefe7f.png" class="latex" alt="$BEDF$" width="58" height="12" /> and <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" />, respectively. So the ratio of their areas is <img src="//latex.artofproblemsolving.com/b/7/4/b74019fcde4079f4588a9d2e9885dfa6e580458d.png" class="latex" alt="$(\frac{1}{\sqrt{3}})^2$" style="vertical-align: -17px" width="48" height="41" /> or <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" />. One-third the area of <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> is equal to <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />. So the answer is <img src="//latex.artofproblemsolving.com/8/2/b/82b317654f901a9c8f56585721a617396d3b050c.png" class="latex" alt="$\boxed{\text{C}}$" style="vertical-align: -5px" width="23" height="23" />.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Draw the line <img src="//latex.artofproblemsolving.com/9/0/7/907e515c43197f174b604b7332f14b3f231d7ce1.png" class="latex" alt="$\overline{DB}$" width="30" height="15" /> to form an equilateral triangle, since <img src="//latex.artofproblemsolving.com/f/b/c/fbc01c434328541e384c1c71c4e5ac63f1f43240.png" class="latex" alt="$\angle BAD=60$" width="98" height="13" />, and line segments 
+<img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" /> and <img src="//latex.artofproblemsolving.com/c/f/b/cfbb4c52e011ceed6e813118a7d59e931af444a2.png" class="latex" alt="$\overline{AD}$" width="29" height="15" /> are equal in length. To find the area of the smaller rhombus, we only need to find the value of any arbitrary base, then square the result. To find the value of the base, use the line we just drew and connect it to point <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> at a right angle along line <img src="//latex.artofproblemsolving.com/9/0/7/907e515c43197f174b604b7332f14b3f231d7ce1.png" class="latex" alt="$\overline{DB}$" width="30" height="15" />. Call the connected point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />, with triangles <img src="//latex.artofproblemsolving.com/8/b/0/8b0e475dc462398a8d537e8640542c80d22a8e98.png" class="latex" alt="$DPE$" width="44" height="12" /> and <img src="//latex.artofproblemsolving.com/9/b/8/9b8eb88b417a55dbc3c9a51ca6dfe9179f9966ae.png" class="latex" alt="$EPB$" width="42" height="12" /> being 30-60-90 triangles, meaning we can find the length of <img src="//latex.artofproblemsolving.com/5/f/7/5f74106a4c831d948ec641e678edc348857426fc.png" class="latex" alt="$\overline{ED}$" width="30" height="15" /> or <img src="//latex.artofproblemsolving.com/4/e/b/4ebfeb04023363364c27abf7ad4b73aee668fcfe.png" class="latex" alt="$\overline{EB}$" width="29" height="15" />. The base of <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> must be <img src="//latex.artofproblemsolving.com/e/d/8/ed8dcdaee5c02f5afb2e8774644fc8fbc0b614f3.png" class="latex" alt="$\sqrt{24}$" style="vertical-align: -1px" width="33" height="18" />, and half of that length must be <img src="//latex.artofproblemsolving.com/0/a/f/0af834b481b16223a0f04fa9a05f4f8a581e0182.png" class="latex" alt="$\sqrt{6}$" style="vertical-align: -1px" width="24" height="18" />(triangles <img src="//latex.artofproblemsolving.com/8/b/0/8b0e475dc462398a8d537e8640542c80d22a8e98.png" class="latex" alt="$DPE$" width="44" height="12" /> and <img src="//latex.artofproblemsolving.com/9/b/8/9b8eb88b417a55dbc3c9a51ca6dfe9179f9966ae.png" class="latex" alt="$EPB$" width="42" height="12" /> are congruent by <img src="//latex.artofproblemsolving.com/2/2/e/22e28d9bde02e365b67760c06b05e9003ca002c0.png" class="latex" alt="$SSS$" width="36" height="12" />). Solving for the third length yields <img src="//latex.artofproblemsolving.com/c/a/7/ca7b4acb8eeb90e37fa1434cb61472589e78a050.png" class="latex" alt="$\sqrt{8}$" style="vertical-align: -1px" width="24" height="18" />, which we square to get the answer <img src="//latex.artofproblemsolving.com/8/2/b/82b317654f901a9c8f56585721a617396d3b050c.png" class="latex" alt="$\boxed{\text{C}}$" style="vertical-align: -5px" width="23" height="23" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Draw line DB, cutting rhombus BFDE into two triangles which fit nicely into 2/3 of equilateral triangle ABD. Thus the area of BFDE is (2/3)*12=8.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2006_AMC_12B" title="2006 AMC 12B">2006 AMC 12B</a></b> (<b><a href="/wiki/index.php/2006_AMC_12B_Problems" title="2006 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2006_AMC_12B_Answer_Key" title="2006 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_12" title="2006 AMC 12B Problems/Problem 12">Problem 12</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_14" title="2006 AMC 12B Problems/Problem 14">Problem 14</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_1" title="2006 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_2" title="2006 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_3" title="2006 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_4" title="2006 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_5" title="2006 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_6" title="2006 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_7" title="2006 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_8" title="2006 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_9" title="2006 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_10" title="2006 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_11" title="2006 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_12" title="2006 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a class="mw-selflink selflink">13</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_14" title="2006 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_15" title="2006 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_16" title="2006 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_17" title="2006 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_18" title="2006 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_19" title="2006 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_20" title="2006 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_21" title="2006 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_22" title="2006 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_23" title="2006 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_24" title="2006 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_25" title="2006 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208131737
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.092 seconds
+Real time usage: 0.096 seconds
+Preprocessor visited node count: 497/1000000
+Preprocessor generated node count: 1440/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7454/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.068      1 -total
+ 73.64%    6.678      1 Template:AMC12_box
+ 23.82%    2.160      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2324-0!canonical and timestamp 20230208131737 and revision id 142187
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12B_Problems/Problem_13&amp;oldid=142187">https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12B_Problems/Problem_13&amp;oldid=142187</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208230645 -->
+</html>

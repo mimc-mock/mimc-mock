@@ -1,0 +1,274 @@
+<p>Alice, Bob, and Charlie were on a hike and were wondering how far away the nearest town was. When Alice said, "We are at least <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> miles away," Bob replied, "We are at most <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> miles away." Charlie then remarked, "Actually the nearest town is at most <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> miles away." It turned out that none of the three statements were true. Let <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> be the distance in miles to the nearest town. Which of the following intervals is the set of all possible values of <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/7/f/1/7f1ac07bf6394983fd2b652c65343f073acbc7e5.png" class="latex" alt="$\textbf{(A) }   (0,4)   \qquad        \textbf{(B) }   (4,5)   \qquad    \textbf{(C) }   (4,6)   \qquad   \textbf{(D) }  (5,6)  \qquad  \textbf{(E) }   (5,\infty)$" style="vertical-align: -4px" width="517" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>For each of the false statements, we identify its corresponding true statement. Note that:
+</p>
+<ol style="margin-left: 1.5em;">
+  <li><img src="//latex.artofproblemsolving.com/0/f/e/0fe6dc48b595a2cadc50a15f4d6c23701ae43c2e.png" class="latex" alt="$\mathrm{False}\cap\mathrm{True}=\varnothing.$" style="vertical-align: -2px" width="142" height="16" /></li><p class="mw-empty-elt">
+  </p><li><img src="//latex.artofproblemsolving.com/2/7/e/27e4d1151fb5b5583e177d288c8e032803a410eb.png" class="latex" alt="$\mathrm{False}\cup\mathrm{True}=[0,\infty).$" style="vertical-align: -5px" width="175" height="20" /></li><p class="mw-empty-elt">
+</p></ol>
+<p>We construct the following table:
+<img src="//latex.artofproblemsolving.com/1/6/4/1645d4ff8df04a7bdc85c3c64aac7453f53711a4.png" class="latexcenter" alt="\[\begin{array}{c||c|c} &amp; &amp;  \\ [-2.5ex] \textbf{Hiker} &amp; \textbf{False Statement} &amp; \textbf{True Statement} \\ [0.5ex] \hline &amp; &amp; \\ [-2ex] \textbf{Alice} &amp; [6,\infty) &amp; [0,6) \\  &amp; &amp; \\ [-2.25ex] \textbf{Bob} &amp; [0,5] &amp; (5,\infty)  \\ &amp; &amp; \\ [-2.25ex] \textbf{Charlie} &amp; [0,4] &amp; (4,\infty) \end{array}\]" width="378" height="99" />
+Taking the intersection of the true statements, we have <img src="//latex.artofproblemsolving.com/3/7/e/37e8ff50fd0dbecfbb52f8742566d5fd1241f893.png" class="latexcenter" alt="\[[0,6)\cap(5,\infty)\cap(4,\infty)=(5,6)\cap(4,\infty)=\boxed{\textbf{(D) } (5,6)}.\]" width="425" height="30" />
+~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Think of the distances as if they are on a number line. Alice claims that <img src="//latex.artofproblemsolving.com/0/e/0/0e0cbca851f5bc206fcf12525b35af8ae98c53d2.png" class="latex" alt="$d &gt; 6$" style="vertical-align: 0px" width="42" height="13" />, Bob says <img src="//latex.artofproblemsolving.com/b/4/3/b43ad1bb1ad72a0e1c7166b276d28421a8d3ef24.png" class="latex" alt="$d &lt; 5$" style="vertical-align: 0px" width="42" height="13" />, while Charlie thinks <img src="//latex.artofproblemsolving.com/1/7/c/17c0e2600d06800097672d53f7d816c438cd248d.png" class="latex" alt="$d &lt; 4$" style="vertical-align: 0px" width="42" height="13" />. This means that all possible numbers less than <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> and greater than <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> are included. However, since the three statements are actually false, the distance to the nearest town is one of the numbers not covered. Therefore, the answer is <img src="//latex.artofproblemsolving.com/3/9/7/3978c6790fea080c150457b476ff05655f3cd7ce.png" class="latex" alt="$\boxed{\textbf{(D) } (5,6)}$" style="vertical-align: -10px" width="88" height="29" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/vO-ELYmgRI8">https://youtu.be/vO-ELYmgRI8</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="Video_Solution_2">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/cLJ87xJzcWI">https://youtu.be/cLJ87xJzcWI</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="Video_Solution_3">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/nNEXCxWLJzc">https://youtu.be/nNEXCxWLJzc</a>
+</p><p>Education, the Study of Everything
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10A" title="2018 AMC 10A">2018 AMC 10A</a></b> (<b><a href="/wiki/index.php/2018_AMC_10A_Problems" title="2018 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10A_Answer_Key" title="2018 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_4" title="2018 AMC 10A Problems/Problem 4">Problem 4</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_6" title="2018 AMC 10A Problems/Problem 6">Problem 6</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_1" title="2018 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_2" title="2018 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_3" title="2018 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_4" title="2018 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a class="mw-selflink selflink">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_6" title="2018 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_7" title="2018 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_8" title="2018 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_9" title="2018 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_10" title="2018 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_11" title="2018 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_12" title="2018 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_13" title="2018 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_14" title="2018 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_15" title="2018 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_16" title="2018 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_17" title="2018 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_18" title="2018 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_19" title="2018 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_20" title="2018 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_21" title="2018 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_22" title="2018 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_23" title="2018 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_24" title="2018 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_25" title="2018 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2018_AMC_12A" title="2018 AMC 12A">2018 AMC 12A</a></b> (<b><a href="/wiki/index.php/2018_AMC_12A_Problems" title="2018 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_12A_Answer_Key" title="2018 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2018 AMC 12A Problems/Problem 3">Problem 3</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_5" title="2018 AMC 12A Problems/Problem 5">Problem 5</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_1" title="2018 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_2" title="2018 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2018 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2018 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_5" title="2018 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_6" title="2018 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2018 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2018 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_9" title="2018 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2018 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_11" class="mw-redirect" title="2018 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_12" class="mw-redirect" title="2018 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_13" class="mw-redirect" title="2018 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_14" title="2018 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_15" class="mw-redirect" title="2018 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2018 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_17" class="mw-redirect" title="2018 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2018 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_19" title="2018 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_20" title="2018 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_21" title="2018 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_22" title="2018 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_23" title="2018 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_24" title="2018 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_25" class="mw-redirect" title="2018 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208175614
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.097 seconds
+Real time usage: 0.102 seconds
+Preprocessor visited node count: 340/1000000
+Preprocessor generated node count: 1440/1000000
+Post‐expand include size: 4335/2097152 bytes
+Template argument size: 415/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3259/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   21.045      1 -total
+ 30.38%    6.393      1 Template:AMC10_box
+ 27.98%    5.888      1 Template:AMC12_box
+  9.76%    2.055      1 Template:Duplicate
+  7.77%    1.636      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15947-0!canonical and timestamp 20230208175614 and revision id 179662
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_5&amp;oldid=179662">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_5&amp;oldid=179662</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Logic_Problems" title="Category:Logic Problems">Logic Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208202209 -->
+</html>

@@ -1,0 +1,243 @@
+<p>In the five-sided star shown, the letters <img src="//latex.artofproblemsolving.com/6/5/2/6521ad84932f05bbfa1185b24d793813c7aefc2d.png" class="latex" alt="$A, B, C, D,$" style="vertical-align: -3px" width="85" height="16" /> and <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> are replaced by the numbers <img src="//latex.artofproblemsolving.com/a/a/5/aa5a33b0160737a99232499be265cabccf6aeffc.png" class="latex" alt="$3, 5, 6, 7,$" style="vertical-align: -4px" width="67" height="17" /> and <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, although not necessarily in this order. The sums of the numbers at the ends of the line segments <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />, <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />, <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" />, <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" />, and <img src="//latex.artofproblemsolving.com/2/d/9/2d9456e0361813641f4ce80980839e9038fe8f7b.png" class="latex" alt="$EA$" width="28" height="13" /> form an arithmetic sequence, although not necessarily in that order. What is the middle term of the arithmetic sequence? 
+</p><p><a href="/wiki/index.php/File:2005amc10a17.gif" class="image"><img alt="2005amc10a17.gif" src="https://wiki-images.artofproblemsolving.com//d/da/2005amc10a17.gif" width="220" height="220" /></a>
+</p><p><img src="//latex.artofproblemsolving.com/8/b/0/8b01be4a7563dbf5928a55e2e6603a2d66cc2786.png" class="latex" alt="$\textbf{(A) } 9\qquad \textbf{(B) } 10\qquad \textbf{(C) } 11\qquad \textbf{(D) } 12\qquad \textbf{(E) } 13$" style="vertical-align: -5px" width="392" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Each corner <img src="//latex.artofproblemsolving.com/e/8/9/e894aacf461d6cc63d0ddd9c8e0f472a9eb217ce.png" class="latex" alt="$(A,B,C,D,E)$" style="vertical-align: -4px" width="116" height="18" /> goes to two sides/numbers. (<img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> goes to <img src="//latex.artofproblemsolving.com/9/a/6/9a65c05bd85d2609bea5db2b109ed5f556463511.png" class="latex" alt="$AE$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />, <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> goes to <img src="//latex.artofproblemsolving.com/2/7/e/27e525b776c49bbe7d0ae66cfc7ab8f58f40624e.png" class="latex" alt="$DC$" width="29" height="12" /> and <img src="//latex.artofproblemsolving.com/6/d/5/6d5c9afa92ae3180f02754c177e530d9d0f8b4d4.png" class="latex" alt="$DE$" width="29" height="12" />). The sum of every term is equal to <img src="//latex.artofproblemsolving.com/f/6/1/f61c981ba4b3e5be0fb1bc1cdef341d2b01ad2be.png" class="latex" alt="$2(3+5+6+7+9)=60$" style="vertical-align: -4px" width="199" height="18" />
+</p><p>Since the middle term in an arithmetic sequence is the average of all the terms in the sequence, the middle number is <img src="//latex.artofproblemsolving.com/0/7/8/07818b59c2fa658dbcb25538d56ed713545fba5f.png" class="latex" alt="$\frac{60}{5}=\boxed{\textbf{(D) }12}$" style="vertical-align: -13px" width="114" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We know that the smallest number in this sequence must be <img src="//latex.artofproblemsolving.com/1/0/8/108880936ebf093c88308f58baa4abe040466366.png" class="latex" alt="$3 + 5 = 8$" style="vertical-align: -1px" width="73" height="14" />, and the biggest number must be <img src="//latex.artofproblemsolving.com/e/e/5/ee57915ae4e0a978e7690eaeb389982b973304fa.png" class="latex" alt="$7 + 9 = 16$" style="vertical-align: -1px" width="82" height="14" />. Since there are <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> terms in this sequence, we know that <img src="//latex.artofproblemsolving.com/8/8/0/880587cb98ff1fb7c5724816703c0f0b6a6b2366.png" class="latex" alt="$8 + 4d = 16$" style="vertical-align: -2px" width="94" height="16" />, or that <img src="//latex.artofproblemsolving.com/f/b/d/fbd68fc9b0e901c556adb5c363357d3afbf1b4ce.png" class="latex" alt="$d = 2$" width="42" height="12" />. Thus, we know that the middle term must be <img src="//latex.artofproblemsolving.com/7/7/e/77e0a6b32d0dd4ceceade718344eefc1ed0f0af3.png" class="latex" alt="$8 + 2 \cdot 2 = \boxed{12}.$" style="vertical-align: -6px" width="123" height="25" /> 
+~yk2007 (Daniel K.)
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/tKsYSBdeVuw?t=544">https://youtu.be/tKsYSBdeVuw?t=544</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2005_AMC_10A" title="2005 AMC 10A">2005 AMC 10A</a></b> (<b><a href="/wiki/index.php/2005_AMC_10A_Problems" title="2005 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2005_AMC_10A_Answer_Key" title="2005 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_16" title="2005 AMC 10A Problems/Problem 16">Problem 16</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_18" title="2005 AMC 10A Problems/Problem 18">Problem 18</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_1" title="2005 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_2" title="2005 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2005 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_4" title="2005 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_5" title="2005 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_6" title="2005 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_7" title="2005 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_8" title="2005 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_9" title="2005 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_10" title="2005 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_11" title="2005 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_12" title="2005 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_13" title="2005 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_14" title="2005 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_15" title="2005 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_16" title="2005 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a class="mw-selflink selflink">17</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_18" title="2005 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_19" title="2005 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_20" title="2005 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_21" title="2005 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_22" title="2005 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_23" title="2005 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_24" title="2005 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10A_Problems/Problem_25" title="2005 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208235439
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.084 seconds
+Real time usage: 0.089 seconds
+Preprocessor visited node count: 326/1000000
+Preprocessor generated node count: 1060/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4110/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.754      1 -total
+ 78.95%    6.122      1 Template:AMC10_box
+ 18.89%    1.465      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:3718-0!canonical and timestamp 20230208235439 and revision id 186745
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_10A_Problems/Problem_17&amp;oldid=186745">https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_10A_Problems/Problem_17&amp;oldid=186745</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:Area_Ratio_Problems" title="Category:Area Ratio Problems">Area Ratio Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208235440 -->
+</html>

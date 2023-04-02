@@ -1,0 +1,258 @@
+<p>Two counterfeit coins of equal weight are mixed with <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> identical genuine coins. The weight of each of the counterfeit coins is different from the weight of each of the genuine coins. A pair of coins is selected at random without replacement from the <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> coins. A second pair is selected at random without replacement from the remaining <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> coins. The combined weight of the first pair is equal to the combined weight of the second pair. What is the probability that all <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> selected coins are genuine?
+</p><p><img src="//latex.artofproblemsolving.com/f/5/c/f5c10b21992ae4d8872fa4efcecb3fd19dc3c4fd.png" class="latex" alt="$\textbf{(A)}\ \frac{7}{11}\qquad\textbf{(B)}\ \frac{9}{13}\qquad\textbf{(C)}\ \frac{11}{15}\qquad\textbf{(D)}\ \frac{15}{19}\qquad\textbf{(E)}\ \frac{15}{16}$" style="vertical-align: -13px" width="413" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Note that we are trying to find the conditional probability <img src="//latex.artofproblemsolving.com/3/a/3/3a3e47074c0dddcabc310f990a658af01115fce4.png" class="latex" alt="$P(A \vert B) = \frac{P(A \cap B)}{P(B)}$" style="vertical-align: -17px" width="165" height="43" /> where <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> is the <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> coins being genuine and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> is the sum of the weight of the coins being equal. The only possibilities for <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> are (g is abbreviated for genuine and c is abbreviated for counterfeit, and the pairs are the first and last two in the quadruple) <img src="//latex.artofproblemsolving.com/1/9/d/19d8ace8e82852d227ddb373d8d12f6fcde60b4d.png" class="latex" alt="$(g,g,g,g),(g,c,g,c),(g,c,c,g),(c,g,g,c),(c,g,c,g)$" style="vertical-align: -4px" width="397" height="18" />. We see that <img src="//latex.artofproblemsolving.com/7/0/6/706277135716c6703c66dc5565e018a1580a51ad.png" class="latex" alt="$A \cap B$" style="vertical-align: 0px" width="48" height="13" /> happens with probability <img src="//latex.artofproblemsolving.com/b/8/0/b807a117b0a06cb2dee14634393fefc04ad61dbb.png" class="latex" alt="$\frac{8}{10} \times \frac{7}{9} \times \frac{6}{8} \times \frac{5}{7} = \frac{1}{3}$" style="vertical-align: -13px" width="164" height="38" />, and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> happens with probability <img src="//latex.artofproblemsolving.com/9/2/b/92b948b513657af6eae65fac75d76dceed5aff01.png" class="latex" alt="$\frac{1}{3}+4 \times \left( \frac{8}{10} \times \frac{2}{9} \times \frac{7}{8}\times \frac{1}{7}\right) = \frac{19}{45}$" style="vertical-align: -17px" width="265" height="43" />, hence <img src="//latex.artofproblemsolving.com/2/b/4/2b41667dcbfe38a340c82317696e8d3c0c053a50.png" class="latex" alt="$P(A \vert B) = \frac{P(A \cap B)}{P(B)} = \frac{\frac{1}{3}}{\frac{19}{45}}=\boxed{\frac{15}{19} \ \mathbf{(D)}}$" style="vertical-align: -19px" width="306" height="49" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>If we pick <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> indistinguishable real coins from the set of <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> real coins, there are <img src="//latex.artofproblemsolving.com/f/8/0/f80fede77083e08f8c00baaa6b6651cae05eab37.png" class="latex" alt="$\binom{8}{4}$" style="vertical-align: -22px" width="33" height="53" /> ways to pick the coins.  If we then place the coins in four distinguishable slots on the scale, there are <img src="//latex.artofproblemsolving.com/2/d/a/2da866442e69c040daf44260b4728d37e98de313.png" class="latex" alt="$4!$" style="vertical-align: 0px" width="12" height="13" /> ways to arrange them, giving <img src="//latex.artofproblemsolving.com/1/5/f/15f55d78e2958af6bc67daab0bc35ee00750c89a.png" class="latex" alt="$4!\cdot \binom{8}{4}$" style="vertical-align: -22px" width="60" height="53" /> ways to choose and place <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> real coins.  This gives <img src="//latex.artofproblemsolving.com/2/e/d/2ed7bff80e0f4fa8df7ba094f5316671d8774824.png" class="latex" alt="$1680$" style="vertical-align: 0px" width="35" height="13" /> desirable combinations.
+</p><p>If we pick <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> real coins and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> fake coins, there are <img src="//latex.artofproblemsolving.com/4/1/1/411211a0efe1a87366eb1f0bca74fb2802753903.png" class="latex" alt="$\binom{8}{2}\binom{2}{2}$" style="vertical-align: -22px" width="70" height="53" /> ways to choose the coins.  There are <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> choices for the first slot on the left side of the scale.  Whichever type of coin is placed in that first slot, there are <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> choices for the second slot on the left side of the scale, since it must be of the opposite type of coin.  There are <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> choices for the first slot on the right side of the scale, and only <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> choice for the last slot on the right side.
+</p><p>Thus, there are <img src="//latex.artofproblemsolving.com/b/4/6/b4638d989ba46b60fd6cffea04b96b13ea0f0864.png" class="latex" alt="$4\cdot 2\cdot 2\cdot 1 = 16$" style="vertical-align: 0px" width="117" height="13" /> ways to arrange the coins, and <img src="//latex.artofproblemsolving.com/6/6/f/66f5c16a6d31cce00d634fe14deb7314bb2f8c4b.png" class="latex" alt="$\binom{8}{2}\binom{2}{2} = 28$" style="vertical-align: -22px" width="116" height="53" /> sets of possible coins, for a total of <img src="//latex.artofproblemsolving.com/b/4/9/b4939d02a7889c7f344787aedc447503e4f197b2.png" class="latex" alt="$16\cdot 28 = 448$" style="vertical-align: 0px" width="100" height="13" /> combinations that are legal, yet undesirable.
+</p><p>The overall probability is thus <img src="//latex.artofproblemsolving.com/3/0/4/30478cbd1bb7361feff98c0e811f7fcfc314bb04.png" class="latex" alt="$\frac{1680}{1680 + 448} = \boxed{\frac{15}{19} \ \mathbf{(D)}}$" style="vertical-align: -18px" width="183" height="48" />.
+</p><p>Note that in this solution, all four slots on the scale are deemed to be distinguishable.  In essence, this "overcounts" all numbers by a factor of <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, since you can switch the coins on the left side, you can switch the coins on the right side, or you can switch sides of the scale.  But since all numbers are increased 8-fold, it will cancel out when calculating the probability.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Place the two coins from the first pair in a line followed by the two coins from the second pair followed by the six left-over coins.  We can do that in <img src="//latex.artofproblemsolving.com/b/4/a/b4a36d045406715079df9fc3e9053bd327aa03cc.png" class="latex" alt="$\binom{10}{2} = 45$" style="vertical-align: -22px" width="88" height="53" /> different ways.
+</p><p>We need to exclude those cases where the weight shows a difference.  There are two cases where a pair has both counterfeit coins and there are <img src="//latex.artofproblemsolving.com/0/1/8/0184f95f67c47eed7bf84cbfe2a6defb63f2fb0f.png" class="latex" alt="$4\cdot6$" style="vertical-align: 0px" width="30" height="13" /> cases where one counterfeit coin is chosen and one is in the left-over.  That leaves <img src="//latex.artofproblemsolving.com/2/8/e/28e2c858d300ee4d02116fe54201bf539a328f1d.png" class="latex" alt="$45-2-24=19$" style="vertical-align: 0px" width="131" height="13" /> cases.
+</p><p>Of these, <img src="//latex.artofproblemsolving.com/d/b/e/dbe36ab48eb2448f8b279bfb5c60f071208dbf11.png" class="latex" alt="$\binom{6}{2}=15$" style="vertical-align: -22px" width="79" height="53" /> cases has both counterfeit coins in the left-over.  The probability of having chosen four genuine coins therefore is <img src="//latex.artofproblemsolving.com/8/8/8/88895a9eab2994f8d2a4407cc904d951af45c78d.png" class="latex" alt="$\boxed{\frac{15}{19} \ \mathbf{(D)}}$" style="vertical-align: -18px" width="69" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>WLOG, allow for all the coins to be distinguishable.
+We split this up into cases. Case <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> being the weight of <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> genuine coins together and Case <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> being the weight of <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> genuine coin and <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> counterfeit coin.
+</p><p>Case <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />: All Genuine coins chosen.
+This happens in <img src="//latex.artofproblemsolving.com/1/2/9/129dac25f541c8d9524ec314d712bd53dab549ed.png" class="latex" alt="$\frac{\binom{8}{2}\cdot\binom{6}{2}}{2}=210$" style="vertical-align: -12px" width="113" height="41" /> ways
+</p><p>Case <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />: Genuine coin and Counterfeit coin both chosen.
+This happens in <img src="//latex.artofproblemsolving.com/8/c/9/8c9dcef05297fea305d76bd1b0eb97319bbd2a71.png" class="latex" alt="$8\cdot7=56$" width="73" height="12" /> ways.
+</p><p>Hence, the answer is <img src="//latex.artofproblemsolving.com/8/8/8/88895a9eab2994f8d2a4407cc904d951af45c78d.png" class="latex" alt="$\boxed{\frac{15}{19} \ \mathbf{(D)}}$" style="vertical-align: -18px" width="69" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_the_Beauty_of_Math">Video Solution by the Beauty of Math</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=W5NlV2B_83U&amp;feature=push-u-sub&amp;attr_tag=XAAsHxmGZAHEdZgT%3A6">https://www.youtube.com/watch?v=W5NlV2B_83U&amp;feature=push-u-sub&amp;attr_tag=XAAsHxmGZAHEdZgT%3A6</a>
+</p><p>~Icematrix
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2011_AMC_10A" title="2011 AMC 10A">2011 AMC 10A</a></b> (<b><a href="/wiki/index.php/2011_AMC_10A_Problems" title="2011 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_10A_Answer_Key" title="2011 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_20" title="2011 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_22" title="2011 AMC 10A Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2011 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_2" class="mw-redirect" title="2011 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_3" title="2011 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_4" title="2011 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_5" class="mw-redirect" title="2011 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_6" title="2011 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_7" title="2011 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_8" title="2011 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_9" title="2011 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_10" class="mw-redirect" title="2011 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_11" title="2011 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_12" class="mw-redirect" title="2011 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_13" title="2011 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2011 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_15" title="2011 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_16" title="2011 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2011 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_18" class="mw-redirect" title="2011 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_19" title="2011 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_20" title="2011 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_22" title="2011 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_23" title="2011 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_24" title="2011 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2011 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208135858
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.113 seconds
+Real time usage: 0.281 seconds
+Preprocessor visited node count: 559/1000000
+Preprocessor generated node count: 1568/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8978/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   44.820      1 -total
+ 61.95%   27.768      1 Template:AMC10_box
+ 37.07%   16.616      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9067-0!canonical and timestamp 20230208135858 and revision id 153387
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_10A_Problems/Problem_21&amp;oldid=153387">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_10A_Problems/Problem_21&amp;oldid=153387</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209032838 -->
+</html>

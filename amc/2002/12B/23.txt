@@ -1,0 +1,261 @@
+<p>In <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" />, we have <img src="//latex.artofproblemsolving.com/e/5/a/e5a649aee592a9c37d2f9b5d5239f5e06e533130.png" class="latex" alt="$AB = 1$" style="vertical-align: 0px" width="60" height="13" /> and <img src="//latex.artofproblemsolving.com/2/8/6/286e989082359d570543d0269004ce484008ce68.png" class="latex" alt="$AC = 2$" width="60" height="13" />. Side <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> and the <a href="/wiki/index.php/Median_of_a_triangle" title="Median of a triangle">median</a> from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> have the same length. What is <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/0/1/e01c54924155006184b7c28da19d141ff2409010.png" class="latex" alt="$\mathrm{(A)}\ \frac{1+\sqrt{2}}{2} \qquad\mathrm{(B)}\ \frac{1+\sqrt{3}}2 \qquad\mathrm{(C)}\ \sqrt{2} \qquad\mathrm{(D)}\ \frac 32 \qquad\mathrm{(E)}\ \sqrt{3}$" style="vertical-align: -12px" width="478" height="41" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p><img src="//latex.artofproblemsolving.com/2/0/5/20552f4dac85af4806831750082aae9773f6b706.png" class="latexcenter" alt="[asy]  unitsize(4cm);  pair A, B, C, D, M;  A = (1.768,0.935); B = (1.414,0); C = (0,0); D = (1.768,0); M = (0.707,0);  draw(A--B--C--cycle); draw(A--D); draw(D--B); draw(A--M);  label(&quot;$A$&quot;,A,N); label(&quot;$B$&quot;,B,S); label(&quot;$C$&quot;,C,S); label(&quot;$D$&quot;,D,S); label(&quot;$M$&quot;,M,S); label(&quot;$x$&quot;,(A+D)/2,E); label(&quot;$y$&quot;,(B+D)/2,S); label(&quot;$a$&quot;,(C+M)/2,S); label(&quot;$a$&quot;,(M+B)/2,S); label(&quot;$2a$&quot;,(A+M)/2,SE); label(&quot;$1$&quot;,(A+B)/2,SE); label(&quot;$2$&quot;,(A+C)/2,NW);  draw(rightanglemark(B,D,A,3));  [/asy]" width="365" height="222" />
+</p><p>Let <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> be the foot of the altitude from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> extended past <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. Let <img src="//latex.artofproblemsolving.com/c/d/c/cdc975a5b35343ca18565b3a7cce9827d332bbbd.png" class="latex" alt="$AD = x$" width="63" height="13" /> and <img src="//latex.artofproblemsolving.com/8/5/7/85788f8dcf5ffb92327bf3a6751433064a5a6450.png" class="latex" alt="$BD = y$" style="vertical-align: -3px" width="63" height="16" />.
+Using the Pythagorean Theorem, we obtain the equations
+</p><p><img src="//latex.artofproblemsolving.com/8/3/4/8349c8156e4b5b1bffc9a5003fc3597575d9a704.png" class="latexcenter" alt="\begin{align*}  x^2 + y^2 = 1 \hspace{0.5cm}(1)\\ x^2 + y^2 + 2ya + a^2 = 4a^2 \hspace{0.5cm}(2)\\ x^2 + y^2 + 4ya + 4a^2 = 4 \hspace{0.5cm}(3) \end{align*}" width="242" height="75" />
+</p><p>Subtracting <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" /> equation from <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" /> and <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" />, we get
+</p><p><img src="//latex.artofproblemsolving.com/d/e/2/de2d2ff46f69061b7b7bd7f20a74d1c1adbbae08.png" class="latexcenter" alt="\begin{align*} 2ya + a^2 = 4a^2 - 1 \hspace{0.5cm}(4)\\ 4ya + 4a^2 = 3 \hspace{0.5cm}(5) \end{align*}" width="194" height="47" />
+</p><p>Then, subtracting <img src="//latex.artofproblemsolving.com/e/b/f/ebf9b0d33251531e39f00dcb5dde9f96de857fe4.png" class="latex" alt="$2 \times (4)$" style="vertical-align: -4px" width="53" height="18" /> from <img src="//latex.artofproblemsolving.com/7/3/7/737a366a904e00f936f8728869ad8f2587dab46f.png" class="latex" alt="$(5)$" style="vertical-align: -4px" width="21" height="18" /> and rearranging, we get <img src="//latex.artofproblemsolving.com/3/2/3/323737af46a15ea9df7570b0ff9e1743a78b096c.png" class="latex" alt="$10a^2 = 5$" style="vertical-align: 0px" width="68" height="15" />, so <img src="//latex.artofproblemsolving.com/e/5/f/e5ff02f26f2b0fd8323a4a65dfe0e6b6eb6fcd4e.png" class="latex" alt="$BC = 2a = \sqrt{2}\Rightarrow \boxed{\mathrm{(C)}}$" style="vertical-align: -10px" width="187" height="29" />
+</p><p>~greenturtle 11/28/2017
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p><a href="/wiki/index.php/File:2002_12B_AMC-23.png" class="image"><img alt="2002 12B AMC-23.png" src="https://wiki-images.artofproblemsolving.com//9/98/2002_12B_AMC-23.png" width="278" height="121" /></a>
+</p><p>Let <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> be the foot of the median from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" />, and we let <img src="//latex.artofproblemsolving.com/b/2/c/b2c9e0fdf79fc97acdc927584a47f082da0c13ee.png" class="latex" alt="$AD = BC = 2a$" width="125" height="13" />. Then by the <a href="/wiki/index.php/Law_of_Cosines" title="Law of Cosines">Law of Cosines</a> on <img src="//latex.artofproblemsolving.com/9/1/1/9119fa445a3201bfaa4eeb8bab4fb63ba4a15b3d.png" class="latex" alt="$\triangle ABD, \triangle ACD$" style="vertical-align: -3px" width="127" height="17" />, we have 
+<img src="//latex.artofproblemsolving.com/8/2/5/825119a3151ab7cbe20f9219217e9e0388e29b20.png" class="latexcenter" alt="\begin{align*} 1^2 &amp;= a^2 + (2a)^2 - 2(a)(2a)\cos ADB \\ 2^2 &amp;= a^2 + (2a)^2 - 2(a)(2a)\cos ADC  \end{align*}" width="281" height="47" />
+</p><p>Since <img src="//latex.artofproblemsolving.com/e/7/a/e7a835092dad3bd2ae3bf04a6c52cf56931e780e.png" class="latex" alt="$\cos ADC = \cos (180 - ADB) = -\cos ADB$" style="vertical-align: -4px" width="339" height="18" />, we can add these two equations and get 
+</p><p><img src="//latex.artofproblemsolving.com/b/7/e/b7ef5bf2a35df8f95e354145fc0ffc141e39ae7a.png" class="latexcenter" alt="\[5 = 10a^2\]" width="66" height="15" />
+</p><p>Hence <img src="//latex.artofproblemsolving.com/5/2/3/5230645e90ec7f6957a44a32a3be2d6421db2d5c.png" class="latex" alt="$a = \frac{1}{\sqrt{2}}$" style="vertical-align: -17px" width="60" height="41" /> and <img src="//latex.artofproblemsolving.com/3/1/7/3175e01d90a75b34b5da8687241cbd7bbcbdc2ec.png" class="latex" alt="$BC = 2a = \sqrt{2} \Rightarrow \mathrm{(C)}$" style="vertical-align: -4px" width="174" height="21" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>From <a href="/wiki/index.php/Stewart%27s_Theorem" class="mw-redirect" title="Stewart&#39;s Theorem">Stewart's Theorem</a>, we have <img src="//latex.artofproblemsolving.com/8/8/b/88be3abe86be5ec685cab0597b12cbec10267176.png" class="latex" alt="$(2)(1/2)a(2) + (1)(1/2)a(1) = (a)(a)(a) + (1/2)a(a)(1/2)a.$" style="vertical-align: -4px" width="463" height="18" /> Simplifying, we get <img src="//latex.artofproblemsolving.com/e/b/4/eb4b1da8b0fb1c2abd9c879d640b4fc1a16d330e.png" class="latex" alt="$(5/4)a^3 = (5/2)a \implies (5/4)a^2 = 5/2 \implies a^2 = 2 \implies a = \boxed{\sqrt{2}}.$" style="vertical-align: -7px" width="515" height="30" />
+- awu2014
+</p>
+<h3><span id="Solution_4_[Pappus's_Median_Theorem]"></span><span class="mw-headline" id="Solution_4_.5BPappus.27s_Median_Theorem.5D">Solution 4 [Pappus's Median Theorem]</span></h3>
+<p>There is a theorem in geometry known as Pappus's Median Theorem. It states that if you have triangle ABC, and you draw a median from point A to side BC (label this as Ma), then: (Ma)^2 = (1/4)(2(b^2) + 2(c^2) - (a^2)). Note that b is side AC, c is side AB, and a is side BC. For this specific problem, call where the median from A hits side BC point M. Let MB = MC = x. Then AM = 2x. Now, we can plug into the formula given above: Ma = 2x, b = 2, c = 1, and a = 2x. After some simple algebra, we find x = sqrt(2)/2. Then, BC = a = sqrt(2). 
+</p><p>-Flames
+</p>
+<h3><span class="mw-headline" id="Video_Solution_by_TheBeautyofMath">Video Solution by TheBeautyofMath</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/jEVMgWKQIW8">https://youtu.be/jEVMgWKQIW8</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2002_AMC_12B" title="2002 AMC 12B">2002 AMC 12B</a></b> (<b><a href="/wiki/index.php/2002_AMC_12B_Problems" title="2002 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_12B_Answer_Key" title="2002 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_1" title="2002 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_2" title="2002 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_3" title="2002 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_5" title="2002 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_7" title="2002 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_8" title="2002 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_9" title="2002 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_10" title="2002 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_12" title="2002 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_14" title="2002 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_15" title="2002 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_16" title="2002 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_17" title="2002 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_18" title="2002 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_19" title="2002 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_21" title="2002 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a class="mw-selflink selflink">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_25" title="2002 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208113133
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.084 seconds
+Real time usage: 0.087 seconds
+Preprocessor visited node count: 437/1000000
+Preprocessor generated node count: 1292/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7212/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.211      1 -total
+ 78.66%    5.672      1 Template:AMC12_box
+ 19.39%    1.398      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6288-0!canonical and timestamp 20230208113133 and revision id 175737
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_23&amp;oldid=175737">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_23&amp;oldid=175737</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208183529 -->
+</html>

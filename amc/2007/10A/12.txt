@@ -1,0 +1,14 @@
+<p>Two tour guides are leading six tourists. The guides decide to split up. Each tourist must choose one of the guides, but with the stipulation that each guide must take at least one tourist. How many different groupings of guides and tourists are possible?
+</p><p><img src="//latex.artofproblemsolving.com/5/9/b/59b4b00b7ffa592379537a901f464e3719a88a07.png" class="latex" alt="$\text{(A)}\ 56 \qquad \text{(B)}\ 58 \qquad \text{(C)}\ 60 \qquad \text{(D)}\ 62 \qquad \text{(E)}\ 64$" style="vertical-align: -4px" width="376" height="17" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/0W3VmFp55cM?t=3352">https://youtu.be/0W3VmFp55cM?t=3352</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Each tourist has to pick in between the <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> guides, so for <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> tourists there are <img src="//latex.artofproblemsolving.com/a/9/1/a91d92ded08453fe4662a56223d382b4cba6aa35.png" class="latex" alt="$2^6$" width="15" height="15" /> possible groupings. However, since each guide must take at least one tourist, we subtract the <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> cases where a guide has no tourist. Thus the answer is <img src="//latex.artofproblemsolving.com/0/3/1/031943df9d2d7b8fa44761ba3bb5d01005fc2268.png" class="latex" alt="$2^6 - 2 = \boxed{62}\ \mathrm{(D)}$" style="vertical-align: -5px" width="133" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Without loss of generality, let's call one of the tour guides tour guide A, and the other tour guide B. To count the number of total groupings of guides and tourists possible, we can count the number of ways some number of tourists go to tour guide A. Thus, we can see that the total number of groupings is:
+<img src="//latex.artofproblemsolving.com/f/d/b/fdbdbb612a106baee976917991e6f10fe4ffee60.png" class="latexcenter" alt="\[\binom{6}{1} + \binom{6}{2} + \binom{6}{3} + \binom{6}{4} + \binom{6}{5} = \boxed{62} \text{ (D)}\]" width="354" height="53" />
+</p>

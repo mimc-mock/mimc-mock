@@ -1,0 +1,273 @@
+<p>The mean, median, unique mode, and range of a collection of eight integers are all equal to 8. The largest integer that can be an element of this collection is 
+</p><p><img src="//latex.artofproblemsolving.com/3/d/b/3dbc1285494ac244dcaefe6d3beb466f339dcc19.png" class="latex" alt="$\text{(A) }11 \qquad \text{(B) }12 \qquad \text{(C) }13 \qquad \text{(D) }14 \qquad \text{(E) }15$" style="vertical-align: -4px" width="375" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>As the unique mode is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, there are at least two <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />s.
+</p><p>As the range is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> and one of the numbers is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, the largest one can be at most <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />.
+</p><p>If the largest one is <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />, then the smallest one is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, and thus the mean is strictly larger than <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, which is a contradiction.
+</p><p>If we have 2 8's we can add find the numbers 4, 6, 7, 8, 8, 9, 10, 12.
+This is a possible solution but has not reached the maximum.
+</p><p>If we have 4 8's we can find the numbers 6, 6, 6, 8, 8, 8, 8, 14.
+</p><p>We can also see that they satisfy the need for the mode, median, and range to be 8. This means that the answer will be
+<img src="//latex.artofproblemsolving.com/6/3/3/633e41dd80e3df880bb39bc696a89d119fd27faf.png" class="latex" alt="$\boxed{\text{(D)}\ 14 }$" style="vertical-align: -10px" width="61" height="28" />. ~By QWERTYUIOPASDFGHJKLZXCVBNM
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We could express this collection as integers <img src="//latex.artofproblemsolving.com/b/1/0/b104a7cec6854200c0282dccf53f4311a306a1c9.png" class="latex" alt="$a\textsubscript{1}$" style="vertical-align: -4px" width="19" height="13" /> through <img src="//latex.artofproblemsolving.com/a/d/1/ad1c6f33c16d12b510187e59253a3b9a69e6491f.png" class="latex" alt="$a\textsubscript{8}$" style="vertical-align: -4px" width="19" height="13" />, with <img src="//latex.artofproblemsolving.com/b/1/0/b104a7cec6854200c0282dccf53f4311a306a1c9.png" class="latex" alt="$a\textsubscript{1}$" style="vertical-align: -4px" width="19" height="13" /> being the smallest and <img src="//latex.artofproblemsolving.com/a/d/1/ad1c6f33c16d12b510187e59253a3b9a69e6491f.png" class="latex" alt="$a\textsubscript{8}$" style="vertical-align: -4px" width="19" height="13" /> being the largest.
+</p><p>Since the mean is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, we know that <img src="//latex.artofproblemsolving.com/d/5/3/d53909d77d352b88e5a4f4d7034ae5e49dafcb4f.png" class="latex" alt="$a\textsubscript{4}$" style="vertical-align: -4px" width="19" height="13" /> and <img src="//latex.artofproblemsolving.com/e/e/a/eeae93118449d53a43022ef1a6ca94a9db21a580.png" class="latex" alt="$a\textsubscript{5}$" style="vertical-align: -4px" width="19" height="13" /> must also be <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />. If they were not, the other numbers, which are lesser and greater than <img src="//latex.artofproblemsolving.com/d/5/3/d53909d77d352b88e5a4f4d7034ae5e49dafcb4f.png" class="latex" alt="$a\textsubscript{4}$" style="vertical-align: -4px" width="19" height="13" /> and <img src="//latex.artofproblemsolving.com/e/e/a/eeae93118449d53a43022ef1a6ca94a9db21a580.png" class="latex" alt="$a\textsubscript{5}$" style="vertical-align: -4px" width="19" height="13" /> respectively, would not be able to satisfy the condition that <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> is the mode.
+</p><p>There are <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> terms and the mean is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />. This tells us that the sum of all the numbers is <img src="//latex.artofproblemsolving.com/0/5/e/05e228ac5bee7b9ffb60cacf50f3f2c7c31f8038.png" class="latex" alt="$64$" style="vertical-align: 0px" width="18" height="13" />.
+</p><p>We want to maximize the value of <img src="//latex.artofproblemsolving.com/a/d/1/ad1c6f33c16d12b510187e59253a3b9a69e6491f.png" class="latex" alt="$a\textsubscript{8}$" style="vertical-align: -4px" width="19" height="13" />, so we set  <img src="//latex.artofproblemsolving.com/0/b/e/0bea182db8605801e31b1adc79bc2012173dc980.png" class="latex" alt="$a\textsubscript{6}$" style="vertical-align: -4px" width="19" height="13" /> and <img src="//latex.artofproblemsolving.com/7/9/3/79396341648ef156f24614916cf47f8d9e78d365.png" class="latex" alt="$a\textsubscript{7}$" style="vertical-align: -4px" width="19" height="13" /> to <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> as well.
+</p><p>Knowing that we want to minimize numbers and that the range is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> , we set <img src="//latex.artofproblemsolving.com/b/1/0/b104a7cec6854200c0282dccf53f4311a306a1c9.png" class="latex" alt="$a\textsubscript{1}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/9/9/5/9957b63459be81449ac74819db2000948ea0a835.png" class="latex" alt="$a\textsubscript{2}$" style="vertical-align: -4px" width="19" height="13" />, and <img src="//latex.artofproblemsolving.com/b/3/4/b3486021d68eeaccbd4d3f79417a9cf7231cfbd6.png" class="latex" alt="$a\textsubscript{3}$" style="vertical-align: -4px" width="19" height="13" /> equal to <img src="//latex.artofproblemsolving.com/8/7/5/875e7d1aabb6d910db47867c8d59476346a3ac97.png" class="latex" alt="$a\textsubscript{8} - 8$" style="vertical-align: -4px" width="50" height="17" />.
+</p><p>{<img src="//latex.artofproblemsolving.com/b/1/0/b104a7cec6854200c0282dccf53f4311a306a1c9.png" class="latex" alt="$a\textsubscript{1}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/9/9/5/9957b63459be81449ac74819db2000948ea0a835.png" class="latex" alt="$a\textsubscript{2}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/b/3/4/b3486021d68eeaccbd4d3f79417a9cf7231cfbd6.png" class="latex" alt="$a\textsubscript{3}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/d/5/3/d53909d77d352b88e5a4f4d7034ae5e49dafcb4f.png" class="latex" alt="$a\textsubscript{4}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/e/e/a/eeae93118449d53a43022ef1a6ca94a9db21a580.png" class="latex" alt="$a\textsubscript{5}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/0/b/e/0bea182db8605801e31b1adc79bc2012173dc980.png" class="latex" alt="$a\textsubscript{6}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/7/9/3/79396341648ef156f24614916cf47f8d9e78d365.png" class="latex" alt="$a\textsubscript{7}$" style="vertical-align: -4px" width="19" height="13" />, <img src="//latex.artofproblemsolving.com/a/d/1/ad1c6f33c16d12b510187e59253a3b9a69e6491f.png" class="latex" alt="$a\textsubscript{8}$" style="vertical-align: -4px" width="19" height="13" />} <img src="//latex.artofproblemsolving.com/d/5/e/d5eb8726a34932d28103ce7ce17456421222603f.png" class="latex" alt="$=$" style="vertical-align: 2px" width="13" height="5" /> {<img src="//latex.artofproblemsolving.com/8/7/5/875e7d1aabb6d910db47867c8d59476346a3ac97.png" class="latex" alt="$a\textsubscript{8} - 8$" style="vertical-align: -4px" width="50" height="17" />, <img src="//latex.artofproblemsolving.com/8/7/5/875e7d1aabb6d910db47867c8d59476346a3ac97.png" class="latex" alt="$a\textsubscript{8} - 8$" style="vertical-align: -4px" width="50" height="17" />, <img src="//latex.artofproblemsolving.com/8/7/5/875e7d1aabb6d910db47867c8d59476346a3ac97.png" class="latex" alt="$a\textsubscript{8} - 8$" style="vertical-align: -4px" width="50" height="17" />, <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/a/d/1/ad1c6f33c16d12b510187e59253a3b9a69e6491f.png" class="latex" alt="$a\textsubscript{8}$" style="vertical-align: -4px" width="19" height="13" />}
+</p><p>Letting the sum of all the numbers be <img src="//latex.artofproblemsolving.com/0/5/e/05e228ac5bee7b9ffb60cacf50f3f2c7c31f8038.png" class="latex" alt="$64$" style="vertical-align: 0px" width="18" height="13" />, we find that <img src="//latex.artofproblemsolving.com/3/3/c/33c019d396974387dc3fca23a1f717a35b9b610d.png" class="latex" alt="$32 + 4a_8 - 24 = 64$" style="vertical-align: -4px" width="151" height="17" />, which simplifies to <img src="//latex.artofproblemsolving.com/7/a/b/7ab69cfbd1a9cb18424d23af8dfc091c16fbdaec.png" class="latex" alt="$4a_8 = 56$" style="vertical-align: -4px" width="70" height="17" />. Solving, we get <img src="//latex.artofproblemsolving.com/6/3/3/633e41dd80e3df880bb39bc696a89d119fd27faf.png" class="latex" alt="$\boxed{\text{(D)}\ 14 }$" style="vertical-align: -10px" width="61" height="28" />. ~By SK80, mod_x for minor edits
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/xqo0PgH-h8Y?t=848">https://youtu.be/xqo0PgH-h8Y?t=848</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/BNa1Ffu517I">https://youtu.be/BNa1Ffu517I</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2002_AMC_12A" title="2002 AMC 12A">2002 AMC 12A</a></b> (<b><a href="/wiki/index.php/2002_AMC_12A_Problems" title="2002 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_12A_Answer_Key" title="2002 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_14" title="2002 AMC 12A Problems/Problem 14">Problem 14</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_16" title="2002 AMC 12A Problems/Problem 16">Problem 16</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_1" title="2002 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_2" title="2002 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_3" title="2002 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_4" title="2002 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_5" title="2002 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_6" title="2002 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_7" title="2002 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_8" title="2002 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_9" title="2002 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_10" title="2002 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_11" title="2002 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_12" title="2002 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_13" title="2002 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_14" title="2002 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a class="mw-selflink selflink">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_16" title="2002 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_17" title="2002 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_18" title="2002 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_19" title="2002 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_20" title="2002 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_21" title="2002 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_22" title="2002 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_23" title="2002 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_24" title="2002 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12A_Problems/Problem_25" title="2002 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2002_AMC_10A" title="2002 AMC 10A">2002 AMC 10A</a></b> (<b><a href="/wiki/index.php/2002_AMC_10A_Problems" title="2002 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_10A_Answer_Key" title="2002 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_20" title="2002 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_22" title="2002 AMC 10A Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_1" title="2002 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_2" title="2002 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2002 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_4" class="mw-redirect" title="2002 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_5" class="mw-redirect" title="2002 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_6" class="mw-redirect" title="2002 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_7" class="mw-redirect" title="2002 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2002 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_9" title="2002 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_10" class="mw-redirect" title="2002 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2002 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_12" class="mw-redirect" title="2002 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_13" title="2002 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2002 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_15" title="2002 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_16" title="2002 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2002 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_18" title="2002 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_19" title="2002 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_20" title="2002 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_21" class="mw-redirect" title="2002 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_22" title="2002 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_23" title="2002 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2002 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10A_Problems/Problem_25" title="2002 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209013239
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.122 seconds
+Real time usage: 0.129 seconds
+Preprocessor visited node count: 677/1000000
+Preprocessor generated node count: 2194/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9384/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   24.703      1 -total
+ 23.98%    5.923      1 Template:AMC12_box
+ 22.90%    5.656      1 Template:AMC10_box
+  7.83%    1.934      1 Template:Duplicate
+  6.59%    1.627      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7871-0!canonical and timestamp 20230209013239 and revision id 186749
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12A_Problems/Problem_15&amp;oldid=186749">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12A_Problems/Problem_15&amp;oldid=186749</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209033044 -->
+</html>

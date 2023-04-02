@@ -1,0 +1,252 @@
+<p>An <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />-foot by <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />-foot bathroom floor is tiled with square tiles of size <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> foot by <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> foot.  Each tile has a pattern consisting of four white quarter circles of radius <img src="//latex.artofproblemsolving.com/1/f/3/1f3cc0ad966b3e637cd199607cbf0d1befc0e491.png" class="latex" alt="$1/2$" style="vertical-align: -4px" width="26" height="18" /> foot centered at each corner of the tile.  The remaining portion of the tile is shaded.  How many square feet of the floor are shaded?
+</p><p><img src="//latex.artofproblemsolving.com/c/b/e/cbe2bb4966beb1c1cbc889938c8e120b7d80639b.png" class="latexcenter" alt="[asy] unitsize(2cm); defaultpen(linewidth(.8pt)); fill(unitsquare,gray); filldraw(Arc((0,0),.5,0,90)--(0,0)--cycle,white,black); filldraw(Arc((1,0),.5,90,180)--(1,0)--cycle,white,black); filldraw(Arc((1,1),.5,180,270)--(1,1)--cycle,white,black); filldraw(Arc((0,1),.5,270,360)--(0,1)--cycle,white,black); [/asy]" width="98" height="98" />
+</p><p><img src="//latex.artofproblemsolving.com/d/9/5/d953ba9d249c20aa4700d32d3d861407f59f7ccc.png" class="latex" alt="$\textbf{(A) }\ 80-20\pi      \qquad \textbf{(B) }\ 60-10\pi      \qquad \textbf{(C) }\ 80-10\pi      \qquad \textbf{(D) }\ 60+10\pi      \qquad \textbf{(E) }\ 80+10\pi$" style="vertical-align: -5px" width="685" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>There are <img src="//latex.artofproblemsolving.com/f/e/a/fea5fcc6d66685ee21f722efcd228eb44d38f262.png" class="latex" alt="$80$" width="17" height="12" /> tiles.  Each tile has <img src="//latex.artofproblemsolving.com/6/1/7/617c9a81577193c333f0b80c64514805a1e55857.png" class="latex" alt="$[\mbox{square} - 4 \cdot (\mbox{quarter circle})]$" style="vertical-align: -5px" width="210" height="18" /> shaded.  Thus:
+</p><p><img src="//latex.artofproblemsolving.com/1/9/6/196e2b269a7dde966c160cf65bde833a9d4a2840.png" class="latexcenter" alt="\begin{align*} \mbox{shaded area} &amp;= 80 \left( 1 - 4 \cdot \dfrac{1}{4} \cdot \pi \cdot \left(\dfrac{1}{2}\right)^2\right) \\ &amp;= 80\left(1-\dfrac{1}{4}\pi\right) \\ &amp;= \boxed{\textbf{(A) }80-20\pi}. \end{align*}" width="305" height="137" />
+4 quarters of a circle is a circle so that may save you 0.5 seconds&#160;:)
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2005_AMC_10B" title="2005 AMC 10B">2005 AMC 10B</a></b> (<b><a href="/wiki/index.php/2005_AMC_10B_Problems" title="2005 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2005_AMC_10B_Answer_Key" title="2005 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_7" title="2005 AMC 10B Problems/Problem 7">Problem 7</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_9" title="2005 AMC 10B Problems/Problem 9">Problem 9</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_1" class="mw-redirect" title="2005 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_2" class="mw-redirect" title="2005 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_3" title="2005 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_4" title="2005 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2005 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_6" class="mw-redirect" title="2005 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_7" title="2005 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2005 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_9" title="2005 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2005 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_11" class="mw-redirect" title="2005 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_12" title="2005 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_13" title="2005 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_14" title="2005 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2005 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_16" class="mw-redirect" title="2005 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_17" title="2005 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_18" title="2005 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2005 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_20" title="2005 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_21" title="2005 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_22" title="2005 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_23" title="2005 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_24" title="2005 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_10B_Problems/Problem_25" title="2005 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2005_AMC_12B" title="2005 AMC 12B">2005 AMC 12B</a></b> (<b><a href="/wiki/index.php/2005_AMC_12B_Problems" title="2005 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2005_AMC_12B_Answer_Key" title="2005 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_4" title="2005 AMC 12B Problems/Problem 4">Problem 4</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_6" title="2005 AMC 12B Problems/Problem 6">Problem 6</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_1" title="2005 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_2" title="2005 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_3" title="2005 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_4" title="2005 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a class="mw-selflink selflink">5</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_6" title="2005 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_7" title="2005 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_8" title="2005 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_9" title="2005 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_10" title="2005 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_11" title="2005 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_12" title="2005 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_13" title="2005 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_14" title="2005 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_15" title="2005 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_16" title="2005 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_17" title="2005 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_18" title="2005 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_19" title="2005 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_20" title="2005 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_21" title="2005 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_22" title="2005 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_23" title="2005 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_24" title="2005 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2005_AMC_12B_Problems/Problem_25" title="2005 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402213745
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.085 seconds
+Real time usage: 0.090 seconds
+Preprocessor visited node count: 269/1000000
+Preprocessor generated node count: 1302/1000000
+Post‐expand include size: 4315/2097152 bytes
+Template argument size: 395/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2354/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   17.814      1 -total
+ 31.60%    5.629      1 Template:AMC10_box
+ 29.10%    5.184      1 Template:AMC12_box
+ 12.33%    2.196      1 Template:Duplicate
+  9.75%    1.737      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2393-0!canonical and timestamp 20230402213745 and revision id 167745
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_12B_Problems/Problem_5&amp;oldid=167745">https://artofproblemsolving.com/wiki/index.php?title=2005_AMC_12B_Problems/Problem_5&amp;oldid=167745</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:Area_Problems" title="Category:Area Problems">Area Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

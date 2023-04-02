@@ -1,0 +1,18 @@
+<p>Mike cycled <img src="//latex.artofproblemsolving.com/f/1/9/f1965fae079a9ba2c0726c307070c2355dfcb213.png" class="latex" alt="$15$" style="vertical-align: 0px" width="17" height="13" /> laps in <img src="//latex.artofproblemsolving.com/4/b/1/4b14ef560acadba8244952e9a8d5481f494445dc.png" class="latex" alt="$57$" width="18" height="12" /> minutes. Assume he cycled at a constant speed throughout. Approximately how many laps did he complete in the first <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" /> minutes?
+</p><p><img src="//latex.artofproblemsolving.com/4/f/1/4f1490d05bbc679c9c4efd790f535bd326ff5e19.png" class="latex" alt="$\textbf{(A) } 5 \qquad\textbf{(B) } 7 \qquad\textbf{(C) } 9 \qquad\textbf{(D) } 11 \qquad\textbf{(E) } 13$" style="vertical-align: -5px" width="373" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Mike's speed is <img src="//latex.artofproblemsolving.com/c/c/7/cc7d9df8cbf947a7ee078d0473a14c0a7f596f90.png" class="latex" alt="$\frac{15}{57}=\frac{5}{19}$" style="vertical-align: -13px" width="70" height="38" /> laps per minute.
+</p><p>In the first <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" /> minutes, he completed approximately <img src="//latex.artofproblemsolving.com/b/5/0/b503bd302356c034ce7260fc9e18a626333ac12a.png" class="latex" alt="$\frac{5}{19}\cdot27\approx\frac{1}{4}\cdot28=\boxed{\textbf{(B) } 7}$" style="vertical-align: -13px" width="203" height="38" /> laps.
+</p><p>~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Mike runs <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> lap in <img src="//latex.artofproblemsolving.com/5/0/b/50bb9ca393bc8bd2e4d2d9881db83b6896d578c6.png" class="latex" alt="$\frac{57}{15}=\frac{19}{5}$" style="vertical-align: -13px" width="70" height="38" /> minutes. So, in <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" /> minutes, Mike ran about <img src="//latex.artofproblemsolving.com/6/6/6/666b97ab642b519164fa24847eb4a61e333d2412.png" class="latex" alt="$\frac{27}{\frac{19}{5}} \approx \boxed{\textbf{(B) }7}$" style="vertical-align: -20px" width="103" height="45" /> laps.
+</p><p>~MrThinker
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Mike's rate is <img src="//latex.artofproblemsolving.com/0/2/3/02357c82cc38c7308d0a04ce97912d5a1782a45a.png" class="latexcenter" alt="\[\frac{15}{57}=\frac{x}{27},\]" width="70" height="38" /> where <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is the number of laps he can complete in <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" /> minutes. 
+If you cross multiply, <img src="//latex.artofproblemsolving.com/e/3/9/e3935b1c87389b9e98edbfb618882574e334d25c.png" class="latex" alt="$57x = 405$" style="vertical-align: -1px" width="82" height="14" />. 
+</p><p>So, <img src="//latex.artofproblemsolving.com/3/1/7/317cbb2f75bcb8e1d932e8b87ac09964a1ec796f.png" class="latex" alt="$x = \frac{405}{57} \approx \boxed{\textbf{(B) }7}$" style="vertical-align: -13px" width="147" height="38" />. 
+</p><p>~Shiloh000
+</p>

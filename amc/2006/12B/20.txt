@@ -1,0 +1,246 @@
+<p>Let <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> be chosen at random from the interval <img src="//latex.artofproblemsolving.com/b/e/1/be11a56a55425d6c6b69f70f5fa98eab95e8ad18.png" class="latex" alt="$(0,1)$" style="vertical-align: -4px" width="38" height="18" />. What is the probability that
+<img src="//latex.artofproblemsolving.com/9/9/5/9954af0afc226930c792cbc2e0668ef1fc1f7872.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor - \lfloor\log_{10}x\rfloor = 0$" style="vertical-align: -5px" width="198" height="19" />?
+Here <img src="//latex.artofproblemsolving.com/4/4/1/441416e660d25335f27e55334ac2a06e51541c97.png" class="latex" alt="$\lfloor x\rfloor$" style="vertical-align: -5px" width="23" height="19" /> denotes the greatest integer that is less than or equal to <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />.
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/0/8/6/086c22a6e12fd8a862c2c553dba0670d085718ac.png" class="latex" alt="$\mathrm{(A)}\ \frac 18 \qquad \mathrm{(B)}\ \frac 3{20} \qquad \mathrm{(C)}\ \frac 16 \qquad \mathrm{(D)}\ \frac 15  \qquad \mathrm{(E)}\ \frac 14$" style="vertical-align: -13px" width="370" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> be an arbitrary integer. For which <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> do we have <img src="//latex.artofproblemsolving.com/b/9/a/b9ab95f789c6b50ebe31b2e923db5973738d88c2.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor = \lfloor\log_{10}x\rfloor = k$" style="vertical-align: -5px" width="201" height="19" />?
+</p><p>The equation <img src="//latex.artofproblemsolving.com/e/4/d/e4d2e3a674af7e0f0f24b6da1a238137faf57d35.png" class="latex" alt="$\lfloor\log_{10}x\rfloor = k$" style="vertical-align: -5px" width="101" height="19" /> can be rewritten as <img src="//latex.artofproblemsolving.com/5/2/9/5295da19eb2aa649b3708d9385b3d595e67a7050.png" class="latex" alt="$10^k \leq x &lt; 10^{k+1}$" style="vertical-align: -2px" width="126" height="18" />. The second one gives us <img src="//latex.artofproblemsolving.com/9/0/d/90d2b032d1babb94ef22f86ebf596b67fdf720f7.png" class="latex" alt="$10^k \leq 4x &lt; 10^{k+1}$" style="vertical-align: -2px" width="135" height="18" />. Combining these, we get that both hold at the same time if and only if <img src="//latex.artofproblemsolving.com/1/f/5/1f53cc25e2458f5bf8f797866075ca1216f7f94d.png" class="latex" alt="$10^k \leq x &lt; \frac{10^{k+1}}4$" style="vertical-align: -13px" width="130" height="40" />.
+</p><p>Hence for each integer <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> we get an interval of values for which <img src="//latex.artofproblemsolving.com/9/9/5/9954af0afc226930c792cbc2e0668ef1fc1f7872.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor - \lfloor\log_{10}x\rfloor = 0$" style="vertical-align: -5px" width="198" height="19" />. These intervals are obviously pairwise disjoint.
+</p><p>For any <img src="//latex.artofproblemsolving.com/2/3/f/23fa365b4a0751d7292384305fbca7fb7329316e.png" class="latex" alt="$k\geq 0$" style="vertical-align: -2px" width="43" height="15" /> the corresponding interval is disjoint with <img src="//latex.artofproblemsolving.com/b/e/1/be11a56a55425d6c6b69f70f5fa98eab95e8ad18.png" class="latex" alt="$(0,1)$" style="vertical-align: -4px" width="38" height="18" />, so it does not contribute to our answer. On the other hand, for any <img src="//latex.artofproblemsolving.com/f/0/b/f0b043119262a2beb49176cb4beb5c50ec1915a2.png" class="latex" alt="$k&lt;0$" style="vertical-align: 0px" width="43" height="13" /> the entire interval is inside <img src="//latex.artofproblemsolving.com/b/e/1/be11a56a55425d6c6b69f70f5fa98eab95e8ad18.png" class="latex" alt="$(0,1)$" style="vertical-align: -4px" width="38" height="18" />. Hence our answer is the sum of the lengths of the intervals for <img src="//latex.artofproblemsolving.com/f/0/b/f0b043119262a2beb49176cb4beb5c50ec1915a2.png" class="latex" alt="$k&lt;0$" style="vertical-align: 0px" width="43" height="13" />.
+</p><p>For a fixed <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> the length of the interval <img src="//latex.artofproblemsolving.com/c/4/7/c47f27f00a17b2434ddf1a50a456d596a97cbd0e.png" class="latex" alt="$\left[ 10^k, \frac{10^{k+1}}4 \right)$" style="vertical-align: -17px" width="100" height="44" /> is <img src="//latex.artofproblemsolving.com/4/d/3/4d35635182849bae8e118fc4b5205c8650697cd0.png" class="latex" alt="$\frac 32\cdot 10^k$" style="vertical-align: -12px" width="51" height="37" />. 
+</p><p>This means that our result is <img src="//latex.artofproblemsolving.com/6/6/3/66362d70547dfaf83aff31571d3591cd0ed58ff1.png" class="latex" alt="$\frac 32 \left( 10^{-1} + 10^{-2} + \cdots \right) = \frac 32 \cdot \frac 19 = \boxed{\frac 16}$" style="vertical-align: -18px" width="285" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>The largest value for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/a/d/2/ad23c112010fbf57d3d35bb956c54b44a1d64c4e.png" class="latex" alt="$10^{0}$" style="vertical-align: 0px" width="24" height="15" />. If <img src="//latex.artofproblemsolving.com/3/e/c/3ecdf579f047118eed51c59652bb79fff813df60.png" class="latex" alt="$x &gt; 10^{-1}$" style="vertical-align: 0px" width="68" height="15" />, then <img src="//latex.artofproblemsolving.com/6/f/c/6fce809a49cf02d76de2cd32309546c0498e1918.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor$" style="vertical-align: -5px" width="73" height="19" /> doesn't fulfill the condition unless <img src="//latex.artofproblemsolving.com/8/3/6/8365ca24fc34a05a85b5b3c32d9049b4f96e81b1.png" class="latex" alt="$10^{-2} \leq x &lt; 0.25 * 10^{-1}$" style="vertical-align: -2px" width="178" height="17" />. The same holds when you get smaller, because <img src="//latex.artofproblemsolving.com/f/b/5/fb55554c1b2f63a8a8c22789bdc07fa54bfbea83.png" class="latex" alt="$x = 0.25 * 10^{n}$" style="vertical-align: 0px" width="110" height="13" /> for <img src="//latex.artofproblemsolving.com/4/7/e/47e4f873107bffa06aff7bf154f25daac593cecc.png" class="latex" alt="$n \leq 0$" style="vertical-align: -2px" width="43" height="15" /> is the lowest value such that <img src="//latex.artofproblemsolving.com/e/d/4/ed4977828049d99f20ccd3b4acb6bbd43c2eb70f.png" class="latex" alt="$4x$" style="vertical-align: 0px" width="19" height="12" /> becomes a higher power of 10.
+</p><p>Recognize that this is a geometric sequence. The probability of choosing <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> such that  <img src="//latex.artofproblemsolving.com/6/f/c/6fce809a49cf02d76de2cd32309546c0498e1918.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor$" style="vertical-align: -5px" width="73" height="19" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5d9273cd203ec290c30286a608c73e501ad347.png" class="latex" alt="$\lfloor\log_{10}x\rfloor$" style="vertical-align: -5px" width="64" height="19" /> both equal <img src="//latex.artofproblemsolving.com/b/a/e/bae5aba07d37ff6ff813107e76260fb31ad5794e.png" class="latex" alt="$-1$" style="vertical-align: 0px" width="22" height="12" /> is <img src="//latex.artofproblemsolving.com/4/7/2/472449a81b0591e71269e557b418e59fc8fc64fa.png" class="latex" alt="$(9/10)* (15/90) =15/100$" style="vertical-align: -4px" width="205" height="18" />, because there is a 90 percent chance of choosing <img src="//latex.artofproblemsolving.com/3/e/c/3ecdf579f047118eed51c59652bb79fff813df60.png" class="latex" alt="$x &gt; 10^{-1}$" style="vertical-align: 0px" width="68" height="15" />, and only values of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> between <img src="//latex.artofproblemsolving.com/f/a/0/fa0a382ce3d6bb1bb75ce59ed25bc26724c57450.png" class="latex" alt="$10^{-1}$" style="vertical-align: 0px" width="34" height="15" /> and <img src="//latex.artofproblemsolving.com/2/c/a/2ca53097709d5ea8add7dae667d3b3a9dc709cfc.png" class="latex" alt="$0.25*10^{0}$" style="vertical-align: 0px" width="73" height="15" /> work in this case. Then, for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> such that <img src="//latex.artofproblemsolving.com/6/f/c/6fce809a49cf02d76de2cd32309546c0498e1918.png" class="latex" alt="$\lfloor\log_{10}4x\rfloor$" style="vertical-align: -5px" width="73" height="19" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5d9273cd203ec290c30286a608c73e501ad347.png" class="latex" alt="$\lfloor\log_{10}x\rfloor$" style="vertical-align: -5px" width="64" height="19" /> both equal <img src="//latex.artofproblemsolving.com/6/2/a/62a76677add1d246708c86edfc7c4b8a40184914.png" class="latex" alt="$-2$" width="22" height="12" />, you have <img src="//latex.artofproblemsolving.com/c/9/3/c9379131e057c61783373c44e7dd5e89603b0f3b.png" class="latex" alt="$(1/10) * ((9/10) *(15/90))$" style="vertical-align: -4px" width="207" height="18" />. This is a geometric series with ratio <img src="//latex.artofproblemsolving.com/7/4/a/74a3d67ed68c56765f7050e4a060eb6de5470dd2.png" class="latex" alt="$1/10$" style="vertical-align: -4px" width="35" height="18" />. Using <img src="//latex.artofproblemsolving.com/4/f/5/4f5cb4536d71b01c01a8d04d369fbdb47b2f9224.png" class="latex" alt="$a/(1-r)$" style="vertical-align: -4px" width="71" height="18" /> for the sum of an infinite geometric sequence, we get <img src="//latex.artofproblemsolving.com/4/c/8/4c85e1bc316449ee44c3cc453d2ead00508489a0.png" class="latex" alt="$(15/100)/(1-(1/10)) =  \boxed{\frac 16}$" style="vertical-align: -18px" width="222" height="48" />.
+</p><p>Solution by Halt_CatchFire
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2006_AMC_12B" title="2006 AMC 12B">2006 AMC 12B</a></b> (<b><a href="/wiki/index.php/2006_AMC_12B_Problems" title="2006 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2006_AMC_12B_Answer_Key" title="2006 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_19" title="2006 AMC 12B Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_21" title="2006 AMC 12B Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_1" title="2006 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_2" title="2006 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_3" title="2006 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_4" title="2006 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_5" title="2006 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_6" title="2006 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_7" title="2006 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_8" title="2006 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_9" title="2006 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_10" title="2006 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_11" title="2006 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_12" title="2006 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_13" title="2006 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_14" title="2006 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_15" title="2006 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_16" title="2006 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_17" title="2006 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_18" title="2006 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_19" title="2006 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_21" title="2006 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_22" title="2006 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_23" title="2006 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_24" title="2006 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_12B_Problems/Problem_25" title="2006 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209101215
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.098 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 538/1000000
+Preprocessor generated node count: 1536/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 8998/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.914      1 -total
+ 79.02%    6.254      1 Template:AMC12_box
+ 18.88%    1.494      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2331-0!canonical and timestamp 20230209101215 and revision id 154069
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12B_Problems/Problem_20&amp;oldid=154069">https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_12B_Problems/Problem_20&amp;oldid=154069</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209101215 -->
+</html>

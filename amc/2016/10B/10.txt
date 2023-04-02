@@ -1,0 +1,27 @@
+<p>A thin piece of wood of uniform density in the shape of an equilateral triangle with side length <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> inches weighs <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" /> ounces. A second piece of the same type of wood, with the same thickness, also in the shape of an equilateral triangle, has side length of <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> inches. Which of the following is closest to the weight, in ounces, of the second piece?
+</p><p><img src="//latex.artofproblemsolving.com/9/4/5/9453b49b0222721f19101ab57b8f5c4e48211ab5.png" class="latex" alt="$\textbf{(A)}\ 14.0\qquad\textbf{(B)}\ 16.0\qquad\textbf{(C)}\ 20.0\qquad\textbf{(D)}\ 33.3\qquad\textbf{(E)}\ 55.6$" style="vertical-align: -4px" width="464" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>We can solve this problem by using similar triangles, since two equilateral triangles are always similar. We can then use
+</p><p><img src="//latex.artofproblemsolving.com/1/9/b/19b722078c8c472d50c3157b477c391ca6d4691e.png" class="latex" alt="$\left(\frac{3}{5}\right)^2=\frac{12}{x}$" style="vertical-align: -17px" width="91" height="46" />.
+</p><p>We can then solve the equation to get <img src="//latex.artofproblemsolving.com/0/e/2/0e24b1191a1a8962b9342ebaa6f3c61ed55a206a.png" class="latex" alt="$x=\frac{100}{3}$" style="vertical-align: -12px" width="64" height="37" /> which is closest to <img src="//latex.artofproblemsolving.com/c/6/a/c6a4c9b7a0faebe63a6203986cc144d8c8acabc9.png" class="latex" alt="$\boxed{\textbf{(D)}\ 33.3}$" style="vertical-align: -10px" width="79" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Also recall that the area of an equilateral triangle is <img src="//latex.artofproblemsolving.com/7/0/f/70f352ecf06f8eef197888240835e1e8cf0a04fb.png" class="latex" alt="$\frac{a^2\sqrt3}{4}$" style="vertical-align: -13px" width="43" height="41" />
+so we can give a ratio as follows:
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/a/1/9/a19f0ffc496d97460226111047deb43e06c90007.png" class="latex" alt="$\frac{\frac{9\sqrt3}{4}}{12}$" style="vertical-align: -13px" width="30" height="44" /> <img src="//latex.artofproblemsolving.com/d/5/e/d5eb8726a34932d28103ce7ce17456421222603f.png" class="latex" alt="$=$" style="vertical-align: 2px" width="13" height="5" /> <img src="//latex.artofproblemsolving.com/d/7/8/d784aab658609ef595dab03c694048d35d5155de.png" class="latex" alt="$\frac{\frac{25\sqrt3}{4}}{x}$" style="vertical-align: -12px" width="37" height="43" />
+</p><p>Cross multiplying and simplifying, we get <img src="//latex.artofproblemsolving.com/e/9/7/e9758d96836a54074f506633b57b2f82a98285a6.png" class="latex" alt="$12 \cdot \frac{25}{9}$" style="vertical-align: -12px" width="52" height="37" />
+</p><p>Which is <img src="//latex.artofproblemsolving.com/6/a/a/6aa67626f8aa81de287cc7eb5ad5d8f8587cc5f8.png" class="latex" alt="$33.\overline{3}$" width="32" height="15" /> <img src="//latex.artofproblemsolving.com/a/c/b/acbc54ef8feabfc5d0a2329f0cfbd10af8a6a809.png" class="latex" alt="$\approx$" style="vertical-align: 1px" width="13" height="8" /> <img src="//latex.artofproblemsolving.com/c/6/a/c6a4c9b7a0faebe63a6203986cc144d8c8acabc9.png" class="latex" alt="$\boxed{\textbf{(D)}\ 33.3}$" style="vertical-align: -10px" width="79" height="28" />
+</p>
+<ul><li>Solution by <img src="//latex.artofproblemsolving.com/3/d/7/3d7a32be44b9cd3f79438aad4c3b5c3f427223eb.png" class="latex" alt="$AOPS12142015$" style="vertical-align: 0px" width="126" height="13" /></li></ul>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Note that the ratio of the two triangle's weights is equal to the ratio of their areas, as the height is the same. The ratio of their areas is equal to the square of the ratio of their sides. So if <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> denotes the  weight of the second triangle, we have <img src="//latex.artofproblemsolving.com/f/f/a/ffa8e6a726de50505f6c51db032d2c9aef0d51a5.png" class="latexcenter" alt="\[\frac{x}{12}=\frac{5^2}{3^2}=\frac{25}{9}\]" width="109" height="39" /> Solving gives us <img src="//latex.artofproblemsolving.com/a/a/c/aac84264e7b80bc48a99f417391ba4c16a3aaa1d.png" class="latex" alt="$x \approx 33.33$" width="75" height="12" /> so the answer is <img src="//latex.artofproblemsolving.com/c/6/a/c6a4c9b7a0faebe63a6203986cc144d8c8acabc9.png" class="latex" alt="$\boxed{\textbf{(D)}\ 33.3}$" style="vertical-align: -10px" width="79" height="28" />.
+</p><p><br />
+</p><p>Note: In general, the weight would be directly proportional to the volume. However, we are told they have equal height, so we essentially treat the problem as 2D.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/iAE4sL27on4">https://youtu.be/iAE4sL27on4</a>
+</p><p>~savannahsolver
+</p><p><br />
+</p>

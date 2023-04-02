@@ -1,0 +1,260 @@
+<p>The first four terms in an arithmetic sequence are <img src="//latex.artofproblemsolving.com/d/3/d/d3da9f8c7fe0473fdd6f8597eff61d71fedda430.png" class="latex" alt="$x+y$" style="vertical-align: -3px" width="41" height="14" />, <img src="//latex.artofproblemsolving.com/6/4/3/643e1765342cf3807fd7d130ee679b71ecd4789b.png" class="latex" alt="$x-y$" style="vertical-align: -3px" width="41" height="11" />, <img src="//latex.artofproblemsolving.com/3/f/7/3f79c3676b62fb47243e0d357c87115b6f3395e4.png" class="latex" alt="$xy$" style="vertical-align: -3px" width="19" height="11" />, and <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" />, in that order. What is the fifth term? 
+</p><p><img src="//latex.artofproblemsolving.com/c/0/1/c014255fe627d7cc95083f6bb6a360f3f95519b6.png" class="latex" alt="$\textbf{(A)}\ -\frac{15}{8}\qquad\textbf{(B)}\ -\frac{6}{5}\qquad\textbf{(C)}\ 0\qquad\textbf{(D)}\ \frac{27}{20}\qquad\textbf{(E)}\ \frac{123}{40}$" style="vertical-align: -13px" width="444" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The difference between consecutive terms is <img src="//latex.artofproblemsolving.com/9/6/2/962064d8b7ad50de4d4ed4a7e416d4735aa33af3.png" class="latex" alt="$(x-y)-(x+y)=-2y.$" style="vertical-align: -4px" width="195" height="18" /> Therefore we can also express the third and fourth terms as <img src="//latex.artofproblemsolving.com/9/0/d/90dc5734a1f1634f502f1edef4c58a32a729f5a9.png" class="latex" alt="$x-3y$" style="vertical-align: -3px" width="50" height="16" /> and <img src="//latex.artofproblemsolving.com/7/d/7/7d7fa576a222beed25273e0d50392e2f1ddfc396.png" class="latex" alt="$x-5y.$" style="vertical-align: -3px" width="55" height="16" /> Then we can set them equal to <img src="//latex.artofproblemsolving.com/3/f/7/3f79c3676b62fb47243e0d357c87115b6f3395e4.png" class="latex" alt="$xy$" style="vertical-align: -3px" width="19" height="11" /> and <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" /> because they are the same thing.
+</p><p><img src="//latex.artofproblemsolving.com/c/8/2/c82bd1e7f2934c3e57e62eb6a3358bf2540281c4.png" class="latexcenter" alt="\begin{align*} xy&amp;=x-3y\\ xy-x&amp;=-3y\\ x(y-1)&amp;=-3y\\ x&amp;=\frac{-3y}{y-1} \end{align*}" width="139" height="115" />
+</p><p>Substitute into our other equation.
+</p><p><img src="//latex.artofproblemsolving.com/7/4/4/7447ff4042273b628b683c0be7a6adb782094cc4.png" class="latexcenter" alt="\[\frac{x}{y}=x-5y\]" width="87" height="36" />
+<img src="//latex.artofproblemsolving.com/e/a/f/eafd224e1b0406671c0ea78a89f70250ab4d9598.png" class="latexcenter" alt="\[\frac{-3}{y-1}=\frac{-3y}{y-1}-5y\]" width="152" height="41" />
+<img src="//latex.artofproblemsolving.com/5/8/2/582e642d7ac3fe394341c104bb678404cf1937d6.png" class="latexcenter" alt="\[-3=-3y-5y(y-1)\]" width="173" height="18" />
+<img src="//latex.artofproblemsolving.com/4/f/c/4fc65b027cacf27699496e8f7a46167eb301ea72.png" class="latexcenter" alt="\[0=5y^2-2y-3\]" width="130" height="18" />
+<img src="//latex.artofproblemsolving.com/2/7/1/2715b828ebf0e900ba0d1a4a4409393b2d5c9683.png" class="latexcenter" alt="\[0=(5y+3)(y-1)\]" width="150" height="18" />
+<img src="//latex.artofproblemsolving.com/2/b/f/2bf85034e5c754150e8e99435ec811627279e560.png" class="latexcenter" alt="\[y=-\frac35, 1\]" width="76" height="37" />
+</p><p>But <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> cannot be <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> because then the first term would be <img src="//latex.artofproblemsolving.com/c/c/c/cccb103143393c0119f5ab61d6d53a852ce70fcf.png" class="latex" alt="$x+1$" width="40" height="13" /> and the second term <img src="//latex.artofproblemsolving.com/d/4/b/d4baf6d4b1cfa69b68b3204b5e2eba0c5755fe20.png" class="latex" alt="$x-1$" style="vertical-align: 0px" width="40" height="12" /> while the last two terms would be equal to <img src="//latex.artofproblemsolving.com/f/c/3/fc3be04db73828946870d3ccc6d122395a4bacf6.png" class="latex" alt="$x.$" width="14" height="8" /> Therefore <img src="//latex.artofproblemsolving.com/e/7/7/e77c6b44e7fd1f17c8fca2b615714cfe05fe26c1.png" class="latex" alt="$y=-\frac35.$" style="vertical-align: -12px" width="64" height="37" /> Substituting the value for <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> into any of the equations, we get <img src="//latex.artofproblemsolving.com/2/a/9/2a9522918d9a7fea8f82c1f05a6e83e590261f9d.png" class="latex" alt="$x=-\frac98.$" style="vertical-align: -12px" width="65" height="37" /> Finally,
+</p><p><img src="//latex.artofproblemsolving.com/5/5/e/55e30872e72c0aa052d66c068d2af833a675a508.png" class="latexcenter" alt="\[\frac{x}{y}-2y=\frac{9\cdot 5}{8\cdot 3}+\frac{6}{5}=\boxed{\textbf{(E)}\ \frac{123}{40}}\]" width="248" height="48" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Because this is an arithmetic sequence, we conclude from the first two terms that the common difference is <img src="//latex.artofproblemsolving.com/c/6/e/c6efdf74a0d002b82228e7dd182b0b39d2985cf9.png" class="latex" alt="$-2y$" style="vertical-align: -3px" width="32" height="15" />. Therefore, <img src="//latex.artofproblemsolving.com/3/5/a/35a522134032a54e9bb0c4c01eab81fe500ec100.png" class="latex" alt="$xy = x-3y$" style="vertical-align: -4px" width="97" height="17" /> and <img src="//latex.artofproblemsolving.com/d/a/d/dadc64f272335ec822777c99ec2a8e424b450da2.png" class="latex" alt="$\frac{x}{y}=x-5y$" style="vertical-align: -16px" width="89" height="36" />. If we multiply <img src="//latex.artofproblemsolving.com/3/f/7/3f79c3676b62fb47243e0d357c87115b6f3395e4.png" class="latex" alt="$xy$" style="vertical-align: -3px" width="19" height="11" /> and <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" />, we see: 
+</p><p><img src="//latex.artofproblemsolving.com/f/9/7/f97f219818d31474ba3653c55f1322cb50956c7a.png" class="latex" alt="$xy\cdot\frac{x}{y} = (x-3y)(x-5y) = x^2 - 8xy + 15y^2$" style="vertical-align: -17px" width="355" height="38" />
+</p><p>Because <img src="//latex.artofproblemsolving.com/6/4/5/645b6d363cfdb5bc42798504fce81dc25c05fc08.png" class="latex" alt="$xy\cdot\frac{x}{y}$" style="vertical-align: -17px" width="49" height="38" />, by basic multiplication, is <img src="//latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" />, we have 
+</p><p><img src="//latex.artofproblemsolving.com/9/e/8/9e8d0d1990f89f1dfa521424151d17de24eff867.png" class="latex" alt="$x^2 = x^2 - 8xy + 15y^2$" style="vertical-align: -4px" width="170" height="20" />
+</p><p><img src="//latex.artofproblemsolving.com/e/6/3/e63a350c9d52b107928b2b21d346f9b92d659a97.png" class="latex" alt="$8xy = 15y^2$" style="vertical-align: -4px" width="90" height="20" />
+</p><p><img src="//latex.artofproblemsolving.com/6/e/c/6ec72ef74f5175074cb2f4b4583b61a872b29d9b.png" class="latex" alt="$8x = 15y$" style="vertical-align: -4px" width="73" height="17" />
+</p><p><img src="//latex.artofproblemsolving.com/4/8/5/48521e590d51efcbedfacc39e471c34866b393dc.png" class="latex" alt="$x = \frac{15y}{8}$" style="vertical-align: -13px" width="68" height="38" />
+</p><p>Now that we have <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> in terms of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />, we substitute in <img src="//latex.artofproblemsolving.com/6/8/7/68783f8ea6614c5e6d7012edc72d898e6c9b52b9.png" class="latex" alt="$\frac{15y}{8}$" style="vertical-align: -13px" width="34" height="38" /> in for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> in <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" /> (the fourth term). This leaves us with <img src="//latex.artofproblemsolving.com/8/4/b/84b014dab307414317aa503091817facf665085a.png" class="latex" alt="$\frac{\frac{15y}{8}}{y} = \frac{15}{8}$" style="vertical-align: -17px" width="77" height="46" />. 
+</p><p>Recall that <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" /> can be written as <img src="//latex.artofproblemsolving.com/8/b/5/8b5e064a59bf8781bd05292cfd91942ec7f9f03f.png" class="latex" alt="$x - 5y$" style="vertical-align: -3px" width="50" height="16" />. Thus, <img src="//latex.artofproblemsolving.com/2/d/8/2d8813daef179dc5b9fe5e08b730f659d7fc8c7e.png" class="latex" alt="$x - 5y = \frac{15}{8}$" style="vertical-align: -13px" width="100" height="38" />. Substitute in <img src="//latex.artofproblemsolving.com/9/c/6/9c6c840d3b2f21ec688bca3ba8850a8c77990b48.png" class="latex" alt="$\frac{15}{8}$" style="vertical-align: -12px" width="20" height="37" /> in for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, and we see:
+</p><p><img src="//latex.artofproblemsolving.com/7/4/6/746c736a35d512fe97f5003f0701d8cb81d1c5a1.png" class="latex" alt="$\frac{15y}{8} - 5y = \frac{15}{8}$" style="vertical-align: -13px" width="121" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/e/4/9/e490cc81cde00aa79992c32ac94994eb42d0b518.png" class="latex" alt="$15y - 40y = 15$" style="vertical-align: -4px" width="122" height="17" />
+</p><p><img src="//latex.artofproblemsolving.com/1/1/b/11b3556561ad475a3824e1fff34628837185b2ad.png" class="latex" alt="$y = \frac{15}{-25} = \frac{-3}{5}$" style="vertical-align: -15px" width="123" height="40" />
+</p><p>Aha! This means <img src="//latex.artofproblemsolving.com/2/6/c/26cab3f0704de3232f601b03d02a45d46103c172.png" class="latex" alt="$2y$" style="vertical-align: -3px" width="18" height="15" />, the common difference, is <img src="//latex.artofproblemsolving.com/b/9/5/b959727b797e8351e8a6b44525904a8d818e04b2.png" class="latex" alt="$2\cdot y = 2\cdot \frac{-3}{5} = \frac{-6}{5}$" style="vertical-align: -13px" width="159" height="38" />. Now, all we need to do is find the fifth term, which is just <img src="//latex.artofproblemsolving.com/e/9/6/e968cee1b694963fd2aa6a2680a5ca1ebd04120d.png" class="latex" alt="$\frac{x}{y}-2y$" style="vertical-align: -16px" width="54" height="36" />. We can substitute known values to solve: 
+</p><p><img src="//latex.artofproblemsolving.com/1/f/7/1f70f157b3e7dca95dc687fe3375bda2a21d4a39.png" class="latex" alt="$\frac{x}{y}-2y = \frac{15}{8} - \frac{-6}{5} = \frac{15}{8} + \frac{6}{5} = \frac{75 + 48}{40} = \boxed{\textbf{(E)}\ \frac{123}{40}}$" style="vertical-align: -19px" width="421" height="49" />.
+</p><p>~SXWang
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2003_AMC_10B" title="2003 AMC 10B">2003 AMC 10B</a></b> (<b><a href="/wiki/index.php/2003_AMC_10B_Problems" title="2003 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2003_AMC_10B_Answer_Key" title="2003 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_23" title="2003 AMC 10B Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_25" title="2003 AMC 10B Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_1" class="mw-redirect" title="2003 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_2" class="mw-redirect" title="2003 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_3" title="2003 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_4" title="2003 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_5" title="2003 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_6" title="2003 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_7" title="2003 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_8" title="2003 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_9" title="2003 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_10" title="2003 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_11" title="2003 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_12" title="2003 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_13" class="mw-redirect" title="2003 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_14" title="2003 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_15" title="2003 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_16" title="2003 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_17" title="2003 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_18" class="mw-redirect" title="2003 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_19" title="2003 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_20" title="2003 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_21" title="2003 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_22" title="2003 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_23" title="2003 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10B_Problems/Problem_25" title="2003 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208172321
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.119 seconds
+Real time usage: 0.279 seconds
+Preprocessor visited node count: 601/1000000
+Preprocessor generated node count: 1676/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10305/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   14.381      1 -total
+ 66.44%    9.555      1 Template:AMC10_box
+ 30.48%    4.384      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10023-0!canonical and timestamp 20230208172320 and revision id 175934
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_10B_Problems/Problem_24&amp;oldid=175934">https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_10B_Problems/Problem_24&amp;oldid=175934</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209015416 -->
+</html>

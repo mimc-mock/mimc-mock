@@ -1,0 +1,55 @@
+<p>Alice refuses to sit next to either Bob or Carla. Derek refuses to sit next to Eric. How many ways are there for the five of them to sit in a row of <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> chairs under these conditions?
+</p><p><img src="//latex.artofproblemsolving.com/b/d/0/bd00a67c288e8a7ea6047e53b9c2021213c8d642.png" class="latex" alt="$\textbf{(A)}\ 12\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 28\qquad\textbf{(D)}\ 32\qquad\textbf{(E)}\ 40$" style="vertical-align: -4px" width="394" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1:_Casework">Solution 1: Casework</span></h2>
+<p>Let Alice be A, Bob be B, Carla be C, Derek be D, and Eric be E.
+We can split this problem up into two cases:
+</p><p><img src="//latex.artofproblemsolving.com/5/9/0/590204f181d67b5e23eeff2e694bec71285a7af1.png" class="latex" alt="$\textbf{Case 1: }$" width="59" height="11" /> A sits on an edge seat.
+</p><p>Since B and C can't sit next to A, that must mean either D or E sits next to A. After we pick either D or E, then either B or C must sit next to D/E. Then, we can arrange the two remaining people in two ways. Since there are two different edge seats that A can sit in, there are a total of <img src="//latex.artofproblemsolving.com/d/2/c/d2c0bcdd3f50cf4b192f0267ab55e37343d3dc71.png" class="latex" alt="$2 \cdot 2 \cdot 2 \cdot 2 = 16$" style="vertical-align: 0px" width="117" height="13" />.
+</p><p><img src="//latex.artofproblemsolving.com/e/0/3/e032312af77844d6ef74e98b76976ef9a04f360f.png" class="latex" alt="$\textbf{Case 2: }$" width="59" height="11" /> A does not sit in an edge seat.
+</p><p>Still, the only two people that can sit next to A are either D or E, and there are two ways to permute them, and this also handles the restriction that D can't sit next to E. Then, there are two ways to arrange B and C, the remaining people. However, there are three initial seats that A can sit in, so there are <img src="//latex.artofproblemsolving.com/b/e/b/beb1620531f1682a455514e25e4436529da33a79.png" class="latex" alt="$3 \cdot 2 \cdot 2 = 12$" style="vertical-align: 0px" width="95" height="13" /> seatings in this case.
+</p><p>Adding up all the seatings, we have <img src="//latex.artofproblemsolving.com/2/8/d/28d03f13c11c2037470e8588068afe18aab439e3.png" class="latex" alt="$16+12 = \boxed{\textbf{(C) } 28}$" style="vertical-align: -10px" width="147" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Label the seats (from left to right) <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> through <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" />. The number of ways to seat Derek and Eric in the five seats with no restrictions is <img src="//latex.artofproblemsolving.com/c/0/3/c0365c9e97ca7b684848e9bcbc69e371c2ee85de.png" class="latex" alt="$5 \cdot 4=20$" style="vertical-align: 0px" width="73" height="13" />. The number of ways to seat Derek and Eric such that they sit next to each other is <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> (we can treat Derek and Eric as a "block". There are four ways to seat this "block", and two ways to permute Derek and Eric, for a total of <img src="//latex.artofproblemsolving.com/5/1/3/51311771b55c90508b433453ce2d685d96253c23.png" class="latex" alt="$4\cdot 2=8$" style="vertical-align: 0px" width="64" height="13" />), so the number of ways such that Derek and Eric don't sit next to each other is <img src="//latex.artofproblemsolving.com/b/b/8/bb8ed7263c2d0afe4e7d70ebc29da3e1cd52256c.png" class="latex" alt="$20-8=12$" style="vertical-align: 0px" width="91" height="13" />. Note that once Derek and Eric are seated, we can divide into three cases. 
+</p><p>The first case is that they sit at each end. There are two ways to seat Derek and Eric. But this is impossible because then Alice, Bob, and Carla would have to sit in some order in the middle three seats which would lead to Alice sitting next to Bob or Carla, a contradiction. So this case gives us <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> ways.
+</p><p>Another possible case is if Derek and Eric sit in seats <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> in some order. There are <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> possible ways to seat Derek and Eric like this. This leaves Alice, Bob, and Carla to sit in any order in the remaining three seats. Since no two of these three seats are consecutive, there are <img src="//latex.artofproblemsolving.com/3/9/2/3920c5e3f6b2e5749cd75c3853b63ae714d00561.png" class="latex" alt="$3!=6$" width="47" height="13" /> ways to do this. So the second case gives us <img src="//latex.artofproblemsolving.com/b/4/2/b42ec68a0e9138937108bf8527ae80cb1fcd5c94.png" class="latex" alt="$2 \cdot 6=12$" style="vertical-align: 0px" width="73" height="13" /> total ways.
+</p><p>The last case is if once Derek and Eric are seated, exactly one pair of consecutive seats are available. There are <img src="//latex.artofproblemsolving.com/c/0/1/c01caae7b9772c9f66a00dc164562419428e4dbb.png" class="latex" alt="$12-2-2=8$" style="vertical-align: 0px" width="113" height="13" /> ways to seat Derek and Eric like this. Once they are seated like this, Alice cannot sit in one of the two consecutive available seats without sitting next to Bob or Carla. So Alice has to sit in the other remaining chair. Then, there are two ways to seat Bob and Carla in the remaining two seats (which are consecutive). So this case gives us <img src="//latex.artofproblemsolving.com/5/4/7/5478e08b510bc697702685b74f086ca5a51933d8.png" class="latex" alt="$8 \cdot 2=16$" style="vertical-align: 0px" width="73" height="13" /> ways.
+</p><p>So in total there are <img src="//latex.artofproblemsolving.com/4/8/1/4812588be093b90c9fe9705f5348b4f8bce83cf0.png" class="latex" alt="$12+16=28$" style="vertical-align: -1px" width="100" height="14" /> ways. Our answer is <img src="//latex.artofproblemsolving.com/c/2/4/c24a0169117609a4da88670f626d53cbf2250b31.png" class="latex" alt="$\boxed{\textbf{(C)}\ 28}$" style="vertical-align: -10px" width="64" height="28" />.
+<br />
+Minor <img src="//latex.artofproblemsolving.com/latex.png" class="latex" alt="$\LaTeX$" style="vertical-align: -4px" width="46" height="15" /> edits by fasterthanlight
+</p><p>Minor clarity edits by Carrot_Karen
+</p>
+<h2><span class="mw-headline" id="Solution_3:_PIE">Solution 3: PIE</span></h2>
+<p>We start with complementary counting. After all, it's much easier to count the cases where some of these restraints are true, than when they aren't.
+</p><p>PIE:
+Let's count the total number of cases where one of these is true:
+</p><p>When Alice is with Bob:
+<img src="//latex.artofproblemsolving.com/5/1/9/519bfea710080d433e195fe3e642a01902cf7369.png" class="latex" alt="$2\cdot4!=48$" style="vertical-align: 0px" width="78" height="13" />
+</p><p>When Alice is with Carla:
+<img src="//latex.artofproblemsolving.com/5/1/9/519bfea710080d433e195fe3e642a01902cf7369.png" class="latex" alt="$2\cdot4!=48$" style="vertical-align: 0px" width="78" height="13" />
+</p><p>When Derek is with Eric:
+<img src="//latex.artofproblemsolving.com/5/1/9/519bfea710080d433e195fe3e642a01902cf7369.png" class="latex" alt="$2\cdot4!=48$" style="vertical-align: 0px" width="78" height="13" />
+</p><p>Then, we count the cases where two of these are true.
+</p><p>Alice is next to Carla, and Alice is also next to Bob.
+There are two ways to rearrange Alice, Bob, and Carla so that this is true:
+BAC and CAB.
+<img src="//latex.artofproblemsolving.com/5/e/5/5e579f70e418aa7b8c771264244c65dbdc2374dd.png" class="latex" alt="$2\cdot3!=12$" style="vertical-align: 0px" width="78" height="13" />
+</p><p>Alice is next to Carla, and Derek is also next to Eric.
+<img src="//latex.artofproblemsolving.com/f/2/4/f24581c69c3cc02c04861eb0621985762d9fb22a.png" class="latex" alt="$2\cdot2\cdot3!=24$" style="vertical-align: 0px" width="101" height="13" />
+</p><p>Alice is next to Bob, and Derek is also next to Eric.
+<img src="//latex.artofproblemsolving.com/f/2/4/f24581c69c3cc02c04861eb0621985762d9fb22a.png" class="latex" alt="$2\cdot2\cdot3!=24$" style="vertical-align: 0px" width="101" height="13" />
+</p><p>Finally, we count the cases where all three of these are true:
+<img src="//latex.artofproblemsolving.com/6/5/d/65de37a22da48b341607940a5a8b45a6885ccbd3.png" class="latex" alt="$2\cdot2\cdot2=8$" width="86" height="12" />
+</p><p>We add up the cases where one of these are true:
+<img src="//latex.artofproblemsolving.com/8/b/7/8b7efa1302a3b1af202f5ee8b7ef22c4405e1080.png" class="latex" alt="$48\cdot3=144$" style="vertical-align: 0px" width="91" height="13" />
+</p><p>Subtract the cases where two of these are true:
+<img src="//latex.artofproblemsolving.com/a/9/c/a9c9ad7fe8e82e7247e65e6934bf6dd02e6ff3bb.png" class="latex" alt="$144-60=84$" style="vertical-align: 0px" width="110" height="13" />
+</p><p>And finally add back the cases where three of these are true:
+<img src="//latex.artofproblemsolving.com/5/1/6/516f4243364067b3200c37af53f0828b63531172.png" class="latex" alt="$84+8=92$" style="vertical-align: -1px" width="91" height="14" />
+</p><p>Thus, our answer is <img src="//latex.artofproblemsolving.com/8/6/1/8619602625367ce42250eab03b11d586bbf46573.png" class="latex" alt="$5!-92=28$" width="96" height="13" />, or <img src="//latex.artofproblemsolving.com/a/a/3/aa32461e820a2959b6c85e89784163fa14119558.png" class="latex" alt="$\boxed{\textbf{(C)} ~28}$" style="vertical-align: -11px" width="65" height="30" />
+</p><p>~michaelchang1
+</p><p>~minor edit by lapisluminous
+ty
+</p><p>~minor clarity edits by hpotter2021
+</p>

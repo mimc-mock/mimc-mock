@@ -1,0 +1,251 @@
+<p>Trapezoid <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> has parallel sides <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" /> of length <img src="//latex.artofproblemsolving.com/b/6/f/b6f3bccae16d5e31266370fced24edc41538d5da.png" class="latex" alt="$33$" width="17" height="12" /> and <img src="//latex.artofproblemsolving.com/7/c/3/7c337e833a82ec0650a1a82a4443a76307ebe7c9.png" class="latex" alt="$\overline {CD}$" width="30" height="15" /> of length <img src="//latex.artofproblemsolving.com/f/2/5/f25d31faf472ddb4c698a14522fe8125c06f8dd8.png" class="latex" alt="$21$" style="vertical-align: 0px" width="17" height="12" />. The other two sides are of lengths <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> and <img src="//latex.artofproblemsolving.com/8/2/0/820a20de2847dfdc1bc5cffc8d904933150032bd.png" class="latex" alt="$14$" style="vertical-align: 0px" width="18" height="12" />. The angles <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> are acute. What is the length of the shorter diagonal of <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/0/a/e0aed7d897ce38d40ac5bf7c7d26a214b63ba3ea.png" class="latex" alt="$\textbf{(A) }10\sqrt{6}\qquad\textbf{(B) }25\qquad\textbf{(C) }8\sqrt{10}\qquad\textbf{(D) }18\sqrt{2}\qquad\textbf{(E) }26$" style="vertical-align: -4px" width="471" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/f/9/c/f9ca0851053447734faf67e2fea554d233570a13.png" class="latexcenter" alt="[asy] size(7cm); pair A,B,C,D,CC,DD; A = (-2,7); B = (14,7); C = (10,0); D = (0,0); CC = (10,7); DD = (0,7); draw(A--B--C--D--cycle); //label(&quot;33&quot;,(A+B)/2,N); label(&quot;21&quot;,(C+D)/2,S); label(&quot;10&quot;,(A+D)/2,W); label(&quot;14&quot;,(B+C)/2,E); label(&quot;$A$&quot;,A,NW); label(&quot;$B$&quot;,B,NE); label(&quot;$C$&quot;,C,SE); label(&quot;$D$&quot;,D,SW); label(&quot;$E$&quot;,DD,N); label(&quot;$F$&quot;,CC,N); draw(C--CC); draw(D--DD); [/asy]" width="332" height="172" />
+</p><p>In the diagram, <img src="//latex.artofproblemsolving.com/8/2/3/82304399561c9bbbd28355f0001538d85e5fcdd1.png" class="latex" alt="$\overline{DE} \perp \overline{AB}, \overline{FC} \perp \overline{AB}$" style="vertical-align: -3px" width="172" height="19" />. 
+Denote <img src="//latex.artofproblemsolving.com/e/d/d/edd8e7c503014899bfa7079243ea69ab00a33998.png" class="latex" alt="$\overline{AE} = x$" width="62" height="15" /> and <img src="//latex.artofproblemsolving.com/b/c/b/bcb0ff07868f6a99309fa2a1aee14913ad6f9da0.png" class="latex" alt="$\overline{DE} = h$" width="64" height="15" />. In right triangle <img src="//latex.artofproblemsolving.com/6/f/1/6f1bf55dee68ba4123ca736e3b4b2121ffebc98a.png" class="latex" alt="$AED$" width="43" height="13" />, we have from the Pythagorean theorem: <img src="//latex.artofproblemsolving.com/3/b/b/3bbe5bda57187178092f83408440794bfcb46f2b.png" class="latex" alt="$x^2+h^2=100$" style="vertical-align: -1px" width="108" height="16" />. Note that since <img src="//latex.artofproblemsolving.com/8/5/e/85e66384f6436471e6db2fc5b83b070d37139f35.png" class="latex" alt="$EF = DC$" width="82" height="12" />, we have <img src="//latex.artofproblemsolving.com/3/2/e/32e4bed409872576b489f0989ba3125adb639214.png" class="latex" alt="$BF = 33-DC-x = 12-x$" style="vertical-align: 0px" width="230" height="13" />. Using the Pythagorean theorem in right triangle <img src="//latex.artofproblemsolving.com/e/f/d/efdd26b7cbfad505c1adbdfccc28d3ab1eb91872.png" class="latex" alt="$BFC$" width="43" height="12" />, we have <img src="//latex.artofproblemsolving.com/2/c/c/2cc51f6f2244f6fdd290377e06e3d357edc6de0a.png" class="latex" alt="$(12-x)^2 + h^2 = 196$" style="vertical-align: -4px" width="163" height="19" />. 
+</p><p><br />
+We isolate the <img src="//latex.artofproblemsolving.com/3/1/9/319c4d6557b81962a2076f2017878709cf698551.png" class="latex" alt="$h^2$" width="16" height="15" /> term in both equations, getting <img src="//latex.artofproblemsolving.com/a/1/0/a1065d321fa2989d3caf0d15c0c9574087c56df7.png" class="latex" alt="$h^2= 100-x^2$" style="vertical-align: 0px" width="108" height="15" /> and
+<img src="//latex.artofproblemsolving.com/f/f/1/ff1ddacef6d6a27413c8ba66dc48283e9bc9028a.png" class="latex" alt="$h^2 = 196-(12-x)^2$" style="vertical-align: -4px" width="162" height="19" />.
+</p><p>Setting these equal, we have <img src="//latex.artofproblemsolving.com/9/4/2/942906c980a60bf45f3ee51ec5db24fc5ef996f3.png" class="latex" alt="$100-x^2 = 196 - 144 + 24x -x^2 \implies 24x = 48 \implies x = 2$" style="vertical-align: -1px" width="472" height="16" />. Now, we can determine that <img src="//latex.artofproblemsolving.com/8/6/9/8696119ba2d8f3c2e29747818af22f124d45d0db.png" class="latex" alt="$h^2 = 100-4 \implies h = 4\sqrt{6}$" style="vertical-align: -1px" width="218" height="18" />.
+</p><p><img src="//latex.artofproblemsolving.com/e/6/5/e6521da560e1ec7a858424e7feccb41d363af4d9.png" class="latexcenter" alt="[asy] size(7cm); pair A,B,C,D,CC,DD; A = (-2,7); B = (14,7); C = (10,0); D = (0,0); CC = (10,7); DD = (0,7); draw(A--B--C--D--cycle); //label(&quot;33&quot;,(A+B)/2,N); label(&quot;21&quot;,(C+D)/2,S); label(&quot;10&quot;,(A+D)/2,W); label(&quot;14&quot;,(B+C)/2,E); label(&quot;$A$&quot;,A,NW); label(&quot;$B$&quot;,B,NE); label(&quot;$C$&quot;,C,SE); label(&quot;$D$&quot;,D,SW); label(&quot;$D$&quot;,D,SW); label(&quot;$E$&quot;,DD,SE); label(&quot;$F$&quot;,CC,SW); draw(C--CC); draw(D--DD); label(&quot;21&quot;,(CC+DD)/2,N); label(&quot;$2$&quot;,(A+DD)/2,N); label(&quot;$10$&quot;,(CC+B)/2,N); label(&quot;$4\sqrt{6}$&quot;,(C+CC)/2,W); label(&quot;$4\sqrt{6}$&quot;,(D+DD)/2,E); pair X = (-2,0); //draw(X--C--A--cycle,black+2bp); [/asy]" width="332" height="168" />
+</p><p>The two diagonals are <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" /> and <img src="//latex.artofproblemsolving.com/4/3/7/4373e7b4be983c0315e82e1fda1df66ed34dd7fb.png" class="latex" alt="$\overline{BD}$" width="30" height="15" />. Using the Pythagorean theorem again on <img src="//latex.artofproblemsolving.com/8/b/f/8bf1a9b5d47656f521d715d9b85bd2c2d9490473.png" class="latex" alt="$\bigtriangleup AFC$" width="58" height="13" /> and <img src="//latex.artofproblemsolving.com/a/2/d/a2da1bcd0c5138dfe5f66d1ebe0b46542ed6bbc7.png" class="latex" alt="$\bigtriangleup BED$" width="60" height="13" />, we can find these lengths to be <img src="//latex.artofproblemsolving.com/c/a/3/ca34bc631b783aecc29ef49389a73f0977498c5d.png" class="latex" alt="$\sqrt{96+529} = 25$" style="vertical-align: -2px" width="124" height="18" /> and <img src="//latex.artofproblemsolving.com/7/6/d/76d1b476bae5560ab678ab869fae8ff794f94e77.png" class="latex" alt="$\sqrt{96+961} = \sqrt{1057}$" style="vertical-align: -2px" width="158" height="19" />. Since <img src="//latex.artofproblemsolving.com/c/c/0/cc04297061c012b247afae1b71fd2b70971bdd21.png" class="latex" alt="$\sqrt{96+529}&lt;\sqrt{96+961}$" style="vertical-align: -2px" width="190" height="18" />, <img src="//latex.artofproblemsolving.com/6/6/6/66644fd9f411299c3c1eabf151b5f601c9ef6c21.png" class="latex" alt="$25$" width="17" height="12" /> is the shorter length*, so the answer is <img src="//latex.artofproblemsolving.com/d/c/3/dc3d885331dfd1c95d782aac3adccec7dd046fb7.png" class="latex" alt="$\boxed{\textbf{(B) }25}$" style="vertical-align: -10px" width="64" height="28" />.
+</p>
+<ul><li>Or, alternatively, one can notice that the two triangles have the same height but <img src="//latex.artofproblemsolving.com/8/b/f/8bf1a9b5d47656f521d715d9b85bd2c2d9490473.png" class="latex" alt="$\bigtriangleup AFC$" width="58" height="13" /> has a shorter base than <img src="//latex.artofproblemsolving.com/a/2/d/a2da1bcd0c5138dfe5f66d1ebe0b46542ed6bbc7.png" class="latex" alt="$\bigtriangleup BED$" width="60" height="13" />.</li></ul>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p><img src="//latex.artofproblemsolving.com/3/b/a/3ba9cc897cd3d3cc662ace19dc67b9f53085f698.png" class="latexcenter" alt="[asy] size(7cm); pair A,B,C,D,E; A = (-2,7); B = (14,7); C = (10,0); D = (0,0); E = (4,7); draw(A--B--C--D--cycle); draw(D--E); label(&quot;21&quot;,(C+D)/2,S); label(&quot;10&quot;,(A+D)/2,W); label(&quot;14&quot;,(12,1),E); label(&quot;14&quot;,(2,1),E); label(&quot;12&quot;,(A+E)/2,N); label(&quot;21&quot;,(E+B)/2,N); label(&quot;$A$&quot;,A,NW); label(&quot;$B$&quot;,B,NE); label(&quot;$C$&quot;,C,SE); label(&quot;$D$&quot;,D,SW); label(&quot;$D$&quot;,D,SW); label(&quot;$E$&quot;,E,N); [/asy]" width="332" height="172" />
+</p><p>The area of <img src="//latex.artofproblemsolving.com/b/6/4/b64782f3ed925c790fed487d26744eb0ed100f70.png" class="latex" alt="$\Delta AED$" width="58" height="13" /> is by Heron's, <img src="//latex.artofproblemsolving.com/5/c/a/5ca8160d993e3ec4abc00255c9ebd54e4a9fb3cb.png" class="latex" alt="$4\sqrt{9(4)(3)(2)}=24\sqrt{6}$" style="vertical-align: -10px" width="172" height="32" />. This makes the length of the altitude from <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> onto <img src="//latex.artofproblemsolving.com/5/e/8/5e8bc36793a7c64d05fff20d519f0f72d9256fab.png" class="latex" alt="$\overline{AE}$" width="28" height="15" /> equal to <img src="//latex.artofproblemsolving.com/7/7/2/772b05fb973d72e457456b2a4cf59dce04562003.png" class="latex" alt="$4\sqrt{6}$" style="vertical-align: -1px" width="33" height="18" />. One may now proceed as in Solution <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> to obtain an answer of <img src="//latex.artofproblemsolving.com/d/c/3/dc3d885331dfd1c95d782aac3adccec7dd046fb7.png" class="latex" alt="$\boxed{\textbf{(B) }25}$" style="vertical-align: -10px" width="64" height="28" />.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Using the same way as Solution 1, obtain that AE=2. Let us assume that point G is point A moving in a straight line down until it touches DC if DC was extended both ways by infinity. We know that GC=23. Thus the answer would be the square root of (23 square and (4*square root of 6) square). Thus we get 625. Square root of 625 would be 25.
+-Reality Writes
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2014_AMC_10B" title="2014 AMC 10B">2014 AMC 10B</a></b> (<b><a href="/wiki/index.php/2014_AMC_10B_Problems" title="2014 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_10B_Answer_Key" title="2014 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_20" title="2014 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_22" title="2014 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_1" title="2014 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_2" title="2014 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_3" title="2014 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_4" title="2014 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_5" title="2014 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_6" title="2014 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_7" title="2014 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_8" title="2014 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_9" title="2014 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_10" title="2014 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_11" title="2014 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_12" title="2014 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_13" title="2014 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_14" title="2014 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_15" title="2014 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_16" title="2014 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_17" title="2014 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_18" title="2014 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_19" title="2014 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_20" title="2014 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_22" title="2014 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_23" title="2014 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2014 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208135943
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.116 seconds
+Real time usage: 0.219 seconds
+Preprocessor visited node count: 515/1000000
+Preprocessor generated node count: 1480/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9590/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   25.429      1 -total
+ 53.15%   13.515      1 Template:MAA_Notice
+ 44.90%   11.417      1 Template:AMC10_box
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:12392-0!canonical and timestamp 20230208135943 and revision id 162646
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10B_Problems/Problem_21&amp;oldid=162646">https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10B_Problems/Problem_21&amp;oldid=162646</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208221414 -->
+</html>

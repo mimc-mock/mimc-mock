@@ -1,0 +1,3 @@
+<p>Each morning of her five-day workweek, Jane bought either a <img src="//latex.artofproblemsolving.com/9/0/6/906734e2f1010e9a171ffee8050cbc0649cea37c.png" class="latex" alt="$50$" width="17" height="12" />-cent muffin or a <img src="//latex.artofproblemsolving.com/a/7/e/a7e4c2930d79c57bee209557767b878cd704ea46.png" class="latex" alt="$75$" width="17" height="12" />-cent bagel. Her total cost for the week was a whole number of dollars. How many bagels did she buy?
+</p><p><img src="//latex.artofproblemsolving.com/7/0/7/70763aef24ac0855fb001b42d0b102accb5c7ab2.png" class="latex" alt="$\textbf{(A) } 1\qquad\textbf{(B) } 2\qquad\textbf{(C) } 3\qquad\textbf{(D) } 4\qquad\textbf{(E) } 5$" style="vertical-align: -5px" width="355" height="18" />
+</p>

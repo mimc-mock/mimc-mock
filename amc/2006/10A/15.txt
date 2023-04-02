@@ -1,0 +1,240 @@
+<p>Odell and Kershaw run for <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" /> minutes on a <a href="/wiki/index.php/Circle" title="Circle">circular</a> track. Odell runs clockwise at <img src="//latex.artofproblemsolving.com/3/7/a/37ae2c4d47fa61a16c7b3f3dbf7181b3e15dba2d.png" class="latex" alt="$250 m/min$" style="vertical-align: -5px" width="87" height="20" /> and uses the inner lane with a radius of <img src="//latex.artofproblemsolving.com/9/0/6/906734e2f1010e9a171ffee8050cbc0649cea37c.png" class="latex" alt="$50$" width="17" height="12" /> meters. Kershaw runs counterclockwise at <img src="//latex.artofproblemsolving.com/9/3/8/9389714b776b5d2e4bad766af3ead76f1da0b713.png" class="latex" alt="$300 m/min$" style="vertical-align: -5px" width="87" height="20" /> and uses the outer lane with a radius of <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> meters, starting on the same radial line as Odell. How many times after the start do they pass each other? 
+</p><p><img src="//latex.artofproblemsolving.com/d/9/5/d954470119b9baa743d28f3f1e28d7c4d1fb2cfc.png" class="latex" alt="$\textbf{(A) } 29\qquad\textbf{(B) } 42\qquad\textbf{(C) } 45\qquad\textbf{(D) } 47\qquad\textbf{(E) } 50\qquad$" style="vertical-align: -5px" width="434" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<center><img src="//latex.artofproblemsolving.com/1/e/d/1ed90d93483a84bc0ef2a6c44c0257bb56aecc19.png" class="latexcenter" alt="[asy] draw((5,0){up}..{left}(0,5),red); draw((-5,0){up}..{right}(0,5),red); draw((5,0){down}..{left}(0,-5),red); draw((-5,0){down}..{right}(0,-5),red); draw((6,0){up}..{left}(0,6),blue); draw((-6,0){up}..{right}(0,6),blue); draw((6,0){down}..{left}(0,-6),blue); draw((-6,0){down}..{right}(0,-6),blue); [/asy]" width="252" height="252" /></center>
+<p>Since <img src="//latex.artofproblemsolving.com/9/5/3/953f29a2b6ad8f2c5d0a2c619a084c4d6896600e.png" class="latex" alt="$d = rt$" width="48" height="12" />, we note that Odell runs one lap in <img src="//latex.artofproblemsolving.com/a/3/5/a35315c23009cf3ac042bee5ec6d8d5863f72d06.png" class="latex" alt="$\frac{2 \cdot 50\pi}{250} = \frac{2\pi}{5}$" style="vertical-align: -12px" width="102" height="37" /> minutes, while Kershaw also runs one lap in <img src="//latex.artofproblemsolving.com/7/3/1/7316b9b5971a16f2acffa7277d410e5e39b30330.png" class="latex" alt="$\frac{2 \cdot 60\pi}{300} = \frac{2\pi}{5}$" style="vertical-align: -12px" width="102" height="37" /> minutes. They take the same amount of time to run a lap, and since they are running in opposite directions they will meet exactly twice per lap (once at the starting point, the other at the half-way point). Thus, there are <img src="//latex.artofproblemsolving.com/5/6/9/5690ab5ef44cae4fd9b7c8dd685289806ec2da21.png" class="latex" alt="$\frac{30}{\frac{2\pi}{5}} \approx 23.8$" style="vertical-align: -19px" width="78" height="44" /> laps run by both, or <img src="//latex.artofproblemsolving.com/8/2/4/82406e7791e09731561535fd66c450c1e3a6d439.png" class="latex" alt="$\lfloor 2\cdot 23.8\rfloor = 23 \cdot 2 + 1 =\boxed{\textbf{(D) } 47}$" style="vertical-align: -11px" width="258" height="30" /> meeting points.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We first find the amount of minutes, <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, until Odell and Kershaw's next meeting. Let <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> be the angle in <a href="/wiki/index.php/Radians" class="mw-redirect" title="Radians">radians</a> between their starting point and the point where they first meet, measured counterclockwise. 
+</p><p>Since Kershaw has traveled <img src="//latex.artofproblemsolving.com/b/1/8/b1875da75f32d3109831ada151c3a2765f28e53f.png" class="latex" alt="$300k$" style="vertical-align: -1px" width="39" height="14" /> meters at this point and the circumference of his track is <img src="//latex.artofproblemsolving.com/9/3/3/9334736d526939044c2b6f42310f39af87d97469.png" class="latex" alt="$120\pi$" style="vertical-align: 0px" width="37" height="13" />, <img src="//latex.artofproblemsolving.com/2/2/f/22f80ec6763f999b9402ac94892bb2b957373a14.png" class="latex" alt="$a=\frac{300k}{120\pi}\cdot 2\pi$" style="vertical-align: -13px" width="111" height="39" />. Similarly, <img src="//latex.artofproblemsolving.com/1/b/d/1bd93ae6aa9c636abcc349dbbce56f6aa3127bd7.png" class="latex" alt="$2\pi-a=\frac{250k}{100\pi}\cdot{2\pi}$" style="vertical-align: -13px" width="154" height="39" /> since Odell has traveled <img src="//latex.artofproblemsolving.com/5/e/d/5eda7389e49fd3a7120ef1fada782fa7750c799d.png" class="latex" alt="$250k$" style="vertical-align: -1px" width="39" height="14" /> meters in the opposite direction and the circumference of his track is <img src="//latex.artofproblemsolving.com/b/0/3/b034b5cee39a45fc8e259a06f15941013320075f.png" class="latex" alt="$100\pi$" style="vertical-align: 0px" width="37" height="13" />. 
+</p><p>Solving for <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> in the second equation, we get <img src="//latex.artofproblemsolving.com/4/3/3/433a5d12314a559abfb2401d43c04dac77aa7363.png" class="latex" alt="$a=2\pi-\frac{250k}{100\pi}\cdot 2\pi$" style="vertical-align: -13px" width="154" height="39" />. Then, from the first equation, we have <img src="//latex.artofproblemsolving.com/0/e/0/0e0b44ff42ef9239b86839b98ba7415c3c358cf2.png" class="latex" alt="$\frac{300k}{120\pi}\cdot 2\pi=2\pi-\frac{250k}{100\pi}\cdot 2\pi$" style="vertical-align: -13px" width="219" height="39" />. Solving for <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, we get <img src="//latex.artofproblemsolving.com/c/8/c/c8c395e414b913d32240d167eed42665463af4f9.png" class="latex" alt="$k=\frac{\pi}{5}$" style="vertical-align: -13px" width="51" height="34" />. After <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> minutes, they are back at the same position, except rotated, so they will meet again in <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> minutes. So the total amount of meetings is <img src="//latex.artofproblemsolving.com/6/6/5/66563ccd0a727ae147ed96a76549d20d8139f5b0.png" class="latex" alt="$\lfloor\frac{30}{k}\rfloor=\lfloor\frac{150}{\pi}\rfloor=\boxed{\textbf{(D) }47}$" style="vertical-align: -13px" width="201" height="38" />.
+</p><p>~apsid
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2006_AMC_10A" title="2006 AMC 10A">2006 AMC 10A</a></b> (<b><a href="/wiki/index.php/2006_AMC_10A_Problems" title="2006 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2006_AMC_10A_Answer_Key" title="2006 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2006 AMC 10A Problems/Problem 14">Problem 14</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_16" title="2006 AMC 10A Problems/Problem 16">Problem 16</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2006 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_2" class="mw-redirect" title="2006 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2006 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_4" class="mw-redirect" title="2006 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_5" class="mw-redirect" title="2006 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_6" title="2006 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_7" class="mw-redirect" title="2006 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_8" title="2006 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2006 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_10" class="mw-redirect" title="2006 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_11" title="2006 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_12" title="2006 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_13" title="2006 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2006 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a class="mw-selflink selflink">15</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_16" title="2006 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_17" title="2006 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_18" title="2006 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_19" title="2006 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_20" title="2006 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_21" title="2006 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_22" class="mw-redirect" title="2006 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_23" class="mw-redirect" title="2006 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_24" title="2006 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2006 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208223521
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.089 seconds
+Real time usage: 0.104 seconds
+Preprocessor visited node count: 349/1000000
+Preprocessor generated node count: 1116/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5395/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.458      1 -total
+ 77.70%    6.572      1 Template:AMC10_box
+ 20.10%    1.700      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2481-0!canonical and timestamp 20230208223520 and revision id 168178
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_10A_Problems/Problem_15&amp;oldid=168178">https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_10A_Problems/Problem_15&amp;oldid=168178</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208223521 -->
+</html>

@@ -1,0 +1,248 @@
+<p>Real numbers <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> satisfy the <a href="/wiki/index.php/Equation" title="Equation">equations</a> <img src="//latex.artofproblemsolving.com/4/d/5/4d5f27672e51ebe66a48c1fc6415b7431eb92bec.png" class="latex" alt="$3^{a} = 81^{b + 2}$" style="vertical-align: 0px" width="81" height="16" /> and <img src="//latex.artofproblemsolving.com/9/0/9/9095cb3077ffb9a30ad90785c4470fbf0860ced0.png" class="latex" alt="$125^{b} = 5^{a - 3}$" style="vertical-align: 0px" width="90" height="16" />. What is <img src="//latex.artofproblemsolving.com/e/f/8/ef870ce9fefe09b80a97b05a7b9198414c1b35f7.png" class="latex" alt="$ab$" width="17" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/a/c/3/ac3a3ac2c5ea60d773c71b5e7728f30ac1bf5420.png" class="latex" alt="$\text{(A)}\ -60 \qquad \text{(B)}\ -17 \qquad \text{(C)}\ 9 \qquad \text{(D)}\ 12 \qquad \text{(E)}\ 60$" style="vertical-align: -4px" width="411" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/0/f/2/0f2765a3b43aef194ebe11a4a63c5083344208ce.png" class="latexcenter" alt="\[81^{b+2} = 3^{4(b+2)} = 3^a \Longrightarrow a = 4b+8\]" width="277" height="17" />
+</p><p>And
+</p><p><img src="//latex.artofproblemsolving.com/d/e/c/decae380961b77b05f8b9876d54f4c9777d2e402.png" class="latexcenter" alt="\[125^{b} = 5^{3b} = 5^{a-3} \Longrightarrow a - 3 = 3b\]" width="258" height="16" />
+</p><p>Substitution gives <img src="//latex.artofproblemsolving.com/d/7/6/d76378f19645a86585270a984b337036636492f8.png" class="latex" alt="$4b+8 - 3 = 3b \Longrightarrow b = -5$" style="vertical-align: -1px" width="214" height="14" />, and solving for <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> yields <img src="//latex.artofproblemsolving.com/d/c/a/dcadf6b880a738849845ef4a0bb57403e9898359.png" class="latex" alt="$-12$" style="vertical-align: 0px" width="31" height="12" />. Thus <img src="//latex.artofproblemsolving.com/9/a/e/9ae4250fc6037cdf5180bfbd2f038b8cb76f87e4.png" class="latex" alt="$ab = 60\ \mathrm{(E)}$" style="vertical-align: -4px" width="90" height="18" />.
+</p>
+<h2><span class="mw-headline" id="Solution_1_another_similar_way">Solution 1 another similar way</span></h2>
+<p>Simplify equation <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, which is <img src="//latex.artofproblemsolving.com/a/3/9/a39024d0ecd6ac28b56ff275454b85bf70a2071c.png" class="latex" alt="$3^a=81^{b+2}$" style="vertical-align: 0px" width="81" height="16" />, to <img src="//latex.artofproblemsolving.com/c/5/6/c56c25d3fba735464db559f146f747c31d423008.png" class="latex" alt="$3^a=3^{4b+8}$" width="79" height="15" />. 
+</p><p>And
+</p><p>Simplify equation <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, which is <img src="//latex.artofproblemsolving.com/8/4/5/845ad1dc31db5d2a0c969c402818acfd8dcbee96.png" class="latex" alt="$125^b=5^{a-3}$" style="vertical-align: 0px" width="90" height="16" />, to <img src="//latex.artofproblemsolving.com/7/1/9/7196dc08a396a617595bf10424caf8645951cc5d.png" class="latex" alt="$5^{3b}=5^{a-3}$" width="79" height="15" />.
+</p><p>Now, eliminate the bases from the simplified equations <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> to arrive at <img src="//latex.artofproblemsolving.com/e/e/d/eedb55816971473714a069b4032b21f1901f4fc6.png" class="latex" alt="$a=4b+8$" style="vertical-align: -1px" width="81" height="14" /> and <img src="//latex.artofproblemsolving.com/2/2/8/228da89fe4ca22a6262f0d0946ee54a7ab6a5fa8.png" class="latex" alt="$3b=a-3$" width="81" height="12" />. Rewrite equation <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> so that it is in terms of <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />. That would be <img src="//latex.artofproblemsolving.com/c/c/f/ccf60ce78950a9b14dbb3cb52551dec7e151f445.png" class="latex" alt="$a=3b+3$" style="vertical-align: -1px" width="81" height="14" />.
+</p><p>Since both equations are equal to <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />, and the values for <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> are constant for both equations, set the equations equal to each other.
+<img src="//latex.artofproblemsolving.com/0/6/1/06162c381db3e01b7cfc28f35ad2d20f1f487e63.png" class="latex" alt="$4b+8=3b+3 \Longrightarrow b=-5$" style="vertical-align: -1px" width="214" height="14" />
+</p><p>Now plug <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, which is <img src="//latex.artofproblemsolving.com/a/5/2/a526e44e36254c196af103613bc724f312b6a209.png" class="latex" alt="$-5$" width="22" height="12" />, back into one of the two earlier equations.
+<img src="//latex.artofproblemsolving.com/e/e/0/ee0b5254c8391ef39ef8be0ec3d57f233ad8063c.png" class="latex" alt="$4(-5)+8=a \Longrightarrow -20+8=a \Longrightarrow a=-12$" style="vertical-align: -4px" width="353" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/2/8/1/281fb71e368b30ac6d47e0c08c10214389bb92e2.png" class="latex" alt="$(-12)(-5)=60$" style="vertical-align: -4px" width="125" height="18" />
+</p><p>Therefore the correct answer is <img src="//latex.artofproblemsolving.com/3/a/3/3a3faf1572d785ef1d5d72f120fb3a16190b4b61.png" class="latex" alt="$\mathrm{(E)}$" style="vertical-align: -4px" width="25" height="18" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2007_AMC_10A" title="2007 AMC 10A">2007 AMC 10A</a></b> (<b><a href="/wiki/index.php/2007_AMC_10A_Problems" title="2007 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2007_AMC_10A_Answer_Key" title="2007 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2007 AMC 10A Problems/Problem 8">Problem 8</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_10" title="2007 AMC 10A Problems/Problem 10">Problem 10</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2007 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_2" title="2007 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_3" title="2007 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_4" title="2007 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_5" title="2007 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_6" title="2007 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_7" class="mw-redirect" title="2007 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2007 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a class="mw-selflink selflink">9</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_10" title="2007 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_11" title="2007 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_12" title="2007 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_13" class="mw-redirect" title="2007 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2007 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_15" title="2007 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2007 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_17" title="2007 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_18" title="2007 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_19" title="2007 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_20" title="2007 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_21" title="2007 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_22" class="mw-redirect" title="2007 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_23" title="2007 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_24" title="2007 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2007 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208063820
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.080 seconds
+Real time usage: 0.083 seconds
+Preprocessor visited node count: 403/1000000
+Preprocessor generated node count: 1236/1000000
+Post‐expand include size: 2185/2097152 bytes
+Template argument size: 156/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5774/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.590      1 -total
+ 78.41%    5.951      1 Template:AMC10_box
+ 19.62%    1.489      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6169-0!canonical and timestamp 20230208063819 and revision id 154931
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_10A_Problems/Problem_9&amp;oldid=154931">https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_10A_Problems/Problem_9&amp;oldid=154931</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208222407 -->
+</html>

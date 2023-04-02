@@ -1,0 +1,312 @@
+<p>In a small pond there are eleven lily pads in a row labeled 0 through 10.  A frog is sitting on pad 1.  When the frog is on pad <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" />, <img src="//latex.artofproblemsolving.com/c/7/8/c78f961646cafb20c51dc39f3c154fbf17265b4c.png" class="latex" alt="$0&lt;N&lt;10$" style="vertical-align: 0px" width="91" height="13" />, it will jump to pad <img src="//latex.artofproblemsolving.com/a/2/5/a256c70ad4c46ec1127c5be68f8bb3075e9ced31.png" class="latex" alt="$N-1$" style="vertical-align: 0px" width="47" height="13" /> with probability <img src="//latex.artofproblemsolving.com/9/c/3/9c34b06249aac069179cec1997539a6c74799bba.png" class="latex" alt="$\frac{N}{10}$" style="vertical-align: -13px" width="20" height="38" /> and to pad <img src="//latex.artofproblemsolving.com/a/7/f/a7fc8f668ffc0730528bca6447b71e28cebd0cf0.png" class="latex" alt="$N+1$" style="vertical-align: -1px" width="47" height="14" /> with probability <img src="//latex.artofproblemsolving.com/0/a/9/0a92a16d0a76cb702e9c77ece07a2fd85d63c747.png" class="latex" alt="$1-\frac{N}{10}$" style="vertical-align: -13px" width="52" height="38" />.  Each jump is independent of the previous jumps.  If the frog reaches pad 0 it will be eaten by a patiently waiting snake.  If the frog reaches pad 10 it will exit the pond, never to return.  What is the probability that the frog will escape without being eaten by the snake?
+</p><p><img src="//latex.artofproblemsolving.com/a/6/4/a64ac910622760606eba973537ab91fe236af0ba.png" class="latex" alt="$\textbf{(A) }\frac{32}{79}\qquad \textbf{(B) }\frac{161}{384}\qquad \textbf{(C) }\frac{63}{146}\qquad \textbf{(D) }\frac{7}{16}\qquad \textbf{(E) }\frac{1}{2}\qquad$" style="vertical-align: -13px" width="426" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>A long, but straightforward bash:
+</p><p>Define <img src="//latex.artofproblemsolving.com/7/4/a/74a3c6a3a3cae21e33f051e2e292b0bc344d576f.png" class="latex" alt="$P(N)$" style="vertical-align: -4px" width="43" height="18" /> to be the probability that the frog survives starting from pad N.
+</p><p>Then note that by symmetry, <img src="//latex.artofproblemsolving.com/b/7/3/b73903f4745f1074c59735ca1b097f504a51a93b.png" class="latex" alt="$P(5) = 1/2$" style="vertical-align: -4px" width="88" height="18" />, since the probabilities of the frog moving subsequently in either direction from pad 5 are equal.
+</p><p>We therefore seek to rewrite <img src="//latex.artofproblemsolving.com/7/9/7/797a20647c81f3259c5069556cab51c94bf4b752.png" class="latex" alt="$P(1)$" style="vertical-align: -4px" width="35" height="18" /> in terms of <img src="//latex.artofproblemsolving.com/7/5/d/75d2840f4c4a51ffb604727078a50a895034a531.png" class="latex" alt="$P(5)$" style="vertical-align: -4px" width="35" height="18" />, using the fact that
+</p><p><img src="//latex.artofproblemsolving.com/d/1/0/d102691a3eb25222b388c725c17c6f0759171bce.png" class="latex" alt="$P(N) = \frac {N} {10}P(N - 1) + \frac {10 - N} {10}P(N + 1)$" style="vertical-align: -13px" width="325" height="38" />
+</p><p>as said in the problem.
+</p><p>Hence <img src="//latex.artofproblemsolving.com/c/c/e/ccef8330954c5607d5e59e4da8ca04351c4548b2.png" class="latex" alt="$P(1) = \frac {1} {10}P(0) + \frac {9} {10}P(2) = \frac {9} {10}P(2)$" style="vertical-align: -13px" width="285" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/5/8/c/58cb799beff88a0f046809b4ffc79e16febbbcdf.png" class="latex" alt="$\Rightarrow P(2) = \frac {10} {9}P(1)$" style="vertical-align: -12px" width="143" height="37" />
+</p><p>Returning to our original equation:
+</p><p><img src="//latex.artofproblemsolving.com/0/5/a/05af66a39fca6a403557ec1dc985744f761180d2.png" class="latex" alt="$P(1) = \frac {9} {10}P(2) = \frac {9} {10}\left(\frac{2} {10}P(1) + \frac{8} {10}P(3)\right)$" style="vertical-align: -17px" width="334" height="43" />
+</p><p><img src="//latex.artofproblemsolving.com/0/f/8/0f8b2b75dd538d85b2e9044771d48d0ff32aaf8d.png" class="latex" alt="$= \frac {9} {50}P(1) + \frac {18} {25}P(3) \Rightarrow P(1) - \frac {9} {50}P(1)$" style="vertical-align: -12px" width="306" height="37" /> 
+<img src="//latex.artofproblemsolving.com/e/d/0/ed0094d53e75030e4e6e1101db7d82dd9b09b83b.png" class="latex" alt="$= \frac {18} {25}P(3)$" style="vertical-align: -12px" width="77" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/e/7/7/e7728de2981939d6cc4aa9512399b623a967451e.png" class="latex" alt="$\Rightarrow P(3) = \frac {41} {36}P(1)$" style="vertical-align: -12px" width="143" height="37" />
+</p><p>Returning to our original equation:
+</p><p><img src="//latex.artofproblemsolving.com/5/3/d/53d9c2adebd7c1185d76f589533dcccb76e7906b.png" class="latex" alt="$P(1) = \frac {9} {50}P(1) + \frac {18} {25}\left(\frac {3} {10}P(2) + \frac {7} {10}P(4)\right)$" style="vertical-align: -17px" width="332" height="43" />
+</p><p><img src="//latex.artofproblemsolving.com/f/4/6/f46275bcaaf6ec12ec0a32dcfaa16ef58099d63b.png" class="latex" alt="$= \frac {9} {50}P(1) + \frac {27} {125}P(2) + \frac {63} {125}P(4)$" style="vertical-align: -13px" width="259" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/f/c/b/fcbe0f38bf5498db55874ff9733059ba84ea7dce.png" class="latex" alt="$= \frac {9} {50}P(1) + \frac {27} {125}\left(\frac {10} {9}P(1)\right) + \frac {63} {125}\left(\frac {4} {10}P(3) + \frac {6} {10}P(5)\right)$" style="vertical-align: -17px" width="441" height="43" />
+</p><p>Cleaing up the coefficients, we have: 
+</p><p><img src="//latex.artofproblemsolving.com/5/5/3/5539ccc2183448bfb86eb8f57ac261e43d594ca7.png" class="latex" alt="$= \frac {21} {50}P(1) + \frac {126} {625}P(3) + \frac {189} {625}P(5)$" style="vertical-align: -12px" width="259" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/7/7/6/776107c6add63d6b047b2ccd74522b045c2ea03c.png" class="latex" alt="$= \frac {21} {50}P(1) + \frac {126} {625}\left(\frac {41} {36}P(1)\right) + \frac {189} {625}\left(\frac {1} {2}\right)$" style="vertical-align: -17px" width="313" height="43" />
+</p><p>Hence, <img src="//latex.artofproblemsolving.com/0/d/d/0dda986f99ad6efebab3e9d051d8ddcecd3d165d.png" class="latex" alt="$P(1) = \frac {525} {1250}P(1) + \frac {287} {1250}P(1) + \frac {189} {1250}$" style="vertical-align: -13px" width="300" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/1/0/3/103138e22f633b4661ddd39c6e030681fd976728.png" class="latex" alt="$\Rightarrow P(1) - \frac {812} {1250}P(1) = \frac {189} {1250} \Rightarrow P(1) = \frac {189} {438}$" style="vertical-align: -13px" width="344" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/4/0/0/40033c2a1cf5ac46f78ded6462bcd1212e9ab89e.png" class="latex" alt="$= \boxed{\frac {63} {146}\, (C)}$" style="vertical-align: -18px" width="93" height="48" />
+</p><p>Or set <img src="//latex.artofproblemsolving.com/2/6/d/26dc1fee3126f1cfa247981081b69d4fccc41a07.png" class="latex" alt="$P(1)=a,P(2)=b,P(3)=c,P(4)=d,P(5)=e=1/2$" style="vertical-align: -4px" width="434" height="18" />:
+<img src="//latex.artofproblemsolving.com/b/2/c/b2c5d894909662c743bd8cc51b9f3fb826e03719.png" class="latexcenter" alt="\[a=0.1\emptyset+0.9b,b=0.2a+0.8c,c=0.3b+0.7d,d=0.4c+0.6e\]" width="478" height="18" />
+<img src="//latex.artofproblemsolving.com/8/a/b/8ab0be04234eaf7cf5e39b42867e86027faba272.png" class="latexcenter" alt="\[10a=\emptyset+9b,10b=2a+8c,10c=3b+7d,10d=4c+6e\]" width="447" height="18" />
+<img src="//latex.artofproblemsolving.com/8/c/0/8c05a46d83b68bceac26aca6051924152c138c55.png" class="latexcenter" alt="\[\implies b=\frac{10a-\emptyset}{9},c=\frac{5b-a}{4},d=\frac{10c-3b}{7},e=\frac{5d-2c}{3}=1/2\]" width="490" height="40" />
+<img src="//latex.artofproblemsolving.com/6/4/e/64e6766e648c5f17ff1a97cccfa073c57ba39d42.png" class="latex" alt="$b=\frac{10a}{9}$" style="vertical-align: -12px" width="62" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/8/2/d/82db557d2bf2d95837d8bbc1f36e2f89c8ee8164.png" class="latex" alt="$c=\frac{5\left(\frac{10a}{9}\right)-a}{4}=\frac{\frac{50a}{9}-a}{9}=\frac{41a}{36}$" style="vertical-align: -13px" width="259" height="42" />
+</p><p><img src="//latex.artofproblemsolving.com/1/a/b/1ab12aeba196236ecf3bcfc131b3c119549bff40.png" class="latex" alt="$d=\frac{10\left(\frac{41a}{36}\right)-3\left(\frac{30a}{9}\right)}{7}=\frac{\frac{205a}{18}-\frac{10a}{3}}{7}=\frac{145a}{126}$" style="vertical-align: -13px" width="344" height="42" />
+</p><p><img src="//latex.artofproblemsolving.com/d/1/6/d161be7f3b840a8b0b797d40b9193c55bc434332.png" class="latex" alt="$e=\frac{5\left(\frac{145a}{126}\right)-2\left(\frac{41a}{36}\right)}{3}=\frac{\frac{725a}{126}-\frac{41a}{18}}{3}=\frac{73a}{63}$" style="vertical-align: -12px" width="331" height="41" />
+</p><p>Since <img src="//latex.artofproblemsolving.com/5/9/c/59cfed396a22c040f22cee3d77edfb04e58d9639.png" class="latex" alt="$e=\frac{1}{2}$" style="vertical-align: -12px" width="44" height="37" />, <img src="//latex.artofproblemsolving.com/5/b/3/5b3918aa2e7e86ea58c170f49c0e7a5ca3017b00.png" class="latex" alt="$\frac{73a}{63}=\frac{1}{2}\implies a=\boxed{\textbf{(C) }\frac{63}{146}}$" style="vertical-align: -18px" width="230" height="48" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Notice that the probabilities are symmetrical around the fifth lily pad. If the frog is on the fifth lily pad, there is a <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> chance that it escapes and a <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> chance that it gets eaten. Now, let <img src="//latex.artofproblemsolving.com/7/6/e/76ebaba4ae3d5c911d6e31ad855d502ad88d48a6.png" class="latex" alt="$P_k$" style="vertical-align: -2px" width="18" height="15" /> represent the probability that the frog escapes if it is currently on pad <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />. We get the following system of <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> equations:
+<img src="//latex.artofproblemsolving.com/9/c/2/9c2e4c28a45884b84086cb6eb0f167d4d3e69db5.png" class="latexcenter" alt="\[P_1=\frac{9}{10}\cdot P_2\]" width="95" height="38" />
+<img src="//latex.artofproblemsolving.com/2/b/b/2bbb67cd6b1c50a72365ec5e6dde4a98db920cbf.png" class="latexcenter" alt="\[P_2=\frac{2}{10}\cdot P_1 + \frac{8}{10}\cdot P_3\]" width="172" height="38" />
+<img src="//latex.artofproblemsolving.com/e/6/5/e65e1fbaa78bf606934653934fefca3a56818f16.png" class="latexcenter" alt="\[P_3=\frac{3}{10}\cdot P_2 + \frac{7}{10}\cdot P_4\]" width="173" height="38" />
+<img src="//latex.artofproblemsolving.com/1/2/c/12ce201d1dc74685eaade813834f7619f9e33ac1.png" class="latexcenter" alt="\[P_4=\frac{4}{10}\cdot P_3 + \frac{6}{10}\cdot P_5\]" width="172" height="38" />
+<img src="//latex.artofproblemsolving.com/9/8/c/98c1cdb7052a4bf6932e805224a4e3f9b036822b.png" class="latexcenter" alt="\[P_5=\frac{5}{10}\]" width="63" height="38" />
+We want to find <img src="//latex.artofproblemsolving.com/a/5/b/a5b0256a78d58b6d5f7a53400b19e7747d2983fa.png" class="latex" alt="$P_1$" style="vertical-align: -2px" width="17" height="15" />, since the frog starts at pad <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. Solving the above system yields <img src="//latex.artofproblemsolving.com/e/f/d/efddbc2a71d6ee78ce7b8c7f301b691431500de3.png" class="latex" alt="$P_1=\frac{63}{146}$" style="vertical-align: -13px" width="73" height="38" />, so the answer is <img src="//latex.artofproblemsolving.com/6/d/b/6dbbac62a58811f44fda1df541fe2d2b7f43bc64.png" class="latex" alt="$\boxed{(C)}$" style="vertical-align: -10px" width="40" height="29" />.
+</p><p><br />
+(please show how to do the systems, it's pretty tricky)
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Assign each lily pad a value, with pad <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> having value <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and pad <img src="//latex.artofproblemsolving.com/2/5/d/25dfa5e1205b2ae736cbc053851e5518ca1d554e.png" class="latex" alt="$i &gt; 0$" style="vertical-align: 0px" width="39" height="13" /> having value <img src="//latex.artofproblemsolving.com/2/4/b/24b53aa9144cae6739984cacd5bc03a461883a01.png" class="latex" alt="$\sum_{k=0}^{i-1}\frac{1}{\binom{9}{k}}$" style="vertical-align: -23px" width="58" height="56" />. If we treat the process as a random walk <img src="//latex.artofproblemsolving.com/e/5/7/e57aa074447ecae8a2beedb51b2ff97e8c3c513d.png" class="latex" alt="$X_0, X_1, \cdots$" style="vertical-align: -4px" width="87" height="18" /> over these values, note that <img src="//latex.artofproblemsolving.com/4/9/6/4967285270d715e70ef7576ce3d2b24791e748e9.png" class="latex" alt="$\mathbb{E}[X_{n+1}] = n$" style="vertical-align: -5px" width="100" height="20" /> for all <img src="//latex.artofproblemsolving.com/e/2/c/e2c7d62172af0e738dd12f47f3f8ad8ef70cd65f.png" class="latex" alt="$n \ge 0$" style="vertical-align: -2px" width="43" height="15" />. This is purely by construction, as the expected gain at pad <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> is <img src="//latex.artofproblemsolving.com/d/1/9/d1933942c87799c99961e274e092da305e0b158e.png" class="latex" alt="$\binom{9}{k}\cdot \frac{10-k}{10} - \binom{9}{k-1}\cdot \frac{k}{10} = 0$" style="vertical-align: -23px" width="268" height="55" />. Therefore the process is a martingale. Since the stopping time has finite expectation and the increments are bounded, the <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Optional_stopping_theorem">Optional Stopping Thoerem</a> applies and the expected final outcome is <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />. This gives the probability of reaching safety as <img src="//latex.artofproblemsolving.com/b/e/5/be51f9cae7ac181dfbc45d499dce3647603bfe79.png" class="latex" alt="$\left(\sum_{k=0}^{9}\frac{1}{\binom{9}{k}}\right)^{-1} = \frac{63}{146}$" style="vertical-align: -23px" width="160" height="59" />, which is choice <img src="//latex.artofproblemsolving.com/6/d/b/6dbbac62a58811f44fda1df541fe2d2b7f43bc64.png" class="latex" alt="$\boxed{(C)}$" style="vertical-align: -10px" width="40" height="29" />.
+</p>
+<h2><span id="Remark_(Markov_Chain)"></span><span class="mw-headline" id="Remark_.28Markov_Chain.29">Remark (Markov Chain)</span></h2>
+<p>We can represent this problem with the following State Transition Digram of <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Absorbing_Markov_chain">Absorbing Markov Chain</a>. State <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and state <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> are the absorbing states. This problem asks for the <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Absorbing_probabilities">Absorbing Probability</a> of state <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />.
+</p>
+<div class="center"><div class="floatnone"><a href="/wiki/index.php/File:Markov_Chain_Frog.png" class="image"><img alt="Markov Chain Frog.png" src="https://wiki-images.artofproblemsolving.com//thumb/0/03/Markov_Chain_Frog.png/950px-Markov_Chain_Frog.png" width="950" height="108" srcset="https://wiki-images.artofproblemsolving.com//thumb/0/03/Markov_Chain_Frog.png/1425px-Markov_Chain_Frog.png 1.5x, https://wiki-images.artofproblemsolving.com//thumb/0/03/Markov_Chain_Frog.png/1900px-Markov_Chain_Frog.png 2x" /></a></div></div>
+<p>Let <img src="//latex.artofproblemsolving.com/7/6/c/76ce4b055db58eaf041c6df81590b7303d886cf8.png" class="latex" alt="$p_{ij} = P(X_{n+1} = j | X_n = i)$" style="vertical-align: -6px" width="209" height="20" />, the probability that state <img src="//latex.artofproblemsolving.com/3/4/8/34857b3ba74ce5cd8607f3ebd23e9015908ada71.png" class="latex" alt="$i$" width="5" height="12" /> transits to state <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" /> on the next step. 
+</p><p>Let <img src="//latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> be the absorbing probability of being absorbed in the absorbing state when starting from transient state <img src="//latex.artofproblemsolving.com/3/4/8/34857b3ba74ce5cd8607f3ebd23e9015908ada71.png" class="latex" alt="$i$" width="5" height="12" />.
+</p><p><img src="//latex.artofproblemsolving.com/d/f/8/df8f3396927514bb3df77874fb9c6249d4157480.png" class="latex" alt="$a_i = \sum_{j} (p_{ij} \cdot a_{j})$" style="vertical-align: -25px" width="132" height="45" />
+</p><p><img src="//latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> is the sum of the products of <img src="//latex.artofproblemsolving.com/7/9/2/79220e9b9f82ca92de037d2a8a6bc00ac0f9a0e0.png" class="latex" alt="$p_{ij}$" style="vertical-align: -4px" width="20" height="12" /> and <img src="//latex.artofproblemsolving.com/0/7/8/0785f19824c8b23ab3dfe000b471994078fdf589.png" class="latex" alt="$a_j$" style="vertical-align: -4px" width="15" height="12" /> of all the next state <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />.
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=DMdgh2mMiWM">https://www.youtube.com/watch?v=DMdgh2mMiWM</a>
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_TheBeautyofMath">Video Solution by TheBeautyofMath</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/QqeaomXYDsg">https://youtu.be/QqeaomXYDsg</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2014_AMC_10B" title="2014 AMC 10B">2014 AMC 10B</a></b> (<b><a href="/wiki/index.php/2014_AMC_10B_Problems" title="2014 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_10B_Answer_Key" title="2014 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last Question</b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_1" title="2014 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_2" title="2014 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_3" title="2014 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_4" title="2014 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_5" title="2014 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_6" title="2014 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_7" title="2014 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_8" title="2014 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_9" title="2014 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_10" title="2014 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_11" title="2014 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_12" title="2014 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_13" title="2014 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_14" title="2014 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_15" title="2014 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_16" title="2014 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_17" title="2014 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_18" title="2014 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_19" title="2014 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_20" title="2014 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_21" title="2014 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_22" title="2014 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_23" title="2014 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10B_Problems/Problem_25" class="mw-redirect" title="2014 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2014_AMC_12B" title="2014 AMC 12B">2014 AMC 12B</a></b> (<b><a href="/wiki/index.php/2014_AMC_12B_Problems" title="2014 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_12B_Answer_Key" title="2014 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_21" title="2014 AMC 12B Problems/Problem 21">Problem 21</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_23" title="2014 AMC 12B Problems/Problem 23">Problem 23</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_1" title="2014 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_2" title="2014 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_3" title="2014 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_4" title="2014 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_5" title="2014 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_6" title="2014 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_7" title="2014 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_8" title="2014 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_9" title="2014 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_10" title="2014 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_11" title="2014 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_12" title="2014 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_13" title="2014 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_14" title="2014 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_15" title="2014 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_16" title="2014 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_17" title="2014 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_18" title="2014 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_19" title="2014 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_20" title="2014 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_21" title="2014 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a class="mw-selflink selflink">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_23" title="2014 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_24" title="2014 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_12B_Problems/Problem_25" title="2014 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208064603
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.125 seconds
+Real time usage: 0.131 seconds
+Preprocessor visited node count: 870/1000000
+Preprocessor generated node count: 2622/1000000
+Post‐expand include size: 4291/2097152 bytes
+Template argument size: 409/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14933/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   36.581      1 -total
+ 16.17%    5.915      1 Template:AMC10_box
+ 14.66%    5.364      1 Template:AMC12_box
+  4.63%    1.694      1 Template:Duplicate
+  3.85%    1.410      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:12437-0!canonical and timestamp 20230208064603 and revision id 174557
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_12B_Problems/Problem_22&amp;oldid=174557">https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_12B_Problems/Problem_22&amp;oldid=174557</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208193454 -->
+</html>

@@ -1,0 +1,248 @@
+<p>A unit square is rotated <img src="//latex.artofproblemsolving.com/8/a/d/8adb649f063149ebc97d3ee58c4fd38d4c440846.png" class="latex" alt="$45^\circ$" style="vertical-align: 0px" width="24" height="13" /> about its center.  What is the area of the region swept out by the interior of the square?  
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/a/5/2/a526ea0cc4d682dfaf74d89d529694101ee19274.png" class="latex" alt="$\textbf{(A)}\ 1 - \frac{\sqrt2}{2} + \frac{\pi}{4}\qquad\textbf{(B)}\ \frac{1}{2} + \frac{\pi}{4} \qquad\textbf{(C)}\ 2 - \sqrt2 + \frac{\pi}{4}\qquad\textbf{(D)}\ \frac{\sqrt2}{2} + \frac{\pi}{4} \qquad\textbf{(E)}\ 1 + \frac{\sqrt2}{4} + \frac{\pi}{8}$" style="vertical-align: -13px" width="704" height="41" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>First, we need to see what this looks like.  Below is a diagram.
+</p><p><img src="//latex.artofproblemsolving.com/2/c/e/2cef856b58cfff2a7283d5219d0dfdaa03042386.png" class="latexcenter" alt="[asy] size(200); defaultpen(linewidth(0.8)); path square=shift((-.5,-.5))*unitsquare,square2=rotate(45)*square; fill(square^^square2,grey); for(int i=0;i&lt;=3;i=i+1) { path arcrot=arc(origin,sqrt(2)/2,45+90*i,90*(i+1)); draw(arcrot); fill(arcrot--(0,0)--cycle,grey); draw(arc(origin,sqrt(2)/2+1/8,50+90*i,90*(i+1)-10),EndArrow); } draw(square^^square2);[/asy]" width="332" height="332" />
+</p><p>For this square with side length 1, the distance from center to vertex is <img src="//latex.artofproblemsolving.com/0/0/0/00079a78a7c4e993aab3c7c44b27dd15fdfc65ad.png" class="latex" alt="$r = \frac{\sqrt{2}}{2}$" style="vertical-align: -12px" width="59" height="41" />, hence the area is composed of a semicircle of radius <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" />, plus <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> times a parallelogram (or a kite with diagonals of <img src="//latex.artofproblemsolving.com/9/d/d/9dda7c09052b6309a09a6eba298dbf11fef2635d.png" class="latex" alt="$(\sqrt{2}-1)$" style="vertical-align: -4px" width="68" height="21" /> and <img src="//latex.artofproblemsolving.com/a/d/f/adf7f8555dba46db252c3a1de44f597a9171be9b.png" class="latex" alt="$r \text{ or} \frac{\sqrt{2}}{2}$" style="vertical-align: -12px" width="55" height="41" />) with height <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> and base <img src="//latex.artofproblemsolving.com/6/2/c/62c394b13f6cf0ad73a826d0f1e208b07603e356.png" class="latex" alt="$\frac{\sqrt{2}}{2(1+\sqrt{2})}$" style="vertical-align: -19px" width="81" height="47" />. That is to say, the total area is <img src="//latex.artofproblemsolving.com/9/4/3/943543e1c6803688bc1000cb36d152826bd722a3.png" class="latex" alt="$\frac{1}{2} \pi \left(\frac{\sqrt{2}}{2}\right)^2 + 4 \frac{\sqrt{2}}{4(1+\sqrt{2})} = \boxed{\textbf{(C) } 2 - \sqrt{2} + \frac{\pi}{4}}$" style="vertical-align: -22px" width="369" height="56" />.
+</p><p><img src="//latex.artofproblemsolving.com/1/8/4/184aa4bab0f1d089a1cc659b41a0c3fae9aa9e7a.png" class="latexcenter" alt="[asy] size(150);defaultpen(linewidth(0.8)); path square=shift((-.5,-.5))*unitsquare,square2=rotate(45)*square;//fill(square^^square2,grey); for(int i=0;i&lt;=3;i=i+1){path arcrot=arc(origin,sqrt(2)/2,45+90*i,90*(i+1));draw(arcrot); fill(arcrot--(0,0)--cycle,grey);} //draw(arc(origin,sqrt(2)/2+1/8,50+90*i,90*(i+1)-10),EndArrow);} draw(square^^square2); //draw((-.5,.5)--(.5,-.5)^^(0,sqrt(.5))--(0,-sqrt(.5)),dotted);draw((.5,.5)--(-.5,-.5),dotted); [/asy]" width="252" height="252" />
+(To turn each dart-shaped piece into a parallelogram, cut along the dashed line and flip over one half.)
+<img src="//latex.artofproblemsolving.com/4/f/5/4f5c5a5cf3a60dd0e7cdc32bb0caf1b6d792df89.png" class="latexcenter" alt="[asy] size(150,Aspect);real r=sqrt(2);real b=2-2/r; draw((0,0)--(-1,1)--(b-1,1)--(0,r)--cycle);draw((0,1)--(b-1,1)--(b/2-1,1-b/2));draw((0,0)--(b-1,1),dashed); fill((2,0)--(b+1,1)--(b+2,0)--cycle,lightgray);draw((.5,.5)--(1,.5),EndArrow); draw((2,0)--(1,1)--(b+1,1)--(b+2,0)--(2,0)^^(b+1,1)--(b/2+1,1-b/2)^^(2,0)--(2+b/2,b/2)); draw((2,0)--(b+1,1),dashed); [/asy]" width="252" height="102" />
+Alternatively, you can move the dart-shaped piece to the other side and make a kite.
+<img src="//latex.artofproblemsolving.com/4/9/a/49a54e3a86d6718092983262eb1a1ceb745723aa.png" class="latexcenter" alt="[asy] size(75,Aspect);real r=sqrt(2);real b=2-2/r; draw((r-1,1)--(b-1,1)); draw((0,0)--(b-1,1)--(0,r)--(r-1,1)--cycle); draw((0,r)--(0,0),dashed); [/asy]" width="75" height="125" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p><img src="//latex.artofproblemsolving.com/3/9/b/39baf46e49824d8bc53a4b853563984045ce96b7.png" class="latexcenter" alt="[asy] size(200); defaultpen(linewidth(0.8)); path square=shift((-.5,-.5))*unitsquare,square2=rotate(45)*square; for(int i=0;i&lt;=6;i=i+1) { path arcrot=arc(origin,sqrt(2)/2,45+270*i,270*(i+1)); draw(arcrot); } draw(square^^square2);[/asy]" width="335" height="335" />
+</p>
+<center><img src="//latex.artofproblemsolving.com/d/0/c/d0cad456843171c2445debebc39ca51772eae46a.png" class="latex" alt="$\textbf{(high res image; no labels)}$" style="vertical-align: -4px" width="221" height="17" /></center>
+<p><a href="/wiki/index.php/File:AMC_10A_2013_20.jpg" class="image"><img alt="AMC 10A 2013 20.jpg" src="https://wiki-images.artofproblemsolving.com//1/1e/AMC_10A_2013_20.jpg" width="348" height="352" /></a>
+</p><p>Let <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> be the center of the square and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be the intersection of <img src="//latex.artofproblemsolving.com/0/9/6/0964c9cf406ef8e5ec8beaa6a92125f2d8f90460.png" class="latex" alt="$OB$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" />. The desired area consists of the unit square, plus <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> regions congruent to the region bounded by arc <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />, <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" />, and <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" />, plus <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> triangular regions congruent to right triangle <img src="//latex.artofproblemsolving.com/d/7/a/d7ada763e99852a6e44a15d46cce3c3709a944d5.png" class="latex" alt="$BCD$" width="44" height="12" />. The area of the region bounded by arc <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" />, <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" />, and <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> is <img src="//latex.artofproblemsolving.com/6/3/3/633ba3810c6fd945c9e692e43f5463071afcd870.png" class="latex" alt="$\frac{\text{Area of Circle}-\text{Area of Square}}{8}$" style="vertical-align: -12px" width="234" height="37" />. Since the circle has radius <img src="//latex.artofproblemsolving.com/e/d/8/ed89feeb1e08299fe3bc0efb5ab3fc0a121eb031.png" class="latex" alt="$\dfrac{1}{\sqrt {2}}$" style="vertical-align: -17px" width="26" height="41" />, the area of the region is <img src="//latex.artofproblemsolving.com/c/f/f/cffc6a62370892570161f8426292ca3b8245efe6.png" class="latex" alt="$\dfrac{\dfrac{\pi}{2}-1}{8}$" style="vertical-align: -12px" width="48" height="52" />, so 4 times the area of that region is <img src="//latex.artofproblemsolving.com/3/0/d/30df88050262c0f965308e383d98a3f8e6e3d6c8.png" class="latex" alt="$\dfrac{\pi}{4}-\dfrac{1}{2}$" style="vertical-align: -13px" width="48" height="37" />. Now we find the area of <img src="//latex.artofproblemsolving.com/1/2/f/12f372757d55c2d07adc720932c6d6e1396aa389.png" class="latex" alt="$\triangle BCD$" width="60" height="13" />. <img src="//latex.artofproblemsolving.com/0/a/9/0a9137a9d694ec13e06932a0e089f80f90fc8b96.png" class="latex" alt="$BC=BO-OC=\dfrac{\sqrt {2}}{2}-\dfrac{1}{2}$" style="vertical-align: -12px" width="219" height="41" />. Since <img src="//latex.artofproblemsolving.com/1/2/f/12f372757d55c2d07adc720932c6d6e1396aa389.png" class="latex" alt="$\triangle BCD$" width="60" height="13" /> is a <img src="//latex.artofproblemsolving.com/2/2/2/22231a5cdd4fe05a11f4b577e3b81221f3017a85.png" class="latex" alt="$45-45-90$" style="vertical-align: 0px" width="98" height="13" /> right triangle, the area of <img src="//latex.artofproblemsolving.com/1/2/f/12f372757d55c2d07adc720932c6d6e1396aa389.png" class="latex" alt="$\triangle BCD$" width="60" height="13" /> is <img src="//latex.artofproblemsolving.com/3/b/c/3bc517687fa61f1f933381d087d20d4462cb142c.png" class="latex" alt="$\dfrac{BC^2}{2}=\dfrac {\left (\dfrac {\sqrt {2}}{2}-\dfrac{1}{2} \right)^2}{2}$" style="vertical-align: -12px" width="166" height="76" />, so <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> times the area of <img src="//latex.artofproblemsolving.com/1/2/f/12f372757d55c2d07adc720932c6d6e1396aa389.png" class="latex" alt="$\triangle BCD$" width="60" height="13" /> is <img src="//latex.artofproblemsolving.com/5/0/c/50cb9ec43176097de8b35103058857a09cb556d4.png" class="latex" alt="$\dfrac{3}{2}-\sqrt {2}$" style="vertical-align: -12px" width="60" height="37" />. Finally, the area of the whole region is <img src="//latex.artofproblemsolving.com/1/c/9/1c9a1670d714f0a8d8931b622585085c9c57dd78.png" class="latex" alt="$1+ \left(\dfrac {3}{2}-\sqrt {2} \right) + \left(\dfrac{\pi}{4}-\dfrac{1}{2} \right)=\dfrac{\pi}{4}+2-\sqrt {2}$" style="vertical-align: -17px" width="333" height="43" />, which we can rewrite as <img src="//latex.artofproblemsolving.com/5/4/7/54788a6493d42d371a391ac7cd59de6e2ca1df92.png" class="latex" alt="$\boxed{\textbf{(C) }    2 - \sqrt{2} + \frac{\pi}{4}}$" style="vertical-align: -18px" width="139" height="44" />.
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2013_AMC_10A" title="2013 AMC 10A">2013 AMC 10A</a></b> (<b><a href="/wiki/index.php/2013_AMC_10A_Problems" title="2013 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2013_AMC_10A_Answer_Key" title="2013 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_19" title="2013 AMC 10A Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_21" title="2013 AMC 10A Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_1" title="2013 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_2" title="2013 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2013 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_4" title="2013 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_5" title="2013 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_6" title="2013 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_7" title="2013 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_8" title="2013 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_9" title="2013 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_10" title="2013 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_11" title="2013 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_12" title="2013 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_13" title="2013 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_14" title="2013 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_15" title="2013 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_16" title="2013 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_17" title="2013 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_18" title="2013 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_19" title="2013 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_21" title="2013 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_22" title="2013 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_23" title="2013 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_24" title="2013 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_25" title="2013 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208131939
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.092 seconds
+Real time usage: 0.097 seconds
+Preprocessor visited node count: 493/1000000
+Preprocessor generated node count: 1436/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 9607/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.580      1 -total
+ 74.44%    6.387      1 Template:AMC10_box
+ 23.44%    2.011      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11742-0!canonical and timestamp 20230208131939 and revision id 159012
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_20&amp;oldid=159012">https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_20&amp;oldid=159012</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209003036 -->
+</html>

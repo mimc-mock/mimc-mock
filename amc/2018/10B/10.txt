@@ -1,0 +1,266 @@
+<p>In the rectangular parallelepiped shown, <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> = <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> = <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/c/a/8/ca8854f11c419c65f97c8b11a63e717784cf79f9.png" class="latex" alt="$CG$" width="28" height="12" /> = <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. Point <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/8/f/4/8f450f6af9c000449bff7dc1801fdd77978f6e24.png" class="latex" alt="$\overline{FG}$" width="29" height="15" />. What is the volume of the rectangular pyramid with base <img src="//latex.artofproblemsolving.com/8/8/c/88ca7901f3a38f980dd83e1b24a5f7dba0dd7e77.png" class="latex" alt="$BCHE$" width="59" height="12" /> and apex <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" />?
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/8/8/5/885c4e50ebdac89dd6aba698666a62eaa1b5eba6.png" class="latexcenter" alt="[asy] size(250); defaultpen(fontsize(10pt)); pair A =origin; pair B = (4.75,0); pair E1=(0,3); pair F = (4.75,3); pair G = (5.95,4.2); pair C = (5.95,1.2); pair D = (1.2,1.2); pair H= (1.2,4.2); pair M = ((4.75+5.95)/2,3.6); draw(E1--M--H--E1--A--B--E1--F--B--M--C--G--H); draw(B--C); draw(F--G); draw(A--D--H--C--D,dashed); label(&quot;$A$&quot;,A,SW); label(&quot;$B$&quot;,B,SE); label(&quot;$C$&quot;,C,E); label(&quot;$D$&quot;,D,W); label(&quot;$E$&quot;,E1,W); label(&quot;$F$&quot;,F,SW); label(&quot;$G$&quot;,G,NE); label(&quot;$H$&quot;,H,NW); label(&quot;$M$&quot;,M,N); dot(A); dot(B); dot(E1); dot(F); dot(G); dot(C); dot(D); dot(H); dot(M); label(&quot;3&quot;,A/2+B/2,S); label(&quot;2&quot;,C/2+G/2,E); label(&quot;1&quot;,C/2+B/2,SE); [/asy]" width="418" height="302" />
+</p><p><img src="//latex.artofproblemsolving.com/0/d/f/0df6fdedc6be14396f204254f159a7d3a9060679.png" class="latex" alt="$\textbf{(A) } 1 \qquad \textbf{(B) } \frac{4}{3} \qquad \textbf{(C) } \frac{3}{2} \qquad \textbf{(D) } \frac{5}{3} \qquad \textbf{(E) } 2$" style="vertical-align: -12px" width="364" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Consider the cross-sectional plane and label its area <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />. Note that the volume of the triangular prism that encloses the pyramid is <img src="//latex.artofproblemsolving.com/5/0/5/505d725e7ab72ec310b04e8cb90cc0dc8dbb0a8d.png" class="latex" alt="$\frac{bh}{2}=3$" style="vertical-align: -12px" width="55" height="37" />, and we want the rectangular pyramid that shares the base and height with the triangular prism. The volume of the pyramid is <img src="//latex.artofproblemsolving.com/9/8/6/986c2f42eeee979d7ef35327a98e5fab7cce19df.png" class="latex" alt="$\frac{bh}{3}$" style="vertical-align: -12px" width="20" height="37" />, so the answer is <img src="//latex.artofproblemsolving.com/4/b/6/4b6062a42853d64bfdfc2588859fca6837b61054.png" class="latex" alt="$\boxed{(E) 2}$" style="vertical-align: -10px" width="49" height="29" />. (AOPS12142015)
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We can start by finding the total volume of the parallelepiped. It is <img src="//latex.artofproblemsolving.com/1/b/e/1be5867f704e37c6578ec1148398c21821a9567e.png" class="latex" alt="$2 \cdot 3 \cdot 1 = 6$" style="vertical-align: 0px" width="86" height="13" />, because a rectangular parallelepiped is a rectangular prism.
+</p><p>Next, we can consider the wedge-shaped section made when the plane <img src="//latex.artofproblemsolving.com/8/8/c/88ca7901f3a38f980dd83e1b24a5f7dba0dd7e77.png" class="latex" alt="$BCHE$" width="59" height="12" /> cuts the figure. We can find the volume of the triangular pyramid with base <img src="//latex.artofproblemsolving.com/8/c/9/8c9c1db283a081d93c34b8f8be624033e15801a8.png" class="latex" alt="$EFB$" width="42" height="12" /> and apex <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" />. The area of <img src="//latex.artofproblemsolving.com/8/c/9/8c9c1db283a081d93c34b8f8be624033e15801a8.png" class="latex" alt="$EFB$" width="42" height="12" /> is <img src="//latex.artofproblemsolving.com/7/8/a/78a3004f895e946b5ad133c5bcdb0856047d306f.png" class="latex" alt="$\frac{1}{2} \cdot 2 \cdot 3 = 3$" style="vertical-align: -12px" width="90" height="37" />. Since <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> is given to be <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, we have that <img src="//latex.artofproblemsolving.com/3/b/a/3bafb9f66f79fd3e846e2bff03bbc140fa6b0800.png" class="latex" alt="$\overline{FM}$" width="34" height="15" /> is <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />. Using the formula for the volume of a triangular pyramid, we have <img src="//latex.artofproblemsolving.com/5/8/d/58d681dfa2abd8821ced5d97d1ca17588a914432.png" class="latex" alt="$V = \frac{1}{3} \cdot \frac{1}{2} \cdot 3 = \frac{1}{2}$" style="vertical-align: -12px" width="136" height="37" />. Also, since the triangular pyramid with base <img src="//latex.artofproblemsolving.com/d/2/6/d2675033f0b9487e4ffdafcca70961bd76dd72a5.png" class="latex" alt="$HGC$" width="45" height="12" /> and apex <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> has the exact same dimensions, it has volume <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> as well.
+</p><p>The original wedge we considered in the last step has volume <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, because it is half of the volume of the parallelepiped. We can subtract out the parts we found to have <img src="//latex.artofproblemsolving.com/5/b/8/5b8d4e866fe7049717941b5db5d130bda2b03718.png" class="latex" alt="$3 - \frac{1}{2} \cdot 2 = 2$" style="vertical-align: -12px" width="99" height="37" />. Thus, the volume of the figure we are trying to find is <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. This means that the correct answer choice is <img src="//latex.artofproblemsolving.com/5/5/2/55206bce678ac0394d97dc04dd72398df2bdf572.png" class="latex" alt="$\boxed{E}$" style="vertical-align: -5px" width="26" height="24" />.
+</p><p>Written by: Archimedes15
+</p><p>NOTE: For those who think that it isn't a rectangular prism, please read the problem. It says "rectangular parallelepiped." If a parallelepiped is such that all of the faces are rectangles, it is a rectangular prism.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>If you look carefully, you will see that on the either side of the pyramid in question, there are two congruent tetrahedra. The volume of one is <img src="//latex.artofproblemsolving.com/e/2/1/e21ecee861d024e222191ccfb66124e06ae6234e.png" class="latex" alt="$\frac{1}{3}Bh$" style="vertical-align: -12px" width="38" height="37" />, with its base being half of one of the rectangular prism's faces and its height being half of one of the edges, so its volume is <img src="//latex.artofproblemsolving.com/b/9/1/b9123ad64309f7b28c887301ecd979cb5cae3175.png" class="latex" alt="$\frac{1}{3} (3 \times 2/2 \times \frac{1}{2})=\frac{1}{2}$" style="vertical-align: -12px" width="157" height="37" />. We can obtain the answer by subtracting twice this value from the diagonal half prism, or
+<img src="//latex.artofproblemsolving.com/1/e/8/1e824016b2eb0a8cd79ec592fa9ded3ace447518.png" class="latex" alt="$(\frac{1}{2} \times 3 \times 2 \times 1) - (2 \times \frac{1}{2})=$" style="vertical-align: -12px" width="220" height="37" /> <img src="//latex.artofproblemsolving.com/b/5/e/b5e8656291085c388b48a0fa8da85aed21c483bf.png" class="latex" alt="$\boxed{2}$" style="vertical-align: -5px" width="20" height="23" />
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>You can calculate the volume of the rectangular pyramid by using the formula, <img src="//latex.artofproblemsolving.com/4/c/6/4c67e2f1b8390374152328081f6071c723811e3b.png" class="latex" alt="$\frac{Ah}{3}$" style="vertical-align: -12px" width="26" height="38" />. <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> is the area of the base, <img src="//latex.artofproblemsolving.com/8/8/c/88ca7901f3a38f980dd83e1b24a5f7dba0dd7e77.png" class="latex" alt="$BCHE$" width="59" height="12" />, and is equal to <img src="//latex.artofproblemsolving.com/5/d/4/5d4b614501a0cca8f7627d1cf500b320a914d183.png" class="latex" alt="$BC * BE$" width="75" height="12" />. The height, <img src="//latex.artofproblemsolving.com/8/1/8/8189a5b5a0917b8c93350827be4038af1839139d.png" class="latex" alt="$h$" width="10" height="12" />, is equal to the height of triangle <img src="//latex.artofproblemsolving.com/f/3/1/f318e6a352cfb153108a4f434783975c6b50bd7c.png" class="latex" alt="$FBE$" width="43" height="12" /> drawn from <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> to <img src="//latex.artofproblemsolving.com/a/7/b/a7baf95ecafc2d7791788ec79aeeae390d60b119.png" class="latex" alt="$BE$" width="28" height="12" />.
+</p><p><img src="//latex.artofproblemsolving.com/f/4/b/f4b0212921849825ed207c30450185515fc5b19f.png" class="latex" alt="$BE=\sqrt{BF^2 + EF^2}=\sqrt{13}$" style="vertical-align: -2px" width="221" height="19" /> Area of <img src="//latex.artofproblemsolving.com/0/3/b/03bc7912500b1de2a857b38030efdf88bc97953e.png" class="latex" alt="$BCHE = BC * BE = \sqrt{13}$" style="vertical-align: -1px" width="217" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/7/b/d/7bd1ed9465b42d829cb7e6666f1b1c60583bf065.png" class="latex" alt="$h = 2 *$" width="51" height="12" /> Area of <img src="//latex.artofproblemsolving.com/7/2/a/72a178911f5f243ca4a33421b714426492f91387.png" class="latex" alt="$FBE / BE$" style="vertical-align: -4px" width="81" height="18" /> (since Area <img src="//latex.artofproblemsolving.com/8/0/1/801680c7ac2076cc3fc6728eb6f68113cdf3a89d.png" class="latex" alt="$= \frac{1}{2}bh$" style="vertical-align: -12px" width="50" height="37" />).
+</p><p>Area of <img src="//latex.artofproblemsolving.com/3/b/1/3b12f22f7f05d79614bffdaca9edd78b5cf85d5d.png" class="latex" alt="$FBE = \frac{1}{2} * FB * FE = 3$" style="vertical-align: -12px" width="205" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/7/e/a/7ea3ba3118b8df97ef41aa0ccfc5f68130f67f2c.png" class="latex" alt="$h = 2 * 3 / \sqrt{13} = \frac{6}{\sqrt{13}}$" style="vertical-align: -17px" width="172" height="42" />
+</p><p>Volume of pyramid <img src="//latex.artofproblemsolving.com/b/f/e/bfe299437839a4df7d9c4ac474e1a4e939279657.png" class="latex" alt="$=\frac{1}{3} * \sqrt{13} * \frac{6}{\sqrt{13}} = 2$" style="vertical-align: -17px" width="170" height="42" />
+</p><p>Answer is <img src="//latex.artofproblemsolving.com/5/a/a/5aa4501523ce2a4392f80a21e0748f8ad7e8c951.png" class="latex" alt="$\boxed{\textbf{E } 2}$" style="vertical-align: -5px" width="39" height="23" />
+</p><p>~OlutosinNGA
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>We can start by identifying the information we need. We need to find the area of rectangle <img src="//latex.artofproblemsolving.com/6/c/2/6c2971e372d2cbb0037a4b42e8d365264aa40dc4.png" class="latex" alt="$EHCB$" width="59" height="12" /> and the height of rectangular prism <img src="//latex.artofproblemsolving.com/3/e/7/3e7e2f03e12e18c37a0e3f339650e632fcca05dc.png" class="latex" alt="$EHCBM$" width="79" height="12" />.
+</p><p>In order to find the area of <img src="//latex.artofproblemsolving.com/e/e/3/ee3ad769352583d01dc91a29977cd5c44a6859df.png" class="latex" alt="$EHCB,$" style="vertical-align: -3px" width="64" height="16" /> we can use the Pythagorean Theorem. We find that <img src="//latex.artofproblemsolving.com/d/f/8/df87ace0b84656d7d27a5456596350ec964b596e.png" class="latex" alt="$EB = \sqrt{13}$" style="vertical-align: -1px" width="87" height="18" />, so the area of rectangle <img src="//latex.artofproblemsolving.com/b/c/3/bc3cf268afbe6cb094c65bec3c9a962bb77611f4.png" class="latex" alt="$EHCB = \sqrt{13}$" style="vertical-align: -1px" width="118" height="18" />. We shall refer to this as <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />.
+</p><p>In order to find the height of rectangular prism <img src="//latex.artofproblemsolving.com/3/e/7/3e7e2f03e12e18c37a0e3f339650e632fcca05dc.png" class="latex" alt="$EHCBM$" width="79" height="12" />, we can examine triangle <img src="//latex.artofproblemsolving.com/8/c/9/8c9c1db283a081d93c34b8f8be624033e15801a8.png" class="latex" alt="$EFB$" width="42" height="12" />. We can use the Geometric Mean Theorem to find that when an altitude is dropped from point <img src="//latex.artofproblemsolving.com/2/1/c/21c1fa17457c16ebb5ce4d408eb858974fb47143.png" class="latex" alt="$F,$" style="vertical-align: -3px" width="16" height="16" />  <img src="//latex.artofproblemsolving.com/4/e/b/4ebfeb04023363364c27abf7ad4b73aee668fcfe.png" class="latex" alt="$\overline{EB}$" width="29" height="15" /> is split into segments of length <img src="//latex.artofproblemsolving.com/1/f/2/1f235f553ec69aab35b3bb8d46959441ab1524a5.png" class="latex" alt="$\dfrac{4 \cdot \sqrt{13}}{13}$" style="vertical-align: -13px" width="58" height="41" /> and <img src="//latex.artofproblemsolving.com/a/7/a/a7a1ba841d3b4d8551127b36f6f9665fa91ba70b.png" class="latex" alt="$\dfrac{9 \cdot \sqrt{13}}{13}$" style="vertical-align: -13px" width="58" height="41" />. Taking the geometric mean of these numbers, we find that the altitude has length <img src="//latex.artofproblemsolving.com/9/9/1/991f38e966a63efb65b34fb11a75442bca66c0d3.png" class="latex" alt="$\dfrac{6 \cdot \sqrt{13}}{13}$" style="vertical-align: -13px" width="58" height="41" />. This is also the height of the rectangular prism, which we shall refer to as <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />.
+</p><p>Plugging <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> into the formula <img src="//latex.artofproblemsolving.com/8/b/1/8b1d7cc4651818819acfbc2dcdfd4f1d7544650a.png" class="latex" alt="$V = \dfrac{b \cdot h}{3},$" style="vertical-align: -12px" width="78" height="37" /> we find that the volume is <img src="//latex.artofproblemsolving.com/b/5/e/b5e8656291085c388b48a0fa8da85aed21c483bf.png" class="latex" alt="$\boxed{2}$" style="vertical-align: -5px" width="20" height="23" />. The answer is <img src="//latex.artofproblemsolving.com/5/5/2/55206bce678ac0394d97dc04dd72398df2bdf572.png" class="latex" alt="$\boxed{E}$" style="vertical-align: -5px" width="26" height="24" />.
+</p>
+<h2><span class="mw-headline" id="Solution_6">Solution 6</span></h2>
+<p>We start by setting the formula for the volume of a rectangular pyramid: <img src="//latex.artofproblemsolving.com/e/2/1/e21ecee861d024e222191ccfb66124e06ae6234e.png" class="latex" alt="$\frac{1}{3}Bh$" style="vertical-align: -12px" width="38" height="37" />. By the Pythagorean Theorem, we know that <img src="//latex.artofproblemsolving.com/3/f/1/3f133091672c4df1b9deee0754b2ec32d0cd3f48.png" class="latex" alt="$BE = \sqrt{BF^2 + EF^2} = \sqrt{13}$" style="vertical-align: -2px" width="221" height="19" />. Therefore, the area of the base is <img src="//latex.artofproblemsolving.com/b/9/c/b9c86ed50a2e5c72b8e07bee98538cdbe1305f44.png" class="latex" alt="$1 \times \sqrt{13} = \sqrt{13}$" style="vertical-align: -1px" width="122" height="18" />. Next, we would like to know the height of the pyramid. We can observe that the altitude from point <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> in <img src="//latex.artofproblemsolving.com/a/e/9/ae91ce43214ef7cd53d4ef57350933c86fa19909.png" class="latex" alt="$\triangle EFB$" width="59" height="13" /> is parallel to the height of the pyramid and therefore congruent because those two altitudes are on the same plane of base <img src="//latex.artofproblemsolving.com/3/9/5/395a0a9ed507a1c875e84df828a4b98a32f655bc.png" class="latex" alt="$EBCH$" width="60" height="12" />. From this, we only need to find the altitude from point <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> in <img src="//latex.artofproblemsolving.com/a/e/9/ae91ce43214ef7cd53d4ef57350933c86fa19909.png" class="latex" alt="$\triangle EFB$" width="59" height="13" /> and plug it into our formula for the volume of a rectangular pyramid. This is easy because we already know the area of <img src="//latex.artofproblemsolving.com/a/e/9/ae91ce43214ef7cd53d4ef57350933c86fa19909.png" class="latex" alt="$\triangle EFB$" width="59" height="13" /> and the base from point <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" />, so all we need to do is divide: <img src="//latex.artofproblemsolving.com/9/5/9/9594533816f164b8a3bd97693151812f482a689b.png" class="latex" alt="$\frac{2 \times 3}{\sqrt{13}} = \frac{6}{\sqrt{13}} = \frac{6\sqrt{13}}{13}$" style="vertical-align: -17px" width="175" height="45" />. Now all we need to do is plug in all our known values into the volume formula: <img src="//latex.artofproblemsolving.com/e/0/f/e0fa5d64ca6431c9a8e6a186e1143e6f4a6655e9.png" class="latex" alt="$\frac{1}{3}Bh = \frac{\sqrt{13} \times \frac{6\sqrt{13}}{13}}{3} = \boxed{(E) 2}$" style="vertical-align: -12px" width="230" height="43" />
+</p><p>~ellpet
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10B" title="2018 AMC 10B">2018 AMC 10B</a></b> (<b><a href="/wiki/index.php/2018_AMC_10B_Problems" title="2018 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10B_Answer_Key" title="2018 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_9" title="2018 AMC 10B Problems/Problem 9">Problem 9</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_11" title="2018 AMC 10B Problems/Problem 11">Problem 11</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_1" title="2018 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_2" title="2018 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_3" title="2018 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_4" title="2018 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_5" title="2018 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_6" title="2018 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_7" title="2018 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_8" title="2018 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_9" title="2018 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a class="mw-selflink selflink">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_11" title="2018 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_12" title="2018 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_13" title="2018 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_14" title="2018 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_15" title="2018 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_16" title="2018 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_17" title="2018 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_18" title="2018 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_19" title="2018 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_20" title="2018 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_21" title="2018 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_22" title="2018 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_23" title="2018 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_24" title="2018 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_25" title="2018 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208003821
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.109 seconds
+Real time usage: 0.112 seconds
+Preprocessor visited node count: 887/1000000
+Preprocessor generated node count: 2292/1000000
+Post‐expand include size: 2185/2097152 bytes
+Template argument size: 156/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 15506/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.020      1 -total
+ 76.66%    6.148      1 Template:AMC10_box
+ 20.16%    1.617      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:16028-0!canonical and timestamp 20230208003821 and revision id 141298
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_10&amp;oldid=141298">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_10&amp;oldid=141298</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:3D_Geometry_Problems" title="Category:3D Geometry Problems">3D Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208220939 -->
+</html>

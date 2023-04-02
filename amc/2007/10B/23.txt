@@ -1,0 +1,9 @@
+<p>A pyramid with a square base is cut by a plane that is parallel to its base and <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> units from the base. The surface area of the smaller pyramid that is cut from the top is half the surface area of the original pyramid. What is the altitude of the original pyramid?
+</p><p><img src="//latex.artofproblemsolving.com/2/3/8/23843bbb375e927d74a4fd3b13cd2126fae32ae0.png" class="latex" alt="$\textbf{(A) } 2 \qquad\textbf{(B) } 2+\sqrt{2} \qquad\textbf{(C) } 1+2\sqrt{2} \qquad\textbf{(D) } 4 \qquad\textbf{(E) } 4+2\sqrt{2}$" style="vertical-align: -4px" width="511" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>Since the two pyramids are similar, the ratio of the altitudes is the square root of the ratio of the surface areas.
+</p><p>If <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is the altitude of the larger pyramid, then <img src="//latex.artofproblemsolving.com/6/1/c/61c1dd3bbde066f5334db006cebf1c06cbe03807.png" class="latex" alt="$a-2$" width="40" height="12" /> is the altitude of the smaller pyramid.
+</p><p><img src="//latex.artofproblemsolving.com/d/2/5/d250ff8d0d8bbdfbcd56aec44462e7f7b8759fdf.png" class="latexcenter" alt="\[\frac{a}{a-2}=\sqrt{\frac21}=\frac{\sqrt{2}}{1} \longrightarrow a= a\sqrt{2} - 2\sqrt{2} \longrightarrow a\sqrt{2}-a=2\sqrt{2}\]" width="476" height="43" />
+<img src="//latex.artofproblemsolving.com/2/6/0/260de0f48842dd937c62036718b0fe7aeea25aa1.png" class="latexcenter" alt="\[a=\frac{2\sqrt{2}}{\sqrt{2}-1} = \frac{4+2\sqrt{2}}{2-1} = \boxed{\textbf{(E) \ } 4+2\sqrt{2}}.\]" width="329" height="45" />
+</p>

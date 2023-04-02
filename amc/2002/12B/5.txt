@@ -1,0 +1,243 @@
+<p>Let <img src="//latex.artofproblemsolving.com/9/a/3/9a3e0783ce6020c08264d8726cd2aad65a54d6da.png" class="latex" alt="$v, w, x, y,$" style="vertical-align: -3px" width="71" height="11" /> and <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> be the degree measures of the five angles of a <a href="/wiki/index.php/Pentagon" title="Pentagon">pentagon</a>. Suppose that <img src="//latex.artofproblemsolving.com/7/c/c/7cc0bd129e4893a52e5c9e104da6adcfe53d768f.png" class="latex" alt="$v &lt; w &lt; x &lt; y &lt; z$" style="vertical-align: -3px" width="148" height="13" /> and <img src="//latex.artofproblemsolving.com/9/a/3/9a3e0783ce6020c08264d8726cd2aad65a54d6da.png" class="latex" alt="$v, w, x, y,$" style="vertical-align: -3px" width="71" height="11" /> and <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> form an <a href="/wiki/index.php/Arithmetic_sequence" title="Arithmetic sequence">arithmetic sequence</a>. Find the value of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />.
+</p><p><img src="//latex.artofproblemsolving.com/f/5/b/f5b401963a4093c86e0d9a92ed69fcf532b7df44.png" class="latex" alt="$\mathrm{(A)}\ 72 \qquad\mathrm{(B)}\ 84 \qquad\mathrm{(C)}\ 90 \qquad\mathrm{(D)}\ 108 \qquad\mathrm{(E)}\ 120$" style="vertical-align: -4px" width="405" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>The sum of the degree measures of the angles of a pentagon (as a pentagon can be split into <img src="//latex.artofproblemsolving.com/d/7/4/d74e44f371ba70b00a50c760e76c0431e43fad1f.png" class="latex" alt="$5- 2 = 3$" width="73" height="12" /> triangles) is <img src="//latex.artofproblemsolving.com/f/6/7/f6765446f2a8fe37b02af0810b932257fa3b80bf.png" class="latex" alt="$3 \cdot 180 = 540^{\circ}$" style="vertical-align: 0px" width="106" height="13" />. If we let <img src="//latex.artofproblemsolving.com/3/d/3/3d3d663bed77bc8eea7a8456f6e367abd1b4c021.png" class="latex" alt="$v = x - 2d, w = x - d, y = x + d, z = x+2d$" style="vertical-align: -3px" width="349" height="16" />, it follows that 
+</p><p><img src="//latex.artofproblemsolving.com/2/a/0/2a03fa9f8fc2b8f56860f65f81e93bfc3b933f99.png" class="latexcenter" alt="\[(x-2d)+(x-d)+x+(x+d)+(x+2d) = 5x = 540 \Longrightarrow x = 108 \ \mathrm{(D)}\]" width="503" height="18" />
+</p><p>Note that since <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is the middle term of an arithmetic sequence with an odd number of terms, it is simply the average of the sequence.
+</p><p>You can always assume the values are the same so <img src="//latex.artofproblemsolving.com/f/b/a/fba28c04e483fbd4aba3d4d55a8ec6c1605c36bf.png" class="latex" alt="$\frac{540}{5}=109$" style="vertical-align: -13px" width="85" height="38" />
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Let <img src="//latex.artofproblemsolving.com/a/9/f/a9f23bf124b6b2b2a993eb313c72e678664ac74a.png" class="latex" alt="$v$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/9/e/e/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" class="latex" alt="$w$" width="13" height="8" />, <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />, <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> be <img src="//latex.artofproblemsolving.com/a/9/f/a9f23bf124b6b2b2a993eb313c72e678664ac74a.png" class="latex" alt="$v$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/5/6/d/56dafe0a41bf3241f83c1580256cdd2c4a2f0be2.png" class="latex" alt="$v + d$" style="vertical-align: -1px" width="41" height="14" />, <img src="//latex.artofproblemsolving.com/f/9/7/f9787f8b3532b9135461abda9a4069d7de20b2c9.png" class="latex" alt="$v+2d$" style="vertical-align: -1px" width="50" height="14" />, <img src="//latex.artofproblemsolving.com/2/2/4/224c3bc78058da14fc650fc7c5456222435c1e53.png" class="latex" alt="$v+3d$" style="vertical-align: -1px" width="50" height="14" />, <img src="//latex.artofproblemsolving.com/0/5/4/054579a91e261811e28311e00965656f34ad8596.png" class="latex" alt="$v+4d$" style="vertical-align: -1px" width="50" height="14" />, respectively. Then we have <img src="//latex.artofproblemsolving.com/b/3/9/b39bdd7d2dc26e54954af8dbd765bf22fb080ab0.png" class="latexcenter" alt="\[v + w + x + y + z = 5v + 10d = 180^{\circ} (5 - 2) = 540^{\circ}\]" width="404" height="18" />
+Dividing the equation by <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" />, we have <img src="//latex.artofproblemsolving.com/f/e/d/fedaf1b53101b80f4a59cff8d7b99979fd9bc9c5.png" class="latexcenter" alt="\[v + 2d = x = 108^{\circ} \mathrm {(D)}\]" width="170" height="18" />
+</p><p>~ Nafer
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2002_AMC_12B" title="2002 AMC 12B">2002 AMC 12B</a></b> (<b><a href="/wiki/index.php/2002_AMC_12B_Problems" title="2002 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_12B_Answer_Key" title="2002 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4">Problem 4</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6">Problem 6</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_1" title="2002 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_2" title="2002 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_3" title="2002 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a class="mw-selflink selflink">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_7" title="2002 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_8" title="2002 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_9" title="2002 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_10" title="2002 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_12" title="2002 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_14" title="2002 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_15" title="2002 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_16" title="2002 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_17" title="2002 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_18" title="2002 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_19" title="2002 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_21" title="2002 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_23" title="2002 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_25" title="2002 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208204520
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.082 seconds
+Real time usage: 0.087 seconds
+Preprocessor visited node count: 335/1000000
+Preprocessor generated node count: 1080/1000000
+Post‐expand include size: 2183/2097152 bytes
+Template argument size: 154/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4503/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.317      1 -total
+ 77.80%    5.693      1 Template:AMC12_box
+ 20.23%    1.480      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6306-0!canonical and timestamp 20230208204520 and revision id 187136
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_5&amp;oldid=187136">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_5&amp;oldid=187136</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208204520 -->
+</html>

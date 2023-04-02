@@ -1,0 +1,3 @@
+<p>Of the following complex numbers <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" />, which one has the property that <img src="//latex.artofproblemsolving.com/f/7/7/f779e7d13031a8d827f9338bb8622a9f5e8c4dd1.png" class="latex" alt="$z^5$" width="15" height="15" /> has the greatest real part?
+</p><p><img src="//latex.artofproblemsolving.com/4/2/f/42fee78557329c43afe63161c59bc3f90bd474f6.png" class="latex" alt="$\textbf{(A) }{-}2 \qquad \textbf{(B) }{-}\sqrt3+i \qquad \textbf{(C) }{-}\sqrt2+\sqrt2 i \qquad \textbf{(D) }{-}1+\sqrt3 i\qquad \textbf{(E) }2i$" style="vertical-align: -5px" width="582" height="23" />
+</p>

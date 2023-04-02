@@ -1,0 +1,4 @@
+<p>All <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" /> diagonals are drawn in a regular octagon. At how many distinct points in the interior
+of the octagon (not on the boundary) do two or more diagonals intersect?
+</p><p><img src="//latex.artofproblemsolving.com/c/9/6/c9638dd6ff275981f046c654c8762aa68cae633a.png" class="latex" alt="$\textbf{(A)}\ 49\qquad\textbf{(B)}\ 65\qquad\textbf{(C)}\ 70\qquad\textbf{(D)}\ 96\qquad\textbf{(E)}\ 128$" style="vertical-align: -4px" width="403" height="17" />
+</p>

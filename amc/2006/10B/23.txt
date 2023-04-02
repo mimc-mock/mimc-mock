@@ -1,0 +1,253 @@
+<p>A triangle is partitioned into three triangles and a quadrilateral by drawing two lines from vertices to their opposite sides. The areas of the three triangles are 3, 7, and 7, as shown. What is the area of the shaded quadrilateral?
+</p><p><img src="//latex.artofproblemsolving.com/c/f/7/cf791fd7b612d29ad4afcad408d1c4e8e0c60790.png" class="latexcenter" alt="[asy] unitsize(1.5cm); defaultpen(.8);  pair A = (0,0), B = (3,0), C = (1.4, 2), D = B + 0.4*(C-B), Ep = A + 0.3*(C-A); pair F = intersectionpoint( A--D, B--Ep );  draw( A -- B -- C -- cycle ); draw( A -- D ); draw( B -- Ep ); filldraw( D -- F -- Ep -- C -- cycle, mediumgray, black );  label(&quot;$7$&quot;,(1.25,0.2)); label(&quot;$7$&quot;,(2.2,0.45)); label(&quot;$3$&quot;,(0.45,0.35)); [/asy]" width="215" height="145" />
+</p><p><img src="//latex.artofproblemsolving.com/f/4/0/f40e9555fe1d9b1e0aa46afd86b03cad2b23cc77.png" class="latex" alt="$\mathrm{(A) \ } 15\qquad \mathrm{(B) \ } 17\qquad \mathrm{(C) \ } \frac{35}{2}\qquad \mathrm{(D) \ } 18\qquad \mathrm{(E) \ } \frac{55}{3}$" style="vertical-align: -12px" width="394" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Label the points in the figure as shown below, and draw the segment <img src="//latex.artofproblemsolving.com/0/7/d/07d29465728e92952374a857beaee91665d8dbd9.png" class="latex" alt="$CF$" width="28" height="12" />. This segment divides the quadrilateral into two triangles, let their areas be <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />.
+</p><p><img src="//latex.artofproblemsolving.com/1/e/f/1ef409b8d310b1b022e55175de0f56a987435bbd.png" class="latexcenter" alt="[asy] unitsize(2cm); defaultpen(.8);  pair A = (0,0), B = (3,0), C = (1.4, 2), D = B + 0.4*(C-B), Ep = A + 0.3*(C-A); pair F = intersectionpoint( A--D, B--Ep );  draw( A -- B -- C -- cycle ); draw( A -- D ); draw( B -- Ep ); filldraw( D -- F -- Ep -- C -- cycle, mediumgray, black );  label(&quot;$7$&quot;,(1.45,0.15)); label(&quot;$7$&quot;,(2.2,0.45)); label(&quot;$3$&quot;,(0.45,0.35));  draw( C -- F, dashed );  label(&quot;$A$&quot;,A,SW); label(&quot;$B$&quot;,B,SE); label(&quot;$C$&quot;,C,N); label(&quot;$D$&quot;,D,NE); label(&quot;$E$&quot;,Ep,NW); label(&quot;$F$&quot;,F,S);  label(&quot;$x$&quot;,(1,1)); label(&quot;$y$&quot;,(1.6,1)); [/asy]" width="328" height="232" />
+</p><p>Since <a href="/wiki/index.php/Triangle" title="Triangle">triangles</a> <img src="//latex.artofproblemsolving.com/8/4/8/848339679da78d0867f8392f691c81f0d45c81fe.png" class="latex" alt="$AFB$" width="42" height="13" /> and <img src="//latex.artofproblemsolving.com/4/3/9/439f49d17a22405b40790e923c63559f6a026399.png" class="latex" alt="$DFB$" width="44" height="12" /> share an <a href="/wiki/index.php/Altitude" title="Altitude">altitude</a> from <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and have equal area, their bases must be equal, hence <img src="//latex.artofproblemsolving.com/a/2/4/a24dd1bd1438ef123e059f6e9178721c035f6f35.png" class="latex" alt="$AF=DF$" width="81" height="13" />.
+</p><p>Since triangles <img src="//latex.artofproblemsolving.com/4/1/9/419dea12de38c0f719dc92765204a7ccb24cd27f.png" class="latex" alt="$AFC$" width="42" height="13" /> and <img src="//latex.artofproblemsolving.com/d/7/6/d7688a32dd8ca72b8d925b3ecb6d39edb2b33e9b.png" class="latex" alt="$DFC$" width="44" height="12" /> share an altitude from <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> and their respective bases are equal, their areas must be equal, hence <img src="//latex.artofproblemsolving.com/2/0/7/207861a9d2228b7c84ec01c463ac2e2c90295b76.png" class="latex" alt="$x+3=y$" style="vertical-align: -3px" width="75" height="16" />. 
+</p><p>Since triangles <img src="//latex.artofproblemsolving.com/c/c/d/ccd67c4d1463073f422f24bacfd3af2b14bdf014.png" class="latex" alt="$EFA$" width="42" height="13" /> and <img src="//latex.artofproblemsolving.com/0/6/8/068be40c44c2fb63ce8085751c281210281a3989.png" class="latex" alt="$BFA$" width="42" height="13" /> share an altitude from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and their respective areas are in the ratio <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" />, their bases must be in the same ratio, hence <img src="//latex.artofproblemsolving.com/d/2/f/d2ff134d367700f51a70ab6d8ed2e14354243ec8.png" class="latex" alt="$EF:FB = 3:7$" width="130" height="12" />.
+</p><p>Since triangles <img src="//latex.artofproblemsolving.com/d/1/a/d1aa64bffb491dd06f6c006a88358b19687b2f67.png" class="latex" alt="$EFC$" width="42" height="12" /> and <img src="//latex.artofproblemsolving.com/e/f/d/efdd26b7cbfad505c1adbdfccc28d3ab1eb91872.png" class="latex" alt="$BFC$" width="43" height="12" /> share an altitude from <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> and their respective bases are in the ratio <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" />, their areas must be in the same ratio, hence <img src="//latex.artofproblemsolving.com/9/a/1/9a1bc25c0078a91a62c01962169c037bb436d8a9.png" class="latex" alt="$x:(y+7) = 3:7$" style="vertical-align: -4px" width="138" height="18" />, which gives us <img src="//latex.artofproblemsolving.com/0/a/2/0a246a1e5f4f9a280f1f477117434b75d7506124.png" class="latex" alt="$7x = 3(y+7)$" style="vertical-align: -4px" width="106" height="18" />.
+</p><p>Substituting <img src="//latex.artofproblemsolving.com/d/9/5/d95bcce6dc731c9ef8f3e99f6fae06aac36cc5c7.png" class="latex" alt="$y=x+3$" style="vertical-align: -3px" width="75" height="16" /> into the second equation we get <img src="//latex.artofproblemsolving.com/6/4/6/6467d8c06f61af0fdee59ea873eab2608d486b03.png" class="latex" alt="$7x = 3(x+10)$" style="vertical-align: -4px" width="116" height="18" />, which solves to <img src="//latex.artofproblemsolving.com/a/f/e/afea8b725c42f5d0d9fa0e9ac3f86e8a67e79da2.png" class="latex" alt="$x=\frac{15}{2}$" style="vertical-align: -12px" width="55" height="37" />. Then <img src="//latex.artofproblemsolving.com/7/9/6/796b88770627043462ca9d10535196f805ccace4.png" class="latex" alt="$y=x+3 = \frac{15}{2}+3 = \frac{21}{2}$" style="vertical-align: -12px" width="198" height="37" />, and the total area of the quadrilateral is <img src="//latex.artofproblemsolving.com/4/1/6/416b9db2dabcdff8011b655bffb0e57bf8756820.png" class="latex" alt="$x+y = \frac{15}{2}+\frac{21}{2} = \boxed{\textbf{(D) }18}$" style="vertical-align: -12px" width="223" height="37" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Connect points <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" />. Triangles <img src="//latex.artofproblemsolving.com/c/c/d/ccd67c4d1463073f422f24bacfd3af2b14bdf014.png" class="latex" alt="$EFA$" width="42" height="13" /> and <img src="//latex.artofproblemsolving.com/5/b/6/5b66ed8804598d6133c4f90f551e73be8b215f4d.png" class="latex" alt="$FAB$" width="41" height="13" /> share an altitude and their areas are in the ratio <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" />. Their bases, <img src="//latex.artofproblemsolving.com/c/1/2/c128243ea8125d0bb007b8132dcfa44461df73a7.png" class="latex" alt="$EF$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/5/9/9/59910c059976e19ba94be84e4dab4701a119d5ba.png" class="latex" alt="$FB$" width="28" height="12" />, must be in the same <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" /> ratio. 
+</p><p>Triangles <img src="//latex.artofproblemsolving.com/9/8/7/987d57e2a07f5c9a3845ccc44680130c787ba0fd.png" class="latex" alt="$EFD$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/a/4/2/a4280b51205a516de3a891f86968342518b9a806.png" class="latex" alt="$FBD$" width="44" height="12" /> share an altitude and their bases are in a <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" /> ratio. Therefore, their areas are in a <img src="//latex.artofproblemsolving.com/8/b/f/8bff28fddf20c44b02e914be2590b2e309f2b964.png" class="latex" alt="$3:7$" width="33" height="12" /> ratio and the area of triangle <img src="//latex.artofproblemsolving.com/9/8/7/987d57e2a07f5c9a3845ccc44680130c787ba0fd.png" class="latex" alt="$EFD$" width="43" height="12" /> is <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />.
+</p><p>Triangle <img src="//latex.artofproblemsolving.com/d/c/5/dc5309b25510f426ca00c957623bd0396c79e4c3.png" class="latex" alt="$CED$" width="44" height="12" /> and <img src="//latex.artofproblemsolving.com/2/9/1/291a26605884e355c23c524c392c07ad49e5df5a.png" class="latex" alt="$DEA$" width="43" height="13" /> share an altitude. Therefore, the ratio of their areas is equal to the ratio of bases <img src="//latex.artofproblemsolving.com/1/3/c/13c970cbf5e2e7029089517d5e8efbb8cade6d8a.png" class="latex" alt="$CE$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/2/d/9/2d9456e0361813641f4ce80980839e9038fe8f7b.png" class="latex" alt="$EA$" width="28" height="13" />. The ratio is <img src="//latex.artofproblemsolving.com/0/c/7/0c7b397e56d5e0fd82eb525a256c62fb4476a908.png" class="latex" alt="$A:(3+3) \Rightarrow A:6$" style="vertical-align: -4px" width="149" height="18" /> where <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> is the area of triangle <img src="//latex.artofproblemsolving.com/d/c/5/dc5309b25510f426ca00c957623bd0396c79e4c3.png" class="latex" alt="$CED$" width="44" height="12" />
+</p><p>Triangles <img src="//latex.artofproblemsolving.com/f/5/2/f52863fdb7628708d5fe508796064193c3aa12b0.png" class="latex" alt="$CEB$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/0/e/3/0e30e7dec97a3f5e84e0de8a12e3056c6c9a77fc.png" class="latex" alt="$EAB$" width="42" height="13" /> also share an altitude. The ratio of their areas is also equal to the ratio of bases <img src="//latex.artofproblemsolving.com/1/3/c/13c970cbf5e2e7029089517d5e8efbb8cade6d8a.png" class="latex" alt="$CE$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/2/d/9/2d9456e0361813641f4ce80980839e9038fe8f7b.png" class="latex" alt="$EA$" width="28" height="13" />. The ratio is <img src="//latex.artofproblemsolving.com/8/0/1/801c0c21a0bd8d3897c93380350f038cb3a368c1.png" class="latex" alt="$(A+3+7):(3+7) \Rightarrow (A+10):10$" style="vertical-align: -4px" width="289" height="18" />
+</p><p>Because the two ratios are equal, we get the equation <img src="//latex.artofproblemsolving.com/5/6/e/56ee0a051823e3b824b962d6c420934817b4ebac.png" class="latex" alt="$\frac{A}{6} = \frac {A+10}{10} \Rightarrow 10A = 6A+60 \Rightarrow A = 15$" style="vertical-align: -13px" width="331" height="38" />. We add the area of triangle <img src="//latex.artofproblemsolving.com/f/6/e/f6ee867c86cc90974d089043903a0b1c02291e6a.png" class="latex" alt="$EDF$" width="44" height="12" /> to get that the total area of the quadrilateral is <img src="//latex.artofproblemsolving.com/8/1/b/81b2f4d8afb3d12f67ca7d804a3b24167205d534.png" class="latex" alt="$\boxed{\textbf{(D) }18}$" style="vertical-align: -10px" width="65" height="28" />.
+</p><p>~Zeric Hang
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>We use mass points (similar to above). Let the triangle be <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> with cevians (lines to opposite side) from <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. Let the points opposite <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> and <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> respectively and the intersection as <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />. 
+</p><p>Assign masses of 1 at <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> since <img src="//latex.artofproblemsolving.com/a/9/4/a94eec6aacb20224c9cb4d52e3ed264de9b2582d.png" class="latex" alt="$[BPC] = [DPC]$" style="vertical-align: -5px" width="129" height="18" />. Then the mass at <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> is 2. To find masses at <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, we let the mass at <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> be x and the mass at <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be y. Then <img src="//latex.artofproblemsolving.com/8/d/e/8de9651fe8f255dc573c8d30cacf95b916844067.png" class="latex" alt="$3x = 7y$" style="vertical-align: -3px" width="61" height="16" /> and <img src="//latex.artofproblemsolving.com/7/d/7/7d75a835b4b3204758dcbe4f781f45d736183a2d.png" class="latex" alt="$y = \frac{3}{7}x$" style="vertical-align: -12px" width="57" height="37" />. Then <img src="//latex.artofproblemsolving.com/c/9/4/c94afe5bc9c7cdd327f3d332144a0126eeba8fdf.png" class="latex" alt="$\frac{10}{7}x = 2$" style="vertical-align: -12px" width="65" height="37" /> since we add the masses for the fulcrum mass, and <img src="//latex.artofproblemsolving.com/6/9/8/69844c5096755896548ba0b87ed4db86af7436c6.png" class="latex" alt="$x = \frac{7}{5}$" style="vertical-align: -12px" width="46" height="37" /> and <img src="//latex.artofproblemsolving.com/5/a/b/5ab3d37f9012b232f0f93dc7989c76000d0cce72.png" class="latex" alt="$y = \frac{3}{5}$" style="vertical-align: -12px" width="45" height="37" />. 
+</p><p>To calculate the mass at a, it is merely <img src="//latex.artofproblemsolving.com/e/f/e/efef3ebdb586504d0316a1d82865f835cf5de7d0.png" class="latex" alt="$\frac{7}{5} - 1 = \frac{2}{5}$" style="vertical-align: -12px" width="80" height="37" /> which means <img src="//latex.artofproblemsolving.com/f/5/f/f5f07481396e51bd0f6f4bbbb0b350036ada26f8.png" class="latex" alt="$\frac{[BCF]}{[ACF]} = \frac{2}{5}$" style="vertical-align: -17px" width="93" height="43" /> or <img src="//latex.artofproblemsolving.com/e/6/1/e61708223dcbc8dcb6cbf401e79234805172de63.png" class="latex" alt="$[ACF] = 25$" style="vertical-align: -5px" width="94" height="18" />. It is easy to see the answer is <img src="//latex.artofproblemsolving.com/8/1/b/81b2f4d8afb3d12f67ca7d804a3b24167205d534.png" class="latex" alt="$\boxed{\textbf{(D) }18}$" style="vertical-align: -10px" width="65" height="28" />.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2006_AMC_10B" title="2006 AMC 10B">2006 AMC 10B</a></b> (<b><a href="/wiki/index.php/2006_AMC_10B_Problems" title="2006 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2006_AMC_10B_Answer_Key" title="2006 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_22" title="2006 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_24" title="2006 AMC 10B Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_1" title="2006 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_2" title="2006 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_3" title="2006 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_4" title="2006 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_5" title="2006 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_6" title="2006 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_7" title="2006 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_8" title="2006 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_9" title="2006 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_10" title="2006 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_11" title="2006 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_12" title="2006 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_13" title="2006 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_14" title="2006 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_15" title="2006 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_16" title="2006 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_17" title="2006 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_18" title="2006 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_19" title="2006 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_20" title="2006 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_21" title="2006 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_22" title="2006 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a class="mw-selflink selflink">23</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_24" title="2006 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2006_AMC_10B_Problems/Problem_25" title="2006 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208095549
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.102 seconds
+Real time usage: 0.105 seconds
+Preprocessor visited node count: 857/1000000
+Preprocessor generated node count: 2240/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14448/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.667      1 -total
+ 76.47%    6.628      1 Template:AMC10_box
+ 21.14%    1.832      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2930-0!canonical and timestamp 20230208095549 and revision id 154830
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_10B_Problems/Problem_23&amp;oldid=154830">https://artofproblemsolving.com/wiki/index.php?title=2006_AMC_10B_Problems/Problem_23&amp;oldid=154830</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:Area_Problems" title="Category:Area Problems">Area Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208222850 -->
+</html>

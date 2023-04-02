@@ -1,0 +1,282 @@
+<p>For a positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> and nonzero digits <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />, let <img src="//latex.artofproblemsolving.com/1/e/c/1eccfbd65334353f671fb71c27b9b9f2c689b0bf.png" class="latex" alt="$A_n$" style="vertical-align: -2px" width="21" height="15" /> be the <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit integer each of whose digits is equal to <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />; let <img src="//latex.artofproblemsolving.com/9/b/e/9be2b1de79fff66db67de3b18303bdd2912b7ae6.png" class="latex" alt="$B_n$" style="vertical-align: -2px" width="22" height="15" /> be the <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit integer each of whose digits is equal to <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, and let <img src="//latex.artofproblemsolving.com/4/e/1/4e173907ca992482385a50c6f62ede920362b1bf.png" class="latex" alt="$C_n$" style="vertical-align: -2px" width="21" height="15" /> be the <img src="//latex.artofproblemsolving.com/f/9/3/f93f5c51ea4b04b4992b003b39479f29018f6bda.png" class="latex" alt="$2n$" width="19" height="12" />-digit (not <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit) integer each of whose digits is equal to <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />. What is the greatest possible value of <img src="//latex.artofproblemsolving.com/2/c/d/2cdfeae33c1e09de6207d446beb72396c04be481.png" class="latex" alt="$a + b + c$" style="vertical-align: -1px" width="70" height="14" /> for which there are at least two values of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that <img src="//latex.artofproblemsolving.com/e/e/2/ee2898536ac76874d818128c0569ec0144a18356.png" class="latex" alt="$C_n - B_n = A_n^2$" style="vertical-align: -4px" width="113" height="19" />?
+</p><p><img src="//latex.artofproblemsolving.com/5/b/b/5bbdd14d411a771654ba58aa06462df94668ae4f.png" class="latex" alt="$\textbf{(A) } 12 \qquad \textbf{(B) } 14 \qquad \textbf{(C) } 16 \qquad \textbf{(D) } 18 \qquad \textbf{(E) } 20$" style="vertical-align: -5px" width="401" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>By geometric series, we have
+<img src="//latex.artofproblemsolving.com/4/8/6/48689197268e4c20da5a0203f91da0fe6484543f.png" class="latexcenter" alt="\begin{alignat*}{8} A_n&amp;=a\bigl(\phantom{ }\underbrace{111\cdots1}_{n\text{ digits}}\phantom{ }\bigr)&amp;&amp;=a\left(1+10+10^2+\cdots+10^{n-1}\right)&amp;&amp;=a\cdot\frac{10^n-1}{9}, \\ B_n&amp;=b\bigl(\phantom{ }\underbrace{111\cdots1}_{n\text{ digits}}\phantom{ }\bigr)&amp;&amp;=b\left(1+10+10^2+\cdots+10^{n-1}\right)&amp;&amp;=b\cdot\frac{10^n-1}{9}, \\ C_n&amp;=c\bigl(\phantom{ }\underbrace{111\cdots1}_{2n\text{ digits}}\phantom{ }\bigr)&amp;&amp;=c\left(1+10+10^2+\cdots+10^{2n-1}\right)&amp;&amp;=c\cdot\frac{10^{2n}-1}{9}. \end{alignat*}" width="525" height="166" />
+By substitution, we rewrite the given equation <img src="//latex.artofproblemsolving.com/e/e/2/ee2898536ac76874d818128c0569ec0144a18356.png" class="latex" alt="$C_n - B_n = A_n^2$" style="vertical-align: -4px" width="113" height="19" /> as
+<img src="//latex.artofproblemsolving.com/5/5/9/5590f96592936c5848fb3b609d6cd140f84d7419.png" class="latexcenter" alt="\[c\cdot\frac{10^{2n}-1}{9} - b\cdot\frac{10^n-1}{9} = a^2\cdot\left(\frac{10^n-1}{9}\right)^2.\]" width="352" height="46" />
+Since <img src="//latex.artofproblemsolving.com/8/c/a/8ca2e35b75c4df064d304af92e6924a932fe9325.png" class="latex" alt="$n &gt; 0,$" style="vertical-align: -3px" width="48" height="16" /> it follows that <img src="//latex.artofproblemsolving.com/a/a/5/aa5fa10f1dc316d35520fc7f54f3030f30732f76.png" class="latex" alt="$10^n &gt; 1.$" style="vertical-align: -2px" width="67" height="15" /> We divide both sides by <img src="//latex.artofproblemsolving.com/5/4/1/541de476733ad1d8ab860b44f88edb6ad9d45b38.png" class="latex" alt="$\frac{10^n-1}{9}$" style="vertical-align: -12px" width="61" height="37" /> and then rearrange:
+<img src="//latex.artofproblemsolving.com/9/f/4/9f49e8355ef830d1af99a8da8f12ab37920f77e6.png" class="latexcenter" alt="\begin{align*} c\left(10^n+1\right) - b &amp;= a^2\cdot\frac{10^n-1}{9} \\ 9c\left(10^n+1\right) - 9b &amp;= a^2\left(10^n-1\right) \\ \left(9c-a^2\right)10^n &amp;= 9b-9c-a^2. &amp;&amp;(\bigstar) \end{align*}" width="350" height="92" />
+Let <img src="//latex.artofproblemsolving.com/8/b/8/8b89e4306280310ed9e642c605fdcf4307c03276.png" class="latex" alt="$y=10^n.$" style="vertical-align: -4px" width="68" height="18" /> Note that <img src="//latex.artofproblemsolving.com/8/7/5/875816dba06e32edf79fcfbb793af13f73bdca9c.png" class="latex" alt="$(\bigstar)$" style="vertical-align: -4px" width="29" height="18" /> is a linear equation with <img src="//latex.artofproblemsolving.com/8/d/1/8d1d002db36c51a77f8fbc6314e96756fc793e28.png" class="latex" alt="$y,$" style="vertical-align: -3px" width="13" height="11" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is a one-to-one function of <img src="//latex.artofproblemsolving.com/b/d/9/bd923e41635af40a1abe58f230732f2280b0723a.png" class="latex" alt="$n.$" width="14" height="8" /> Since <img src="//latex.artofproblemsolving.com/8/7/5/875816dba06e32edf79fcfbb793af13f73bdca9c.png" class="latex" alt="$(\bigstar)$" style="vertical-align: -4px" width="29" height="18" /> has at least two solutions of <img src="//latex.artofproblemsolving.com/c/5/4/c54e7152acd659788861f0453ac195c635e0a005.png" class="latex" alt="$n,$" style="vertical-align: -3px" width="15" height="11" /> it has at least two solutions of <img src="//latex.artofproblemsolving.com/5/6/e/56e228943301b048f242377b3b24717037d5996f.png" class="latex" alt="$y.$" style="vertical-align: -3px" width="13" height="11" /> We conclude that <img src="//latex.artofproblemsolving.com/8/7/5/875816dba06e32edf79fcfbb793af13f73bdca9c.png" class="latex" alt="$(\bigstar)$" style="vertical-align: -4px" width="29" height="18" /> must be an identity, so we get the following system of equations:
+<img src="//latex.artofproblemsolving.com/1/d/d/1ddcdb7c571109b962b41bbcaf200455880cc3e1.png" class="latexcenter" alt="\begin{align*} 9c-a^2&amp;=0, \\ 9b-9c-a^2&amp;=0. \end{align*}" width="132" height="43" />
+The first equation implies that <img src="//latex.artofproblemsolving.com/e/e/5/ee5635c86df7084ea99a418b503bada70ccab31b.png" class="latex" alt="$c=\frac{a^2}{9}.$" style="vertical-align: -13px" width="60" height="41" /> Substituting this into the second equation gives <img src="//latex.artofproblemsolving.com/a/e/8/ae8bf2b3859e7fd1d9ea5a1fed898f784c019b11.png" class="latex" alt="$b=\frac{2a^2}{9}.$" style="vertical-align: -13px" width="69" height="41" /> 
+</p><p>To maximize <img src="//latex.artofproblemsolving.com/b/5/2/b52b468ccf341ce91cc0172aae859ec68186462f.png" class="latex" alt="$a + b + c = a + \frac{a^2}{3},$" style="vertical-align: -13px" width="154" height="41" /> we need to maximize <img src="//latex.artofproblemsolving.com/4/5/e/45ef9cdc7c7d46920eac603663914e0d9261a99b.png" class="latex" alt="$a.$" width="13" height="8" /> Clearly, <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> must be divisible by <img src="//latex.artofproblemsolving.com/9/3/0/93032f1ab8b685d84a767a2fde0d9006a464b5e4.png" class="latex" alt="$3.$" width="12" height="12" /> The possibilities for <img src="//latex.artofproblemsolving.com/f/3/d/f3d9e22097e20a1249b5332202b24941a4bf9e1f.png" class="latex" alt="$(a,b,c)$" style="vertical-align: -4px" width="54" height="18" /> are <img src="//latex.artofproblemsolving.com/a/3/6/a36920b87022605be19fb63bed0f9f485bbdb313.png" class="latex" alt="$(9,18,9),(6,8,4),$" style="vertical-align: -5px" width="139" height="20" /> or <img src="//latex.artofproblemsolving.com/9/2/6/926f7978cb2b088982f718d301677f64005397b8.png" class="latex" alt="$(3,2,1),$" style="vertical-align: -5px" width="64" height="20" /> but <img src="//latex.artofproblemsolving.com/a/f/6/af640e6791cbd98c3c00e3a4dfb64ef6b0666177.png" class="latex" alt="$(9,18,9)$" style="vertical-align: -5px" width="68" height="20" /> is invalid. Therefore, the greatest possible value of <img src="//latex.artofproblemsolving.com/2/c/d/2cdfeae33c1e09de6207d446beb72396c04be481.png" class="latex" alt="$a + b + c$" style="vertical-align: -1px" width="70" height="14" /> is <img src="//latex.artofproblemsolving.com/e/f/8/ef8112fc504fd86270cafc00cd29713d4a16edb4.png" class="latex" alt="$6+8+4=\boxed{\textbf{(D) } 18}.$" style="vertical-align: -11px" width="168" height="30" />
+</p><p>~CantonMathGuy (Solution)
+</p><p>~MRENTHUSIASM (Revision)
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Immediately start trying <img src="//latex.artofproblemsolving.com/c/7/6/c766f9fce6070981e62f805a7cf7294baed4498e.png" class="latex" alt="$n = 1$" style="vertical-align: 0px" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/5/9/8/598a16d4b7dde3dec3a390109882d54bb0308ea5.png" class="latex" alt="$n = 2$" width="43" height="12" />. These give the system of equations <img src="//latex.artofproblemsolving.com/5/2/1/52123d34c110b0f7ea63f0aa9c0c68e19a3884ac.png" class="latex" alt="$11c - b = a^2$" style="vertical-align: 0px" width="96" height="15" /> and <img src="//latex.artofproblemsolving.com/4/b/9/4b907c3179b2bf6a7e2fb999647c02962fe14f1e.png" class="latex" alt="$1111c - 11b = (11a)^2$" style="vertical-align: -4px" width="164" height="19" /> (which simplifies to <img src="//latex.artofproblemsolving.com/2/8/2/282dfce2a740538724961229b6ce5d4959893d81.png" class="latex" alt="$101c - b = 11a^2$" style="vertical-align: 0px" width="123" height="15" />). These imply that <img src="//latex.artofproblemsolving.com/6/9/9/69931d7ef7773bc33ae40c6a17fd3b19782da76a.png" class="latex" alt="$a^2 = 9c$" width="58" height="15" />, so the possible <img src="//latex.artofproblemsolving.com/6/e/b/6eba74536ce5f55f37ed7c4b99092e3ad6c1a3cf.png" class="latex" alt="$(a, c)$" style="vertical-align: -4px" width="38" height="18" /> pairs are <img src="//latex.artofproblemsolving.com/e/f/3/ef3d449e9687f53a8b9a8fff1f978320cd480b14.png" class="latex" alt="$(9, 9)$" style="vertical-align: -4px" width="38" height="18" />, <img src="//latex.artofproblemsolving.com/5/0/a/50a6aa4fae2c4e4c29b43f57a15cd214e525e111.png" class="latex" alt="$(6, 4)$" style="vertical-align: -4px" width="38" height="18" />, and <img src="//latex.artofproblemsolving.com/d/2/6/d261236ea904095d8d185a456444545b5206013b.png" class="latex" alt="$(3, 1)$" style="vertical-align: -4px" width="38" height="18" />. The first puts <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> out of range but the second makes <img src="//latex.artofproblemsolving.com/0/b/4/0b447277e683dbf98cb0cbcbddf0debfd717e1c0.png" class="latex" alt="$b = 8$" width="40" height="12" />. We now know the answer is at least <img src="//latex.artofproblemsolving.com/5/a/c/5ac8e8251f822d658f235ca831b341d4c6b4269b.png" class="latex" alt="$6 + 8 + 4 = 18$" style="vertical-align: -1px" width="113" height="14" />.
+</p><p>We now only need to know whether <img src="//latex.artofproblemsolving.com/8/2/2/8227c43fe6f2415688e4793e82a3185ef8c6e74c.png" class="latex" alt="$a + b + c = 20$" style="vertical-align: -1px" width="111" height="14" /> might work for any larger <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />. We will always get equations like <img src="//latex.artofproblemsolving.com/b/a/2/ba25e387282bd4a14026aef766dc436a994708b9.png" class="latex" alt="$100001c - b = 11111a^2$" style="vertical-align: 0px" width="177" height="15" /> where the <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> coefficient is very close to being nine times the <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> coefficient. Since the <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> term will be quite insignificant, we know that once again <img src="//latex.artofproblemsolving.com/9/6/9/9698c992334be77221be8c8c819909eca34fde9b.png" class="latex" alt="$a^2$" width="15" height="15" /> must equal <img src="//latex.artofproblemsolving.com/0/6/d/06df0ca2db6ae1e5ff10e67ef40fe28c79691943.png" class="latex" alt="$9c$" width="17" height="12" />, and thus <img src="//latex.artofproblemsolving.com/0/b/2/0b27a227147ad2961f3d48211b818e37b30ff223.png" class="latex" alt="$a = 9, c = 9$" style="vertical-align: -3px" width="91" height="16" /> is our only hope to reach <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" />. Substituting and dividing through by <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, we will have something like <img src="//latex.artofproblemsolving.com/5/0/a/50a1aa812bd164ee790446a69d5287b8fde39d4f.png" class="latex" alt="$100001 - \frac{b}{9} = 99999$" style="vertical-align: -12px" width="158" height="37" />. No matter what <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> really was, <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> is out of range (and certainly isn't <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> as we would have needed).
+</p><p>The answer then is <img src="//latex.artofproblemsolving.com/9/8/6/98679df9a9626db768969306810168a3e819be96.png" class="latex" alt="$\boxed{\textbf{(D) } 18}$" style="vertical-align: -11px" width="67" height="30" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>The given equation can be written as
+<img src="//latex.artofproblemsolving.com/e/d/c/edcc0f97cca7fe54ae663e0fcb5c13e36b96a465.png" class="latexcenter" alt="\[c \cdot (\phantom{ } \overbrace{1111 \ldots 1111}^{2n\text{ digits}}\phantom{ }) - b \cdot (\phantom{ } \overbrace{11 \ldots 11}^{n\text{ digits}} \phantom{ }) = a^2 \cdot (\phantom{ } \overbrace{11 \ldots 11}^{n\text{ digits}} \phantom{ })^2.\]" width="417" height="40" />
+Divide by <img src="//latex.artofproblemsolving.com/4/7/b/47b2dd9cecfde966c9094b2cea555fc13a65ea84.png" class="latex" alt="$\overbrace{11 \ldots 11}^{n\text{ digits}}$" style="vertical-align: -1px" width="65" height="39" /> on both sides:
+<img src="//latex.artofproblemsolving.com/0/b/7/0b7da1baba668bcdff82bf10c06d6177f39e5fb6.png" class="latexcenter" alt="\[c \cdot (\phantom{ } \overbrace{1000 \ldots 0001}^{n+1\text{ digits}}\phantom{ }) - b = a^2 \cdot (\phantom{ } \overbrace{11 \ldots 11}^{n\text{ digits}} \phantom{ }).\]" width="312" height="40" />
+Next, split the first term to make it easier to deal with:
+<img src="//latex.artofproblemsolving.com/4/a/3/4a3d86440a42205406b72e26b10da27dc385ea0b.png" class="latexcenter" alt="\begin{align*} 2c + c \cdot (\phantom{ }\overbrace{99 \ldots 99}^{n\text{ digits}}\phantom{ }) - b &amp;= a^2 \cdot (\phantom{ } \overbrace{11 \ldots 11}^{n\text{ digits}} \phantom{ }) \\ 2c - b &amp;= (a^2 - 9c) \cdot (\phantom{ }\overbrace{11 \ldots 11}^{n\text{ digits}}\phantom{ }). \end{align*}" width="368" height="90" />
+Because <img src="//latex.artofproblemsolving.com/9/8/e/98e403ef62c6a5fa459cbb3afc71d48449e3d797.png" class="latex" alt="$2c - b$" width="47" height="12" /> and <img src="//latex.artofproblemsolving.com/9/e/3/9e325cddc7848b8ddd23cfb411cabd22f548a167.png" class="latex" alt="$a^2 - 9c$" width="56" height="15" /> are constants and because there must be at least two distinct values of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> that satisfy, <img src="//latex.artofproblemsolving.com/0/8/1/08138509e0c3195e1eaa7c9d2c59bb683377846d.png" class="latex" alt="$2c - b = a^2 - 9c = 0.$" style="vertical-align: -2px" width="168" height="18" /> Thus, we have
+<img src="//latex.artofproblemsolving.com/d/c/3/dc3f96adc64ed251a59a9cf2baef771f6a4a3dcb.png" class="latexcenter" alt="\begin{align*} 2c&amp;=b, \\ a^2&amp;=9c. \end{align*}" width="61" height="40" />
+Knowing that <img src="//latex.artofproblemsolving.com/f/3/b/f3b28547efd22be1c4a05fa193cd7038fc65d71b.png" class="latex" alt="$a,b,$" style="vertical-align: -3px" width="29" height="16" /> and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> are single digit positive integers and that <img src="//latex.artofproblemsolving.com/0/6/d/06df0ca2db6ae1e5ff10e67ef40fe28c79691943.png" class="latex" alt="$9c$" width="17" height="12" /> must be a perfect square, the values of <img src="//latex.artofproblemsolving.com/f/3/d/f3d9e22097e20a1249b5332202b24941a4bf9e1f.png" class="latex" alt="$(a,b,c)$" style="vertical-align: -4px" width="54" height="18" /> that satisfy both equations are <img src="//latex.artofproblemsolving.com/6/3/c/63ced9520da3dc23518681b79b9c32c35253ab7a.png" class="latex" alt="$(3,2,1)$" style="vertical-align: -4px" width="56" height="18" /> and <img src="//latex.artofproblemsolving.com/2/6/b/26bb4d4237f0aae98df140f345c854ee4da0c4e1.png" class="latex" alt="$(6,8,4).$" style="vertical-align: -4px" width="61" height="18" /> Finally, <img src="//latex.artofproblemsolving.com/b/e/5/be58ff4f8b7892f191d66b5cd660c3c85908034c.png" class="latex" alt="$6 + 8 + 4 = \boxed{\textbf{(D) } 18}.$" style="vertical-align: -11px" width="168" height="30" />
+</p><p>~LegionOfAvatars (Solution)
+</p><p>~MRENTHUSIASM (Reformatting)
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_Richard_Rusczyk">Video Solution by Richard Rusczyk</span></h2>
+<p><a rel="nofollow" class="external free" href="https://artofproblemsolving.com/videos/amc/2018amc10a/470">https://artofproblemsolving.com/videos/amc/2018amc10a/470</a>
+</p><p>~ dolphin7
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10A" title="2018 AMC 10A">2018 AMC 10A</a></b> (<b><a href="/wiki/index.php/2018_AMC_10A_Problems" title="2018 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10A_Answer_Key" title="2018 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_24" title="2018 AMC 10A Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last Problem</b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_1" title="2018 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_2" title="2018 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_3" title="2018 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_4" title="2018 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_5" title="2018 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_6" title="2018 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_7" title="2018 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_8" title="2018 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_9" title="2018 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_10" title="2018 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_11" title="2018 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_12" title="2018 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_13" title="2018 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_14" title="2018 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_15" title="2018 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_16" title="2018 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_17" title="2018 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_18" title="2018 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_19" title="2018 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_20" title="2018 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_21" title="2018 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_22" title="2018 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_23" title="2018 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_24" title="2018 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a class="mw-selflink selflink">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2018_AMC_12A" title="2018 AMC 12A">2018 AMC 12A</a></b> (<b><a href="/wiki/index.php/2018_AMC_12A_Problems" title="2018 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_12A_Answer_Key" title="2018 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_24" title="2018 AMC 12A Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last Problem</b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_1" title="2018 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_2" title="2018 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2018 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2018 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_5" title="2018 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_6" title="2018 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2018 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2018 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_9" title="2018 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2018 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_11" class="mw-redirect" title="2018 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_12" class="mw-redirect" title="2018 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_13" class="mw-redirect" title="2018 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_14" title="2018 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_15" class="mw-redirect" title="2018 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2018 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_17" class="mw-redirect" title="2018 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2018 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_19" title="2018 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_20" title="2018 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_21" title="2018 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_22" title="2018 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_23" title="2018 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_24" title="2018 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12A_Problems/Problem_25" class="mw-redirect" title="2018 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402135449
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.122 seconds
+Real time usage: 0.127 seconds
+Preprocessor visited node count: 1011/1000000
+Preprocessor generated node count: 2954/1000000
+Post‐expand include size: 4277/2097152 bytes
+Template argument size: 433/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 16908/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   37.154      1 -total
+ 15.52%    5.766      1 Template:AMC10_box
+ 13.86%    5.149      1 Template:AMC12_box
+  5.64%    2.097      1 Template:Duplicate
+  4.15%    1.542      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15932-0!canonical and timestamp 20230402135449 and revision id 169693
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_25&amp;oldid=169693">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_25&amp;oldid=169693</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Number_Theory_Problems" title="Category:Intermediate Number Theory Problems">Intermediate Number Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

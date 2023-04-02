@@ -1,0 +1,259 @@
+<p>Bernardo and Silvia play the following game. An integer between <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/0/7/0/0705411d92671faf1fe5602cfef8f353c7f0f83d.png" class="latex" alt="$999$" width="26" height="12" /> inclusive is selected and given to Bernardo. Whenever Bernardo receives a number, he doubles it and passes the result to Silvia. Whenever Silvia receives a number, she adds <img src="//latex.artofproblemsolving.com/9/0/6/906734e2f1010e9a171ffee8050cbc0649cea37c.png" class="latex" alt="$50$" width="17" height="12" /> to it and passes the result to Bernardo. The winner is the last person who produces a number less than <img src="//latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" />. Let <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> be the smallest initial number that results in a win for Bernardo. What is the sum of the digits of <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/3/a/f/3af1025237725763f525a2be317da1aefcf3c13e.png" class="latex" alt="$\textbf{(A)}\ 7\qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 9\qquad\textbf{(D)}\ 10\qquad\textbf{(E)}\ 11$" style="vertical-align: -4px" width="366" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>The last number that Bernado says has to be between 950 and 999. Note that <img src="//latex.artofproblemsolving.com/f/b/e/fbe4765d87bb99b878cce0677742a35406759c38.png" class="latex" alt="$1\rightarrow 2\rightarrow 52\rightarrow 104\rightarrow 154\rightarrow 308\rightarrow 358\rightarrow 716\rightarrow 766$" style="vertical-align: 0px" width="425" height="13" /> contains 4 doubling actions. Thus, we have <img src="//latex.artofproblemsolving.com/b/a/b/babb6205b8510ee62e0828644ef74781542e22dd.png" class="latex" alt="$x \rightarrow 2x \rightarrow 2x+50 \rightarrow 4x+100 \rightarrow 4x+150 \rightarrow 8x+300 \rightarrow 8x+350 \rightarrow 16x+700$" style="vertical-align: -1px" width="641" height="14" />. 
+</p><p>Thus, <img src="//latex.artofproblemsolving.com/d/f/a/dfa4dcd070dd4eca80d44f4747aa6a186b4a088f.png" class="latex" alt="$950&lt;16x+700&lt;1000$" style="vertical-align: -1px" width="189" height="14" />. Then, <img src="//latex.artofproblemsolving.com/0/d/b/0db19ae496b91d020d585a5f306721fbd24a09c2.png" class="latex" alt="$16x&gt;250 \implies x \geq 16$" style="vertical-align: -2px" width="181" height="15" />. If <img src="//latex.artofproblemsolving.com/1/6/2/1628581d2c8bdf5dfbb9d5fafe360ec1773aaff6.png" class="latex" alt="$x=16$" style="vertical-align: 0px" width="52" height="13" />, we have <img src="//latex.artofproblemsolving.com/5/e/5/5e5cdbab780ed9b6c9f5db5a044270e53912a7a6.png" class="latex" alt="$16x+700=956$" style="vertical-align: -1px" width="129" height="14" />. Working backwards from 956, 
+</p><p><img src="//latex.artofproblemsolving.com/4/a/9/4a9bec556ce1f066acaa89591b510964a49b6150.png" class="latex" alt="$956 \rightarrow 478 \rightarrow 428 \rightarrow 214 \rightarrow 164 \rightarrow 82 \rightarrow 32 \rightarrow 16$" style="vertical-align: 0px" width="388" height="13" />. 
+</p><p>So the starting number is 16, and our answer is <img src="//latex.artofproblemsolving.com/7/9/7/79793b0f12454bdb6e29a754735ce574555acae3.png" class="latex" alt="$1+6=\boxed{7}$" style="vertical-align: -5px" width="85" height="23" />, which is A.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Work backwards. The last number Bernardo produces must be in the range <img src="//latex.artofproblemsolving.com/6/8/e/68e9cad028df7dec5e91c9b17f4adbbd69ff997f.png" class="latex" alt="$[950,999]$" style="vertical-align: -5px" width="70" height="18" />. That means that before this, Silvia must produce a number in the range <img src="//latex.artofproblemsolving.com/5/4/c/54c7141f734f081bb6dcfec5767313dfefb9eb26.png" class="latex" alt="$[475,499]$" style="vertical-align: -5px" width="70" height="18" />. Before this, Bernardo must produce a number in the range <img src="//latex.artofproblemsolving.com/f/e/d/fedca09904c2f859f7cc67a16d85048aeb3def61.png" class="latex" alt="$[425,449]$" style="vertical-align: -5px" width="70" height="18" />. Before this, Silvia must produce a number in the range <img src="//latex.artofproblemsolving.com/6/c/4/6c4ec6c90f7f9d147b6f37dab41f1cd4086899d6.png" class="latex" alt="$[213,224]$" style="vertical-align: -5px" width="70" height="18" />. Before this, Bernardo must produce a number in the range <img src="//latex.artofproblemsolving.com/2/c/7/2c74fa588f22b763406a0347561206cc531f389b.png" class="latex" alt="$[163,174]$" style="vertical-align: -5px" width="70" height="18" />. Before this, Silvia must produce a number in the range <img src="//latex.artofproblemsolving.com/b/7/0/b701bcc3d868f98630f9b05eab2c5406a46b0b01.png" class="latex" alt="$[82,87]$" style="vertical-align: -5px" width="52" height="18" />. Before this, Bernardo must produce a number in the range <img src="//latex.artofproblemsolving.com/e/b/7/eb7e9ad6309143501a3d157879690716fd251d2f.png" class="latex" alt="$[32,37]$" style="vertical-align: -5px" width="52" height="18" />. Before this, Silvia must produce a number in the range <img src="//latex.artofproblemsolving.com/8/2/e/82ea496e66a2dede47a10899b472c310d31ff34e.png" class="latex" alt="$[16,18]$" style="vertical-align: -5px" width="52" height="18" />. Silvia could not have added 50 to any number before this to obtain a number in the range <img src="//latex.artofproblemsolving.com/8/2/e/82ea496e66a2dede47a10899b472c310d31ff34e.png" class="latex" alt="$[16,18]$" style="vertical-align: -5px" width="52" height="18" />, hence the minimum <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> is 16 with the sum of digits being <img src="//latex.artofproblemsolving.com/7/d/b/7dbf74dc64cf0f4fb1e277e03bf74c5a8dff3880.png" class="latex" alt="$\boxed{\textbf{(A)}\ 7}$" style="vertical-align: -10px" width="55" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>If our first number is <img src="//latex.artofproblemsolving.com/3/5/6/35672a19103f2ead1f02935bb8450addc3318b94.png" class="latex" alt="$N,$" style="vertical-align: -3px" width="19" height="16" /> then the sequence of numbers will be <img src="//latex.artofproblemsolving.com/f/f/d/ffde9877dcef098fe8f38621d9042cece360806e.png" class="latexcenter" alt="\[2N,~2N+50,~4N+100,~4N+150,~8N+300,~8N+350,~16N+700,~16N+750\]" width="584" height="16" /> Note that we cannot go any further because doubling gives an extra <img src="//latex.artofproblemsolving.com/7/2/6/726ceb374a9997197b7c47009e586ebf30a3d9a3.png" class="latex" alt="$1500$" style="vertical-align: 0px" width="35" height="13" /> at the end, which is already greater than <img src="//latex.artofproblemsolving.com/6/b/4/6b434ebc2071e706df740975a3c90aad3cfa1455.png" class="latex" alt="$1000.$" style="vertical-align: 0px" width="39" height="13" /> The smallest <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> will be given if <img src="//latex.artofproblemsolving.com/a/1/c/a1c6263957c3a5575f9bdfc622ce28ed5c55ee60.png" class="latex" alt="$16N+750&gt;1000&gt;16N+700 \implies 15&lt;N&lt;19.$" style="vertical-align: -1px" width="407" height="14" /> Since the problem asks for the smallest possible value of <img src="//latex.artofproblemsolving.com/3/5/6/35672a19103f2ead1f02935bb8450addc3318b94.png" class="latex" alt="$N,$" style="vertical-align: -3px" width="19" height="16" /> we get <img src="//latex.artofproblemsolving.com/e/4/b/e4bb513e21508306b77c013aae74e9c4b165e9fc.png" class="latex" alt="$16,$" style="vertical-align: -3px" width="22" height="16" /> and the sum of its digits is <img src="//latex.artofproblemsolving.com/1/6/c/16c3f53b077e4bd1c25a9b90219ffddee8c142b8.png" class="latex" alt="$1+6=\boxed{\textbf{(A)}~7}$" style="vertical-align: -10px" width="120" height="28" />
+</p><p>~ 1001
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2012_AMC_10B" title="2012 AMC 10B">2012 AMC 10B</a></b> (<b><a href="/wiki/index.php/2012_AMC_10B_Problems" title="2012 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AMC_10B_Answer_Key" title="2012 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_19" title="2012 AMC 10B Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_21" title="2012 AMC 10B Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_1" title="2012 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_2" title="2012 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_3" title="2012 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_4" title="2012 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_5" title="2012 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_6" title="2012 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_7" title="2012 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_8" title="2012 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_9" title="2012 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_10" title="2012 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_11" title="2012 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_12" title="2012 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_13" title="2012 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_14" title="2012 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_15" title="2012 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_16" title="2012 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_17" title="2012 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_18" title="2012 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_19" title="2012 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_20" class="mw-redirect" title="2012 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_21" title="2012 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_22" title="2012 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_23" title="2012 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2012 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_25" title="2012 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2012_AMC_12B" title="2012 AMC 12B">2012 AMC 12B</a></b> (<b><a href="/wiki/index.php/2012_AMC_12B_Problems" title="2012 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AMC_12B_Answer_Key" title="2012 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_13" title="2012 AMC 12B Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_15" title="2012 AMC 12B Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_1" title="2012 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_2" title="2012 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_3" title="2012 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_4" title="2012 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_5" title="2012 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_6" title="2012 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_7" title="2012 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_8" title="2012 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_9" title="2012 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_10" title="2012 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_11" title="2012 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_12" title="2012 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_13" title="2012 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_15" title="2012 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_16" title="2012 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_17" title="2012 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_18" title="2012 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_19" title="2012 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_20" title="2012 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_21" title="2012 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_22" class="mw-redirect" title="2012 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_23" title="2012 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_24" title="2012 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_25" title="2012 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402165534
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.118 seconds
+Real time usage: 0.126 seconds
+Preprocessor visited node count: 500/1000000
+Preprocessor generated node count: 1788/1000000
+Post‐expand include size: 4150/2097152 bytes
+Template argument size: 316/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6540/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   14.375      1 -total
+ 45.47%    6.536      1 Template:AMC10_box
+ 40.64%    5.842      1 Template:AMC12_box
+ 10.20%    1.466      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10759-0!canonical and timestamp 20230402165534 and revision id 144231
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_12B_Problems/Problem_14&amp;oldid=144231">https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_12B_Problems/Problem_14&amp;oldid=144231</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

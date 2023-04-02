@@ -1,0 +1,309 @@
+<p>For some positive integers <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" />, there is a quadrilateral <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> with positive integer side lengths, perimeter <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" />, right angles at <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/d/5/2/d5204a6910d20a4ff2968ad55671e3cfa350e9da.png" class="latex" alt="$AB=2$" width="61" height="13" />, and <img src="//latex.artofproblemsolving.com/d/7/8/d78370380065fe52b79c06578e860784b1072d13.png" class="latex" alt="$CD=AD$" width="82" height="13" />.  How many different values of <img src="//latex.artofproblemsolving.com/4/f/9/4f9a348230e436bef36aa463b1693b22a4c8fbf3.png" class="latex" alt="$p&lt;2015$" style="vertical-align: -3px" width="70" height="16" /> are possible?
+</p><p><img src="//latex.artofproblemsolving.com/5/c/0/5c08b66d5dae02b8c44f50b3177c462534595dda.png" class="latex" alt="$\textbf{(A) }30\qquad\textbf{(B) }31\qquad\textbf{(C) }61\qquad\textbf{(D) }62\qquad\textbf{(E) }63$" style="vertical-align: -4px" width="398" height="17" />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/0/b/1/0b13a806ee59da256367d4cbdb66f73a22533c13.png" class="latex" alt="$BC = x$" width="63" height="12" /> and <img src="//latex.artofproblemsolving.com/5/0/a/50a821b6b87614973eebedefdbab9a3057b45466.png" class="latex" alt="$CD = AD = y$" style="vertical-align: -3px" width="116" height="16" /> be positive integers. Drop a perpendicular from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" /> to show that, using the Pythagorean Theorem, that
+<img src="//latex.artofproblemsolving.com/d/d/4/dd48499079a7d0fe961c38c747cdb79950c68aab.png" class="latexcenter" alt="\[x^2 + (y - 2)^2 = y^2.\]" width="147" height="19" />
+Simplifying yields <img src="//latex.artofproblemsolving.com/6/4/1/64153a14f214b7b2ccc95c030683069bf8b78340.png" class="latex" alt="$x^2 - 4y + 4 = 0$" style="vertical-align: -3px" width="123" height="18" />, so <img src="//latex.artofproblemsolving.com/f/6/5/f654d4d00f4f15f5eaeca9c10bfa1378f22698a8.png" class="latex" alt="$x^2 = 4(y - 1)$" style="vertical-align: -4px" width="104" height="19" />. Thus, <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is one more than a perfect square.
+</p><p>The perimeter <img src="//latex.artofproblemsolving.com/d/b/a/dba967e06e62c08f9ca58d44b58f8fbd368926ff.png" class="latex" alt="$p = 2 + x + 2y = 2y + 2\sqrt{y - 1} + 2$" style="vertical-align: -5px" width="280" height="22" /> must be less than 2015. Simple calculations demonstrate that <img src="//latex.artofproblemsolving.com/6/e/3/6e3d82f13287873823a3e01fc78afde9c5fbbead.png" class="latex" alt="$y = 31^2 + 1 = 962$" style="vertical-align: -3px" width="141" height="18" /> is valid, but <img src="//latex.artofproblemsolving.com/7/5/1/751826d3ba7684437fb26037df8cc90dc0ea3098.png" class="latex" alt="$y = 32^2 + 1 = 1025$" style="vertical-align: -3px" width="150" height="18" /> is not. On the lower side, <img src="//latex.artofproblemsolving.com/2/3/4/234b330118777aba0bee513e3ade547ebd70d845.png" class="latex" alt="$y = 1$" style="vertical-align: -3px" width="42" height="15" /> does not work (because <img src="//latex.artofproblemsolving.com/c/a/e/cae4fd68f44ac9b909f8d91f9d498de5759bb45b.png" class="latex" alt="$x &gt; 0$" style="vertical-align: 0px" width="43" height="13" />), but <img src="//latex.artofproblemsolving.com/e/f/e/efe5c19851676c19d5816abb31ffa026ecabaadc.png" class="latex" alt="$y = 1^2 + 1$" style="vertical-align: -3px" width="80" height="18" /> does work. Hence, there are 31 valid <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> (all <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> such that <img src="//latex.artofproblemsolving.com/e/4/2/e420e03f7063ba341ae26a10e9a8adf93aaf5e9e.png" class="latex" alt="$y = n^2 + 1$" style="vertical-align: -3px" width="82" height="18" /> for <img src="//latex.artofproblemsolving.com/6/9/3/6937765be6dcbe31edb393a55c7c9402b3a74bd0.png" class="latex" alt="$1 \le n \le 31$" style="vertical-align: -2px" width="85" height="15" />), and so our answer is <img src="//latex.artofproblemsolving.com/b/6/f/b6fdc44582dca596a79d36af6f8ac936f1cbb6ef.png" class="latex" alt="$\boxed{\textbf{(B) } 31}$" style="vertical-align: -10px" width="64" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/0/b/1/0b13a806ee59da256367d4cbdb66f73a22533c13.png" class="latex" alt="$BC = x$" width="63" height="12" /> and <img src="//latex.artofproblemsolving.com/7/c/9/7c912c8785e2a6b54337f46e29f78e4d6f0a732f.png" class="latex" alt="$CD = AD = z$" style="vertical-align: -1px" width="119" height="14" /> be positive integers. Drop a perpendicular from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" />. Denote the intersection point of the perpendicular and <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" /> as <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />.
+</p><p><img src="//latex.artofproblemsolving.com/9/a/6/9a65c05bd85d2609bea5db2b109ed5f556463511.png" class="latex" alt="$AE$" width="27" height="13" />'s length is <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, as well.
+Call <img src="//latex.artofproblemsolving.com/b/c/2/bc2afec04e3636c80fa3d89e5468045595151c4d.png" class="latex" alt="$ED$" width="29" height="12" /> <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />.
+By the Pythagorean Theorem,  <img src="//latex.artofproblemsolving.com/e/e/d/eed3662c82b340e930819688a03a8888bb70db30.png" class="latex" alt="$x^2 + y^2 = (y + 2)^2$" style="vertical-align: -4px" width="142" height="19" />.
+And so: <img src="//latex.artofproblemsolving.com/9/f/f/9fff039e5b605468140744695dcd96dde5a6fbdf.png" class="latex" alt="$x^2 = 4y + 4$" style="vertical-align: -3px" width="92" height="18" />, or <img src="//latex.artofproblemsolving.com/b/5/f/b5fe721a50808aa26c7bb1b1e75b6117868dc77d.png" class="latex" alt="$y = (x^2-4)/4$" style="vertical-align: -4px" width="115" height="19" />.
+</p><p>Writing this down and testing, it appears that this holds for all <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. However, since there is a dividend of 4, the numerator must be divisible by 4 to conform to the criteria that the side lengths are positive integers.
+In effect, <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> must be a multiple of 2 to let the side lengths be integers. We test, and soon reach 62. It gives us <img src="//latex.artofproblemsolving.com/0/f/9/0f917397ef7734f70bba02f1f3cc5fcca5a607c1.png" class="latex" alt="$p = 1988$" style="vertical-align: -3px" width="70" height="16" />, which is less than 2015. However, 64 gives us <img src="//latex.artofproblemsolving.com/c/7/2/c724891a5cffdf5e387763998e8ec5fd8ac5a9d9.png" class="latex" alt="$2116 &gt; 2015$" style="vertical-align: 0px" width="96" height="13" />, so we know 62 is the largest we can go up to. Count all the even numbers from 2 to 62, and we get <img src="//latex.artofproblemsolving.com/b/6/f/b6fdc44582dca596a79d36af6f8ac936f1cbb6ef.png" class="latex" alt="$\boxed{\textbf{(B) } 31}$" style="vertical-align: -10px" width="64" height="28" />.
+</p><p>-jackshi2006
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/1/e/d/1ed4df81c1e9c7510b25c7f4fe663d58ec4beb48.png" class="latex" alt="$AD=CD=a$" style="vertical-align: -1px" width="119" height="14" />. Construct point <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> on line <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" /> so that <img src="//latex.artofproblemsolving.com/9/a/6/9a65c05bd85d2609bea5db2b109ed5f556463511.png" class="latex" alt="$AE$" width="27" height="13" /> is perpendicular to <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" />, <img src="//latex.artofproblemsolving.com/0/b/8/0b886be12da16d6f1b96ed3078d11d5717f50cbc.png" class="latex" alt="$AE=BC=b$" style="vertical-align: -1px" width="115" height="14" />. <img src="//latex.artofproblemsolving.com/d/3/9/d39edac89ef9c5dfea62b1b798653deddd2ec35a.png" class="latex" alt="$CE=AB=2$" style="vertical-align: -1px" width="117" height="14" />, <img src="//latex.artofproblemsolving.com/2/0/7/207aa135457505d0c2fc557055b9dbe43343838c.png" class="latex" alt="$DE=a-2$" style="vertical-align: -2px" width="97" height="16" />.
+</p><p>Because <img src="//latex.artofproblemsolving.com/e/6/0/e603d6947965be76fc07bcc8c286be019e13a481.png" class="latex" alt="$\angle AED={90}^\circ$" style="vertical-align: -1px" width="108" height="15" />:
+</p>
+<pre><img src="//latex.artofproblemsolving.com/9/e/a/9ea4f0d6ec298911c445f0615c5e700431ee90b2.png" class="latex" alt="$(a-2)^2+b^2=a^2$" style="vertical-align: -5px" width="143" height="21" />
+<img src="//latex.artofproblemsolving.com/4/0/4/40433f93c6c4cb3e811461718491ec342f2276f5.png" class="latex" alt="$a^2-4a+4+b^2=a^2$" style="vertical-align: -2px" width="170" height="18" />
+<img src="//latex.artofproblemsolving.com/c/f/9/cf97f6ecb3acb610f12e2b710c5d7a666e81672b.png" class="latex" alt="$b^2+4=4a$" style="vertical-align: -2px" width="91" height="18" />
+Note that from here we know that <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> must be even.
+<img src="//latex.artofproblemsolving.com/0/e/0/0e06f098a425bcb8979548d1908795806ce37266.png" class="latex" alt="$a=\frac{b^2+4}{4}$" style="vertical-align: -13px" width="86" height="41" />
+</pre>
+<p>We also know that <img src="//latex.artofproblemsolving.com/8/f/8/8f8d2d04ff3fb6e6bdbb63f2e4cc299bfa0740c1.png" class="latex" alt="$p &lt; 2015$" style="vertical-align: -3px" width="70" height="16" />:
+</p>
+<pre><img src="//latex.artofproblemsolving.com/4/5/1/4515d1f3e8749b891795846aa77c0950ae800e79.png" class="latex" alt="$p=AB+BC+CD+AD$" style="vertical-align: -4px" width="218" height="18" />
+<img src="//latex.artofproblemsolving.com/5/1/e/51e2247947ab447e161d61679f28aebdaf03b6b8.png" class="latex" alt="$p=2+b+a+a$" style="vertical-align: -4px" width="138" height="18" />
+<img src="//latex.artofproblemsolving.com/d/b/0/db0c455a58af2daa0d846ed0ccc5ef7037a734df.png" class="latex" alt="$p=2a+b+2$" style="vertical-align: -4px" width="115" height="18" />
+<img src="//latex.artofproblemsolving.com/4/1/7/4178ad966c3ed0cefcaa98e2ce54d07a3f5978b5.png" class="latex" alt="$2a+b+2&lt;2015$" style="vertical-align: -2px" width="142" height="16" />
+<img src="//latex.artofproblemsolving.com/2/8/4/284d921838e1ba7056b131e24327006c173e2764.png" class="latex" alt="$2a+b&lt;2013$" style="vertical-align: -2px" width="111" height="16" />
+</pre>
+<p>Substituting <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> in we get:
+</p>
+<pre><img src="//latex.artofproblemsolving.com/5/3/7/537a2757189d25b83c2222f655694fb9a0d62df7.png" class="latex" alt="$\frac{b^2+4}{2}+b&lt;2013$" style="vertical-align: -13px" width="143" height="41" />
+<img src="//latex.artofproblemsolving.com/4/5/5/455ee2a6ec4d100ff5a89c06ffe76cd963270454.png" class="latex" alt="$b^2+4+2b&lt;4026$" style="vertical-align: -2px" width="148" height="18" />
+<img src="//latex.artofproblemsolving.com/4/e/0/4e08055f5f13cb5aeefa5cb9f4582f0344d4b76a.png" class="latex" alt="$b^2+2b+1&lt;4023$" style="vertical-align: -2px" width="148" height="18" />
+<img src="//latex.artofproblemsolving.com/2/4/0/2400188fb83bd08809a0d8ed721612ef88e6fb9e.png" class="latex" alt="$(b+1)^2&lt;4023$" style="vertical-align: -5px" width="123" height="21" />
+<img src="//latex.artofproblemsolving.com/b/3/b/b3bb819ecf4f2add0b4ce901a0521c97d03e274e.png" class="latex" alt="$b+1&lt;\sqrt{4023}$" style="vertical-align: -2px" width="117" height="21" />, b is an integer
+<img src="//latex.artofproblemsolving.com/f/c/5/fc5775a67d5b6ad775068f2b79ba3cc0c478bfb2.png" class="latex" alt="$b+1 \le 63$" style="vertical-align: -3px" width="83" height="17" />
+<img src="//latex.artofproblemsolving.com/e/1/d/e1d9737d0e2236bd1ca489a4504ca31a711ae65c.png" class="latex" alt="$b \le 62$" style="vertical-align: -3px" width="52" height="17" />
+</pre>
+<p>From the triangle inequality:
+</p>
+<pre><img src="//latex.artofproblemsolving.com/3/9/9/399f9ce0a44b014908e17ec75ebefe25073a72fe.png" class="latex" alt="$a-2+b&gt;a$" style="vertical-align: -2px" width="107" height="16" />
+<img src="//latex.artofproblemsolving.com/d/9/4/d94ebd084e8b6801c5791566f5bb434fb1b76abc.png" class="latex" alt="$b&gt;2$" style="vertical-align: 0px" width="40" height="13" />
+</pre>
+<p>But, <img src="//latex.artofproblemsolving.com/d/b/0/db041d9c0fda44cf24b4f4ae7f02243ef2ea7f92.png" class="latex" alt="$\triangle ADE$" width="59" height="13" /> does not have to exist. Quadrilateral <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> could be a square, in that case <img src="//latex.artofproblemsolving.com/7/d/6/7d65baaf9671227780dd04ab952911036aa5c868.png" class="latex" alt="$b=2$" width="40" height="12" />.
+</p><p>So, <img src="//latex.artofproblemsolving.com/c/e/7/ce747b13ff75a50daffeb2455246ae50c63667df.png" class="latex" alt="$2 \le b \le 62$" style="vertical-align: -3px" width="85" height="17" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> must be even. Count all the even numbers from <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> to <img src="//latex.artofproblemsolving.com/3/e/6/3e67376d85a21889a01b76d7c9d8c765b2bac379.png" class="latex" alt="$62$" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/c/1/2/c120bee4130f5824d45ad376f3cec764e0fae8b8.png" class="latex" alt="$\frac{62-2}{2}+1=\boxed{\textbf{(B) } 31}$" style="vertical-align: -13px" width="175" height="38" />.
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_Richard_Rusczyk">Video Solution by Richard Rusczyk</span></h2>
+<p><a rel="nofollow" class="external free" href="https://artofproblemsolving.com/videos/amc/2015amc10a/398">https://artofproblemsolving.com/videos/amc/2015amc10a/398</a>
+</p><p>~ dolphin7
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/9DSv4zn7MyE">https://youtu.be/9DSv4zn7MyE</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2015_AMC_10A" title="2015 AMC 10A">2015 AMC 10A</a></b> (<b><a href="/wiki/index.php/2015_AMC_10A_Problems" title="2015 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_10A_Answer_Key" title="2015 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_23" title="2015 AMC 10A Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_25" title="2015 AMC 10A Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_1" title="2015 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_2" title="2015 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_3" title="2015 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_4" title="2015 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_5" title="2015 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_6" title="2015 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_7" title="2015 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_8" title="2015 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_9" title="2015 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_10" title="2015 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_11" title="2015 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_12" title="2015 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_13" title="2015 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_14" title="2015 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_15" title="2015 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_16" title="2015 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_17" title="2015 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_18" title="2015 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_19" title="2015 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_20" title="2015 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_21" title="2015 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_22" title="2015 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_23" title="2015 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_25" title="2015 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2015_AMC_12A" title="2015 AMC 12A">2015 AMC 12A</a></b> (<b><a href="/wiki/index.php/2015_AMC_12A_Problems" title="2015 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_12A_Answer_Key" title="2015 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_18" title="2015 AMC 12A Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_20" title="2015 AMC 12A Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_1" class="mw-redirect" title="2015 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_2" title="2015 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2015 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2015 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_5" title="2015 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_6" class="mw-redirect" title="2015 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2015 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2015 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_9" title="2015 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_10" title="2015 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_11" title="2015 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_12" title="2015 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_13" title="2015 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_14" title="2015 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_15" title="2015 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2015 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_17" class="mw-redirect" title="2015 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_18" title="2015 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_19" class="mw-redirect" title="2015 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_20" title="2015 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_21" title="2015 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_22" title="2015 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_23" title="2015 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_24" title="2015 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_12A_Problems/Problem_25" title="2015 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p><br />
+The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402194757
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.126 seconds
+Real time usage: 0.134 seconds
+Preprocessor visited node count: 951/1000000
+Preprocessor generated node count: 2798/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14294/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   32.624      1 -total
+ 15.33%    5.002      1 Template:AMC10_box
+ 15.07%    4.915      1 Template:AMC12_box
+  5.56%    1.814      1 Template:Duplicate
+  4.50%    1.469      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:13948-0!canonical and timestamp 20230402194757 and revision id 168686
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_24&amp;oldid=168686">https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_24&amp;oldid=168686</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Geometry_Problems" title="Category:Intermediate Geometry Problems">Intermediate Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

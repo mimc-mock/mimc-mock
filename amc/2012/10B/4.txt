@@ -1,0 +1,7 @@
+<p>When Ringo places his marbles into bags with 6 marbles per bag, he has 4 marbles left over.  When Paul does the same with his marbles, he has 3 marbles left over.  Ringo and Paul pool their marbles and place them into as many bags as possible, with 6 marbles per bag.  How many marbles will be leftover?
+</p><p><img src="//latex.artofproblemsolving.com/9/9/5/9959d47fffb760b6cf89894df252b99436e4d8f5.png" class="latex" alt="$\textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5$" style="vertical-align: -4px" width="348" height="17" />
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>In total, there were <img src="//latex.artofproblemsolving.com/0/7/2/0720aa8f7e4c3eefe3960ad92282609edafb5a6a.png" class="latex" alt="$3+4=7$" style="vertical-align: -1px" width="73" height="14" /> marbles left from both Ringo and Paul.We know that  <img src="//latex.artofproblemsolving.com/c/8/2/c820a38430049c95ec0f2a3908cb7ab7d9515113.png" class="latex" alt="$7 \equiv 1 \pmod{6}$" style="vertical-align: -4px" width="113" height="18" />. This means that there would be <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> marble leftover, or <img src="//latex.artofproblemsolving.com/f/6/e/f6eb65962292d994ce2f9a8af63728883f256b18.png" class="latex" alt="$\boxed{A}$" style="vertical-align: -5px" width="25" height="24" />.
+</p>

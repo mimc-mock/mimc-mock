@@ -1,0 +1,265 @@
+<p>For how many integers <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/a/7/3/a739c279dd5e08ea3d01c168e1a960497660a058.png" class="latex" alt="$\dfrac n{20-n}$" style="vertical-align: -12px" width="53" height="33" /> the <a href="/wiki/index.php/Perfect_square" title="Perfect square">square</a> of an integer?
+</p><p><img src="//latex.artofproblemsolving.com/2/a/8/2a8fba0bf16c9a6d70ea6e6367598a4861e720e6.png" class="latex" alt="$\mathrm{(A)}\ 1 \qquad\mathrm{(B)}\ 2 \qquad\mathrm{(C)}\ 3 \qquad\mathrm{(D)}\ 4 \qquad\mathrm{(E)}\ 10$" style="vertical-align: -4px" width="351" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/e/3/8/e38192f76f1acbfb0fde45c065c064f48107aed3.png" class="latex" alt="$x^2 = \frac{n}{20-n}$" style="vertical-align: -12px" width="95" height="33" />, with <img src="//latex.artofproblemsolving.com/d/f/f/dff5a847457c4beaa2c6809fc9d7b26ebcaa398e.png" class="latex" alt="$x \ge 0$" style="vertical-align: -2px" width="43" height="15" /> (note that the solutions <img src="//latex.artofproblemsolving.com/3/6/a/36a68e8aa6ec6f48231ad80a4851f84bacf641b3.png" class="latex" alt="$x &lt; 0$" style="vertical-align: 0px" width="43" height="13" /> do not give any additional solutions for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />). Then rewriting, <img src="//latex.artofproblemsolving.com/6/2/9/629c3d6c6014672be5af1f5ce2c0d64107c402ad.png" class="latex" alt="$n = \frac{20x^2}{x^2 + 1}$" style="vertical-align: -14px" width="86" height="40" />. Since <img src="//latex.artofproblemsolving.com/4/3/8/438b58f52f15d4129d0e6432963a59c2540321bb.png" class="latex" alt="$\text{gcd}(x^2, x^2 + 1) = 1$" style="vertical-align: -4px" width="146" height="19" />, it follows that <img src="//latex.artofproblemsolving.com/6/6/4/664ca690c157c78ee252a0a45144c403a673dbcb.png" class="latex" alt="$x^2 + 1$" style="vertical-align: -1px" width="48" height="16" /> divides <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" />. Listing the factors of <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" />, we find that <img src="//latex.artofproblemsolving.com/a/e/e/aee8b3a293ae992f50be22981ede64c2a45c4f0e.png" class="latex" alt="$x = 0, 1, 2 , 3$" style="vertical-align: -3px" width="94" height="16" /> are the only <img src="//latex.artofproblemsolving.com/6/7/6/67632ae2dd0da8ca9cb44c6a185838c7b7167156.png" class="latex" alt="$\boxed{\mathrm{(D)}\ 4}$" style="vertical-align: -10px" width="54" height="29" /> solutions (respectively yielding <img src="//latex.artofproblemsolving.com/9/5/6/956f55243dfad96ba735f2a22d68b2d98d814155.png" class="latex" alt="$n = 0, 10, 16, 18$" style="vertical-align: -3px" width="122" height="16" />).
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>For <img src="//latex.artofproblemsolving.com/7/9/8/79813fe3de65c5970b8c1b6eecc359c0042447ae.png" class="latex" alt="$n&lt;0$" style="vertical-align: 0px" width="43" height="13" /> and <img src="//latex.artofproblemsolving.com/9/0/0/90037592859847a0d4c684f62aca389c1919c223.png" class="latex" alt="$n&gt;20$" style="vertical-align: 0px" width="52" height="13" /> the fraction is negative, for <img src="//latex.artofproblemsolving.com/7/3/1/731fff2fc30062dd7135caff108b191df21ea8bf.png" class="latex" alt="$n=20$" width="52" height="12" /> it is not defined, and for <img src="//latex.artofproblemsolving.com/1/7/4/17464b8d6f6b51eb6f087a9b1b8b31d8a2327143.png" class="latex" alt="$n\in\{1,\dots,9\}$" style="vertical-align: -4px" width="108" height="18" /> it is between 0 and 1.
+</p><p>Thus we only need to examine <img src="//latex.artofproblemsolving.com/0/2/3/02349576cee613512cdf301a365f06c0760acab5.png" class="latex" alt="$n=0$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/0/b/6/0b6c20ee88145b100d6de0337ce2c9c0155687f0.png" class="latex" alt="$n\in\{10,\dots,19\}$" style="vertical-align: -4px" width="127" height="18" />.
+</p><p>For <img src="//latex.artofproblemsolving.com/0/2/3/02349576cee613512cdf301a365f06c0760acab5.png" class="latex" alt="$n=0$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/d/c/c/dcc1b21210db29332b1a7d9ce088fd457f23aeee.png" class="latex" alt="$n=10$" style="vertical-align: 0px" width="52" height="13" /> we obviously get the squares <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> respectively.
+</p><p>For prime <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> the fraction will not be an integer, as the denominator will not contain the prime in the numerator.
+</p><p>This leaves <img src="//latex.artofproblemsolving.com/1/c/5/1c5465530c63878e98ea21ec9f383e5db084f1a9.png" class="latex" alt="$n\in\{12,14,15,16,18\}$" style="vertical-align: -4px" width="173" height="18" />, and a quick substitution shows that out of these only <img src="//latex.artofproblemsolving.com/c/8/7/c874a6ca8456dd226bf716c2edfdd97d1bfd7665.png" class="latex" alt="$n=16$" style="vertical-align: 0px" width="52" height="13" /> and <img src="//latex.artofproblemsolving.com/9/d/c/9dce59f6afb62825f31819ae31874cca35417bbf.png" class="latex" alt="$n=18$" style="vertical-align: 0px" width="52" height="13" /> yield a square. Therefore, there are only <img src="//latex.artofproblemsolving.com/6/7/6/67632ae2dd0da8ca9cb44c6a185838c7b7167156.png" class="latex" alt="$\boxed{\mathrm{(D)}\ 4}$" style="vertical-align: -10px" width="54" height="29" /> solutions (respectively yielding <img src="//latex.artofproblemsolving.com/9/5/6/956f55243dfad96ba735f2a22d68b2d98d814155.png" class="latex" alt="$n = 0, 10, 16, 18$" style="vertical-align: -3px" width="122" height="16" />).
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>If <img src="//latex.artofproblemsolving.com/b/0/5/b0512c8eefc61dacd8a2da37c7def70714e5bbfa.png" class="latex" alt="$\frac{n}{20-n} = k^2 \ge 0$" style="vertical-align: -12px" width="130" height="33" />, then <img src="//latex.artofproblemsolving.com/e/2/c/e2c7d62172af0e738dd12f47f3f8ad8ef70cd65f.png" class="latex" alt="$n \ge 0$" style="vertical-align: -2px" width="43" height="15" /> and <img src="//latex.artofproblemsolving.com/1/c/e/1ce4098cee7c08b46beee35f922a528630ec6aba.png" class="latex" alt="$20-n &gt; 0$" style="vertical-align: 0px" width="84" height="13" />, otherwise <img src="//latex.artofproblemsolving.com/1/5/8/158c83df7af85c5e5065a53e368e68c7170fe952.png" class="latex" alt="$\frac{n}{20-n}$" style="vertical-align: -12px" width="53" height="33" /> will be negative. Thus <img src="//latex.artofproblemsolving.com/b/b/7/bb779977e90809847bd0695738a271f9f4148b8a.png" class="latex" alt="$0 \le n \le 19$" style="vertical-align: -2px" width="86" height="15" /> and <img src="//latex.artofproblemsolving.com/9/f/e/9feb430d115aea0e9e86b02cdd2ae225b49642b5.png" class="latexcenter" alt="\[0 = \frac{0}{20-(0)} \le \frac{n}{20-n} \le \frac{19}{20-(19)} = 19\]" width="322" height="42" /> Checking all <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> for which <img src="//latex.artofproblemsolving.com/9/7/c/97c2596d89fcd8895256c85fdf94eb20d2034c98.png" class="latex" alt="$0 \le k^2 \le 19$" style="vertical-align: -2px" width="92" height="17" />, we have <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> as the possibilities. <img src="//latex.artofproblemsolving.com/8/d/e/8de641a309fc5878c26baf699f2382b7d4b02b5e.png" class="latex" alt="$\boxed{(D)}$" style="vertical-align: -10px" width="41" height="29" />
+</p><p>~ Nafer
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>For all integers x, <img src="//latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" /> is always a positive integer. So solve for <img src="//latex.artofproblemsolving.com/8/5/7/85706c3e74ffcafd9f7149a8ae315fbebc829bd6.png" class="latex" alt="$\frac{n}{20-n} = 0$" style="vertical-align: -15px" width="90" height="36" />, getting <img src="//latex.artofproblemsolving.com/0/2/3/02349576cee613512cdf301a365f06c0760acab5.png" class="latex" alt="$n=0$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/2/5/7/2573a65d987603a0e3b347d67704111a3bcd4849.png" class="latex" alt="$\frac{n}{20-n} = 1$" style="vertical-align: -15px" width="90" height="36" />, getting <img src="//latex.artofproblemsolving.com/d/c/c/dcc1b21210db29332b1a7d9ce088fd457f23aeee.png" class="latex" alt="$n=10$" style="vertical-align: 0px" width="52" height="13" />. For all values n less than 0 and greater than 20, the value <img src="//latex.artofproblemsolving.com/1/5/8/158c83df7af85c5e5065a53e368e68c7170fe952.png" class="latex" alt="$\frac{n}{20-n}$" style="vertical-align: -12px" width="53" height="33" /> is negative, so now try values of n between 10 and 20. Quick substitution finds <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" />, <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />, and <img src="//latex.artofproblemsolving.com/5/e/7/5e7a1b6098a8c98b8e4adae526aeef4b91712620.png" class="latex" alt="$18$" style="vertical-align: 0px" width="17" height="13" /> which yields <img src="//latex.artofproblemsolving.com/3/4/e/34ea5b6f6de584d56d19a89cc4923a9d9a5cfa41.png" class="latex" alt="$x=0$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/4/c/5/4c52e02a35db152495396584bfeae1d0599cd753.png" class="latex" alt="$x=1$" style="vertical-align: 0px" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/6/9/2/69271b422e022ea65ff1f288eddfcfa82afd8ab7.png" class="latex" alt="$x=2$" width="43" height="12" />, and <img src="//latex.artofproblemsolving.com/b/0/2/b022dc8ef6d33931fc1ae3d27df3ea0a81b52936.png" class="latex" alt="$x=3$" width="43" height="12" /> respectively. 4 values, or <img src="//latex.artofproblemsolving.com/8/d/e/8de641a309fc5878c26baf699f2382b7d4b02b5e.png" class="latex" alt="$\boxed{(D)}$" style="vertical-align: -10px" width="41" height="29" />
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2002_AMC_10B" title="2002 AMC 10B">2002 AMC 10B</a></b> (<b><a href="/wiki/index.php/2002_AMC_10B_Problems" title="2002 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_10B_Answer_Key" title="2002 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2002 AMC 10B Problems/Problem 15">Problem 15</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_17" title="2002 AMC 10B Problems/Problem 17">Problem 17</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_1" title="2002 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_2" title="2002 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_3" class="mw-redirect" title="2002 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_4" class="mw-redirect" title="2002 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_5" title="2002 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_6" class="mw-redirect" title="2002 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_7" class="mw-redirect" title="2002 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2002 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_9" title="2002 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2002 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_11" class="mw-redirect" title="2002 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_12" title="2002 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_13" title="2002 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_14" title="2002 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_15" class="mw-redirect" title="2002 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_16" class="mw-redirect" title="2002 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_17" title="2002 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_18" class="mw-redirect" title="2002 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_19" title="2002 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_20" title="2002 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_21" class="mw-redirect" title="2002 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_22" class="mw-redirect" title="2002 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_23" title="2002 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_24" title="2002 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_10B_Problems/Problem_25" title="2002 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2002_AMC_12B" title="2002 AMC 12B">2002 AMC 12B</a></b> (<b><a href="/wiki/index.php/2002_AMC_12B_Problems" title="2002 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_12B_Answer_Key" title="2002 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_1" title="2002 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_2" title="2002 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_3" title="2002 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_5" title="2002 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_7" title="2002 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_8" title="2002 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_9" title="2002 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_10" title="2002 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_14" title="2002 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_15" title="2002 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_16" title="2002 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_17" title="2002 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_18" title="2002 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_19" title="2002 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_21" title="2002 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_23" title="2002 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_25" title="2002 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208011337
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.113 seconds
+Real time usage: 0.163 seconds
+Preprocessor visited node count: 722/1000000
+Preprocessor generated node count: 2294/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10145/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   53.525      1 -total
+ 32.74%   17.522      1 Template:AMC10_box
+ 20.16%   10.791      1 Template:MAA_Notice
+ 11.09%    5.935      1 Template:AMC12_box
+  3.75%    2.007      1 Template:Duplicate
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6301-0!canonical and timestamp 20230208011337 and revision id 176842
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_12&amp;oldid=176842">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_12&amp;oldid=176842</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Number_Theory_Problems" title="Category:Introductory Number Theory Problems">Introductory Number Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208185021 -->
+</html>

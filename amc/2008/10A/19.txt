@@ -1,0 +1,235 @@
+<p><a href="/wiki/index.php/Rectangle" title="Rectangle">Rectangle</a> <img src="//latex.artofproblemsolving.com/2/5/9/259d1d91a5687fe90489d9efeeab80c4de05cf5f.png" class="latex" alt="$PQRS$" style="vertical-align: -3px" width="54" height="16" /> lies in a plane with <img src="//latex.artofproblemsolving.com/0/e/2/0e24acfced9d21611d63754d54b56e9f30b348fb.png" class="latex" alt="$PQ=RS=2$" style="vertical-align: -3px" width="111" height="16" /> and <img src="//latex.artofproblemsolving.com/7/6/e/76edf040de21300dec2c521c4e6240f396a936ff.png" class="latex" alt="$QR=SP=6$" style="vertical-align: -3px" width="111" height="16" />. The rectangle is rotated <img src="//latex.artofproblemsolving.com/2/2/e/22ec0d2e4202839322d26a23dcb13f79821df5d7.png" class="latex" alt="$90^\circ$" width="24" height="13" /> clockwise about <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />, then rotated <img src="//latex.artofproblemsolving.com/2/2/e/22ec0d2e4202839322d26a23dcb13f79821df5d7.png" class="latex" alt="$90^\circ$" width="24" height="13" /> clockwise about the point <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> moved to after the first rotation. What is the length of the path traveled by point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/2/d/9/2d90d7843d54b9248ed930ecfd69a4e203b7992c.png" class="latex" alt="$\mathrm{(A)}\ \left(2\sqrt{3}+\sqrt{5}\right)\pi\qquad\mathrm{(B)}\ 6\pi\qquad\mathrm{(C)}\ \left(3+\sqrt{10}\right)\pi\qquad\mathrm{(D)}\ \left(\sqrt{3}+2\sqrt{5}\right)\pi\\\mathrm{(E)}\ 2\sqrt{10}\pi$" style="vertical-align: -4px" width="590" height="56" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<center><img src="//latex.artofproblemsolving.com/5/b/d/5bd4d160e94d32f55888e6872d9a4748c44bab08.png" class="latexcenter" alt="[asy] size(220);pathpen=black+linewidth(0.65);pointpen=black; /* draw in rectangles */ D(MP(&quot;R&quot;,(0,0))--MP(&quot;Q&quot;,(-6,0))--MP(&quot;P&quot;,(-6,2),N)--MP(&quot;S&quot;,(0,2),NW)--cycle); D((0,0)--MP(&quot;Q&#39;&quot;,(0,6),SW)--MP(&quot;P&#39;&quot;,(2,6),SE)--MP(&quot;S&#39;&quot;,(2,0))--cycle); D(MP(&quot;R&#39;&#39;&quot;,(2,2),NE)--MP(&quot;Q&#39;&#39;&quot;,(8,2),N)--MP(&quot;P&#39;&#39;&quot;,(8,0))--(2,0)--cycle); D(arc((0,0),(2,6),(-6,2)),dashed);D(arc((2,0),(8,0),(2,6)),dashed);D((2,6)--(0,0)--(-6,2),dashed); D(rightanglemark((2,6),(0,0),(-6,2),12));D(rightanglemark((2,6),(2,0),(8,0),12)); MP(&quot;2&quot;,(-6,1),W);MP(&quot;6&quot;,(-3,0),S); [/asy]" width="368" height="178" /></center>
+<p>We let <img src="//latex.artofproblemsolving.com/a/d/9/ad90b8cba1421a2b0ed9f356b286dd7a06768e6a.png" class="latex" alt="$P&#39;Q&#39;R&#39;S&#39;$" style="vertical-align: -3px" width="72" height="17" /> be the rectangle after the first rotation, and <img src="//latex.artofproblemsolving.com/2/2/9/22955cb663a8e6866e73aa16a3f013709e3b0966.png" class="latex" alt="$P&#39;&#39;Q&#39;&#39;R&#39;&#39;S&#39;&#39;$" style="vertical-align: -3px" width="87" height="17" /> be the rectangle after the second rotation. Point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> pivots about <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> in an <a href="/wiki/index.php/Arc" title="Arc">arc</a> of a circle of radius <img src="//latex.artofproblemsolving.com/d/1/c/d1cde7aefd2d9109eb97e9da410461285d77a201.png" class="latex" alt="$\sqrt{2^2+6^2} = 2\sqrt{10}$" style="vertical-align: -2px" width="137" height="19" />, and since <img src="//latex.artofproblemsolving.com/d/e/c/decb01c40a2a4f5728871caa733ab34d76d5554e.png" class="latex" alt="$\angle PRS,\, \angle P&#39;RQ&#39;$" style="vertical-align: -3px" width="127" height="17" /> are complementary, it follows that the arc has a degree measure of <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> and length <img src="//latex.artofproblemsolving.com/4/c/d/4cd0f9f9869b39e79527f9010293adf7bfe5210f.png" class="latex" alt="$\frac14$" style="vertical-align: -13px" width="11" height="37" /> of the <a href="/wiki/index.php/Circumference" title="Circumference">circumference</a>. Thus, <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> travels <img src="//latex.artofproblemsolving.com/2/0/5/205f73db3b47be22856e4d7f355d8ee00e027fc2.png" class="latex" alt="$\frac 14 \left(4\sqrt{10}\right)\pi = \sqrt{10}\pi$" style="vertical-align: -13px" width="162" height="37" /> in the first rotation.
+</p><p>Similarly, in the second rotation, <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> travels in a <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> arc about <img src="//latex.artofproblemsolving.com/b/f/3/bf344aa376979a8a81e8784f92fcb2381897ba65.png" class="latex" alt="$S&#39;$" width="15" height="14" />, with the radius being <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />. It travels <img src="//latex.artofproblemsolving.com/8/1/5/8155969eb62cfec7dfb11f1110b1ade794d855f3.png" class="latex" alt="$\frac 14(12)\pi = 3\pi$" style="vertical-align: -13px" width="100" height="37" />. Therefore, the total distance it travels is <img src="//latex.artofproblemsolving.com/8/7/4/874d1b75dfd02c4111a4a1727a027e263d991749.png" class="latex" alt="$\left(3+\sqrt{10}\right)\pi\ \mathrm{(C)}$" style="vertical-align: -11px" width="131" height="32" />.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2008_AMC_10A" title="2008 AMC 10A">2008 AMC 10A</a></b> (<b><a href="/wiki/index.php/2008_AMC_10A_Problems" title="2008 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2008_AMC_10A_Answer_Key" title="2008 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_18" title="2008 AMC 10A Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_20" title="2008 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2008 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_2" title="2008 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_3" title="2008 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_4" class="mw-redirect" title="2008 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_5" class="mw-redirect" title="2008 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_6" title="2008 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_7" title="2008 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2008 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2008 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_10" title="2008 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2008 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_12" title="2008 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_13" class="mw-redirect" title="2008 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2008 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_15" title="2008 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2008 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_17" title="2008 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_18" title="2008 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_20" title="2008 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_21" title="2008 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_22" title="2008 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_23" title="2008 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2008 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2008_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2008 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208065119
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.076 seconds
+Real time usage: 0.081 seconds
+Preprocessor visited node count: 327/1000000
+Preprocessor generated node count: 1072/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5274/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.345      1 -total
+ 77.44%    6.462      1 Template:AMC10_box
+ 20.22%    1.687      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6836-0!canonical and timestamp 20230208065119 and revision id 164832
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_10A_Problems/Problem_19&amp;oldid=164832">https://artofproblemsolving.com/wiki/index.php?title=2008_AMC_10A_Problems/Problem_19&amp;oldid=164832</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209013923 -->
+</html>

@@ -1,0 +1,255 @@
+<p>Three points are chosen randomly and independently on a circle. What is the probability that all three pairwise distance between the points are less than the radius of the circle?
+</p><p><img src="//latex.artofproblemsolving.com/4/1/9/4196598fdb3512f21510e199ee0eccf448b9a351.png" class="latex" alt="$\mathrm{(A)}\ \dfrac{1}{36} \qquad\mathrm{(B)}\ \dfrac{1}{24} \qquad\mathrm{(C)}\ \dfrac{1}{18} \qquad\mathrm{(D)}\ \dfrac{1}{12} \qquad\mathrm{(E)}\ \dfrac{1}{9}$" style="vertical-align: -13px" width="397" height="37" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The first point is placed anywhere on the circle, because it doesn't matter where it is chosen.
+</p><p>The next point must lie within <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees of arc on either side, a total of <img src="//latex.artofproblemsolving.com/a/a/a/aaa4de95cc6371d125d5cf773cdd9f9913dd1d8e.png" class="latex" alt="$120$" style="vertical-align: 0px" width="26" height="13" /> degrees possible, giving a total <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" /> chance. The last point must lie within <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees  of both points. 
+</p><p>The minimum area of freedom we have to place the third point is a <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees arc(if the first two are <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees apart), with a <img src="//latex.artofproblemsolving.com/4/3/b/43ba19be0e30b99142416ebfbe17670437c8453e.png" class="latex" alt="$\frac{1}{6}$" style="vertical-align: -12px" width="11" height="37" /> probability.
+The maximum amount of freedom we have to place the third point is a <img src="//latex.artofproblemsolving.com/a/a/a/aaa4de95cc6371d125d5cf773cdd9f9913dd1d8e.png" class="latex" alt="$120$" style="vertical-align: 0px" width="26" height="13" /> degree arc(if the first two are the same point), with a <img src="//latex.artofproblemsolving.com/4/e/1/4e1965f8d70832ded66434c75a7bd52b75090af0.png" class="latex" alt="$\frac{1}{3}$" style="vertical-align: -12px" width="11" height="37" /> probability.  
+</p><p>As the second point moves farther away from the first point, up to a maximum of <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" /> degrees, the probability changes linearly (every degree it moves, adds one degree to where the third could be).
+</p><p>Therefore, we can average probabilities at each end to find <img src="//latex.artofproblemsolving.com/c/3/3/c339afa03e060d959e4942be7522c0c992f4c41c.png" class="latex" alt="$\frac{1}{4}$" style="vertical-align: -13px" width="11" height="37" />, the average probability we can place the third point based on a varying second point.
+</p><p>Therefore the total probability is <img src="//latex.artofproblemsolving.com/d/1/5/d15aa1b39c30be4aee90b680c963f4c4876f3c81.png" class="latex" alt="$1\times\frac{1}{3}\times\frac{1}{4}=\frac{1}{12}$" style="vertical-align: -13px" width="124" height="37" /> or <img src="//latex.artofproblemsolving.com/d/c/c/dcc93afd012d6af697c4fae71d14de49f021d78e.png" class="latex" alt="$\boxed{\text{(D)}}$" style="vertical-align: -10px" width="37" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We will use geometric probability.
+</p><p>The first point can be anywhere. Each point must be <img src="//latex.artofproblemsolving.com/2/d/2/2d2d0dc818ffa40c824ec87c9ad9c51fa86f458d.png" class="latex" alt="$\frac{\pi}{3}$" style="vertical-align: -12px" width="13" height="33" /> or less away from each other.
+</p><p>Define <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> be the amount of radians away the second point is from the first. We limit <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> to be in the interval <img src="//latex.artofproblemsolving.com/b/3/5/b35e10ec8f56c704d87c8b856a08c455e2f91ee3.png" class="latex" alt="$[-\pi, \pi]$" style="vertical-align: -5px" width="52" height="18" />. Define <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> be the amount of radians away the third point is from the first. We limit <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> to be in the interval <img src="//latex.artofproblemsolving.com/b/3/5/b35e10ec8f56c704d87c8b856a08c455e2f91ee3.png" class="latex" alt="$[-\pi, \pi]$" style="vertical-align: -5px" width="52" height="18" />. Now, we can deduct that: <img src="//latex.artofproblemsolving.com/1/6/4/164c1dbd7f6ba85f75f4b6d1775aaf669763a5ca.png" class="latexcenter" alt="\[|x| \le \frac{\pi}{3},\]" width="62" height="32" /> <img src="//latex.artofproblemsolving.com/1/f/6/1f615f298010fc1b0b0e17c107c3f54c2178291a.png" class="latexcenter" alt="\[|y| \le \frac{\pi}{3},\]" width="61" height="32" /> and <img src="//latex.artofproblemsolving.com/e/8/1/e81400ac61882d564705038c1f162db0f86d2d3a.png" class="latexcenter" alt="\[|x-y| \le \frac{\pi}{3}.\]" width="93" height="32" /> We now begin plotting these on the coordinate grid. 
+</p><p>First note that the area of the points that <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> can be (ignoring the conditions) is <img src="//latex.artofproblemsolving.com/4/c/e/4ce7f72a7794404c06729cd9760afef958c66ef6.png" class="latex" alt="$(2\pi)^2$" style="vertical-align: -4px" width="40" height="19" /> (remember what we restricted <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> to). 
+</p><p>Now, we can graph the equations we deduced on the coordinate grid. That should look like this: 
+<img src="//latex.artofproblemsolving.com/d/5/b/d5ba1fd6c5072aa1ef45750d2bb1a01c0d2fac45.png" class="latexcenter" alt="[asy] fill((40, 0)--(40, 40)--(0, 40)--(-40, 0)--(-40, -40)--(0, -40)--cycle, green); draw((-50, 0)--(50, 0)); draw((0, -50)--(0, 50)); draw((-50, -10)--(10, 50),red); draw((-10, -50)--(50, 10),red); draw((-40, 40)--(40, 40),red); draw((-40, -40)--(40, -40),red); draw((40, 40)--(40, -40),red); draw((-40, 40)--(-40, -40),red); label(&quot;$\frac{\pi}{3}$&quot;, (40, 0), SE); label(&quot;$\frac{\pi}{3}$&quot;, (-40, 0), SW); label(&quot;$\frac{\pi}{3}$&quot;, (0, 40), NE); label(&quot;$\frac{\pi}{3}$&quot;, (0, -40), NW); [/asy]" width="248" height="252" />
+The area of the shaded region can be calculated in many ways. Eventually, you will find that the area is <img src="//latex.artofproblemsolving.com/7/3/1/73118ed4ec298a4d01509bc2387594d659418c8e.png" class="latex" alt="$\frac{\pi^2}{3}$" style="vertical-align: -12px" width="20" height="39" />. 
+</p><p>Thus, the probability is <img src="//latex.artofproblemsolving.com/6/a/c/6acb91e13bf3111027038d355cd355259e455720.png" class="latex" alt="$\frac{\frac{\pi^2}{3}}{(2\pi)^2} = \frac{1}{12}$" style="vertical-align: -17px" width="90" height="48" />, or <img src="//latex.artofproblemsolving.com/d/c/c/dcc93afd012d6af697c4fae71d14de49f021d78e.png" class="latex" alt="$\boxed{\text{(D)}}$" style="vertical-align: -10px" width="37" height="28" />.
+</p><p>~superagh
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>There are <img src="//latex.artofproblemsolving.com/b/8/a/b8a6df161faa4e3b6fd047c69ac61c6be6aae994.png" class="latex" alt="$\binom32 = 3$" style="vertical-align: -23px" width="72" height="55" /> different ways to choose <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> points out of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />. The probability that an angle between <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> points is smaller than <img src="//latex.artofproblemsolving.com/2/9/f/29fa0a9949f018e121b2093216dd5db13d3abef0.png" class="latex" alt="$60^\circ$" width="24" height="13" /> is <img src="//latex.artofproblemsolving.com/6/a/b/6ab295f9eb9c03fde394578d5cbec60710ab9eb1.png" class="latex" alt="$\frac{60^\circ}{360^\circ} = \frac16$" style="vertical-align: -13px" width="78" height="39" />. The probability that the third point is inside the <img src="//latex.artofproblemsolving.com/2/9/f/29fa0a9949f018e121b2093216dd5db13d3abef0.png" class="latex" alt="$60^\circ$" width="24" height="13" /> angle is <img src="//latex.artofproblemsolving.com/6/a/b/6ab295f9eb9c03fde394578d5cbec60710ab9eb1.png" class="latex" alt="$\frac{60^\circ}{360^\circ} = \frac16$" style="vertical-align: -13px" width="78" height="39" />
+</p><p><img src="//latex.artofproblemsolving.com/c/a/1/ca1b5848558d1b9818957cf4bafbc04723b93f95.png" class="latex" alt="$3 \cdot \frac16 \cdot \frac16 = \boxed{\text{(D)} \frac{1}{12} }$" style="vertical-align: -19px" width="147" height="49" />
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2003_AMC_12B" title="2003 AMC 12B">2003 AMC 12B</a></b> (<b><a href="/wiki/index.php/2003_AMC_12B_Problems" title="2003 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2003_AMC_12B_Answer_Key" title="2003 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_24" title="2003 AMC 12B Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last Problem</b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_1" title="2003 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_2" title="2003 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_3" class="mw-redirect" title="2003 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2003 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_5" class="mw-redirect" title="2003 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_6" class="mw-redirect" title="2003 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_7" title="2003 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_8" title="2003 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_9" title="2003 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_10" title="2003 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_11" title="2003 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_12" title="2003 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_13" title="2003 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_14" class="mw-redirect" title="2003 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_15" class="mw-redirect" title="2003 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_16" class="mw-redirect" title="2003 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_17" title="2003 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_18" title="2003 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_19" title="2003 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_20" title="2003 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_21" title="2003 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_22" title="2003 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_23" title="2003 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_12B_Problems/Problem_24" title="2003 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a class="mw-selflink selflink">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208023854
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.098 seconds
+Real time usage: 0.101 seconds
+Preprocessor visited node count: 475/1000000
+Preprocessor generated node count: 1400/1000000
+Post‐expand include size: 2152/2097152 bytes
+Template argument size: 161/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7857/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.201      1 -total
+ 76.18%    6.248      1 Template:AMC12_box
+ 21.30%    1.747      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:8466-0!canonical and timestamp 20230208023854 and revision id 177835
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_12B_Problems/Problem_25&amp;oldid=177835">https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_12B_Problems/Problem_25&amp;oldid=177835</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208205848 -->
+</html>

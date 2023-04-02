@@ -1,0 +1,274 @@
+<p>Joey and Chloe and their daughter Zoe all have the same birthday. Joey is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> year older than Chloe, and Zoe is exactly <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> year old today. Today is the first of the <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> birthdays on which Chloe's age will be an integral multiple of Zoe's age. What will be the sum of the two digits of Joey's age the next time his age is a multiple of Zoe's age?
+</p><p><img src="//latex.artofproblemsolving.com/4/f/2/4f2d7ce88a6c065df7402c2eb32407f5bb4bbdc0.png" class="latex" alt="$\textbf{(A) }7 \qquad \textbf{(B) }8 \qquad \textbf{(C) }9 \qquad \textbf{(D) }10 \qquad \textbf{(E) }11 \qquad$" style="vertical-align: -4px" width="370" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Suppose that Chloe is <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> years old today, so Joey is <img src="//latex.artofproblemsolving.com/a/3/9/a398005d35072ae993a9ac8b72dd8e746fcc416e.png" class="latex" alt="$c+1$" style="vertical-align: -1px" width="38" height="13" /> years old today. After <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> years, Chloe and Zoe will be <img src="//latex.artofproblemsolving.com/d/b/d/dbdc3067560df57a6f830b44ee93db78beffddb7.png" class="latex" alt="$n+c$" style="vertical-align: -1px" width="41" height="12" /> and <img src="//latex.artofproblemsolving.com/0/e/3/0e3efd9b14723a92c2ae891fe27780d5f8e2b215.png" class="latex" alt="$n+1$" style="vertical-align: -1px" width="41" height="13" /> years old, respectively. We are given that <img src="//latex.artofproblemsolving.com/d/8/4/d8435d9904bfe5080a9ba268a2a1f6791c1bd715.png" class="latexcenter" alt="\[\frac{n+c}{n+1}=1+\frac{c-1}{n+1}\]" width="144" height="38" /> is an integer for <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> nonnegative integers <img src="//latex.artofproblemsolving.com/b/d/9/bd923e41635af40a1abe58f230732f2280b0723a.png" class="latex" alt="$n.$" width="14" height="8" /> It follows that <img src="//latex.artofproblemsolving.com/1/f/2/1f2924e05b65d0a1887d309cb3aad442e9ccee0f.png" class="latex" alt="$c-1$" style="vertical-align: 0px" width="38" height="12" /> has <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> positive divisors. The prime factorization of <img src="//latex.artofproblemsolving.com/1/f/2/1f2924e05b65d0a1887d309cb3aad442e9ccee0f.png" class="latex" alt="$c-1$" style="vertical-align: 0px" width="38" height="12" /> is either <img src="//latex.artofproblemsolving.com/f/8/a/f8aaf0557cade138229010df80bfb511001b14fb.png" class="latex" alt="$p^8$" style="vertical-align: -3px" width="16" height="18" /> or <img src="//latex.artofproblemsolving.com/3/6/1/3618caa5e7857fb435829933d3c792ed211e1237.png" class="latex" alt="$p^2q^2.$" style="vertical-align: -4px" width="40" height="20" /> Since <img src="//latex.artofproblemsolving.com/8/9/8/8985203a4d5fc2525422d5649f03b8ab04f90db3.png" class="latex" alt="$c-1&lt;100,$" style="vertical-align: -4px" width="98" height="17" /> the only possibility is <img src="//latex.artofproblemsolving.com/f/7/a/f7ae958482c8c1b2f329bf02feff2bccabc93269.png" class="latex" alt="$c-1=2^2\cdot3^2=36,$" style="vertical-align: -4px" width="159" height="20" /> from which <img src="//latex.artofproblemsolving.com/7/0/e/70ee433d54fb69862ec2ca853a4d73034ace73d1.png" class="latex" alt="$c=37.$" style="vertical-align: -1px" width="57" height="14" /> We conclude that Joey is <img src="//latex.artofproblemsolving.com/6/2/5/625fa93c57bca33e85278ee71c2afe52fdf7f47c.png" class="latex" alt="$c+1=38$" style="vertical-align: -2px" width="83" height="15" /> years old today.
+</p><p>Suppose that Joey's age is a multiple of Zoe's age after <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> years, in which Joey and Zoe will be <img src="//latex.artofproblemsolving.com/c/a/5/ca5bb3f6ccabb4ff28b011e7eb2f0c1622673bc4.png" class="latex" alt="$k+38$" style="vertical-align: -2px" width="52" height="16" /> and <img src="//latex.artofproblemsolving.com/f/0/5/f05f085f774fc8ab50676b778b86a1f1d1114fc8.png" class="latex" alt="$k+1$" style="vertical-align: -1px" width="40" height="14" /> years old, respectively. We are given that <img src="//latex.artofproblemsolving.com/6/8/1/681b3d7a8817955f05bd6bc7d26a623bdb8f5e6e.png" class="latexcenter" alt="\[\frac{k+38}{k+1}=1+\frac{37}{k+1}\]" width="151" height="39" /> is an integer for some positive integer <img src="//latex.artofproblemsolving.com/5/d/4/5d48e0968a64d782fe75bca620ce749938b7d0bb.png" class="latex" alt="$k.$" width="13" height="12" /> It follows that <img src="//latex.artofproblemsolving.com/7/8/9/78916550838bd31d66e4cdefbc366edb11fd00bd.png" class="latex" alt="$37$" width="18" height="12" /> is divisible by <img src="//latex.artofproblemsolving.com/5/0/d/50d302794b205b5019bf2d13385ea7c1a92a4056.png" class="latex" alt="$k+1,$" style="vertical-align: -4px" width="48" height="18" /> so the only possibility is <img src="//latex.artofproblemsolving.com/d/5/1/d51dd57f98ff07d73f8fdd075f183e4406d7efb1.png" class="latex" alt="$k=36.$" width="56" height="12" /> We conclude that Joey will be <img src="//latex.artofproblemsolving.com/9/a/b/9abe68a67d7f53f92998e28909d8e852392b3ee6.png" class="latex" alt="$k+38=74$" style="vertical-align: -2px" width="95" height="16" /> years old then, from which the answer is <img src="//latex.artofproblemsolving.com/1/1/2/112987cf132849501279855b27ca73607a2d87d9.png" class="latex" alt="$7+4=\boxed{\textbf{(E) }11}.$" style="vertical-align: -11px" width="135" height="30" />
+</p><p>~Supercj ~MRENTHUSIASM ~Zeric
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Let Joey's age be <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />, Chloe's age be <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />, and we know that Zoe's age is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. 
+</p><p>We know that there must be <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> values <img src="//latex.artofproblemsolving.com/5/5/8/5586db7ead68a6ecd88ebc290818d5f1f5309e48.png" class="latex" alt="$k\in\mathbb{Z}$" style="vertical-align: -1px" width="44" height="13" /> such that <img src="//latex.artofproblemsolving.com/5/a/7/5a7506794c5eb6e572508b6785eac678bef4f2be.png" class="latex" alt="$c+k=a(1+k)$" style="vertical-align: -4px" width="128" height="18" /> where <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> is an integer.
+</p><p>Therefore, <img src="//latex.artofproblemsolving.com/a/3/e/a3e2823bbd439600acd4c37845c0fca2c5fcfc2d.png" class="latex" alt="$c-1+(1+k)=a(1+k)$" style="vertical-align: -4px" width="204" height="18" /> and <img src="//latex.artofproblemsolving.com/5/3/4/5348be87ef203684267d415a8ba000228301e3a7.png" class="latex" alt="$c-1=(1+k)(a-1)$" style="vertical-align: -4px" width="172" height="18" />. Therefore, we know that, as there are <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> solutions for <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, there must be <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> solutions for <img src="//latex.artofproblemsolving.com/1/f/2/1f2924e05b65d0a1887d309cb3aad442e9ccee0f.png" class="latex" alt="$c-1$" style="vertical-align: 0px" width="38" height="12" />. We know that this must be a perfect square. Testing perfect squares, we see that <img src="//latex.artofproblemsolving.com/d/d/c/ddcde0d012ff7ed52bd42663afd72777ef6710d5.png" class="latex" alt="$c-1=36$" style="vertical-align: 0px" width="81" height="13" />, so <img src="//latex.artofproblemsolving.com/4/f/d/4fd2ef02173a8e2fd282c3b548f84f373a74e079.png" class="latex" alt="$c=37$" width="50" height="12" />. Therefore, <img src="//latex.artofproblemsolving.com/e/b/1/eb131b5d4e7acedbf35d98f2b3dfb5e220309524.png" class="latex" alt="$j=38$" style="vertical-align: -3px" width="51" height="16" />. Now, since <img src="//latex.artofproblemsolving.com/b/2/c/b2ca3a5945823c5e040863891da2c1f6bcd0c45b.png" class="latex" alt="$j-1=37$" style="vertical-align: -3px" width="82" height="16" />, by similar logic, <img src="//latex.artofproblemsolving.com/1/4/4/14431214ec3f038166ae95661812f4ede69b6b85.png" class="latex" alt="$37=(1+k)(a-1)$" style="vertical-align: -4px" width="151" height="18" />, so <img src="//latex.artofproblemsolving.com/4/f/5/4f5199e107f26a45ab7a959fc96ed93c4e1eb31c.png" class="latex" alt="$k=36$" width="52" height="12" /> and Joey will be <img src="//latex.artofproblemsolving.com/9/0/6/906b5cae6cb4d8fb22a31376247ab37a14af7477.png" class="latex" alt="$38+36=74$" style="vertical-align: -1px" width="101" height="14" /> and the sum of the digits is <img src="//latex.artofproblemsolving.com/1/8/e/18e8197c1f407d14348beed1a2dfa72335b8355c.png" class="latex" alt="$\boxed{\textbf{(E) }11}$" style="vertical-align: -11px" width="65" height="30" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Here's a different way of stating Solution 2:
+</p><p>If a number is a multiple of both Chloe's age and Zoe's age, then it is a multiple of their difference. Since the difference between their ages does not change, then that means the difference between their ages has <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> factors. Therefore, the difference between Chloe and Zoe's age is <img src="//latex.artofproblemsolving.com/c/e/5/ce5d3cbb9ab0a992ed503c2d4499e4f4af2f9d65.png" class="latex" alt="$36$" width="17" height="12" />, so Chloe is <img src="//latex.artofproblemsolving.com/7/8/9/78916550838bd31d66e4cdefbc366edb11fd00bd.png" class="latex" alt="$37$" width="18" height="12" />, and Joey is <img src="//latex.artofproblemsolving.com/4/c/5/4c5e2e4c4950cff11894abd202aa2949e21819c5.png" class="latex" alt="$38$" width="17" height="12" />. The common factor that will divide both of their ages is <img src="//latex.artofproblemsolving.com/7/8/9/78916550838bd31d66e4cdefbc366edb11fd00bd.png" class="latex" alt="$37$" width="18" height="12" />, so Joey will be <img src="//latex.artofproblemsolving.com/9/0/1/90100e7ec57be3145070551137e9c47224adb4d0.png" class="latex" alt="$74$" style="vertical-align: 0px" width="18" height="12" />. The answer is <img src="//latex.artofproblemsolving.com/4/3/d/43debe5654566785b070b222c769d5546edd480a.png" class="latex" alt="$7 + 4 =  \boxed{\textbf{(E) }11}$" style="vertical-align: -11px" width="130" height="30" />.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Similar approach to above, just explained less concisely and more in terms of the problem (less algebraic).
+</p><p>Let <img src="//latex.artofproblemsolving.com/c/f/b/cfbec19c713de9418e01c686bea17266f591cdcf.png" class="latex" alt="$C+n$" style="vertical-align: -1px" width="47" height="14" /> denote Chloe's age, <img src="//latex.artofproblemsolving.com/8/d/5/8d5d3fa9fbb7ca7cde6905ee6564cda5aec7241a.png" class="latex" alt="$J+n$" style="vertical-align: -1px" width="44" height="14" /> denote Joey's age, and <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" /> denote Zoe's age, where <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is the number of years from now. We are told that <img src="//latex.artofproblemsolving.com/c/f/b/cfbec19c713de9418e01c686bea17266f591cdcf.png" class="latex" alt="$C+n$" style="vertical-align: -1px" width="47" height="14" /> is a multiple of <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" /> exactly nine times. Because <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" /> is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> at <img src="//latex.artofproblemsolving.com/0/2/3/02349576cee613512cdf301a365f06c0760acab5.png" class="latex" alt="$n=0$" width="43" height="12" /> and will increase until greater than <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" />, it will hit every natural number less than <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" />, including every factor of <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" />. For <img src="//latex.artofproblemsolving.com/c/f/b/cfbec19c713de9418e01c686bea17266f591cdcf.png" class="latex" alt="$C+n$" style="vertical-align: -1px" width="47" height="14" /> to be an integral multiple of <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" />, the difference <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" /> must also be a multiple of <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" />, which happens if <img src="//latex.artofproblemsolving.com/3/e/a/3ead47fb9fb4a4c273feee398f72ff2a09702b84.png" class="latex" alt="$Z$" width="13" height="12" /> is a factor of <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" />. Therefore, <img src="//latex.artofproblemsolving.com/4/b/f/4bf68ec248c46a45475bbcad22d6029f5573244a.png" class="latex" alt="$C-Z$" width="50" height="12" /> has nine factors. The smallest number that has nine positive factors is <img src="//latex.artofproblemsolving.com/3/6/8/3682dca34e29aeb5f229be77963f5c208ad8df34.png" class="latex" alt="$2^23^2=36$" width="75" height="15" /> . (We want it to be small so that Joey will not have reached three digits of age before his age is a multiple of Zoe's.) We also know <img src="//latex.artofproblemsolving.com/f/3/5/f35a1872492632e0806bd35ee14c84138dcc7305.png" class="latex" alt="$Z=1$" style="vertical-align: 0px" width="46" height="13" /> and <img src="//latex.artofproblemsolving.com/8/2/2/82237f733ca4f27be5d4e8de3fef2e2855a0f7ee.png" class="latex" alt="$J=C+1$" style="vertical-align: -1px" width="80" height="14" />. Thus,
+<img src="//latex.artofproblemsolving.com/8/5/9/859458eab545d3c20c39c0f3d4e8eccc02fe0f1d.png" class="latexcenter" alt="\begin{align*} C-Z&amp;=36, \\ J-Z&amp;=37. \end{align*}" width="96" height="37" />
+By our above logic, the next time <img src="//latex.artofproblemsolving.com/7/6/b/76be2824000ec151a51f12fdaa803453b2a0c741.png" class="latex" alt="$J-Z$" width="47" height="12" /> is a multiple of <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" /> will occur when <img src="//latex.artofproblemsolving.com/4/1/2/4120fa7ecfd897bbf48be7be629a4aa35a3ca639.png" class="latex" alt="$Z+n$" style="vertical-align: -1px" width="46" height="14" /> is a factor of <img src="//latex.artofproblemsolving.com/7/6/b/76be2824000ec151a51f12fdaa803453b2a0c741.png" class="latex" alt="$J-Z$" width="47" height="12" />. Because <img src="//latex.artofproblemsolving.com/7/8/9/78916550838bd31d66e4cdefbc366edb11fd00bd.png" class="latex" alt="$37$" width="18" height="12" /> is prime, the next time this happens is at <img src="//latex.artofproblemsolving.com/d/0/6/d0680433582eac864cc446bafd6da2beab5395c8.png" class="latex" alt="$Z+n=37$" style="vertical-align: -1px" width="89" height="14" />, when <img src="//latex.artofproblemsolving.com/0/0/2/00248c7af1cafa259ea266405ce2270047d952b4.png" class="latex" alt="$J+n=74$" style="vertical-align: -1px" width="87" height="14" />. The answer is <img src="//latex.artofproblemsolving.com/b/7/3/b73c86150289e5ba762ad23eda2acd44182c3ad1.png" class="latex" alt="$7+4=\boxed{\textbf{(E) }11}$" style="vertical-align: -11px" width="130" height="30" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/E2SbkCQ1V84">https://youtu.be/E2SbkCQ1V84</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/zfChnbMGLVQ?t=111">https://youtu.be/zfChnbMGLVQ?t=111</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10B" title="2018 AMC 10B">2018 AMC 10B</a></b> (<b><a href="/wiki/index.php/2018_AMC_10B_Problems" title="2018 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10B_Answer_Key" title="2018 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_18" title="2018 AMC 10B Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_20" title="2018 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_1" title="2018 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_2" title="2018 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_3" title="2018 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_4" title="2018 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_5" title="2018 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_6" title="2018 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_7" title="2018 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_8" title="2018 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_9" title="2018 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_10" title="2018 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_11" title="2018 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_12" title="2018 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_13" title="2018 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_14" title="2018 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_15" title="2018 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_16" title="2018 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_17" title="2018 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_18" title="2018 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_20" title="2018 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_21" title="2018 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_22" title="2018 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_23" title="2018 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_24" title="2018 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10B_Problems/Problem_25" title="2018 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2018_AMC_12B" title="2018 AMC 12B">2018 AMC 12B</a></b> (<b><a href="/wiki/index.php/2018_AMC_12B_Problems" title="2018 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_12B_Answer_Key" title="2018 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_13" title="2018 AMC 12B Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_15" title="2018 AMC 12B Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_1" class="mw-redirect" title="2018 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2018 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_3" title="2018 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_4" title="2018 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_5" title="2018 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_6" title="2018 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_7" title="2018 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_8" title="2018 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_9" title="2018 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_10" class="mw-redirect" title="2018 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_11" class="mw-redirect" title="2018 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_12" title="2018 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_13" title="2018 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_14" class="mw-redirect" title="2018 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_15" title="2018 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_16" title="2018 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_17" title="2018 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_18" class="mw-redirect" title="2018 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_19" class="mw-redirect" title="2018 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_20" class="mw-redirect" title="2018 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_21" title="2018 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_22" title="2018 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_23" title="2018 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_24" class="mw-redirect" title="2018 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_12B_Problems/Problem_25" title="2018 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402052256
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.130 seconds
+Real time usage: 0.134 seconds
+Preprocessor visited node count: 1009/1000000
+Preprocessor generated node count: 2922/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 14842/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   37.596      1 -total
+ 16.79%    6.311      1 Template:AMC10_box
+ 15.54%    5.843      1 Template:AMC12_box
+  5.19%    1.953      1 Template:Duplicate
+  4.25%    1.596      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15989-0!canonical and timestamp 20230402052256 and revision id 187195
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_19&amp;oldid=187195">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10B_Problems/Problem_19&amp;oldid=187195</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Number_Theory_Problems" title="Category:Introductory Number Theory Problems">Introductory Number Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

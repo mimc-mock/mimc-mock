@@ -1,0 +1,278 @@
+<p>On Halloween <img src="//latex.artofproblemsolving.com/2/9/6/296fac336caaa4265aa24b6ecbc408a348ad7e0b.png" class="latex" alt="$31$" style="vertical-align: 0px" width="17" height="13" /> children walked into the principal's office asking for candy. They
+can be classified into three types: Some always lie; some always tell the truth; and
+some alternately lie and tell the truth. The alternaters arbitrarily choose their first
+response, either a lie or the truth, but each subsequent statement has the opposite
+truth value from its predecessor. The principal asked everyone the same three
+questions in this order.
+</p><p>"Are you a truth-teller?" The principal gave a piece of candy to each of the <img src="//latex.artofproblemsolving.com/1/d/1/1d111a5e00ee5ea6700bb629994dc629874c505b.png" class="latex" alt="$22$" width="17" height="12" />
+children who answered yes.
+</p><p>"Are you an alternater?" The principal gave a piece of candy to each of the <img src="//latex.artofproblemsolving.com/f/1/9/f1965fae079a9ba2c0726c307070c2355dfcb213.png" class="latex" alt="$15$" style="vertical-align: 0px" width="17" height="13" />
+children who answered yes.
+</p><p>"Are you a liar?" The principal gave a piece of candy to each of the <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> children who
+answered yes.
+</p><p>How many pieces of candy in all did the principal give to the children who always
+tell the truth?
+</p><p><img src="//latex.artofproblemsolving.com/9/6/1/961e6055473e0eade693cf25a7bdfee2d1f479a4.png" class="latex" alt="$\textbf{(A) } 7 \qquad \textbf{(B) } 12 \qquad \textbf{(C) } 21 \qquad \textbf{(D) } 27 \qquad \textbf{(E) } 31$" style="vertical-align: -5px" width="392" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Consider when the principal asks "Are you a liar?": The truth tellers truthfully say no, and the liars lie and say no. This leaves only alternaters who lie on this question to answer yes. Thus, all <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> children that answered yes are alternaters that falsely answer Questions 1 and 3, and truthfully answer Question 2. The rest of the alternaters, however many there are, have the opposite behavior.
+</p><p>Consider the second question, "Are you an alternater?": The truth tellers again answer no, the liars falsely answer yes, and alternaters that truthfully answer also say yes. From the previous part, we know that <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> alternaters truthfully answer here. Because only liars and <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> alternaters answer yes, we can deduce that there are <img src="//latex.artofproblemsolving.com/f/e/4/fe4fc5e30a3df67407b16122d0272f2bcdbd09c6.png" class="latex" alt="$15-9=6$" style="vertical-align: 0px" width="82" height="13" /> liars.
+</p><p>Consider the first question, "Are you a truth teller?": Truth tellers say yes, liars also say yes, and alternaters that lie on this question also say yes. From the first part, we know that <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> alternaters lie here. From the previous part, we know that there are <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> liars. Because only the number of truth tellers is unknown here, we can deduce that there are <img src="//latex.artofproblemsolving.com/f/b/c/fbc6edd41c8f68f1472113733a01af03cf081515.png" class="latex" alt="$22-9-6=7$" style="vertical-align: -2px" width="116" height="15" /> truth tellers.
+</p><p>The final question is how many pieces of candy did the principal give to truth tellers. Because truth tellers only answer yes on the first question, we know that all <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> of them said yes once, resulting in <img src="//latex.artofproblemsolving.com/0/2/7/0276b6928a2d3b2bf350e5a7436a2a5a0041f1a1.png" class="latex" alt="$\boxed{\textbf{(A) } 7}$" style="vertical-align: -10px" width="56" height="28" /> pieces of candy.
+</p><p>~phuang1024
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>On the first question, truth tellers would say yes. Liars would say yes because they are not truth tellers and thus will say the opposite of no. Some alternaters may lie on this question too, meaning they say yes. 
+</p><p>On the second question, Liars would say yes because they are not alternaters and thus will say the opposite of no. Alternaters only say yes to this question if and only if they said yes to the previous question. Thus, the difference between the amount of people that said yes first and that said yes second is the amount of truth tellers, which is <img src="//latex.artofproblemsolving.com/3/f/2/3f2bbca0408bd0d4e99a9b8232149de2ecc047f2.png" class="latex" alt="$22-15=7$" style="vertical-align: 0px" width="92" height="13" />. Because it is obvious that truth tellers only say yes on the first question, our answer is <img src="//latex.artofproblemsolving.com/0/2/7/0276b6928a2d3b2bf350e5a7436a2a5a0041f1a1.png" class="latex" alt="$\boxed{\textbf{(A) } 7}$" style="vertical-align: -10px" width="56" height="28" />.
+</p><p>~sigma
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Suppose that there are <img src="//latex.artofproblemsolving.com/2/5/5/2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png" class="latex" alt="$T$" width="13" height="12" /> truth-tellers, <img src="//latex.artofproblemsolving.com/8/5/9/859ccf4cd60c7bc6b8fa1afc9a42dc811a826d6f.png" class="latex" alt="$L$" width="12" height="12" /> liars, <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> alternaters who answered yes-no-yes, and <img src="//latex.artofproblemsolving.com/1/0/9/1090530ae883b627e090bfb5e450ef796febca40.png" class="latex" alt="$A&#39;$" width="17" height="14" /> alternaters who answered no-yes-no.
+</p><p>We have the following system of equations:
+<img src="//latex.artofproblemsolving.com/6/8/2/682827872a897e4fe2d17b1a60f19eb98649a555.png" class="latexcenter" alt="\[\begin{array}{ccccccccrcccc} T &amp;+ &amp;L &amp;+ &amp;A &amp;+ &amp;A&#39; &amp;= &amp;31, &amp; &amp; &amp; &amp; (1) \\ [0.5ex] T &amp;+ &amp;L &amp;+ &amp;A &amp; &amp; &amp;= &amp;22, &amp; &amp; &amp; &amp; (2) \\ [0.5ex] &amp; &amp;L &amp; &amp; &amp;+ &amp;A&#39; &amp;= &amp;15, &amp; &amp; &amp; &amp; (3) \\ [0.5ex] &amp; &amp; &amp; &amp; A &amp; &amp; &amp;= &amp;9. &amp; &amp; &amp; &amp; (4) \end{array}\]" width="358" height="88" />
+Subtracting <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" /> from <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" /> gives <img src="//latex.artofproblemsolving.com/8/2/0/820a4e12850fa6c9463461e91241e81dd2d286a5.png" class="latex" alt="$A&#39;=9.$" style="vertical-align: -1px" width="59" height="16" /> From <img src="//latex.artofproblemsolving.com/9/0/1/9011d0e0615c63ca8738fe88e08dc53b52d22751.png" class="latex" alt="$(3),$" style="vertical-align: -4px" width="27" height="18" /> it follows that <img src="//latex.artofproblemsolving.com/f/1/0/f10ea263cad217a8a8b73ea6eb6b40b9c1843ee1.png" class="latex" alt="$L=15-A&#39;=6.$" style="vertical-align: -2px" width="136" height="17" /> Finally, from <img src="//latex.artofproblemsolving.com/e/d/f/edfab0dd6bac5131ab929c8459a0de0c4486dd27.png" class="latex" alt="$(2),$" style="vertical-align: -4px" width="27" height="18" /> we have <img src="//latex.artofproblemsolving.com/e/e/7/ee7a108ac5b6ad8d7cb21be59190e354adfbd16d.png" class="latex" alt="$T=22-A-L=\boxed{\textbf{(A) } 7}.$" style="vertical-align: -11px" width="213" height="30" />
+</p><p>~<a href="/wiki/index.php/OrenSH" title="OrenSH">orenbad</a> ~MRENTHUSIASM
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2022_AMC_10A" title="2022 AMC 10A">2022 AMC 10A</a></b> (<b><a href="/wiki/index.php/2022_AMC_10A_Problems" title="2022 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2022_AMC_10A_Answer_Key" title="2022 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_11" title="2022 AMC 10A Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_13" title="2022 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_1" title="2022 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_2" title="2022 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_3" title="2022 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_4" title="2022 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_5" title="2022 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_6" title="2022 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_7" title="2022 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_8" title="2022 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_9" title="2022 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_10" title="2022 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_11" title="2022 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_13" title="2022 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_14" title="2022 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_15" title="2022 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_16" title="2022 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_17" title="2022 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_18" title="2022 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_19" title="2022 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_20" title="2022 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_21" title="2022 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_22" title="2022 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_23" title="2022 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_24" title="2022 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_10A_Problems/Problem_25" title="2022 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2022_AMC_12A" title="2022 AMC 12A">2022 AMC 12A</a></b> (<b><a href="/wiki/index.php/2022_AMC_12A_Problems" title="2022 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2022_AMC_12A_Answer_Key" title="2022 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_8" title="2022 AMC 12A Problems/Problem 8">Problem 8</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2022 AMC 12A Problems/Problem 10">Problem 10</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_1" class="mw-redirect" title="2022 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_2" class="mw-redirect" title="2022 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_3" title="2022 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2022 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_5" title="2022 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_6" class="mw-redirect" title="2022 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2022 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_8" title="2022 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_9" class="mw-redirect" title="2022 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_10" class="mw-redirect" title="2022 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_11" title="2022 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_12" title="2022 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_13" title="2022 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_14" title="2022 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_15" class="mw-redirect" title="2022 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_16" title="2022 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_17" title="2022 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2022 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_19" class="mw-redirect" title="2022 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_20" class="mw-redirect" title="2022 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_21" title="2022 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_22" title="2022 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_23" title="2022 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_24" class="mw-redirect" title="2022 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2022_AMC_12A_Problems/Problem_25" title="2022 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208175808
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.116 seconds
+Real time usage: 0.303 seconds
+Preprocessor visited node count: 433/1000000
+Preprocessor generated node count: 1644/1000000
+Post‐expand include size: 4148/2097152 bytes
+Template argument size: 314/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5097/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   87.547      1 -total
+ 44.58%   39.031      1 Template:AMC10_box
+ 41.77%   36.569      1 Template:AMC12_box
+ 13.10%   11.467      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:23269-0!canonical and timestamp 20230208175808 and revision id 185177
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_10A_Problems/Problem_12&amp;oldid=185177">https://artofproblemsolving.com/wiki/index.php?title=2022_AMC_10A_Problems/Problem_12&amp;oldid=185177</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208184636 -->
+</html>

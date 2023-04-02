@@ -1,0 +1,252 @@
+<p>Consider the set of all fractions <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" />, where <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> are relatively prime positive integers. How many of these fractions have the property that if both numerator and denominator are increased by <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, the value of the fraction is increased by <img src="//latex.artofproblemsolving.com/2/b/5/2b56bd637cb2c936d539be1b5000a64a898af389.png" class="latex" alt="$10\%$" style="vertical-align: -1px" width="32" height="14" />?
+</p><p><img src="//latex.artofproblemsolving.com/c/2/5/c254268ca4a5d58cb8278dfd22ef798652bd1fe2.png" class="latex" alt="$\textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }\text{infinitely many}$" style="vertical-align: -4px" width="453" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>You can create the equation <img src="//latex.artofproblemsolving.com/c/8/6/c86d9ee95fe68aaf28d6d87461954fbc8e772e6d.png" class="latex" alt="$\frac{x+1}{y+1}=\frac{11x}{10y}$" style="vertical-align: -16px" width="101" height="40" />
+</p><p>Cross multiplying and combining like terms gives <img src="//latex.artofproblemsolving.com/b/6/9/b69bfd92e44a61b3eee27de867dcdeb4f93298da.png" class="latex" alt="$xy + 11x - 10y = 0$" style="vertical-align: -3px" width="153" height="16" />.
+</p><p>This can be factored into <img src="//latex.artofproblemsolving.com/d/8/c/d8c748649b701f01be2f705490d6c7efd23e1eab.png" class="latex" alt="$(x - 10)(y + 11) = -110$" style="vertical-align: -4px" width="194" height="18" />.
+</p><p><img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> must be positive, so <img src="//latex.artofproblemsolving.com/c/a/e/cae4fd68f44ac9b909f8d91f9d498de5759bb45b.png" class="latex" alt="$x &gt; 0$" style="vertical-align: 0px" width="43" height="13" /> and <img src="//latex.artofproblemsolving.com/f/6/2/f6267cf18ccdbddb223019a94263e5b80bafe617.png" class="latex" alt="$y &gt; 0$" style="vertical-align: -3px" width="42" height="16" />, so <img src="//latex.artofproblemsolving.com/e/7/d/e7d330b5007085f3ddea5c7b982fc8d6d03b3558.png" class="latex" alt="$x - 10&gt; -10$" style="vertical-align: 0px" width="106" height="13" /> and <img src="//latex.artofproblemsolving.com/2/4/2/2426c21e40a76a08fcf00a98c2c6e93c3624765d.png" class="latex" alt="$y + 11 &gt; 11$" style="vertical-align: -3px" width="91" height="15" />.
+</p><p>Using the factors of 110, we can get the factor pairs: <img src="//latex.artofproblemsolving.com/c/8/f/c8fb62c4db1a1fa0b0389195ecd0c7d03369e2e4.png" class="latex" alt="$(-1, 110),$" style="vertical-align: -4px" width="76" height="18" /> <img src="//latex.artofproblemsolving.com/f/f/0/ff0532723e0773116898dab99414447688f25a63.png" class="latex" alt="$(-2, 55),$" style="vertical-align: -4px" width="67" height="18" /> and <img src="//latex.artofproblemsolving.com/d/1/c/d1cd2b290bdab78481f9a06ff024626f4c4cd20e.png" class="latex" alt="$(-5, 22).$" style="vertical-align: -4px" width="67" height="18" />
+</p><p>But we can't stop here because <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> must be relatively prime.
+</p><p><img src="//latex.artofproblemsolving.com/5/f/7/5f788b31517ad7fd558eb149fd621353e5fd14fb.png" class="latex" alt="$(-1, 110)$" style="vertical-align: -4px" width="71" height="18" /> gives <img src="//latex.artofproblemsolving.com/0/4/a/04a7a2005b67ab81ee5ff231b2f370f1d71ebe1a.png" class="latex" alt="$x = 9$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/5/8/c/58c021c64fecaaf4d6a642c4ab3fb106f1598398.png" class="latex" alt="$y = 99$" style="vertical-align: -3px" width="51" height="16" />. <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/a/3/1/a313bf06349648df7be807bee95b651604ce7a7e.png" class="latex" alt="$99$" width="17" height="12" /> are not relatively prime, so this doesn't work.
+</p><p><img src="//latex.artofproblemsolving.com/6/d/3/6d3cd12d31677995bcb39e0282b4abffdd212e99.png" class="latex" alt="$(-2, 55)$" style="vertical-align: -4px" width="62" height="18" /> gives <img src="//latex.artofproblemsolving.com/6/2/4/62434ae80ca145c20f0fbc7563f5151371ed163c.png" class="latex" alt="$x = 8$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/6/b/a/6ba585c0c81fc1f3f70c362d5806356278f287a2.png" class="latex" alt="$y = 44$" style="vertical-align: -3px" width="52" height="15" />. This doesn't work.
+</p><p><img src="//latex.artofproblemsolving.com/6/8/d/68d28bf0f875ca05d4d0ed7dcd35c78637e16013.png" class="latex" alt="$(-5, 22)$" style="vertical-align: -4px" width="62" height="18" /> gives <img src="//latex.artofproblemsolving.com/c/4/3/c43970aa97091f384854d477a1e1e07356887266.png" class="latex" alt="$x = 5$" width="43" height="12" /> and <img src="//latex.artofproblemsolving.com/c/8/3/c832e4ebb5fc13830ee1f7897c5ac56e83f94e58.png" class="latex" alt="$y = 11$" style="vertical-align: -3px" width="51" height="15" />. This does work.
+</p><p>We found one valid solution so the answer is <img src="//latex.artofproblemsolving.com/7/5/e/75e101201addd96f637069ef5899fa2b44223efc.png" class="latex" alt="$\boxed{\textbf{(B) }1}$" style="vertical-align: -10px" width="55" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>The condition required is <img src="//latex.artofproblemsolving.com/a/f/0/af0fd410f63e9ddc3d86483822a62651f2a5cb65.png" class="latex" alt="$\frac{x+1}{y+1}=\frac{11}{10}\cdot\frac{x}{y}$" style="vertical-align: -16px" width="117" height="40" />.
+</p><p>Observe that <img src="//latex.artofproblemsolving.com/1/2/e/12ecf0abf79cc52efa674d7e5b935e49cd90f413.png" class="latex" alt="$x+1 &gt; \frac{11}{10}\cdot x$" style="vertical-align: -13px" width="111" height="37" /> so <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is at most <img src="//latex.artofproblemsolving.com/f/6/a/f6a1b9d5cec741422bfb37f91db47fd7514f5377.png" class="latex" alt="$9.$" width="12" height="12" />
+</p><p>By multiplying by <img src="//latex.artofproblemsolving.com/e/0/0/e00997435b70ac3c4293ac773a5e6e2e5f691d27.png" class="latex" alt="$\frac{y+1}{x}$" style="vertical-align: -12px" width="43" height="37" /> and simplifying we can rewrite the condition as <img src="//latex.artofproblemsolving.com/e/8/4/e8427d6f143a4af41120b0f340ebfbe0f4ff99cd.png" class="latex" alt="$y=\frac{11x}{10-x}$" style="vertical-align: -13px" width="87" height="37" />.  Since <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> are integer, this only has solutions for <img src="//latex.artofproblemsolving.com/e/e/7/ee7ab6aba0d6734ced8bb7bf5bfad36edd3dde0a.png" class="latex" alt="$x\in\{5,8,9\}$" style="vertical-align: -4px" width="93" height="18" />.  However, only the first yields a <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> that is relative prime to <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />.
+</p><p>There is only one valid solution so the answer is <img src="//latex.artofproblemsolving.com/7/5/e/75e101201addd96f637069ef5899fa2b44223efc.png" class="latex" alt="$\boxed{\textbf{(B) }1}$" style="vertical-align: -10px" width="55" height="28" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/p7g0hTxE9I8">https://youtu.be/p7g0hTxE9I8</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2015_AMC_10A" title="2015 AMC 10A">2015 AMC 10A</a></b> (<b><a href="/wiki/index.php/2015_AMC_10A_Problems" title="2015 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_10A_Answer_Key" title="2015 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_14" title="2015 AMC 10A Problems/Problem 14">Problem 14</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_16" title="2015 AMC 10A Problems/Problem 16">Problem 16</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_1" title="2015 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_2" title="2015 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_3" title="2015 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_4" title="2015 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_5" title="2015 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_6" title="2015 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_7" title="2015 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_8" title="2015 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_9" title="2015 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_10" title="2015 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_11" title="2015 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_12" title="2015 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_13" title="2015 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_14" title="2015 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a class="mw-selflink selflink">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_16" title="2015 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_17" title="2015 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_18" title="2015 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_19" title="2015 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_20" title="2015 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_21" title="2015 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_22" title="2015 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_23" title="2015 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_24" title="2015 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_25" title="2015 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208225445
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.092 seconds
+Real time usage: 0.097 seconds
+Preprocessor visited node count: 497/1000000
+Preprocessor generated node count: 1440/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7654/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.676      1 -total
+ 75.03%    6.510      1 Template:AMC10_box
+ 22.67%    1.967      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:13943-0!canonical and timestamp 20230208225445 and revision id 134174
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_15&amp;oldid=134174">https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_15&amp;oldid=134174</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208225445 -->
+</html>

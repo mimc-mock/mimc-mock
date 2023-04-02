@@ -1,0 +1,252 @@
+<p>Let <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> be the largest integer that is the product of exactly 3 distinct prime numbers <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />, <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" />, and <img src="//latex.artofproblemsolving.com/c/6/7/c67f94726da9d0b7e3764214a5dc58428e97b260.png" class="latex" alt="$10d+e$" style="vertical-align: -1px" width="58" height="14" />, where <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" /> are single digits. What is the sum of the digits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/f/4/8/f48d16706e4c9588c1010d4ef3da351680e88cc2.png" class="latex" alt="$\mathrm{(A) \ } 12\qquad \mathrm{(B) \ } 15\qquad \mathrm{(C) \ } 18\qquad \mathrm{(D) \ } 21\qquad \mathrm{(E) \ } 24$" style="vertical-align: -4px" width="388" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Since you want <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> to be the largest number possible, you will want <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> in <img src="//latex.artofproblemsolving.com/c/6/7/c67f94726da9d0b7e3764214a5dc58428e97b260.png" class="latex" alt="$10d+e$" style="vertical-align: -1px" width="58" height="14" /> to be as large as possible. So <img src="//latex.artofproblemsolving.com/0/d/2/0d2ebc78ee3a2e67ae89407f1312323d25bc80ea.png" class="latex" alt="$d = 7$" width="42" height="12" />.Then, <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" /> cannot be <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> because <img src="//latex.artofproblemsolving.com/f/7/e/f7e4f9ec535a7ce345aac4357e76d1cd14dc4c9e.png" class="latex" alt="$10(7)+5 = 75$" style="vertical-align: -4px" width="114" height="18" /> which is not prime. So <img src="//latex.artofproblemsolving.com/4/a/6/4a66332dcde07a7f80f49ae1b54b8970bbaf0130.png" class="latex" alt="$e = 3$" width="41" height="12" />.<img src="//latex.artofproblemsolving.com/4/b/f/4bffe5410d2f94ee809e3a0e6de4cf5554dacb9c.png" class="latex" alt="$~~~$" style="vertical-align: -1px" width="18" height="2" /> <img src="//latex.artofproblemsolving.com/5/f/4/5f47d3669ed07fdf12578fa588630552e6f0d88d.png" class="latex" alt="$d \cdot e \cdot (10d+e) = 7 \cdot 3 \cdot 73 = 1533$" style="vertical-align: -4px" width="263" height="18" />.
+So, the sum of the digits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/3/7/e/37ec009c9f28d76c329dfe816a6cd311c3becc6e.png" class="latex" alt="$1+5+3+3=12 \Rightarrow \boxed{\mathrm{(A)}\ 12}$" style="vertical-align: -10px" width="237" height="29" /> ~ MathGenius_
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Since <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> is a single digit prime number, the set of possible values of <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> is <img src="//latex.artofproblemsolving.com/3/7/2/372d102bfeb1df0d6036974efaf6a767573c3d68.png" class="latex" alt="$\{2,3,5,7\}$" style="vertical-align: -4px" width="77" height="18" />. 
+</p><p>Since <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" /> is a single digit prime number and is the units digit of the prime number <img src="//latex.artofproblemsolving.com/c/6/7/c67f94726da9d0b7e3764214a5dc58428e97b260.png" class="latex" alt="$10d+e$" style="vertical-align: -1px" width="58" height="14" />, the set of possible values of <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" /> is <img src="//latex.artofproblemsolving.com/f/5/f/f5f4c90d3098c50e7da6e7ce0b8e408061b80553.png" class="latex" alt="$\{3,7\}$" style="vertical-align: -4px" width="43" height="18" />. 
+</p><p>Using these values for <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/a/3/a/a3a59bb1293ee3f6dec19de4019a7178874219ae.png" class="latex" alt="$e$" width="8" height="8" />, the set of possible values of <img src="//latex.artofproblemsolving.com/c/6/7/c67f94726da9d0b7e3764214a5dc58428e97b260.png" class="latex" alt="$10d+e$" style="vertical-align: -1px" width="58" height="14" /> is <img src="//latex.artofproblemsolving.com/8/2/8/8280551c46b824664d15532e7e9e7cf774a0df10.png" class="latex" alt="$\{23,27,33,37,53,57,73,77\}$" style="vertical-align: -4px" width="219" height="18" />
+</p><p>Out of this set, the prime values are <img src="//latex.artofproblemsolving.com/4/1/5/415a198d93105d83766ecbb41c2a8db74b2711cf.png" class="latex" alt="$\{23,37,53,73\}$" style="vertical-align: -4px" width="114" height="18" />
+</p><p>Therefore the possible values of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> are: 
+</p><p><img src="//latex.artofproblemsolving.com/0/b/7/0b7500c5820272a83c11e834826668491e682471.png" class="latex" alt="$2\cdot3\cdot23=138$" style="vertical-align: 0px" width="113" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/3/3/d/33dd114b0ca7c7e4d76bda397b3739ac93d76d01.png" class="latex" alt="$3\cdot7\cdot37=777$" width="114" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/4/e/3/4e352c84585d332742e203a29030f2e48f4b3203.png" class="latex" alt="$5\cdot3\cdot53=795$" width="113" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/7/3/6/736ca8c1fc9d44433a091ab64133f9e6936aabea.png" class="latex" alt="$7\cdot3\cdot73=1533$" style="vertical-align: 0px" width="122" height="13" /> 
+</p><p>The largest possible value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/0/e/e/0ee5516af65d26d5ae4190acaac8283634d0d5c1.png" class="latex" alt="$1533$" style="vertical-align: 0px" width="35" height="13" />. 
+</p><p>So, the sum of the digits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/3/7/e/37ec009c9f28d76c329dfe816a6cd311c3becc6e.png" class="latex" alt="$1+5+3+3=12 \Rightarrow \boxed{\mathrm{(A)}\ 12}$" style="vertical-align: -10px" width="237" height="29" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_WhyMath">Video Solution by WhyMath</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/NbkwhS7k2oU">https://youtu.be/NbkwhS7k2oU</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2003_AMC_10A" title="2003 AMC 10A">2003 AMC 10A</a></b> (<b><a href="/wiki/index.php/2003_AMC_10A_Problems" title="2003 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2003_AMC_10A_Answer_Key" title="2003 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_13" title="2003 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_15" title="2003 AMC 10A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2003 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_2" class="mw-redirect" title="2003 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2003 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_4" class="mw-redirect" title="2003 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_5" title="2003 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_6" class="mw-redirect" title="2003 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_7" class="mw-redirect" title="2003 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2003 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_9" title="2003 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_10" class="mw-redirect" title="2003 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2003 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_12" title="2003 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_13" title="2003 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_15" title="2003 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_16" title="2003 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_17" title="2003 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_18" title="2003 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_19" class="mw-redirect" title="2003 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_20" title="2003 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_21" title="2003 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_22" title="2003 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_23" title="2003 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2003 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2003_AMC_10A_Problems/Problem_25" title="2003 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208221405
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.106 seconds
+Real time usage: 0.111 seconds
+Preprocessor visited node count: 470/1000000
+Preprocessor generated node count: 1380/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6746/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   10.275      1 -total
+ 73.35%    7.537      1 Template:AMC10_box
+ 24.14%    2.480      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:4118-0!canonical and timestamp 20230208221405 and revision id 154321
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_10A_Problems/Problem_14&amp;oldid=154321">https://artofproblemsolving.com/wiki/index.php?title=2003_AMC_10A_Problems/Problem_14&amp;oldid=154321</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Number_Theory_Problems" title="Category:Introductory Number Theory Problems">Introductory Number Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208221405 -->
+</html>

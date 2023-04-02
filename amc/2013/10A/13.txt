@@ -1,0 +1,240 @@
+<p>How many three-digit numbers are not divisible by <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" />, have digits that sum to less than <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" />, and have the first digit equal to the third digit?
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/e/5/b/e5bad9fdcdf5b068b066ad1988d8154f5ec5ba8d.png" class="latex" alt="$\textbf{(A)}\ 52 \qquad\textbf{(B)}\ 60  \qquad\textbf{(C)}\ 66 \qquad\textbf{(D)}\ 68 \qquad\textbf{(E)}\ 70$" style="vertical-align: -4px" width="394" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>We use a casework approach to solve the problem. These three digit numbers are of the form <img src="//latex.artofproblemsolving.com/6/a/6/6a6be36e143cfe9648096b78ad52f67c1997f721.png" class="latex" alt="$\overline{xyx}$" style="vertical-align: -3px" width="30" height="14" />.(<img src="//latex.artofproblemsolving.com/c/5/d/c5d6cf4e9d072fbeba4fb13dffe63fa9ca820854.png" class="latex" alt="$\overline{abc}$" width="25" height="16" /> denotes the number <img src="//latex.artofproblemsolving.com/3/c/5/3c5a1ceb95b62c9c34572681c80bee6671a5c9d1.png" class="latex" alt="$100a+10b+c$" style="vertical-align: -1px" width="115" height="14" />).  We see that <img src="//latex.artofproblemsolving.com/7/4/7/7470aeade5f47b768b503c1547f7e7cbf4540361.png" class="latex" alt="$x\neq 0$" style="vertical-align: -4px" width="43" height="17" /> and <img src="//latex.artofproblemsolving.com/5/9/4/5942743972460bb9c9210f39a95b5789dbd3b71b.png" class="latex" alt="$x\neq 5$" style="vertical-align: -4px" width="43" height="17" />, as <img src="//latex.artofproblemsolving.com/3/4/e/34ea5b6f6de584d56d19a89cc4923a9d9a5cfa41.png" class="latex" alt="$x=0$" width="43" height="12" /> does not yield a three-digit integer and <img src="//latex.artofproblemsolving.com/5/1/c/51c80ea5862b45877f08d698a0c893bd2806a2fd.png" class="latex" alt="$x=5$" width="43" height="12" /> yields a number divisible by 5.
+</p><p>The second condition is that the sum <img src="//latex.artofproblemsolving.com/4/8/8/48809f617152f90dc9a255e39e41ba5dee394512.png" class="latex" alt="$2x+y&lt;20$" style="vertical-align: -3px" width="93" height="16" />.  When <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, or <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />, <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> can be any digit from <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> to <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, as <img src="//latex.artofproblemsolving.com/3/f/8/3f8ee5eb338bdcce4bc7c52a137df3b0b4333c12.png" class="latex" alt="$2x&lt;10$" style="vertical-align: 0px" width="61" height="13" />.  This yields <img src="//latex.artofproblemsolving.com/1/6/4/16437bf8e8f78747ff427711b11a0de9503b31e8.png" class="latex" alt="$10(4) = 40$" style="vertical-align: -4px" width="83" height="18" /> numbers.  
+</p><p>When <img src="//latex.artofproblemsolving.com/f/d/9/fd92d02476c3434bf645bf5a3bc249eca83d3c16.png" class="latex" alt="$x=6$" width="43" height="12" />, we see that <img src="//latex.artofproblemsolving.com/7/3/4/734e0f3249fb83d883de0e1a720a16b301fae13a.png" class="latex" alt="$12+y&lt;20$" style="vertical-align: -3px" width="91" height="16" /> so <img src="//latex.artofproblemsolving.com/6/5/4/65478a5d5cdffa726d7db0942afb6ec5913c4f55.png" class="latex" alt="$y&lt;8$" style="vertical-align: -3px" width="42" height="16" />.  This yields <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> more numbers.  
+</p><p>When <img src="//latex.artofproblemsolving.com/5/f/7/5f7f6230166a491e7a471a03829c792496576480.png" class="latex" alt="$x=7$" width="43" height="12" />,  <img src="//latex.artofproblemsolving.com/7/b/7/7b72c5ea9901d864791e4a989fcc40321f2a4cd4.png" class="latex" alt="$14+y&lt;20$" style="vertical-align: -3px" width="91" height="16" /> so <img src="//latex.artofproblemsolving.com/5/3/b/53b1aeb9976dea14cd71fe6ae5b911016c775752.png" class="latex" alt="$y&lt;6$" style="vertical-align: -3px" width="42" height="16" />.  This yields <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> more numbers.  
+</p><p>When <img src="//latex.artofproblemsolving.com/c/c/f/ccf5d650726be49af3a306c54a2fd7dd1d628b48.png" class="latex" alt="$x=8$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/8/7/8/8788b8aa1d97c78259a4632b7e25798d0328b34a.png" class="latex" alt="$16+y&lt;20$" style="vertical-align: -3px" width="91" height="16" /> so <img src="//latex.artofproblemsolving.com/d/7/6/d76bfc9cc7d48ac3f4d8445fa0c75ef51c16b9e0.png" class="latex" alt="$y&lt;4$" style="vertical-align: -3px" width="43" height="15" />.  This yields <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> more numbers.  
+</p><p>When <img src="//latex.artofproblemsolving.com/5/b/1/5b1d8cdec48abe8293a4169a8afce4fc8a8348e7.png" class="latex" alt="$x=9$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/8/d/7/8d7d1063822f773b5976a720519f140169a5aeac.png" class="latex" alt="$18+y&lt;20$" style="vertical-align: -3px" width="91" height="16" /> so <img src="//latex.artofproblemsolving.com/2/a/2/2a261b71b48ceea8803ceaba56f60c3e75657df5.png" class="latex" alt="$y&lt;2$" style="vertical-align: -3px" width="42" height="15" />.  This yields <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> more numbers.  
+</p><p>Summing, we get <img src="//latex.artofproblemsolving.com/9/6/0/960b860b9824b158e022b3e9b44464c23770d154.png" class="latex" alt="$40 + 8 + 6 + 4 + 2 = \boxed{\textbf{(B) }60}$" style="vertical-align: -10px" width="232" height="28" />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2013_AMC_10A" title="2013 AMC 10A">2013 AMC 10A</a></b> (<b><a href="/wiki/index.php/2013_AMC_10A_Problems" title="2013 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2013_AMC_10A_Answer_Key" title="2013 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_12" title="2013 AMC 10A Problems/Problem 12">Problem 12</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_14" title="2013 AMC 10A Problems/Problem 14">Problem 14</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_1" title="2013 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_2" title="2013 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2013 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_4" title="2013 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_5" title="2013 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_6" title="2013 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_7" title="2013 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_8" title="2013 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_9" title="2013 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_10" title="2013 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_11" title="2013 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_12" title="2013 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a class="mw-selflink selflink">13</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_14" title="2013 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_15" title="2013 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_16" title="2013 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_17" title="2013 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_18" title="2013 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_19" title="2013 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_20" title="2013 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_21" title="2013 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_22" title="2013 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_23" title="2013 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_24" title="2013 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2013_AMC_10A_Problems/Problem_25" title="2013 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208201027
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.093 seconds
+Real time usage: 0.096 seconds
+Preprocessor visited node count: 435/1000000
+Preprocessor generated node count: 1312/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6301/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.018      1 -total
+ 77.21%    6.191      1 Template:AMC10_box
+ 18.55%    1.487      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11735-0!canonical and timestamp 20230208201027 and revision id 142921
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_13&amp;oldid=142921">https://artofproblemsolving.com/wiki/index.php?title=2013_AMC_10A_Problems/Problem_13&amp;oldid=142921</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208235002 -->
+</html>

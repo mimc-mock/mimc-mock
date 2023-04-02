@@ -1,0 +1,249 @@
+<p>For all positive <a href="/wiki/index.php/Integer" title="Integer">integers</a> <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> less than <img src="//latex.artofproblemsolving.com/9/6/e/96e470b7ce7a2f4d0c1ae064d2874ca377693897.png" class="latex" alt="$2002$" width="35" height="12" />, let 
+</p><p><img src="//latex.artofproblemsolving.com/8/d/4/8d49dd65ded465f1090c6122d420d37cdc37d8b0.png" class="latexcenter" alt="\begin{eqnarray*} a_n =\left\{ \begin{array}{lr} 11, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }13\ \text{and\ }14;\\ 13, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }14\ \text{and\ }11;\\ 14, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }11\ \text{and\ }13;\\ 0, &amp; \text{otherwise}. \end{array} \right. \end{eqnarray*}" width="321" height="75" />
+</p><p>Calculate <img src="//latex.artofproblemsolving.com/7/5/d/75db55d0047c8be209739f16eb97f02bd33f781a.png" class="latex" alt="$\sum_{n=1}^{2001} a_n$" style="vertical-align: -20px" width="47" height="50" />.
+</p><p><img src="//latex.artofproblemsolving.com/c/1/2/c121dc6dfa61a09599de04c68f25aee25554d7d2.png" class="latex" alt="$\mathrm{(A)}\ 448 \qquad\mathrm{(B)}\ 486 \qquad\mathrm{(C)}\ 1560 \qquad\mathrm{(D)}\ 2001 \qquad\mathrm{(E)}\ 2002$" style="vertical-align: -4px" width="460" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Since <img src="//latex.artofproblemsolving.com/2/7/4/274a4637f71ab9e01081d83e83ddd1c7ff012e20.png" class="latex" alt="$2002 = 11 \cdot 13 \cdot 14$" style="vertical-align: 0px" width="141" height="13" />, it follows that 
+<img src="//latex.artofproblemsolving.com/9/0/b/90b990ee153a63755b7569f6eef8d2bee13f2d95.png" class="latexcenter" alt="\begin{eqnarray*} a_n =\left\{ \begin{array}{lr} 11, &amp; \text{if\ }n=13 \cdot 14 \cdot k, \quad k = 1,2,\cdots 10;\\ 13, &amp; \text{if\ }n=14 \cdot 11 \cdot k, \quad k = 1,2,\cdots 12;\\ 14, &amp; \text{if\ }n=11 \cdot 13 \cdot k, \quad k = 1,2,\cdots 13;\\ \end{array} \right. \end{eqnarray*}" width="369" height="64" />
+</p><p>Thus <img src="//latex.artofproblemsolving.com/0/1/3/013a48abdee9022ac7e279ceac12632b1ac9669f.png" class="latex" alt="$\sum_{n=1}^{2001} a_n = 11 \cdot 10 + 13 \cdot 12 + 14 \cdot 13 = 448 \Rightarrow \mathrm{(A)}$" style="vertical-align: -20px" width="371" height="50" />.
+<img src="//latex.artofproblemsolving.com/2/9/2/292b1fe64a808a082f7a77a25866e73d22d554a1.png" class="latex" alt="$\begin{array}{lr} 11, &amp; \text{if\ }n=13 \cdot 14 \cdot k, \quad k = 1,2,\cdots 10;\\ 13, &amp; \text{if\ }n=14 \cdot 11 \cdot k, \quad k = 1,2,\cdots 12;\\ 14, &amp; \text{if\ }n=11 \cdot 13 \cdot k, \quad k = 1,2,\cdots 13;\\ \end{array}$" style="vertical-align: -26px" width="322" height="62" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Find the LCMs of the groups of the numbers.
+</p><p>Notice that the groups are relatively prime.
+</p><p>So <img src="//latex.artofproblemsolving.com/0/c/3/0c358fc6d1a08cb97f1ddb47e4d1e8362d284981.png" class="latex" alt="$a_n=$" style="vertical-align: -2px" width="37" height="10" />:
+</p><p>11 if <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a multiple of 182.
+</p><p>13 if <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a multiple of 154.
+</p><p>14 if <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a multiple of 143.
+</p><p>When do we see ambiguities (for example: <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a multiple of 11, 13, and 14)? This is only done when <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a multiple of <img src="//latex.artofproblemsolving.com/4/a/d/4ad0d33e455347864fc322b4f0f41cd8f844e150.png" class="latex" alt="$\operatorname{lcm}(11,13,14)=2002$" style="vertical-align: -5px" width="176" height="20" />. However, since <img src="//latex.artofproblemsolving.com/7/9/8/7982db74fc657a45d2e7519cac2a26a2cead880f.png" class="latex" alt="$n&lt;2002$" style="vertical-align: -2px" width="73" height="15" />, this can never happen.
+</p><p>So we have 10 multiples of 182 we have to count (1 to 10 <img src="//latex.artofproblemsolving.com/5/a/0/5a05c3ecf5c065ff5ded5723c738c97bd308323b.png" class="latex" alt="$*182$" style="vertical-align: -1px" width="38" height="14" />), and similarly, 12 multiples of 154, and 13 multiples of 143. The sum is <img src="//latex.artofproblemsolving.com/a/9/e/a9e19b3d8c042e6df2f7ca0759becac1b8fcf6c7.png" class="latex" alt="$10*11+12*13+13*14=448$" style="vertical-align: -2px" width="258" height="15" />. Select <img src="//latex.artofproblemsolving.com/f/6/e/f6eb65962292d994ce2f9a8af63728883f256b18.png" class="latex" alt="$\boxed{A}$" style="vertical-align: -5px" width="25" height="24" />.
+</p><p>~hastapasta
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2002_AMC_12B" title="2002 AMC 12B">2002 AMC 12B</a></b> (<b><a href="/wiki/index.php/2002_AMC_12B_Problems" title="2002 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2002_AMC_12B_Answer_Key" title="2002 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_1" title="2002 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_2" title="2002 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_3" title="2002 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_5" title="2002 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_7" title="2002 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_8" title="2002 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_9" title="2002 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_10" title="2002 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_12" title="2002 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_14" title="2002 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_15" title="2002 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_16" title="2002 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_17" title="2002 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_18" title="2002 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_19" title="2002 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_23" title="2002 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2002_AMC_12B_Problems/Problem_25" title="2002 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208204536
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.081 seconds
+Real time usage: 0.084 seconds
+Preprocessor visited node count: 277/1000000
+Preprocessor generated node count: 956/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4374/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.220      1 -total
+ 76.40%    6.280      1 Template:AMC12_box
+ 20.67%    1.699      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:6290-0!canonical and timestamp 20230208204536 and revision id 173290
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_21&amp;oldid=173290">https://artofproblemsolving.com/wiki/index.php?title=2002_AMC_12B_Problems/Problem_21&amp;oldid=173290</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208204536 -->
+</html>

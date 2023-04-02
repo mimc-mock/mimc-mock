@@ -1,0 +1,259 @@
+<p>Let <img src="//latex.artofproblemsolving.com/0/2/4/02402e42778f23596e237ad19f93b530d7057f5c.png" class="latex" alt="$f(z)= \frac{z+a}{z+b}$" style="vertical-align: -14px" width="102" height="37" /> and <img src="//latex.artofproblemsolving.com/c/3/b/c3b46ee51c9a9b5098f0a029086ec097a8c94941.png" class="latex" alt="$g(z)=f(f(z))$" style="vertical-align: -4px" width="114" height="18" />, where <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> are complex numbers. Suppose that <img src="//latex.artofproblemsolving.com/f/0/0/f00a221557d18d3a5cabe91a8003ec7439c878f4.png" class="latex" alt="$\left| a \right| = 1$" style="vertical-align: -4px" width="52" height="18" /> and <img src="//latex.artofproblemsolving.com/1/b/1/1b1047538db69894f54a838e8b93277b693d2cad.png" class="latex" alt="$g(g(z))=z$" style="vertical-align: -4px" width="89" height="18" /> for all <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> for which <img src="//latex.artofproblemsolving.com/a/5/9/a599ac52e53725494b722757573e7733a9b6a417.png" class="latex" alt="$g(g(z))$" style="vertical-align: -4px" width="54" height="18" /> is defined. What is the difference between the largest and smallest possible values of <img src="//latex.artofproblemsolving.com/4/d/9/4d92cbf0ff777b93f150c542732d201ccf4fab35.png" class="latex" alt="$\left| b \right|$" style="vertical-align: -4px" width="16" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/3/e/1/3e1913444ff66f5bf0ea7e94c53a6693920373ec.png" class="latex" alt="$\textbf{(A)}\ 0 \qquad \textbf{(B)}\ \sqrt{2}-1 \qquad \textbf{(C)}\ \sqrt{3}-1 \qquad \textbf{(D)}\ 1 \qquad \textbf{(E)}\ 2$" style="vertical-align: -4px" width="441" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>By algebraic manipulations, we obtain 
+<img src="//latex.artofproblemsolving.com/c/b/a/cba2e30eb14c5b64fcff64f2adb70f1ca0021aeb.png" class="latexcenter" alt="\[h(z)=g(g(z))=f(f(f(f(z))))=\frac{Pz+Q}{Rz+S}\]" width="333" height="38" /> where 
+<img src="//latex.artofproblemsolving.com/2/0/3/203532737fee0e7e62102c526dc7074b064a85a6.png" class="latexcenter" alt="\[P=(a+1)^2+a(b+1)^2\]" width="191" height="19" />
+<img src="//latex.artofproblemsolving.com/7/1/0/7101990162741bdc72746c55f668084c58db9612.png" class="latexcenter" alt="\[Q=a(b+1)(b^2+2a+1)\]" width="201" height="19" />
+<img src="//latex.artofproblemsolving.com/3/9/5/3957f607ef38eae0185f7e9e1d73c8839bb1b9fd.png" class="latexcenter" alt="\[R=(b+1)(b^2+2a+1)\]" width="191" height="19" />
+<img src="//latex.artofproblemsolving.com/4/0/4/40484eb861bfa09e58731fdf59a6c3ce2b184444.png" class="latexcenter" alt="\[S=a(b+1)^2+(a+b^2)^2\]" width="195" height="19" />
+In order for <img src="//latex.artofproblemsolving.com/4/7/8/478a0b8574a8bdd1d4c647b73c00bf76f7d84cc6.png" class="latex" alt="$h(z)=z$" style="vertical-align: -4px" width="66" height="18" />, we must have <img src="//latex.artofproblemsolving.com/7/c/a/7cabdac25e931867e38c2efc2e553e258984119e.png" class="latex" alt="$R=0$" width="46" height="12" />, <img src="//latex.artofproblemsolving.com/9/3/4/93499acb9fa26a093e866ee073977ada1554777b.png" class="latex" alt="$Q=0$" style="vertical-align: -3px" width="47" height="16" />, and <img src="//latex.artofproblemsolving.com/5/5/f/55ff9116329307ba65abf26fbe4e9c30bdfdc838.png" class="latex" alt="$P=S$" width="50" height="12" />. 
+</p><p><img src="//latex.artofproblemsolving.com/7/c/a/7cabdac25e931867e38c2efc2e553e258984119e.png" class="latex" alt="$R=0$" width="46" height="12" /> implies <img src="//latex.artofproblemsolving.com/3/5/9/35936109f5553f9d3a884aba528e07ec8408c187.png" class="latex" alt="$b=-1$" style="vertical-align: 0px" width="54" height="13" /> or <img src="//latex.artofproblemsolving.com/c/d/c/cdc69927cd89f1c7ce001b8400ce5044d1acf51c.png" class="latex" alt="$b^2+2a+1=0$" style="vertical-align: -1px" width="120" height="16" />.
+</p><p><img src="//latex.artofproblemsolving.com/9/3/4/93499acb9fa26a093e866ee073977ada1554777b.png" class="latex" alt="$Q=0$" style="vertical-align: -3px" width="47" height="16" /> implies <img src="//latex.artofproblemsolving.com/6/9/c/69cefa6855d2216036df094012f7ad2a7e4e204f.png" class="latex" alt="$a=0$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/3/5/9/35936109f5553f9d3a884aba528e07ec8408c187.png" class="latex" alt="$b=-1$" style="vertical-align: 0px" width="54" height="13" />, or <img src="//latex.artofproblemsolving.com/c/d/c/cdc69927cd89f1c7ce001b8400ce5044d1acf51c.png" class="latex" alt="$b^2+2a+1=0$" style="vertical-align: -1px" width="120" height="16" />.
+</p><p><img src="//latex.artofproblemsolving.com/5/5/f/55ff9116329307ba65abf26fbe4e9c30bdfdc838.png" class="latex" alt="$P=S$" width="50" height="12" /> implies <img src="//latex.artofproblemsolving.com/2/3/b/23bab29c35f427287f77de6673007486db647b0a.png" class="latex" alt="$b=\pm1$" style="vertical-align: 0px" width="54" height="13" /> or <img src="//latex.artofproblemsolving.com/c/d/c/cdc69927cd89f1c7ce001b8400ce5044d1acf51c.png" class="latex" alt="$b^2+2a+1=0$" style="vertical-align: -1px" width="120" height="16" />. 
+</p><p>Since <img src="//latex.artofproblemsolving.com/4/f/d/4fd51fecb18b4287352aed4432cfccbfcdad686b.png" class="latex" alt="$|a|=1\neq 0$" style="vertical-align: -4px" width="86" height="18" />, in order to satisfy all 3 conditions we must have either <img src="//latex.artofproblemsolving.com/2/3/b/23bab29c35f427287f77de6673007486db647b0a.png" class="latex" alt="$b=\pm1$" style="vertical-align: 0px" width="54" height="13" /> or <img src="//latex.artofproblemsolving.com/c/d/c/cdc69927cd89f1c7ce001b8400ce5044d1acf51c.png" class="latex" alt="$b^2+2a+1=0$" style="vertical-align: -1px" width="120" height="16" />. In the first case <img src="//latex.artofproblemsolving.com/2/5/7/2572712f0b38b0023fc05a8645a4533f6af9ceed.png" class="latex" alt="$|b|=1$" style="vertical-align: -4px" width="50" height="18" />. 
+</p><p>For the latter case note that 
+<img src="//latex.artofproblemsolving.com/8/4/f/84f5b338c0352ce9319a44f91647873098b6f7ae.png" class="latexcenter" alt="\[|b^2+1|=|-2a|=2\]" width="162" height="19" />
+<img src="//latex.artofproblemsolving.com/c/8/2/c827541ab9437283789b2424d5fe02ea8bce1093.png" class="latexcenter" alt="\[2=|b^2+1|\leq |b^2|+1\]" width="169" height="19" />
+and hence, 
+<img src="//latex.artofproblemsolving.com/9/0/5/905d4c2296f7c3a1b650b5850ab098f9b7c71067.png" class="latexcenter" alt="\[1\leq|b|^2\Rightarrow1\leq |b|\]" width="134" height="19" />. 
+On the other hand, 
+<img src="//latex.artofproblemsolving.com/3/9/e/39e71f56e5f1d68a1750e8a2d8f18ed682a786ee.png" class="latexcenter" alt="\[2=|b^2+1|\geq|b^2|-1\]" width="169" height="19" />
+so, 
+<img src="//latex.artofproblemsolving.com/d/a/d/dad16e9dfc8241f019d80a90a59e9ad25e287652.png" class="latexcenter" alt="\[|b^2|\leq 3\Rightarrow0\leq |b|\leq \sqrt{3}\]" width="185" height="21" />. Thus <img src="//latex.artofproblemsolving.com/f/4/6/f46d3901334d5a78259f3ca56141aeca92a03267.png" class="latex" alt="$1\leq |b|\leq \sqrt{3}$" style="vertical-align: -4px" width="100" height="21" />. Hence the maximum value for <img src="//latex.artofproblemsolving.com/9/2/2/9224c384e6324a07e6f1fb851528d00fc475a260.png" class="latex" alt="$|b|$" style="vertical-align: -4px" width="16" height="18" /> is <img src="//latex.artofproblemsolving.com/6/c/7/6c77cf4b63af80bfbc6a9ad9b4b9e8e549e77d78.png" class="latex" alt="$\sqrt{3}$" style="vertical-align: -1px" width="24" height="18" /> while the minimum is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> (which can be achieved for instance when <img src="//latex.artofproblemsolving.com/0/8/c/08c091116481f6b4aaf07d082eee957930b7b02f.png" class="latex" alt="$|a|=1,|b|=\sqrt{3}$" style="vertical-align: -4px" width="128" height="21" /> or <img src="//latex.artofproblemsolving.com/8/e/2/8e246abd1980728134bba386fdc55cb6bde173cd.png" class="latex" alt="$|a|=1,|b|=1$" style="vertical-align: -4px" width="111" height="18" /> respectively). Therefore the answer is <img src="//latex.artofproblemsolving.com/a/2/b/a2be4be0e910ddc8074c327a1c15312dbcda7603.png" class="latex" alt="$\boxed{\textbf{(C)}\ \sqrt{3}-1}$" style="vertical-align: -10px" width="101" height="33" />.
+</p>
+<h2><span class="mw-headline" id="Shortcut">Shortcut</span></h2>
+<p>We only need <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" /> in <img src="//latex.artofproblemsolving.com/a/2/6/a2695bbd89bfe01ec1032c7925006592c6f106b7.png" class="latex" alt="$f^4(z)=g^2(z)=\frac{Pz+\textcolor{red}{Q}}{Rz+S}$" style="vertical-align: -14px" width="193" height="39" />.
+</p><p>Set <img src="//latex.artofproblemsolving.com/9/3/4/93499acb9fa26a093e866ee073977ada1554777b.png" class="latex" alt="$Q=0$" style="vertical-align: -3px" width="47" height="16" />: <img src="//latex.artofproblemsolving.com/0/a/4/0a49585bf07cd4c78216c33c30513a42e0771efb.png" class="latex" alt="$a(b+1)\left(b^2+2a+1\right)=0$" style="vertical-align: -6px" width="202" height="22" />. Since <img src="//latex.artofproblemsolving.com/6/d/b/6dbd3ea20e7f8d13e841e933191f8977adb2e922.png" class="latex" alt="$|a|=1$" style="vertical-align: -4px" width="52" height="18" />, either <img src="//latex.artofproblemsolving.com/2/c/7/2c7dd8bfe50009ac3ab7d044c365a7053d5d92a0.png" class="latex" alt="$b+1=0$" style="vertical-align: -1px" width="72" height="14" /> or <img src="//latex.artofproblemsolving.com/c/d/c/cdc69927cd89f1c7ce001b8400ce5044d1acf51c.png" class="latex" alt="$b^2+2a+1=0$" style="vertical-align: -1px" width="120" height="16" />.
+</p><p><img src="//latex.artofproblemsolving.com/6/c/d/6cd6a0da74c1d45e49a64b2c480a75d0af49a0e9.png" class="latex" alt="$b+1=0\rightarrow b=-1$" style="vertical-align: -1px" width="155" height="14" /> so <img src="//latex.artofproblemsolving.com/2/5/7/2572712f0b38b0023fc05a8645a4533f6af9ceed.png" class="latex" alt="$|b|=1$" style="vertical-align: -4px" width="50" height="18" />.
+</p><p><img src="//latex.artofproblemsolving.com/e/2/e/e2e4c7ac64772f9ea68a666e89eab071d77bd5e8.png" class="latex" alt="$b^2+2a+1=0\rightarrow b^2=-1-2a$" style="vertical-align: -1px" width="252" height="16" />. This is a circle in the complex plane centered at <img src="//latex.artofproblemsolving.com/c/9/b/c9b83617178c137c55232eea1ca6791131d94eca.png" class="latex" alt="$(-1,0)$" style="vertical-align: -4px" width="53" height="18" /> with radius <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> since <img src="//latex.artofproblemsolving.com/6/d/b/6dbd3ea20e7f8d13e841e933191f8977adb2e922.png" class="latex" alt="$|a|=1$" style="vertical-align: -4px" width="52" height="18" />. The maximum distance from the origin is <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> at <img src="//latex.artofproblemsolving.com/e/4/d/e4de5746f4268398948dbb8ae29c897c05f062b8.png" class="latex" alt="$(-3,0)$" style="vertical-align: -4px" width="53" height="18" /> and similarly the minimum distance is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> at <img src="//latex.artofproblemsolving.com/2/5/a/25a306093bbd9e0699c65dba033c9483cd379dc4.png" class="latex" alt="$(1,0)$" style="vertical-align: -4px" width="38" height="18" />. So <img src="//latex.artofproblemsolving.com/3/d/c/3dc54bb08a18368e1b67d364a9868f95517eb882.png" class="latex" alt="$1\le |b^2|\le 3\rightarrow 1\le |b|\le \sqrt{3}$" style="vertical-align: -4px" width="220" height="21" />.
+</p><p>Both solutions give the same lower bound, <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. So the range is <img src="//latex.artofproblemsolving.com/9/4/d/94d9fb79ddabf4b4349c16712e5ba93518cc8b4c.png" class="latex" alt="$\sqrt{3}-1=\boxed{\textbf{(C) }\sqrt{3}-1}$" style="vertical-align: -10px" width="182" height="33" />.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2011_AMC_12A" title="2011 AMC 12A">2011 AMC 12A</a></b> (<b><a href="/wiki/index.php/2011_AMC_12A_Problems" title="2011 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_12A_Answer_Key" title="2011 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_22" title="2011 AMC 12A Problems/Problem 22">Problem 22</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_24" title="2011 AMC 12A Problems/Problem 24">Problem 24</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_1" title="2011 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_2" title="2011 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_3" title="2011 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_4" title="2011 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_5" title="2011 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_6" title="2011 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_7" title="2011 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_8" title="2011 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_9" title="2011 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_10" title="2011 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_11" title="2011 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_12" title="2011 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_13" title="2011 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_14" title="2011 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_15" title="2011 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_16" title="2011 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_17" title="2011 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_18" title="2011 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_19" title="2011 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_20" title="2011 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_21" title="2011 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_22" title="2011 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a class="mw-selflink selflink">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_24" title="2011 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12A_Problems/Problem_25" title="2011 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208052432
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.108 seconds
+Real time usage: 0.117 seconds
+Preprocessor visited node count: 682/1000000
+Preprocessor generated node count: 1856/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11516/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.942      1 -total
+ 76.22%    6.053      1 Template:AMC12_box
+ 20.10%    1.596      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9040-0!canonical and timestamp 20230208052432 and revision id 76002
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_23&amp;oldid=76002">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12A_Problems/Problem_23&amp;oldid=76002</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Algebra_Problems" title="Category:Intermediate Algebra Problems">Intermediate Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209032729 -->
+</html>

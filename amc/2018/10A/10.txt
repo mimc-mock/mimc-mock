@@ -1,0 +1,287 @@
+<p>Suppose that real number <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> satisfies <img src="//latex.artofproblemsolving.com/6/0/2/60260471de484d4c7c3af264a757d4ff5de2ad3d.png" class="latexcenter" alt="\[\sqrt{49-x^2}-\sqrt{25-x^2}=3\]" width="200" height="18" />What is the value of <img src="//latex.artofproblemsolving.com/5/a/b/5ab28cdf200347891a719c96614ec4cc5a7c3f1a.png" class="latex" alt="$\sqrt{49-x^2}+\sqrt{25-x^2}$" style="vertical-align: -2px" width="169" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/2/3/8/238a79e0d099c672d9c284d8344a3a6bbb53e60b.png" class="latex" alt="$\textbf{(A) }8\qquad \textbf{(B) }\sqrt{33}+8\qquad \textbf{(C) }9\qquad \textbf{(D) }2\sqrt{10}+4\qquad \textbf{(E) }12\qquad$" style="vertical-align: -4px" width="482" height="21" />
+</p>
+<h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>In order to eliminate the square roots, we multiply by the conjugate. Its value is the solution. The <img src="//latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" /> terms cancel nicely. <img src="//latex.artofproblemsolving.com/5/a/3/5a36a5f24ecad3728a199d873fe0210f807ac2c4.png" class="latex" alt="$(\sqrt {49-x^2} + \sqrt {25-x^2})(\sqrt {49-x^2} - \sqrt {25-x^2}) = 49-x^2 - 25 +x^2 = 24$" style="vertical-align: -4px" width="571" height="21" />
+</p><p>Given that <img src="//latex.artofproblemsolving.com/2/e/a/2ea7bbbe4a6bea7b4aa3716b406fee9dff324bba.png" class="latex" alt="$(\sqrt {49-x^2} - \sqrt {25-x^2}) = 3, (\sqrt {49-x^2} + \sqrt {25-x^2}) = \frac {24} {3} = \boxed{\textbf{(A) } 8}$" style="vertical-align: -12px" width="535" height="37" />. - cookiemonster2004
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Let <img src="//latex.artofproblemsolving.com/3/4/4/34402c21bc16133550df0c9a86cf817ef8e156fd.png" class="latex" alt="$u=\sqrt{49-x^2}$" style="vertical-align: -2px" width="108" height="18" />, and let <img src="//latex.artofproblemsolving.com/5/c/6/5c667602be8a90e9f9b0213e54ec49f3705245bb.png" class="latex" alt="$v=\sqrt{25-x^2}$" style="vertical-align: -2px" width="107" height="18" />. Then <img src="//latex.artofproblemsolving.com/7/2/1/721769a65d7e632257df6e64b9de8286cba97dab.png" class="latex" alt="$v=\sqrt{u^2-24}$" style="vertical-align: -2px" width="107" height="18" />. Substituting, we get <img src="//latex.artofproblemsolving.com/1/b/c/1bcf79d8cfcefe7780d2dd8dc3af31fb6e73732d.png" class="latex" alt="$u-\sqrt{u^2-24}=3$" style="vertical-align: -2px" width="139" height="18" />. Rearranging, we get <img src="//latex.artofproblemsolving.com/7/5/c/75c31b78db27b227fc0638615477ea41411c5a30.png" class="latex" alt="$u-3=\sqrt{u^2-24}$" style="vertical-align: -2px" width="139" height="18" />. Squaring both sides and solving, we get <img src="//latex.artofproblemsolving.com/0/f/2/0f2e2576659411e0d5454a53d976739f30df7cfb.png" class="latex" alt="$u=\frac{11}{2}$" style="vertical-align: -12px" width="55" height="37" /> and <img src="//latex.artofproblemsolving.com/c/9/4/c94f212232d547a4db8c4665844a104a3610b4cb.png" class="latex" alt="$v=\frac{11}{2}-3=\frac{5}{2}$" style="vertical-align: -12px" width="123" height="37" />. Adding, we get that the answer is <img src="//latex.artofproblemsolving.com/f/6/c/f6cc090e3d1b769c310885b1ec5ee58d52ce99d3.png" class="latex" alt="$\boxed{\textbf{(A) } 8}$" style="vertical-align: -10px" width="56" height="28" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Put the equations to one side. <img src="//latex.artofproblemsolving.com/9/c/4/9c429bbe0be6def69aabbb5947e33e640f769b82.png" class="latex" alt="$\sqrt{49-x^2}-\sqrt{25-x^2}=3$" style="vertical-align: -2px" width="202" height="18" /> can be changed into <img src="//latex.artofproblemsolving.com/6/7/3/673d26a0081323974c73e3c93d98597ca0225e98.png" class="latex" alt="$\sqrt{49-x^2}=\sqrt{25-x^2}+3$" style="vertical-align: -2px" width="202" height="18" />.
+</p><p>We can square both sides, getting us <img src="//latex.artofproblemsolving.com/3/9/f/39fef0ea1bc4a46d7e66346384934f273be794a6.png" class="latex" alt="$49-x^2=(25-x^2)+(3^2)+ 2\cdot 3 \cdot \sqrt{25-x^2}.$" style="vertical-align: -4px" width="351" height="21" />
+</p><p>That simplifies out to <img src="//latex.artofproblemsolving.com/f/5/8/f58b5e75ff1055b7678104fcab60b38953819769.png" class="latex" alt="$15=6 \sqrt{25-x^2}.$" style="vertical-align: -2px" width="128" height="18" /> Dividing both sides by <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />  gets us <img src="//latex.artofproblemsolving.com/3/9/2/392f33dd5a6cbd6012badef237d0419990499e0e.png" class="latex" alt="$\frac{5}{2}=\sqrt{25-x^2}$" style="vertical-align: -12px" width="111" height="37" />.
+</p><p>Following that, we can square both sides again, resulting in the equation <img src="//latex.artofproblemsolving.com/3/b/4/3b4ef38284a17d457d260a1e2f6a4247cbb9a70c.png" class="latex" alt="$\frac{25}{4}=25-x^2$" style="vertical-align: -13px" width="103" height="38" />. Simplifying that, we get <img src="//latex.artofproblemsolving.com/3/6/f/36ff3e15eabd07eabd0d0bdf4238e372363e5560.png" class="latex" alt="$x^2 = \frac{75}{4}$" style="vertical-align: -13px" width="62" height="38" />.
+</p><p>Substituting into the equation <img src="//latex.artofproblemsolving.com/5/a/b/5ab28cdf200347891a719c96614ec4cc5a7c3f1a.png" class="latex" alt="$\sqrt{49-x^2}+\sqrt{25-x^2}$" style="vertical-align: -2px" width="169" height="18" />, we get <img src="//latex.artofproblemsolving.com/a/d/3/ad36d5e03626ecb5bf6a6f5fdce4aa05049d7438.png" class="latex" alt="$\sqrt{49-\frac{75}{4}}+\sqrt{25-\frac{75}{4}}$" style="vertical-align: -14px" width="183" height="43" />. Immediately, we simplify into <img src="//latex.artofproblemsolving.com/0/b/f/0bf761ec5742295c58a1a92e90006d8760273811.png" class="latex" alt="$\sqrt{\frac{121}{4}}+\sqrt{\frac{25}{4}}$" style="vertical-align: -14px" width="111" height="43" />. The two numbers inside the square roots are simplified to be <img src="//latex.artofproblemsolving.com/5/3/a/53a36e5a7787e442ab3272b7417996dd0c372b24.png" class="latex" alt="$\frac{11}{2}$" style="vertical-align: -12px" width="20" height="37" /> and <img src="//latex.artofproblemsolving.com/3/a/d/3adf28c1ab96fc4eddaa890ec574e4cea2caea36.png" class="latex" alt="$\frac{5}{2}$" style="vertical-align: -12px" width="11" height="37" />, so you add them up: <img src="//latex.artofproblemsolving.com/9/b/3/9b3fbfc66a7027faccc55936991b6208877f44c0.png" class="latex" alt="$\frac{11}{2}+\frac{5}{2}=\boxed{\textbf{(A)}\ 8}$" style="vertical-align: -13px" width="139" height="38" />.
+</p><p>~kevinmathz
+</p>
+<h3><span id="Solution_4_(Geometric_Interpretation)"></span><span class="mw-headline" id="Solution_4_.28Geometric_Interpretation.29">Solution 4 (Geometric Interpretation)</span></h3>
+<p>Draw a right triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> with a hypotenuse <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> of length <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> and leg <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> of length <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. Draw <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> on <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> such that <img src="//latex.artofproblemsolving.com/7/8/d/78d54c2de2b9c068bc2465bdf90eff7a3312f9e5.png" class="latex" alt="$AD=5$" width="62" height="13" />. Note that <img src="//latex.artofproblemsolving.com/2/3/f/23f02f788311d09c8be9ef2f44eb2bd01bc8f758.png" class="latex" alt="$BC=\sqrt{49-x^2}$" style="vertical-align: -2px" width="127" height="18" /> and <img src="//latex.artofproblemsolving.com/4/9/2/492a2111b0e792c3c8ca712e69befa5981483881.png" class="latex" alt="$BD=\sqrt{25-x^2}$" style="vertical-align: -2px" width="128" height="18" />. Thus, from the given equation, <img src="//latex.artofproblemsolving.com/6/7/9/67970aa2b17172f96720d52933d5c8e46d4d3fe2.png" class="latex" alt="$BC-BD=DC=3$" width="168" height="12" />. Using Law of Cosines on triangle <img src="//latex.artofproblemsolving.com/8/4/0/840cb55c82434b9ae047760636a017e9441e6ca5.png" class="latex" alt="$ADC$" width="43" height="13" />, we see that <img src="//latex.artofproblemsolving.com/7/6/e/76ee11646791939a266695482e57363f49f31025.png" class="latex" alt="$\angle{ADC}=120^{\circ}$" style="vertical-align: 0px" width="113" height="13" /> so <img src="//latex.artofproblemsolving.com/4/1/6/4162b578b17b89332740140374f17534933f881f.png" class="latex" alt="$\angle{ADB}=60^{\circ}$" width="105" height="13" />. Since <img src="//latex.artofproblemsolving.com/8/8/1/8810a26f59e2c67b5f2ff052a7e2a294fef0a03e.png" class="latex" alt="$ADB$" width="43" height="13" /> is a <img src="//latex.artofproblemsolving.com/4/7/c/47c78b85058ee5e17f88e2cde302e48aad826b35.png" class="latex" alt="$30-60-90$" width="98" height="12" /> triangle, <img src="//latex.artofproblemsolving.com/a/6/c/a6cf367e8fe707ba9fce50cfb78991da6f9d4d03.png" class="latex" alt="$\sqrt{25-x^2}=BD=\frac{5}{2}$" style="vertical-align: -12px" width="163" height="37" /> and <img src="//latex.artofproblemsolving.com/c/7/0/c703dfbae3f1bb263f17e9efedb596fae8465dc6.png" class="latex" alt="$\sqrt{49-x^2}=\frac{5}{2}+3=\frac{11}{2}$" style="vertical-align: -12px" width="187" height="37" />. Finally, <img src="//latex.artofproblemsolving.com/9/e/c/9ec7340bbbc66baf9599be6597c6928c764b8499.png" class="latex" alt="$\sqrt{49-x^2}+\sqrt{25-x^2}=\frac{5}{2}+\frac{11}{2}=\boxed{\textbf{(A)~8}}$" style="vertical-align: -12px" width="332" height="37" />.
+<img src="//latex.artofproblemsolving.com/d/c/9/dc946b3a968ec8ce149bcc5678a7513bfd6798f1.png" class="latexcenter" alt="[asy] var s = sqrt(3); pair A = (-5*s/2, 0); pair B = (0,0); pair C = (0,5.5); pair D = (0,2.5);  draw(A--B--C--A--D); rightanglemark(A, B, D); label(&quot;A&quot;, A, SW); label(&quot;B&quot;, B, SE); label(&quot;C&quot;, C, NE); label(&quot;D&quot;, D, E); label(&quot;7&quot;, (-5*s/4, 5.5/2), NW); label(&quot;120$^\circ$&quot;, D, NW); label(&quot;60$^\circ$&quot;, (0,2), SW); label(&quot;$x$&quot;, 0.5*A, S); draw(rightanglemark(A, B, C));  draw(anglemark(A, D, B)); markscalefactor = 0.04; draw(anglemark(C, D, A));  label(&quot;$\frac{5}{2}$&quot;, (0,1.25), E); label(&quot;3&quot;, (0,4), E); label(&quot;5&quot;, (-5*s/4, 5/4), N); [/asy]" width="212" height="252" />
+</p>
+<h3><span id="Solution_6_(Symmetric_Substitution)"></span><span class="mw-headline" id="Solution_6_.28Symmetric_Substitution.29">Solution 6 (Symmetric Substitution)</span></h3>
+<p>Since <img src="//latex.artofproblemsolving.com/4/d/1/4d1674f41bf9b11948bd9f6a11b090c36bd0a61c.png" class="latex" alt="$\frac{25+49}{2}=37$" style="vertical-align: -12px" width="105" height="37" />, let <img src="//latex.artofproblemsolving.com/e/1/8/e1832b9aa1afa28c22d2eafe58c99852461b2e84.png" class="latex" alt="$37-x^2 = y$" style="vertical-align: -3px" width="91" height="18" />. Then we have <img src="//latex.artofproblemsolving.com/2/1/0/2103ce170d51eacdd90ebea2882e643163dec07d.png" class="latex" alt="$\sqrt{y+12}-\sqrt{y-12}=3$" style="vertical-align: -5px" width="190" height="22" />. Squaring both sides gives us <img src="//latex.artofproblemsolving.com/3/e/c/3ec08e1b73df6841d11f2769ed65f1a1ad902ad1.png" class="latex" alt="$2y-2\sqrt{y^2-144}=9$" style="vertical-align: -5px" width="167" height="22" />. Isolating the term with the square root, and squaring again, we get <img src="//latex.artofproblemsolving.com/3/a/5/3a569b06f4c9f4f5413e728ab5e72d2c1d782292.png" class="latex" alt="$4y^2-36y+81=4y^2-576 \implies y=\frac{73}{4}$" style="vertical-align: -13px" width="320" height="38" />. Then <img src="//latex.artofproblemsolving.com/e/a/e/eae2e0f41fa0b25ef2ae8afc33386852059c61fd.png" class="latex" alt="$\sqrt{y+12}+\sqrt{y-12} = \sqrt{\frac{121}{4}}+\sqrt{\frac{25}{4}} = \frac{16}{2}=\boxed{\textbf{(A)}\ 8}$" style="vertical-align: -15px" width="421" height="45" />.
+</p>
+<h3><span id="Solution_7_(Difference_of_Squares)"></span><span class="mw-headline" id="Solution_7_.28Difference_of_Squares.29">Solution 7 (Difference of Squares)</span></h3>
+<p>Let <img src="//latex.artofproblemsolving.com/8/4/2/842822e61cb845e5093859ca9d7664bc4b6754d2.png" class="latex" alt="$\sqrt{49-x^2}=a$" style="vertical-align: -2px" width="107" height="18" /> and <img src="//latex.artofproblemsolving.com/5/0/d/50db37260ba62a148e46c69285da531502168624.png" class="latex" alt="$\sqrt{25-x^2}=b$" style="vertical-align: -2px" width="105" height="18" />. Then by difference of squares:
+</p><p><img src="//latex.artofproblemsolving.com/d/7/a/d7a54d6857592c5ce4ac8c2a7435d79f4840c3f4.png" class="latex" alt="$(a+b)(a-b)=a^2-b^2$" style="vertical-align: -4px" width="185" height="19" />. 
+</p><p>We can simplify this expression to get our answer. <img src="//latex.artofproblemsolving.com/c/9/e/c9ebc66986f3b02a51eb74d469fc3eac3f483196.png" class="latex" alt="$a^2-b^2=(49-x^2)-(25-x^2)=24$" style="vertical-align: -4px" width="288" height="19" /> and from the given statement, <img src="//latex.artofproblemsolving.com/9/a/6/9a67bd807313d0da2cc8762ec8e77d51216b5ef9.png" class="latex" alt="$a-b=3$" width="72" height="12" />. Now we have:
+</p><p><img src="//latex.artofproblemsolving.com/5/d/4/5d41ff268335b5c8eb9e511c4e320066386773ff.png" class="latex" alt="$(a+b)(3)=24$" style="vertical-align: -4px" width="119" height="18" />.
+</p><p>Hence, <img src="//latex.artofproblemsolving.com/c/7/2/c72e25c1b58dd1040f188b21bfff8ef78b1703c1.png" class="latex" alt="$a+b=\sqrt{49-x^2}-\sqrt{25-x^2}=8$" style="vertical-align: -2px" width="265" height="18" /> so our answer is <img src="//latex.artofproblemsolving.com/f/6/c/f6cc090e3d1b769c310885b1ec5ee58d52ce99d3.png" class="latex" alt="$\boxed{\textbf{(A) } 8}$" style="vertical-align: -10px" width="56" height="28" />.
+</p><p>~BakedPotato66
+</p>
+<h3><span id="Solution_8_(Analytic_Geometry)"></span><span class="mw-headline" id="Solution_8_.28Analytic_Geometry.29">Solution 8 (Analytic Geometry)</span></h3>
+<p><a href="/wiki/index.php/File:2018_AMC10_A_P10.PNG" class="image"><img alt="2018 AMC10 A P10.PNG" src="https://wiki-images.artofproblemsolving.com//thumb/7/76/2018_AMC10_A_P10.PNG/500px-2018_AMC10_A_P10.PNG" width="500" height="500" srcset="https://wiki-images.artofproblemsolving.com//thumb/7/76/2018_AMC10_A_P10.PNG/750px-2018_AMC10_A_P10.PNG 1.5x, https://wiki-images.artofproblemsolving.com//thumb/7/76/2018_AMC10_A_P10.PNG/1000px-2018_AMC10_A_P10.PNG 2x" /></a>
+</p><p>The problem can be represented by the above diagram. The large circle with center <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> has a radius of 7, the small circle with center <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> has a radius of 5. Point <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />'s X coordinate is <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. <img src="//latex.artofproblemsolving.com/8/d/7/8d7132313dacffe17f3f1ef18cbde1a969b1e890.png" class="latex" alt="$AC=CD=\sqrt{49-x^2}$" style="vertical-align: -3px" width="181" height="21" />, <img src="//latex.artofproblemsolving.com/a/a/9/aa9ae27c44759bd33e656e9b065542b19a13955f.png" class="latex" alt="$BC=\sqrt{25-x^2}$" style="vertical-align: -3px" width="128" height="21" />, <img src="//latex.artofproblemsolving.com/6/9/e/69e9bc8587d21cf9a89108eb24a705c15551c0bd.png" class="latex" alt="$AB=AC-BC=\sqrt{49-x^2} - \sqrt{25-x^2} = 3$" style="vertical-align: -3px" width="360" height="21" />, <img src="//latex.artofproblemsolving.com/6/9/0/690df08bf8fa52eea4f989b861db239a4a8de549.png" class="latex" alt="$BD=CD+BC=\sqrt{49-x^2} + \sqrt{25-x^2}$" style="vertical-align: -3px" width="331" height="21" />.
+</p><p>By Power of a Point, <img src="//latex.artofproblemsolving.com/d/4/0/d404774252d6e6e527e1969f15d9360ca03a03ea.png" class="latex" alt="$AB \cdot BD=BE \cdot BF=(7-5) \cdot (7+5)=24$" style="vertical-align: -5px" width="358" height="20" />, <img src="//latex.artofproblemsolving.com/2/0/5/205a9d85afcd270462d3a2751b3001261b5061ee.png" class="latex" alt="$BD=\boxed{\textbf{(A) } 8}$" style="vertical-align: -11px" width="112" height="30" />
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h3><span id="Solution_9_(Pythagorean_Theorem)"></span><span class="mw-headline" id="Solution_9_.28Pythagorean_Theorem.29">Solution 9 (Pythagorean Theorem)</span></h3>
+<p>Notice that <img src="//latex.artofproblemsolving.com/e/f/e/efe8546da80884ddcdddf2f3c9858aceed44f24b.png" class="latex" alt="$\sqrt{49-x^2} = \sqrt{7^2-x^2}$" style="vertical-align: -3px" width="171" height="21" /> and <img src="//latex.artofproblemsolving.com/7/7/b/77b5809a4746be074e8f28437c98fd19bd7fbf15.png" class="latex" alt="$\sqrt{25-x^2} = \sqrt{5^2-x^2}$" style="vertical-align: -3px" width="171" height="21" /> This is also the equation of finding a leg of a right triangle given the hypotenuse and the other leg using the <a href="/wiki/index.php/Pythagorean_Theorem" title="Pythagorean Theorem">Pythagorean Theorem</a>. 
+</p><p>Now, <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> are the hypotenuses of the two triangles, and <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is the one leg from each of the triangles. So, <img src="//latex.artofproblemsolving.com/d/2/9/d2938a180aecbec23d3a6846acb23812fb921768.png" class="latex" alt="$\sqrt{7^2-x^2}$" style="vertical-align: -3px" width="74" height="21" /> is the other leg of the 1st one, and <img src="//latex.artofproblemsolving.com/6/b/a/6ba788de4a54d3d2e5c66a24a330457558ca3aba.png" class="latex" alt="$\sqrt{5^2-x^2}$" style="vertical-align: -3px" width="74" height="21" /> is the other leg of the 2nd one. 
+</p><p>For convenience, we name the other leg of the 1st triangle <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> (the one that's not <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> or <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />), and the other leg of the 2nd one <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> (the one that's not <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> or <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />). Using the Pythagorean Theorem, we set up 2 equations.
+<img src="//latex.artofproblemsolving.com/2/2/7/2271394f816754eaa4b53da0b29545810af139cc.png" class="latexcenter" alt="\begin{align*} a^2 + x^2 &amp;= 7^2 \\ b^2 + x^2 &amp;= 5^2 \end{align*}" width="96" height="44" />
+</p><p>Subtracting the two equations and canceling out <img src="//latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" />, we have <img src="//latex.artofproblemsolving.com/1/8/5/1854d1847f18ee89b0dde04061291cd37188d0a8.png" class="latex" alt="$a^2 - b^2 = 49-25$" style="vertical-align: -2px" width="139" height="18" />, which simplifies to <img src="//latex.artofproblemsolving.com/3/4/0/340defde1f9b12f74ccd51fe4defc30d59c35e61.png" class="latex" alt="$(a-b)(a+b)=24$" style="vertical-align: -4px" width="150" height="18" />.
+</p><p>We already know that <img src="//latex.artofproblemsolving.com/5/a/6/5a697bfdeadf2105048670e6f6c7d4dc6878dc4f.png" class="latex" alt="$a-b$" width="40" height="12" /> (or <img src="//latex.artofproblemsolving.com/a/c/c/acc2e9d02ea73a5d12550fb841f491ea288e872e.png" class="latex" alt="$\sqrt{49-x^2}-\sqrt{25-x^2}$" style="vertical-align: -3px" width="171" height="21" />) is equal to <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, so plugging it in, we have <img src="//latex.artofproblemsolving.com/8/4/e/84e7721789dc82fdbda86e5a3caf73c0c605c5f2.png" class="latex" alt="$3(a+b)=24$" style="vertical-align: -5px" width="107" height="20" />, and dividing by <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> gives <img src="//latex.artofproblemsolving.com/9/3/1/931954a49aac413d44b487bf7449843bed2520c3.png" class="latex" alt="$a+b = \boxed{\textbf{(A)}\ 8}$" style="vertical-align: -11px" width="121" height="30" />
+</p><p>~MrThinker
+</p>
+<h2><span class="mw-headline" id="Video_Solutions">Video Solutions</span></h2>
+<h3><span class="mw-headline" id="Video_Solution_1">Video Solution 1</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ba6w1OhXqOQ?t=1403">https://youtu.be/ba6w1OhXqOQ?t=1403</a>
+</p><p>~ pi_is_3.14
+</p>
+<h3><span class="mw-headline" id="Video_Solution_2">Video Solution 2</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/zQG70XKAdeA">https://youtu.be/zQG70XKAdeA</a> ~ North America Math Contest Go Go Go
+</p>
+<h3><span class="mw-headline" id="Video_Solution_3">Video Solution 3</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/ZiZVIMmo260">https://youtu.be/ZiZVIMmo260</a>
+</p>
+<h3><span class="mw-headline" id="Video_Solution_4">Video Solution 4</span></h3>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/5cA87rbzFdw">https://youtu.be/5cA87rbzFdw</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2018_AMC_10A" title="2018 AMC 10A">2018 AMC 10A</a></b> (<b><a href="/wiki/index.php/2018_AMC_10A_Problems" title="2018 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2018_AMC_10A_Answer_Key" title="2018 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_9" title="2018 AMC 10A Problems/Problem 9">Problem 9</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_11" title="2018 AMC 10A Problems/Problem 11">Problem 11</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_1" title="2018 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_2" title="2018 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_3" title="2018 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_4" title="2018 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_5" title="2018 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_6" title="2018 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_7" title="2018 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_8" title="2018 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_9" title="2018 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a class="mw-selflink selflink">10</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_11" title="2018 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_12" title="2018 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_13" title="2018 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_14" title="2018 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_15" title="2018 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_16" title="2018 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_17" title="2018 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_18" title="2018 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_19" title="2018 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_20" title="2018 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_21" title="2018 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_22" title="2018 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_23" title="2018 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_24" title="2018 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2018_AMC_10A_Problems/Problem_25" title="2018 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208021057
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.152 seconds
+Real time usage: 0.414 seconds
+Preprocessor visited node count: 1006/1000000
+Preprocessor generated node count: 2512/1000000
+Post‐expand include size: 1961/2097152 bytes
+Template argument size: 156/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 18010/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   22.095      1 Template:AMC10_box
+100.00%   22.095      1 -total
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15930-0!canonical and timestamp 20230208021056 and revision id 178702
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_10&amp;oldid=178702">https://artofproblemsolving.com/wiki/index.php?title=2018_AMC_10A_Problems/Problem_10&amp;oldid=178702</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208193009 -->
+</html>

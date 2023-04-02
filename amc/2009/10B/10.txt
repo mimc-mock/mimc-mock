@@ -1,0 +1,249 @@
+<p>A flagpole is originally <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> meters tall. A hurricane snaps the flagpole at a point <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> meters above the ground so that the upper part, still attached to the stump, touches the ground <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> meter away from the base. What is <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/d/1/8/d18b099f29e2006dba0ade0d6abcc8f0cf0b970d.png" class="latex" alt="$\text{(A) } 2.0 \qquad \text{(B) } 2.1 \qquad \text{(C) } 2.2 \qquad \text{(D) } 2.4 \qquad \text{(E) } 2.5$" style="vertical-align: -4px" width="400" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The broken flagpole forms a right triangle with legs <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, and hypotenuse <img src="//latex.artofproblemsolving.com/c/4/4/c445a843f7b9a5ae5e089d62c7a3d22d55a9bee6.png" class="latex" alt="$5-x$" width="41" height="12" />. The <a href="/wiki/index.php/Pythagorean_theorem" class="mw-redirect" title="Pythagorean theorem">Pythagorean theorem</a> now states that <img src="//latex.artofproblemsolving.com/2/2/8/2280ebae350361fbb97f83df70548e00050e0acf.png" class="latex" alt="$1^2 + x^2 = (5-x)^2$" style="vertical-align: -4px" width="142" height="19" />, hence <img src="//latex.artofproblemsolving.com/d/3/c/d3cea1909af8942ec6b1396f41b6e7e12ed0235a.png" class="latex" alt="$10x = 24$" style="vertical-align: 0px" width="71" height="13" />, and <img src="//latex.artofproblemsolving.com/7/d/8/7d8b68ab5b524966d48cb53c25e57a0b8509601f.png" class="latex" alt="$x=\boxed{2.4}$" style="vertical-align: -5px" width="69" height="23" />.
+</p><p>(Note that the resulting triangle is the well-known <img src="//latex.artofproblemsolving.com/c/1/6/c1645fea006e40422df8465ad25c74bc33e615eb.png" class="latex" alt="$5-12-13$" style="vertical-align: 0px" width="89" height="13" /> right triangle, scaled by <img src="//latex.artofproblemsolving.com/4/3/8/4386436ff16509fe977cc2c9f87c3f170990b8f3.png" class="latex" alt="$1/5$" style="vertical-align: -4px" width="26" height="18" />.)
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>A right triangle is formed with the bottom of the flagpole, the snapped part, and the ground. One leg is of length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> and the other is length <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. By the <a href="/wiki/index.php/Pythagorean_theorem" class="mw-redirect" title="Pythagorean theorem">Pythagorean theorem</a>, we know that <img src="//latex.artofproblemsolving.com/0/3/7/037a3d897de2590489fa217621f1f15ab7d00481.png" class="latex" alt="$\sqrt{x^2+1^2}$" style="vertical-align: -2px" width="72" height="18" /> must be the length of the snapped part of the flagpole. Observe that all the answer choices are rational. If <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is rational, <img src="//latex.artofproblemsolving.com/c/4/4/c445a843f7b9a5ae5e089d62c7a3d22d55a9bee6.png" class="latex" alt="$5-x$" width="41" height="12" />, which is the snapped part, must also be rational. Therefore, <img src="//latex.artofproblemsolving.com/0/6/9/069461de83aa25490006a00cfe07f04031894303.png" class="latex" alt="$1, x, 5-x$" style="vertical-align: -3px" width="77" height="16" /> must form a scaled Pythagorean triple. We know that <img src="//latex.artofproblemsolving.com/e/4/b/e4bb9ba576d1b34375aaee161649ad43c31ad736.png" class="latex" alt="$10, 24, 26$" style="vertical-align: -3px" width="70" height="16" /> is a Pythagorean triple, so the corresponding answer must be <img src="//latex.artofproblemsolving.com/3/0/0/30044f11ce1fed406f305e002d236d39ce95ffe3.png" class="latex" alt="$1, 2.4, 2.6$" style="vertical-align: -3px" width="71" height="16" />. Adding together the <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and the snapped part, this does indeed equal <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" />, so our solution is done.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> represent the flagpole in the diagram above. After the flagpole breaks at point <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" />, its tip lies at point <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. Since none of the flagpole is destroyed, we know that <img src="//latex.artofproblemsolving.com/e/b/9/eb9f4cb8cd01ce230066f3ce5412abf38dc79b4f.png" class="latex" alt="$DA=DC$" width="83" height="13" />. Therefore, triangle <img src="//latex.artofproblemsolving.com/b/8/e/b8eabc87afe4c11a47e4aa27628d5517af4866b9.png" class="latex" alt="$\triangle ADC$" width="59" height="13" /> is isosceles.
+</p><p>Draw the altitude <img src="//latex.artofproblemsolving.com/8/d/9/8d93370bf0c5138121cb37672163df670898ccd1.png" class="latex" alt="$DE \perp AC$" width="82" height="13" />. Since <img src="//latex.artofproblemsolving.com/b/8/e/b8eabc87afe4c11a47e4aa27628d5517af4866b9.png" class="latex" alt="$\triangle ADC$" width="59" height="13" /> is isosceles, we know that <img src="//latex.artofproblemsolving.com/6/7/5/6756daa2d442d14b9249c7a3da5b395cfa91e10e.png" class="latex" alt="$AE = EC$" width="81" height="13" />. Also note that <img src="//latex.artofproblemsolving.com/1/f/c/1fc048d1d191847da8b9c72bca6934ebae688907.png" class="latex" alt="$\triangle AED \sim \triangle ABC$" width="142" height="13" />. Therefore,
+<img src="//latex.artofproblemsolving.com/9/7/d/97de9345df687bcdd5ca0c87f5b1379129c57426.png" class="latexcenter" alt="\begin{align*} AD &amp;= AE \times \frac{AD}{AE} \\ &amp;= \frac{AC}{2} \times \frac{AC}{AB} \\ &amp;= \frac{AC^2}{2 AB} \\ &amp;= \frac{AB^2 + BC^2}{2 AB} \end{align*}" width="149" height="172" />
+</p><p>Since <img src="//latex.artofproblemsolving.com/d/8/8/d88d3b225d4dcf1a78380f5c98940f6107e3deca.png" class="latex" alt="$AB = 5$" width="61" height="13" /> and <img src="//latex.artofproblemsolving.com/7/4/6/74666022a42f4446ed551033a088108882c5ec09.png" class="latex" alt="$BC = 1$" style="vertical-align: 0px" width="61" height="13" />, we have that <img src="//latex.artofproblemsolving.com/9/e/e/9eed01ed1e979df597c2dbf0e747c9cf1c5eaf63.png" class="latex" alt="$AD = \frac{5^2 + 1^2}{2 \cdot 5} = 2.6$" style="vertical-align: -12px" width="159" height="39" />, and thus <img src="//latex.artofproblemsolving.com/4/2/2/42251b0751f35ab06a574694095a1e9254aff345.png" class="latex" alt="$x = AB - AD = \boxed{2.4}$" style="vertical-align: -5px" width="173" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p>There is currently no video solution on Youtube. A wrong link was posted here.
+</p><p>(I sent a request to BeautyofMath so there may be one on his channel soon)
+</p><p><br />
+~ ssr-07
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2009_AMC_10B" title="2009 AMC 10B">2009 AMC 10B</a></b> (<b><a href="/wiki/index.php/2009_AMC_10B_Problems" title="2009 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2009_AMC_10B_Answer_Key" title="2009 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_9" title="2009 AMC 10B Problems/Problem 9">Problem 9</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_11" title="2009 AMC 10B Problems/Problem 11">Problem 11</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_1" title="2009 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_2" title="2009 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_3" title="2009 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_4" title="2009 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_5" title="2009 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_6" title="2009 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_7" title="2009 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_8" title="2009 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_9" title="2009 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a class="mw-selflink selflink">10</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_11" title="2009 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_12" title="2009 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_13" title="2009 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_14" title="2009 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_15" title="2009 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_16" title="2009 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2009 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_18" title="2009 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2009 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_20" title="2009 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_21" title="2009 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_22" title="2009 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_23" title="2009 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_24" title="2009 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2009_AMC_10B_Problems/Problem_25" title="2009 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208203228
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.081 seconds
+Real time usage: 0.083 seconds
+Preprocessor visited node count: 438/1000000
+Preprocessor generated node count: 1304/1000000
+Post‐expand include size: 2185/2097152 bytes
+Template argument size: 156/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6243/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.572      1 -total
+ 77.06%    5.835      1 Template:AMC10_box
+ 20.58%    1.558      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7944-0!canonical and timestamp 20230208203228 and revision id 158884
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_10B_Problems/Problem_10&amp;oldid=158884">https://artofproblemsolving.com/wiki/index.php?title=2009_AMC_10B_Problems/Problem_10&amp;oldid=158884</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208223946 -->
+</html>

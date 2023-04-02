@@ -1,0 +1,283 @@
+<p>A <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> of three real numbers forms an <a href="/wiki/index.php/Arithmetic_progression" class="mw-redirect" title="Arithmetic progression">arithmetic progression</a> with a first term of <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />. If <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> is added to the second term and <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" /> is added to the third term, the three resulting numbers form a <a href="/wiki/index.php/Geometric_progression" class="mw-redirect" title="Geometric progression">geometric progression</a>. What is the smallest possible value for the third term in the geometric progression?
+</p><p><img src="//latex.artofproblemsolving.com/c/b/8/cb86d0721d883d9bb19b0f9a1e74435361789efe.png" class="latex" alt="$\text {(A)}\ 1 \qquad \text {(B)}\ 4 \qquad \text {(C)}\ 36 \qquad \text {(D)}\ 49 \qquad \text {(E)}\ 81$" style="vertical-align: -4px" width="357" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> be the common difference. Then <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/8/a/2/8a2f750a1c4123ecde172bab3385f88cfe74c743.png" class="latex" alt="$9+d+2=11+d$" style="vertical-align: -1px" width="146" height="14" />, <img src="//latex.artofproblemsolving.com/6/7/8/67835723b1f7f983b6ce6a1ffd898ce49a05c2d0.png" class="latex" alt="$9+2d+20=29+2d$" style="vertical-align: -1px" width="173" height="14" /> are the terms of the geometric progression. Since the middle term is the <a href="/wiki/index.php/Geometric_mean" title="Geometric mean">geometric mean</a> of the other two terms, <img src="//latex.artofproblemsolving.com/9/d/0/9d0d1f8758c79498feb83bb61ffc89eca9d5bae9.png" class="latex" alt="$(11+d)^2 = 9(2d+29)$" style="vertical-align: -4px" width="176" height="19" /> <img src="//latex.artofproblemsolving.com/4/f/d/4fd62f4c6157b5be124dc929aa754b0a843b9302.png" class="latex" alt="$\Longrightarrow d^2 + 4d - 140$" style="vertical-align: -1px" width="141" height="16" /> <img src="//latex.artofproblemsolving.com/8/a/f/8afdc48c9df6eaaf29644fc446f1b65e17cc1f85.png" class="latex" alt="$= (d+14)(d-10) = 0$" style="vertical-align: -4px" width="180" height="18" />. The smallest possible value occurs when <img src="//latex.artofproblemsolving.com/e/8/0/e802a83d8454950c98d3668eb654770cd1a21511.png" class="latex" alt="$d = -14$" style="vertical-align: 0px" width="65" height="13" />, and the third term is <img src="//latex.artofproblemsolving.com/7/e/7/7e7e996d8a41568f4c6b892b8a2d630145847cc7.png" class="latex" alt="$2(-14) + 29 = 1\Rightarrow\boxed{\mathrm{(A)}\ 1}$" style="vertical-align: -10px" width="211" height="29" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> be the common difference and <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> be the common ratio. Then the arithmetic sequence is <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/c/7/6/c76e585885f3bf5af886f622d20e61d0290acfc6.png" class="latex" alt="$9+d$" style="vertical-align: -1px" width="41" height="14" />, and <img src="//latex.artofproblemsolving.com/9/b/c/9bcfb5fbd2fc1db88ed5433fad9f5c6607cb211d.png" class="latex" alt="$9+2d$" style="vertical-align: -1px" width="50" height="14" />. The geometric sequence (when expressed in terms of <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />) has the terms <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/a/3/4a374ff0273b35409faec5b1b91249ad390b04f0.png" class="latex" alt="$11+d$" style="vertical-align: -1px" width="50" height="14" />, and <img src="//latex.artofproblemsolving.com/4/b/0/4b0724a4f8543ea69e35f5dc3cf54c0e59132179.png" class="latex" alt="$29+2d$" style="vertical-align: -1px" width="59" height="14" />.  Thus, we get the following equations:
+</p><p><img src="//latex.artofproblemsolving.com/6/5/9/6596a078060297c7d71636ff933328f46e10576e.png" class="latex" alt="$9r=11+d\Rightarrow d=9r-11$" style="vertical-align: -1px" width="211" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/7/2/c/72c6a0dce4ff599b79f867ca52b6ea98c2c009cc.png" class="latex" alt="$9r^2=29+2d$" style="vertical-align: -1px" width="108" height="16" />
+</p><p>Plugging in the first equation into the second, our equation becomes <img src="//latex.artofproblemsolving.com/5/e/6/5e60dbe1e1a8571f52b443d5f2f9e0ebde497c2f.png" class="latex" alt="$9r^2=29+18r-22\Longrightarrow9r^2-18r-7=0$" style="vertical-align: -1px" width="335" height="16" />. By the quadratic formula, <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> can either be <img src="//latex.artofproblemsolving.com/b/4/4/b44eecfc043d7b666561dbe643e5fc3b9fc80db6.png" class="latex" alt="$-\frac{1}{3}$" style="vertical-align: -12px" width="25" height="37" /> or <img src="//latex.artofproblemsolving.com/e/1/f/e1f2bce73877ab24e4abe8ae41191c7620c66c1b.png" class="latex" alt="$\frac{7}{3}$" style="vertical-align: -12px" width="11" height="37" />.  If <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> is <img src="//latex.artofproblemsolving.com/b/4/4/b44eecfc043d7b666561dbe643e5fc3b9fc80db6.png" class="latex" alt="$-\frac{1}{3}$" style="vertical-align: -12px" width="25" height="37" />, the third term (of the geometric sequence) would be <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, and if <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> is <img src="//latex.artofproblemsolving.com/e/1/f/e1f2bce73877ab24e4abe8ae41191c7620c66c1b.png" class="latex" alt="$\frac{7}{3}$" style="vertical-align: -12px" width="11" height="37" />, the third term would be <img src="//latex.artofproblemsolving.com/3/4/c/34c8e6bf4d57cd6f2bb0d7d43e00f0f442f53b84.png" class="latex" alt="$49$" style="vertical-align: 0px" width="17" height="13" />.  Clearly the minimum possible value for the third term of the geometric sequence is <img src="//latex.artofproblemsolving.com/0/7/0/070ebb795e7bad2abc593cb0ef40257f77c2a53c.png" class="latex" alt="$\boxed{\mathrm{(A)}\ 1}$" style="vertical-align: -10px" width="54" height="29" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Let the three numbers be, in increasing order, <img src="//latex.artofproblemsolving.com/3/c/6/3c65e8e12d6e772147b3167e4a0a83dc7862c480.png" class="latex" alt="$9,y,z$" style="vertical-align: -4px" width="46" height="17" />
+</p><p>Hence, we have that <img src="//latex.artofproblemsolving.com/9/6/4/96414051687521e05997e73b17462f8e5dd0d3c4.png" class="latex" alt="$9-y=y-z\implies 9+z=2y$" style="vertical-align: -3px" width="238" height="16" />.
+</p><p>Also, from the second part of information given, we get that
+</p><p><img src="//latex.artofproblemsolving.com/d/d/b/ddb9993c1d4e1b8392af5f3e8093b7389433c955.png" class="latex" alt="$\frac{9}{y+2}=\frac{y+2}{z+20}\implies 9(z+20)=(y+2)^2\implies y=3(\sqrt{z+20})-2$" style="vertical-align: -16px" width="534" height="41" />
+</p><p>Plugging back in...
+</p><p><img src="//latex.artofproblemsolving.com/e/0/5/e05fb7d8ef4315da4899c8df3170355be77cf3b5.png" class="latex" alt="$9+z=6(\sqrt{z+20})-4\implies (9+z)^2=36(z+20)$" style="vertical-align: -4px" width="400" height="20" />
+</p><p>Simplifying, we get that <img src="//latex.artofproblemsolving.com/d/3/d/d3de1860c133d25c1bb3ee4267a814d80764a7c1.png" class="latex" alt="$z^2-10z-551=0$" style="vertical-align: 0px" width="148" height="15" />
+</p><p>Applying the quadratic formula, we get that <img src="//latex.artofproblemsolving.com/c/0/d/c0df648a3f30e981f2123841036cc79aa71f9abd.png" class="latex" alt="$z=\frac{10\pm \sqrt{2304}}{2}\implies \frac{10\pm48}{2}$" style="vertical-align: -12px" width="240" height="41" />
+</p><p>Obviously, in order to minimize the value of <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" />, we have to subtract. Hence, <img src="//latex.artofproblemsolving.com/c/1/e/c1e6afb7e7bbd60d9c6ee7d3f391bd15e058d0d3.png" class="latex" alt="$z=-19$" style="vertical-align: 0px" width="65" height="13" />
+</p><p>However, the problem asks for the minimum value of the third term in a geometric progression.
+</p><p>Hence, the answer is <img src="//latex.artofproblemsolving.com/e/f/4/ef4717d8c93165bfed1800b517bd62ccdbe35d79.png" class="latex" alt="$-19+20=\boxed{1} \implies \boxed{A}$" style="vertical-align: -5px" width="192" height="24" />
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Let the arithmetic sequence be <img src="//latex.artofproblemsolving.com/b/b/4/bb4c9550155b55cb41d4d011742e15e1d58e9097.png" class="latex" alt="$9,9+x,9+2x$" style="vertical-align: -3px" width="117" height="16" /> and let the geometric sequence be <img src="//latex.artofproblemsolving.com/b/c/8/bc8c4003c84edb822294f1ea3d38efa1e8e96e67.png" class="latex" alt="$9,11+x,29+2x$" style="vertical-align: -3px" width="135" height="16" />. Now, we just try all the solutions. If the last term is <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, then <img src="//latex.artofproblemsolving.com/0/2/2/0221e69f48f3a1a1182922b05ea5eee07352f4a6.png" class="latex" alt="$x=-14$" style="vertical-align: 0px" width="66" height="12" />. This gives the geometric sequence <img src="//latex.artofproblemsolving.com/e/b/4/eb4e4b48c555392b5564d5796740365b30194e46.png" class="latex" alt="$9,-3,1$" style="vertical-align: -3px" width="56" height="16" /> which indeed works. The answer is <img src="//latex.artofproblemsolving.com/a/2/c/a2c8a95f70c0fc882e09542c63c36835273896c9.png" class="latex" alt="$\boxed{1} \implies \boxed{A}$" style="vertical-align: -5px" width="95" height="24" />
+</p><p>Solution by franzliszt
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>The terms of the arithmetic progression are 9, <img src="//latex.artofproblemsolving.com/c/7/6/c76e585885f3bf5af886f622d20e61d0290acfc6.png" class="latex" alt="$9+d$" style="vertical-align: -1px" width="41" height="14" />, and <img src="//latex.artofproblemsolving.com/9/b/c/9bcfb5fbd2fc1db88ed5433fad9f5c6607cb211d.png" class="latex" alt="$9+2d$" style="vertical-align: -1px" width="50" height="14" /> for some real number <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" />. The terms of the geometric progression are 9, <img src="//latex.artofproblemsolving.com/4/a/3/4a374ff0273b35409faec5b1b91249ad390b04f0.png" class="latex" alt="$11+d$" style="vertical-align: -1px" width="50" height="14" />, and <img src="//latex.artofproblemsolving.com/4/b/0/4b0724a4f8543ea69e35f5dc3cf54c0e59132179.png" class="latex" alt="$29+2d$" style="vertical-align: -1px" width="59" height="14" />. Therefore<img src="//latex.artofproblemsolving.com/3/1/7/317aa7a89bbbe5310b038f8be6659371fad344c7.png" class="latex" alt="$(11+d)^{2} = 9(29+2d) \quad\text{so}\quad d^{2}+4d-140 = 0.$" style="vertical-align: -4px" width="370" height="19" />Thus <img src="//latex.artofproblemsolving.com/4/8/f/48f49c25bebad7fde170b47bef3a86c188ed2c0b.png" class="latex" alt="$d=10$" style="vertical-align: 0px" width="51" height="13" /> or <img src="//latex.artofproblemsolving.com/f/5/5/f5571178b257f8eb1cbd24c226f2d236b2d1cf98.png" class="latex" alt="$d=-14$" style="vertical-align: 0px" width="65" height="13" />. The corresponding geometric progressions are <img src="//latex.artofproblemsolving.com/1/7/7/177edf16f349ab054858fbcb8a7f1e53e79c2dee.png" class="latex" alt="$9, 21, 49$" style="vertical-align: -3px" width="61" height="16" /> and <img src="//latex.artofproblemsolving.com/e/c/d/ecd3c626cb84787dc859e382826d44c61ea9fa6c.png" class="latex" alt="$9, -3, 1,$" style="vertical-align: -3px" width="61" height="16" /> so the smallest possible value for the third term of the geometric progression is <img src="//latex.artofproblemsolving.com/a/2/c/a2c8a95f70c0fc882e09542c63c36835273896c9.png" class="latex" alt="$\boxed{1} \implies \boxed{A}$" style="vertical-align: -5px" width="95" height="24" />.
+</p>
+<h3><span id="Solution_6(Partially_Brute_Force)"></span><span class="mw-headline" id="Solution_6.28Partially_Brute_Force.29">Solution 6(Partially Brute Force)</span></h3>
+<p>List out the first few terms arithmetic progressions and their corresponding geometric progressions. List both the positive and negative. Then you will find that the answer is <img src="//latex.artofproblemsolving.com/f/6/e/f6eb65962292d994ce2f9a8af63728883f256b18.png" class="latex" alt="$\boxed{A}$" style="vertical-align: -5px" width="25" height="24" />.
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/qy3ewAuOcSw">https://youtu.be/qy3ewAuOcSw</a>
+</p><p>Education, the Study of Everything
+</p>
+<h2><span class="mw-headline" id="Video_Solution_by_OmegaLearn">Video Solution by OmegaLearn</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/HISL2-N5NVg?t=20">https://youtu.be/HISL2-N5NVg?t=20</a>
+</p><p>~ pi_is_3.14
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2004_AMC_12A" title="2004 AMC 12A">2004 AMC 12A</a></b> (<b><a href="/wiki/index.php/2004_AMC_12A_Problems" title="2004 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_12A_Answer_Key" title="2004 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_13" title="2004 AMC 12A Problems/Problem 13">Problem 13</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_15" title="2004 AMC 12A Problems/Problem 15">Problem 15</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_1" title="2004 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_2" title="2004 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_3" title="2004 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_4" title="2004 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_5" title="2004 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_6" title="2004 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_7" title="2004 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_8" title="2004 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_9" title="2004 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_10" title="2004 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_11" title="2004 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_12" title="2004 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_13" title="2004 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a class="mw-selflink selflink">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_15" title="2004 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_16" title="2004 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_17" title="2004 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_18" title="2004 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_19" title="2004 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_20" title="2004 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_21" title="2004 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_22" title="2004 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_23" title="2004 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_24" title="2004 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_12A_Problems/Problem_25" title="2004 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2004_AMC_10A" title="2004 AMC 10A">2004 AMC 10A</a></b> (<b><a href="/wiki/index.php/2004_AMC_10A_Problems" title="2004 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_10A_Answer_Key" title="2004 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10A Problems/Problem 17">Problem 17</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_19" title="2004 AMC 10A Problems/Problem 19">Problem 19</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_1" title="2004 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_2" title="2004 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_3" class="mw-redirect" title="2004 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_4" title="2004 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_5" title="2004 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_6" class="mw-redirect" title="2004 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_7" title="2004 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2004 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_9" class="mw-redirect" title="2004 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_10" title="2004 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_11" class="mw-redirect" title="2004 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_12" title="2004 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_13" title="2004 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2004 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_15" title="2004 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_16" title="2004 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_18" class="mw-redirect" title="2004 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_19" title="2004 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_20" title="2004 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_21" title="2004 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_22" class="mw-redirect" title="2004 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_23" class="mw-redirect" title="2004 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_24" class="mw-redirect" title="2004 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2004 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208110954
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.088 seconds
+Real time usage: 0.093 seconds
+Preprocessor visited node count: 762/1000000
+Preprocessor generated node count: 2358/1000000
+Post‐expand include size: 4112/2097152 bytes
+Template argument size: 416/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11011/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   29.257      1 -total
+ 21.01%    6.148      1 Template:AMC12_box
+ 19.20%    5.618      1 Template:AMC10_box
+  6.17%    1.806      1 Template:Duplicate
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:5888-0!canonical and timestamp 20230208110954 and revision id 186744
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12A_Problems/Problem_14&amp;oldid=186744">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_12A_Problems/Problem_14&amp;oldid=186744</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209001254 -->
+</html>

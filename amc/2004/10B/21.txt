@@ -1,0 +1,247 @@
+<p>Let <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />; <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />; <img src="//latex.artofproblemsolving.com/3/9/5/3958e984d2597b35da7975f4503cdcf965a777f7.png" class="latex" alt="$\ldots$" width="19" height="2" /> and <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />; <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />; <img src="//latex.artofproblemsolving.com/3/9/5/3958e984d2597b35da7975f4503cdcf965a777f7.png" class="latex" alt="$\ldots$" width="19" height="2" /> be two arithmetic progressions. The set <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is the union of the first <img src="//latex.artofproblemsolving.com/9/0/a/90ae760d1ea10eb7a90d22087b3c7e2393d02117.png" class="latex" alt="$2004$" style="vertical-align: 0px" width="36" height="13" /> terms of each sequence. How many distinct numbers are in <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/4/7/4/474634629544e7972de75d21c9e11484677acfaf.png" class="latex" alt="$\mathrm{(A) \ } 3722 \qquad \mathrm{(B) \ } 3732 \qquad \mathrm{(C) \ } 3914 \qquad \mathrm{(D) \ } 3924 \qquad \mathrm{(E) \ } 4007$" style="vertical-align: -4px" width="478" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>The two sets of terms are <img src="//latex.artofproblemsolving.com/8/6/3/86339252aeb1237faa56ba5bae9dfd64bd57bd10.png" class="latex" alt="$A=\{ 3k+1&#160;: 0\leq k &lt; 2004 \}$" style="vertical-align: -4px" width="224" height="18" /> and <img src="//latex.artofproblemsolving.com/4/8/1/481b395facf20a657d7fdabdfca69fd04c442fe2.png" class="latex" alt="$B=\{ 7l+9&#160;: 0\leq l&lt;2004\}$" style="vertical-align: -4px" width="216" height="18" />. 
+</p><p>Now <img src="//latex.artofproblemsolving.com/d/7/b/d7b96ac0a0861c66aa92007711a7279773e0bee8.png" class="latex" alt="$S=A\cup B$" style="vertical-align: 0px" width="84" height="13" />. We can compute <img src="//latex.artofproblemsolving.com/f/0/1/f01e5398ea6e2196944931045e70e18ec9c64508.png" class="latex" alt="$|S|=|A\cup B|=|A|+|B|-|A\cap B|=4008-|A\cap B|$" style="vertical-align: -4px" width="420" height="18" />. We will now find <img src="//latex.artofproblemsolving.com/9/b/3/9b3b1e84d2dc43e946e2c9fb73404c2503d30b49.png" class="latex" alt="$|A\cap B|$" style="vertical-align: -4px" width="56" height="18" />. 
+</p><p>Consider the numbers in <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. We want to find out how many of them lie in <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. In other words, we need to find out the number of valid values of <img src="//latex.artofproblemsolving.com/9/b/2/9b25f8e64b484493fda944d25cad453423041fe6.png" class="latex" alt="$l$" width="5" height="12" /> for which <img src="//latex.artofproblemsolving.com/d/a/2/da2c2d0b17d7dbfb4be227c41a9034ef1a6895ec.png" class="latex" alt="$7l+9\in A$" style="vertical-align: -1px" width="82" height="14" />.
+</p><p>The fact "<img src="//latex.artofproblemsolving.com/d/a/2/da2c2d0b17d7dbfb4be227c41a9034ef1a6895ec.png" class="latex" alt="$7l+9\in A$" style="vertical-align: -1px" width="82" height="14" />" can be rewritten as "<img src="//latex.artofproblemsolving.com/1/6/0/1609e305cfbb20044ea6d766063857d341d38ad8.png" class="latex" alt="$1\leq 7l+9 \leq 3\cdot 2003 + 1$" style="vertical-align: -2px" width="192" height="15" />, and <img src="//latex.artofproblemsolving.com/e/e/d/eedfecc87a7ccb260a018a79f047ad9b638544d1.png" class="latex" alt="$7l+9\equiv 1\pmod 3$" style="vertical-align: -4px" width="150" height="18" />".
+</p><p>The first condition gives <img src="//latex.artofproblemsolving.com/a/d/8/ad85a8ad851d84c7de999bef047fa69b90784f09.png" class="latex" alt="$0\leq l\leq 857$" style="vertical-align: -2px" width="90" height="15" />, the second one gives <img src="//latex.artofproblemsolving.com/f/a/9/fa97ef44e9e917e67ae04fff0f0bcf1e93bb4fd9.png" class="latex" alt="$l\equiv 1\pmod 3$" style="vertical-align: -4px" width="109" height="18" />.
+</p><p>Thus the good values of <img src="//latex.artofproblemsolving.com/9/b/2/9b25f8e64b484493fda944d25cad453423041fe6.png" class="latex" alt="$l$" width="5" height="12" /> are <img src="//latex.artofproblemsolving.com/1/b/5/1b5e9cf9435551c575979e3b59d1179958d3672d.png" class="latex" alt="$\{1,4,7,\dots,856\}$" style="vertical-align: -4px" width="128" height="18" />, and their count is <img src="//latex.artofproblemsolving.com/a/7/f/a7f5e192c81b98afccd0cd7b761b220fb7b116bc.png" class="latex" alt="$858/3 = 286$" style="vertical-align: -4px" width="96" height="18" />.
+</p><p>Therefore <img src="//latex.artofproblemsolving.com/6/3/5/635c84b9c5c22193276f70c51428f1f6b6325cab.png" class="latex" alt="$|A\cap B|=286$" style="vertical-align: -4px" width="109" height="18" />, and thus <img src="//latex.artofproblemsolving.com/6/1/6/616b0d02de19f9e1d17ef0f580851ec8356d2b0a.png" class="latex" alt="$|S|=4008-|A\cap B|=\boxed{(A) 3722}$" style="vertical-align: -10px" width="264" height="29" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>We can start by finding the first non-distinct term from both sequences. We find that that number is <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" />. Now, to find every 
+</p><p>other non-distinct terms, we can just keep adding <img src="//latex.artofproblemsolving.com/f/2/5/f25d31faf472ddb4c698a14522fe8125c06f8dd8.png" class="latex" alt="$21$" style="vertical-align: 0px" width="17" height="12" />. We know that the last terms of both sequences are <img src="//latex.artofproblemsolving.com/d/f/0/df0f47647b73e0aa088fd808e7690b64249ffb0f.png" class="latex" alt="$1+3\cdot 2003$" style="vertical-align: -1px" width="89" height="14" /> and 
+</p><p><img src="//latex.artofproblemsolving.com/c/3/3/c332426653fdf7acbe06de2401b7b1cb1dc9f911.png" class="latex" alt="$9+7\cdot 2003$" style="vertical-align: -1px" width="89" height="14" />. Clearly, <img src="//latex.artofproblemsolving.com/d/f/0/df0f47647b73e0aa088fd808e7690b64249ffb0f.png" class="latex" alt="$1+3\cdot 2003$" style="vertical-align: -1px" width="89" height="14" /> is smaller and that is the last possible common term of both sequences. Now, we can 
+</p><p>create the inequality <img src="//latex.artofproblemsolving.com/5/4/1/541cdc8d2c91f91f74801443cd8ac28101d89832.png" class="latex" alt="$16+21k \leq 1+3\cdot 2003$" style="vertical-align: -2px" width="182" height="15" />. Using the inequality, we find that there are <img src="//latex.artofproblemsolving.com/0/2/3/0236ef1144a8417ea4746204c4ddf20b7de1bb30.png" class="latex" alt="$286$" width="26" height="12" /> common terms. There are 4008 
+</p><p>terms in total. <img src="//latex.artofproblemsolving.com/0/5/7/057efaec18012147f225e0d2b9d14f926616791c.png" class="latex" alt="$4008-286=\boxed{(A) 3722}$" style="vertical-align: -10px" width="186" height="29" />
+</p><p>~Hithere22702
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2004_AMC_10B" title="2004 AMC 10B">2004 AMC 10B</a></b> (<b><a href="/wiki/index.php/2004_AMC_10B_Problems" title="2004 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2004_AMC_10B_Answer_Key" title="2004 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_20" title="2004 AMC 10B Problems/Problem 20">Problem 20</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_22" title="2004 AMC 10B Problems/Problem 22">Problem 22</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_1" title="2004 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_2" title="2004 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_3" title="2004 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_4" title="2004 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_5" class="mw-redirect" title="2004 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_6" title="2004 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_7" class="mw-redirect" title="2004 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_8" class="mw-redirect" title="2004 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_9" class="mw-redirect" title="2004 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_10" class="mw-redirect" title="2004 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_11" title="2004 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_12" class="mw-redirect" title="2004 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_13" title="2004 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_14" title="2004 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_15" title="2004 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_16" title="2004 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_17" class="mw-redirect" title="2004 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_18" title="2004 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_19" class="mw-redirect" title="2004 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_20" title="2004 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a class="mw-selflink selflink">21</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_22" title="2004 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_23" title="2004 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_24" title="2004 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2004_AMC_10B_Problems/Problem_25" title="2004 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209100216
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.087 seconds
+Real time usage: 0.091 seconds
+Preprocessor visited node count: 430/1000000
+Preprocessor generated node count: 1296/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6567/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.008      1 -total
+ 79.59%    6.374      1 Template:AMC10_box
+ 18.19%    1.457      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7700-0!canonical and timestamp 20230209100216 and revision id 154185
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10B_Problems/Problem_21&amp;oldid=154185">https://artofproblemsolving.com/wiki/index.php?title=2004_AMC_10B_Problems/Problem_21&amp;oldid=154185</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209100216 -->
+</html>

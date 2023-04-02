@@ -1,0 +1,248 @@
+<p>Four cubes with edge lengths <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, and <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> are stacked as shown. What is the length of the portion of <img src="//latex.artofproblemsolving.com/9/5/9/95915f5885ed19f737ac8338c7c0b1d0e23fb73a.png" class="latex" alt="$\overline{XY}$" width="31" height="15" /> contained in the cube with edge length <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/4/1/e41120e351bda42fada2fe2803e19a131bc30b96.png" class="latexcenter" alt="[asy] dotfactor = 3; size(10cm); dot((0, 10)); label(&quot;$X$&quot;, (0,10),W,fontsize(8pt)); dot((6,2)); label(&quot;$Y$&quot;, (6,2),E,fontsize(8pt)); draw((0, 0)--(0, 10)--(1, 10)--(1, 9)--(2, 9)--(2, 7)--(3, 7)--(3,4)--(4, 4)--(4, 0)--cycle); draw((0,9)--(1, 9)--(1.5, 9.5)--(1.5, 10.5)--(0.5, 10.5)--(0, 10)); draw((1, 10)--(1.5,10.5)); draw((1.5, 10)--(3,10)--(3,8)--(2,7)--(0,7)); draw((2,9)--(3,10)); draw((3,8.5)--(4.5,8.5)--(4.5,5.5)--(3,4)--(0,4)); draw((3,7)--(4.5,8.5)); draw((4.5,6)--(6,6)--(6,2)--(4,0)); draw((4,4)--(6,6)); label(&quot;$1$&quot;, (1,9.5), W,fontsize(8pt)); label(&quot;$2$&quot;, (2,8), W,fontsize(8pt)); label(&quot;$3$&quot;, (3,5.5), W,fontsize(8pt)); label(&quot;$4$&quot;, (4,2), W,fontsize(8pt)); [/asy]" width="308" height="475" />
+</p><p><img src="//latex.artofproblemsolving.com/3/9/f/39f22d5c260c68925451cf6ea13efd2c6d6c4db7.png" class="latex" alt="$\textbf{(A)}\ \dfrac{3\sqrt{33}}5\qquad\textbf{(B)}\ 2\sqrt3\qquad\textbf{(C)}\ \dfrac{2\sqrt{33}}3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 3\sqrt2$" style="vertical-align: -12px" width="472" height="41" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>By Pythagorean Theorem in three dimensions, the distance <img src="//latex.artofproblemsolving.com/2/c/7/2c7774174993ffa29a38cf577ae34d8e0a3a63cb.png" class="latex" alt="$XY$" width="30" height="12" /> is <img src="//latex.artofproblemsolving.com/6/6/3/663ca06b65c787bb57267dac72171bd0019c8e87.png" class="latex" alt="$\sqrt{4^2+4^2+10^2}=2\sqrt{33}$" style="vertical-align: -2px" width="185" height="19" />.
+</p><p>Let the length of the segment <img src="//latex.artofproblemsolving.com/2/c/7/2c7774174993ffa29a38cf577ae34d8e0a3a63cb.png" class="latex" alt="$XY$" width="30" height="12" /> that is inside the cube with side length <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> be <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. By similar triangles, <img src="//latex.artofproblemsolving.com/5/1/2/512c0dd3c0c70fa4c9bb74739e1303902b1fcebc.png" class="latex" alt="$\dfrac{x}{3}=\dfrac{2\sqrt{33}}{10}$" style="vertical-align: -13px" width="83" height="41" />, giving <img src="//latex.artofproblemsolving.com/4/1/9/41937611c31f57d6dc7c7f3f3ef5fa85cce5a148.png" class="latex" alt="$x=\boxed{\textbf{(A) }\dfrac{3\sqrt{33}}{5}} skr-$" style="vertical-align: -18px" width="168" height="53" />.
+</p>
+<h1><span id="Solution_2_(3D_Coordinate_Geometry)"></span><span class="mw-headline" id="Solution_2_.283D_Coordinate_Geometry.29">Solution 2 (3D Coordinate Geometry)</span></h1>
+<p>Let's redraw the diagram, however make a 3D coordinate plane, using D as the origin.(
+</p><p><img src="//latex.artofproblemsolving.com/d/2/6/d26d45a4b5b55aa7a59dcd355353f8ce6476fd3c.png" class="latexcenter" alt="[asy] dotfactor = 3; size(10cm); dot((0, 10)); label(&quot;$X(0,10,0)$&quot;, (0,10),W,fontsize(8pt)); dot((6,2)); label(&quot;$Y(4,0,4)$&quot;, (6,2),E,fontsize(8pt)); draw((0, 0)--(0, 10)--(1, 10)--(1, 9)--(2, 9)--(2, 7)--(3, 7)--(3,4)--(4, 4)--(4, 0)--cycle); draw((0,9)--(1, 9)--(1.5, 9.5)--(1.5, 10.5)--(0.5, 10.5)--(0, 10)); draw((1, 10)--(1.5,10.5)); draw((1.5, 10)--(3,10)--(3,8)--(2,7)--(0,7)); draw((2,9)--(3,10)); draw((3,8.5)--(4.5,8.5)--(4.5,5.5)--(3,4)--(0,4)); draw((3,7)--(4.5,8.5)); draw((4.5,6)--(6,6)--(6,2)--(4,0)); draw((4,4)--(6,6)); label(&quot;$1$&quot;, (1,9.5), W,fontsize(8pt)); label(&quot;$2$&quot;, (2,8), W,fontsize(8pt)); label(&quot;$3$&quot;, (3,5.5), W,fontsize(8pt)); label(&quot;$4$&quot;, (4,2), W,fontsize(8pt)); label(&quot;$D(0,0,0)$&quot;, (0,0), W,fontsize(8pt)); [/asy]" width="398" height="475" />
+</p><p>Now we can use the distance formula in 3D, which is <img src="//latex.artofproblemsolving.com/2/4/9/249de22dd8b835ab18fcab444f6623b46c513199.png" class="latex" alt="$\sqrt{(x_{1}-x_{2})^2+(y_{1}-y_{2})^2+(z_{1}-z_{2})^2}$" style="vertical-align: -11px" width="296" height="35" /> and plug it in for the distance of <img src="//latex.artofproblemsolving.com/2/c/7/2c7774174993ffa29a38cf577ae34d8e0a3a63cb.png" class="latex" alt="$XY$" width="30" height="12" />. 
+</p><p><img src="//latex.artofproblemsolving.com/6/e/5/6e57ce6468d150f4100de86133148c9a11321d98.png" class="latex" alt="$\sqrt{(0-4)^2+(10-0)^2+(0-4)^2}$" style="vertical-align: -11px" width="259" height="35" />
+</p><p>We get the answer as <img src="//latex.artofproblemsolving.com/7/5/8/7588e8129d9e0cea5fea16084cefd0c62ea26a5b.png" class="latex" alt="$\sqrt{132} = 2\sqrt{33}$" style="vertical-align: -2px" width="111" height="21" />.
+</p><p>Continuing with solution 1, using similar triangles, we get the answer as <img src="//latex.artofproblemsolving.com/8/1/8/818e14938b28cf15e2c69c9f04bf9e43631e40a0.png" class="latex" alt="$\textbf{(A)}\ \dfrac{3\sqrt{33}}5$" style="vertical-align: -13px" width="83" height="43" />
+</p><p>~ghfhgvghj10
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/4FInNJ9wM6s">https://youtu.be/4FInNJ9wM6s</a>
+</p><p>~IceMatrix
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2014_AMC_10A" title="2014 AMC 10A">2014 AMC 10A</a></b> (<b><a href="/wiki/index.php/2014_AMC_10A_Problems" title="2014 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2014_AMC_10A_Answer_Key" title="2014 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_18" title="2014 AMC 10A Problems/Problem 18">Problem 18</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_20" title="2014 AMC 10A Problems/Problem 20">Problem 20</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_1" title="2014 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_2" title="2014 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_3" title="2014 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_4" title="2014 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_5" title="2014 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_6" title="2014 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_7" title="2014 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_8" title="2014 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_9" title="2014 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_10" title="2014 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_11" title="2014 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_12" title="2014 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_13" title="2014 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_14" title="2014 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_15" title="2014 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_16" title="2014 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_17" title="2014 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_18" title="2014 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a class="mw-selflink selflink">19</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_20" title="2014 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_21" title="2014 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_22" title="2014 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_23" title="2014 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_24" title="2014 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2014_AMC_10A_Problems/Problem_25" title="2014 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209003613
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.081 seconds
+Real time usage: 0.084 seconds
+Preprocessor visited node count: 290/1000000
+Preprocessor generated node count: 980/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 5261/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.008      1 -total
+ 77.35%    6.194      1 Template:AMC10_box
+ 20.29%    1.625      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:12331-0!canonical and timestamp 20230209003613 and revision id 182994
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10A_Problems/Problem_19&amp;oldid=182994">https://artofproblemsolving.com/wiki/index.php?title=2014_AMC_10A_Problems/Problem_19&amp;oldid=182994</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209003613 -->
+</html>

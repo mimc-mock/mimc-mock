@@ -1,0 +1,6 @@
+<p>A digital watch displays hours and minutes with AM and PM. What is the largest possible sum of the digits in the display?
+</p><p><img src="//latex.artofproblemsolving.com/5/b/a/5baddede0757ba4ec6a0bafbada797f27e5c26d1.png" class="latex" alt="$\textbf{(A)}\ 17\qquad\textbf{(B)}\ 19\qquad\textbf{(C)}\ 21\qquad\textbf{(D)}\ 22\qquad\textbf{(E)}\  23$" style="vertical-align: -5px" width="397" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>From the <a href="/wiki/index.php/Greedy_algorithm" title="Greedy algorithm">greedy algorithm</a>, we have <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> in the hours section and <img src="//latex.artofproblemsolving.com/a/f/e/afe61e5b80572ad5a200a0d9cd354ce12a8c7800.png" class="latex" alt="$59$" width="17" height="12" /> in the minutes section. <img src="//latex.artofproblemsolving.com/3/b/a/3ba61555975523703d2426aeb7d28f8983c43004.png" class="latex" alt="$9+5+9=\boxed{\textbf{(E) }23}$" style="vertical-align: -11px" width="161" height="30" />
+</p>

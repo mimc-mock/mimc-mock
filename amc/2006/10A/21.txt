@@ -1,0 +1,7 @@
+<p>How many four-digit positive integers have at least one digit that is a <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> or a <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/3/5/b/35b881d078dcec021f6804f702bb5b65432b72a0.png" class="latex" alt="$\textbf{(A) } 2439\qquad\textbf{(B) } 4096\qquad\textbf{(C) } 4903\qquad\textbf{(D) } 4904\qquad\textbf{(E) } 5416$" style="vertical-align: -5px" width="492" height="18" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/0W3VmFp55cM?t=3291">https://youtu.be/0W3VmFp55cM?t=3291</a>
+</p><p>~ pi_is_3.14
+</p>

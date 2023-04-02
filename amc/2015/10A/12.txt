@@ -1,0 +1,266 @@
+<p>Points <img src="//latex.artofproblemsolving.com/5/e/e/5eee8fd0f8dc0946c64fbd05bc502c121977216c.png" class="latex" alt="$( \sqrt{\pi} , a)$" style="vertical-align: -4px" width="56" height="19" /> and <img src="//latex.artofproblemsolving.com/6/0/8/6082ce983c636facfaaba5ed379d9ea1ff7d177d.png" class="latex" alt="$( \sqrt{\pi} , b)$" style="vertical-align: -4px" width="55" height="19" /> are distinct points on the graph of <img src="//latex.artofproblemsolving.com/1/d/d/1ddbf7cfd621ddd5178601a22f0b50cfa1e96378.png" class="latex" alt="$y^2 + x^4 = 2x^2 y + 1$" style="vertical-align: -3px" width="148" height="18" />. What is <img src="//latex.artofproblemsolving.com/3/3/1/3311eba472bf7dc846f58d649d3756cf443eb108.png" class="latex" alt="$|a-b|$" style="vertical-align: -4px" width="48" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/4/0/2/40282d4ee1afb46bf486005c78fce871c0286803.png" class="latex" alt="$\textbf{(A)}\ 1 \qquad\textbf{(B)} \ \frac{\pi}{2} \qquad\textbf{(C)} \ 2 \qquad\textbf{(D)} \ \sqrt{1+\pi} \qquad\textbf{(E)} \ 1 + \sqrt{\pi}$" style="vertical-align: -12px" width="452" height="33" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Since points on the graph make the equation true, substitute <img src="//latex.artofproblemsolving.com/e/e/0/ee0529202bae221e2a886dbd92ecd50e87f90452.png" class="latex" alt="$\sqrt{\pi}$" style="vertical-align: -3px" width="26" height="18" /> in to the equation and then solve to find <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />.
+</p><p><img src="//latex.artofproblemsolving.com/d/7/2/d7252917d7c01b01feb99640c4f01aceb8d6a2b3.png" class="latex" alt="$y^2 + \sqrt{\pi}^4 = 2\sqrt{\pi}^2 y + 1$" style="vertical-align: -3px" width="179" height="22" />
+</p><p><img src="//latex.artofproblemsolving.com/2/9/f/29f374ffef4a74ae8cf85aeed2441b77e213743f.png" class="latex" alt="$y^2 + \pi^2 = 2\pi y + 1$" style="vertical-align: -3px" width="142" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/5/2/e/52ee88d873beea5c6a77f6293558d4c39a76d874.png" class="latex" alt="$y^2 - 2\pi y + \pi^2 = 1$" style="vertical-align: -3px" width="142" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/2/7/a/27ab241bf2d48f480b4c0fbd3d0703a863e8d9d9.png" class="latex" alt="$(y-\pi)^2 = 1$" style="vertical-align: -4px" width="96" height="19" />
+</p><p><img src="//latex.artofproblemsolving.com/c/3/b/c3b2ed610c3c6faf80944d6bba5e39ddd99d0c77.png" class="latex" alt="$y-\pi = \pm 1$" style="vertical-align: -3px" width="89" height="15" />
+</p><p><img src="//latex.artofproblemsolving.com/f/9/a/f9ac25d77cfd0e2e79a183c0e6921c714dd841ce.png" class="latex" alt="$y = \pi + 1$" style="vertical-align: -3px" width="75" height="15" /> 
+</p><p><img src="//latex.artofproblemsolving.com/6/f/8/6f8e1fa63ea4132688df6a57ff770b2b6d23a33a.png" class="latex" alt="$y = \pi - 1$" style="vertical-align: -3px" width="75" height="15" />
+</p><p>There are only two solutions to the equation <img src="//latex.artofproblemsolving.com/2/7/a/27ab241bf2d48f480b4c0fbd3d0703a863e8d9d9.png" class="latex" alt="$(y-\pi)^2 = 1$" style="vertical-align: -4px" width="96" height="19" />, so one of them is the value of <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and the other is <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />. The order does not matter because of the absolute value sign.
+</p><p><img src="//latex.artofproblemsolving.com/2/a/4/2a4a1f64be6488051bd03a999055405eaa11a1f4.png" class="latex" alt="$| (\pi + 1) - (\pi - 1) | = 2$" style="vertical-align: -4px" width="178" height="18" />
+</p><p>The answer is <img src="//latex.artofproblemsolving.com/f/5/3/f530eb4e1a2b7f21a225ce5427c1f2707014f560.png" class="latex" alt="$\boxed{\textbf{(C) }2}$" style="vertical-align: -10px" width="55" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>This solution is very closely related to Solution #1 and just simplifies the problem earlier to make it easier.
+</p><p><img src="//latex.artofproblemsolving.com/1/d/d/1ddbf7cfd621ddd5178601a22f0b50cfa1e96378.png" class="latex" alt="$y^2 + x^4 = 2x^2 y + 1$" style="vertical-align: -3px" width="148" height="18" /> can be written as <img src="//latex.artofproblemsolving.com/d/1/6/d1685db7d112651870310087b06477ae4b8e990b.png" class="latex" alt="$x^4-2x^2y+y^2=1$" style="vertical-align: -3px" width="148" height="18" />. Recognizing that this is a binomial square, simplify this to <img src="//latex.artofproblemsolving.com/4/4/b/44b3d6e5d9d1f17ce9162c416379525178d1de79.png" class="latex" alt="$(x^2-y)^2=1$" style="vertical-align: -4px" width="103" height="19" />. This gives us two equations:
+</p><p><img src="//latex.artofproblemsolving.com/8/5/d/85dc8827e2cac964004c1a64f3e14aa5cd8c69e4.png" class="latex" alt="$x^2-y=1$" style="vertical-align: -3px" width="82" height="18" /> and <img src="//latex.artofproblemsolving.com/c/a/6/ca6d390047e3a0533b05a7a2194559b536ebc76f.png" class="latex" alt="$x^2-y=-1$" style="vertical-align: -3px" width="96" height="18" />.
+</p><p>One of these <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />'s is <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and one is <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />. Substituting <img src="//latex.artofproblemsolving.com/e/e/0/ee0529202bae221e2a886dbd92ecd50e87f90452.png" class="latex" alt="$\sqrt{\pi}$" style="vertical-align: -3px" width="26" height="18" /> for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, we get <img src="//latex.artofproblemsolving.com/7/6/a/76a008f0f83d4812bcbedd0248181bd2d970c89c.png" class="latex" alt="$a=\pi+1$" style="vertical-align: -1px" width="75" height="13" /> and <img src="//latex.artofproblemsolving.com/0/3/c/03ce89f3107c9e5d3f2c31be4ce20548a84bda2a.png" class="latex" alt="$b=\pi-1$" style="vertical-align: 0px" width="73" height="13" />. 
+</p><p>So, <img src="//latex.artofproblemsolving.com/0/9/8/098b5a6d7b8d721a470adbc5ff0232438097a658.png" class="latex" alt="$|a-b|=|(\pi+1)-(\pi-1)|=2$" style="vertical-align: -4px" width="252" height="18" />.
+</p><p>The answer is <img src="//latex.artofproblemsolving.com/f/5/3/f530eb4e1a2b7f21a225ce5427c1f2707014f560.png" class="latex" alt="$\boxed{\textbf{(C) }2}$" style="vertical-align: -10px" width="55" height="28" />
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>This solution is similar to Solution #1 but uses a different way to find <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> at the end.
+</p><p>Just like Solution #1, we arrive at the conclusion that <img src="//latex.artofproblemsolving.com/5/2/e/52ee88d873beea5c6a77f6293558d4c39a76d874.png" class="latex" alt="$y^2 - 2\pi y + \pi^2 = 1$" style="vertical-align: -3px" width="142" height="18" />.
+</p><p>Simplifying we get:
+</p><p><img src="//latex.artofproblemsolving.com/7/0/b/70ba497d1b41cd09201128e5aba369b593599a80.png" class="latex" alt="$y^2 - 2\pi y + \pi^2 -1 = 0$" style="vertical-align: -4px" width="176" height="20" />
+</p><p>We now can factor this quadratic. We must find two terms that multiply to <img src="//latex.artofproblemsolving.com/5/5/2/552f255d89badf543639ccc7b51cca0fad0a0d89.png" class="latex" alt="$\pi^2 -1$" style="vertical-align: -2px" width="52" height="18" /> and add to <img src="//latex.artofproblemsolving.com/7/0/9/709acef3551b886e6754de72d59a88f00660f0d3.png" class="latex" alt="$2\pi$" width="19" height="12" />. 
+</p><p>These terms are <img src="//latex.artofproblemsolving.com/a/9/4/a94470a0cacc75a853c89b3cfe8a7b7867d1a852.png" class="latex" alt="$\pi+1$" style="vertical-align: -2px" width="44" height="15" /> and <img src="//latex.artofproblemsolving.com/7/f/e/7fee4d2af7659f8e3fca20b1014e696bfbe1f1ea.png" class="latex" alt="$\pi-1$" style="vertical-align: 0px" width="41" height="12" />. 
+</p><p>Subtracting one from the other, we get <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />.
+</p><p>Thus, the answer is <img src="//latex.artofproblemsolving.com/f/5/3/f530eb4e1a2b7f21a225ce5427c1f2707014f560.png" class="latex" alt="$\boxed{\textbf{(C) }2}$" style="vertical-align: -10px" width="55" height="28" />
+</p><p>-DuckDuckGooseGoose
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/gKzliDi3zgk">https://youtu.be/gKzliDi3zgk</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2015_AMC_10A" title="2015 AMC 10A">2015 AMC 10A</a></b> (<b><a href="/wiki/index.php/2015_AMC_10A_Problems" title="2015 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AMC_10A_Answer_Key" title="2015 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_11" title="2015 AMC 10A Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_13" title="2015 AMC 10A Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_1" title="2015 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_2" title="2015 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_3" title="2015 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_4" title="2015 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_5" title="2015 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_6" title="2015 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_7" title="2015 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_8" title="2015 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_9" title="2015 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_10" title="2015 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_11" title="2015 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_13" title="2015 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_14" title="2015 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_15" title="2015 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_16" title="2015 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_17" title="2015 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_18" title="2015 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_19" title="2015 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_20" title="2015 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_21" title="2015 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_22" title="2015 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_23" title="2015 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_24" title="2015 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2015_AMC_10A_Problems/Problem_25" title="2015 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208185121
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.121 seconds
+Real time usage: 0.479 seconds
+Preprocessor visited node count: 492/1000000
+Preprocessor generated node count: 1424/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7712/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   48.539      1 -total
+ 73.76%   35.804      1 Template:AMC10_box
+ 25.34%   12.299      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:13935-0!canonical and timestamp 20230208185120 and revision id 176525
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_12&amp;oldid=176525">https://artofproblemsolving.com/wiki/index.php?title=2015_AMC_10A_Problems/Problem_12&amp;oldid=176525</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208210552 -->
+</html>

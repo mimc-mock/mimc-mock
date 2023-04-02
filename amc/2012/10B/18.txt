@@ -1,0 +1,249 @@
+<p>Suppose that one of every 500 people in a certain population has a particular disease, which displays no symptoms. A blood test is available for screening for this disease. For a person who has this disease, the test always turns out positive. For a person who does not have the disease, however, there is a <img src="//latex.artofproblemsolving.com/0/b/0/0b04a3bd51b4c6a454c3aae545a1dbc6a5bff05d.png" class="latex" alt="$2\%$" style="vertical-align: -1px" width="23" height="14" /> false positive rate--in other words, for such people, <img src="//latex.artofproblemsolving.com/3/0/6/30696f72e40dac44ba3d77958f23e54518505ca9.png" class="latex" alt="$98\%$" style="vertical-align: -1px" width="32" height="14" /> of the time the test will turn out negative, but <img src="//latex.artofproblemsolving.com/0/b/0/0b04a3bd51b4c6a454c3aae545a1dbc6a5bff05d.png" class="latex" alt="$2\%$" style="vertical-align: -1px" width="23" height="14" /> of the time the test will turn out positive and will incorrectly indicate that the person has the disease. Let <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" /> be the probability that a person who is chosen at random from this population and gets a positive test result actually has the disease. Which of the following is closest to <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" />?
+</p><p><img src="//latex.artofproblemsolving.com/0/2/6/02635f12f403b891c26538073d75aeefe31ef18b.png" class="latex" alt="$\textbf{(A)}\ \frac{1}{98}\qquad\textbf{(B)}\ \frac{1}{9}\qquad\textbf{(C)}\ \frac{1}{11}\qquad\textbf{(D)}\ \frac{49}{99}\qquad\textbf{(E)}\ \frac{98}{99}$" style="vertical-align: -13px" width="404" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>This question can be solved by considering all the possibilities:
+</p><p><img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> out of <img src="//latex.artofproblemsolving.com/a/3/9/a39b14023c98c943554d150561aacc188c4ce26d.png" class="latex" alt="$500$" width="26" height="12" /> people will have the disease and will be tested positive for the disease.
+</p><p>Out of the remaining <img src="//latex.artofproblemsolving.com/6/5/0/6500248a8e3334fcfb20b237b0e343980327ad17.png" class="latex" alt="$499$" style="vertical-align: 0px" width="26" height="13" /> people, <img src="//latex.artofproblemsolving.com/0/b/0/0b04a3bd51b4c6a454c3aae545a1dbc6a5bff05d.png" class="latex" alt="$2\%$" style="vertical-align: -1px" width="23" height="14" />, or <img src="//latex.artofproblemsolving.com/5/5/d/55da1aee425075edfe336d0d8f368383690b13ee.png" class="latex" alt="$9.98$" width="31" height="12" /> people, will be tested positive for the disease incorrectly.
+</p><p>Therefore, <img src="//latex.artofproblemsolving.com/3/6/f/36f73fc1312ee0349b3f3a0f3bd9eb5504339011.png" class="latex" alt="$p$" style="vertical-align: -3px" width="10" height="11" /> can be found by taking <img src="//latex.artofproblemsolving.com/a/0/0/a00fb1b078eb46ad08064e412de4310c78078ea8.png" class="latex" alt="$\dfrac{1}{1+9.98}$" style="vertical-align: -14px" width="66" height="38" />, which is closest to <img src="//latex.artofproblemsolving.com/d/9/f/d9f5c714f4589ca841e79b0ae10a0ffa2eae7f37.png" class="latex" alt="$\dfrac{1}{1+10}$" style="vertical-align: -14px" width="51" height="38" /> or <img src="//latex.artofproblemsolving.com/2/2/a/22afcbc99797f29eaa84c1dbf30bf0670acc30d9.png" class="latex" alt="$\dfrac{1}{11}$" style="vertical-align: -13px" width="20" height="37" />,or <img src="//latex.artofproblemsolving.com/f/f/f/fffc7368e8e7b77c88b0b4bf732c88c60e27b439.png" class="latex" alt="$\boxed{\textbf{(C)}}$" style="vertical-align: -11px" width="42" height="30" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>This question can also be solved by using a <img src="//latex.artofproblemsolving.com/6/3/2/6325a27e1b67d110bb8f0aafbed2e1c3e2d60992.png" class="latex" alt="$\dfrac{probability1}{probability2}$" style="vertical-align: -17px" width="101" height="43" /> solution. 
+</p><p>If the test is positive there are two cases: (1) The person was true-positive (2) The person was false-positive
+</p><p>For the first case, the probability of the person being true-positive is <img src="//latex.artofproblemsolving.com/8/2/b/82b7bf02eac53496952c04e63a95129968725abd.png" class="latex" alt="$\dfrac{1}{500}$" style="vertical-align: -12px" width="29" height="37" />.
+</p><p>For the second case, the probability of the person being false-positive is <img src="//latex.artofproblemsolving.com/1/d/4/1d4ce52a82d7eddf6f56f171a455275bf0cf30f5.png" class="latex" alt="$\dfrac{499}{500}\cdot\dfrac{1}{50}$" style="vertical-align: -13px" width="68" height="38" />
+</p><p>The probability of the test being positive is the sum of these values, <img src="//latex.artofproblemsolving.com/a/a/3/aa33af020cccf7df745109354dcae093123428c2.png" class="latex" alt="$\dfrac{549}{25000}$" style="vertical-align: -13px" width="51" height="38" />
+</p><p>The final probability will be in the form: <img src="//latex.artofproblemsolving.com/7/b/8/7b8c14535d1b06256ed23155206f22359f89b597.png" class="latex" alt="$\dfrac{P(true positive)}{P(positive)}$" style="vertical-align: -18px" width="132" height="45" />.
+</p><p>Plugging in the values we get: <img src="//latex.artofproblemsolving.com/4/a/0/4a0fedc436eae7a04d6b66acee8e3b97e682f86e.png" class="latex" alt="$\dfrac{\dfrac{1}{500}}{\dfrac{549}{25000}}=\dfrac{50}{549}$" style="vertical-align: -35px" width="111" height="80" /> This fraction is clearly closest to  <img src="//latex.artofproblemsolving.com/2/2/a/22afcbc99797f29eaa84c1dbf30bf0670acc30d9.png" class="latex" alt="$\dfrac{1}{11}$" style="vertical-align: -13px" width="20" height="37" />, or <img src="//latex.artofproblemsolving.com/f/f/f/fffc7368e8e7b77c88b0b4bf732c88c60e27b439.png" class="latex" alt="$\boxed{\textbf{(C)}}$" style="vertical-align: -11px" width="42" height="30" />
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/igGLCogR-dk">https://youtu.be/igGLCogR-dk</a>
+</p><p>~savannahsolver
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2012_AMC_10B" title="2012 AMC 10B">2012 AMC 10B</a></b> (<b><a href="/wiki/index.php/2012_AMC_10B_Problems" title="2012 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AMC_10B_Answer_Key" title="2012 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_17" title="2012 AMC 10B Problems/Problem 17">Problem 17</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_19" title="2012 AMC 10B Problems/Problem 19">Problem 19</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_1" title="2012 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_2" title="2012 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_3" title="2012 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_4" title="2012 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_5" title="2012 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_6" title="2012 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_7" title="2012 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_8" title="2012 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_9" title="2012 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_10" title="2012 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_11" title="2012 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_12" title="2012 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_13" title="2012 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_14" title="2012 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_15" title="2012 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_16" title="2012 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_17" title="2012 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a class="mw-selflink selflink">18</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_19" title="2012 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_20" class="mw-redirect" title="2012 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_21" title="2012 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_22" title="2012 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_23" title="2012 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_24" class="mw-redirect" title="2012 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_10B_Problems/Problem_25" title="2012 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230209023619
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.087 seconds
+Real time usage: 0.091 seconds
+Preprocessor visited node count: 317/1000000
+Preprocessor generated node count: 1040/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4513/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.459      1 -total
+ 77.40%    6.547      1 Template:AMC10_box
+ 20.29%    1.716      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10800-0!canonical and timestamp 20230209023619 and revision id 177337
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_10B_Problems/Problem_18&amp;oldid=177337">https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_10B_Problems/Problem_18&amp;oldid=177337</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230209023619 -->
+</html>

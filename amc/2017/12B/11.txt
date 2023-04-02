@@ -1,0 +1,278 @@
+<p>Call a positive integer <b>monotonous</b> if it is a one-digit number or its digits, when read from left to right, form either a strictly increasing or a strictly decreasing sequence. For example, <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/1/b/4/1b434575dc6aa6c68d975b7fb9201bef7fca7b13.png" class="latex" alt="$23578$" width="44" height="12" />, and <img src="//latex.artofproblemsolving.com/a/5/f/a5fea9c440f25f8613ea5441834196f44d9348b9.png" class="latex" alt="$987620$" width="53" height="12" /> are monotonous, but <img src="//latex.artofproblemsolving.com/4/0/d/40d924a5d0ade21a3824a7f0343f8beae70ef96e.png" class="latex" alt="$88$" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/9/2/9/92971c235de6400abd188d667b4b95716dea3e4d.png" class="latex" alt="$7434$" style="vertical-align: 0px" width="36" height="13" />, and <img src="//latex.artofproblemsolving.com/0/8/8/088010e79a13e9876ce87dcc6bd4eb5ae4e40729.png" class="latex" alt="$23557$" width="45" height="12" /> are not. How many monotonous positive integers are there?
+</p><p><img src="//latex.artofproblemsolving.com/c/6/2/c624a9f24c95546edef40e766769b914a9fbe977.png" class="latex" alt="$\textbf{(A)}\ 1024\qquad\textbf{(B)}\ 1524\qquad\textbf{(C)}\ 1533\qquad\textbf{(D)}\ 1536\qquad\textbf{(E)}\ 2048$" style="vertical-align: -4px" width="484" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Case 1: monotonous numbers with digits in ascending order
+</p><p>There are <img src="//latex.artofproblemsolving.com/0/4/9/0498b83f705df82b0fad58755670cf060b1c8e35.png" class="latex" alt="$\sum_{n=1}^{9} \binom{9}{n}$" style="vertical-align: -23px" width="70" height="55" /> ways to choose n digits from the digits 1 to 9. For each of these ways, we can generate exactly one monotonous number by ordering the chosen digits in ascending order. Note that 0 is not included since it will always be a leading digit and that is not allowed. Also, <img src="//latex.artofproblemsolving.com/8/4/2/84241c448cbf497968ba86136beecf766431a3ff.png" class="latex" alt="$\emptyset$" style="vertical-align: -1px" width="8" height="16" /> (the empty set) isn't included because it doesn't generate a number. The sum is equivalent to <img src="//latex.artofproblemsolving.com/c/9/c/c9cf1627ca7c846505645e03cf9fde1a4358b802.png" class="latex" alt="$\sum_{n=0}^{9} \binom{9}{n} -\binom{9}{0} = 2^9 - 1 = 511.$" style="vertical-align: -23px" width="258" height="55" />
+</p><p>Case 2: monotonous numbers with digits in descending order
+</p><p>There are <img src="//latex.artofproblemsolving.com/2/d/e/2dea4a4aa4dfcee63390715574d49f68cba82240.png" class="latex" alt="$\sum_{n=1}^{10} \binom{10}{n}$" style="vertical-align: -23px" width="77" height="55" /> ways to choose n digits from the digits 0 to 9. For each of these ways, we can generate exactly one monotonous number by ordering the chosen digits in descending order. Note that 0 is included since we are allowed to end numbers with zeros. However, <img src="//latex.artofproblemsolving.com/8/4/2/84241c448cbf497968ba86136beecf766431a3ff.png" class="latex" alt="$\emptyset$" style="vertical-align: -1px" width="8" height="16" /> (the empty set) still isn't included because it doesn't generate a number. The sum is equivalent to <img src="//latex.artofproblemsolving.com/1/0/8/10877bb19bfe95a50c1c878c60042c341f4cc756.png" class="latex" alt="$\sum_{n=0}^{10} \binom{10}{n} -\binom{10}{0} = 2^{10} - 1 = 1023.$" style="vertical-align: -23px" width="290" height="55" /> We discard the number 0 since it is not positive. Thus there are <img src="//latex.artofproblemsolving.com/d/1/9/d19f6c66057ecac4ed06919ad4718379419937d6.png" class="latex" alt="$1022$" style="vertical-align: 0px" width="35" height="13" /> here. 
+</p><p>Since the 1-digit numbers 1 to 9 satisfy both case 1 and case 2, we have overcounted by 9. Thus there are <img src="//latex.artofproblemsolving.com/f/b/d/fbd13c5260241c25858d926bb9bf4c96ed30d0c4.png" class="latex" alt="$511+1022-9=\boxed{\textbf{(B) }  1524}$" style="vertical-align: -11px" width="226" height="30" /> monotonous numbers.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Like Solution 1, divide the problem into an increasing and decreasing case:
+</p><p><img src="//latex.artofproblemsolving.com/d/5/3/d534b942086dae501cbdce030206adb87567bb07.png" class="latex" alt="$\bullet$" style="vertical-align: 1px" width="8" height="7" /> Case 1: Monotonous numbers with digits in ascending order.
+</p><p>Arrange the digits 1 through 9 in increasing order, and exclude 0 because a positive integer cannot begin with 0.
+</p><p>To get a monotonous number, we can either include or exclude each of the remaining 9 digits, and there are <img src="//latex.artofproblemsolving.com/1/c/f/1cf2f75e211d8030dc8a4d4d8304752565b5e403.png" class="latex" alt="$2^9 = 512$" style="vertical-align: 0px" width="67" height="15" /> ways to do this. However, we cannot exclude every digit at once, so we subtract 1 to get <img src="//latex.artofproblemsolving.com/5/2/a/52af322aba3854f6330221cad8dfbebb820c6f52.png" class="latex" alt="$512-1=511$" style="vertical-align: 0px" width="109" height="13" /> monotonous numbers for this case.
+</p><p><img src="//latex.artofproblemsolving.com/d/5/3/d534b942086dae501cbdce030206adb87567bb07.png" class="latex" alt="$\bullet$" style="vertical-align: 1px" width="8" height="7" /> Case 2: Monotonous numbers with digits in descending order.
+</p><p>This time, we arrange all 10 digits in decreasing order and repeat the process to find <img src="//latex.artofproblemsolving.com/c/f/8/cf856775e3de1168a9a4f29bc68d3651d0bf6051.png" class="latex" alt="$2^{10} = 1024$" style="vertical-align: 0px" width="83" height="15" /> ways to include or exclude each digit. We cannot exclude every digit at once, and we cannot include only 0, so we subtract 2 to get <img src="//latex.artofproblemsolving.com/e/d/4/ed4f942a8028167fd24032059f227ed76fc3505e.png" class="latex" alt="$1024-2=1022$" style="vertical-align: 0px" width="127" height="13" /> monotonous numbers for this case.
+</p><p>At this point, we have counted all of the single-digit monotonous numbers twice, so we must subtract 9 from our total.
+</p><p>Thus our final answer is <img src="//latex.artofproblemsolving.com/1/f/8/1f8fa083a17aaa4fec1aebe240143b36834c7401.png" class="latex" alt="$511+1022-9 = \boxed{\textbf{(B) } 1524}$" style="vertical-align: -10px" width="224" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>Unlike the first two solutions, we can do our casework based off of whether or not the number contains a <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />. 
+</p><p>If it does, then we know the <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> must be the last digit in the number (and hence, the number has to be decreasing). Because <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> is not positive, <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> is not monotonous. So, we need to pick at least <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> number in the set <img src="//latex.artofproblemsolving.com/c/3/3/c33a34a0af5d3cf7bc716e26858e228975bcc51f.png" class="latex" alt="$[1, 9].$" style="vertical-align: -5px" width="39" height="18" /> After choosing our numbers, there will be just <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> way to arrange them so that the overall number is monotonous.
+</p><p>In total, each of the <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> digits can either be in the monotonous number or not, yielding <img src="//latex.artofproblemsolving.com/1/c/f/1cf2f75e211d8030dc8a4d4d8304752565b5e403.png" class="latex" alt="$2^9 = 512$" style="vertical-align: 0px" width="67" height="15" /> total solutions. However, we said earlier that <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> cannot be by itself so we have to subtract out the case in which we picked none of the numbers <img src="//latex.artofproblemsolving.com/3/8/5/3856d888046107ef12e2b33c2065737e0b2602d3.png" class="latex" alt="$1-9$" style="vertical-align: 0px" width="40" height="13" />. So, this case gives us <img src="//latex.artofproblemsolving.com/0/6/6/06681161db752e0642652340b0832dcdaecefde0.png" class="latex" alt="$511$" style="vertical-align: 0px" width="26" height="13" />. 
+</p><p><br />
+Onto the second case, if there are no <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />s, then the number can either be arranged in ascending order or in descending order. So, for each selection of the digits <img src="//latex.artofproblemsolving.com/5/8/d/58d951490213efb4dcf862ee54de5c6f3f46d7ef.png" class="latex" alt="$1- 9$" style="vertical-align: 0px" width="40" height="13" />, there are <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> solutions. This gives <img src="//latex.artofproblemsolving.com/1/9/5/19551d27ea0f7c03247ca968a11b2bd29865f143.png" class="latexcenter" alt="\[2 \cdot (2^9 - 1) = 2 \cdot 511 = 1022\]" width="217" height="19" /> possibilities. Note that we subtracted out the <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> because we cannot choose none of the numbers. 
+</p><p>However, realize that if we pick just <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> digit, then there is only <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> arrangement. We cannot put a single digit in both ascending and descending order. So, we must subtract out <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> from there (because there are <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> possible ways to select one number and for each case, we overcounted by <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />). 
+</p><p>All in all, that gives <img src="//latex.artofproblemsolving.com/a/e/e/aeeaa6084f175cc3c76e7a398640e6268f40f0d5.png" class="latex" alt="$511 + 1022 - 9 = \boxed{\textbf{(B)  } 1524}$" style="vertical-align: -11px" width="226" height="30" /> monotonous numbers.
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> be the number of digits of a monotonous number. Notice for an increasing monotonous number with <img src="//latex.artofproblemsolving.com/3/1/7/317096889b84df0b72bf69ceb4c82208305f1b0f.png" class="latex" alt="$n \ge 2$" style="vertical-align: -2px" width="43" height="14" />, we can obtain 2 more monotonous numbers that are decreasing by reversing its digits and adding a <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> to the end of the reversed digits. Whenever <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> digits are chosen, the order is fixed. There are <img src="//latex.artofproblemsolving.com/9/2/e/92e926b02fd124589a6ae74e418a72720a5574ff.png" class="latex" alt="$\binom{9}{n}$" style="vertical-align: -22px" width="35" height="53" /> ways to obtain an increasing monotonous number with <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> digits. So, there are <img src="//latex.artofproblemsolving.com/7/c/9/7c92c61059f41c48e9d95b5b3cd4094044b944d6.png" class="latex" alt="$3\cdot \sum_{n=2}^{9} \binom{9}{n}$" style="vertical-align: -23px" width="92" height="55" /> monotonous numbers when <img src="//latex.artofproblemsolving.com/3/1/7/317096889b84df0b72bf69ceb4c82208305f1b0f.png" class="latex" alt="$n \ge 2$" style="vertical-align: -2px" width="43" height="14" />. When <img src="//latex.artofproblemsolving.com/1/d/9/1d96ecc15129c5631ba4a2c6578e91e3d13e3baf.png" class="latex" alt="$n=1$" style="vertical-align: 0px" width="43" height="12" />, there is no reverse but we could add <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> to the end, so there are <img src="//latex.artofproblemsolving.com/1/5/1/151bde0758d8a9f77211cfcd1e8b2aaa3da1d54c.png" class="latex" alt="$2 \cdot \binom{9}{1}$" style="vertical-align: -23px" width="61" height="55" /> monotonous numbers.
+</p><p>The answer is:
+</p><p><img src="//latex.artofproblemsolving.com/d/1/b/d1b8feeb95401dedda21e7b7f0d4266bb42c841d.png" class="latex" alt="$3\cdot \sum_{n=2}^{9} \binom{9}{n} + 2 \cdot \binom{9}{1}$" style="vertical-align: -23px" width="173" height="55" /> <img src="//latex.artofproblemsolving.com/f/5/8/f5817bc9b73129982f9ae0b3f1413cfe86d41b33.png" class="latex" alt="$=3\cdot \sum_{n=1}^{9} \binom{9}{n}  -  \binom{9}{1}$" style="vertical-align: -23px" width="170" height="55" /> <img src="//latex.artofproblemsolving.com/a/6/6/a6639791477b01739ddeb62686f50dbb17a49e23.png" class="latex" alt="$=3\cdot \left( \sum_{n=0}^{9} \binom{9}{n} - \binom{9}{0} \right) -  \binom{9}{1}$" style="vertical-align: -23px" width="258" height="55" /> <img src="//latex.artofproblemsolving.com/b/b/2/bb2574014f4fa3d5e20a5c3ba0c5efb70f05b633.png" class="latex" alt="$= 3 \cdot (2^9-1) - 9$" style="vertical-align: -5px" width="137" height="21" /> <img src="//latex.artofproblemsolving.com/f/0/3/f033a9324f200ec5cf5dbd61b90a3a5a2efc7557.png" class="latex" alt="$=\boxed{\textbf{(B)  } 1524}$" style="vertical-align: -11px" width="103" height="30" />
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2017_AMC_10B" title="2017 AMC 10B">2017 AMC 10B</a></b> (<b><a href="/wiki/index.php/2017_AMC_10B_Problems" title="2017 AMC 10B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2017_AMC_10B_Answer_Key" title="2017 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_16" title="2017 AMC 10B Problems/Problem 16">Problem 16</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_18" title="2017 AMC 10B Problems/Problem 18">Problem 18</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_1" title="2017 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_2" title="2017 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_3" title="2017 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_4" title="2017 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_5" title="2017 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_6" title="2017 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_7" title="2017 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_8" title="2017 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_9" title="2017 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_10" title="2017 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_11" title="2017 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_12" title="2017 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_13" title="2017 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_14" title="2017 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_15" title="2017 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_16" title="2017 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a class="mw-selflink selflink">17</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_18" title="2017 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_19" title="2017 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_20" title="2017 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_21" title="2017 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_22" title="2017 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_23" title="2017 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_24" title="2017 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_10B_Problems/Problem_25" title="2017 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2017_AMC_12B" title="2017 AMC 12B">2017 AMC 12B</a></b> (<b><a href="/wiki/index.php/2017_AMC_12B_Problems" title="2017 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2017_AMC_12B_Answer_Key" title="2017 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_10" title="2017 AMC 12B Problems/Problem 10">Problem 10</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_12" title="2017 AMC 12B Problems/Problem 12">Problem 12</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_1" title="2017 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_2" class="mw-redirect" title="2017 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_3" class="mw-redirect" title="2017 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_4" class="mw-redirect" title="2017 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_5" title="2017 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_6" title="2017 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_7" title="2017 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_8" title="2017 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_9" title="2017 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_10" title="2017 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_11" class="mw-redirect" title="2017 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_12" title="2017 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_13" title="2017 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_14" title="2017 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_15" title="2017 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_16" title="2017 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_17" title="2017 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_18" title="2017 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_19" title="2017 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_20" title="2017 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_21" title="2017 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_22" title="2017 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_23" title="2017 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_24" title="2017 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2017_AMC_12B_Problems/Problem_25" title="2017 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230402133424
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.128 seconds
+Real time usage: 0.137 seconds
+Preprocessor visited node count: 740/1000000
+Preprocessor generated node count: 2334/1000000
+Post‐expand include size: 4325/2097152 bytes
+Template argument size: 405/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 10693/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   31.101      1 -total
+ 20.95%    6.516      1 Template:AMC10_box
+ 19.57%    6.087      1 Template:AMC12_box
+  5.94%    1.848      1 Template:Duplicate
+  5.14%    1.599      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:15432-0!canonical and timestamp 20230402133424 and revision id 176695
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10B_Problems/Problem_17&amp;oldid=176695">https://artofproblemsolving.com/wiki/index.php?title=2017_AMC_10B_Problems/Problem_17&amp;oldid=176695</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

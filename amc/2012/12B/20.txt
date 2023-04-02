@@ -1,0 +1,271 @@
+<p>A trapezoid has side lengths 3, 5, 7, and 11. The sum of all the possible areas of the trapezoid can be written in the form of <img src="//latex.artofproblemsolving.com/6/e/b/6eb9397757c1d24bd08941c46ba15f3746284b1d.png" class="latex" alt="$r_1\sqrt{n_1}+r_2\sqrt{n_2}+r_3$" style="vertical-align: -5px" width="157" height="18" />, where <img src="//latex.artofproblemsolving.com/a/d/c/adc143c3f887fa7e92fd80d91bb22af51b4abd77.png" class="latex" alt="$r_1$" style="vertical-align: -2px" width="13" height="10" />, <img src="//latex.artofproblemsolving.com/0/b/4/0b4f3f4b698ce35667432041e168f7653533fa7b.png" class="latex" alt="$r_2$" style="vertical-align: -2px" width="14" height="10" />, and <img src="//latex.artofproblemsolving.com/5/a/e/5ae5f496b8ddda88b5cbbc06ccb02bee0580fd0b.png" class="latex" alt="$r_3$" style="vertical-align: -2px" width="14" height="10" /> are rational numbers and <img src="//latex.artofproblemsolving.com/d/e/f/defbf06b987965438e5928b96688e48df84cba0e.png" class="latex" alt="$n_1$" style="vertical-align: -2px" width="16" height="10" /> and <img src="//latex.artofproblemsolving.com/8/5/c/85c5df946080fc6ec1ee0a560a8e8c5e6699113c.png" class="latex" alt="$n_2$" style="vertical-align: -2px" width="17" height="10" /> are positive integers not divisible by the square of any prime. What is the greatest integer less than or equal to <img src="//latex.artofproblemsolving.com/6/2/7/627a25c9f3b44f4ec9b74bd974fc435518bde6fe.png" class="latex" alt="$r_1+r_2+r_3+n_1+n_2$" style="vertical-align: -2px" width="171" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/2/d/6/2d6651a35e8a435f4927e3f15518ee6a3fbaf3d4.png" class="latex" alt="$\textbf{(A)}\ 57\qquad\textbf{(B)}\ 59\qquad\textbf{(C)}\ 61\qquad\textbf{(D)}\ 63\qquad\textbf{(E)}\ 65$" style="vertical-align: -4px" width="394" height="17" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Name the trapezoid <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" />, where <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> is parallel to <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" />, <img src="//latex.artofproblemsolving.com/d/4/1/d4164af5279f09df6795ff87d95768e3f8d993b3.png" class="latex" alt="$AB&lt;CD$" style="vertical-align: 0px" width="82" height="13" />, and <img src="//latex.artofproblemsolving.com/b/b/f/bbf6ac338f42fb945181c3550fdd05662ce0d8ac.png" class="latex" alt="$AD&lt;BC$" style="vertical-align: 0px" width="82" height="13" />. Draw a line through <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> parallel to <img src="//latex.artofproblemsolving.com/b/c/5/bc56862b1fdb71204894da278e42ef75de73a40b.png" class="latex" alt="$AD$" width="28" height="13" />, crossing the side <img src="//latex.artofproblemsolving.com/0/9/4/0948661e822f2a953c43a57ac9e40b2734476de4.png" class="latex" alt="$CD$" width="29" height="12" /> at <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />. Then <img src="//latex.artofproblemsolving.com/b/e/4/be4bef340c104973fc51495184b03babcf31562e.png" class="latex" alt="$BE=AD$" width="82" height="13" />, <img src="//latex.artofproblemsolving.com/3/6/e/36e89f3158194a1a4ebfc0154a9067013a8afcc8.png" class="latex" alt="$EC=DC-DE=DC-AB$" width="239" height="13" />. One needs to guarantee that <img src="//latex.artofproblemsolving.com/5/4/2/5425119121bf8243c6736bceaa2a7b044857bcf1.png" class="latex" alt="$BE+EC&gt;BC$" style="vertical-align: -1px" width="133" height="14" />, so there are only three possible trapezoids:
+</p><p><img src="//latex.artofproblemsolving.com/7/0/b/70b1a3c7e16e90233a8e27b4c50449a51cacba59.png" class="latexcenter" alt="\[AB=3, BC=7, CD=11, DA=5, CE=8\]" width="352" height="16" />
+<img src="//latex.artofproblemsolving.com/3/0/3/303076341b6d55608d37aca2e32de546ce55bac9.png" class="latexcenter" alt="\[AB=5, BC=7, CD=11, DA=3, CE=6\]" width="352" height="16" />
+<img src="//latex.artofproblemsolving.com/b/d/d/bdd388fd1dc76c6bff58b22648b5f9d5b3f8e166.png" class="latexcenter" alt="\[AB=7, BC=5, CD=11, DA=3, CE=4\]" width="352" height="16" />
+</p><p><br />
+In the first case, by Law of Cosines, <img src="//latex.artofproblemsolving.com/1/0/d/10d31e7a7201d3dc0649af9f52f729fcf0e08b1d.png" class="latex" alt="$\cos(\angle BCD) = (8^2+7^2-5^2)/(2\cdot 7\cdot 8) = 11/14$" style="vertical-align: -4px" width="374" height="19" />, so <img src="//latex.artofproblemsolving.com/4/c/b/4cb9e6648923f50989f12b78fc1baae7c9610636.png" class="latex" alt="$\sin (\angle BCD) = \sqrt{1-121/196} = 5\sqrt{3}/14$" style="vertical-align: -10px" width="315" height="32" />. Therefore the area of this trapezoid is <img src="//latex.artofproblemsolving.com/f/4/6/f469253e29f63adce61dd3e24e587bef962d669f.png" class="latex" alt="$\frac{1}{2} (3+11) \cdot 7 \cdot 5\sqrt{3}/14 = \frac{35}{2}\sqrt{3}$" style="vertical-align: -12px" width="243" height="37" />.
+</p><p>In the second case, <img src="//latex.artofproblemsolving.com/9/0/c/90ce98307b81c7376a75c8685c5e024b33a067b4.png" class="latex" alt="$\cos(\angle BCD) = (6^2+7^2-3^2)/(2\cdot 6\cdot 7) = 19/21$" style="vertical-align: -4px" width="373" height="19" />, so <img src="//latex.artofproblemsolving.com/c/8/e/c8effb745af7b2a85aff2d3a96656c3f46bdb948.png" class="latex" alt="$\sin (\angle BCD) = \sqrt{1-361/441} = 4\sqrt{5}/21$" style="vertical-align: -10px" width="314" height="32" />. Therefore the area of this trapezoid is <img src="//latex.artofproblemsolving.com/8/7/c/87ce080b9e03db09dcbc163451fbf76bad59e7e2.png" class="latex" alt="$\frac{1}{2} (5+11) \cdot 7 \cdot 4\sqrt{5}/21 =\frac{32}{3}\sqrt{5}$" style="vertical-align: -12px" width="243" height="37" />.
+</p><p>In the third case, <img src="//latex.artofproblemsolving.com/7/f/4/7f4895429fb262e1d3caa5546693da0a08c0e5f1.png" class="latex" alt="$\angle BCD = 90^{\circ}$" width="105" height="13" />, therefore the area of this trapezoid is <img src="//latex.artofproblemsolving.com/9/b/d/9bd09030829c6705978562569b3956eebe21f1cd.png" class="latex" alt="$\frac{1}{2} (7+11) \cdot 3 = 27$" style="vertical-align: -12px" width="141" height="37" />.
+</p><p>So <img src="//latex.artofproblemsolving.com/f/4/a/f4a1d47aebe116df6a3b1467b3150b57e1a340a5.png" class="latex" alt="$r_1 + r_2 + r_3 + n_1 + n_2 = 17.5 + 10.666... + 27 + 3 + 5$" style="vertical-align: -2px" width="419" height="15" />, which rounds down to <img src="//latex.artofproblemsolving.com/d/d/f/ddfe60e8bbc8a75dab33c2f3a2b04598b75bdc5d.png" class="latex" alt="$\boxed{\textbf{(D)}\ 63}$" style="vertical-align: -10px" width="65" height="28" />.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<div class="center"><div class="floatnone"><a href="/wiki/index.php/File:2012AMC12BProblem20Solution2.PNG" class="image"><img alt="2012AMC12BProblem20Solution2.PNG" src="https://wiki-images.artofproblemsolving.com//thumb/7/7e/2012AMC12BProblem20Solution2.PNG/500px-2012AMC12BProblem20Solution2.PNG" width="500" height="380" srcset="https://wiki-images.artofproblemsolving.com//thumb/7/7e/2012AMC12BProblem20Solution2.PNG/750px-2012AMC12BProblem20Solution2.PNG 1.5x, https://wiki-images.artofproblemsolving.com//thumb/7/7e/2012AMC12BProblem20Solution2.PNG/1000px-2012AMC12BProblem20Solution2.PNG 2x" /></a></div></div>
+<p>Let the area of the trapezoid be <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />, the area of the triangle be <img src="//latex.artofproblemsolving.com/b/1/0/b10d5ee88ffc7d59f9c282b366953fb4fa4051f6.png" class="latex" alt="$S_1$" style="vertical-align: -2px" width="16" height="15" />, the area of the parallelogram be <img src="//latex.artofproblemsolving.com/7/f/4/7f4caea56d945d0b6e49701b42ce06e0fb92e663.png" class="latex" alt="$S_2$" style="vertical-align: -2px" width="17" height="15" />.
+</p><p>By <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Heron%27s_formula">Heron's Formula</a> <img src="//latex.artofproblemsolving.com/3/c/8/3c8d464c39d94de874264b37c050dbc13ebb3d5e.png" class="latex" alt="$S_1 = \sqrt{\frac{b+c+d-a}{2} \cdot \frac{c+d-a-b}{2} \cdot \frac{a+b+d-c}{2} \cdot \frac{b+c-a-d}{2}}$" style="vertical-align: -14px" width="523" height="45" />
+</p><p><img src="//latex.artofproblemsolving.com/0/f/2/0f25ef6a3f7c707785776b4464405911e187db14.png" class="latex" alt="$S_2 = \frac{S_1 \cdot 2}{c-a} \cdot a = \frac{2aS_1}{c-a}$" style="vertical-align: -15px" width="180" height="41" />
+</p><p><img src="//latex.artofproblemsolving.com/6/b/5/6b57085b56f48674e192238b38b1fd8f6e0d18e0.png" class="latex" alt="$S = S_1 + S_2 = S_1(1+\frac{2a}{c-a}) = S_1 \cdot \frac{c+a}{c-a} = \frac14 \cdot \frac{c+a}{c-a} \cdot \sqrt{(b+c+d-a)(c+d-a-b)(a+b+d-c)(b+c-a-d)}$" style="vertical-align: -15px" width="917" height="40" />
+</p><p>If <img src="//latex.artofproblemsolving.com/3/3/b/33b3c27171aba2140505212ce5b912115d1cdd69.png" class="latex" alt="$a = 3$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/e/6/c/e6c122a5f4ffcb58a92ffc845df880b199f6571c.png" class="latex" alt="$b = 7$" width="41" height="12" />, <img src="//latex.artofproblemsolving.com/2/a/1/2a14feb8723914a3ef109c8ff5ce8871141f66f8.png" class="latex" alt="$c = 11$" style="vertical-align: 0px" width="49" height="12" />, <img src="//latex.artofproblemsolving.com/9/e/0/9e06ffe5b2cf71c23bc7079c1cd268da267d2049.png" class="latex" alt="$d = 5$" width="42" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/c/b/e/cbed7259817b0509c073067d90ca4e187d015151.png" class="latex" alt="$S = \frac14 \cdot \frac{14}{8} \cdot \sqrt{(7+11+5-3)(11+5-3-7)(3+7+5-11)(7+11-3-5)} = \frac{35\sqrt{3}}{2}$" style="vertical-align: -13px" width="693" height="43" />
+</p><p><br />
+If <img src="//latex.artofproblemsolving.com/3/3/b/33b3c27171aba2140505212ce5b912115d1cdd69.png" class="latex" alt="$a = 3$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/d/7/8/d78ed94215e8e444e06174a1f8666665be7b720d.png" class="latex" alt="$b = 11$" style="vertical-align: 0px" width="49" height="13" />, <img src="//latex.artofproblemsolving.com/4/f/b/4fb45ac08f0a40da167c4e3ade6cb5639057bcc9.png" class="latex" alt="$c = 5$" width="40" height="12" />, <img src="//latex.artofproblemsolving.com/0/d/2/0d2ebc78ee3a2e67ae89407f1312323d25bc80ea.png" class="latex" alt="$d = 7$" width="42" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/9/a/7/9a72baa0cdde90177fec47fc0b462ffde51f9fae.png" class="latex" alt="$S = \frac14 \cdot \frac{8}{2} \cdot \sqrt{(11+5+7-3)(5+7-3-11)(3+5+7-11)(11+5-3-7)}$" style="vertical-align: -13px" width="613" height="38" />, which is impossible as <img src="//latex.artofproblemsolving.com/6/3/4/63446c1ad03d320ba34290509c0d3cd41569aea1.png" class="latex" alt="$5+7-3-11 = -2$" style="vertical-align: -2px" width="161" height="15" />
+</p><p><br />
+If <img src="//latex.artofproblemsolving.com/3/3/b/33b3c27171aba2140505212ce5b912115d1cdd69.png" class="latex" alt="$a = 3$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/a/d/d/add0bf97955f4eedafea7db58ac66eb4a130baa2.png" class="latex" alt="$b = 5$" width="40" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/8/4180920f7b814184d4bd9e5d514cb86910cfb250.png" class="latex" alt="$c = 7$" width="41" height="12" />, <img src="//latex.artofproblemsolving.com/c/c/a/cca1e09711b2d3dfc92eabbf9561644fc87527f7.png" class="latex" alt="$d = 11$" style="vertical-align: 0px" width="50" height="13" />
+</p><p><img src="//latex.artofproblemsolving.com/c/6/9/c693ccc6502d0c75a071bb17b85c3c7ea3928124.png" class="latex" alt="$S = \frac14 \cdot \frac{10}{4} \cdot \sqrt{(5+7+11-3)(7+11-3-5)(3+5+11-7)(5+7-11-3)}$" style="vertical-align: -13px" width="623" height="38" />, which is impossible as <img src="//latex.artofproblemsolving.com/4/c/0/4c04f3b394a03ebaa7b461b602e27541efed558e.png" class="latex" alt="$5+7-11-3 = -2$" style="vertical-align: -2px" width="161" height="15" />
+</p><p><br />
+If <img src="//latex.artofproblemsolving.com/e/7/2/e72e2e58a2ef8bb4eedd627c212f63bb8f507301.png" class="latex" alt="$a = 5$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/d/7/8/d78ed94215e8e444e06174a1f8666665be7b720d.png" class="latex" alt="$b = 11$" style="vertical-align: 0px" width="49" height="13" />, <img src="//latex.artofproblemsolving.com/4/1/8/4180920f7b814184d4bd9e5d514cb86910cfb250.png" class="latex" alt="$c = 7$" width="41" height="12" />, <img src="//latex.artofproblemsolving.com/9/1/e/91e7679b01e114773e2822a8fd5615ea83def33c.png" class="latex" alt="$d = 3$" width="42" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/2/0/b/20bb5cf1cca81d40b70c84f3267d1f07b8bdd0f9.png" class="latex" alt="$S = \frac14 \cdot \frac{12}{2} \cdot \sqrt{(11+7+3-5)(7+3-5-11)(5+11+3-7)(11+7-5-3)}$" style="vertical-align: -13px" width="623" height="38" />, which is impossible as <img src="//latex.artofproblemsolving.com/9/d/d/9ddceb9fe3b304517abd2584829b404858a67e42.png" class="latex" alt="$7+3-5-11 = -6$" style="vertical-align: -2px" width="161" height="15" />
+</p><p><br />
+If <img src="//latex.artofproblemsolving.com/e/7/2/e72e2e58a2ef8bb4eedd627c212f63bb8f507301.png" class="latex" alt="$a = 5$" width="42" height="12" />, <img src="//latex.artofproblemsolving.com/2/4/6/246ec286b9641f91f9dfa14932e47171e2fad854.png" class="latex" alt="$b = 3$" width="40" height="12" />, <img src="//latex.artofproblemsolving.com/2/a/1/2a14feb8723914a3ef109c8ff5ce8871141f66f8.png" class="latex" alt="$c = 11$" style="vertical-align: 0px" width="49" height="12" />, <img src="//latex.artofproblemsolving.com/0/d/2/0d2ebc78ee3a2e67ae89407f1312323d25bc80ea.png" class="latex" alt="$d = 7$" width="42" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/c/c/a/cca2ce783213021aee8e97cdd0a46264d5630d18.png" class="latex" alt="$S = \frac14 \cdot \frac{16}{6} \cdot \sqrt{(3+11+7-5)(11+7-5-3)(5+3+7-11)(3+11-5-7)} = \frac{32\sqrt{5}}{3}$" style="vertical-align: -13px" width="693" height="43" />
+</p><p><br />
+If <img src="//latex.artofproblemsolving.com/9/b/1/9b1838491bea2799f90f459e5a942e9dd6d7c4c7.png" class="latex" alt="$a = 7$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/2/4/6/246ec286b9641f91f9dfa14932e47171e2fad854.png" class="latex" alt="$b = 3$" width="40" height="12" />, <img src="//latex.artofproblemsolving.com/2/a/1/2a14feb8723914a3ef109c8ff5ce8871141f66f8.png" class="latex" alt="$c = 11$" style="vertical-align: 0px" width="49" height="12" />, <img src="//latex.artofproblemsolving.com/9/e/0/9e06ffe5b2cf71c23bc7079c1cd268da267d2049.png" class="latex" alt="$d = 5$" width="42" height="12" />
+</p><p><img src="//latex.artofproblemsolving.com/3/2/5/325ad56f565d3e285d2250c9ffe6f9af31512858.png" class="latex" alt="$S = \frac14 \cdot \frac{18}{4} \cdot \sqrt{(3+11+5-7)(11+5-7-)(7+5+5-11)(3+11-7-5)} = 27$" style="vertical-align: -13px" width="648" height="38" />
+</p><p>Thus the answer is <img src="//latex.artofproblemsolving.com/d/e/2/de2af47944e56a4dea74cdc1f18c59f0f07c31ca.png" class="latex" alt="$\frac{35}{2} + \frac{32}{3} + 27 + 3 + 5$" style="vertical-align: -13px" width="171" height="38" />, which rounds down to <img src="//latex.artofproblemsolving.com/5/6/2/562e6965fded90fac865ce52cf24236a598306c7.png" class="latex" alt="$\boxed{\textbf{(D) } 63}$" style="vertical-align: -11px" width="67" height="30" />
+</p><p>~<a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php/User:Isabelchen">isabelchen</a>
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://youtu.be/8w1vrsD2urs">https://youtu.be/8w1vrsD2urs</a>  ~Math Problem Solving Skills
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2012_AMC_12B" title="2012 AMC 12B">2012 AMC 12B</a></b> (<b><a href="/wiki/index.php/2012_AMC_12B_Problems" title="2012 AMC 12B Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AMC_12B_Answer_Key" title="2012 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_19" title="2012 AMC 12B Problems/Problem 19">Problem 19</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_21" title="2012 AMC 12B Problems/Problem 21">Problem 21</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_1" title="2012 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_2" title="2012 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_3" title="2012 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_4" title="2012 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_5" title="2012 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_6" title="2012 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_7" title="2012 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_8" title="2012 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_9" title="2012 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_10" title="2012 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_11" title="2012 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_12" title="2012 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_13" title="2012 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_14" title="2012 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_15" title="2012 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_16" title="2012 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_17" title="2012 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_18" title="2012 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_19" title="2012 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a class="mw-selflink selflink">20</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_21" title="2012 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_22" class="mw-redirect" title="2012 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_23" title="2012 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_24" title="2012 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2012_AMC_12B_Problems/Problem_25" title="2012 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20230208234442
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.111 seconds
+Real time usage: 0.116 seconds
+Preprocessor visited node count: 767/1000000
+Preprocessor generated node count: 2040/1000000
+Post‐expand include size: 2187/2097152 bytes
+Template argument size: 158/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13648/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.462      1 -total
+ 77.89%    5.812      1 Template:AMC12_box
+ 19.94%    1.488      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:11578-0!canonical and timestamp 20230208234441 and revision id 184990
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_12B_Problems/Problem_20&amp;oldid=184990">https://artofproblemsolving.com/wiki/index.php?title=2012_AMC_12B_Problems/Problem_20&amp;oldid=184990</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li><li><a href="/wiki/index.php/Category:Area_Problems" title="Category:Area Problems">Area Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+									<a href="/online">
+						<img class="footer-mainLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+					</a>
+								<div class="footer-wasc">
+					<span>
+						Art of Problem Solving is an
+						<br class="wasc-break" />
+						<span class="footer-accredited">ACS WASC Accredited School</span>
+					</span>
+					<img class="footer-wascLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/wasc.png" />
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+					<a class="link" href="https://beastacademy.com">Beast Academy</a>
+					<a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+					<a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+					<a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+					<a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+					<a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon" />
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon" />
+							</a>
+											</div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">
+						Subscribe for news and updates
+					</div>
+					<form method="post" action="/mailinglist">
+						<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+						<input type="hidden" name="new-books" value="on">
+						<input type="hidden" name="classes" value="on">
+						<input type="hidden" name="mathjams" value="on">
+						<input type="submit" class="footer-submit" value="">
+						<div class="footer-submit-arrow">
+							<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+								<g>
+									<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z" />
+								</g>
+							</svg>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2023 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg" />
+				</a>
+						<div class="copyright">
+				&copy; 2023 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company/staff">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info">
+			Login to AoPS
+		</div>
+		<form>
+			<div class="form-group">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div>
+				<button class="btn btn-primary" id="login-button" href="#">Login</button>
+				<button class="btn" id="login-cancel-button" href="#">Cancel</button>
+				<span style="padding-left:20px;" id="login-message"></span>
+				<div style="margin-top:5px;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay logged in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2023 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20230208234442 -->
+</html>
