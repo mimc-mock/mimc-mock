@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../style.css">
-    <title>AMC Problem Generator - MIMC</title>
 
-    <script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+  <title>AMC Problem Generator - MIMC</title>
 
-      document.addEventListener('DOMContentLoaded', function() {
-        document.querySelector('form').addEventListener('submit', function() {
-          let year = document.querySelector('#year').value;
-          let test = document.querySelector('#test').value;
-          let problemNumber = document.querySelector('#problemNumber').value;
-          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + '<p>Two right circular cones with vertices facing down as shown in the figure below contains the same amount of liquid. The radii of the tops of the liquid surfaces are <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> cm and <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> cm. Into each cone is dropped a spherical marble of radius <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> cm, which sinks to the bottom and is completely submerged without spilling any liquid. What is the ratio of the rise of the liquid level in the narrow cone to the rise of the liquid level in the wide cone?</p><p><img src="//latex.artofproblemsolving.com/8/1/d/81d626eb47050e0f212495e407860357b3a98a6c.png" class="latexcenter" alt="[asy] size(350); defaultpen(linewidth(0.8)); real h1 = 10, r = 3.1, s=0.75; pair P = (r,h1), Q = (-r,h1), Pp = s * P, Qp = s * Q; path e = ellipse((0,h1),r,0.9), ep = ellipse((0,h1*s),r*s,0.9); draw(ellipse(origin,r*(s-0.1),0.8)); fill(ep,gray(0.8)); fill(origin--Pp--Qp--cycle,gray(0.8)); draw((-r,h1)--(0,0)--(r,h1)^^e); draw(subpath(ep,0,reltime(ep,0.5)),linetype(&quot;4 4&quot;)); draw(subpath(ep,reltime(ep,0.5),reltime(ep,1))); draw(Qp--(0,Qp.y),Arrows(size=8)); draw(origin--(0,12),linetype(&quot;4 4&quot;)); draw(origin--(r*(s-0.1),0)); label(&quot;$3$&quot;,(-0.9,h1*s),N,fontsize(10));  real h2 = 7.5, r = 6, s=0.6, d = 14; pair P = (d+r-0.05,h2-0.15), Q = (d-r+0.05,h2-0.15), Pp = s * P + (1-s)*(d,0), Qp = s * Q + (1-s)*(d,0); path e = ellipse((d,h2),r,1), ep = ellipse((d,h2*s+0.09),r*s,1); draw(ellipse((d,0),r*(s-0.1),0.8)); fill(ep,gray(0.8)); fill((d,0)--Pp--Qp--cycle,gray(0.8)); draw(P--(d,0)--Q^^e); draw(subpath(ep,0,reltime(ep,0.5)),linetype(&quot;4 4&quot;)); draw(subpath(ep,reltime(ep,0.5),reltime(ep,1))); draw(Qp--(d,Qp.y),Arrows(size=8)); draw((d,0)--(d,10),linetype(&quot;4 4&quot;)); draw((d,0)--(d+r*(s-0.1),0)); label(&quot;$6$&quot;,(d-r/4,h2*s-0.06),N,fontsize(10)); [/asy]" width="585" height="325" /></p><p><img src="//latex.artofproblemsolving.com/1/7/b/17bc4d88613bdde524c839f540cad10e66222d98.png" class="latex" alt="$\textbf{(A) }1:1 \qquad \textbf{(B) }47:43 \qquad \textbf{(C) }2:1 \qquad \textbf{(D) }40:13 \qquad \textbf{(E) }4:1$" style="vertical-align: -4px" width="510" height="17" /></p>'
-          event.preventDefault();
-        })
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelector('form').addEventListener('submit', function () {
+        let year = document.querySelector('#year').value;
+        let test = document.querySelector('#test').value;
+        let problemNumber = document.querySelector('#problemNumber').value;
+        document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + '<p>Two right circular cones with vertices facing down as shown in the figure below contains the same amount of liquid. The radii of the tops of the liquid surfaces are <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> cm and <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> cm. Into each cone is dropped a spherical marble of radius <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> cm, which sinks to the bottom and is completely submerged without spilling any liquid. What is the ratio of the rise of the liquid level in the narrow cone to the rise of the liquid level in the wide cone?</p><p><img src="//latex.artofproblemsolving.com/8/1/d/81d626eb47050e0f212495e407860357b3a98a6c.png" class="latexcenter" alt="[asy] size(350); defaultpen(linewidth(0.8)); real h1 = 10, r = 3.1, s=0.75; pair P = (r,h1), Q = (-r,h1), Pp = s * P, Qp = s * Q; path e = ellipse((0,h1),r,0.9), ep = ellipse((0,h1*s),r*s,0.9); draw(ellipse(origin,r*(s-0.1),0.8)); fill(ep,gray(0.8)); fill(origin--Pp--Qp--cycle,gray(0.8)); draw((-r,h1)--(0,0)--(r,h1)^^e); draw(subpath(ep,0,reltime(ep,0.5)),linetype(&quot;4 4&quot;)); draw(subpath(ep,reltime(ep,0.5),reltime(ep,1))); draw(Qp--(0,Qp.y),Arrows(size=8)); draw(origin--(0,12),linetype(&quot;4 4&quot;)); draw(origin--(r*(s-0.1),0)); label(&quot;$3$&quot;,(-0.9,h1*s),N,fontsize(10));  real h2 = 7.5, r = 6, s=0.6, d = 14; pair P = (d+r-0.05,h2-0.15), Q = (d-r+0.05,h2-0.15), Pp = s * P + (1-s)*(d,0), Qp = s * Q + (1-s)*(d,0); path e = ellipse((d,h2),r,1), ep = ellipse((d,h2*s+0.09),r*s,1); draw(ellipse((d,0),r*(s-0.1),0.8)); fill(ep,gray(0.8)); fill((d,0)--Pp--Qp--cycle,gray(0.8)); draw(P--(d,0)--Q^^e); draw(subpath(ep,0,reltime(ep,0.5)),linetype(&quot;4 4&quot;)); draw(subpath(ep,reltime(ep,0.5),reltime(ep,1))); draw(Qp--(d,Qp.y),Arrows(size=8)); draw((d,0)--(d,10),linetype(&quot;4 4&quot;)); draw((d,0)--(d+r*(s-0.1),0)); label(&quot;$6$&quot;,(d-r/4,h2*s-0.06),N,fontsize(10)); [/asy]" width="585" height="325" /></p><p><img src="//latex.artofproblemsolving.com/1/7/b/17bc4d88613bdde524c839f540cad10e66222d98.png" class="latex" alt="$\textbf{(A) }1:1 \qquad \textbf{(B) }47:43 \qquad \textbf{(C) }2:1 \qquad \textbf{(D) }40:13 \qquad \textbf{(E) }4:1$" style="vertical-align: -4px" width="510" height="17" /></p>'
+        event.preventDefault();
       })
-      
-    </script>
-    
-  </head>
-  
-  <body>
-    <div class = "sidenav">
-      <a href="../">Home</a>
-      <a href="../contests">Contests</a>
-      <a href="../video-solutions">Youtube Channels</a>
-      <a href="../potbiw">PotBiW</a>
-      <a style="color:white;">Problem Generator</a>
-      <a href="../about-us">About Us</a>
-    </div>
-    
-    <div class = "main">
+    })
+
+  </script>
+
+</head>
+
+<body>
+  <div class="sidenav">
+    <a href="../">Home</a>
+    <a href="../contests">Contests</a>
+    <a href="../video-solutions">Youtube Channels</a>
+    <a href="../potbiw">PotBiW</a>
+    <a style="color:white;">Problem Generator</a>
+    <a href="../about-us">About Us</a>
+  </div>
+
+  <div class="main">
+    <p>
+      This is an AMC problem generator.
+    </p>
+
+    <form>
       <p>
-        This is an AMC problem generator.
+        Year:
+        <input autocomplete="off" autofocus id="year" placeholder="2021" type="text">
+        (2021 Defaults to 2021 Spring)
       </p>
-      
-      <form>
-        <p>
-          Year:
-          <input autocomplete="off" autofocus id="year" placeholder="2021" type="text">
-          (2021 Defaults to 2021 Spring)
-        </p>
-        
-        <p>
-          Test:
-          <select id="test" name="cars">
-            <option value="10A">10A</option>
-            <option value="10B">10B</option>
-            <option value="12A">12A</option>
-            <option value="12B">12B</option>
-          </select>
-        </p>
-        
-        <p>
-          Problem Number:
-          <input autocomplete="off" id="problemNumber" placeholder="16" type="text">
-        </p>
-        
-        <button type="submit">Generate</button>
-        <div id="problem"></div>
-      </form>
-    </div>
-  </body>
+
+      <p>
+        Test:
+        <select id="test" name="cars">
+          <option value="10A">10A</option>
+          <option value="10B">10B</option>
+          <option value="12A">12A</option>
+          <option value="12B">12B</option>
+        </select>
+      </p>
+
+      <p>
+        Problem Number:
+        <input autocomplete="off" id="problemNumber" placeholder="16" type="text">
+      </p>
+
+      <button type="submit">Generate</button>
+      <div id="problem"></div>
+    </form>
+  </div>
+</body>
+
 </html>
