@@ -1,22 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
+    function loadText() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", './amc/' + year + '/' + test + '/' + problemNumber + '.txt');
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + xhr.responseText;
+            } else {
+                document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
+            }
+        };
+        xhr.send();
+    }
+
 
     document.querySelector('#generate').addEventListener('submit', function () {
         let year = document.querySelector('#year').value;
         let test = document.querySelector('#test').value;
         let problemNumber = document.querySelector('#problemNumber').value;
-
-        function loadText() {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", './amc/' + year + '/' + test + '/' + problemNumber + '.txt');
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + xhr.responseText;
-                } else {
-                    document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
-                }
-            };
-            xhr.send();
-        }
 
         loadText();
         event.preventDefault();
@@ -28,19 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
         let year = Math.floor(Math.random() * 21) + 2002;
         let test = tests[Math.floor(Math.random() * tests.length)];
         let problemNumber = Math.floor(Math.random() * 25) + 1;
-
-        function loadText() {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", './amc/' + year + '/' + test + '/' + problemNumber + '.txt');
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + xhr.responseText;
-                } else {
-                    document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
-                }
-            };
-            xhr.send();
-        }
 
         loadText();
         event.preventDefault();
