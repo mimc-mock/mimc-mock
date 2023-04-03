@@ -26,10 +26,10 @@
 
   <div class="main">
     <p>
-      This is an AMC problem generator. (v. 1.0.5)
+      This is an AMC problem generator. (v. 1.0.6)
     </p>
 
-    <form>
+    <form id="generate">
       <p>
         Year:
         <input autocomplete="off" autofocus id="year" placeholder="2021" type="text">
@@ -51,10 +51,12 @@
         <input autocomplete="off" id="problemNumber" placeholder="16" type="text">
       </p>
 
-      <button type="submit" id="generate">Generate</button>
-      <button type="submit" id="random">Random</button>
-      <div id="problem"></div>
+      <button type="submit">Generate</button>
     </form>
+    <form id="random">
+      <button type="submit">Random</button>
+    </form>
+    <div id="problem"></div>
   </div>
 </body>
 
