@@ -1,32 +1,3 @@
 <p>What is the value of <img src="//latex.artofproblemsolving.com/f/c/9/fc917d3783eb1f4fde826b7cec7fd00e375ed5dc.png" class="latex" alt="$(2(2(2(2(2(2+1)+1)+1)+1)+1)+1)$" style="vertical-align: -4px" width="325" height="18" />?
 </p><p><img src="//latex.artofproblemsolving.com/f/2/3/f237b2f29fa6e674c0044817b79a991546abc225.png" class="latex" alt="$\textbf{(A)}\ 70\qquad\textbf{(B)}\ 97\qquad\textbf{(C)}\ 127\qquad\textbf{(D)}\ 159\qquad\textbf{(E)}\ 729$" style="vertical-align: -4px" width="421" height="17" />
 </p>
-<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>Notice this is the term <img src="//latex.artofproblemsolving.com/3/4/a/34ace040475607683853fcfd4960a8f7fa6678c7.png" class="latex" alt="$a_6$" style="vertical-align: -2px" width="15" height="10" /> in a recursive sequence, defined recursively as <img src="//latex.artofproblemsolving.com/c/b/3/cb38b691689e24599957cab7e87c28bb71f8dce5.png" class="latex" alt="$a_1 = 3, a_n = 2a_{n-1} + 1.$" style="vertical-align: -3px" width="181" height="16" /> Thus:
-<img src="//latex.artofproblemsolving.com/b/5/d/b5d5c0648d386af95131a5512af608dc33d8e429.png" class="latexcenter" alt="\[\begin{split} a_2 = 3 \cdot 2 + 1 = 7.\\ a_3 = 7 \cdot 2 + 1 = 15.\\ a_4 = 15 \cdot 2 + 1 = 31.\\ a_5 = 31 \cdot 2 + 1 = 63.\\ a_6 = 63 \cdot 2 + 1 = \boxed{\textbf{(C)}\ 127} \end{split}\]" width="210" height="127" />
-</p><p>Minor LaTeX edits by fasterthanlight
-</p>
-<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>Starting to compute the inner expressions, we see the results are <img src="//latex.artofproblemsolving.com/7/a/7/7a711b005719fb0af8c0e5ad7a3346d3ca46ceb5.png" class="latex" alt="$1, 3, 7, 15, \ldots$" style="vertical-align: -3px" width="97" height="16" />. This is always <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> less than a power of <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. The only admissible answer choice by this rule is thus <img src="//latex.artofproblemsolving.com/7/4/a/74a03f5777e45771a80acad785593ba85298cba7.png" class="latex" alt="$\boxed{\textbf{(C)}\ 127}$" style="vertical-align: -10px" width="73" height="28" />.
-</p>
-<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
-<p>Working our way from the innermost parenthesis outwards and directly computing, we have <img src="//latex.artofproblemsolving.com/a/4/8/a4813421277cea376fe4bb5fdc5b34bcd094db54.png" class="latex" alt="$\boxed{\textbf{(C) } 127}$" style="vertical-align: -10px" width="74" height="28" />.
-</p>
-<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
-<p>If you distribute this you get a sum of the powers of <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />.  The largest power of <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> in the series is <img src="//latex.artofproblemsolving.com/0/5/e/05e228ac5bee7b9ffb60cacf50f3f2c7c31f8038.png" class="latex" alt="$64$" style="vertical-align: 0px" width="18" height="13" />, so the sum is <img src="//latex.artofproblemsolving.com/7/4/a/74a03f5777e45771a80acad785593ba85298cba7.png" class="latex" alt="$\boxed{\textbf{(C)}\ 127}$" style="vertical-align: -10px" width="73" height="28" />.
-</p><p><br />
-</p>
-<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
-<p><img src="//latex.artofproblemsolving.com/f/c/9/fc917d3783eb1f4fde826b7cec7fd00e375ed5dc.png" class="latex" alt="$(2(2(2(2(2(2+1)+1)+1)+1)+1)+1)$" style="vertical-align: -4px" width="325" height="18" />
-<img src="//latex.artofproblemsolving.com/9/f/b/9fb467b46397fb1926e19317de0308c173d90f44.png" class="latex" alt="$=(2(2(2(2(2(3)+1)+1)+1)+1)+1)$" style="vertical-align: -5px" width="317" height="20" />
-<img src="//latex.artofproblemsolving.com/b/3/d/b3de61595e4e8b400ed565eca91e38c0165aa966.png" class="latex" alt="$=(2(2(2(2(6+1)+1)+1)+1)+1)$" style="vertical-align: -5px" width="294" height="20" />
-<img src="//latex.artofproblemsolving.com/a/7/4/a74f4602e36bf1e9b3444e832db1a379ab01e06a.png" class="latex" alt="$=(2(2(2(2(7)+1)+1)+1)+1)$" style="vertical-align: -5px" width="262" height="20" />
-<img src="//latex.artofproblemsolving.com/6/b/c/6bc9cd3e1439549f11281cf363ff338173718417.png" class="latex" alt="$=(2(2(2(14+1)+1)+1)+1)$" style="vertical-align: -5px" width="248" height="20" />
-<img src="//latex.artofproblemsolving.com/8/2/9/829c9a685f56ef1990626bdee22293311793c203.png" class="latex" alt="$=(2(2(2(15)+1)+1)+1)$" style="vertical-align: -5px" width="217" height="20" />
-<img src="//latex.artofproblemsolving.com/7/c/e/7ce58bb9dbaf841b9dded439c03a50d6e7001243.png" class="latex" alt="$=(2(2(30+1)+1)+1)$" style="vertical-align: -5px" width="194" height="20" />
-<img src="//latex.artofproblemsolving.com/f/3/0/f30cd8052c9d8f24b0008556dce31d9c8c741e54.png" class="latex" alt="$=(2(2(31)+1)+1)$" style="vertical-align: -5px" width="162" height="20" />
-<img src="//latex.artofproblemsolving.com/f/2/e/f2e534fff073859b674b57bc926723e44f2cd06f.png" class="latex" alt="$=(2(62+1)+1)$" style="vertical-align: -5px" width="139" height="20" />
-<img src="//latex.artofproblemsolving.com/8/5/e/85e9bd69a5b1f20d7c6546b87a6bb564e98fa55d.png" class="latex" alt="$=(2(63)+1)$" style="vertical-align: -5px" width="108" height="20" />
-<img src="//latex.artofproblemsolving.com/5/f/9/5f920a9afa3604923d4fb8e551a44ccbd63222e6.png" class="latex" alt="$=(126+1)$" style="vertical-align: -5px" width="94" height="20" />
-<img src="//latex.artofproblemsolving.com/c/d/6/cd665fab8ef1d975a6c9601e6ca533b8f79b308a.png" class="latex" alt="$=127 \Longrightarrow \boxed{\textbf{(C)}\ 127}$" style="vertical-align: -11px" width="160" height="30" />.
-</p>
