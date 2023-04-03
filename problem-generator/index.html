@@ -32,9 +32,9 @@
 
         let problem = new File('/amc/' + year + '/' + test + '/' + problemNumber + '.txt');
         if (problem.exists()) {
-          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile()
+          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile(problem);
         } else {
-          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found"
+          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
         }
         event.preventDefault();
       })
@@ -48,7 +48,7 @@
   <div class="sidenav">
     <a href="../">Home</a>
     <a href="../contests">Contests</a>
-    <a href="../video-solutions">Youtube Channels</a>
+    <a href="../youtube-channels/">Youtube Channels</a>
     <a href="../potbiw">PotBiW</a>
     <a style="color:white;">Problem Generator</a>
     <a href="../about-us">About Us</a>
@@ -63,7 +63,7 @@
       <p>
         Year:
         <input autocomplete="off" autofocus id="year" placeholder="2021" type="text">
-        (2021 Defaults to 2021 Spring)
+        (2021 defaults to 2021 Spring)
       </p>
 
       <p>
