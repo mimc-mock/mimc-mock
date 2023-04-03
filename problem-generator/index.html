@@ -1,3 +1,5 @@
+<!-- NOTE: Change year random generator when adding a new year. -->
+
 <!DOCTYPE html>
 
 <html>
@@ -24,7 +26,7 @@
 
   <div class="main">
     <p>
-      This is an AMC problem generator. (v. 1.0.1)
+      This is an AMC problem generator. (v. 1.0.2)
     </p>
 
     <form>
@@ -49,7 +51,8 @@
         <input autocomplete="off" id="problemNumber" placeholder="16" type="text">
       </p>
 
-      <button type="submit">Generate</button>
+      <button type="submit" id="generate">Generate</button>
+      <button type="submit" id="random">Random</button>
       <div id="problem"></div>
     </form>
   </div>
