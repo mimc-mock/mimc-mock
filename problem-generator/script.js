@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    document.querySelector('form#generate').addEventListener('submit', function () {
+    document.querySelector('#generate').addEventListener('submit', function () {
         let year = document.querySelector('#year').value;
         let test = document.querySelector('#test').value;
         let problemNumber = document.querySelector('#problemNumber').value;
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
     })
 
-    document.querySelector('form#random').addEventListener('submit', function () {
+    document.querySelector('#random').addEventListener('submit', function () {
         var tests = Array('10A', '10B', '12A', '12B');
 
         let year = Math.floor(Math.random() * 21) + 2002;
