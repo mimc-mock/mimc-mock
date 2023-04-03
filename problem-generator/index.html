@@ -30,7 +30,12 @@
           rawFile.send(null);
         }
 
-        document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile('amc/' + year + '/' + test + '/' + problemNumber + '.txt')
+        let problem = new File('/amc/' + year + '/' + test + '/' + problemNumber + '.txt');
+        if (problem.exists()) {
+          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile()
+        } else {
+          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found"
+        }
         event.preventDefault();
       })
     })
