@@ -29,13 +29,15 @@
           }
           rawFile.send(null);
         }
-
-        let problem = new File('/amc/' + year + '/' + test + '/' + problemNumber + '.txt');
-        if (problem.exists()) {
-          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile(problem);
-        } else {
-          document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
-        }
+        
+        
+        document.querySelector('#problem').innerHTML = '/amc/' + year + '/' + test + '/' + problemNumber + '.txt';
+        // let problem = new File('/amc/' + year + '/' + test + '/' + problemNumber + '.txt');
+        // if (problem.exists()) {
+        //   document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile(problem);
+        // } else {
+        //   document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
+        // }
         event.preventDefault();
       })
     })
