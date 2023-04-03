@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    function loadText() {
+    function loadText(year, test, problemNumber) {
         var xhr = new XMLHttpRequest();
         xhr.open("GET", './amc/' + year + '/' + test + '/' + problemNumber + '.txt');
         xhr.onreadystatechange = function () {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let test = document.querySelector('#test').value;
         let problemNumber = document.querySelector('#problemNumber').value;
 
-        loadText();
+        loadText(year, test, problemNumber);
         event.preventDefault();
     })
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let test = tests[Math.floor(Math.random() * tests.length)];
         let problemNumber = Math.floor(Math.random() * 25) + 1;
 
-        loadText();
+        loadText(year, test, problemNumber);
         event.preventDefault();
     })
 })
