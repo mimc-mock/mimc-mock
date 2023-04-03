@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
         xhr.open("GET", './amc/' + year + '/' + test + '/' + problemNumber + '.txt');
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + xhr.responseText;
+                document.querySelector('#problem').innerHTML = `<h2>${year} AMC ${test} Problem ${problemNumber}</h2>` + xhr.responseText;
             } else {
-                document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
+                document.querySelector('#problem').innerHTML = `<h2>${year} AMC ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
             }
         };
         xhr.send();
