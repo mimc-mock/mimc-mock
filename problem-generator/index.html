@@ -31,8 +31,8 @@
         }
         
         
-        document.querySelector('#problem').innerHTML = '/amc/' + year + '/' + test + '/' + problemNumber + '.txt';
-        // let problem = new File('/amc/' + year + '/' + test + '/' + problemNumber + '.txt');
+        document.querySelector('#problem').innerHTML = './amc/' + year + '/' + test + '/' + problemNumber + '.txt';
+        // let problem = new File('./amc/' + year + '/' + test + '/' + problemNumber + '.txt');
         // if (problem.exists()) {
         //   document.querySelector('#problem').innerHTML = `<h2>${year} ${test} Problem ${problemNumber}</h2>` + readTextFile(problem);
         // } else {
@@ -71,10 +71,10 @@
       <p>
         Test:
         <select id="test" name="cars">
-          <option value="10A">10A</option>
-          <option value="10B">10B</option>
-          <option value="12A">12A</option>
-          <option value="12B">12B</option>
+          <option value="10A">AMC 10A</option>
+          <option value="10B">AMC 10B</option>
+          <option value="12A">AMC 12A</option>
+          <option value="12B">AMC 12B</option>
         </select>
       </p>
 
