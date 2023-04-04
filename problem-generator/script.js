@@ -33,8 +33,19 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
     })
 
+    function check() { 
+        console.log("Chosen A");
+    };
+    
+    var button= document.querySelector("A");
+    button.addEventListener("click", check); 
+
+
+    
     
 })
+
+
 
         // function readTextFile(file) {
         //   var rawFile = new XMLHttpRequest();
