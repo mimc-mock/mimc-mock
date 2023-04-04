@@ -92,11 +92,17 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             else{
                 document.write("incorrect");
-                let link = "https://artofproblemsolving.com/wiki/index.php/" + year.toString() + "_AMC_" + test.toString() + "_Problems/Problem_" + problemNumber.toString();
-                document.write(<button onclick = link>
-                Click here
-                </button>);
             }
+            let link = "https://artofproblemsolving.com/wiki/index.php/" + year.toString() + "_AMC_" + test.toString() + "_Problems/Problem_" + problemNumber.toString();
+            const button = document.createElement('button')
+            button.innerText("Solution");
+            button.id = 'solution';
+            button.addEventListener('click', () => {
+                // When there is a "click"
+                // it shows an alert in the browser
+                alert('Oh, you clicked me!')
+            })
+            document.body.appendChild(button)
         })
         document.querySelector('#C').addEventListener('click', function () {
             if("C" === getAnswer(year, test, problemNumber)){
