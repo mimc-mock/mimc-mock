@@ -24,6 +24,47 @@ document.addEventListener('DOMContentLoaded', function () {
 
         loadText(year, test, problemNumber);
         event.preventDefault();
+
+        document.querySelector('#A').addEventListener('click', function () {
+            if("A" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#B').addEventListener('click', function () {
+            if("B" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#C').addEventListener('click', function () {
+            if("C" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#D').addEventListener('click', function () {
+            if("D" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#E').addEventListener('click', function () {
+            if("E" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
     })
 
     document.querySelector('#random').addEventListener('submit', function () {
@@ -42,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             else{
                 document.write("incorrect");
+                document.write()
             }
         })
         document.querySelector('#B').addEventListener('click', function () {
@@ -50,6 +92,10 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             else{
                 document.write("incorrect");
+                let link = "https://artofproblemsolving.com/wiki/index.php/" + year.toString() + "_AMC_" + test.toString() + "_Problems/Problem_" + problemNumber.toString();
+                document.write(<button onclick = link>
+                Click here
+                </button>);
             }
         })
         document.querySelector('#C').addEventListener('click', function () {
