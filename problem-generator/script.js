@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
         xhr.send();
     }
 
+    function getAnswer(year, test, problemNumber){
+        return "A";
+    }
+
 
     document.querySelector('#generate').addEventListener('submit', function () {
         let year = document.querySelector('#year').value;
@@ -31,15 +35,64 @@ document.addEventListener('DOMContentLoaded', function () {
 
         loadText(year, test, problemNumber);
         event.preventDefault();
+
+        document.querySelector('#A').addEventListener('click', function () {
+            if("A" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#B').addEventListener('click', function () {
+            if("B" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#C').addEventListener('click', function () {
+            if("C" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#D').addEventListener('click', function () {
+            if("D" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
+        document.querySelector('#E').addEventListener('click', function () {
+            if("E" === getAnswer(year, test, problemNumber)){
+                document.write("Correct!");
+            }
+            else{
+                document.write("incorrect");
+            }
+        })
     })
 
-    function check() { 
-        console.log("Chosen A");
-    };
-    
-    var button= document.querySelector("A");
-    button.addEventListener("click", check); 
+    // var buttons = Array('A', 'B', 'C', 'D', 'E');
 
+    // function check(k) { 
+    //     document.write("Chosen " + k);
+    // };
+
+
+    // for(let a = 0; a < 5; a++){
+    //     var button_checker = document.querySelector("#" + buttons[a]);
+    //     button_checker.addEventListener("click", check(buttons[a]))
+    // }
+
+    
+    
+    
 
     
     
