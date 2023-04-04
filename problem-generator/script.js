@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 document.querySelector('#problem').innerHTML = `<h2>${year} AMC ${test} Problem ${problemNumber}</h2>` + "Problem not Found";
             }
+            document.querySelector('#problem').innerHTML += '<button class="button" type="submit" id="A">\[\textbf{A}\] </button><button class="button"type="submit" id="B" >\[\textbf{B}\]</button><button class="button" type="submit" id="C">\[\textbf{C}\]</button><button class="button" type="submit" id="D">\[\textbf{D}\]</button><button class="button" type="submit" id="E">\[\textbf{E}\]</button>';
         };
         xhr.send();
     }
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         loadText(year, test, problemNumber);
         event.preventDefault();
+
 
         document.querySelector('#A').addEventListener('click', function () {
             if("A" === getAnswer(year, test, problemNumber)){
