@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
         loadText(year, test, problemNumber);
         event.preventDefault();
     })
+
+    
 })
 
         // function readTextFile(file) {

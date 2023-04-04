@@ -12,6 +12,25 @@
 
   <script src="script.js"></script>
 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-MML-AM_CHTML"></script>
+
+  <style>.button {
+    border-width: 4px;
+    color: hsl(0, 0%, 0%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  .answers {background-color: #C0C0C0}
+</style>
+
+  
+
 </head>
 
 <body>
@@ -59,6 +78,21 @@
         <button type="submit">Random</button>
       </form>
     </p>
+
+    <button class="button"><div id="A">\[\textbf{A}\]</div>
+    </button>
+    <button class="button"><div id="B">\[\textbf{B}\]</div>
+      </button>
+    <button class="button"><div id="C">\[\textbf{C}\]</div>
+      </button>
+
+    <button class="button"><div id="D">\[\textbf{D}\]</div>
+      </button>
+    <button class="button"><div id="E">\[\textbf{E}\]</div>
+      </button>
+    
+
+    
 
     <div id="problem"></div>
   </div>
